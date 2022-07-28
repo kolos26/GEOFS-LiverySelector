@@ -1,73 +1,75 @@
 {
-    "4": {
-        "mode": 3,
-        "liveries": [
-            {
-                "name": "RyanAir",
-                "texture": "https://i.ibb.co/ZxSG72Y/ryanair.jpg"
-            },
-            {
-                "name": "Buzz",
-                "texture": "https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg"
-            },
-            {
-                "name": "Jet2",
-                "texture": "https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737.jpg"
-            },
-            {
-                "name": "Jet2Holidays",
-                "texture": "https://i.ibb.co/jy8kh7Z/j2h737.png"
-            },
-            {
-                "name": "Delta",
-                "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_4.png"
-            },
-            {
-                "name": "Lauda",
-                "texture": "https://i.ibb.co/28xnQDx/Lauda737.jpg"
-            },
-            {
-                "name": "West Atlantic",
-                "texture": "https://i.ibb.co/MBdGnLB/po-2.jpg"
-            },
-            {
-                "name": "TUI old",
-                "texture": "https://i.ibb.co/QcsDXDp/TUI.jpg"
-            },
-            {
-                "name": "TUI new",
-                "texture": "https://i.ibb.co/kXZ66Z3/tui737new.jpg"
-            },
-            {
-                "name": "Transavia",
-                "texture": "https://i.ibb.co/Dts72Wj/tra737.png"
-            }
-        ]
-    },
-    "10": {
-        "mode": 3,
-        "liveries": [
-            {
-                "name": "Airbus house",
-                "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house.png"
-            },
-            {
-                "name": "British Airways",
-                "texture": "https://i.ibb.co/xg2Q4CR/BA-a380-1.jpg"
-            },
-            {
-                "name": "Lufthansa",
-                "texture" : "https://i.ibb.co/Q6cp1BX/dlhh380.jpg"
-            }
-        ]
-    },
-    "2973": {
-        "mode": 0,
-        "liveries": [
-            {
-                "name": "Qatar Airways",
-                "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a350_1000_xwb_texture__3_.png"
-            }
-        ]
+    "aircrafts" : {
+        "4": {
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "RyanAir",
+                    "texture": "https://i.ibb.co/ZxSG72Y/ryanair.jpg"
+                },
+                {
+                    "name": "Buzz",
+                    "texture": "https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg"
+                },
+                {
+                    "name": "Jet2",
+                    "texture": "https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737.jpg"
+                },
+                {
+                    "name": "Jet2Holidays",
+                    "texture": "https://i.ibb.co/jy8kh7Z/j2h737.png"
+                },
+                {
+                    "name": "Delta",
+                    "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_4.png"
+                },
+                {
+                    "name": "Lauda",
+                    "texture": "https://i.ibb.co/28xnQDx/Lauda737.jpg"
+                },
+                {
+                    "name": "West Atlantic",
+                    "texture": "https://i.ibb.co/MBdGnLB/po-2.jpg"
+                },
+                {
+                    "name": "TUI old",
+                    "texture": "https://i.ibb.co/QcsDXDp/TUI.jpg"
+                },
+                {
+                    "name": "TUI new",
+                    "texture": "https://i.ibb.co/kXZ66Z3/tui737new.jpg"
+                },
+                {
+                    "name": "Transavia",
+                    "texture": "https://i.ibb.co/Dts72Wj/tra737.png"
+                }
+            ]
+        },
+        "10": {
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "Airbus house",
+                    "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house.png"
+                },
+                {
+                    "name": "British Airways",
+                    "texture": "https://i.ibb.co/xg2Q4CR/BA-a380-1.jpg"
+                },
+                {
+                    "name": "Lufthansa",
+                    "texture" : "https://i.ibb.co/Q6cp1BX/dlhh380.jpg"
+                }
+            ]
+        },
+        "2973": {
+            "mode": 0,
+            "liveries": [
+                {
+                    "name": "Qatar Airways",
+                    "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a350_1000_xwb_texture__3_.png"
+                }
+            ]
+        }
     }
 }
