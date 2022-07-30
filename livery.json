@@ -1,8 +1,58 @@
 {
     "aircrafts" : {
+        "1": {
+            "mode": 3,
+            "liveries" : [
+                {
+                    "name": "Yellow",
+                    "texture": "/models/aircraft/premium/cub/texture_0.jpg"
+                },
+                {
+                    "name": "Red",
+                    "texture": "/models/aircraft/premium/cub/texture_1.jpg"
+                }
+            ]
+        },
+        "2": {
+            "mode": 3,
+            "liveries" : [
+                {
+                    "name": "Classic",
+                    "texture": "/models/aircraft/premium/cessna_172/texture_0.jpg"
+                },
+                {
+                    "name": "Modern",
+                    "texture": "/models/aircraft/premium/cessna_172/texture_1.jpg"
+                }
+            ]
+        },
         "4": {
             "mode": 3,
             "liveries": [
+                {
+                    "name": "KLM",
+                    "texture" : "/models/aircraft/premium/737_700/texture_0.jpg"
+                },
+                {
+                    "name": "United",
+                    "texture" : "/models/aircraft/premium/737_700/texture_1.jpg"
+                },
+                {
+                    "name": "ANA",
+                    "texture" : "/models/aircraft/premium/737_700/texture_2.jpg"
+                },
+                {
+                    "name": "Southwest",
+                    "texture" : "/models/aircraft/premium/737_700/texture_3.jpg"
+                },
+                {
+                    "name": "WestJet",
+                    "texture" : "/models/aircraft/premium/737_700/texture_4.jpg"
+                },
+                {
+                    "name": "GOL",
+                    "texture" : "/models/aircraft/premium/737_700/texture_5.jpg"
+                },
                 {
                     "name": "RyanAir",
                     "texture": "https://i.ibb.co/ZxSG72Y/ryanair.jpg"
@@ -13,7 +63,7 @@
                 },
                 {
                     "name": "Jet2",
-                    "texture": "https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737.jpg"
+                    "texture": "https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737-1.jpg"
                 },
                 {
                     "name": "Jet2Holidays",
@@ -49,6 +99,18 @@
             "mode": 3,
             "liveries": [
                 {
+                    "name": "Emirates",
+                    "texture": "/models/aircraft/premium/a380/texture_0.jpg"
+                },
+                {
+                    "name": "Air France",
+                    "texture": "/models/aircraft/premium/a380/texture_1.jpg"
+                },
+                {
+                    "name": "Qantas",
+                    "texture": "/models/aircraft/premium/a380/texture_2.jpg"
+                },
+                {
                     "name": "Airbus house",
                     "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house.png"
                 },
@@ -59,6 +121,47 @@
                 {
                     "name": "Lufthansa",
                     "texture" : "https://i.ibb.co/Q6cp1BX/dlhh380.jpg"
+                }
+            ]
+        },
+        "13": {
+            "mode": 3,
+            "liveries":[
+                {
+                    "name": "EPOCH Alaska Air",
+                    "texture": "/models/aircraft/premium/dhc2/texture_0.jpg"
+                },
+                {
+                    "name": "N963DH Green-White",
+                    "texture": "/models/aircraft/premium/dhc2/texture_1.jpg"
+                },
+                {
+                    "name": "N323KT Red-White",
+                    "texture": "/models/aircraft/premium/dhc2/texture_2.jpg"
+                },
+                {
+                    "name": "N295B White-Brown",
+                    "texture": "/models/aircraft/premium/dhc2/texture_3.jpg"
+                },
+                {
+                    "name": "Lakeland Airways",
+                    "texture": "/models/aircraft/premium/dhc2/texture_4.jpg"
+                },
+                {
+                    "name": "Kenmore 66Z",
+                    "texture": "/models/aircraft/premium/dhc2/texture_5.jpg"
+                },
+                {
+                    "name": "Clipper Aviation",
+                    "texture": "/models/aircraft/premium/dhc2/texture_6.jpg"
+                },
+                {
+                    "name": "Civil Air Patrol",
+                    "texture": "/models/aircraft/premium/dhc2/texture_7.jpg"
+                },
+                {
+                    "name": "Alaska Forestry",
+                    "texture": "/models/aircraft/premium/dhc2/texture_8.jpg"
                 }
             ]
         },
