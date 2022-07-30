@@ -111,7 +111,7 @@
                     "texture": "/models/aircraft/premium/a380/texture_2.jpg"
                 },
                 {
-                    "name": "Airbus house",
+                    "name": "Airbus house livery",
                     "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house.png"
                 },
                 {
@@ -165,6 +165,78 @@
                 }
             ]
         },
+        "14":{
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "Criquet",
+                    "texture": "/models/aircraft/premium/cricri/texture_0.jpg"
+                },
+                {
+                    "name": "Bleu Blanc Rouge",
+                    "texture": "/models/aircraft/premium/cricri/texture_1.jpg"
+                },
+                {
+                    "name": "Camo",
+                    "texture": "/models/aircraft/premium/cricri/texture_2.jpg"
+                }
+            ]
+        },
+        "15": {
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "US Navy",
+                    "texture": "/models/aircraft/premium/p38/texture_0.jpg"
+                },
+                {
+                    "name": "Saint-Exupery",
+                    "texture": "/models/aircraft/premium/p38/texture_1.jpg"
+                }
+            ]
+        },
+        "18": {
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "Akula 35",
+                    "texture": "/models/aircraft/premium/su35/texture_0.jpg"
+                },
+                {
+                    "name": "Russia Bort 01",
+                    "texture": "/models/aircraft/premium/su35/texture_1.jpg"
+                },
+                {
+                    "name": "Russia Bort 06",
+                    "texture": "/models/aircraft/premium/su35/texture_2.jpg"
+                },
+                {
+                    "name": "Russia Bort 901",
+                    "texture": "/models/aircraft/premium/su35/texture_3.jpg"
+                }
+            ]
+        },
+        "19":{
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "British Airways",
+                    "texture": "/models/aircraft/premium/concorde/texture_0.jpg"
+                },
+                {
+                    "name": "Air France",
+                    "texture": "/models/aircraft/premium/concorde/texture_1.jpg"
+                },
+                {
+                    "name": "Pepsi",
+                    "texture": "/models/aircraft/premium/concorde/texture_2.jpg"
+                },
+                {
+                    "name": "Aerospatiale France - British Aircraft Corporation house livery",
+                    "texture": "/models/aircraft/premium/concorde/texture_3.jpg"
+                }
+            ]
+        },
         "2973": {
             "mode": 0,
             "liveries": [
@@ -173,6 +245,100 @@
                     "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a350_1000_xwb_texture__3_.png"
                 }
             ]
+        },
+        "3575": {
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "Thai Airways",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"
+                },
+                {
+                    "name": "Air Tahiti Nui",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"
+                },
+                {
+                    "name": "Virgin Atlantic",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_49.jpg"
+                },
+                {
+                    "name": "EL AL",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_50.jpg"
+                },
+                {
+                    "name": "Qantas",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_51.jpg"
+                },
+                {
+                    "name": "KLM",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_52.jpg"
+                },
+                {
+                    "name": "Vistara",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_53.1.jpg"
+                },
+                {
+                    "name": "F1 Etihad",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_54.jpg"
+                },
+                {
+                    "name": "LATAM",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_55.jpg"
+                },
+                {
+                    "name": "LOT",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_56.jpg"
+                },
+                {
+                    "name": "Korean Air",
+                   "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_57.jpg"
+                },
+                {
+                    "name": "Turkish",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_58.jpg"
+                },
+                {
+                    "name": "Norwegian",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575//texture_59.1.jpg"
+                },
+                {
+                    "name": "Air France",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_60.jpg"
+                },
+                {
+                    "name": "Aer Europa",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_51.jpg"
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_62.jpg"
+                },
+                {
+                    "name": "American Airlines",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_63.jpg"
+                },
+                {
+                    "name": "Lufthansa",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_103.jpg"
+                },
+                {
+                    "name": "Gulf Air",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_105.5.jpg"
+                },
+                {
+                    "name": "TUI",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_115.jpg"
+                },
+                {
+                    "name": "Japan Airlines",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_121.jpg"
+                },
+                {
+                    "name": "Finnair",
+                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_134.jpg"
+                }
+            ]
         }
+    
     }
 }
