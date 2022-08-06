@@ -46,7 +46,7 @@
                     "texture" : "/models/aircraft/premium/737_700/texture_3.jpg"
                 },
                 {
-                    "name": "WestJet",
+                    "name": "WestJet old",
                     "texture" : "/models/aircraft/premium/737_700/texture_4.jpg"
                 },
                 {
@@ -92,6 +92,18 @@
                 {
                     "name": "Transavia",
                     "texture": "https://i.ibb.co/Dts72Wj/tra737.png"
+                },
+                {
+                    "name": "WestJet new",
+                    "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/westjet_new_livery.png"
+                },
+                {
+                    "name": "Chine Eastern",
+                    "texture": "https://i.ibb.co/QJ1LbWF/chinaeastern.jpg"
+                },
+                {
+                    "name": "Ethiopian",
+                    "texture": "https://i.ibb.co/c1WJM2x/ethiopian.jpg"
                 }
             ]
         },
@@ -216,8 +228,8 @@
                 }
             ]
         },
-        "19":{
-            "mode": 3,
+        "20":{
+            "mode": 4,
             "liveries": [
                 {
                     "name": "British Airways",
@@ -237,6 +249,91 @@
                 }
             ]
         },
+        "2879": {
+            "mode": 0,
+            "liveries": [
+                {
+                    "name": "Finnair",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_85.jpg"
+                },
+                {
+                    "name": "Latam",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_86.jpg"
+                },
+                {
+                    "name": "Turkish",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_87.jpg"
+                },
+                {
+                    "name": "Volaris",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_88.jpg"
+                },
+                {
+                    "name": "Air France",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_89.jpg"
+                },
+                {
+                    "name": "British Airways",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_90.jpg"
+                },
+                {
+                    "name": "Easyjet",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_91.jpg"
+                },
+                {
+                    "name": "Delta",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_93.jpg"
+                },
+                {
+                    "name": "Avianca",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_94.jpg"
+                },
+                {
+                    "name": "Air India",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_92.jpg"
+                },
+                {
+                    "name": "Lufthansa",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_93.5.jpg"
+                },
+                {
+                    "name": "Scandinavian",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_95.jpg"
+                },
+                {
+                    "name": "Swiss",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_96.jpg"
+                },
+                {
+                    "name": "TAP",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_97.jpg"
+                },
+                {
+                    "name": "Brussels",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_96.2.jpg"
+                },
+                {
+                    "name": "Airbus house",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_98.jpg"
+                },
+                {
+                    "name": "American Airlines",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_98.5.jpg"
+                },
+                {
+                    "name": "BEA",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_97.5.jpg"
+                },
+                {
+                    "name": "Easyjet",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_97.6.jpg"
+                },
+                {
+                    "name": "Shiba&Co",
+                    "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_98.7.jpg"
+                }
+            ]
+        },
         "2973": {
             "mode": 0,
             "liveries": [
@@ -247,95 +344,157 @@
             ]
         },
         "3575": {
-            "mode": 3,
+            "mode": 0,
             "liveries": [
                 {
                     "name": "Thai Airways",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"
                 },
                 {
                     "name": "Air Tahiti Nui",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"
                 },
                 {
                     "name": "Virgin Atlantic",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_49.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_49.jpg"
                 },
                 {
                     "name": "EL AL",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_50.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_50.jpg"
                 },
                 {
                     "name": "Qantas",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_51.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_51.jpg"
                 },
                 {
                     "name": "KLM",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_52.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_52.jpg"
                 },
                 {
                     "name": "Vistara",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_53.1.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_53.1.jpg"
                 },
                 {
                     "name": "F1 Etihad",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_54.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_54.jpg"
                 },
                 {
                     "name": "LATAM",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_55.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_55.jpg"
                 },
                 {
                     "name": "LOT",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_56.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_56.jpg"
                 },
                 {
                     "name": "Korean Air",
-                   "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_57.jpg"
+                   "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_57.jpg"
                 },
                 {
                     "name": "Turkish",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_58.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_58.jpg"
                 },
                 {
                     "name": "Norwegian",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575//texture_59.1.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575//texture_59.1.jpg"
                 },
                 {
                     "name": "Air France",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_60.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_60.jpg"
                 },
                 {
                     "name": "Aer Europa",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_51.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_61.jpg"
                 },
                 {
                     "name": "Air Canada",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_62.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_62.jpg"
                 },
                 {
                     "name": "American Airlines",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_63.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_63.jpg"
                 },
                 {
                     "name": "Lufthansa",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_103.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_103.jpg"
                 },
                 {
                     "name": "Gulf Air",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_105.5.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_105.5.jpg"
                 },
                 {
                     "name": "TUI",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_115.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_115.jpg"
                 },
                 {
                     "name": "Japan Airlines",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_121.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_121.jpg"
                 },
                 {
                     "name": "Finnair",
-                    "texture": "https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_134.jpg"
+                    "texture": "/backend/aircraft/repository/Boeing%20787-10%20Dreamliner%20(ANA)_427352_3575/texture_134.jpg"
+                }
+            ]
+        },
+        "3534": {
+            "mode": 1,
+            "liveries": [
+                {
+                    "name": "Airbus house livery",
+                    "texture": "https://i.ibb.co/W35Y7zf/A320house.jpg"
+                },
+                {
+                    "name": "Alitalia",
+                    "texture": "https://i.ibb.co/jRPHLpt/Alitalia-A320-214.png"
+                },
+                {
+                    "name": "Easyjet (carrot design)",
+                    "texture": "https://i.ibb.co/0Yj5Gm3/image-9.jpg"
+                }
+            ]
+        },
+        "2899": {
+            "mode": 0,
+            "liveries": [
+                {
+                    "name": "Breeze",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_135.5.jpg"
+                },
+                {
+                    "name": "Air France",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_136.jpg"
+                },
+                {
+                    "name": "Korean Air",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_137.jpg"
+                },
+                {
+                    "name": "Air Baltic",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_138.jpg"
+                },
+                {
+                    "name": "Airbus",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_139.jpg"
+                },
+                {
+                    "name": "Jet Blue",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_140.jpg"
+                },
+                {
+                    "name": "Air Manas",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_141.jpg"
+                },
+                {
+                    "name": "Air Senegal",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_142.jpg"
+                },
+                       {
+                    "name": "Egypt Air Express",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_145.jpg"
+                },
+                {
+                    "name": "Egypt Air",
+                    "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_146.jpg"
                 }
             ]
         }
