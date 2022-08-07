@@ -101,3 +101,19 @@ function search(text){
     }
 }
 
+function star(element){
+    let e = element.classList;
+    console.log(e);
+    console.log("clicked");
+    if (e == "fa fa-star nocheck"){
+        console.log("checked");
+        //save to list here
+    }
+    else if (e == "fa fa-star checked"){
+        console.log("checked out");
+        //remove from list here
+    }
+    //style animation
+    e.toggle("checked");
+    e.toggle("nocheck");
+}
