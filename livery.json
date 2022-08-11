@@ -98,12 +98,16 @@
                     "texture": "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/westjet_new_livery.png"
                 },
                 {
-                    "name": "Chine Eastern",
+                    "name": "China Eastern",
                     "texture": "https://i.ibb.co/QJ1LbWF/chinaeastern.jpg"
                 },
                 {
                     "name": "Ethiopian",
                     "texture": "https://i.ibb.co/c1WJM2x/ethiopian.jpg"
+                },
+                {
+                    "name": "Easyjet",
+                    "texture": "https://i.ibb.co/zV7DhTp/lji.png"
                 }
             ]
         },
@@ -334,6 +338,27 @@
                 }
             ]
         },
+        "2418": {
+            "mode": 3,
+            "liveries": [
+                {
+                    "name": "HOP!",
+                    "texture": "/backend/aircraft/repository/New%20P-Series_267286_2418/texture_0.jpg"
+                },
+                {
+                    "name": "SAS",
+                    "texture": "/backend/aircraft/repository/New%20P-Series_267286_2418/texture_2.jpg"
+                },
+                {
+                    "name": "Loganair",
+                    "texture": "/backend/aircraft/repository/New%20P-Series_267286_2418/texture_4.jpg"
+                },
+                {
+                    "name": "Azul",
+                    "texture": "/backend/aircraft/repository/New%20P-Series_267286_2418/texture_5.jpg"
+                }
+            ]
+        },
         "2973": {
             "mode": 0,
             "liveries": [
@@ -497,7 +522,432 @@
                     "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_146.jpg"
                 }
             ]
+        },
+        "2871": {
+            "mode": 0,
+            "liveries": [
+                {
+                    "name": "Indigo",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_1.5.jpg"
+                },
+                {
+                    "name": "Vistara",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_2.5.jpg"
+                },
+                {
+                    "name": "Air Asia",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_3.5.jpg"
+                },
+                {
+                    "name": "Nepal Airlines",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_157.jpg"
+                },
+                {
+                    "name": "Gulf Air",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_1.6.jpg"
+                },
+                {
+                    "name": "Kuwait Airways",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_2.6.jpg"
+                },
+                {
+                    "name": "Egypt Air",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_3.6.jpg"
+                },
+                {
+                    "name": "Qatar Airways",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_4.5.jpg"
+                },
+                {
+                    "name": "Scoot",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_4.6.jpg"
+                },
+                {
+                    "name": "Aegean",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_5.3.jpg"
+                },
+                {
+                    "name": "WIZZ",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_6.3.jpg"
+                },
+                {
+                    "name": "Azul",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871//texture_7.3.jpg"
+                },
+                {
+                    "name": "Airbus House",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_9.3.jpg"
+                },
+                {
+                    "name": "Air Astana",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_10.3.jpg"
+                },
+                {
+                    "name": "Iberia",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_11.3.jpg"
+                },
+                {
+                    "name": "Air Seychelles",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_12.3.jpg"
+                },
+                {
+                    "name": "VIVA",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_13.3.jpg"
+                },
+                {
+                    "name": "Cebu Pacific",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_14.3.jpg"
+                },
+                {
+                    "name": "LATAM",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_15.3.jpg"
+                },
+                {
+                    "name": "SAS",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_17.jpg"
+                },
+                {
+                    "name": "JetStar",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_18.3.jpg"
+                },
+                {
+                    "name": "Spirit",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_21.3.jpg"
+                },
+                {
+                    "name": "Air cote d'ivoire",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_24.3.jpg"
+                },
+                {
+                    "name": "TAP",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_25.3.jpg"
+                },
+                {
+                    "name": "Lufthansa (new design)",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_26.3.jpg"
+                },
+                {
+                    "name": "Easyjet",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_27.3.jpg"
+                },
+                {
+                    "name": "SWISS",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_28.3.jpg"
+                },
+                {
+                    "name": "British Airways",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_29.3.jpg"
+                },
+                {
+                    "name": "Eurowings",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_30.3.jpg"
+                },
+                {
+                    "name": "WOW",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_31.3.jpg"
+                },
+                {
+                    "name": "Sri Lankan Airlines",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_19.3.jpg"
+                },
+                {
+                    "name": "Vueling",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_34.3.jpg"
+                },
+
+                {
+                    "name": "ITA",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_36.3.jpg"
+                },
+                {
+                    "name": "Lufthansa (old design)",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_37.3.jpg"
+                },
+                {
+                    "name": "China Eastern",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_39.3.jpg"
+                },
+                {
+                    "name": "Frontier",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_40.3.jpg"
+                },
+                {
+                    "name": "Aeroflot",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_66.jpg"
+                },
+                {
+                    "name": "Aer Lingus",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_73.jpg"
+                },
+                {
+                    "name": "Qantas",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_71.jpg"
+                },
+                {
+                    "name": "Transavia",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_68.jpg"
+                },
+                {
+                    "name": "United",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_110.jpg"
+                },
+                {
+                    "name": "Pegasus",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_120.jpg"
+                },
+                {
+                    "name": "ITA Born in 2021",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_122.jpg"
+                },
+                {
+                    "name": "Oneworld Srilankan Airlines",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_124.jpg"
+                },
+                {
+                    "name": "Mihin Lanka",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_126.jpg"
+                },
+                {
+                    "name": "Air Ceylon",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_128.jpg"
+                },
+                {
+                    "name": "Air Lanka",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_129.jpg"
+                },
+                {
+                    "name": "Greenland Air",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_127.jpg"
+                },
+                {
+                    "name": "Easyjet Europcar",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_135.6.jpg"
+                },
+                {
+                    "name": "Air Malta",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_158.jpg"
+                },
+                {
+                    "name": "Thomas cook",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_160.jpg"
+                },
+                {
+                    "name": "Vietjet",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_166.jpg"
+                },
+                {   "name": "Air Macau",
+                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_168.jpg"
+                },
+                {
+                    "name": "Easyjet Berlin",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_170.jpg"
+                }
+            ]
+        },
+        "2769": {
+            "mode": "0",
+            "liveries": [
+                {
+                    "name": "TUI",
+                    "mptx": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_0.jpg"
+                },
+                {
+                    "name": "Jet Airways",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_1.jpg"
+                },
+                {
+                    "name": "Akasa Air",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_26.1.jpg"
+                },
+        
+                {
+                    "name": "FlyDubai",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_2.jpg"
+                },
+        
+                {
+                    "name": "Aerolineas Argentinas",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_3.jpg"
+                },
+                {
+                    "name": "Alaska Airlines",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_4.jpg"
+                },
+                {
+                    "name": "Turkish Airlines",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_5.jpg"
+                },
+                {
+                    "name": "Smartwings",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_6.1.jpg"
+                },
+                {
+                    "name": "United",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_7.jpg"
+                },
+                {
+                    "name": "Malaysia Airlines",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_8.jpg"
+                },
+                {
+                    "name": "Vietjet",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_9.jpg"
+                },
+                {
+                    "name": "Ryan Air",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_10.jpg"
+                },
+                {
+                    "name": "Ethiopian",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_11.jpg"
+                },
+                {
+                    "name": "Iceland Air",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_12.jpg"
+                },
+                {
+                    "name": "Royal Air Maroc",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_13.jpg"
+                },
+                {
+                    "name": "Oman Air",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_14.jpg"
+                },
+                {
+                    "name": "Flair",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_15.jpg"
+                },
+                {
+                    "name": "Garuda Indonesia",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_16.jpg"
+                },
+                {
+                    "name": "WestJet",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_17.2.jpg"
+                },
+                {
+                    "name": "Com Air",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_18.5.jpg"
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_19.1.jpg"
+                },
+                {
+                    "name": "American Airlines",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_20.jpg"
+                },
+                {
+                    "name": "Australian Airlines",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_21.1.jpg"
+                },
+                {
+                    "name": "Ukraine Intl Airlines",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_22.jpg"
+                },
+                {
+                    "name": "Lion Air",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_23.jpg"
+                },
+                {
+                    "name": "Caribbean",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_23.5.jpg"
+                },
+                {
+                    "name": "Biman Bangladesh",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_117.jpg"
+                },
+                {
+                    "name": "Eurowings",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_132.jpg"
+                },
+                {
+                    "name": "Air Baltic",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_150.jpg"
+                },
+                {
+                    "name": "AeroItalia",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_161.jpg"
+                },
+                {
+                    "name": "Southwest",
+                    "texture": "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_163.jpg"
+                }
+            ]
+        },
+        "3180": {
+            "mode": 0,
+            "liveries": [
+                {
+                    "name": "Vietnam Airlines",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_41.jpg"
+                },
+                {
+                    "name": "Emirates",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_42.jpg"
+                },
+                {
+                    "name": "United",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_43.jpg"
+                },
+                {
+                    "name": "Saudia",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_44.jpg"
+                },
+                {
+                    "name": "Eva Air",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_45.jpg"
+                },
+                {
+                    "name": "Vistara ",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_64.1.jpg"
+                },
+                {
+                    "name": "Virgin Atlantic",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_65.jpg"
+                },
+                {
+                    "name": "Air India",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_67.jpg"
+                },
+                {
+                    "name": "Scoot",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_70.jpg"
+                },
+                {
+                    "name": "Air France",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_74.jpg"
+                },
+                {
+                    "name": "Lufthansa",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_78.jpg"
+                },
+                {
+                    "name": "Biman Bangladesh",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_123.jpg"
+                },
+                {
+                    "name": "Visit Vietnam",
+                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_155.jpg"
+                }
+            ]
+        },
+        "3292" : {
+            "mode": 0,
+            "liveries": [
+                {
+                    "name": "Indian Navy",
+                    "texture": "/backend/aircraft/repository/Boeing p8I Neptune_427352_3292/texture_1.1.jpg"
+                },
+                {
+                    "name": "US Navy",
+                    "texture": "/backend/aircraft/repository/Boeing p8I Neptune_427352_3292/texture_1.1.jpg"
+                },
+                {
+                    "name": "Royal Australian Air Force",
+                    "texture": "/backend/aircraft/repository/Boeing p8I Neptune_427352_3292/texture_2.jpg"
+                }
+            ]
         }
-    
     }
 }
