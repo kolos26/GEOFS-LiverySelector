@@ -1,2 +1,63 @@
 # GEOFS-LiverySelector
-Unified livery handler addon for geofs.
+
+Unified livery handler addon for [geofs](https://geo-fs.com).
+
+This addon contains more than a hundred of new liveries and a brand new user interface to make it easier to use your favourite livery.
+
+In the list of liveries you can find:
+
+- the well known [multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9, 
+- the LiveryChanger by [Ariakim Taiyo](https://github.com/Ariakim-Taiyo/LiveryChanger), 
+- [Iuhairways](https://github.com/iuhairways/Liverychanger-modified), and
+- other custom liveries.
+
+My goal was to put the liveries into one easy to use interface where you can select them fast with one click.
+
+## Features
+
+For every supported aircraft you can find the list of avaliable liveries in the **LIVERY** menu. Here you can star your favourite liveries to show them on the top and search for any livery.
+
+Loading local personal liveries is also a planned feature just as writing the full multiplayer visibility.
+
+## How to use
+
+You can use LiverySelector without installation, or you can add it to your Tampermonkey or Greasemonkey browser addon.
+
+### Quick test without installation
+
+You can use the LiverySelector without installation: just copy and paste the [main.js](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/f96f2bdfdd3177b26c678f53ad374a22f6003980/main.js) into the browser console.
+
+You need to do that every time you want to use LiverySelector.
+
+### Install into Tampermonkey (recommended)
+
+You can also find the [Tampermonkey](https://www.tampermonkey.net/) compatible version of LiverySelector in the Releases menu and add it to your Tampermonkey addon. (You can use Greasemonkey as well.)
+
+Both versions download the list of newest aircrafts every time you start GeoFS, you don't have to do anything after installation.
+
+## Aircrafts
+
+In this time near all basic aircrafts are supported witch has originally more than one livery.The list of supported aircrafts with extra liveries is:
+- Boeing b737-700
+- Boeing b737-8
+- Boeing b787-9
+- Boeing b787-10
+- P8 Poseidon
+- Airbus a220-300
+- Airbus a319-100
+- Airbus a320neo
+- Airbus a350-1000
+- Airbus a380
+- Concorde
+- ATR-72
+
+### Planned aircrafts
+
+I plan to support these aircrafts:
+- a350-900
+- b767-300er
+- b757-200
+
+## Feedback
+
+Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
