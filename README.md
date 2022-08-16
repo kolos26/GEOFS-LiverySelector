@@ -9,13 +9,13 @@ In the list of liveries you can find:
 - the well known [multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9, 
 - the LiveryChanger by [Ariakim Taiyo](https://github.com/Ariakim-Taiyo/LiveryChanger), 
 - [Iuhairways](https://github.com/iuhairways/Liverychanger-modified), and
-- other custom liveries.
+- other custom liveries made exactly for this project.
 
 My goal was to put the liveries into one easy to use interface where you can select them fast with one click.
 
 ## Features
 
-For every supported aircraft you can find the list of avaliable liveries in the **LIVERY** menu. Here you can star your favourite liveries to show them on the top and search for any livery.
+For every supported aircraft you can find the list of avaliable liveries in the **LIVERY** menu. Here you can star your favourite liveries to show them on the top and search for any livery. I'm only planning to support real-life liveries, because most people do not want to share their personal liveries.
 
 Loading local personal liveries is also a planned feature just as writing the full multiplayer visibility.
 
@@ -57,6 +57,8 @@ I plan to support these aircrafts:
 - a350-900
 - b767-300er
 - b757-200
+- b787-8
+- dc3
 
 ## Feedback
 
