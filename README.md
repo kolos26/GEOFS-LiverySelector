@@ -63,3 +63,8 @@ I plan to support these aircrafts:
 ## Feedback
 
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
+
+## Known issues
+
+- Livereies vith partial texture files are not working, I will fix it as soon as it's possible.
+- Multiplayer visibility will be developed in the next version (Coming soon)
