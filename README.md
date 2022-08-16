@@ -21,7 +21,9 @@ Loading local personal liveries is also a planned feature just as writing the fu
 
 ## How to use
 
-You can use LiverySelector without installation, or you can add it to your Tampermonkey or Greasemonkey browser addon.
+You can use LiverySelector without installation, or you can add it to your Tampermonkey browser addon.
+
+**Both versions download the list of newest aircrafts every time you start GeoFS, you don't have to do anything after installation.**
 
 ### Quick test without installation
 
@@ -39,8 +41,6 @@ You can also find the [Tampermonkey](https://www.tampermonkey.net/) compatible v
 For the first time you need to paste this line into the console:
 
 ```localStorage.favorites = "";```
-
-**Both versions download the list of newest aircrafts every time you start GeoFS, you don't have to do anything after installation.**
 
 ## Aircrafts
 
