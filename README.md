@@ -89,4 +89,4 @@ Here you can find the maps, that you can paint out:
 - [Boeing b787-10](https://user-images.githubusercontent.com/103064103/173106106-f5045ec7-8dbc-4ebb-b616-a4caaa01e7a1.png)
 - [Airbus a320neo](https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/Base%20Maps/plain_2.jpg)
 
-> **Note**: In this project I'm only accepting real life liveries, so if you would like to fly with fictional liveries you can build your own liveries.json database.
+> **Note**: In this project I'm only accepting real life liveries, so if you would like to fly with fictional liveries you can build your own liveries.json database. If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase.
