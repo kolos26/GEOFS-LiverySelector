@@ -39,6 +39,7 @@ async function init(){
 }
 
 function loadLivery(texture, mode, parts){
+    //change livery
     parts.forEach(function(e){
         if (geofs.version == 2.9) {
             geofs.api.Model.prototype.changeTexture(texture, mode, geofs.aircraft.instance.definition.parts[e]["3dmodel"]);
@@ -46,6 +47,10 @@ function loadLivery(texture, mode, parts){
         if (geofs.version == 3.31) {
             geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[e]["3dmodel"]._model, texture, mode);
         }
+        //change multiplayer texture
+        Object.values(multiplayer.visibleUsers).forEach(function(e){
+            geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, texture, 0);
+            })
     });
 }
 
