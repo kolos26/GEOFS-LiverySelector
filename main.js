@@ -38,6 +38,17 @@ async function init(){
 
 }
 
+function loadLiveries(texture, mode, parts){
+    parts.forEach(function(e){
+        if (geofs.version == 2.9) {
+            geofs.api.Model.prototype.changeTexture(texture, mode, geofs.aircraft.instance.definition.parts[e]["3dmodel"]);
+            }
+        if (geofs.version == 3.31) {
+            geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[e]["3dmodel"]._model, texture, mode);
+        }
+    });
+}
+
 function sortList(id) {
     var list, i, switching, b, shouldSwitch;
     list = document.getElementById(id);
@@ -77,12 +88,7 @@ function listLiveries(){
         dropdown.style.display = "block";
         dropdown.setAttribute("id", geofs.aircraft.instance.id + "_" + e.name + "_button");
         document.getElementById("liverylist").appendChild(dropdown);
-        if (geofs.version == 2.9) {
-            dropdown.setAttribute("onclick", 'geofs.api.Model.prototype.changeTexture("' + e.texture + '", '+ mode +', geofs.aircraft.instance.definition.parts[0]["3dmodel"])');
-            }
-        if (geofs.version == 3.31) {
-            dropdown.setAttribute("onclick", 'geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "' + e.texture + '", '+ mode +')');
-        }
+        dropdown.setAttribute("onclick", "window.loadLivery("+ e.texture +", "+ e. mode +", "+ e.parts +")")
     })
     sortList("liverylist");
     loadFavorites();
