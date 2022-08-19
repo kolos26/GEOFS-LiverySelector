@@ -53,6 +53,7 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Airbus a220-300
 - Airbus a319-100
 - Airbus a320neo
+- Airbus a350-900
 - Airbus a350-1000
 - Airbus a380
 - Concorde
@@ -61,7 +62,6 @@ In this time near all basic aircrafts are supported witch has originally more th
 ### Planned aircrafts
 
 I plan to support these aircrafts:
-- a350-900
 - b767-300er
 - b757-200
 - b787-8
