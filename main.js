@@ -38,7 +38,7 @@ async function init(){
 
 }
 
-function loadLiveries(texture, mode, parts){
+function loadLivery(texture, mode, parts){
     parts.forEach(function(e){
         if (geofs.version == 2.9) {
             geofs.api.Model.prototype.changeTexture(texture, mode, geofs.aircraft.instance.definition.parts[e]["3dmodel"]);
@@ -76,6 +76,7 @@ function listLiveries(){
     let airplane = geofs.aircraft.instance.id;
 
     let mode = liveryobj.aircrafts[airplane].mode;
+    let parts = liveryobj.aircrafts[airplane].parts;
 
     liveryobj.aircrafts[airplane].liveries.forEach(function(e){
         var dropdown = document.createElement('li');
@@ -88,7 +89,7 @@ function listLiveries(){
         dropdown.style.display = "block";
         dropdown.setAttribute("id", geofs.aircraft.instance.id + "_" + e.name + "_button");
         document.getElementById("liverylist").appendChild(dropdown);
-        dropdown.setAttribute("onclick", "window.loadLivery("+ e.texture +", "+ e. mode +", "+ e.parts +")")
+        dropdown.setAttribute("onclick", "window.loadLivery('"+ e.texture +"', "+ mode +", ["+ parts +"])")
     })
     sortList("liverylist");
     loadFavorites();
@@ -120,8 +121,8 @@ function star(element){
     console.log("clicked");
     if (e == "fa fa-star nocheck"){
         console.log("checked");
-        btn = document.getElementById(element.id +"_button");
-        fbtn = document.createElement("li");
+        let btn = document.getElementById(element.id +"_button");
+        let fbtn = document.createElement("li");
         fbtn.innerText = btn.innerText;
         fbtn.setAttribute("id", element.id + "_favorite");
         fbtn.setAttribute("onclick", btn.getAttribute('onclick'));
@@ -130,7 +131,6 @@ function star(element){
         list.push(element.id);
         list = [...new Set(list)]
         localStorage.favorites = list;
-        //TODO save id to localStorage
 
     }
     else if (e == "fa fa-star checked"){
