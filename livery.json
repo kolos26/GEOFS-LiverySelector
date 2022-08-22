@@ -266,6 +266,20 @@
                 }
             ]
         },
+        "237":{
+            "mode": 0,
+            "parts": [0, 23, 27, 28, 29, 30, 31, 32, 36],
+            "liveries":[
+                {
+                    "name": "Air Canada",
+                    "texture": "/backend/aircraft/repository/GXD03FI_126645_237/texture.png"
+                },
+                {
+                    "name": "British Airways",
+                    "texture": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing-b767-300er/britishairways.png"
+                }
+            ]
+        },
         "239": {
             "mode": 0,
             "parts" : [0, 18, 20, 21, 22, 23, 24, 25, 34],
@@ -281,6 +295,10 @@
                 {
                     "name": "Finnair",
                     "texture": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/finnair.png"
+                },
+                {
+                    "name": "Iberia",
+                    "texture": "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/iberia.png"
                 }
             ]
         },
