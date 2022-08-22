@@ -47,6 +47,7 @@ For the first time you need to paste this line into the console:
 In this time near all basic aircrafts are supported witch has originally more than one livery.The list of supported aircrafts with extra liveries is:
 - Boeing b737-700
 - Boeing b737-8
+- Boeing b767-300er
 - Boeing b787-9
 - Boeing b787-10
 - P8 Poseidon
@@ -62,7 +63,6 @@ In this time near all basic aircrafts are supported witch has originally more th
 ### Planned aircrafts
 
 I plan to support these aircrafts:
-- b767-300er
 - b757-200
 - b787-8
 - dc3
