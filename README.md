@@ -1,5 +1,7 @@
 # GEOFS-LiverySelector
 
+![GeoFs LiverySelector logo](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/logo.png)
+
 Unified livery handler addon for [geofs](https://geo-fs.com).
 
 This addon contains more than a hundred of new liveries and a brand new user interface to make it easier to use your favorite livery.
