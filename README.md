@@ -1,6 +1,6 @@
 # GEOFS-LiverySelector
 
-![GeoFs LiverySelector logo](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/logo.png)
+<img src="liveryselector-logo.svg" width="120%"/>
 
 Unified livery handler addon for [geofs](https://geo-fs.com).
 
