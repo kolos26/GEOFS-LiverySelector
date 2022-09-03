@@ -43,8 +43,7 @@ function loadLivery(texture, mode, parts){
     parts.forEach(function(e){
         if (geofs.version == 2.9) {
             geofs.api.Model.prototype.changeTexture(texture, mode, geofs.aircraft.instance.definition.parts[e]["3dmodel"]);
-            }
-        if (geofs.version == 3.31) {
+            } else {
             geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[e]["3dmodel"]._model, texture, mode);
         }
         //change multiplayer texture
