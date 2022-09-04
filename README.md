@@ -100,3 +100,16 @@ For these aircrafts (created by GX Development), instead of using maps, you can 
 - [Airbus a350-900](https://geo-fs.com/backend/aircraft/repository/GXD05OQ_166617_239/texture.png)
 
 > **Note**: In this project I'm only accepting real life liveries, so if you would like to fly with fictional liveries you can build your own liveries.json database. If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase.
+
+## Resources
+
+Fonts and icons in the logo:
+- https://www.ffonts.net/Distorty-Normal.font
+- https://www.ffonts.net/SquareFont-Outline.font
+- https://www.onlinewebfonts.com/icon/521102
+- https://www.svgrepo.com/svg/321708/airplane-departure
+
+Sources of the liveries:
+- https://github.com/Ariakim-Taiyo/LiveryChanger
+- https://github.com/Spice9/Geofs-Multiliveries
+- https://github.com/iuhairways/Liverychanger-modified
