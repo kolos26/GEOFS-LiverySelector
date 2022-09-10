@@ -68,6 +68,8 @@ In this time near all basic aircrafts are supported witch has originally more th
 I plan to support these aircrafts:
 - b787-8
 - dc3
+- crj-700
+- a320-214
 
 ## Feedback
 
@@ -82,7 +84,7 @@ Comments and feedback are most welcome, just add them as a [GitHub issue](https:
 
 I'm very happy if you contribute new liveries to this livery project!
 
-At the time you can contribute liveries to the original Multiliveries aircrafts and the b737-700.
+At the time you can contribute liveries to the original Multiliveries aircrafts, the b737-700, a350-900, a350-1000, b757-200 and b767-300er.
 
 Here you can find the maps, that you can paint out:
 - [Boeing b737-700](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-700.png)
@@ -99,7 +101,7 @@ For these aircrafts (created by GX Development), instead of using maps, you can 
 - [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
 - [Airbus a350-900](https://geo-fs.com/backend/aircraft/repository/GXD05OQ_166617_239/texture.png)
 
-> **Note**: In this project I'm only accepting real life liveries, so if you would like to fly with fictional liveries you can build your own liveries.json database. If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase.
+> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase.
 
 ## Resources
 
