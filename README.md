@@ -101,7 +101,7 @@ For these aircrafts (created by GX Development), instead of using maps, you can 
 - [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
 - [Airbus a350-900](https://geo-fs.com/backend/aircraft/repository/GXD05OQ_166617_239/texture.png)
 
-> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase.
+> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**.
 
 ## Resources
 
