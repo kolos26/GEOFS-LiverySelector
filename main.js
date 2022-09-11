@@ -1,5 +1,6 @@
 let liveryobj;
 let panelopen = 0;
+let multiplayertexture
 
 //init
 
@@ -47,9 +48,7 @@ function loadLivery(texture, mode, parts){
             geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[e]["3dmodel"]._model, texture, mode);
         }
         //change multiplayer texture
-        Object.values(multiplayer.visibleUsers).forEach(function(e){
-            geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, texture, 0);
-            })
+        multiplayertexture = texture;
     });
 }
 
@@ -166,4 +165,14 @@ function loadFavorites(){
     })
 }
 
+function updateMultiplayer(){
+    Object.values(multiplayer.visibleUsers).forEach(function(e){
+        geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, multiplayertexture, 0);
+        })
+}
+
 init();
+
+let refreshMultiplayer = setInterval(function(){  
+    updateMultiplayer();
+}, 5000)
