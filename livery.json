@@ -349,7 +349,7 @@
                     "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_86.jpg"
                 },
                 {
-                    "name": "Turkish",
+                    "name": "Turkish Airlines",
                     "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_87.jpg"
                 },
                 {
@@ -413,12 +413,36 @@
                     "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_97.5.jpg"
                 },
                 {
-                    "name": "Easyjet",
+                    "name": "Easyjet (old design)",
                     "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_97.6.jpg"
                 },
                 {
                     "name": "Shiba&Co",
                     "texture": "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_98.7.jpg"
+                },
+                {
+                    "name": "Easyjet (new design)",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_207.jpg"
+                },
+                {
+                    "name": "Air France (Skyteam livery)",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_203.jpg"
+                },
+                {
+                    "name": "Air Serbia",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_200.jpg"
+                },
+                {
+                    "name": "Spirit",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_202.jpg"
+                },
+                {
+                    "name": "Gulf Air",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_197.jpg"
+                },
+                {
+                    "name": "allegiant",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_195.jpg"
                 }
             ]
         },
@@ -503,7 +527,7 @@
                    "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_57.jpg"
                 },
                 {
-                    "name": "Turkish",
+                    "name": "Turkish Airlines",
                     "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_58.jpg"
                 },
                 {
@@ -559,8 +583,8 @@
                     "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_185.jpg"
                 },
                 {
-                    "name": "Norse",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_190.jpg"
+                    "name": "Air Norse",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_190.1.jpg"
                 },
                 {
                     "name": "Gulf Air (retro livery)",
@@ -629,6 +653,10 @@
                 {
                     "name": "Egypt Air",
                     "texture": "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_146.jpg"
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_147.5.jpg"
                 }
             ]
         },
@@ -790,7 +818,7 @@
                     "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_73.jpg"
                 },
                 {
-                    "name": "Qantas",
+                    "name": "Qantas Link",
                     "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_71.jpg"
                 },
                 {
@@ -804,10 +832,6 @@
                 {
                     "name": "Pegasus",
                     "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_120.jpg"
-                },
-                {
-                    "name": "ITA (Born in 2021 special livery)",
-                    "texture": "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_122.jpg"
                 },
                 {
                     "name": "Srilankan Airlines (Oneworld livery)",
@@ -871,6 +895,34 @@
                 {
                     "name": "Condor",
                     "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_169.jpg"
+                },
+                {
+                    "name": "VIVA Aerobus",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_210.5.jpg"
+                },
+                {
+                    "name": "Air Arabia",
+                    "texture":"https://raw.githubusercontent.com/Spice9/stuff2/main/texture_206.jpg"
+                },
+                {
+                    "name": "Austrian Airlines",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_208.jpg"
+                },
+                {
+                    "name": "Air New Zealand",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_204.jpg"
+                },
+                {
+                    "name": "Jazeera",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_189.jpg"
+                },
+                {
+                    "name": "Air France",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_199.jpg"
+                },
+                {
+                    "name": "Maldavian",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_194.jpg"
                 }
             ]
         },
@@ -1061,6 +1113,14 @@
                 {
                     "name": "Vietnam Airlines (Visit Vietnam livery)",
                     "texture": "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_155.jpg"
+                },
+                {
+                    "name": "Singapore Airlines",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_196.jpg"
+                },
+                {
+                    "name": "Malaysia Airlines",
+                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_212.jpg"
                 }
             ]
         },
