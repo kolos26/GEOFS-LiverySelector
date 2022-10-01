@@ -98,7 +98,7 @@ function listLiveries(){
         dropdown.style.display = "block";
         dropdown.setAttribute("id", geofs.aircraft.instance.id + "_" + e.name + "_button");
         document.getElementById("liverylist").appendChild(dropdown);
-        dropdown.setAttribute("onclick", 'loadLivery(["'+ e.texture +'"], ['+ index +"], ["+ parts +"])")
+        dropdown.setAttribute("onclick", 'loadLivery(["'+ e.texture.toString().replaceAll(',', '","') +'"], ['+ index +"], ["+ parts +"])")
     })
     sortList("liverylist");
     loadFavorites();
