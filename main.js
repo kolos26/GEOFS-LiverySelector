@@ -9,13 +9,13 @@ async function init(){
     // Panel for list
     
     let listdiv = document.createElement("div");
-    listdiv.innerHTML = '<ul data-noblur="true" data-onshow="{geofs.initializePreferencesPanel()}" data-onhide="{geofs.savePreferencesPanel()}" class="geofs-list geofs-toggle-panel geofs-autoland-list geofs-preferences"><h3>Livery Selector</h3><div class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="width: 100%; padding-right: 86px;"><input class="mdl-textfield__input address-input" type="text" id="address" placeholder="Search liveries" onkeydown="search(this.value)" id="searchlivery"><label class="mdl-textfield__label" for="searchlivery">Search liveries</label></div><h6>Favorite liveries</h6><ul id="favorites" class="geofs-list geofs-visible"></ul><h6>Available liveries</h6><ul id="liverylist" class=" geofs-list geofs-visible"></ul></ul>'
+    listdiv.innerHTML = '<ul data-noblur="true" data-onshow="{geofs.initializePreferencesPanel()}" data-onhide="{geofs.savePreferencesPanel()}" class="geofs-list geofs-toggle-panel geofs-autoland-list geofs-preferences"><h3><img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/476df50f652cad420b5cd09684d65b7cf0e447c9/liveryselector-logo.svg" width="95%" title="Livery selector" style="display: block; margin-left: auto; margin-right: auto;"/></h3><div class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="width: 100%; padding-right: 86px;"><input class="mdl-textfield__input address-input" type="text" id="address" placeholder="Search liveries" onkeydown="search(this.value)" id="searchlivery"><label class="mdl-textfield__label" for="searchlivery">Search liveries</label></div><h6>Favorite liveries</h6><ul id="favorites" class="geofs-list geofs-visible"></ul><h6>Available liveries</h6><ul id="liverylist" class=" geofs-list geofs-visible"></ul></ul>'
 
     document.getElementsByClassName("geofs-ui-left")[0].appendChild(listdiv);
 
     // Button for panel
     let buttonDiv = document.createElement("div");
-    buttonDiv.innerHTML = '<button class="mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly" data-toggle-panel=".geofs-autoland-list" data-tooltip-classname="mdl-tooltip--top" id="liverybutton" tabindex="0" data-upgraded=",MaterialButton" onclick="listLiveries()">LIVERY</button>' //onclick="listLiveries()"
+    buttonDiv.innerHTML = '<button class="mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly" data-toggle-panel=".geofs-autoland-list" data-tooltip-classname="mdl-tooltip--top" id="liverybutton" tabindex="0" data-upgraded=",MaterialButton" onclick="listLiveries()" title="Change livery">LIVERY<img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/0230cb5c8438a70b770ff56fed81dfec6f4e9014/liveryselector-logo-small.svg" height="30px"/></button>'
     document.body.appendChild(buttonDiv);
     document.getElementsByClassName("geofs-ui-bottom")[0].appendChild(buttonDiv);
     let element = document.getElementById("liverybutton");
@@ -30,7 +30,6 @@ async function init(){
 
     await fetch("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/livery.json").then(res => res.json()).then(data => liveryobj = data)
 
-
     //remove original buttons
 
     document.querySelectorAll('[data-livery]').forEach(function(e){
@@ -39,17 +38,20 @@ async function init(){
 
 }
 
-function loadLivery(texture, mode, parts){
+function loadLivery(texture, index, parts){
     //change livery
-    parts.forEach(function(e){
+    //console.log(texture.length);
+    for(let i = 0; i<texture.length; i++){
+        //console.log(i)
+        //console.log(texture[i]+"-"+mode[i]+"-"+parts[i]);
         if (geofs.version == 2.9) {
-            geofs.api.Model.prototype.changeTexture(texture, mode, geofs.aircraft.instance.definition.parts[e]["3dmodel"]);
+            geofs.api.Model.prototype.changeTexture(texture[i], index[i], geofs.aircraft.instance.definition.parts[parts[i]]["3dmodel"]);
             } else {
-            geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[e]["3dmodel"]._model, texture, mode);
+            geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[parts[i]]["3dmodel"]._model, texture[i], index[i]);
         }
         //change multiplayer texture
         multiplayertexture = texture;
-    });
+    };
 }
 
 function sortList(id) {
@@ -78,21 +80,25 @@ function listLiveries(){
 
     let airplane = geofs.aircraft.instance.id;
 
-    let mode = liveryobj.aircrafts[airplane].mode;
+    let index = liveryobj.aircrafts[airplane].index;
     let parts = liveryobj.aircrafts[airplane].parts;
 
     liveryobj.aircrafts[airplane].liveries.forEach(function(e){
         var dropdown = document.createElement('li');
+//        dropdown.setAttribute("style", "display: table;")
+        dropdown.setAttribute("onpointerenter", "this.style.background='#dedede'");
+        dropdown.setAttribute("onpointerleave", "this.style.background='#ffffff'");
         dropdown.innerHTML = e.name;
         let star = document.createElement("span");
         star.setAttribute("class", "fa fa-star nocheck");
         star.setAttribute("id", geofs.aircraft.instance.id + "_" + e.name);
         star.setAttribute("onclick", "star(this)");
+        star.setAttribute("style", "float: right; padding-top: 15px;")
         dropdown.appendChild(star);
         dropdown.style.display = "block";
         dropdown.setAttribute("id", geofs.aircraft.instance.id + "_" + e.name + "_button");
         document.getElementById("liverylist").appendChild(dropdown);
-        dropdown.setAttribute("onclick", "loadLivery('"+ e.texture +"', "+ mode +", ["+ parts +"])")
+        dropdown.setAttribute("onclick", 'loadLivery(["'+ e.texture +'"], ['+ index +"], ["+ parts +"])")
     })
     sortList("liverylist");
     loadFavorites();
@@ -100,7 +106,7 @@ function listLiveries(){
 }
 
 function search(text){
-    console.log("search");
+    //console.log("search");
     if (text === ""){
         listLiveries();
     }
@@ -120,10 +126,10 @@ function search(text){
 
 function star(element){
     let e = element.classList;
-    console.log(e);
-    console.log("clicked");
+    //console.log(e);
+    //console.log("clicked");
     if (e == "fa fa-star nocheck"){
-        console.log("checked");
+        //console.log("checked");
         let btn = document.getElementById(element.id +"_button");
         let fbtn = document.createElement("li");
         fbtn.innerText = btn.innerText;
@@ -137,7 +143,7 @@ function star(element){
 
     }
     else if (e == "fa fa-star checked"){
-        console.log("checked out");
+        //console.log("checked out");
         document.getElementById("favorites").removeChild(document.getElementById(element.id + "_favorite"));
         let list = localStorage.favorites.split(",");
         let index = list.indexOf(element.id);
@@ -154,13 +160,13 @@ function star(element){
 function loadFavorites(){
     document.getElementById("favorites").innerHTML = "";
     let list = localStorage.favorites.split(",");
-    console.log(list);
+    //console.log(list);
     let airplane =  geofs.aircraft.instance.id;
     list.forEach(function(e){
-        console.log(e.slice(0, airplane.length));
+        //console.log(e.slice(0, airplane.length));
         if ((airplane == e.slice(0, airplane.length)) && (e.charAt(airplane.length) == "_")){
             star(document.getElementById(e));
-            console.log(document.getElementById("favorites").innerHTML);
+            //console.log(document.getElementById("favorites").innerHTML);
         }
     })
 }
