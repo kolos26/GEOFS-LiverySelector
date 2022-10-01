@@ -74,9 +74,8 @@ I plan to support these aircrafts:
 ## Feedback
 
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
-Please fill out this anonymous survey, to help my work, and let me know which aircraft would you like to fly the most.
+Please fill out [this anonymous survey,](https://forms.gle/6j9XmhJgpdoWwTTJ6)  to help my work, and let me know which aircraft would you like to fly the most.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKopwP5x6kFOdF0QooRUGbyXjREAba_i5JJIa3DgiGX9lAtw/viewform?embedded=true" width="640" height="2251" frameborder="0" marginheight="0" marginwidth="0">Betöltés…</iframe>
 
 ## Known issues
 
