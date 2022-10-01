@@ -53,6 +53,7 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Boeing b767-300er
 - Boeing b787-9
 - Boeing b787-10
+- Bombardier CRJ-700
 - P8 Poseidon
 - Airbus a220-300
 - Airbus a319-100
@@ -68,17 +69,18 @@ In this time near all basic aircrafts are supported witch has originally more th
 I plan to support these aircrafts:
 - b787-8
 - dc3
-- crj-700
 - a320-214
 
 ## Feedback
 
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
+Please fill out this anonymous survey, to help my work, and let me know which aircraft would you like to fly the most.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKopwP5x6kFOdF0QooRUGbyXjREAba_i5JJIa3DgiGX9lAtw/viewform?embedded=true" width="640" height="2251" frameborder="0" marginheight="0" marginwidth="0">Betöltés…</iframe>
 
 ## Known issues
 
-- Livereies with partial texture files are not working, I will fix it as soon as it's possible.
-- Multiplayer visibility will be developed in the next version.
+- Version 1 works no longer, please update to 2.0.0!
 
 ## How to contribute?
 
