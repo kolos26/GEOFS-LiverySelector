@@ -74,7 +74,7 @@ I plan to support these aircrafts:
 ## Feedback
 
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
-Please fill out [this anonymous survey,](https://forms.gle/6j9XmhJgpdoWwTTJ6)  to help my work, and let me know which aircraft would you like to fly the most.
+Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to help my work, and let me know which aircraft would you like to fly the most.
 
 
 ## Known issues
@@ -85,7 +85,7 @@ Please fill out [this anonymous survey,](https://forms.gle/6j9XmhJgpdoWwTTJ6)  t
 
 I'm very happy if you contribute new liveries to this livery project!
 
-At the time you can contribute liveries to the original Multiliveries aircrafts, the b737-700, a350-900, a350-1000, b757-200 and b767-300er.
+At the time you can contribute liveries to the original Multiliveries aircrafts (b787-9, b787-10, b737-8, a320neo, a220-300, a319-100), the b737-700, a350-900, a350-1000, b757-200, b767-300er and ATR 72-600.
 
 Here you can find the maps, that you can paint out:
 - [Boeing b737-700](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-700.png)
@@ -96,13 +96,14 @@ Here you can find the maps, that you can paint out:
 - [Airbus a319-100](https://i.ibb.co/vkzQX1L/A319-New-UV.jpg)
 - [Airbus a320neo](https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/Base%20Maps/plain_2.jpg)
 - [Airbus a350-100 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-1000.png)
+- [ATR 72-600](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/atr72.jpg)
 
 For these aircrafts (created by GX Development), instead of using maps, you can repaint the original texture files:
 - [Boeing b757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
 - [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
 - [Airbus a350-900](https://geo-fs.com/backend/aircraft/repository/GXD05OQ_166617_239/texture.png)
 
-> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**.
+> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**, if you are sending it as an issue, please add a "livery" label too, to make the process faster.
 
 ## Resources
 
