@@ -560,6 +560,14 @@
                 {
                     "name": "Aurigny Air Service",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/aurigny.jpg"]
+                },
+                {
+                    "name": "American Eagle",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/americaneagle.png"]
+                },
+                {
+                    "name": "Tuninter",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/tuninter.png"]
                 }
             ]
         },
@@ -1107,7 +1115,7 @@
                     "texture": ["/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_16.jpg"]
                 },
                 {
-                    "name": "WestJet",
+                    "name": "WestJet (new design)",
                     "texture": ["/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_17.2.jpg"]
                 },
                 {
@@ -1157,6 +1165,13 @@
                 {
                     "name": "SpiceJet",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_192.jpg"]
+                },
+                {
+                    "name": "WestJet (old design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_212.5.jpg"]
+                },
+                {
+                    
                 }
             ]
         },
