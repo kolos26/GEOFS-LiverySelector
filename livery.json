@@ -550,7 +550,7 @@
                     "texture": ["/backend/aircraft/repository/New%20P-Series_267286_2418/texture_5.jpg"]
                 },
                 {
-                    "name": "UTair",
+                    "name": "UTair (new design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/UTair.png"]
                 },
                 {
@@ -571,7 +571,23 @@
                 },
                 {
                     "name": "Aer Lingus",
-                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/aerlingus.png"]
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/aerlingus.jpg"]
+                },
+                {
+                    "name": "UTair (old design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/utairold.png"]
+                },
+                {
+                    "name": "TransAsia",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/transasia.png"]
+                },
+                {
+                    "name": "TransAsia Cargo",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/transasiacargo.png"]
+                },
+                {
+                    "name": "Lao Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/laoair.png"]
                 }
             ]
         },
