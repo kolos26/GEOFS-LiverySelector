@@ -410,7 +410,12 @@
                 {
                     "name": "Fiji Airways",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji.png"]
+                },
+                {
+                    "name": "SAS",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sas.png"]
                 }
+
             ]
         },
         "2879": {
@@ -485,7 +490,7 @@
                     "texture": ["/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_98.5.jpg"]
                 },
                 {
-                    "name": "BEA",
+                    "name": "BEA (British Airways retro livery)",
                     "texture": ["/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_97.5.jpg"]
                 },
                 {
@@ -543,6 +548,10 @@
                 {
                     "name": "Czechia Air Force",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Texture_278.jpg"]
+                },
+                {
+                    "name": "Alitalia",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Alitalia_A319.png"]
                 }
             ]
         },
@@ -1134,6 +1143,10 @@
                 {
                     "name": "KLM",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_245.5.jpg"]
+                },
+                {
+                    "name": "BOC Aviation",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/BOC%20A320neo.png"]
                 }
             ]
         },
@@ -1283,8 +1296,12 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_251.jpgs"]
                 },
                 {
-                    "name": "Boeing house livery",
+                    "name": "Boeing house livery (new desing)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_252.jpg"]
+                },
+                {
+                    "name": "Boeing house livery (old desing)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/BoeingHouseNew738.png"]
                 }
             ]
         },
@@ -1401,201 +1418,245 @@
             "liveries": [
                 {
                     "name": "Spicejet",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_260.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_260.5.jpg"]
+                },
                 {
                     "name": "Norwegian",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_261.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_261.5.jpg"]
+                },
                 {
                     "name": "EL AL UP",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_269.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_269.jpg"]
+                },
                 {
                     "name": "Fly Dubai",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2.jpg"]
+                },
                 {
                     "name": "Aerolines Argentinas",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_3.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_3.jpg"]
+                },
                 {
                     "name": "Turkish Airlines",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_5.jpg"]
+                },
                 {
                     "name": "Garuda Indonesia",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_16.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_16.jpg"]
+                },
                 {
                     "name": "Oman Air",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_14.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_14.jpg"]
+                },
                 {
                     "name": "Malaysia Airlines",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_8.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_8.jpg"]
+                },
                 {
                     "name": "Royal Air Maroc",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_13.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_13.jpg"]
+                },
                 {
                     "name": "Westjet Cargo",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_261.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_261.jpg"]
+                },
                 {
                     "name": "Jet Airways",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_262.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_262.jpg"]
+                },
                 {
                     "name": "Mercado livre",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_263.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_263.jpg"]
+                },
                 {
                     "name": "Southwest (freedom livery)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_264.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_264.jpg"]
+                },
                 {
                     "name": "Boeing house livery",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_266.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_266.jpg"]
+                },
                 {
                     "name": "Air Transat",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_267.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_267.jpg"]
+                },
                 {
                     "name": "Privatair",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_287.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_287.jpg"]
+                },
                 {
                     "name": "Alaska (new design)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_268.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_268.jpg"]
+                },
                 {
                     "name": "Alaska (old design)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_283.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_283.5.jpg"]
+                },
                 {
                     "name": "KLM",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_280.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_280.5.jpg"]
+                },
                 {
                     "name": "TUI",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_282.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_282.5.jpg"]
+                },
+                {
+                    "name": "TUI (white design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/TUI%20737-800%20White.jpg"]
+                },
                 {
                     "name": "Thomson",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_283.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_283.jpg"]
+                },
                 
                 {
                     "name": "Blue Air (new design)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_280.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_280.jpg"]
+                },
                 {
                     "name": "Blue Air (old design)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_290.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_290.5.jpg"]
+                },
                 {
                     "name": "Ryan Air",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_284.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_284.jpg"]
+                },
+                {
+                    "name": "Ryan Air (UK colors)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/RyanairUK%20738.jpg"]
+                },
                 {
                     "name": "Ryan Air (Boeing house design)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_289.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_289.jpg"]
+                },
                 {
                     "name": "Transavia",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_281.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_281.jpg"]
+                },
                 {
                     "name": "Avelo",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_281.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_281.5.jpg"]
+                },
                 {
-                    "name": "Qantas retro (50s)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_285.jpg"
-                    },
+                    "name": "Qantas (50s retro livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_285.jpg"]
+                },
                 {
-                    "name": "Qantas retro (60s)",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_282.jpg"
-                    },
+                    "name": "Qantas (60s retro livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_282.jpg"]
+                },
                 {
                     "name": "Qantas",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_288.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_288.jpg"]
+                },
                 {
                     "name": "Jet2holidays",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_287.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_287.5.jpg"]
+                },
                 {
                     "name": "Virgin Australia",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_286.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_286.jpg"]
+                },
                 {
                     "name": "REX",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_286.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_286.5.jpg"]
+                },
                 {
                     "name": "Copa Airlines",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_288.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_288.5.jpg"]
+                },
                 {
                     "name": "JAL",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_285.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_285.5.jpg"]
+                },
                 {
                     "name": "DHL",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_284.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_284.5.jpg"]
+                },
                 {
                     "name": "American Airlines",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_289.5.jpg"
-                    },
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_289.5.jpg"]
+                },
                 {
                     "name": "Delta",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_291.5.jpg"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_291.5.jpg"]
+                },
+                {
                     "name": "Westjet",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_293.5.jpg"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_293.5.jpg"]
+                },
+                {
                     "name": "Tarom",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_292.5.jpg"
-                    },
-                        {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_292.5.jpg"]
+                },
+                {
                     "name": "Fedex",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_294.5.jpg"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_294.5.jpg"]
+                },
+                {
                     "name": "Ethiopian Cargo",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/b597aa3fe2b5d76d6ed4aa8b6628e01fe57483f5/texture%20295.5.jpg"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/b597aa3fe2b5d76d6ed4aa8b6628e01fe57483f5/texture%20295.5.jpg"]
+                },
+                {
                     "name": "Kargo Xpress",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture%20296.5.png"
-                 },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture%20296.5.png"]
+                },
+                {
                     "name": "Southwest",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_297.5.jpg"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_297.5.jpg"]
+                },
+                {
                     "name": "Travel service",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_296.5.jpg"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_296.5.jpg"]
+                },
+                {
                     "name": "Yemenia",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_298.5.jpg"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_298.5.jpg"]
+                },
+                {
                     "name": "Continental",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture%20299.5.png"
-                    },
-                    {
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture%20299.5.png"]
+                },
+                {
                     "name": "AeroMexico",
-                    "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture%20300.5.png"
-                    }
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture%20300.5.png"]
+                },
+                {
+                        "name": "Continental",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture%20299.5.png"]
+                },
+                {
+                        "name": "Chrono Cargo",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ChronoCargo%20738.jpg"]
+                },
+                {
+                        "name": "Air Pacific",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirPacificFiji%20738.png"]
+                },
+                {
+                        "name": "Asky",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Asky%20738.png"]
+                },
+                {
+                        "name": "West Atlantic",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/West_atlantic_737-800.png"]
+                },
+                {
+                        "name": "Eastar jet",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Eastarjet%20738.png"]
+                },
+                {
+                        "name": "China Eastern",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ChineEastern%20738.jpg"]
+                },
+                {
+                    "name": "KLM (retro livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/KLM_retro_737-800.png"]
+                },
+                {
+                    "name": "Sundor",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_300.jpg"]
+                }
         ]
         }
     }

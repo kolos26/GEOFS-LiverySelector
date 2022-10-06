@@ -48,6 +48,7 @@ For the first time you need to paste this line into the console:
 
 In this time near all basic aircrafts are supported witch has originally more than one livery.The list of supported aircrafts with extra liveries is:
 - Boeing b737-700
+- Boeing b737-800
 - Boeing b737-8
 - Boeing b757-200
 - Boeing b767-300er
