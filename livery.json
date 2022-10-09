@@ -120,6 +120,10 @@
                 {
                     "name": "Avelo",
                     "texture": ["https://i.ibb.co/YTJc2dr/avelo.jpg"]
+                },
+                {
+                    "name": "Turkish Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/turkish.png"]
                 }
             ]
         },
@@ -160,8 +164,12 @@
                     "texture": ["https://i.ibb.co/xg2Q4CR/BA-a380-1.jpg"]
                 },
                 {
-                    "name": "Lufthansa",
+                    "name": "Lufthansa (new design)",
                     "texture": ["https://i.ibb.co/6DXstZF/lufthansa.jpg"]
+                },
+                {
+                    "name": "Lufthansa (old design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/lufthansaold.png"]
                 },
                 {
                     "name": "Qatar Airways",
@@ -170,6 +178,18 @@
                 {
                     "name": "Korean Air Lines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/korean.png"]
+                },
+                {
+                    "name": "Emirates (Dubai expo livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesexpo.png"]
+                },
+                {
+                    "name": "Etihad (Airbus house design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/etihadpartial.png"]
+                },
+                {
+                    "name": "Malaysia Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/malaysia.png"]
                 }
             ]
         },
@@ -613,6 +633,10 @@
                 {
                     "name": "Lao Airlines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/laoair.png"]
+                },
+                {
+                    "name": "United Nations",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/un.jpg"]
                 }
             ]
         },
@@ -784,6 +808,30 @@
                 {
                     "name": "BOC Aviation",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_249.jpg"]
+                },
+                {
+                    "name": "ANA (operated by Air Japan)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/ana.png"]
+                },
+                {
+                    "name": "Ethiopian",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/ethiopian.png"]
+                },
+                {
+                    "name": "Qatar Airways",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/qatar.png"]
+                },
+                {
+                    "name": "Saudia",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/saudia.png"]
+                },
+                {
+                    "name": "Vietnam Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/vietnam.png"]
+                },
+                {
+                    "name": "WestJet",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/westjet.png"]
                 }
             ]
         },
@@ -1151,6 +1199,10 @@
                 {
                     "name": "BOC Aviation",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/BOC%20A320neo.png"]
+                },
+                {
+                    "name": "Air Corsica",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/aircorsica.png"]
                 }
             ]
         },

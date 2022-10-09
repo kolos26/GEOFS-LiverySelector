@@ -97,6 +97,7 @@ Here you can find the maps, that you can paint out:
 - [Airbus a319-100](https://i.ibb.co/vkzQX1L/A319-New-UV.jpg)
 - [Airbus a320neo](https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/Base%20Maps/plain_2.jpg)
 - [Airbus a350-100 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-1000.png)
+- [Airbus a380](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a380.jpg)
 - [ATR 72-600](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/atr72.jpg)
 
 For these aircrafts (created by GX Development), instead of using maps, you can repaint the original texture files:
