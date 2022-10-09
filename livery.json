@@ -190,6 +190,10 @@
                 {
                     "name": "Malaysia Airlines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/malaysia.png"]
+                },
+                {
+                    "name": "Singapore Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/singapore.jpg"]
                 }
             ]
         },
@@ -209,7 +213,7 @@
                     "texture": ["/models/aircraft/premium/dhc2/texture_2.jpg"]
                 },
                 {
-                    "name": "N295B White-Brown",
+                    "name": "N297B White-Brown",
                     "texture": ["/models/aircraft/premium/dhc2/texture_3.jpg"]
                 },
                 {
