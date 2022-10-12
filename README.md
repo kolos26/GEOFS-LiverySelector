@@ -86,7 +86,7 @@ Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to
 
 I'm very happy if you contribute new liveries to this livery project!
 
-At the time you can contribute liveries to the original Multiliveries aircrafts (b787-9, b787-10, b737-8, a320neo, a220-300, a319-100), the b737-700, a350-900, a350-1000, b757-200, b767-300er and ATR 72-600.
+At the time you can contribute liveries to the original Multiliveries aircrafts (b787-9, b787-10, b737-8, a320neo, a220-300, a319-100), the b737-700, a350-900, a350-1000, b757-200, b767-300er, erj145lr and ATR 72-600.
 
 Here you can find the maps, that you can paint out:
 - [Boeing b737-700](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-700.png)
@@ -99,6 +99,7 @@ Here you can find the maps, that you can paint out:
 - [Airbus a350-100 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-1000.png)
 - [Airbus a380](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a380.jpg)
 - [ATR 72-600](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/atr72.jpg)
+- [Embraer erj145LR](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/erk145lr.png)
 
 For these aircrafts (created by GX Development), instead of using maps, you can repaint the original texture files:
 - [Boeing b757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
