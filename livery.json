@@ -1718,6 +1718,23 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_300.jpg"]
                 }
         ]
+        },
+        "4017": {
+            "index": [1],
+            "parts": [0],
+            "liveries": [{
+                "name": "HOP!",
+                "texture": ["https://i.ibb.co/92db7y7/HOP-AF-better.png"]
+            },
+            {
+                "name": "Loganair",
+                "texture": ["https://raw.githubusercontent.com/iuhairways/GeoFS-addons/main/Liveries/loganair.jpg"]
+            },
+            {
+                "name": "Loganair (white design)",
+                "texture": ["https://raw.githubusercontent.com/iuhairways/GeoFS-addons/main/Liveries/loganairwhite.jpg"]
+            }
+        ]
         }
     }
 }
