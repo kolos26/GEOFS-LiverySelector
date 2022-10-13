@@ -64,6 +64,7 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Airbus a380
 - Concorde
 - ATR-72
+- Embraer erj145LR
 
 ### Planned aircrafts
 
