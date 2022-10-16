@@ -124,6 +124,10 @@
                 {
                     "name": "Turkish Airlines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/turkish.png"]
+                },
+                {
+                    "name": "Aeroloneas Argentinas",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/argentinas.png"]
                 }
             ]
         },
@@ -644,6 +648,22 @@
                 {
                     "name": "United Nations",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/un.jpg"]
+                },
+                {
+                    "name": "Cebu Pacific (old design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/cebuold.png"]
+                },
+                {
+                    "name": "Cebu Pacific (new design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/cebunew.png"]
+                },
+                {
+                    "name": "Air Corsica",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/corsica.png"]
+                },
+                {
+                    "name": "Czech Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/csa.jpg"]
                 }
             ]
         },
