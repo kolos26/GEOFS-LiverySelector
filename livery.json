@@ -132,6 +132,10 @@
                 {
                     "name": "United (new design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/unitednew.jpg"]
+                },
+                {
+                    "name": "Air North",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airnorth.png"]
                 }
             ]
         },
@@ -319,6 +323,10 @@
                 {
                     "name": "Aerospatiale France - British Aircraft Corporation house livery",
                     "texture": ["/models/aircraft/premium/concorde/texture_3.jpg"]
+                },
+                {
+                    "name": "British Airways - Singapore Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/singapore.png"]
                 }
             ]
         },
@@ -717,7 +725,7 @@
                 },
                 {
                     "name": "FlyBe",
-                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/flybe.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/flybe.png"]
                 }
             ]
         },
@@ -953,6 +961,50 @@
                 {
                     "name": "North West",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/North%20West%20787-9.png"]
+                },
+                {
+                    "name": "Hainan Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/hainan.png"]
+                },
+                {
+                    "name": "Japan Airways (Oneworld livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/japanone.png"]
+                },
+                {
+                    "name": "Latam",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/latam.png"]
+                },
+                {
+                    "name": "Neos",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/neos.png"]
+                },
+                {
+                    "name": "Suparna Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/suparna.png"]
+                },
+                {
+                    "name": "Shanghai Airways",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/shanghai.png"]
+                },
+                {
+                    "name": "TUI fly Nordic",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/tui.png"]
+                },
+                {
+                    "name": "Oman Air",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/oman.png"]
+                },
+                {
+                    "name": "LOT (Proud of Poland's Independence livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/lotindependence.png"]
+                },
+                {
+                    "name": "Air New Zealand (old design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/newzealandwhite.png"]
+                },
+                {
+                    "name": "Air New Zealand (new design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/newzealandblack.png"]
                 }
             ]
         },
