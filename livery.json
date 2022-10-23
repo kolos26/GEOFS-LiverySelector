@@ -34,7 +34,7 @@
                     "texture": ["/models/aircraft/premium/737_700/texture_0.jpg"]
                 },
                 {
-                    "name": "United",
+                    "name": "United (old design)",
                     "texture": ["/models/aircraft/premium/737_700/texture_1.jpg"]
                 },
                 {
@@ -127,6 +127,10 @@
                 },
                 {
                     "name": "Aeroloneas Argentinas",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/argentinas.png"]
+                },
+                {
+                    "name": "United (new design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/argentinas.png"]
                 }
             ]
@@ -530,7 +534,7 @@
                 },
                 {
                     "name": "BEA (British Airways retro livery)",
-                    "texture": ["/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_97.5.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/bea.jpg"]
                 },
                 {
                     "name": "Easyjet (old design)",
@@ -591,6 +595,10 @@
                 {
                     "name": "Alitalia",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Alitalia_A319.png"]
+                },
+                {
+                    "name": "Air Malta",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/malta.jpg"]
                 }
             ]
         },
@@ -680,6 +688,14 @@
                 {
                     "name": "Czech Airlines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/csa.jpg"]
+                },
+                {
+                    "name": "Blue Islands",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/blueislands.jpg"]
+                },
+                {
+                    "name": "FlyBe",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/flybe.jpg"]
                 }
             ]
         },
@@ -1246,6 +1262,10 @@
                 {
                     "name": "Air Corsica",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/aircorsica.png"]
+                },
+                {
+                    "name": "Austrian Airlines (#makechangefly livery)",
+                    "texture": ["https://raw.githubusercontent.com/iuhairways/GeoFS-addons/main/Liveries/austrian%20(good).jpg"]
                 }
             ]
         },
@@ -1536,7 +1556,7 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_3.jpg"]
                 },
                 {
-                    "name": "Turkish Airlines",
+                    "name": "Turkish Airlines (new design)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_5.jpg"]
                 },
                 {
@@ -1774,6 +1794,18 @@
                 },
                 {
                     "name": "t'way Air",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/tway.png"]
+                },
+                {
+                    "name": "Xiamen Airlines",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/xiamen.png"]
+                },
+                {
+                    "name": "Pegasus",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/pegasus.png"]
+                },
+                {
+                    "name": "Turkish Airlines (old design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/tway.png"]
                 }
         ]
