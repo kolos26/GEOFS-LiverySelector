@@ -599,6 +599,10 @@
                 {
                     "name": "Air Malta",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/malta.jpg"]
+                },
+                {
+                    "name": "Spirit (retro livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/ed18c7ac37544f45428159145452bc2f5817c372/Spirit%20Old%20A319%20FINAL.png"]
                 }
             ]
         },
@@ -891,6 +895,46 @@
                 {
                     "name": "WestJet",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/westjet.png"]
+                },
+                {
+                    "name": "AeroMexico (Quetzalcoatl design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AeroMexico%20Quetzalcoatl%20787-9.png"]
+            },
+                {
+                    "name": "China Eastern",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/China%20Eastern%20787-9.png"]
+            },
+                {
+                    "name": "Oman Air",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Oman%20Air%20787-9.jpg"]
+                },
+                {
+                    "name": "China Airlines",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/China_Airlines_787-9.png"]
+                },
+                {
+                    "name": "Emirates",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Emirates%20787-9.png"]
+                },
+                {
+                    "name": "China Soutern",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/China_Southern_787-9_Final.png "]
+                },
+                {
+                    "name": "EL AL (USA livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/El%20Al%20USA%20787-9.png"]
+                },
+                {
+                    "name": "Emirates (Dubai expo livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Emirates%20Expo%202020%20787-9.png"]
+                },
+                {
+                    "name": "United (retro livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/United%20Saul%20Bass%20787-9.png"]
+                },
+                {
+                    "name": "North West",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/North%20West%20787-9.png"]
                 }
             ]
         },
@@ -1266,7 +1310,47 @@
                 {
                     "name": "Austrian Airlines (#makechangefly livery)",
                     "texture": ["https://raw.githubusercontent.com/iuhairways/GeoFS-addons/main/Liveries/austrian%20(good).jpg"]
-                }
+                },
+                {
+                    "name": "Lauda",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Lauda%20A320n.png"]
+                },
+                {
+                    "name": "Alaska Airlines",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_308.jpg"]
+            },
+                {
+                    "name": "Korean Air",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Korean%20A320neo.png"]
+            },
+                {
+                    "name": "Havaiian",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_301.2.jpg"]
+            },
+                {
+                    "name": "Fits Air",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Fits%20Air%20A320neo.png"]
+            },
+                {
+                    "name": "Uzbekistan Airways",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Uzbekistan%20Airways%20A320neo.png"]
+            },
+            {
+                "name": "Lufthansa (Lovehansa design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Lufthansa%20Lovehansa%20A320neo.png"]
+            },
+            {
+                "name": "Jet Airways",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Jet_airways_A320Neo.png"]
+            },
+            {
+                "name": "Cambodia Angkor Air",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Cambodia%20Angkor%20Air%20A320neo.png"]
+            },
+            {
+                "name": "Hamburg Airways",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Hambug%20Airways%20A320neo.png"]
+            }
             ]
         },
         "2769": {
@@ -1327,7 +1411,7 @@
                     "texture": ["/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_11.jpg"]
                 },
                 {
-                    "name": "Iceland Air",
+                    "name": "Icelandair",
                     "texture": ["/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_12.jpg"]
                 },
                 {
@@ -1421,6 +1505,10 @@
                 {
                     "name": "Boeing house livery (old desing)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/BoeingHouseNew738.png"]
+                },
+                {
+                    "name": "Flyr",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Flyr_737_MAX_8.png"]
                 }
             ]
         },
@@ -1490,7 +1578,15 @@
                 {
                     "name": "Ethiopian",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_270.jpg"]
-                }
+                },
+                {
+                    "name": "Vietnam Airlines",
+                    "texture": ["https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_41.jpg"]
+                },
+            {
+                "name": "Air New Zealand",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_New_Zealand_78X.png"]
+            }
             ]
         },
         "3292": {
@@ -1807,7 +1903,39 @@
                 {
                     "name": "Turkish Airlines (old design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/tway.png"]
-                }
+                },
+                    {
+                        "name": "ASL Airlines",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ASL%20Airlines%20738.jpg"]
+                },
+                {
+                        "name": "Jewel Airlines",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Jewel%20Airlines%20738.png"]
+                },
+                    {
+                        "name": "Eurowings",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_303.jpg"]
+                },
+                    {
+                        "name": "SpiceXpress",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_305.jpg"]
+                },
+                    {
+                        "name": "Prime Air",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_306.jpg"]
+                },
+                    {
+                        "name": "Icelandair",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_307.jpg"]
+                },
+                    {
+                        "name": "Avolon",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Avolon%20737-8.png"]
+                    },
+                    {
+                        "name": "Air Incheon",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_334.jpg"]
+                    }
         ]
         },
         "4017": {
@@ -1837,6 +1965,62 @@
                 "name": "Swiss Air",
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/swiss.png"]
             },
+                {
+                    "name": "TWA",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_331.jpg"]
+                },
+                {
+                    "name": "Air France Regional",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_330.jpg"]
+                },
+                {
+                    "name": "Trans States Airlines",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_329.jpg"]
+                },
+                {
+                    "name": "Air Zimbabwe",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_323.jpg"]
+                },
+                {
+                    "name": "Air Djibouti",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_322.jpg"]
+                },
+                {
+                    "name": "Zimbabwe Airways",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_321.jpg"]
+                },
+                {
+                    "name": "Amelia",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_320.jpg"]
+                },
+                {
+                    "name": "American jet",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_319.jpg"]
+                },
+                {
+                    "name": "ACJC",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_318.jpg"]
+                },
+                {
+                    "name": "United Express",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_316.jpg"]
+                },
+                {
+                    "name": "Calafia",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_315.jpg"]
+                },
+                {
+                    "name": "Fastjet",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_314.jpg"]
+                },
+                {
+                    "name": "Air Namibia",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_313.jpg"]
+                },
+                {
+                    "name": "Inter Caribbean",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_312.jpg"]
+                },
             {
                 "name": "Luxair",
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/luxair.png"]
