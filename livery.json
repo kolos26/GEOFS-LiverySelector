@@ -309,7 +309,7 @@
             "index": [4],
             "parts": [0],
             "liveries": [{
-                    "name": "British Airways",
+                    "name": "British Airways (new design)",
                     "texture": ["/models/aircraft/premium/concorde/texture_0.jpg"]
                 },
                 {
@@ -327,6 +327,14 @@
                 {
                     "name": "British Airways - Singapore Airlines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/singapore.png"]
+                },
+                {
+                    "name": "British Airways (old design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/britishold.jpg"]
+                },
+                {
+                    "name": "PanAm (planned livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/panam.jpg"]
                 }
             ]
         },
