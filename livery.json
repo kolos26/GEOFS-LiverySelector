@@ -192,7 +192,7 @@
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/korean.png"]
                 },
                 {
-                    "name": "Emirates (Dubai expo livery)",
+                    "name": "Emirates (Dubai Expo livery)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesexpo.png"]
                 },
                 {
@@ -637,6 +637,10 @@
                 {
                     "name": "Spirit (retro livery)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/ed18c7ac37544f45428159145452bc2f5817c372/Spirit%20Old%20A319%20FINAL.png"]
+                },
+                {
+                    "name": "American Airlines (West design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_346.jpg"]
                 }
             ]
         },
@@ -959,7 +963,7 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/El%20Al%20USA%20787-9.png"]
                 },
                 {
-                    "name": "Emirates (Dubai expo livery)",
+                    "name": "Emirates (Dubai Expo livery)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Emirates%20Expo%202020%20787-9.png"]
                 },
                 {
@@ -1013,6 +1017,18 @@
                 {
                     "name": "Air New Zealand (new design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/newzealandblack.png"]
+                },
+                {
+                    "name": "Qantas (Yam Dreaming livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Qantas%20Yam%20Dreaming%20787-9.jpg"]
+                },
+                {
+                    "name": "Emirates (Dubai Expo livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_344.jpg"]
+                },
+                {
+                    "name": "Boeing house livery",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Boeing_House_Livery_787-9.png"]
                 }
             ]
         },
@@ -1428,6 +1444,14 @@
             {
                 "name": "Hamburg Airways",
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Hambug%20Airways%20A320neo.png"]
+            },
+            {
+                "name": "Batik air",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Batik_air_a320neo.jpg"]
+            },
+            {
+                "name": "Azores Airlines",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_340.jpg"]
             }
             ]
         },
@@ -1587,6 +1611,10 @@
                 {
                     "name": "Flyr",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Flyr_737_MAX_8.png"]
+                },
+                {
+                    "name": "United (Star Wars - The rise of Skywalker livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/United_Star_Wars_737_Max_8.jpg"]
                 }
             ]
         },
@@ -1661,10 +1689,22 @@
                     "name": "Vietnam Airlines",
                     "texture": ["https://www.geo-fs.com/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_41.jpg"]
                 },
-            {
-                "name": "Air New Zealand",
-                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_New_Zealand_78X.png"]
-            }
+                {
+                    "name": "Air New Zealand",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_New_Zealand_78X.png"]
+                },
+                {
+                    "name": "Emirates (Dubai Expo livery - green design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_343.jpg"]
+                },
+                {
+                    "name": "Emirates (Dubai Expo livery - blue design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_342.jpg"]
+                },
+                {
+                    "name": "Emirates (Dubai Expo livery - gold design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_348.jpg"]
+                }
             ]
         },
         "3292": {
@@ -1816,7 +1856,7 @@
                 },
                 {
                     "name": "Ryan Air (UK colors)",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/RyanairUK%20738.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Ryanair%20UK%20737-800.png"]
                 },
                 {
                     "name": "Ryan Air (Boeing house design)",
@@ -2014,6 +2054,10 @@
                     {
                         "name": "Air Incheon",
                         "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_334.jpg"]
+                    },
+                    {
+                        "name": "Flair",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/FlairAir.png"]
                     }
         ]
         },
@@ -2044,66 +2088,85 @@
                 "name": "Swiss Air",
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/swiss.png"]
             },
+        {
+                "name": "TWA",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_331.jpg"]
+            },
             {
-
-                    "name": "TWA",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_331.jpg"]
-                },
-                {
-                    "name": "Air France Regional",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_330.jpg"]
-                },
-                {
-                    "name": "Trans States Airlines",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_329.jpg"]
-                },
-                {
-                    "name": "Air Zimbabwe",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_323.jpg"]
-                },
-                {
-                    "name": "Air Djibouti",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_322.jpg"]
-                },
-                {
-                    "name": "Zimbabwe Airways",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_321.jpg"]
-                },
-                {
-                    "name": "Amelia",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_320.jpg"]
-                },
-                {
-                    "name": "American jet",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_319.jpg"]
-                },
-                {
-                    "name": "ACJC",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_318.jpg"]
-                },
-                {
-                    "name": "United Express",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_316.jpg"]
-                },
-                {
-                    "name": "Calafia",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_315.jpg"]
-                },
-                {
-                    "name": "Fastjet",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_314.jpg"]
-                },
-                {
-                    "name": "Air Namibia",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_313.jpg"]
-                },
-                {
-                    "name": "Inter Caribbean",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_312.jpg"]
-                },
+                "name": "Air France Regional",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_330.jpg"]
+            },
             {
-                "name": "Luxair",
+                "name": "Trans States Airlines",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_329.jpg"]
+            },
+            {
+                "name": "Air Zimbabwe",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_323.jpg"]
+            },
+            {
+                "name": "Air Djibouti",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_322.jpg"]
+            },
+            {
+                "name": "Zimbabwe Airways",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_321.jpg"]
+            },
+            {
+                "name": "Amelia",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_320.jpg"]
+            },
+            {
+                "name": "American jet",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_319.jpg"]
+            },
+            {
+                "name": "ACJC",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_318.jpg"]
+            },
+            {
+                "name": "United Express (old design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_316.jpg"]
+            },
+            {
+                "name": "Calafia",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_315.jpg"]
+            },
+            {
+                "name": "Fastjet",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_314.jpg"]
+            },
+            {
+                "name": "Air Namibia",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_313.jpg"]
+            },
+            {
+                "name": "Inter Caribbean",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_312.jpg"]
+            },
+            {
+                "name": "Luxair (new design)",
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/luxair.png"]
+            },
+            {
+                "name": "British Airways",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/bae145.jpg"]
+            },
+            {
+                "name": "United Express (new design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/United%20Express%20E-145.png"]
+            },
+            {
+                "name": "Luxair (old design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Luxair%20E-145.png"]
+            },
+            {
+                "name": "Star Air",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_310.6.jpg"]
+            },
+            {
+                "name": "Embraer house livery",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Embraer%20House%20livery%20E-145.png"]
             }
         ]
         }
