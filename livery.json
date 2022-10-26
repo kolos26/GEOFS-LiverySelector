@@ -192,7 +192,7 @@
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/korean.png"]
                 },
                 {
-                    "name": "Emirates (Dubai Expo livery)",
+                    "name": "Emirates (Dubai Expo 2020 livery)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesexpo.png"]
                 },
                 {
@@ -210,6 +210,10 @@
                 {
                     "name": "China Shoutern",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinasoutern.jpg"]
+                },
+                {
+                    "name": "Emirates (Dubai Expo 2022 livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesexpo.png"]
                 }
             ]
         },
@@ -899,7 +903,7 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_256.jpg"]
                 },
                 {
-                    "name": "Aeroflot",
+                    "name": "Aeroflot (planned livery)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_275.jpg"]
                 },
                 {
@@ -963,10 +967,6 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/El%20Al%20USA%20787-9.png"]
                 },
                 {
-                    "name": "Emirates (Dubai Expo livery)",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Emirates%20Expo%202020%20787-9.png"]
-                },
-                {
                     "name": "United (retro livery)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/United%20Saul%20Bass%20787-9.png"]
                 },
@@ -1021,10 +1021,6 @@
                 {
                     "name": "Qantas (Yam Dreaming livery)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Qantas%20Yam%20Dreaming%20787-9.jpg"]
-                },
-                {
-                    "name": "Emirates (Dubai Expo livery)",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_344.jpg"]
                 },
                 {
                     "name": "Boeing house livery",
@@ -1692,18 +1688,6 @@
                 {
                     "name": "Air New Zealand",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_New_Zealand_78X.png"]
-                },
-                {
-                    "name": "Emirates (Dubai Expo livery - green design)",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_343.jpg"]
-                },
-                {
-                    "name": "Emirates (Dubai Expo livery - blue design)",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_342.jpg"]
-                },
-                {
-                    "name": "Emirates (Dubai Expo livery - gold design)",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_348.jpg"]
                 }
             ]
         },
@@ -2167,6 +2151,14 @@
             {
                 "name": "Embraer house livery",
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Embraer%20House%20livery%20E-145.png"]
+            },
+            {
+                "name": "Freedom Air",
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/freedom.jpg"]
+            },
+            {
+                "name": "Cross Air",
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/crossair.jpg"]
             }
         ]
         }
