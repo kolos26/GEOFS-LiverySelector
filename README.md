@@ -52,6 +52,7 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Boeing b737-8
 - Boeing b757-200
 - Boeing b767-300er
+- Boeing b787-8
 - Boeing b787-9
 - Boeing b787-10
 - Bombardier CRJ-700
@@ -69,7 +70,6 @@ In this time near all basic aircrafts are supported witch has originally more th
 ### Planned aircrafts
 
 I plan to support these aircrafts:
-- b787-8
 - dc3
 - a320-214
 
@@ -106,6 +106,7 @@ Here you can find the maps, that you can paint out:
 For these aircrafts (created by GX Development), instead of using maps, you can repaint the original texture files:
 - [Boeing b757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
 - [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
+- [Boeing b787-8](https://www.geo-fs.com/backend/aircraft/repository/GXD01E_126645_235/texture.png)
 - [Airbus a350-900](https://geo-fs.com/backend/aircraft/repository/GXD05OQ_166617_239/texture.png)
 
 > **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**, if you are sending it as an issue, please add a "livery" label too, to make the process faster.
