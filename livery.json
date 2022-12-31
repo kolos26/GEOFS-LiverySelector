@@ -170,10 +170,6 @@
                     "texture": ["https://i.ibb.co/rww1TpD/texture-4-1.jpg"]
                 },
                 {
-                    "name": "China Soutern",
-                    "texture": ["https://i.ibb.co/GCQ3qT2/1667215709650.png"]
-                },
-                {
                     "name": "British Airways",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/british.jpg"]
                 },
@@ -184,6 +180,14 @@
                 {
                     "name": "Philippine Airlines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/philippine.jpg"]
+                },
+                {
+                    "name": "Royal Australian Air Force",
+                    "texture": ["https://i.ibb.co/hcR28vY/raaf.jpg"]
+                },
+                {
+                    "name": "Air Europa",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aireuropa.jpg"]
                 }
             ]
         },
@@ -257,7 +261,7 @@
                 },
                 {
                     "name": "China Shoutern",
-                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinasoutern.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinashoutern.png"]
                 },
                 {
                     "name": "Emirates (Dubai Expo 2022 livery)",
@@ -280,7 +284,7 @@
                 },
                 {
                     "name": "Korean Air Lines (clearer design)",
-                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/koreaclearer.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/koreaclear.jpg"]
                 }
                 ]
         },
@@ -1323,6 +1327,10 @@
                 {
                     "name": "Airbus house livery (carbon fiber design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-1000/carbonfiber.png"]
+                },
+                {
+                    "name": "Air France Cargo",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-1000/airfrancecargo.jpg"]
                 }
             ]
         },
@@ -2689,6 +2697,10 @@
                     {
                         "name": "Czech Airlines",
                         "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/csa.png"]
+                    },
+                    {
+                        "name": "China Soutern",
+                        "texture": ["https://i.ibb.co/GCQ3qT2/1667215709650.png"]
                     }
         ]
         },
