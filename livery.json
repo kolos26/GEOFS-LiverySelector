@@ -862,7 +862,7 @@
                     "texture": ["/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_93.5.jpg"]
                 },
                 {
-                    "name": "Scandinavian",
+                    "name": "SAS",
                     "texture": ["/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_95.jpg"]
                 },
                 {
@@ -878,7 +878,7 @@
                     "texture": ["/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_96.2.jpg"]
                 },
                 {
-                    "name": "Airbus house livery",
+                    "name": "Airbus house livery (old design)",
                     "texture": ["/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_98.jpg"]
                 },
                 {
@@ -972,6 +972,114 @@
                 {
                     "name": "Gulf Air (retro livery)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/gulfair.jpg"]
+                },
+                {
+                    "name": "Gulf Air",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Gulf%20Air%20A319.jpg"]
+                },
+                {
+                    "name": "South African Airlines",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/South%20African%20A319.png"]
+                },
+                {
+                    "name": "Chair",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Chair%20A319.png"]
+                },
+                {
+                    "name": "Sri Lankan Airlines",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Sri%20Lankan%20A319.png"]
+                },
+                {
+                    "name": "Air Senegal",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air%20Senegal%20A319.jpg"]
+                },
+                {
+                    "name": "Airbus house livery (new design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Airbus_A319_house_new.png"]
+                },
+                {
+                    "name": "United (old design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/United_a319_old.png"]
+                },
+                {
+                    "name": "Mihin Lanka",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Mihin_Lanka_a319.png"]
+                },
+                {
+                    "name": "ITA",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ITA%20airways%20A319.png"]
+                },
+                {
+                    "name": "North West (old design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/NWA%20A319.png"]
+                },
+                {
+                    "name": "Drukair",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Drukair4.png"]
+                },
+                {
+                    "name": "Carpatair",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/a319_carpatair.jpg"]
+                },
+                {
+                    "name": "North West (new design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/nwa_a319.png"]
+                },
+                {
+                    "name": "FlyOne",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Flyone_A319.png"]
+                },
+                {
+                    "name": "Qatar Airways",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Qatar_A319.png"]
+                },
+                {
+                    "name": "Emirates",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Emirates_A319.png"]
+                },
+                {
+                    "name": "Etihad Airways",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Etihad_A319.png"]
+                },
+                {
+                    "name": "NiceAir",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Niceair_A319.png"]
+                },
+                {
+                    "name": "Czech Airlines (skyteam livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Czech%20SkyTeam%20A320n.jpg"]
+                },
+                {
+                    "name": "Republica Italiana",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Italia%20A319.png"]
+                },
+                {
+                    "name": "Finnair (old design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Finnair_Old_A319.png"]
+                },
+                {
+                    "name": "S7 (Oneworld livery - old design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/S7_Old_Oneworld_A319.png"]
+                },
+                {
+                    "name": "S7 (Oneworld livery - new design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/S7_Oneworld_A319.png"]
+                },
+                {
+                    "name": "Finnair (Oneworld livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_399.png"]
+                },
+                {
+                    "name": "American Airlines - PSA",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_380.png"]
+                },
+                {
+                    "name": "Lbiyan Wings",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_391.png"]
+                },
+                {
+                    "name": "Azerbaijan Air",
+                    "texture": ["https://raw.githubusercontent.com/coolpilot11/stuff/main/AzerbaijanAir.png"]
                 }
             ]
         },
@@ -1075,8 +1183,8 @@
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/binter.png"]
                 },
                 {
-                    "name": "Citylink",
-                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/citylink.jpg"]
+                    "name": "Citilink",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Citilink.jpg"]
                 },
                 {
                     "name": "Finnair",
@@ -1215,7 +1323,7 @@
                 },
                 {
                     "name": "Norse Atlantic",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_190.1.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Norse_Atlantic_B787-9fixed.png"]
                 },
                 {
                     "name": "Gulf Air (retro livery)",
@@ -1386,7 +1494,7 @@
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/bamboo.png"]
                 },
                 {
-                    "name": "ElAl (retro livery)",
+                    "name": "EL AL (retro livery)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/elalretro.png"]
                 },
                 {
@@ -1424,6 +1532,42 @@
                 {
                     "name": "Virgin Atlantic (Boeing test livery)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/virgin.png"]
+                },
+                {
+                    "name": "Swiss (planned livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Swiss_787-9.png"]
+                },
+                {
+                    "name": "Royal Air Jordania",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Royal%20Air%20Jordania%20787-9.png"]
+                },
+                {
+                    "name": "ANA (R2-D2 livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ANA%20787-9%20'R2-D2'.png"]
+                },
+                {
+                    "name": "Boeing Factory unpainted",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Boeing%20787-9%20Unpainted.png"]
+                },
+                {
+                    "name": "ANA (Star Alliance livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ANA%20Star%20Alliance%20787-9.png"]
+                },
+                {
+                    "name": "WestJet (new design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Westjet%20787-9.png"]
+                },
+                {
+                    "name": "Hainan Airlines (yellow design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/hainininini.pngs"]
+                },
+                {
+                    "name": "Boeing house livery (red design - planned livery)",
+                    "texture": ["https://raw.githubusercontent.com/BoeingBus747/GitStorage/main/Red789House.png"]
+                },
+                {
+                    "name": "Norvegian (Unicef livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_398.png"]
                 }
             ]
         },
@@ -1496,7 +1640,7 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_254.jpg"]
                 },
                 {
-                    "name": "ACJ twotwenty",
+                    "name": "ACJ",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/acj.jpg"]
                 },
                 {
@@ -1506,6 +1650,34 @@
                 {
                     "name": "Air Shinai",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/shinai.jpg"]
+                },
+                {
+                    "name": "ITA (Born to be sustainable livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ITA_Sus.png"]
+                },
+                {
+                    "name": "Bombardier house livery",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Bombardier_A220.png"]
+                },
+                {
+                    "name": "Delta",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/DAL_A220.png"]
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ACA%20A220.png"]
+                },
+                {
+                    "name": "Air Baltic",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirBaltic_A220.png"]
+                },
+                {
+                    "name": "Air Baltic (Estonia flag livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Estonia_A220.png"]
+                },
+                {
+                    "name": "Air Baltic (Latavia flag livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Latvia_A220.png"]
                 }
             ]
         },
@@ -1577,12 +1749,8 @@
                     "texture": ["/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_12.3.jpg"]
                 },
                 {
-                    "name": "VIVA",
+                    "name": "VIVA (pink design)",
                     "texture": ["/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_13.3.jpg"]
-                },
-                {
-                    "name": "Cebu Pacific",
-                    "texture": ["/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_14.3.jpg"]
                 },
                 {
                     "name": "LATAM",
@@ -1614,7 +1782,7 @@
                 },
                 {
                     "name": "Easyjet",
-                    "texture": ["/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_27.3.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Easyjet%20A320neo%20NEW.png0"]
                 },
                 {
                     "name": "SWISS",
@@ -1765,7 +1933,7 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_208.jpg"]
                 },
                 {
-                    "name": "Air New Zealand",
+                    "name": "Air New Zealand (old design)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_204.jpg"]
                 },
                 {
@@ -1859,6 +2027,138 @@
             {
                 "name": "Azores Airlines",
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_340.jpg"]
+            },
+            {
+                "name": "Himalaya Airlines",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Himalya%20Airlines%20A320neo.png"]
+            },
+            {
+                "name": "Citilink (ticket.com livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/A320neo-Citiling-x-Tiket-com.jpg"]
+            },
+            {
+                "name": "Bangkok Airways (United for wildlife livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Bangkok%20A320neo%20UFW.png"]
+            },
+            {
+                "name": "Easyjet Holidays",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/EasyJet%20Holiday%20A320neo.jpg"]
+            },
+            {
+                "name": "Citilink (Kapal Api livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Citilink_x_Kapal_A320.png"]
+            },
+            {
+                "name": "Volaris",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/a320neo_Volaris.jpg"]
+            },
+            {
+                "name": "MEA",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/MEA%20A320neo.png"]
+            },
+            {
+                "name": "Capital Airlines",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Capital%20Airlines%20A320neo.png"]
+            },
+            {
+                "name": "Bamboo Airways",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/a320neo_Bamboo_airways.png"]
+            },
+            {
+                "name": "Air Corsica",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/a320neo_air_corsica.png"]
+            },
+            {
+                "name": "Air India",
+                "texture": ["https://raw.githubusercontent.com/BoeingBus747/GitStorage/main/Air_India_A320N.png"]
+            },
+            {
+                "name": "Air New Zealand (new design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ANZ_All_Blacks_A320.png"]
+            },
+            {
+                "name": "Garuda Indonesia (skyteam livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Garuda%20Skyteam%20ERJ-145.png"]
+            },
+            {
+                "name": "Sky Express",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/sky_express_a320neo.png"]
+            },
+            {
+                "name": "China WestAir",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Westair_A320N.png"]
+            },
+            {
+                "name": "ACJ",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ACJ2_A320N.png"]
+            },
+            {
+                "name": "Air Malta (old design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_Malta_A320_old.png"]
+            },
+            {
+                "name": "VIVA (yellow design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_351.png"]
+            },
+            {
+                "name": "Qatar Airways (Oneworld livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/QATAR_ow_a320.png"]
+            },
+            {
+                "name": "Sky Airlines",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/a320neo_Sky_airlines.png"]
+            },
+            {
+                "name": "Citilink",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/citilink_fixed..png"]
+            },
+            {
+                "name": "Air Arabia",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_361.png"]
+            },
+            {
+                "name": "Air Travel China",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/airtravelchina.png"
+            },
+            {
+                "name": "Andalou Jet",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/andalou.png"
+            },
+            {
+                "name": "Royal Brunei",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/brunei.png"
+            },
+            {
+                "name": "Cebu Pacific",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/cebu.png"
+            },
+            {
+                "name": "Flydeal",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/flydedal.png"
+            },
+            {
+                "name": "Iberia (Oneworld livery)",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/iberiaone.png"
+            },
+            {
+                "name": "Latam",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/latam.png"
+            },
+            {
+                "name": "Play",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/play.png"
+            },
+            {
+                "name": "S7 Airlines",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/s7.png"
+            },
+            {
+                "name": "Saudi Gulf",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/saudigulf.png"
+            },
+            {
+                "name": "Ural Airlines",
+                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/ural.png"
             }
             ]
         },
@@ -2022,6 +2322,78 @@
                 {
                     "name": "United (Star Wars - The rise of Skywalker livery)",
                     "texture": ["https://i.ibb.co/j8FnqhK/United-Star-Wars-737-Max-8.png"]
+                },
+                {
+                    "name": "Swoop",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Swoop%20737%20MAX%208.png"]
+                },
+                {
+                    "name": "Singapore Airlines (Star Alliance livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Singapore_Airlines_737_MAX_8_Star_alliance.png"]
+                },
+                {
+                    "name": "Bonza (early design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Bonza%20737-8%20Promotional%20Livery.png"]
+                },
+                {
+                    "name": "Bonza (official design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Bonza%20737-8.png"]
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirCanada%207M8.jpg"]
+                },
+                {
+                    "name": "Alaska (Education livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ASA_Education2.png"]
+                },
+                {
+                    "name": "Alaska (More to love livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ASA_More.png"]
+                },
+                {
+                    "name": "Alaska (West Coast livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ASA_Westcoast3.png"]
+                },
+                {
+                    "name": "Air Europa",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirEuropa%20737%20MAX%208.png"]
+                },
+                {
+                    "name": "Boeing Factory unpainted",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Boeing_737-8.png"]
+                },
+                {
+                    "name": "Southwest (Canyon blue design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/SouthWest%20Canyonqm%20737MAX8.png"]
+                },
+                {
+                    "name": "Southwest (Desert Gold design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Desert%20Gold%20Southwest%20737MAX8.png"]
+                },
+                {
+                    "name": "Skymark Airlines",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Skymark%20737-8.png"]
+                },
+                {
+                    "name": "Lynx Air",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/LynxAir_737-8.png"]
+                },
+                {
+                    "name": "Icelandair (Pink design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Icelandair%20737%20MAX8%20Pink.png"]
+                },
+                {
+                    "name": "Icelandair (Turquoise design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Icelandair%20737%20MAX8%20Turq.png"]
+                },
+                {
+                    "name": "Icelandair (Yellow design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Icelandair%20737%20MAX8%20Yellow.png"]
+                },
+                {
+                    "name": "GOL",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_367.png"]
                 }
             ]
         },
@@ -2082,7 +2454,7 @@
                 },
                 {
                     "name": "Malaysia Airlines",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_212.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_362.jpg"]
                 },
                 {
                     "name": "Qatar Airways",
@@ -2115,6 +2487,18 @@
                 {
                     "name": "United",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/united.png"]
+                },
+                {
+                    "name": "Air New Zealand (old design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ANZ%20white%2078X.png"]
+                },
+                {
+                    "name": "Boeing house livery",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Boeing%20787-10.png"]
+                },
+                {
+                    "name": "Malaysia Airlines (Oneworld livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_377.jpg"]
                 }
             ]
         },
@@ -2318,7 +2702,7 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_284.5.jpg"]
                 },
                 {
-                    "name": "American Airlines",
+                    "name": "American Airlines (old design)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_289.5.jpg"]
                 },
                 {
@@ -2383,7 +2767,7 @@
                 },
                 {
                     "name": "West Atlantic",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/West_atlantic_737-800.png"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/West%20atlantic%20737-800.png"]
                 },
                 {
                     "name": "Eastar jet",
@@ -2469,8 +2853,204 @@
                     {
                         "name": "Flair",
                         "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/FlairAir.png"]
+                    },
+                    {
+                        "name": "Swoop",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Swoop%20737-800.png"]
+                    },
+                    {
+                        "name": "Nokair",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Nokair%20737-800.jpg"]
+                    },
+                    {
+                        "name": "UTair",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/UTair_737-8.png"]
+                    },
+                    {
+                        "name": "Asia Cargo",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Asia%20cargo%20737-800.png"]
+                    },
+                    {
+                        "name": "American Airlines (new design)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/American_Airlines_737-800.png"]
+                    },
+                    {
+                        "name": "China Eastern (Yunnan Peacock livery)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/China_Eastern_737-800_Yunnan_Peacock.png"]
+                    },
+                    {
+                        "name": "My Indo Airlines",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/My%20indo%20Airlines%20737-800.png"]
+                    },
+                    {
+                        "name": "Iaero",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/IAero.png"]
+                    },
+                    {
+                        "name": "Iaero (ex Eastern)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/IAeroEastern_1.png"]
+                    },
+                    {
+                        "name": "DHL (ex Iaero)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/DHLiaero.png"]
+                    },
+                    {
+                        "name": "9 Air",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/b737-800_9air.jpg"]
+                    },
+                    {
+                        "name": "Aeroitalia",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AeroItalia%20737-800.png"]
+                    },
+                    {
+                        "name": "Air Algerie",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirAlgerie.png"]
+                    },
+                    {
+                        "name": "Air Europa",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirEuropa%20737-800.png"]
+                    },
+                    {
+                        "name": "Andalou Jet",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AnadoluJet.png"]
+                    },
+                    {
+                        "name": "Bluebird Nordic",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Bluebird.png"]
+                    },
+                    {
+                        "name": "Corendon Airlines",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Corendon.png"]
+                    },
+                    {
+                        "name": "Turkish Airlines (Star Allience livery)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/TK%20star%20alliance%20738.png"]
+                    },
+                    {
+                        "name": "Solaseed",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Solaseed_738.png"]
+                    },
+                    {
+                        "name": "Uruqmi",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Urumqi_738.png"]
+                    },
+                    {
+                        "name": "Wingo",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Wingo_738.png"]
+                    },
+                    {
+                        "name": "Swift Air Cargo",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Swiftair%20737-800.png"]
+                    },
+                    {
+                        "name": "Swift Air (ex Eastern)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Swiftair-Easterm%20737-800.png"]
+                    },
+                    {
+                        "name": "West Atlantic (1st -800BCF livery)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/West%20atlantic%201st%20737-800.png"]
+                    },
+                    {
+                        "name": "Boeing house livery (Boeing Converted Freighter)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/BCF%20737-800.png"]
+                    },
+                    {
+                        "name": "IAI B737-800BDSF",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/IAI%20737-800.png"]
+                    },
+                    {
+                        "name": "Mid East Jet",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Mid%20East%20Jet%20737-800.png"]
+                    },
+                    {
+                        "name": "Austrian Airlines (Star Alliance livery)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/b737-800_austrian_star_alliance.png"]
+                    },
+                    {
+                        "name": "TUI fly",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/g-tuko.png"]
+                    },
+                    {
+                        "name": "Delta (skyteam livery)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/737-800_delta_skyteam.jpg"]
+                    },
+                    {
+                        "name": "S7 Airlines",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/S7%20Airlines%20737-800.png"]
+                    },
+                    {
+                        "name": "S7 Cargo",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/S7%20Cargo%20737-800.png"]
+                    },
+                    {
+                        "name": "Expedition Airlines",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Expedition_Airlines_Boeing_737-800_template.png"]
+                    },
+                    {
+                        "name": "Firefly",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Firefly2.png"]
+                    },
+                    {
+                        "name": "Batik air",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/737-800_batik_air_malaysia.jpg"]
+                    },
+                    {
+                        "name": "Czech Airlines",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/738-czech.jpg"]
+                    },
+                    {
+                        "name": "Garuda Indonesia (old design)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Old_Garuda_738.png"]
+                    },
+                    {
+                        "name": "Garuda Indonesia (new design)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Garuda_737-800.png"]
+                    },
+                    {
+                        "name": "Air Changan",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_397.jpg"]
+                    },
+                    {
+                        "name": "Badr",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_353.jpg"]
+                    },
+                    {
+                        "name": "Texel Air",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_359.png"]
+                    },
+                    {
+                        "name": "ETF",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_370.png"]
+                    },
+                    {
+                        "name": "Serene Air",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_386.png"]
+                    },
+                    {
+                        "name": "Azul Cargo",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_393.png"]
+                    },
+                    {
+                        "name": "Nordstar Airlines (Winter Universiade Krasnoyarsk livery)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_384.png"]
+                    },
+                    {
+                        "name": "GOL",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_365.png"]
+                    },
+                    {
+                        "name": "Asia Cargo",
+                        "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_376.png"
+                    },
+                    {
+                        "name": "Asia Cargo (AsyncGlobal livery)",
+                        "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_352.png"
+                    },
+                    {
+                        "name": "Asia Cargo - JNE",
+                        "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/Asia%20Cargo%20x%20JNE.png"
                     }
-        ]
+                ]
         },
         "4017": {
             "index": [0],
@@ -2625,7 +3205,7 @@
             },
             {
                 "name": "Embraer house livery",
-                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Embraer%20House%20livery%20E-145.png"]
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Embraer_House_livery_E-145.png"]
             },
             {
                 "name": "Freedom Air",
@@ -2634,6 +3214,38 @@
             {
                 "name": "Cross Air",
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/crossair.jpg"]
+            },
+            {
+                "name": "Alitalia Express",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Alitalia_Express_E-145.png"]
+            },
+            {
+                "name": "Denver Air Connection",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/DAC_E-145.png"]
+            },
+            {
+                "name": "LOT",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/LOT_E-145.png"]
+            },
+            {
+                "name": "Pan Européenne Air Service",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/PEAS_E-145.png"]
+            },
+            {
+                "name": "Team Lufthansa",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Team%20Lufthansa%20E-145.png"]
+            },
+            {
+                "name": "SAS",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_350.png"]
+            },
+            {
+                "name": "Western Air",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_363.png"]
+            },
+            {
+                "name": "TAP Aerolineas",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_364.png"]
             }
         ]
         }
