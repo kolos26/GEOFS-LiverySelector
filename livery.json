@@ -3484,6 +3484,28 @@
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_364.png"]
             }
         ]
+        },
+        "4140": {
+            "index": [1],
+            "parts": [0],
+            "liveries": [
+                {
+                    "name": "Malév",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/malev.png"]
+                },
+                {
+                    "name": "Canadian North",
+                    "texture": ["https://i.ibb.co/S3B7Zmh/canadiannorth.png"]
+                },
+                {
+                    "name": "Chrono Aviation",
+                    "texture": ["https://i.ibb.co/pPm47Px/chronoaviation.png"]
+                },
+                {
+                    "name": "Air Lanka",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_Lanka_737_2.png"]
+                }
+            ]
         }
     }
 }
