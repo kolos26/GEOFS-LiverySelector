@@ -3538,6 +3538,24 @@
                     "texture": ["https://raw.githubusercontent.com/coolpilot11/stuff/main/732argentinas.png"]
                 }
             ]
+        },
+        "247": {
+            "index": [0, 0, 0, 0],
+            "parts": [0, 12, 20, 21],
+            "liveries": [
+                {
+                    "name": "Malév",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/malev.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/malev.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/malev.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/malev.png"]
+                },
+                {
+                    "name": "FlyBe",
+                    "texture": ["https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png", "https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png", "https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png", "https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png"]
+                },
+                {
+                    "name": "FlyBe (purple-white design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg"]
+                }
+            ]
         }
     }
 }
