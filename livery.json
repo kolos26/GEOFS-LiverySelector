@@ -3572,6 +3572,28 @@
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg"]
                 }
             ]
+        },
+        "4401" : {
+            "index": [1],
+            "parts": [0],
+            "liveries": [
+                {
+                    "name": "OLT",
+                    "texture": ["https://raw.githubusercontent.com/coolpilot11/stuff/main/BN2OLT2.png"]
+                },
+                {
+                    "name": "New England",
+                    "texture": ["https://raw.githubusercontent.com/coolpilot11/stuff/main/BN2NewEngland.png"]
+                },
+                {
+                    "name": "Figas",
+                    "texture": ["https://raw.githubusercontent.com/coolpilot11/stuff/main/BN2FIGAS.png"]
+                },
+                {
+                    "name": "Olympic Airways",
+                    "texture": ["https://raw.githubusercontent.com/coolpilot11/stuff/main/BN2OlympicAir.png"]
+                }
+            ]
         }
     }
 }
