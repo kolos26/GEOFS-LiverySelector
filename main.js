@@ -19,7 +19,7 @@ async function init(){
     document.body.appendChild(buttonDiv);
     document.getElementsByClassName("geofs-ui-bottom")[0].appendChild(buttonDiv);
     let element = document.getElementById("liverybutton");
-    document.getElementsByClassName("geofs-ui-bottom")[0].insertBefore(element, buttonDiv);
+    document.getElementsByClassName("geofs-ui-bottom")[0].insertBefore(element, document.getElementsByClassName("geofs-ui-bottom")[0].children[3]);
 
     let styles = document.createElement("div");
     styles.innerHTML = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/><style>.checked {text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;color: rgb(255,193,7); display: inline; text align: right; cursor: pointer;}.nocheck {text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;color: white; display: inline; text align: right; cursor: pointer;}</style>';
