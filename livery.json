@@ -2366,47 +2366,59 @@
             },
             {
                 "name": "Air Travel China",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/airtravelchina.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/airtravelchina.png"]
             },
             {
                 "name": "Andalou Jet",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/andalou.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/andalou.png"]
             },
             {
                 "name": "Royal Brunei",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/brunei.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/brunei.png"]
             },
             {
-                "name": "Cebu Pacific",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/cebu.png"
+                "name": "Cebu Pacific (new design)",
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/cebu.png"]
             },
             {
                 "name": "Flydeal",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/flydedal.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/flydedal.png"]
             },
             {
                 "name": "Iberia (Oneworld livery)",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/iberiaone.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/iberiaone.png"]
             },
             {
                 "name": "Latam",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/latam.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/latam.png"]
             },
             {
                 "name": "Play",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/play.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/play.png"]
             },
             {
                 "name": "S7 Airlines",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/s7.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/s7.png"]
             },
             {
                 "name": "Saudi Gulf",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/saudigulf.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/saudigulf.png"]
             },
             {
                 "name": "Ural Airlines",
-                "texture":"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/ural.png"
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/ural.png"]
+            },
+            {
+                "name": "Cebu Pacific (old design)",
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/cebu2.png"]
+            },
+            {
+                "name": "FlyAristan",
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/flyaristan.png"]
+            },
+            {
+                "name": "Sky Airline",
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/sky.png"]
             }
             ]
         },
@@ -2755,7 +2767,7 @@
             "parts": [0],
             "liveries": [{
                     "name": "Indian Navy",
-                    "texture": ["/backend/aircraft/repository/Boeing p8I Neptune_427352_3292/texture_1.1.jpg"]
+                    "texture": ["/backend/aircraft/repository/Boeing p8I Neptune_427352_3292/texture_0.jpg"]
                 },
                 {
                     "name": "US Navy",
@@ -2767,7 +2779,7 @@
                 },
                 {
                     "name": "Royal Norwegian Air Force",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_193.jpg"]
+                    "texture": ["https://i.ibb.co/prY3P7W/texture-193.jpg"]
                 }
             ]
         },
@@ -3288,15 +3300,15 @@
                     },
                     {
                         "name": "Asia Cargo",
-                        "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_376.png"
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_376.png"]
                     },
                     {
                         "name": "Asia Cargo (AsyncGlobal livery)",
-                        "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_352.png"
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_352.png"]
                     },
                     {
                         "name": "Asia Cargo - JNE",
-                        "texture": "https://raw.githubusercontent.com/Spice9/stuff2/main/Asia%20Cargo%20x%20JNE.png"
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Asia%20Cargo%20x%20JNE.png"]
                     },
                     {
                         "name": "Czech Airlines",
