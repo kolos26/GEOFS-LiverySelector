@@ -17,7 +17,6 @@ async function init(){
     let buttonDiv = document.createElement("div");
     buttonDiv.innerHTML = '<button class="mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly" data-toggle-panel=".geofs-autoland-list" data-tooltip-classname="mdl-tooltip--top" id="liverybutton" tabindex="0" data-upgraded=",MaterialButton" onclick="listLiveries()" title="Change livery">LIVERY<img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/0230cb5c8438a70b770ff56fed81dfec6f4e9014/liveryselector-logo-small.svg" height="30px"/></button>'
     document.body.appendChild(buttonDiv);
-    document.getElementsByClassName("geofs-ui-bottom")[0].appendChild(buttonDiv);
     let element = document.getElementById("liverybutton");
     document.getElementsByClassName("geofs-ui-bottom")[0].insertBefore(element, document.getElementsByClassName("geofs-ui-bottom")[0].children[3]);
 
