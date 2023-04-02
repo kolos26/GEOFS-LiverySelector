@@ -1316,6 +1316,10 @@
                 {
                     "name": "Edelweiss",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_354.png"]
+                },
+                {
+                    "name": "American Airlines (Allegheny livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/American%20Allegheny%20A319.jpg"]
                 }
             ]
         },
@@ -1820,6 +1824,18 @@
                 {
                     "name": "Air Austral",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/airaustral.png"]
+                },
+                {
+                    "name": "Japan Airlines (Golden Tsurmaru livery)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/3469ae5d5ce9c8fa3967a56578971fb506f03eb3/JAL%20Tsurmara%20789.png"]
+                },
+                {
+                    "name": "Hawaiian Airlines",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/bfb7663de6fd37463231c64f611c8a574ac32b7b/Hawaiian_Airline_787-9_livery.jpg"]
+                },
+                {
+                    "name": "Royal Brunei",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Royal%20Brunei%20787-9.png"]
                 }
             ]
         },
@@ -2423,6 +2439,22 @@
             {
                 "name": "Sky Airline",
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/sky.png"]
+            },
+            {
+                "name": "TAM",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/TAM%20A320neo.png"]
+            },
+            {
+                "name": "VIVA (purple design)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Viva%20pink%20A320neo.png"]
+            },
+            {
+                "name": "Latam (Miles card livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Latam%20miles%20A320neo.png"]
+            },
+            {
+                "name": "Finnair (100th anniversary livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Finnair_A320n_100y_livery.png"]
             }
             ]
         },
@@ -2658,6 +2690,18 @@
                 {
                     "name": "GOL",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_367.png"]
+                },
+                {
+                    "name": "Air India",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air%20India%20737MAX8.png"]
+                },
+                {
+                    "name": "Air India Express",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air%20Inda%20Express%20737MAX8.png"]
+                },
+                {
+                    "name": "Sunwing",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Sunwing%20737%20MAX8.png"]
                 }
             ]
         },
@@ -3307,7 +3351,7 @@
                         "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_384.png"]
                     },
                     {
-                        "name": "GOL",
+                        "name": "GOL (new design)",
                         "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_365.png"]
                     },
                     {
@@ -3329,6 +3373,18 @@
                     {
                         "name": "China Soutern",
                         "texture": ["https://i.ibb.co/GCQ3qT2/1667215709650.png"]
+                    },
+                    {
+                        "name": "GOL (old design)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/GOL%20Old%20738.png"]
+                    },
+                    {
+                        "name": "GOL (10 year Anos livery)",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/GOL%2010%20Anos%20738.png"]
+                    },
+                    {
+                        "name": "Mercado livre cargo",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Mercado%20Livre%20738.png"]
                     }
                 ]
         },
@@ -3579,7 +3635,11 @@
                 },
                 {
                     "name": "Aviacsa",
-                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/aviacsa.png"]
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/aviacsa.jpg"]
+                },
+                {
+                    "name": "Nolinor",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Nolinor%20737-200%20FIX.jpg"]
                 }
             ]
         },
