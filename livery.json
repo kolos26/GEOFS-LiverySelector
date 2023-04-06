@@ -3764,6 +3764,20 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/tex13pacifwelo.jpg"]
                 }
             ]
+        },
+        "16":{
+            "index": [3, 4],
+            "parts": [0, 0],
+            "textures": [
+                {
+                    "name": "US Air Force",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/usaf.png"]
+                },
+                {
+                    "name": "Buffalo Airways",
+                    "texture": ["https://i.ibb.co/M9Yq31V/specular-buffalo.png", "https://i.ibb.co/GPvy9dx/buffalo-DC31.png"]
+                }
+            ]
         }
     }
 }
