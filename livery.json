@@ -1445,6 +1445,18 @@
                 {
                     "name": "Lufthansa Regional",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/lufthansaregiaonal.png"]
+                },
+                {
+                    "name": "Amelia",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/amelia.png"]
+                },
+                {
+                    "name": "EWA",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/ewa.png"]
+                },
+                {
+                    "name": "Air Moana",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/moana.png"]
                 }
             ]
         },
@@ -1844,9 +1856,12 @@
                 {
                     "name": "Royal Brunei",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Royal%20Brunei%20787-9.png"]
-                }
-            ]
-        },
+                },
+                {
+                    "name": "British Airways",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/british.png"]
+        }]
+    },
         "3534": {
             "index": [1],
             "parts": [0],
@@ -3397,6 +3412,10 @@
                     {
                         "name": "FlyLi",
                         "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/flyli.png"]
+                    },
+                    {
+                        "name": "Japan Transocean Air",
+                        "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/jta.png"]
                     }
                 ]
         },
