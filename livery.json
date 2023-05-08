@@ -2164,7 +2164,7 @@
                     "texture": ["/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_135.6.jpg"]
                 },
                 {
-                    "name": "Air Malta",
+                    "name": "Air Malta (old livery)",
                     "texture": ["/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_158.jpg"]
                 },
                 {
@@ -2384,7 +2384,7 @@
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ACJ2_A320N.png"]
             },
             {
-                "name": "Air Malta (old design)",
+                "name": "Air Malta (retro livery)",
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_Malta_A320_old.png"]
             },
             {
@@ -2478,6 +2478,22 @@
             {
                 "name": "Finnair (100th anniversary livery)",
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Finnair_A320n_100y_livery.png"]
+            },
+            {
+                "name": "Air Malta (new livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirMalta_A320N.png"]
+            },
+            {
+                "name": "Allegiant",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Allegiant320.png"]
+            },
+            {
+                "name": "Shenzen Airlines",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/ShenzhenA320N.png"]
+            },
+            {
+                "name": "Frontier (Grizwald the bear livery)",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texfrnimnotfunny.jpg"]
             }
             ]
         },
@@ -3797,6 +3813,10 @@
                 {
                     "name": "Air France",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/tex16affg.jpg"]
+                },
+                {
+                    "name": "Loganair",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/125.png"]
                 }
             ]
         },
