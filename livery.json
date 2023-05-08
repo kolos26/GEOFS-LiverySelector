@@ -208,11 +208,11 @@
             "parts": [0, 0, 0, 0],
             "liveries":[{
                 "name": "Flybe",
-                "textures": ["/models/aircraft/premium/dhc6/2_0.jpg", "/models/aircraft/premium/dhc6/3_0.jpg", "/models/aircraft/premium/dhc6/5_0.jpg", "/models/aircraft/premium/dhc6/4_0.jpg"]
+                "texture": ["/models/aircraft/premium/dhc6/2_0.jpg", "/models/aircraft/premium/dhc6/3_0.jpg", "/models/aircraft/premium/dhc6/5_0.jpg", "/models/aircraft/premium/dhc6/4_0.jpg"]
             },
             {
                 "name": "Canadian Air Force",
-                "textures": ["/models/aircraft/premium/dhc6/2_1.jpg", "/models/aircraft/premium/dhc6/3_1.jpg", "/models/aircraft/premium/dhc6/5_1.jpg", "/models/aircraft/premium/dhc6/4_1.jpg"]
+                "texture": ["/models/aircraft/premium/dhc6/2_1.jpg", "/models/aircraft/premium/dhc6/3_1.jpg", "/models/aircraft/premium/dhc6/5_1.jpg", "/models/aircraft/premium/dhc6/4_1.jpg"]
             }
         ]
         },
@@ -309,7 +309,7 @@
                 ]
         },
         "13": {
-            "index": [3],
+            "index": [4],
             "parts": [0],
             "liveries": [{
                     "name": "EPOCH Alaska Air",
@@ -350,7 +350,7 @@
             ]
         },
         "14": {
-            "index": [3],
+            "index": [6],
             "parts": [0],
             "liveries": [{
                     "name": "Criquet",
@@ -380,7 +380,7 @@
             ]
         },
         "18": {
-            "index": [3],
+            "index": [8],
             "parts": [0],
             "liveries": [{
                     "name": "Akula 35",
@@ -3463,61 +3463,13 @@
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/swiss.png"]
             },
             {
-                    "name": "Trans World Express",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_331.jpg"]
-                },
-                {
-                    "name": "Air France Regional",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_330.jpg"]
-                },
-                {
-                    "name": "Trans States Airlines",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_329.jpg"]
-                },
-                {
-                    "name": "Air Zimbabwe",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_323.jpg"]
-                },
-                {
-                    "name": "Air Djibouti",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_322.jpg"]
-                },
-                {
-                    "name": "Zimbabwe Airways",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_321.jpg"]
-                },
-                {
-                    "name": "Amelia",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_320.jpg"]
-                },
-                {
-                    "name": "American jet",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_319.jpg"]
-                },
-                {
-                    "name": "ACJC",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_318.jpg"]
-                },
-                {
-                    "name": "United Express",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_316.jpg"]
-                },
-                {
-                    "name": "Calafia",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_315.jpg"]
-                },
-                {
-                    "name": "Fastjet",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_314.jpg"]
-                },
-                {
-                    "name": "Air Namibia",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_313.jpg"]
-                },
-                {
-                    "name": "Inter Caribbean",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_312.jpg"]
-                },
+                "name": "Trans World Express",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_331.jpg"]
+            },
+            {
+                "name": "Air France Regional",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_330.jpg"]
+            },
             {
                 "name": "Trans States Airlines",
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_329.jpg"]
@@ -3752,7 +3704,7 @@
                     },
                 {
                     "name": "JAC",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2JAC.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/teture_2JAC.jpg"]
                     },
                      {
                     "name": "Chathams",
@@ -3760,7 +3712,7 @@
                     },
                      {
                     "name": "SAAB Factory unpainted",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/tex6upkyj.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/text_6upkyj.jpg"]
                     },
                 {
                     "name": "Air Rarotonga",
@@ -3800,7 +3752,7 @@
                     },
                 {
                     "name": "Pacific Coastal",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/tex13pacifwelo.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/tex13.3pacwelo.jpg"]
                 },
                 {
                     "name": "Silver",
