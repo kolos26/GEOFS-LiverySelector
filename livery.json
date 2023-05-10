@@ -200,6 +200,10 @@
                 {
                     "name": "AeroMexico (old design)",
                     "texture": ["https://i.ibb.co/QkPDnHS/b737-700.jpg"]
+                },
+                {
+                    "name": "ASL Airlines France",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/asl.png"]
                 }
             ]
         },
@@ -305,6 +309,10 @@
                 {
                     "name": "Thai Airways",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/thai.png"]
+                },
+                {
+                    "name": "HiFly",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/hifly.png"]
                 }
                 ]
         },
@@ -830,6 +838,10 @@
                 {
                     "name": "Mexicana Aviación",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/mexicana.jpg"]
+                },
+                {
+                    "name": "Jet2Holidays",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/j2h.jpg"]
                 }
             ]
         },
@@ -2494,6 +2506,10 @@
             {
                 "name": "Frontier (Grizwald the bear livery)",
                 "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texfrnimnotfunny.jpg"]
+            },
+            {
+                "name": "Jet2",
+                "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/jet2.png"]
             }
             ]
         },
