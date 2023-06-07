@@ -204,6 +204,34 @@
                 {
                     "name": "ASL Airlines France",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/asl.png"]
+                },
+                {
+                    "name": "BahamasAir",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/bahamas.png"]
+                },
+                {
+                    "name": "Jet Airways",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jetairways.png"]
+                },
+                {
+                    "name": "Luxair",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/luxair.png"]
+                },
+                {
+                    "name": "SkyEurope (white design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/skyeurope.png"]
+                },
+                {
+                    "name": "South African Air Force",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/southafricanaf.png"]
+                },
+                {
+                    "name": "Virgin Blue (retirement design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/virginblue.png"]
+                },
+                {
+                    "name": "Wingo",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/wingo.png"]
                 }
             ]
         },
@@ -236,7 +264,7 @@
                     "texture": ["/models/aircraft/premium/a380/texture_2.jpg"]
                 },
                 {
-                    "name": "Airbus house livery",
+                    "name": "Airbus house livery (old design)",
                     "texture": ["https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house.png"]
                 },
                 {
@@ -313,6 +341,26 @@
                 {
                     "name": "HiFly",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/hifly.png"]
+                },
+                {
+                    "name": "Airbus house livery (new design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/airbusnew.png"]
+                },
+                {
+                    "name": "ANA",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/ana.png"]
+                },
+                {
+                    "name": "Singapore Airlines (new design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/singaporenew.jpg"]
+                },
+                {
+                    "name": "Qatar Airways (FIFA World Cup 2022 livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/qatarfifa.jpg"]
+                },
+                {
+                    "name": "Airbus ZeroE (planned livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/zeroe.png"]
                 }
                 ]
         },
@@ -769,6 +817,10 @@
                 {
                     "name": "Varig Brasilia",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/varig.png"]
+                },
+                {
+                    "name": "AirDo",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/airdo.png"]
                 }
             ]
         },
@@ -1340,6 +1392,34 @@
                 {
                     "name": "American Airlines (Allegheny livery)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/American%20Allegheny%20A319.jpg"]
+                },
+                {
+                    "name": "Air Serbia (blank design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/airserbia.png"]
+                },
+                {
+                    "name": "ChAir",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/chair.png"]
+                },
+                {
+                    "name": "Emirates Execuitve",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/emiratesexecutive.png"]
+                },
+                {
+                    "name": "HiFly",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/hifly.png"]
+                },
+                {
+                    "name": "Oneworld - 10 years",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/oneworld.png"]
+                },
+                {
+                    "name": "United Kingdom Royal Air Force",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/chair.png"]
+                },
+                {
+                    "name": "SundAir",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/sundair.png"]
                 }
             ]
         },
@@ -1469,6 +1549,10 @@
                 {
                     "name": "Air Moana",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/moana.png"]
+                },
+                {
+                    "name": "BahamasAir",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/bahamas.png"]
                 }
             ]
         },
@@ -3681,6 +3765,10 @@
                 {
                     "name": "FlyBe (purple-white design)",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/flybepurple.jpg"]
+                },
+                {
+                    "name": "Icelandair (pink design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/icelandairpink.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/icelandairpink.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/icelandairpink.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/icelandairpink.png"]
                 }
             ]
         },
@@ -3707,6 +3795,10 @@
                 {
                     "name": "Skybus",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/skybus.png"]
+                },
+                {
+                    "name": "BahamasAir",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/bahamas.png"]
                 }
             ]
         },
@@ -3759,9 +3851,13 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/text10fbenero.jpg"]
                     },
                 {
-                    "name": "Westjet",
+                    "name": "WestJet (old design - new logo)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/10.jpg"]
                     },
+                {
+                    "name": "WestJet (old design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/westjet.png"]
+                },
                 {
                     "name": "Purolator",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/10.11.jpg"]
