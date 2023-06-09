@@ -3905,6 +3905,20 @@
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-buffalo.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/buffalo.png"]
                 }
             ]
+        },
+        "2706":{
+            "index": [0, 2],
+            "parts": [0, 0],
+            "liveries": [
+                {
+                    "name": "Malév Express",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/malev-express.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/malev-express.png"]
+                },
+                {
+                    "name": "Belavia",
+                    "texture": ["https://i.ibb.co/qyDqjRd/tex1.png", "https://i.ibb.co/qyDqjRd/tex1.png"]
+                }
+            ]
         }
     }
 }
