@@ -52,11 +52,11 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Boeing b737-8
 - Boeing b757-200
 - Boeing b767-300er
-- Boeing b787-8
+<!-- - Boeing b787-8 -->
 - Boeing b787-9
 - Boeing b787-10
 - Bombardier CRJ-700
-- P8 Poseidon
+- Boeing P8 Poseidon
 - Airbus a220-300
 - Airbus a319-100
 - Airbus a320neo
@@ -66,17 +66,20 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Concorde
 - ATR-72
 - Embraer erj145LR
-
-### Planned aircrafts
-
-I plan to support these aircrafts:
-- dc3
-- a320-214
+- SAAB 340
+- Britten-Normal BN2 Islander
+- Bombardier Dash8-q400
+- Bombardier CRJ-200
+- Douglas dc3
 
 ## Feedback
 
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
 Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to help my work, and let me know which aircraft would you like to fly the most.
+
+> **[You can join to our discord server, to keep yourself up to date about the new features.](https://discord.gg/ZW7zh9FXYN)**
+
+
 
 
 ## Known issues
@@ -87,27 +90,31 @@ Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to
 
 I'm very happy if you contribute new liveries to this livery project!
 
-At the time you can contribute liveries to the original Multiliveries aircrafts (b787-9, b787-10, b737-8, b737-800, a320neo, a220-300, a319-100), the b737-700, a350-900, a350-1000, b757-200, b767-300er, erj145lr and ATR 72-600.
+At the time you can contribute liveries to the original Multiliveries aircrafts (b787-9, b787-10, b737-8, b737-800, a320neo, a220-300, a319-100, erj145lr, saab340), the b737-700, a350-900, a350-1000, b757-200, b767-300er, ATR 72-600, BN2, dash8 and crj200.
 
 Here you can find the maps, that you can paint out:
 - [Boeing b737-700](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-700.png)
 - [Boeing b737-800](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-800.png)
-- [Boeing b737-8](https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/Base%20Maps/texture_11%20-%20Copy%20(2).jpg)
+- [Boeing b737-8](https://i.ibb.co/59Cs2kB/texture-11-Copy-2.jpg)
 - [Boeing b787-9](https://i.ibb.co/DLpSHqp/789plain.jpg)
 - [Boeing b787-10](https://i.ibb.co/zr00FRy/texture-46.jpg)
 - [Airbus a220-300](https://i.ibb.co/m4xW9Gc/a220.jpg)
 - [Airbus a319-100](https://i.ibb.co/vkzQX1L/A319-New-UV.jpg)
-- [Airbus a320neo](https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/Base%20Maps/plain_2.jpg)
+- [Airbus a320neo](https://i.ibb.co/yXHSvXN/plain.jpg)
 - [Airbus a350-100 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-1000.png)
 - [Airbus a380](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a380.jpg)
 - [ATR 72-600](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/atr72.jpg)
-- [Embraer erj145LR](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/erj145lr.png)
+- [Embraer ERJ145LR](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/erj145lr.png)
+- [Bombardier CRJ-200](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/crj200.png)
+- [Britten-Normal BN2](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/bn2.png)
+- [SAAB 340](https://cdn.discordapp.com/attachments/1009138556410789918/1091314048894771200/tex.jpg)
 
-For these aircrafts (created by GX Development), instead of using maps, you can repaint the original texture files:
+For these aircrafts, instead of using maps, you can repaint the original texture files:
 - [Boeing b757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
 - [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
-- [Boeing b787-8](https://www.geo-fs.com/backend/aircraft/repository/GXD01E_126645_235/texture.png)
+<!--- [Boeing b787-8](https://www.geo-fs.com/backend/aircraft/repository/GXD01E_126645_235/texture.png)-->
 - [Airbus a350-900](https://geo-fs.com/backend/aircraft/repository/GXD05OQ_166617_239/texture.png)
+- [Bombardier Dash8-q400](https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png)
 
 > **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**, if you are sending it as an issue, please add a "livery" label too, to make the process faster.
 
