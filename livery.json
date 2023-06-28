@@ -1247,7 +1247,7 @@
                 },
                 {
                     "name": "Czechia Air Force",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Texture_278.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/fixed-CZAF.jpg"]
                 },
                 {
                     "name": "Alitalia",
@@ -2602,6 +2602,10 @@
             {
                 "name": "Jet2",
                 "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/jet2.png"]
+            },
+            {
+                "name": "Air Canada",
+                "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_387.png"]
             }
             ]
         },
@@ -2781,10 +2785,6 @@
                 {
                     "name": "Bonza (official design)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Bonza%20737-8.png"]
-                },
-                {
-                    "name": "Air Canada",
-                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/AirCanada%207M8.jpg"]
                 },
                 {
                     "name": "Alaska (Education livery)",
@@ -3540,6 +3540,10 @@
                     {
                         "name": "Japan Transocean Air",
                         "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/jta.png"]
+                    },
+                    {
+                        "name": "Air Explore",
+                        "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/738-air-explore.jpg"]
                     }
                 ]
         },
@@ -3948,7 +3952,7 @@
                 },
                 {
                     "name": "Air Canada",
-                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/aircanada.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/aircanada.jpg"]
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/aircanada.png", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/aircanada.png"]
                 },
                 {
                     "name": "United Nations",
