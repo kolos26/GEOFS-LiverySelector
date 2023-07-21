@@ -423,15 +423,19 @@
             ]
         },
         "15": {
-            "index": [3],
+            "index": [2, 3],
             "parts": [0],
             "liveries": [{
                     "name": "US Navy",
-                    "texture": ["/models/aircraft/premium/p38/texture_0.jpg"]
+                    "texture": ["/models/aircraft/premium/p38/specular.jpg", "/models/aircraft/premium/p38/texture_0.jpg"]
                 },
                 {
                     "name": "Saint-Exupery",
-                    "texture": ["/models/aircraft/premium/p38/texture_1.jpg"]
+                    "texture": ["/models/aircraft/premium/p38/specular.jpg", "/models/aircraft/premium/p38/texture_1.jpg"]
+                },
+                {
+                    "name": "US Air Force (Yippee)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/speculars/yippee.jpg", "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/yippee.png"]
                 }
             ]
         },
