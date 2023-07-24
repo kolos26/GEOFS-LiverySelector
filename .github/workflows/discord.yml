@@ -20,4 +20,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'New commit in {{ EVENT_PAYLOAD.repository.full_name }}: ${{ github.event_name }}'
+          args: 'New commit in {{ EVENT_PAYLOAD.repository.full_name }}: ${{ github.event.head_commit.message }}'
