@@ -1597,13 +1597,10 @@
         "3575": {
             "index": [0],
             "parts": [0],
-            "liveries": [{
-                    "name": "Thai Airways",
-                    "texture": ["/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"]
-                },
+            "liveries": [
                 {
                     "name": "Air Tahiti Nui",
-                    "texture": ["/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_45.jpg"]
+                    "texture": ["/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_48.jpg"]
                 },
                 {
                     "name": "Virgin Atlantic",
