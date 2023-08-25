@@ -1561,6 +1561,26 @@
                 {
                     "name": "Air Serbia",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/serbia.png"]
+                },
+                {
+                    "name": "Air Caraïbes",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/caraibes.png"]
+                },
+                {
+                    "name": "Air Frane",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/airfrance.png"]
+                },
+                {
+                    "name": "Air Mauritius",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/mauritius.png"]
+                },
+                {
+                    "name": "Air Austral",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/austral.png"]
+                },
+                {
+                    "name": "La Costeña",
+                    "texture": ["https://i.ibb.co/yP67Fj3/La-Coste-a-Airlines-ATR-76.jpg"]
                 }
             ]
         },
@@ -1964,7 +1984,16 @@
                 {
                     "name": "British Airways",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/british.png"]
-        }]
+                },
+                {
+                    "name": "Air India (new design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_India_787-9_New_Livery.png"]
+                },
+                {
+                    "name": "Qantas (FIFA Women's World Cup 2023 livery)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/qantasfifa.png"]
+                }
+            ]
     },
         "3534": {
             "index": [1],
@@ -2843,7 +2872,7 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/texture_367.png"]
                 },
                 {
-                    "name": "Air India",
+                    "name": "Air India (old design)",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air%20India%20737MAX8.png"]
                 },
                 {
@@ -2853,6 +2882,10 @@
                 {
                     "name": "Sunwing",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Sunwing%20737%20MAX8.png"]
+                },
+                {
+                    "name": "Air India (new design)",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/Air_India_737-8_New_Livery.png"]
                 }
             ]
         },
@@ -3913,6 +3946,10 @@
                 {
                     "name": "Loganair",
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/125.png"]
+                },
+                {
+                    "name": "United Express (new design)",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/unitednew.png"]
                 }
             ]
         },
@@ -4081,6 +4118,14 @@
                 {
                     "name": "Philippine Airlines",
                     "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/philippine.jpg"]
+                },
+                {
+                    "name": "China Southern",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/southern.png"]
+                },
+                {
+                    "name": "Air Caraïbes",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/caraibes.png"]
                 }
             ]
         },
@@ -4103,6 +4148,229 @@
                 {
                     "name": "Virgin Atlantic",
                     "texture" : ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/VirginAtlantic.png"]
+                }
+            ]
+        },
+        "4646": {
+            "index": [0],
+            "parts": [0],
+            "liveries": [
+                {
+                    "name": "Airbus a321neo (Air India) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/1luca.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (northwest) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/2lucanorthwest.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (hawaiian) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/3lucahaw.jpg"]
+                },  
+                   {
+                    "name": "Airbus a321neo (Phillipines) by Aviation & f1 person",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/4avf1_phili.jpg"]
+                 },   
+                {
+                    "name": "Airbus a321neo (ITA) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/5luca_ita.jpg"]
+                 },
+                {
+                    "name": "Airbus a321neo (Jet2) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/6luca_jet2.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Aegean) by Coolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/7cp11_aeg.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Air Astana) by coolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/8cp11_asta.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (United) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/9luca_untd.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Swiss) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/10luca_swiss.jpg"]
+                },{
+                    "name": "Airbus a321neo (Air Busan) by coolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/11cp11_airbusan.jpg"]
+                },{
+                    "name": "Airbus a321neo (Air Macau) by coolpilot 11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/12cp11_airmacau.jpg"]
+                },{
+                    "name": "Airbus a321neo (Air New Zealand) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/13luca_anz.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Air China) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/15luca_airchina.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Airbus house) by Aviation & f1 person",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/16avf1_airbushouse.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Cathay Pacific) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/17luca_cathpaci.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Cathay Dragon) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/18luca_cathdrag.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Lufthwaffe) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/19luca-lufwaf.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (China southern) by Coolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/20cp11_chinasouth.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Play) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/21luca_play.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Turkish) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/22luca_tkishai.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (23cp11sct.jpg) by coolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/23cp11sct.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (TAP Retro) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/24luca_tapretro.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Qantas) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/25luca_qnts.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Srilankan) by aviation & f1 person",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/26avf1_srilkn.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Lufthansa) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/27luca_lftha.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Fronter America's green airline) bycoolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/28cp11_frntrAM'sGreenAirl.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (wizz) by coolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/29cp11_wizz.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Iberia Express) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/30luca_ibrexp.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (gulf air retro) by weird pun guy",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/31weirdpunguy_gfaretr.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Air Blue) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/32luca_airblu.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Indigo) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/33luca_indgo.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (HK Express) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/34luca_hkexp.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Juneyao) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/35luca_juneyao.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Pegasus) by Aidan Lian",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/36aidanlian_flypgs.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Air India old) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/37luca_aic.jpg"]
+                },{
+                    "name": "Airbus a321neo (TAP) by GA",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/38GA_tap.jpg"]
+                },{
+                    "name": "Airbus a321neo (hisky) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/39luca_hisky.jpg"]
+                },{
+                    "name": "Airbus a321neo (Phillipines zoro mask) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/40luca_philp(racmask).jpg"]
+                },{
+                    "name": "Airbus a321neo (Vietnam) by coolpilot11",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/41cp11_vtnam.jpg"]
+                },{
+                    "name": "Airbus a321neo (salam air-interjet) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/42luca_salamair(interjet).jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (interjet) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/43luca_interjet.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (salamair-avianca) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/44luca_salamair.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Avianca) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/45luca_avianca.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (virgin america) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/46luca_vamerica.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (peach) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/47luca_peach.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (SAS) by Aviation & f1 person",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/48avf1_sas.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Transasia) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/49luca_transasia.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Onur Air) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/50luca_onurair.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Vistara) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/51luca_vstra.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Vistara 50 aircraft strong) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/52luca_50vstraaircraftstrong.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (ANA) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/53luca-ana.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Icelandair) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/54luca_iceland.jpg"]
+                },
+                {
+                    "name": "Airbus a321neo (Salam air cargo) by weirdpunguy",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/55weirdpunguy_salamair.jpg"]
+                },{
+                    "name": "Airbus a321neo (Spirit) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/56luca_sprt.jpg"]
+                },{
+                    "name": "Airbus a321neo (Air Canada) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/57luca_aircan'a.jpg"]
+                },{
+                    "name": "Airbus a321neo (Air Arabia) by Luca",
+                    "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/58luca_airarabia.jpg"]
                 }
             ]
         }
