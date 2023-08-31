@@ -4373,6 +4373,20 @@
                     "texture": ["https://raw.githubusercontent.com/Spice9/stuff2/main/58luca_airarabia.jpg"]
                 }
             ]
+        },
+        "7":{
+            "index": [3],
+            "parts": [0],
+            "liveries": [
+                {
+                    "name": "US Air Force Thunderbirds",
+                    "texture": ["/models/aircraft/premium/f16/texture.jpg"]
+                },
+                {
+                    "name": "US Air Force",
+                    "texture": ["https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/usafgrey.png"]
+                }
+            ]
         }
     }
 }
