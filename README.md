@@ -71,7 +71,8 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Bombardier Dash8-q400
 - Bombardier CRJ-200
 - Douglas dc3
-- Lockheed P38 Lighning
+- Lockheed P38 Lightning
+- General Dynamics F16 Fighning Falcon
 
 ## Feedback
 
