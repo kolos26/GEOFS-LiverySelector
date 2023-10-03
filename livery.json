@@ -103,7 +103,13 @@
                 {
                     "name": "Jet2",
                     "texture": [
-                        "https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737-1.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jet_2.png"
+                    ]
+                },
+                {
+                    "name": "Jet2 (Manchester livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jet_2m.png"
                     ]
                 },
                 {
@@ -5696,6 +5702,36 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Air_India_737-8_New_Livery.png"
                     ]
+                },
+                {
+                    "name": "AeroMexico",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/max8aeromexico2%20(1).jpg"
+                    ]
+                },
+                {
+                    "name": "SunExpress",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/max8sunexpress.jpg"
+                    ]
+                },
+                {
+                    "name": "Korean Air Lines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/max8Korean.jpg"
+                    ]
+                },
+                {
+                    "name": "China Southern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/max8chinasouthern.jpg"
+                    ]
+                },
+                {
+                    "name": "Air China",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/max8chinaairlines.jpg"
+                    ]
                 }
             ]
         },
@@ -7660,6 +7696,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/starlux.png"
                     ]
+                },
+                {
+                    "name": "Finnair (Oneworld livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/finnairone.png"
+                    ]
+                },
+                {
+                    "name": "Japan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/japan.png"
+                    ]
                 }
             ]
         },
@@ -7736,9 +7784,15 @@
                     ]
                 },
                 {
+                    "name": "Jet2Holidays",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/j2h.png"
+                    ]
+                },
+                {
                     "name": "Jet2",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/6luca_jet2.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/jet2.png"
                     ]
                 },
                 {
@@ -7790,7 +7844,7 @@
                     ]
                 },
                 {
-                    "name": "Airbus house",
+                    "name": "Airbus house livery",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/16avf1_airbushouse.jpg"
                     ]
@@ -7916,7 +7970,7 @@
                     ]
                 },
                 {
-                    "name": "Air India old",
+                    "name": "Air India (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/37luca_aic.jpg"
                     ]
@@ -7946,7 +8000,7 @@
                     ]
                 },
                 {
-                    "name": "Salam Air (Interjet)",
+                    "name": "Salam Air (Interjet design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/42luca_salamair(interjet).jpg"
                     ]
@@ -8069,6 +8123,12 @@
                     "name": "Arkia",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_653.jpg"
+                    ]
+                },
+                {
+                    "name": "Easyjet",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/easyjet.png"
                     ]
                 }
             ]
