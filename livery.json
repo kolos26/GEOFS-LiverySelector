@@ -3560,6 +3560,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/t612.png"
                     ]
+                },
+                {
+                    "name": "Beond",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Beond_A319.png"
+                    ]
                 }
             ]
         },
@@ -4412,6 +4418,24 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/qantasfifa.png"
                     ]
+                },
+                {
+                    "name": "Saudia (retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Saudia_Retro_787-10.png"
+                    ]
+                },
+                {
+                    "name": "Kenya Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/KenyaAirways789.png"
+                    ]
+                },
+                {
+                    "name": "Kenya Airways (retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/KenyaRetro789_NEW.png"
+                    ]
                 }
             ]
         },
@@ -4482,7 +4506,7 @@
                     ]
                 },
                 {
-                    "name": "Jet Blue",
+                    "name": "Jetblue",
                     "texture": [
                         "/backend/aircraft/repository/Air%20Baltic%20%20A220_230250_2899/texture_140.jpg"
                     ]
@@ -5396,6 +5420,36 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_387.png"
                     ]
+                },
+                {
+                    "name": "British Airways (Bettew World livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/better_world_ba.png"
+                    ]
+                },
+                {
+                    "name": "Thai Airways (Smile livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Thai_Smile.png"
+                    ]
+                },
+                {
+                    "name": "Jetblue (Barcode design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/JetBlue_A320Neo.png"
+                    ]
+                },
+                {
+                    "name": "Colorful Guizhou Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/CGA_A320neo.png"
+                    ]
+                },
+                {
+                    "name": "Asky",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Asky_737-8.png"
+                    ]
                 }
             ]
         },
@@ -5965,6 +6019,12 @@
                     "name": "Malaysia Airlines (Oneworld livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_377.jpg"
+                    ]
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/Air_Canada.png"
                     ]
                 }
             ]
@@ -7206,6 +7266,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/t608.png"
                     ]
+                },
+                {
+                    "name": "Finnair Cargo  ",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Finnair_737-200.png"
+                    ]
                 }
             ]
         },
@@ -7800,6 +7866,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/turkishairlines.png"
                     ]
+                },
+                {
+                    "name": "Thai Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/thai.png"
+                    ]
+                },
+                {
+                    "name": "Swiss Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/swiss.png"
+                    ]
                 }
             ]
         },
@@ -8230,7 +8308,7 @@
                     ]
                 },
                 {
-                    "name": "Air Canada",
+                    "name": "Emirates (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/t624.png"
                     ]
@@ -8245,6 +8323,84 @@
                     "name": "Qatar Airways",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/t614.png"
+                    ]
+                },
+                {
+                    "name": "Air New Zealand (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/t627.png"
+                    ]
+                },
+                {
+                    "name": "Lufthansa (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/lufthansaold.png"
+                    ]
+                },
+                {
+                    "name": "AirAsia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/AirAsia_A321Neo.png"
+                    ]
+                },
+                {
+                    "name": "AirAsia (3, 2, 1, Takeoff livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/AirAsia_A321Neo_321_Takeoff.png"
+                    ]
+                },
+                {
+                    "name": "British Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/British_Airways_A321Neo.png"
+                    ]
+                },
+                {
+                    "name": "Jetblue (Balloons design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Jetblue_A321Neo_Balloons.png"
+                    ]
+                },
+                {
+                    "name": "Jetblue (Minality design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Jetblue_A321Neo_Mintality.png"
+                    ]
+                },
+                {
+                    "name": "Jetblue (Streamers design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Jetblue_A321Neo_Streamers.png"
+                    ]
+                },
+                {
+                    "name": "Prime Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Primera_Air_A321Neo.png"
+                    ]
+                },
+                {
+                    "name": "Saudia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Saudia_A321Neo.png"
+                    ]
+                },
+                {
+                    "name": "Saudia (retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Saudia_Retro_A321Neo.png"
+                    ]
+                },
+                {
+                    "name": "Starlux",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Starlux_A321Neo.png"
+                    ]
+                },
+                {
+                    "name": "Volaris",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Volaris_A321Neo.png"
                     ]
                 }
             ]
@@ -8267,6 +8423,12 @@
                     "name": "US Air Force",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/usafgrey.png"
+                    ]
+                },
+                {
+                    "name": "US Air Force Tigers",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/usaftiger.png"
                     ]
                 }
             ]
