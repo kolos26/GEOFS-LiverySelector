@@ -79,7 +79,7 @@ In this time near all basic aircrafts are supported witch has originally more th
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
 Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to help my work, and let me know which aircraft would you like to fly the most.
 
-> **[You can join to our discord server, to keep yourself up to date about the new features.](https://discord.gg/ATWuUA6HsF)**
+> **[You can join to our discord server, to keep yourself up to date about the new features.](https://discord.gg/2tcdzyYaWU)**
 
 
 
