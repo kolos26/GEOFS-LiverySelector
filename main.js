@@ -38,9 +38,13 @@ async function init(){
 
     //remove original buttons
 
-    document.querySelectorAll('[data-livery]').forEach(function(e){
+    Object.values(document.getElementsByClassName("geofs-liveries geofs-list-collapsible-item")).forEach(function(e){
         e.parentElement.removeChild(e);
     })
+
+    Object.keys(liveryobj.aircrafts).forEach(function(e){
+        document.querySelectorAll("[data-aircraft='"+ e +"']")[0].innerHTML = document.querySelectorAll("[data-aircraft='"+ e +"']")[0].innerHTML + '<img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/0230cb5c8438a70b770ff56fed81dfec6f4e9014/liveryselector-logo-small.svg" height="30px"/>'
+    });
 
 }
 
