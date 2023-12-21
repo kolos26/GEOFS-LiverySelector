@@ -6966,6 +6966,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/lot.png"
                     ]
+                },
+                {
+                    "name": "Icelandair",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Iceland.jpg"
+                    ]
                 }
             ]
         },
@@ -7315,6 +7321,30 @@
                     "name": "Saudia",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/saudia.png"
+                    ]
+                },
+                {
+                    "name": "Lufthansa",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Lufthansa.jpg"
+                    ]
+                },
+                {
+                    "name": "Lufthansa (Metal design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Lufthansa_Metal.png"
+                    ]
+                },
+                {
+                    "name": "RyanAir",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/ryanair.png"
+                    ]
+                },
+                {
+                    "name": "RyanAir (Santa Strike livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/ryanairsantastrike.png"
                     ]
                 }
             ]
@@ -8012,6 +8042,24 @@
                     "name": "Virgin Atlantic",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/VirginAtlantic.png"
+                    ]
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/aircanada.png"
+                    ]
+                },
+                {
+                    "name": "ITA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/ita.png"
+                    ]
+                },
+                {
+                    "name": "Lion Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/lionair.png"
                     ]
                 }
             ]
