@@ -3548,7 +3548,7 @@
                 {
                     "name": "Croatia Airlines (old design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/t610.png" 
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/t610.png"
                     ]
                 },
                 {
@@ -8582,7 +8582,7 @@
                 }
             ]
         },
-        "4745" : {
+        "4745": {
             "index": [
                 0
             ],
@@ -8628,7 +8628,7 @@
                 }
             ]
         },
-        "4743" : {
+        "4743": {
             "index": [
                 0
             ],
@@ -8658,6 +8658,32 @@
                     "name": "Continental",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Continental.jpg"
+                    ]
+                }
+            ]
+        },
+        "25": {
+            "index": [
+                2,
+                3
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "American Airlines (new design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "/models/aircraft/premium/777_300/texture_0.jpg"
+                    ]
+                },
+                {
+                    "name": "American Airlines (old design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "/models/aircraft/premium/777_300/texture_0.jpg"
                     ]
                 }
             ]
