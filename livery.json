@@ -8746,14 +8746,28 @@
                     "name": "Qatar Airways (retro livery)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/QTRretro%20(1).jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/qatarretro.jpg"
                     ]
                 },
                 {
                     "name": "EVA Air",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/EVA773.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/eva.jpg"
+                    ]
+                },
+                {
+                    "name": "KLM (new design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/klm.jpg"
+                    ]
+                },
+                {
+                    "name": "Emirates (new design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/emirates.png"
                     ]
                 }
             ]
