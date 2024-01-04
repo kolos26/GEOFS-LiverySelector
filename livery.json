@@ -20,7 +20,8 @@
                         "/models/aircraft/premium/cub/texture_1.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "2": {
             "index": [
@@ -42,7 +43,8 @@
                         "/models/aircraft/premium/cessna_172/texture_1.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4": {
             "index": [
@@ -366,7 +368,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/thai.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "6": {
             "index": [
@@ -400,7 +403,8 @@
                         "/models/aircraft/premium/dhc6/4_1.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "10": {
             "index": [
@@ -566,7 +570,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/zeroe.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "13": {
             "index": [
@@ -630,7 +635,8 @@
                         "/models/aircraft/premium/dhc2/texture_8.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "14": {
             "index": [
@@ -658,7 +664,8 @@
                         "/models/aircraft/premium/cricri/texture_2.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "15": {
             "index": [
@@ -691,7 +698,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/yippee.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Specular shader", "Texture"]
         },
         "18": {
             "index": [
@@ -725,7 +733,8 @@
                         "/models/aircraft/premium/su35/texture_3.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "20": {
             "index": [
@@ -789,7 +798,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/barniff.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "235": {
             "index": [
@@ -3095,7 +3105,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/saudiarabian.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "2879": {
             "index": [
@@ -3597,7 +3608,8 @@
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Beond_A319.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "2418": {
             "index": [
@@ -3841,7 +3853,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/tarom.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "2973": {
             "index": [
@@ -3887,7 +3900,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-1000/airfrancecargo.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "3575": {
             "index": [
@@ -4467,7 +4481,8 @@
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/KenyaRetro789_NEW.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "3534": {
             "index": [
@@ -4655,7 +4670,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/qantas.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "2871": {
             "index": [
@@ -5487,10 +5503,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/brusselsless.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "2769": {
-            "index": "0",
+            "index": [
+                0
+            ],
             "parts": [
                 0
             ],
@@ -5915,7 +5934,8 @@
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Asky_737-8.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "3180": {
             "index": [
@@ -6081,7 +6101,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/Air_Canada.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "3292": {
             "index": [
@@ -6115,7 +6136,8 @@
                         "https://i.ibb.co/prY3P7W/texture-193.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "3307": {
             "index": [
@@ -6169,7 +6191,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj700/delta/image2.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Fuselage texture", "Wing texture", "Engine texture"]
         },
         "3054": {
             "index": [
@@ -7001,7 +7024,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Iceland.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4017": {
             "index": [
@@ -7233,7 +7257,8 @@
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_521.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4140": {
             "index": [
@@ -7375,7 +7400,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/ryanairsantastrike.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "247": {
             "index": [
@@ -7490,7 +7516,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/unitedexpress.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4398": {
             "index": [
@@ -7536,7 +7563,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/bahamas.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "2892": {
             "index": [
@@ -7684,7 +7712,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/ameriflightxdhl.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "16": {
             "index": [
@@ -7717,7 +7746,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/malev.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Specular shader", "Texture"]
         },
         "2706": {
             "index": [
@@ -7806,7 +7836,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/lufthansa.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "3341": {
             "index": [
@@ -7836,7 +7867,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/british/engine.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Fuselage texture", "Wing texture", "Engine texture"]
         },
         "24": {
             "index": [
@@ -8044,7 +8076,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/edelweiss.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4631": {
             "index": [
@@ -8096,7 +8129,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/lionair.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4646": {
             "index": [
@@ -8586,7 +8620,8 @@
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Volaris_A321Neo.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "7": {
             "index": [
@@ -8614,7 +8649,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/usaftiger.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4745": {
             "index": [
@@ -8660,7 +8696,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Continental.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4743": {
             "index": [
@@ -8694,7 +8731,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Continental.jpg"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "25": {
             "index": [
@@ -8930,7 +8968,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airaustral.png"
                     ]
                 }
-            ]
+            ],
+            "labels": ["Specular shader", "Texture"]
         }
     }
 }
