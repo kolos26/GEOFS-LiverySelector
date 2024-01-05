@@ -120,6 +120,15 @@ For these aircrafts, instead of using maps, you can repaint the original texture
 
 > **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**, if you are sending it as an issue, please add a "livery" label too, to make the process faster.
 
+## How to use the test feature?
+
+The test feature is a brand new function in 2.1.0. You can find it at the end of the LIVERY menu.
+
+- You can insert the direct url to the image in the green box, or
+- you can also post it directly to imgbb, via the blue **UPLOAD IMAGE** button. To do that you need to [create an API key](https://api.imgbb.com/), and save it to local storage by typing `localStorage.imgbbAPIKEY = "YOUR API KEY (keep the brackets)"` into the console. You only need to do this for the first time, the app will remember your key. After pressing the button, within a few seconds the url should appear in the green box.
+
+After pasting a link, add the livery by pressing the yellow **LOAD LIVERY** button. For some planes more than one boxes are available. To add only the painting, use the box called **Texture**, you can keep the rest of them empty.
+
 ## Resources
 
 Fonts and icons in the logo:
