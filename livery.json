@@ -4406,7 +4406,13 @@
                 {
                     "name": "Hainan Airlines (yellow design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/hainininini.pngs"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/hainanyellow.jpg"
+                    ]
+                },
+                {
+                    "name": "Hainan Airlines (red design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/hainanred.jpg"
                     ]
                 },
                 {
@@ -7023,6 +7029,24 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Iceland.jpg"
                     ]
+                },
+                {
+                    "name": "Egypt Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/737800egyptair.jpg"
+                    ]
+                },
+                {
+                    "name": "Kenya Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Kenya%20Airways%20737-800.png"
+                    ]
+                },
+                {
+                    "name": "United (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20737-800%20Old.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -7252,9 +7276,27 @@
                     ]
                 },
                 {
-                    "name": "Contour",
+                    "name": "Contour Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_521.png"
+                    ]
+                },
+                {
+                    "name": "Contour Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Contour%20E-145%20V2.png"
+                    ]
+                },
+                {
+                    "name": "Air Angola",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Fly%20Angola%20E-145.png"
+                    ]
+                },
+                {
+                    "name": "Rano Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Rano%20Air%20E-145.png"
                     ]
                 }
             ],
@@ -8075,6 +8117,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/edelweiss.png"
                     ]
+                },
+                {
+                    "name": "Air China (Star Alliance livery)",
+                    "texture": [
+                        "https://i.ibb.co/WB4LwRn/359.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8619,6 +8667,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Volaris_A321Neo.png"
                     ]
+                },
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/KLM%20A321neo.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8694,6 +8748,12 @@
                     "name": "Continental",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Continental.jpg"
+                    ]
+                },
+                {
+                    "name": "Cebu Pacific",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/cebu.png"
                     ]
                 }
             ],
@@ -8966,6 +9026,20 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airaustral.png"
+                    ]
+                },
+                {
+                    "name": "Air China (Star Alliance livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://i.ibb.co/g9shGCV/m-AIR-CHINA-STAR-ALLANCE-B777-300-ER-1.jpg"
+                    ]
+                },
+                {
+                    "name": "China Eastern",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinaeastern.png"
                     ]
                 }
             ],
