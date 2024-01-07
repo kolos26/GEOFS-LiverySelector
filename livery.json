@@ -7047,6 +7047,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20737-800%20Old.png"
                     ]
+                },
+                {
+                    "name": "Jettime",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/jettime.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8176,6 +8182,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/lionair.jpg"
                     ]
+                },
+                {
+                    "name": "SWISS",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/Swiss.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8927,7 +8939,7 @@
                     "name": "Saudi Arabian",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/saudiarabian"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/saudiarabian.jpg"
                     ]
                 },
                 {
@@ -9001,7 +9013,7 @@
                     ]
                 },
                 {
-                    "name": "Cathay Pacific",
+                    "name": "Cathay Pacific (new design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cathaypacific.jpg"
@@ -9037,6 +9049,20 @@
                 },
                 {
                     "name": "China Eastern",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinaeastern.png"
+                    ]
+                },
+                {
+                    "name": "Bangladesh Airlines",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinaeastern.png"
+                    ]
+                },
+                {
+                    "name": "Cathay Pacific (old design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinaeastern.png"
