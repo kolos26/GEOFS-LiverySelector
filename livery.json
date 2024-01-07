@@ -8194,6 +8194,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/jet2.png"
                     ]
+                },
+                {
+                    "name": "Air France",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/airfrance.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -9076,6 +9082,29 @@
                 }
             ],
             "labels": ["Specular shader", "Texture"]
+        },
+        "4596": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "F-PATH USAF",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/vans_rv6/usaf.png"
+                    ]
+                },
+                {
+                    "name": "C-FKEH",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/Vansrv6CFKEH.jpg"
+                    ]
+                }
+            ],
+            "labels": ["Texture"]
         }
     }
 }
