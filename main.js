@@ -40,6 +40,12 @@ async function init(){
 
     await fetch("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/livery.json").then(res => res.json()).then(data => liveryobj = data)
 
+    //add button for pa28
+    let pa28 = document.createElement("li");
+    pa28.setAttribute("data-aircraft", "23");
+    pa28.innerHTML = '<img src="/images/planes/pa28.png"> Piper PA-28 161 Warrior II';
+    document.querySelectorAll("[data-aircraft='24']")[0].parentNode.insertBefore(pa28, document.querySelectorAll("[data-aircraft='24']")[0]);
+
     //remove original buttons
 
     Object.values(document.getElementsByClassName("geofs-liveries geofs-list-collapsible-item")).forEach(function(e){
@@ -49,6 +55,7 @@ async function init(){
     Object.keys(liveryobj.aircrafts).forEach(function(e){
         document.querySelectorAll("[data-aircraft='"+ e +"']")[0].innerHTML = document.querySelectorAll("[data-aircraft='"+ e +"']")[0].innerHTML + '<img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/0230cb5c8438a70b770ff56fed81dfec6f4e9014/liveryselector-logo-small.svg" height="30px"/>'
     });
+
 
 }
 

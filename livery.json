@@ -9112,6 +9112,25 @@
             ],
             "labels": ["Texture"]
         },
+        "23": {
+            "index": [
+                3
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Aerobility",
+                    "texture": [
+                        "/models/aircraft/premium/pa28/texture.jpg"
+                    ]
+                },
+                {
+                    "name": "Aeroclub Milano",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/Aeroclub_Milano.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
