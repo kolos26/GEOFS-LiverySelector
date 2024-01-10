@@ -243,7 +243,7 @@ function addCustomForm(){
 
 function uploadLivery(e){
     var form = new FormData();
-    form.append("image", e.files[0])
+    form.append("image", e.files[0]);
 
     var settings = {
         "url": "https://api.imgbb.com/1/upload?key=" + localStorage.imgbbAPIKEY,
