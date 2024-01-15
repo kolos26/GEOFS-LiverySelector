@@ -3852,6 +3852,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/tarom.png"
                     ]
+                },
+                {
+                    "name": "Air New Zealand",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/newzealand.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -5508,6 +5514,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/brusselsless.png"
                     ]
+                },
+                {
+                    "name": "Chuniqu Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/chuniqu.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -5938,6 +5950,12 @@
                     "name": "Asky",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Asky_737-8.png"
+                    ]
+                },
+                {
+                    "name": "Xiamen Airlines (2000th Boeing Aircraft for China livery",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/xiamen2000.jpg"
                     ]
                 }
             ],
@@ -7053,6 +7071,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/jettime.png"
                     ]
+                },
+                {
+                    "name": "Xiamen Airlines (Skyteam livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/xiamensky.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8129,6 +8153,12 @@
                     "texture": [
                         "https://i.ibb.co/WB4LwRn/359.jpg"
                     ]
+                },
+                {
+                    "name": "Sichuan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanairlines.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8846,7 +8876,7 @@
                     "name": "Air France",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airfrance.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airfrance.png"
                     ]
                 },
                 {
@@ -8906,7 +8936,7 @@
                     ]
                 },
                 {
-                    "name": "EVA Air",
+                    "name": "EVA Air (new livery)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/eva.jpg"
@@ -9078,6 +9108,125 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cathaypacificold.jpg"
+                    ]
+                },
+                {
+                    "name": "Aeroflot (Skyteam livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/aeroflotsky.png"
+                    ]
+                },
+                {
+                    "name": "Air France (Olympique Game Paris 2024 livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airfranceparis.png"
+                    ]
+                },
+                {
+                    "name": "Air France (Skyteam livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airfrancesky.png"
+                    ]
+                },
+                {
+                    "name": "ANA (Skyteam livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/anasky.png"
+                    ]
+                },
+                {
+                    "name": "Australian Airlines",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/austrian.png"
+                    ]
+                },
+                {
+                    "name": "AzurAir",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/azur.png"
+                    ]
+                },
+                {
+                    "name": "British Airways",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/british.png"
+                    ]
+                },
+                {
+                    "name": "Air China (Dream Chaser livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/dreamchaser.png"
+                    ]
+                },
+                {
+                    "name": "Ethiopian",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/ethiopian.png"
+                    ]
+                },
+                {
+                    "name": "EVA Air (old logo)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/eva1.png"
+                    ]
+                },
+                {
+                    "name": "EVA Air (new logo)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/eva2s.png"
+                    ]
+                },
+                {
+                    "name": "Garuda Indonesia (Skyteam livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/garudasky.png"
+                    ]
+                },
+                {
+                    "name": "Korean Air Lines (Skyteam livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/garudasky.png"
+                    ]
+                },
+                {
+                    "name": "Latam",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/latam.png"
+                    ]
+                },
+                {
+                    "name": "Qatar Airways",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Qatar.jpg"
+                    ]
+                },
+                {
+                    "name": "goturkiye.com",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/qoturkiye.png"
+                    ]
+                },
+                {
+                    "name": "United (Star Alliance livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/unitedstar.png"
                     ]
                 }
             ],
