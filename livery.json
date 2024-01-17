@@ -3858,6 +3858,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/newzealand.png"
                     ]
+                },
+                {
+                    "name": "Alitalia Express",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/alitalia.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -4491,6 +4497,12 @@
                     "name": "Kenya Airways (retro livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/KenyaRetro789_NEW.png"
+                    ]
+                },
+                {
+                    "name": "Juneyao Air (Genshin livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/qantasfifa.png"
                     ]
                 }
             ],
@@ -5516,9 +5528,15 @@
                     ]
                 },
                 {
-                    "name": "Chuniqu Airways",
+                    "name": "Chunqiu Airways",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/chuniqu.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/chunqiu.png"
+                    ]
+                },
+                {
+                    "name": "Sichuan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/sichuan.png"
                     ]
                 }
             ],
@@ -8151,13 +8169,19 @@
                 {
                     "name": "Air China (Star Alliance livery)",
                     "texture": [
-                        "https://i.ibb.co/WB4LwRn/359.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchinastar.jpgs"
                     ]
                 },
                 {
                     "name": "Sichuan Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanairlines.png"
+                    ]
+                },
+                {
+                    "name": "China Eastern (1st Airbus A350 delivered form China livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern1st.jpg"
                     ]
                 }
             ],
@@ -8726,6 +8750,18 @@
                     "name": "KLM",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/KLM%20A321neo.png"
+                    ]
+                },
+                {
+                    "name": "Chunqiu Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/chunqiu.png"
+                    ]
+                },
+                {
+                    "name": "Sichuan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/sichuan.png"
                     ]
                 }
             ],
