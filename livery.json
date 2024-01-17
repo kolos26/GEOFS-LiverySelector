@@ -9264,6 +9264,13 @@
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/unitedstar.png"
                     ]
+                },
+                {
+                    "name": "IAI - GECAS CARGO 777-300ERSF Big Twin",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/bigtwin.png"
+                    ]
                 }
             ],
             "labels": ["Specular shader", "Texture"]
