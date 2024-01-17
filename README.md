@@ -32,17 +32,11 @@ You can use LiverySelector without installation, or you can add it to your Tampe
 You can use the LiverySelector without installation: just copy and paste the [main.js](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/main.js) into the browser console.
 
 You need to do that every time you want to use LiverySelector.
-For the first time you need to paste this line into the console:
-
-```localStorage.favorites = "";```
 
 ### Install into Tampermonkey (recommended)
 
 You can also find the [Tampermonkey](https://www.tampermonkey.net/) compatible version of LiverySelector in the Releases menu and add it to your Tampermonkey addon.
 
-For the first time you need to paste this line into the console:
-
-```localStorage.favorites = "";```
 
 ## Aircrafts
 

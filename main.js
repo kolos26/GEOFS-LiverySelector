@@ -1,5 +1,4 @@
 let liveryobj;
-let panelopen = 0;
 let multiplayertexture
 
 //init
@@ -197,6 +196,9 @@ function star(element){
 }
 
 function loadFavorites(){
+    if (localStorage.getItem("infiniteScrollEnabled") === null) {
+        localStorage.favorites = "";
+    }
     document.getElementById("favorites").innerHTML = "";
     let list = localStorage.favorites.split(",");
     //console.log(list);
