@@ -196,7 +196,7 @@ function star(element){
 }
 
 function loadFavorites(){
-    if (localStorage.getItem("infiniteScrollEnabled") === null) {
+    if (localStorage.getItem("favorites") === null) {
         localStorage.favorites = "";
     }
     document.getElementById("favorites").innerHTML = "";
