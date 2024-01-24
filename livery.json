@@ -581,6 +581,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Swissair.png"
                     ]
+                },
+                {
+                    "name": "ANA (Sea Turtle livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/anaturtle.png"
+                    ]
+                },
+                {
+                    "name": "Emirates (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesnew.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -7261,9 +7273,15 @@
                     ]
                 },
                 {
-                    "name": "Shandong Airlines",
+                    "name": "Shandong Airlines (Friendly Shandong livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/shandong.jpg"
+                    ]
+                },
+                {
+                    "name": "Shandong Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/shandong2.jpg"
                     ]
                 }
             ],
@@ -9049,9 +9067,15 @@
                     ]
                 },
                 {
-                    "name": "Xiamen Airlines (First Airbus to XIAMENAIR livery) ",
+                    "name": "Xiamen Airlines (First Airbus to XIAMENAIR livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/sichuan.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/xiamen1st.png"
+                    ]
+                },
+                {
+                    "name": "Xiamen Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/xiamen.jpg"
                     ]
                 }
             ],
