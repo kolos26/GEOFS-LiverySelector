@@ -5606,6 +5606,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Tunisair%20A320neo.png"
                     ]
+                },
+                {
+                    "name": "Air India Express",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/airindiaexpress.jpg"
+                    ]
+                },
+                {
+                    "name": "China Eastern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/chinaeastern.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -9793,6 +9805,13 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/saudiacargo.png"
+                    ]
+                },
+                {
+                    "name": "TAM Linhas Aéreas",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/latam.png"
                     ]
                 }
             ],
