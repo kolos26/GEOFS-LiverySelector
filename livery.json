@@ -6949,7 +6949,7 @@
                 {
                     "name": "Corendon Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Corendon.png"
+                        "https://i.ibb.co/0yzvy2t/Corendon.png"
                     ]
                 },
                 {
@@ -7904,6 +7904,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/westjet.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/westjet.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/westjet.png"
+                    ]
+                },
+                {
+                    "name": "Widerøe",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/wideroe.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/wideroe.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/wideroe.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/wideroe.png"
                     ]
                 }
             ],
@@ -9929,7 +9938,14 @@
                     "name": "Air China (Love China livery)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/klmold.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/lovechina.png"
+                    ]
+                },
+                {
+                    "name": "Philippine Airlines (70th anniversary livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/philippines70.png"
                     ]
                 }
             ],
