@@ -8498,6 +8498,24 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern1st.jpg"
                     ]
+                },
+                {
+                    "name": "HongKong Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/hongkong.jpg"
+                    ]
+                },
+                {
+                    "name": "Hainan Airlines (yellow design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/hainan.jpg"
+                    ]
+                },
+                {
+                    "name": "Air India (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/A359AirIndiaNewlivery.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -9946,6 +9964,55 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/philippines70.png"
+                    ]
+                },
+                {
+                    "name": "Etihad Airways (old design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/etihadold.png"
+                    ]
+                },
+                {
+                    "name": "Kenya Airways",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/kenya.png"
+                    ]
+                },
+                {
+                    "name": "Kuwait Airways",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/KuwaitAir.png"
+                    ]
+                },
+                {
+                    "name": "Nordwind Airlines",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/nordwind.png"
+                    ]
+                },
+                {
+                    "name": "Pakistan International",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/pia.png"
+                    ]
+                },
+                {
+                    "name": "Royal Flight",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/royalflight.png"
+                    ]
+                },
+                {
+                    "name": "Transaero",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/transaero.png"
                     ]
                 }
             ],
