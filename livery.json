@@ -4801,6 +4801,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Green%20Africa%20A220.png "
                     ]
+                },
+                {
+                    "name": "AtlasJet",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/atlasjet.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8271,6 +8277,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/british/wing.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/british/engine.jpg"
                     ]
+                },
+                {
+                    "name": "British Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/aircanada/fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/aircanada/wing.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/aircanada/engine.jpg"
+                    ]
                 }
             ],
             "labels": ["Fuselage texture", "Wing texture", "Engine texture"]
@@ -10021,6 +10035,34 @@
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/KLM_Orange_Pride.png"
                     ]
+                },
+                {
+                    "name": "KLM Asia",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/klmasia.png"
+                    ]
+                },
+                {
+                    "name": "Air New Zealand (Leased)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/newzealandleased.png"
+                    ]
+                },
+                {
+                    "name": "United Airlines (Blue Tulip design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/United_Blue_Tulip.png"
+                    ]
+                },
+                {
+                    "name": "United Airlines (Battleship Grey design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/United_Battleship_Grey.png"
+                    ]
                 }
             ],
             "labels": ["Specular shader", "Texture"]
@@ -10072,6 +10114,29 @@
                     "name": "Aeroclub Milano",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/Aeroclub_Milano.png"
+                    ]
+                }
+            ],
+            "labels": ["Texture"]
+        },
+        "3289": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Aerocardal",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2005.jpg"
+                    ]
+                },
+                {
+                    "name": "Tara air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2006.jpg"
                     ]
                 }
             ],
