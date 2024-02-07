@@ -8528,7 +8528,13 @@
                 {
                     "name": "Air India (new design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/A359AirIndiaNewlivery.jpg"
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/A359AirIndiaNew1.jpg"
+                    ]
+                },
+                {
+                    "name": "United",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/united.jpg"
                     ]
                 }
             ],
@@ -9743,7 +9749,7 @@
                     ]
                 },
                 {
-                    "name": "Air France Cargo",
+                    "name": "Air France Cargo (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/afcargo.png"
@@ -9981,6 +9987,13 @@
                     ]
                 },
                 {
+                    "name": "Philippine Airlines (75th anniversary livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/philippines75.jpg"
+                    ]
+                },
+                {
                     "name": "Etihad Airways (old design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
@@ -10063,6 +10076,27 @@
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/United_Battleship_Grey.png"
                     ]
+                },
+                {
+                    "name": "Air France Cargo (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/afcargonew.png"
+                    ]
+                },
+                {
+                    "name": "Atlas Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/atlas.png"
+                    ]
+                },
+                {
+                    "name": "Star Air Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/starair.png"
+                    ]
                 }
             ],
             "labels": ["Specular shader", "Texture"]
@@ -10091,6 +10125,12 @@
                     "name": "N515CW",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/vans_rv6/N515CW.png"
+                    ]
+                },
+                {
+                    "name": "G-PWUL",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/vans_rv6/G-PWUL.png"
                     ]
                 }
             ],
@@ -10137,6 +10177,12 @@
                     "name": "Tara air",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2006.jpg"
+                    ]
+                },
+                {
+                    "name": "New Central Airservice",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/NCA.png"
                     ]
                 }
             ],
