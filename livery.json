@@ -373,6 +373,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/janet.png"
                     ]
+                },
+                {
+                    "name": "Air China",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchina.png"
+                    ]
+                },
+                {
+                    "name": "Air China (YuNan peacock livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchinapeacock.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -3890,7 +3902,7 @@
                     ]
                 },
                 {
-                    "name": "Air Frane",
+                    "name": "Air France",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/airfrance.png"
                     ]
@@ -4605,6 +4617,12 @@
                     "name": "Shanghai Airways (100th Jet livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/shanghai100.jpg"
+                    ]
+                },
+                {
+                    "name": "China Southern (787th Boeing 787 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/southern787.png"
                     ]
                 }
             ],
@@ -7353,6 +7371,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/shandong2.jpg"
                     ]
+                },
+                {
+                    "name": "China Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/chinaairlines.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8534,7 +8558,13 @@
                 {
                     "name": "United",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/united.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/united.png"
+                    ]
+                },
+                {
+                    "name": "Emirates",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/emiratesnew.png"
                     ]
                 }
             ],
@@ -8612,6 +8642,18 @@
                     "name": "Delta",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/delta.png"
+                    ]
+                },
+                {
+                    "name": "Condor (blue design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/condorblue.png"
+                    ]
+                },
+                {
+                    "name": "Condor (green design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/condorgreen.png"
                     ]
                 }
             ],
@@ -10103,6 +10145,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/starair.png"
                     ]
+                },
+                {
+                    "name": "Air Canada Cargo (planned livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/aircanadacargo.png"
+                    ]
+                },
+                {
+                    "name": "Cathay Pacific (One World livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cathayone.jpg"
+                    ]
+                },
+                {
+                    "name": "United Airlines (Saul Bass design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/United_Saul_Bass.png"
+                    ]
+                },
+                {
+                    "name": "United Airlines (Mainliner design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/United_Mainliner.png"
+                    ]
                 }
             ],
             "labels": ["Specular shader", "Texture"]
@@ -10188,7 +10258,7 @@
                 {
                     "name": "New Central Airservice",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/NCA.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/NCA.png"
                     ]
                 }
             ],
