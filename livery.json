@@ -8581,6 +8581,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanpanda.jpg"
                     ]
+                },
+                {
+                    "name": "Sichuan Airlines (2021 Chengdu Summer Universiade livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanchengdou.jpg"
+                    ]
+                },
+                {
+                    "name": "Sichuan Airlines (Panda Route livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanpandaroute.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -10194,6 +10206,20 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/afseahorse.png"
+                    ]
+                },
+                {
+                    "name": "Reliant Air Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Reliant_Air_Cargo.png"
+                    ]
+                },
+                {
+                    "name": "China Airlines",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/China_Airlines.png"
                     ]
                 }
             ],
