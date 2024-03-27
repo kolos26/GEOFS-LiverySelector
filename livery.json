@@ -7513,6 +7513,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/shanghai.png"
                     ]
+                },
+                {
+                    "name": "Hebei Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Hebei%20Airlines%20737-800.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8173,9 +8179,9 @@
                     ]
                 },
                 {
-                    "name": "Chathams",
+                    "name": "Air Chathams",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/tex5cha.jpg"
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/teture_5cha.jpg"
                     ]
                 },
                 {
@@ -8205,7 +8211,7 @@
                 {
                     "name": "Puppyspot",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/tex9.1pupy_cp.jpg"
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/tex9.1pupyspot_cp.jpg"
                     ]
                 },
                 {
@@ -8241,7 +8247,7 @@
                 {
                     "name": "Air Ostrava",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture12airostrava_fre.jpg"
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/tex12airostrava_fre.jpg"
                     ]
                 },
                 {
@@ -8885,9 +8891,9 @@
                     ]
                 },
                 {
-                    "name": "Phillipines",
+                    "name": "Phillipine Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/4avf1_phili.jpg"
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/4avf1phili.jpg"
                     ]
                 },
                 {
@@ -9476,6 +9482,12 @@
                     "name": "Turkish Airlines (Bio Fuel livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Turkishbiofuel.jpg"
+                    ]
+                },
+                {
+                    "name": "Air Transat",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Air%20Transat%20A321neo.png"
                     ]
                 }
             ],
@@ -10537,7 +10549,7 @@
                 {
                     "name": "Tara air",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2006.jpg"
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_2006.png"
                     ]
                 },
                 {
@@ -10550,6 +10562,64 @@
                     "name": "Mandarin Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/mandarin.png"
+                    ]
+                }
+            ]
+        },
+        "":{
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "United (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/untdstr.png"
+                    ]
+                },
+                {
+                    "name": "Delta",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Delta%20767-400ER.png"
+                    ]
+                },
+                {
+                    "name": "Delta (Skyteam livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Delta%20Skyteam%20767-400ER.png"
+                    ]
+                },
+                {
+                    "name": "Delta (BCRF livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Delta%20old%20BRCF%20767-400ER.png"
+                    ]
+                },
+                {
+                    "name": "Bahrain Government",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Bahrain%20767-400ER.png"
+                    ]
+                },
+                {
+                    "name": "Continental",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Continental%20767-400ER.png"
+                    ]
+                },
+                {
+                    "name": "United (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20767-400ER.png"
+                    ]
+                },
+                {
+                    "name": "United (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20New%20767-400ER.png"
                     ]
                 }
             ],
