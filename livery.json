@@ -385,6 +385,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchinapeacock.png"
                     ]
+                },
+                {
+                    "name": "Shandong Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shandong.jpg"
+                    ]
+                },
+                {
+                    "name": "Shanghai Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shanghai.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -433,7 +445,7 @@
             ],
             "liveries": [
                 {
-                    "name": "Emirates",
+                    "name": "Emirates (Dubai Expo 2020 logo)",
                     "texture": [
                         "/models/aircraft/premium/a380/texture_0.jpg"
                     ]
@@ -610,6 +622,12 @@
                     "name": "Emirates (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesnew.png"
+                    ]
+                },
+                {
+                    "name": "Emirates (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emirates.png"
                     ]
                 }
             ],
@@ -2043,6 +2061,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/saudiarabian.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/saudiarabian.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/saudiarabian.jpg"
+                    ]
+                },
+                {
+                    "name": "Asiana Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/asiana.jpg"
+                    ]
+                },
+                {
+                    "name": "Chinna Yunnan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/China_Yunnan.png"
                     ]
                 }
             ],
@@ -3685,6 +3731,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Swissair%20A319.png"
                     ]
+                },
+                {
+                    "name": "Air Canada (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/aircanadanew.png"
+                    ]
+                },
+                {
+                    "name": "Germanwings",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/germanwings.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -3947,6 +4005,18 @@
                     "name": "Clic Air",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/clicair.png"
+                    ]
+                },
+                {
+                    "name": "Silk Avia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/silkavia.png"
+                    ]
+                },
+                {
+                    "name": "Toki",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/toki.jpg"
                     ]
                 }
             ],
@@ -4338,7 +4408,7 @@
                     ]
                 },
                 {
-                    "name": "Shanghai Airways",
+                    "name": "Shanghai Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/shanghai.png"
                     ]
@@ -4614,7 +4684,7 @@
                     ]
                 },
                 {
-                    "name": "Shanghai Airways (100th Jet livery)",
+                    "name": "Shanghai Airlines (100th Jet livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/shanghai100.jpg"
                     ]
@@ -4623,6 +4693,12 @@
                     "name": "China Southern (787th Boeing 787 livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/southern787.png"
+                    ]
+                },
+                {
+                    "name": "Hainan Airlines (IHG Hotels livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/hainanhotel.jpg"
                     ]
                 }
             ],
@@ -5694,6 +5770,24 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/delta.png"
                     ]
+                },
+                {
+                    "name": "GX Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/gxairlines.jpg"
+                    ]
+                },
+                {
+                    "name": "Plymouth Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Plymouth_Air.png"
+                    ]
+                },
+                {
+                    "name": "Qindao Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/qindao.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -6142,6 +6236,18 @@
                     "name": "Airfast Indonesia",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Airfast%20Indonesia%20737-8.png"
+                    ]
+                },
+                {
+                    "name": "Shandong Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/shanghai.jpg"
+                    ]
+                },
+                {
+                    "name": "Shenzen Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/shenzen.jpg"
                     ]
                 }
             ],
@@ -7377,6 +7483,36 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/chinaairlines.png"
                     ]
+                },
+                {
+                    "name": "Fuzhou Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/fuzhou.jpg"
+                    ]
+                },
+                {
+                    "name": "Hainan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/hainan.jpg"
+                    ]
+                },
+                {
+                    "name": "HongKong Express",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Hong_Kong_Express.png"
+                    ]
+                },
+                {
+                    "name": "Mandarin Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/mandarin.png"
+                    ]
+                },
+                {
+                    "name": "Shanghai Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/shanghai.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8577,21 +8713,27 @@
                     ]
                 },
                 {
-                    "name": "Sichuan Airlines (Panda livery)",
+                    "name": "Sichuan Airlines (Panda livery B-301D)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanpanda.jpg"
                     ]
                 },
                 {
-                    "name": "Sichuan Airlines (2021 Chengdu Summer Universiade livery)",
+                    "name": "Sichuan Airlines (2021 Chengdu Summer Universiade livery B-304V)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanchengdou.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanfisu.jpg"
                     ]
                 },
                 {
-                    "name": "Sichuan Airlines (Panda Route livery)",
+                    "name": "Sichuan Airlines (Panda Route livery B-306N)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanpandaroute.jpg"
+                    ]
+                },
+                {
+                    "name": "Sichuan Airlines (Panda Route livery B-32AG)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/b32ag.jpg"
                     ]
                 }
             ],
@@ -8679,6 +8821,36 @@
                 },
                 {
                     "name": "Condor (green design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/condorgreen.png"
+                    ]
+                },
+                {
+                    "name": "Cathay Pacific (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/Cathay_New.png"
+                    ]
+                },
+                {
+                    "name": "Cathay Pacific (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/Cathay_old.png"
+                    ]
+                },
+                {
+                    "name": "Correos",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/Correos.png"
+                    ]
+                },
+                {
+                    "name": "MNG Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/MNG_Airlines.png"
+                    ]
+                },
+                {
+                    "name": "Avianca Cargo (green design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/condorgreen.png"
                     ]
@@ -9275,6 +9447,36 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/xiamen.jpg"
                     ]
+                },
+                {
+                    "name": "China Northern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/China_Northern.png"
+                    ]
+                },
+                {
+                    "name": "China Eastern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/chinaeastern.jpg"
+                    ]
+                },
+                {
+                    "name": "Merpati",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Merpati.png"
+                    ]
+                },
+                {
+                    "name": "Spring Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Spring_Airlines.png"
+                    ]
+                },
+                {
+                    "name": "Turkish Airlines (Bio Fuel livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Turkishbiofuel.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -9526,7 +9728,7 @@
                     "name": "Air China",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airchina.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airchina.jpg"
                     ]
                 },
                 {
@@ -9652,7 +9854,7 @@
                     "name": "Air China (Star Alliance livery)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://i.ibb.co/g9shGCV/m-AIR-CHINA-STAR-ALLANCE-B777-300-ER-1.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airaustral.png"
                     ]
                 },
                 {
@@ -10221,6 +10423,41 @@
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/China_Airlines.png"
                     ]
+                },
+                {
+                    "name": "Air Japan",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airjapan.png"
+                    ]
+                },
+                {
+                    "name": "Air Canada (1993 design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/canada93.png"
+                    ]
+                },
+                {
+                    "name": "EVA Air (Star Alliance livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/evastar.png"
+                    ]
+                },
+                {
+                    "name": "Kalitta Air - DHL",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/kalitta.png"
+                    ]
+                },
+                {
+                    "name": "Singapore Airlines (Star Alliance livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/singaporestar.png"
+                    ]
                 }
             ],
             "labels": ["Specular shader", "Texture"]
@@ -10307,6 +10544,12 @@
                     "name": "New Central Airservice",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/NCA.png"
+                    ]
+                },
+                {
+                    "name": "Mandarin Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/mandarin.png"
                     ]
                 }
             ],
