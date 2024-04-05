@@ -32,15 +32,21 @@
             ],
             "liveries": [
                 {
-                    "name": "Classic",
+                    "name": "TF-UTA",
                     "texture": [
                         "/models/aircraft/premium/cessna_172/texture_0.jpg"
                     ]
                 },
                 {
-                    "name": "Modern",
+                    "name": "N5290V",
                     "texture": [
                         "/models/aircraft/premium/cessna_172/texture_1.jpg"
+                    ]
+                },
+                {
+                    "name": "Turkish Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/172TK.jpg"
                     ]
                 }
             ],
@@ -5811,6 +5817,12 @@
                     "name": "Royal Air Force of Oman",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/oman.png"
+                    ]
+                },
+                {
+                    "name": "Pelita Air Service",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/pelita.jpg"
                     ]
                 }
             ],
