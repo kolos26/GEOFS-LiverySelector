@@ -119,7 +119,7 @@ For these aircrafts, instead of using maps, you can repaint the original texture
 The test feature is a brand new function in 2.1.0. You can find it at the end of the LIVERY menu.
 
 - You can insert the direct url to the image in the green box, or
-- you can also post it directly to imgbb, via the blue **UPLOAD IMAGE** button. To do that you need to [create an API key](https://api.imgbb.com/), and save it to local storage by typing `localStorage.imgbbAPIKEY = "YOUR API KEY (keep the brackets)"` into the console. You only need to do this for the first time, the app will remember your key. After pressing the button, within a few seconds the url should appear in the green box.
+- you can also post it directly to imgbb, via the blue **UPLOAD IMAGE** button. To do that you need to [create an API key](https://api.imgbb.com/), and save it to local storage by typing `localStorage.imgbbAPIKEY = "YOUR API KEY"` into the console. You only need to do this for the first time, the app will remember your key. After pressing the button, within a few seconds the url should appear in the green box.
 
 After pasting a link, add the livery by pressing the yellow **LOAD LIVERY** button. For some planes more than one boxes are available. To add only the painting, use the box called **Texture**, you can keep the rest of them empty.
 
