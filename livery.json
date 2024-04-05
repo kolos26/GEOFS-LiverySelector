@@ -397,6 +397,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shanghai.jpg"
                     ]
+                },
+                {
+                    "name": "Reno Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/renoair.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -7549,6 +7555,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/China_Xinijang.png"
                     ]
+                },
+                {
+                    "name": "American Airlines (Reno Air Heritage livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/renoair.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -7972,6 +7984,12 @@
                     "name": "American Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/american.png"
+                    ]
+                },
+                {
+                    "name": "Boeing house livery",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/boeinghouse.png"
                     ]
                 }
             ],
@@ -8889,6 +8907,18 @@
                     "name": "Avianca Cargo (green design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/condorgreen.png"
+                    ]
+                },
+                {
+                    "name": "Corsair",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/corsair.png"
+                    ]
+                },
+                {
+                    "name": "Corsair International",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/corsairinternational.png"
                     ]
                 }
             ],
