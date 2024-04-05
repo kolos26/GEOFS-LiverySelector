@@ -97,7 +97,7 @@ Here you can find the maps, that you can paint out:
 - [Airbus a220-300](https://i.ibb.co/m4xW9Gc/a220.jpg)
 - [Airbus a319-100](https://i.ibb.co/vkzQX1L/A319-New-UV.jpg)
 - [Airbus a320neo](https://i.ibb.co/yXHSvXN/plain.jpg)
-- [Airbus a330-900neo](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a330-900.png)
+- [Airbus a330-900neo](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a330neo.png)
 - [Airbus a350-1000 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-1000.png)
 - [Airbus a350-900 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-900.png)
 - [Airbus a380](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a380.jpg)
