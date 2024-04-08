@@ -421,6 +421,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaunited.jpg"
                     ]
+                },
+                {
+                    "name": "Virgin Australia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/Virgin737Finally.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -644,6 +650,12 @@
                 },
                 {
                     "name": "Emirates (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emirates.png"
+                    ]
+                },
+                {
+                    "name": "Airbus house livery (50 years jubilee design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emirates.png"
                     ]
@@ -3781,6 +3793,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/zestair.png"
                     ]
+                },
+                {
+                    "name": "America West",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/americawest.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -5856,6 +5874,36 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/avianca.png"
                     ]
+                },
+                {
+                    "name": "Avianca (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/aviancastar.png"
+                    ]
+                },
+                {
+                    "name": "Avianca (lacsa livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/lacsa.png"
+                    ]
+                },
+                {
+                    "name": "Avianca (Surf City El Salvador livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/surfcity.png"
+                    ]
+                },
+                {
+                    "name": "Avianca (TACA livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/taca.png"
+                    ]
+                },
+                {
+                    "name": "Avianca (Todos Dando Todo livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/tdt.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -7599,6 +7647,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/renoair.png"
                     ]
+                },
+                {
+                    "name": "Iaero",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/iaero.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8028,6 +8082,12 @@
                     "name": "Boeing house livery",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/boeinghouse.png"
+                    ]
+                },
+                {
+                    "name": "Air Florida",
+                    "texture": [
+                        "https://146687434-530121269341574877.preview.editmysite.com/uploads/1/4/6/6/146687434/image__75_3__4_.jpg"
                     ]
                 }
             ],
@@ -8970,6 +9030,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/WOW.png"
                     ]
+                },
+                {
+                    "name": "Armée de l'air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/armeedelair.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -9598,6 +9664,12 @@
                     "name": "Air Transat",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Air%20Transat%20A321neo.png"
+                    ]
+                },
+                {
+                    "name": "Airbus house livery (XLR QRcode design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/xlr.png"
                     ]
                 }
             ],
@@ -10579,6 +10651,13 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/singaporestar.png"
+                    ]
+                },
+                {
+                    "name": "Cathay Pacific (Cathay Paciic misspelled livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cathaypacificold.jpg"
                     ]
                 }
             ],
