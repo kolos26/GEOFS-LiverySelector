@@ -4048,7 +4048,7 @@
                 {
                     "name": "La Costeña",
                     "texture": [
-                        "https://i.ibb.co/yP67Fj3/La-Coste-a-Airlines-ATR-76.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/lacostena.jpg"
                     ]
                 },
                 {
@@ -4428,7 +4428,7 @@
                     ]
                 },
                 {
-                    "name": "China Soutern",
+                    "name": "China Southern",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/China_Southern_787-9_Final.png "
                     ]
@@ -5934,6 +5934,24 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/jsm2.jpg"
                     ]
+                },
+                {
+                    "name": "Germanwings",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/germanwings.jp"
+                    ]
+                },
+                {
+                    "name": "Peach",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/peach.jpg"
+                    ]
+                },
+                {
+                    "name": "Pakistan International",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/tdt.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -7427,7 +7445,7 @@
                     ]
                 },
                 {
-                    "name": "China Soutern",
+                    "name": "China Southern",
                     "texture": [
                         "https://i.ibb.co/GCQ3qT2/1667215709650.png"
                     ]
@@ -8130,6 +8148,18 @@
                     "name": "Continental",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/cntl.jpg"
+                    ]
+                },
+                {
+                    "name": "Air Philippines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/airphilippines.png"
+                    ]
+                },
+                {
+                    "name": "Egypt Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/732egyptairfix.jpg"
                     ]
                 }
             ],
@@ -8955,6 +8985,12 @@
                 },
                 {
                     "name": "Sichuan Airlines (Panda Route livery B-32AG)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/b32ag.jpg"
+                    ]
+                },
+                {
+                    "name": "China Southern",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/b32ag.jpg"
                     ]
@@ -9888,6 +9924,12 @@
                     "name": "Continental",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Continental.jpg"
+                    ]
+                },
+                {
+                    "name": "Republica Argentina",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/argentina.jpg"
                     ]
                 }
             ],
