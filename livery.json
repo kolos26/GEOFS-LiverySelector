@@ -429,9 +429,21 @@
                     ]
                 },
                 {
-                    "name": "Royal Air Maroc",
+                    "name": "Royal Air Maroc (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/RAMaroc.png"
+                    ]
+                },
+                {
+                    "name": "Royal Air Maroc (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ramold.jpg"
+                    ]
+                },
+                {
+                    "name": "Viação Aérea São Paulo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/vasp.jpg"
                     ]
                 }
             ],
@@ -561,7 +573,7 @@
                 {
                     "name": "China Southern",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinashoutern.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinasouthern.jpg"
                     ]
                 },
                 {
@@ -670,6 +682,12 @@
                     "name": "Airbus house livery (Recycable by design livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/recyablebydesign.jpg"
+                    ]
+                },
+                {
+                    "name": "Qantas (Airbus house design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/qantashouse.png"
                     ]
                 }
             ],
@@ -3811,6 +3829,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/americawest.jpg"
                     ]
+                },
+                {
+                    "name": "RoyalAir",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/royalair.png"
+                    ]
+                },
+                {
+                    "name": "US Airways",
+                    "texture": [
+                        "https://146687434-530121269341574877.preview.editmysite.com/uploads/1/4/6/6/146687434/us-airways-a319-n708uw.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -4981,6 +5011,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/atlasjet.jpg"
                     ]
+                },
+                {
+                    "name": "Air Canada (Trans-Canada Air Lines retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/tcal.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -5951,6 +5987,18 @@
                     "name": "Pakistan International",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/tdt.png"
+                    ]
+                },
+                {
+                    "name": "Philippine Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/pal.png"
+                    ]
+                },
+                {
+                    "name": "Tiger Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/tiger.png"
                     ]
                 }
             ],
@@ -8161,6 +8209,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/732egyptairfix.jpg"
                     ]
+                },
+                {
+                    "name": "NICA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/nica.png"
+                    ]
+                },
+                {
+                    "name": "Ansett Australia",
+                    "texture": [
+                        "https://146687434-530121269341574877.preview.editmysite.com/uploads/1/4/6/6/146687434/image__88___1___2_.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8374,6 +8434,18 @@
                     "name": "AirBC",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/airbc.png"
+                    ]
+                },
+                {
+                    "name": "AAI Island hopper",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/aai.png"
+                    ]
+                },
+                {
+                    "name": "LBC",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/lbc.png"
                     ]
                 }
             ],
@@ -8993,6 +9065,12 @@
                     "name": "China Southern",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/b32ag.jpg"
+                    ]
+                },
+                {
+                    "name": "Air Canada",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/aircanada.png"
                     ]
                 }
             ],
@@ -10790,6 +10868,13 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cathaypacificold.jpg"
+                    ]
+                },
+                {
+                    "name": "Canadiens de Montréal",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cdm.png"
                     ]
                 }
             ],
