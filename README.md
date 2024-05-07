@@ -123,6 +123,8 @@ The test feature is a brand new function in 2.1.0. You can find it at the end of
 
 After pasting a link, add the livery by pressing the yellow **LOAD LIVERY** button. For some planes more than one boxes are available. To add only the painting, use the box called **Texture**, you can keep the rest of them empty.
 
+Here you can find a tutorial on using this feature: [https://www.youtube.com/watch?v=QC4E_DNmvjY](https://www.youtube.com/watch?v=QC4E_DNmvjY) (Created by bilibilizm)
+
 ## Resources
 
 Fonts and icons in the logo:
