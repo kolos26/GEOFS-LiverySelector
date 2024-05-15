@@ -210,11 +210,11 @@ function addCustomForm(){
     customDiv.innerHTML = "";
     let airplane = geofs.aircraft.instance.id;
     let textures = liveryobj.aircrafts[airplane].liveries[0].texture;
-    let i, placeholders = liveryobj.aircrafts[airplane].labels;
+    let placeholders = liveryobj.aircrafts[airplane].labels;
     if (textures.filter(x => x=== textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
         let uploadButton = document.createElement("input");
         uploadButton.setAttribute("type", "file");
-        uploadButton.setAttribute("onchange", "uploadLivery(this,"+(i++)+")");
+        uploadButton.setAttribute("onchange", "uploadLivery(this)");
         uploadButton.style.marginRight = "-120px";
         customDiv.appendChild(uploadButton);
         let textureInput = document.createElement("input");
@@ -226,10 +226,10 @@ function addCustomForm(){
         customDiv.appendChild(textureInput);
         customDiv.appendChild(document.createElement("br"));
     } else {
-        placeholders.forEach(function(e){
+        placeholders.forEach(function(e,i){
             let uploadButton = document.createElement("input");
             uploadButton.setAttribute("type", "file");
-            uploadButton.setAttribute("onchange", "uploadLivery(this,"+(i++)+")");
+            uploadButton.setAttribute("onchange", "uploadLivery(this,"+i+")");
             uploadButton.style.marginRight = "-120px";
             customDiv.appendChild(uploadButton);
             let textureInput = document.createElement("input");
@@ -244,16 +244,22 @@ function addCustomForm(){
     }
 }
 
-function uploadLivery(e){
-    const file = e.files[0];
+function uploadLivery(e,i){
     const reader = new FileReader();
     reader.addEventListener('load', (event) => {
         const airplane = geofs.aircraft.instance.id;
         const index = liveryobj.aircrafts[airplane].index;
         const parts = liveryobj.aircrafts[airplane].parts;
-        geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[parts[i]]["3dmodel"]._model, event.target.result, index[i]);
+        const textures = liveryobj.aircrafts[airplane].liveries[0].texture;
+        const newTexture = event.target.result;
+        if (i === undefined) {
+            loadLivery(Array(textures.length).fill(newTexture), index, parts);
+        } else {
+            geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[parts[i]]["3dmodel"]._model, newTexture, index[i]);
+        }
+        e.value = null;
     });
-    reader.readAsDataURL(file);
+    e.files.length && reader.readAsDataURL(e.files[0]);
 }
 
 function updateMultiplayer(){
