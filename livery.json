@@ -445,6 +445,18 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/vasp.jpg"
                     ]
+                },
+                {
+                    "name": "Kunming Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/kunming.jpg"
+                    ]
+                },
+                {
+                    "name": "Ruili Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ruili.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -2175,6 +2187,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/condor.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/condor.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/condor.png"
+                    ]
+                },
+                {
+                    "name": "Skymark Ailines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/skymarkold.png"
                     ]
                 }
             ],
@@ -6030,6 +6056,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/panpacific.png"
                     ]
+                },
+                {
+                    "name": "Starflyer",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/starflyer.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8269,6 +8301,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Aviatsa_Lempira.jpg"
                     ]
+                },
+                {
+                    "name": "Boeing house livery (prototype)",
+                    "texture": [
+                        "https://146687434-530121269341574877.preview.editmysite.com/uploads/1/4/6/6/146687434/image_-_2024-05-09t3.jpg"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -8649,6 +8687,12 @@
                     "name": "Trans World Express",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/TWE%20Saab340.jpg"
+                    ]
+                },
+                {
+                    "name": "North West Airlink",
+                    "texture": [
+                        "https://146687434-530121269341574877.preview.editmysite.com/uploads/1/4/6/6/146687434/n402xj__4_.jpg"
                     ]
                 }
             ],
@@ -9126,6 +9170,12 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/k5.png"
                     ]
+                },
+                {
+                    "name": "Air France (seahorse logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/afseahorse.png"
+                    ]
                 }
             ],
             "labels": ["Texture"]
@@ -9286,6 +9336,48 @@
                     "name": "Qantas",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/qantas.jpg"
+                    ]
+                },
+                {
+                    "name": "Air Canada (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/aircanadastar.png"
+                    ]
+                },
+                {
+                    "name": "Avianca (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/aviancastar.png"
+                    ]
+                },
+                {
+                    "name": "BMI (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/bmistar.png"
+                    ]
+                },
+                {
+                    "name": "Global Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/globalair.png"
+                    ]
+                },
+                {
+                    "name": "Lufthansa (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/lufthasastar.png"
+                    ]
+                },
+                {
+                    "name": "Singapore Airlines (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/singaporestar.png"
+                    ]
+                },
+                {
+                    "name": "Stellar Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/stellar.png"
                     ]
                 }
             ],
@@ -10354,7 +10446,7 @@
                     "name": "Air China (Star Alliance livery)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airaustral.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airchinastar.jpg"
                     ]
                 },
                 {
@@ -11006,7 +11098,7 @@
         },
         "23": {
             "index": [
-                3, 2, 0
+                0, 2, 3
             ],
             "parts": [
                 0, 0, 0
@@ -11015,21 +11107,45 @@
                 {
                     "name": "Aerobility",
                     "texture": [
-                        "/models/aircraft/premium/pa28/texture.jpg",
+                        "/models/aircraft/premium/pa28/normals.jpg",
                         "/models/aircraft/premium/pa28/specular.jpg",
-                        "/models/aircraft/premium/pa28/normals.jpg"
+                        "/models/aircraft/premium/pa28/texture.jpg"
                     ]
                 },
                 {
                     "name": "Aeroclub Milano",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/Aeroclub_Milano.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
                         "/models/aircraft/premium/pa28/specular.jpg",
-                        "/models/aircraft/premium/pa28/normals.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/Aeroclub_Milano.png"
+                    ]
+                },
+                {
+                    "name": "N4891F",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
+                        "/models/aircraft/premium/pa28/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/N4891F.png"
+                    ]
+                },
+                {
+                    "name": "Swiss AviationTraining",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/swiss_specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/swiss.png"
+                    ]
+                },
+                {
+                    "name": "Cheatline",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/cheatline_specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/cheatine.png"
                     ]
                 }
             ],
-            "labels": ["Texture", "Specular shader", "Normals map"]
+            "labels": ["Normal map", "Specular shader", "Texture"]
         },
         "3289": {
             "index": [
@@ -11062,8 +11178,15 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/mandarin.png"
                     ]
+                },
+                {
+                    "name": "North West Airlink",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/northwestairlink.png"
+                    ]
                 }
-            ]
+            ],
+            "labels": ["Texture"]
         },
         "4764":{
             "index": [
