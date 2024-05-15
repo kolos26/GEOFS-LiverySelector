@@ -11006,26 +11006,30 @@
         },
         "23": {
             "index": [
-                3
+                3, 2, 0
             ],
             "parts": [
-                0
+                0, 0, 0
             ],
             "liveries": [
                 {
                     "name": "Aerobility",
                     "texture": [
-                        "/models/aircraft/premium/pa28/texture.jpg"
+                        "/models/aircraft/premium/pa28/texture.jpg",
+                        "/models/aircraft/premium/pa28/specular.jpg",
+                        "/models/aircraft/premium/pa28/normals.jpg"
                     ]
                 },
                 {
                     "name": "Aeroclub Milano",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/Aeroclub_Milano.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/Aeroclub_Milano.png",
+                        "/models/aircraft/premium/pa28/specular.jpg",
+                        "/models/aircraft/premium/pa28/normals.jpg"
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture", "Specular shader", "Normals map"]
         },
         "3289": {
             "index": [
