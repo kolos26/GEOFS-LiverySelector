@@ -210,11 +210,11 @@ function addCustomForm(){
     customDiv.innerHTML = "";
     let airplane = geofs.aircraft.instance.id;
     let textures = liveryobj.aircrafts[airplane].liveries[0].texture;
-    let placeholders = liveryobj.aircrafts[airplane].labels;
+    let i, placeholders = liveryobj.aircrafts[airplane].labels;
     if (textures.filter(x => x=== textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
         let uploadButton = document.createElement("input");
         uploadButton.setAttribute("type", "file");
-        uploadButton.setAttribute("onchange", "uploadLivery(this)");
+        uploadButton.setAttribute("onchange", "uploadLivery(this,"+(i++)+")");
         uploadButton.style.marginRight = "-120px";
         customDiv.appendChild(uploadButton);
         let textureInput = document.createElement("input");
@@ -229,7 +229,7 @@ function addCustomForm(){
         placeholders.forEach(function(e){
             let uploadButton = document.createElement("input");
             uploadButton.setAttribute("type", "file");
-            uploadButton.setAttribute("onchange", "uploadLivery(this)");
+            uploadButton.setAttribute("onchange", "uploadLivery(this,"+(i++)+")");
             uploadButton.style.marginRight = "-120px";
             customDiv.appendChild(uploadButton);
             let textureInput = document.createElement("input");
@@ -245,25 +245,15 @@ function addCustomForm(){
 }
 
 function uploadLivery(e){
-    var form = new FormData();
-    form.append("image", e.files[0]);
-
-    var settings = {
-        "url": "https://api.imgbb.com/1/upload?key=" + localStorage.imgbbAPIKEY,
-        "method": "POST",
-        "timeout": 0,
-        "processData": false,
-        "mimeType": "multipart/form-data",
-        "contentType": false,
-        "data": form
-    };
-
-
-    $.ajax(settings).done(function (response) {
-        var jx = JSON.parse(response);
-        console.log(jx.data.url);
-        e.nextSibling.value = jx.data.url;
+    const file = e.files[0];
+    const reader = new FileReader();
+    reader.addEventListener('load', (event) => {
+        const airplane = geofs.aircraft.instance.id;
+        const index = liveryobj.aircrafts[airplane].index;
+        const parts = liveryobj.aircrafts[airplane].parts;
+        geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[parts[i]]["3dmodel"]._model, event.target.result, index[i]);
     });
+    reader.readAsDataURL(file);
 }
 
 function updateMultiplayer(){
