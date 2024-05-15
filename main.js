@@ -47,7 +47,7 @@ async function init() {
     });
 
     Object.keys(liveryobj.aircrafts).forEach(function (e) {
-        document.querySelectorAll('[data-aircraft=\'' + e + '\']')[0].innerHTML +=
+        document.querySelectorAll(`[data-aircraft='${e}']`)[0].innerHTML +=
             '<img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveryselector-logo-small.svg" height="30px"/>';
     });
 
@@ -109,7 +109,6 @@ function listLiveries() {
     document.getElementById('liverylist').innerHTML = '';
 
     let airplane = geofs.aircraft.instance.id;
-
     let index = liveryobj.aircrafts[airplane].index;
     let parts = liveryobj.aircrafts[airplane].parts;
 
@@ -150,11 +149,12 @@ function search(text) {
 
 function star(element) {
     let e = element.classList;
+    let elementId = [element.id, 'favorite'].join('_');
     if (e == 'fa fa-star nocheck') {
         let btn = document.getElementById(element.id + '_button');
         let fbtn = document.createElement('li');
         fbtn.innerText = btn.innerText;
-        fbtn.setAttribute('id', element.id + '_favorite');
+        fbtn.setAttribute('id', elementId);
         fbtn.setAttribute('onclick', btn.getAttribute('onclick'));
         document.getElementById('favorites').appendChild(fbtn);
         let list = localStorage.favorites.split(',');
@@ -163,7 +163,7 @@ function star(element) {
         localStorage.favorites = list;
 
     } else if (e == 'fa fa-star checked') {
-        document.getElementById('favorites').removeChild(document.getElementById(element.id + '_favorite'));
+        document.getElementById('favorites').removeChild(document.getElementById(elementId));
         let list = localStorage.favorites.split(',');
         let index = list.indexOf(element.id);
         if (index !== -1) {
