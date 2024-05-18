@@ -46,20 +46,15 @@ async function handleLiveryJson(data) {
     // mark aircraft with livery icons
     Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
         const element = document.querySelector(`[data-aircraft='${aircraftId}']`);
+        // save original HTML for later use (reload, aircraft change, etc..)
         if (!origHTMLs[aircraftId]) {
             origHTMLs[aircraftId] = element.innerHTML;
         }
 
+        // use orig HTML to concatenate so theres only ever one icon
         element.innerHTML = origHTMLs[aircraftId] +
             createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
     });
-}
-
-/**
- * @returns {object} current aircraft from liveryobj
- */
-function getCurrentAircraft() {
-    return liveryobj.aircrafts[geofs.aircraft.instance.id];
 }
 
 /**
@@ -177,6 +172,7 @@ function addCustomForm() {
             createDirectButton(placeholder,i);
         });
     }
+    // click first tab to refresh button status
     document.querySelector('.livery-custom-tabs li').click();
 }
 
@@ -271,6 +267,7 @@ function loadLiveryDirect(fileInput, i) {
         if (i === undefined) {
             loadLivery(Array(textures.length).fill(newTexture), airplane.index, airplane.parts);
         } else {
+            // doesnt use loadLivery so no multiplayer, direct doesn't work it anyway
             geofs.api.changeModelTexture(
                 geofs.aircraft.instance.definition.parts[airplane.parts[i]]["3dmodel"]._model,
                 newTexture,
@@ -279,6 +276,7 @@ function loadLiveryDirect(fileInput, i) {
         }
         fileInput.value = null;
     });
+    // read file (if there is one)
     fileInput.files.length && reader.readAsDataURL(fileInput.files[0]);
 }
 
@@ -321,12 +319,14 @@ function handleCustomTabs(e){
     e = e || window.event;
     const src = e.target || e.srcElement;
     const tabId = src.innerHTML.toLocaleLowerCase();
+    // iterate all divs and check if it was the one clicked, hide others
     domById('customDiv').querySelectorAll(':scope > div').forEach(tabDiv => {
         if (tabDiv.id != ['livery-custom-tab', tabId].join('-')) {
             tabDiv.style.display =  'none';
             return;
         }
         tabDiv.style.display = '';
+        // special handling for each tab, could be extracted
         switch (tabId) {
             case 'upload': {
                 const fields = tabDiv.querySelectorAll('input[type="file"]');
@@ -345,11 +345,16 @@ function handleCustomTabs(e){
 
 }
 
+/**
+ * reloads texture files for current airplane
+ *
+ * @param {HTMLElement} tabDiv
+ */
 function reloadDownloadsForm(tabDiv) {
     const airplane = getCurrentAircraft();
     const liveries = airplane.liveries;
     const defaults = liveries[0];
-    const fields = tabDiv.querySelector('.download-fields')
+    const fields = tabDiv.querySelector('.download-fields');
     fields.innerHTML = '';
     liveries.forEach((livery,liveryNo) => {
         appendNewChild(fields, 'h7').innerHTML = livery.name;
@@ -364,6 +369,9 @@ function reloadDownloadsForm(tabDiv) {
     });
 }
 
+/**
+ * reloads settings form after changes
+ */
 function reloadSettingsForm() {
     const apiInput = domById('livery-setting-apikey');
     apiInput.placeholder = localStorage.imgbbAPIKEY ?
@@ -374,6 +382,11 @@ function reloadSettingsForm() {
     removeCheckbox.checked = (localStorage.liveryAutoremove==1);
 }
 
+/**
+ * saves setting, gets setting key from event element
+ *
+ * @param {HTMLElement} element
+ */
 function saveSetting(element) {
     const id = element.id.replace('livery-setting-','');
     switch (id) {
@@ -395,13 +408,13 @@ function saveSetting(element) {
     reloadSettingsForm();
 }
 
-function parseLiveryUrls(e){
-  console.log(e||window.event);
+/**
+ * @returns {object} current aircraft from liveryobj
+ */
+function getCurrentAircraft() {
+    return liveryobj.aircrafts[geofs.aircraft.instance.id];
 }
 
-/**
- * disabled for now @todo: ask whats this about
- */
 function updateMultiplayer() {
     Object.values(multiplayer.visibleUsers).forEach(function (e) {
         geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, multiplayertexture, 0);
@@ -410,7 +423,9 @@ function updateMultiplayer() {
 
 /******************* Utilities *********************/
 
-
+/**
+ * @param {string} id Div ID to toggle, in addition to clicked element
+ */
 function toggleDiv(id) {
     const div = domById(id);
     const target = window.event.target;
@@ -543,7 +558,6 @@ window.LiverySelector = {
     saveSetting,
     toggleDiv,
     loadLiveryDirect,
-    parseLiveryUrls,
     handleCustomTabs,
     listLiveries,
     star,
