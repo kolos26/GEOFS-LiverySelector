@@ -1,4 +1,4 @@
-const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+const githubRepo = 'https://github.com/kolos26/GEOFS-LiverySelector/raw/main';
 
 let liveryobj;
 let multiplayertexture;
@@ -8,9 +8,7 @@ let uploadHistory = [];
 (function init() {
 
     // styles
-    // @TODO: replace this with the github repo style.css below once deployed
-    document.head.appendChild(generateStylesHTML());
-    //appendNewChild(document.head, 'link', {rel: 'stylesheet', href: `${githubRepo}/styles.css`});
+    appendNewChild(document.head, 'link', {rel: 'stylesheet', href: `${githubRepo}/styles.css`});
     appendNewChild(document.head, 'link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'});
 
     // Panel for list
@@ -44,50 +42,6 @@ let uploadHistory = [];
  */
 async function handleLiveryJson(data) {
     liveryobj = await data.json();
-    liveryobj.aircrafts[23] = Object.assign(liveryobj.aircrafts[23], {
-            'index': [0, 2, 3], 'parts': [0, 0, 0], 'liveries': [
-                {
-                    'name': 'Aerobility',
-                    'texture': [
-                        '/models/aircraft/premium/pa28/normals.jpg',
-                        '/models/aircraft/premium/pa28/specular.jpg',
-                        '/models/aircraft/premium/pa28/texture.jpg'
-                    ]
-                },
-                {
-                    'name': 'Aeroclub Milano',
-                    'texture': [
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg',
-                        '/models/aircraft/premium/pa28/specular.jpg',
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/Aeroclub_Milano.png'
-                    ]
-                },
-                {
-                    'name': 'N4891F',
-                    'texture': [
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg',
-                        '/models/aircraft/premium/pa28/specular.jpg',
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/N4891F.png'
-                    ]
-                },
-                {
-                    'name': 'Swiss AviationTraining',
-                    'texture': [
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg',
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/swiss_specular.jpg',
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/swiss.jpg'
-                    ]
-                },
-                {
-                    'name': 'Cheatline',
-                    'texture': [
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg',
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/cheatline_specular.jpg',
-                        'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/cheatline.jpg'
-                    ]
-                }
-            ], 'labels': ['Normal map', 'Specular shader', 'Texture']
-    });
 
     // mark aircraft with livery icons
     Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
@@ -582,195 +536,6 @@ function generatePanelButtonHTML() {
     liveryButton.innerHTML = 'LIVERY' + createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
 
     return liveryButton;
-}
-
-/**
- * @returns {HTMLElement} HTML template
- */
-function generateStylesHTML() {
-    const tag = createTag('style', {type: 'text/css'});
-    tag.innerHTML = `
-.livery-list {
-    width: 400px;
-}
-
-#listDiv h6 {
-    padding-left: 4px;
-}
-#listDiv h6:before  {
-    content: "\\25bc\\FE0E";
-    margin-right: 2px;
-}
-#listDiv h6.closed:before {
-    content: "\\25b6\\FE0E";
-    margin-right: 2px;
-}
-.checked, .nocheck {
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    color: rgb(255, 193, 7);
-    display: inline;
-    text-align: right;
-    cursor: pointer;
-}
-.nocheck {
-    color: white;
-}
-
-input[type="file"] {
-    width: 30%;
-    display: inline-block;
-    background-color: rgb(83, 109, 254);
-    color: white;
-    padding: 12px 0;
-    margin: 2px 0;
-    height: 20px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-input[type="file"].err {
-    background-color: rgb(254, 109, 83);
-}
-
-input[type="file"]::-webkit-file-upload-button,
-input[type="file"]::file-selector-button {
-    visibility: hidden;
-    width: 0;
-}
-
-#livery-custom-tab-direct input[type="file"]::before,
-#livery-custom-tab-upload input[type="file"]::before {
-    content: "UPLOAD IMAGE";
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 14px;
-}
-
-#livery-custom-tab-direct input[type="file"]::before {
-    content: 'LOAD IMAGE';
-}
-
-#livery-custom-tab-upload input[type="file"].err::before {
-    content: 'NO API KEY';
-}
-
-
-input[name="textureInput"] {
-    color: white;
-    font-size: 14px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    height: 36px;
-    display: inline-block;
-    background-color: #729e8f;
-    border: none;
-    outline: none;
-    width: 68%;
-    padding: 4px 3px;
-    keyboard-events: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-#livery-setting-apikey::placeholder,
-input[name="textureInput"]::placeholder {
-    color: #dedede;
-    font-size: 14px;
-}
-
-img.livery-title {
-    width: 95%;
-    display: block;
-    margin: 0 auto;
-}
-
-ul.livery-custom-tabs {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: white;
-    padding-inline-start: 0;
-    margin: 0;
-}
-
-.livery-custom-tabs li {
-    display: inline-block;
-    padding: 0.75rem;
-    cursor: pointer;
-    flex-grow: 1;
-    text-align: center;
-}
-#livery-setting-apikey {
-    background-color: #729e8f;
-    color: #dedede;
-    padding: 4px 2px;
-    width: 98%;
-    height: 36px;
-}
-
-#livery-custom-tab-upload button {
-    position: initial;
-    margin: 10px auto;
-    display: block;
-    width: 80%;
-    text-align: center;
-}
-
-#livery-custom-tab-upload > div,
-#livery-custom-tab-direct > div,
-#livery-custom-tab-download > div,
-#livery-custom-tab-api div {
-    padding: 10px;
-    background: white;
-}
-
-#favorites li.livery-list-item span,
-#liverylist li.livery-list-item span {
-    float: right;
-    padding-top: 15px;
-}
-
-#favorites li.livery-list-item,
-#liverylist li.livery-list-item {
-    background-color: white;
-    display: block;
-}
-
-.geofs-list .livery-custom-tabs li:hover,
-#favorites li.livery-list-item:hover,
-#liverylist li.livery-list-item:hover {
-    background-color: #dedede;
-}
-
-.livery-searchbar {
-    width: 100%;
-}
-
-.download-fields h7 {
-    background-color: #729e8f;
-    display:block;
-    padding: 4px;
-}
-.download-fields .mdl-button {
-    position: initial;
-    margin: 4px;
-    display: inline-block;
-    width: 38%;
-}
-
-#customDiv {
-    width: 100%;
-    padding: 0;
-}
-    `;
-    return tag;
 }
 
 window.LiverySelector = {
