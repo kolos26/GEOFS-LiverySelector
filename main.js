@@ -130,7 +130,7 @@ function listLiveries() {
         });
         listItem.onclick = () => loadLivery(e.texture, airplane.index, airplane.parts);
         listItem.innerHTML = e.name;
-        if (e.credits.length) {
+        if (e.credits && e.credits.length) {
             listItem.innerHTML += `<small>by ${e.credits}</small>`;
         }
 
@@ -203,7 +203,7 @@ function star(element) {
         const btn = domById([element.id, 'button'].join('_'));
         const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
         fbtn.onclick = btn.onclick;
-        fbtn.innerText = btn.innerText;
+        fbtn.innerText = btn.firstChild.data;
 
         let list = localStorage.favorites.split(',');
         list.push(element.id);

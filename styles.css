@@ -138,6 +138,11 @@ ul.livery-custom-tabs {
     padding: 10px;
     background: white;
 }
+#favorites li.livery-list-item small,
+#liverylist li.livery-list-item small {
+    position: absolute;
+    right: 32px;
+}
 
 #favorites li.livery-list-item span,
 #liverylist li.livery-list-item span {
