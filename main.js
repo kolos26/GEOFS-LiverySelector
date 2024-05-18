@@ -130,6 +130,9 @@ function listLiveries() {
         });
         listItem.onclick = () => loadLivery(e.texture, airplane.index, airplane.parts);
         listItem.innerHTML = e.name;
+        if (e.credits.length) {
+            listItem.innerHTML += `<small>by ${e.credits}</small>`;
+        }
 
         appendNewChild(listItem, 'span', {
             id: [geofs.aircraft.instance.id, e.name].join('_'),
