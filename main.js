@@ -1,4 +1,4 @@
-const githubRepo = 'https://github.com/kolos26/GEOFS-LiverySelector/raw/main';
+const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 
 let liveryobj;
 let multiplayertexture;
