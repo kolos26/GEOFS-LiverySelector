@@ -11116,7 +11116,8 @@
                         "/models/aircraft/premium/pa28/normals.jpg",
                         "/models/aircraft/premium/pa28/specular.jpg",
                         "/models/aircraft/premium/pa28/texture.jpg"
-                    ]
+                    ],
+                    "credits": "GeoFS"
                 },
                 {
                     "name": "Aeroclub Milano",
@@ -11132,23 +11133,26 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
                         "/models/aircraft/premium/pa28/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/N4891F.png"
-                    ]
+                    ],
+                    "credits": "luca b"
                 },
                 {
                     "name": "Swiss AviationTraining",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/swiss_specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/swiss.png"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/swiss.jpg"
+                    ],
+                    "credits": "TurboMaximus"
                 },
                 {
                     "name": "Cheatline",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/cheatline_specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/cheatine.png"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/cheatline.jpg"
+                    ],
+                    "credits": "TurboMaximus"
                 }
             ],
             "labels": ["Normal map", "Specular shader", "Texture"]
