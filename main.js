@@ -8,7 +8,11 @@ let uploadHistory = [];
 (function init() {
 
     // styles
-    appendNewChild(document.head, 'link', {rel: 'stylesheet', href: `${githubRepo}/styles.css`});
+    fetch(`${githubRepo}/styles.css`).then(async data => {
+        const styleTag = createTag('style',{type:'text/css'});
+        styleTag.innerHTML = await data.text();
+        document.head.appendChild(styleTag);
+    });
     appendNewChild(document.head, 'link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'});
 
     // Panel for list
@@ -129,8 +133,10 @@ function listLiveries() {
             class: 'livery-list-item'
         });
         listItem.onclick = () => loadLivery(e.texture, airplane.index, airplane.parts);
-        const credits = (e.credits && e.credits.length) ? e.credits : '??';
-        listItem.innerHTML = e.name + `<small>by ${credits}</small>`;
+        listItem.innerHTML = e.name;
+        if (e.credits && e.credits.length) {
+            listItem.innerHTML += `<small>by ${e.credits}</small>`;
+        }
 
         appendNewChild(listItem, 'span', {
             id: [geofs.aircraft.instance.id, e.name].join('_'),

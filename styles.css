@@ -1,16 +1,17 @@
 .livery-list {
-    width: 400px;
+    width: 450px;
+    resize: horizontal;
 }
 
 #listDiv h6 {
     padding-left: 4px;
 }
 #listDiv h6:before  {
-    content: "\\25bc\\FE0E";
+    content: "▼";
     margin-right: 2px;
 }
 #listDiv h6.closed:before {
-    content: "\\25b6\\FE0E";
+    content: "▶";
     margin-right: 2px;
 }
 .checked, .nocheck {
