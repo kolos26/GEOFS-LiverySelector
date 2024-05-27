@@ -133,8 +133,10 @@ function listLiveries() {
             class: 'livery-list-item'
         });
         listItem.onclick = () => loadLivery(e.texture, airplane.index, airplane.parts);
-        const credits = (e.credits && e.credits.length) ? e.credits : '??';
-        listItem.innerHTML = e.name + `<small>by ${credits}</small>`;
+        listItem.innerHTML = e.name;
+        if (e.credits && e.credits.length) {
+            listItem.innerHTML += `<small>by ${e.credits}</small>`;
+        }
 
         appendNewChild(listItem, 'span', {
             id: [geofs.aircraft.instance.id, e.name].join('_'),
