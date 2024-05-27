@@ -8,7 +8,11 @@ let uploadHistory = [];
 (function init() {
 
     // styles
-    appendNewChild(document.head, 'link', {rel: 'stylesheet', href: `${githubRepo}/styles.css`});
+    fetch(`${githubRepo}/styles.css`).then(async data => {
+        const styleTag = createTag('style',{type:'text/css'});
+        styleTag.innerHTML = await data.text();
+        document.head.appendChild(styleTag);
+    });
     appendNewChild(document.head, 'link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'});
 
     // Panel for list
