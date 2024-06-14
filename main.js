@@ -1,192 +1,231 @@
+const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+
 let liveryobj;
-let multiplayertexture
+let multiplayertexture;
+let origHTMLs = {};
+let uploadHistory = [];
 
-//init
+(function init() {
 
-async function init(){
+    // styles
+    fetch(`${githubRepo}/styles.css`).then(async data => {
+        const styleTag = createTag('style',{type:'text/css'});
+        styleTag.innerHTML = await data.text();
+        document.head.appendChild(styleTag);
+    });
+    appendNewChild(document.head, 'link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'});
 
     // Panel for list
-    
-    let listDiv = document.createElement("div");
-    listDiv.setAttribute("id", "listDiv")
-    listDiv.setAttribute("data-noblur", "true");
-    listDiv.setAttribute("data-onshow", "{geofs.initializePreferencesPanel()}");
-    listDiv.setAttribute("data-onhide", "{geofs.savePreferencesPanel()}");
-    listDiv.setAttribute("class", "geofs-list geofs-toggle-panel geofs-livery-list geofs-visible")
-    listDiv.innerHTML = '<h3><img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/476df50f652cad420b5cd09684d65b7cf0e447c9/liveryselector-logo.svg" width="95%" title="LiverySelector" style="display: block; margin-left: auto; margin-right: auto;"/></h3><div class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="width: 100%; padding-right: 86px;"><input class="mdl-textfield__input address-input" type="text" placeholder="Search liveries" onkeydown="search(this.value)" id="searchlivery"><label class="mdl-textfield__label" for="searchlivery">Search liveries</label></div><h6>Favorite liveries</h6><ul id="favorites" class="geofs-list geofs-visible"></ul><h6>Available liveries</h6><ul id="liverylist" class=" geofs-list geofs-visible"></ul><h6 style="margin-bottom: -10px">Load external livery</h6><div id="customDiv" class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="width: 100%; padding-right: 86px;"></div><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="inputLivery()">Load livery</button>'
-    document.getElementsByClassName("geofs-ui-left")[0].appendChild(listDiv);
+    const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
+        id: 'listDiv',
+        class: 'geofs-list geofs-toggle-panel livery-list geofs-visible',
+        'data-noblur': 'true',
+        'data-onshow': '{geofs.initializePreferencesPanel()}',
+        'data-onhide': '{geofs.savePreferencesPanel()}'
+    });
+    listDiv.innerHTML = generateListHTML();
 
     // Button for panel
-    let buttonDiv = document.createElement("div");
-    buttonDiv.innerHTML = '<button class="mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly" data-toggle-panel=".geofs-livery-list" data-tooltip-classname="mdl-tooltip--top" id="liverybutton" tabindex="0" data-upgraded=",MaterialButton" onclick="listLiveries()" title="Change livery">LIVERY<img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/0230cb5c8438a70b770ff56fed81dfec6f4e9014/liveryselector-logo-small.svg" height="30px"/></button>'
-    document.body.appendChild(buttonDiv);
-    let element = document.getElementById("liverybutton");
-    if (geofs.version >= 3.6){
-        document.getElementsByClassName("geofs-ui-bottom")[0].insertBefore(element, document.getElementsByClassName("geofs-ui-bottom")[0].children[4]);
-    } else {
-        document.getElementsByClassName("geofs-ui-bottom")[0].insertBefore(element, document.getElementsByClassName("geofs-ui-bottom")[0].children[3]);
-    }
-
-    // Div for form loading custom liveries
-    let customDiv = document.getElementById("customDiv");
-
-    let styles = document.createElement("div");
-    styles.innerHTML = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/><style>.checked {text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;color: rgb(255,193,7); display: inline; text align: right; cursor: pointer;}.nocheck {text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;color: white; display: inline; text align: right; cursor: pointer;}input[type="file"] {color: transparent;}input[type="file"]::-webkit-file-upload-button {visibility: hidden;}input[type="file"]::before {content: "UPLOAD IMAGE";display: inline-block;background-color: rgb(83,109,254);margin-right: -120px;outline: none;user-select: none;-webkit-user-select: none;cursor: pointer;color: white;height: 36px;padding-top: 12px;text-align:center;cursor: pointer;font-family: "Roboto","Helvetica","Arial",sans-serif;font-size: 14px;font-weight: 500;width:120px;border-radius: 2px;}input[name="textureInput"]{color: white;font-size: 14px;border-radius: 2px;font-family: "Roboto","Helvetica","Arial",sans-serif;height: 36px;display: inline-block;background-color: #729e8f;border: none;width: 65%;keyboard-events:none;}input[name="textureInput"]::placeholder{color: color: rgb(252, 252, 252);font-size: 14px;}</style>';
-    document.body.appendChild(styles);
-
-    //Load liveries
-
-
-    await fetch("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/livery.json").then(res => res.json()).then(data => liveryobj = data)
+    const geofsUiButton = document.querySelector('.geofs-ui-bottom');
+    const insertPos = geofs.version >= 3.6 ? 4 : 3;
+    geofsUiButton.insertBefore(generatePanelButtonHTML(), geofsUiButton.children[insertPos]);
 
     //remove original buttons
+    const origButtons = document.getElementsByClassName('geofs-liveries geofs-list-collapsible-item');
+    Object.values(origButtons).forEach(btn => btn.parentElement.removeChild(btn));
 
-    Object.values(document.getElementsByClassName("geofs-liveries geofs-list-collapsible-item")).forEach(function(e){
-        e.parentElement.removeChild(e);
-    })
+    //Load liveries (@todo: consider moving to listLiveries)
+    fetch(`${githubRepo}/livery.json`).then(handleLiveryJson);
 
-    Object.keys(liveryobj.aircrafts).forEach(function(e){
-        document.querySelectorAll("[data-aircraft='"+ e +"']")[0].innerHTML = document.querySelectorAll("[data-aircraft='"+ e +"']")[0].innerHTML + '<img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/0230cb5c8438a70b770ff56fed81dfec6f4e9014/liveryselector-logo-small.svg" height="30px"/>'
+    // Start multiplayer (WIP)
+    //setInterval(updateMultiplayer, 5000);
+})();
+
+/**
+ * @param {Response} data
+ */
+async function handleLiveryJson(data) {
+    liveryobj = await data.json();
+
+    // mark aircraft with livery icons
+    Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
+        const element = document.querySelector(`[data-aircraft='${aircraftId}']`);
+        // save original HTML for later use (reload, aircraft change, etc..)
+        if (!origHTMLs[aircraftId]) {
+            origHTMLs[aircraftId] = element.innerHTML;
+        }
+
+        // use orig HTML to concatenate so theres only ever one icon
+        element.innerHTML = origHTMLs[aircraftId] +
+            createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
     });
-
-
 }
 
-function loadLivery(texture, index, parts){
+/**
+ * Triggers GeoFS API to load texture
+ *
+ * @param {string[]} texture
+ * @param {number[]} index
+ * @param {number[]} parts
+ */
+function loadLivery(texture, index, parts) {
     //change livery
-    //console.log(texture.length);
-    for(let i = 0; i<texture.length; i++){
-        //console.log(i)
-        //console.log(texture[i]+"-"+mode[i]+"-"+parts[i]);
+    for (let i = 0; i < texture.length; i++) {
+        const model3d = geofs.aircraft.instance.definition.parts[parts[i]]['3dmodel'];
         if (geofs.version == 2.9) {
-            geofs.api.Model.prototype.changeTexture(texture[i], index[i], geofs.aircraft.instance.definition.parts[parts[i]]["3dmodel"]);
-            } else {
-            geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[parts[i]]["3dmodel"]._model, texture[i], index[i]);
+            geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
+        } else {
+            geofs.api.changeModelTexture(model3d._model, texture[i], index[i]);
         }
         //change multiplayer texture
         multiplayertexture = texture;
-    };
+    }
 }
 
-function inputLivery(){
-    let airplane = geofs.aircraft.instance.id;
-    let index = liveryobj.aircrafts[airplane].index;
-    let parts = liveryobj.aircrafts[airplane].parts;
-    let textures = liveryobj.aircrafts[airplane].liveries[0].texture;
-    if (textures.filter(x => x=== textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
-        let texture = document.getElementsByName("textureInput")[0].value;
-        loadLivery(Array(textures.length).fill(texture), index, parts);
+/**
+ * Load liveries from text input fields
+ */
+function inputLivery() {
+    const airplane = getCurrentAircraft();
+    const textures = airplane.liveries[0].texture;
+    const inputFields = document.getElementsByName('textureInput');
+    if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+        const texture = inputFields[0].value;
+        loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
     } else {
-        let texture = [];
-        document.getElementsByName("textureInput").forEach(function(e){
-            texture.push(e.value)
-        });
-        loadLivery(texture, index, parts);
+        const texture = [];
+        inputFields.forEach(e => texture.push(e.value));
+        loadLivery(texture, airplane.index, airplane.parts);
     }
 }
 
 function sortList(id) {
-    var list, i, switching, b, shouldSwitch;
-    list = document.getElementById(id);
+    const list = domById(id);
+    let i, switching, b, shouldSwitch;
     switching = true;
     while (switching) {
-    switching = false;
-    b = list.getElementsByTagName("LI");
-    for (i = 0; i < (b.length - 1); i++) {
-        shouldSwitch = false;
-        if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
-        shouldSwitch = true;
-        break;
+        switching = false;
+        b = list.getElementsByTagName('LI');
+        for (i = 0; i < (b.length - 1); i++) {
+            shouldSwitch = false;
+            if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
+                shouldSwitch = true;
+                break;
+            }
         }
-    }
-    if (shouldSwitch) {
-        b[i].parentNode.insertBefore(b[i + 1], b[i]);
-        switching = true;
-    }
+        if (shouldSwitch) {
+            b[i].parentNode.insertBefore(b[i + 1], b[i]);
+            switching = true;
+        }
     }
 }
 
-function listLiveries(){
-    document.getElementById("liverylist").innerHTML = "";
+/**
+ * Generate main livery list
+ */
+function listLiveries() {
+    domById('liverylist').innerHTML = '';
 
-    let airplane = geofs.aircraft.instance.id;
+    const airplane = getCurrentAircraft();
+    airplane.liveries.forEach(function (e) {
+        let listItem = appendNewChild(domById('liverylist'), 'li', {
+            id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
+            class: 'livery-list-item'
+        });
+        listItem.onclick = () => loadLivery(e.texture, airplane.index, airplane.parts);
+        listItem.innerHTML = e.name;
+        if (e.credits && e.credits.length) {
+            listItem.innerHTML += `<small>by ${e.credits}</small>`;
+        }
 
-    let index = liveryobj.aircrafts[airplane].index;
-    let parts = liveryobj.aircrafts[airplane].parts;
-
-    liveryobj.aircrafts[airplane].liveries.forEach(function(e){
-        var dropdown = document.createElement('li');
-//        dropdown.setAttribute("style", "display: table;")
-        dropdown.setAttribute("onpointerenter", "this.style.background='#dedede'");
-        dropdown.setAttribute("onpointerleave", "this.style.background='#ffffff'");
-        dropdown.innerHTML = e.name;
-        let star = document.createElement("span");
-        star.setAttribute("class", "fa fa-star nocheck");
-        star.setAttribute("id", geofs.aircraft.instance.id + "_" + e.name);
-        star.setAttribute("onclick", "star(this)");
-        star.setAttribute("style", "float: right; padding-top: 15px;")
-        dropdown.appendChild(star);
-        dropdown.style.display = "block";
-        dropdown.setAttribute("id", geofs.aircraft.instance.id + "_" + e.name + "_button");
-        document.getElementById("liverylist").appendChild(dropdown);
-        dropdown.setAttribute("onclick", 'loadLivery(["'+ e.texture.toString().replaceAll(',', '","') +'"], ['+ index +"], ["+ parts +"])")
-    })
-    sortList("liverylist");
+        appendNewChild(listItem, 'span', {
+            id: [geofs.aircraft.instance.id, e.name].join('_'),
+            class: 'fa fa-star nocheck',
+            onclick: 'LiverySelector.star(this)'
+        });
+    });
+    sortList('liverylist');
     loadFavorites();
-    sortList("favorites");
+    sortList('favorites');
     addCustomForm();
 }
 
-function search(text){
-    //console.log("search");
-    if (text === ""){
-        listLiveries();
+function loadFavorites() {
+    if (localStorage.getItem('favorites') === null) {
+        localStorage.favorites = '';
     }
+    domById('favorites').innerHTML = '';
+    const list = localStorage.favorites.split(',');
+    const airplane = geofs.aircraft.instance.id;
+    list.forEach(function (e) {
+        if ((airplane == e.slice(0, airplane.length)) && (e.charAt(airplane.length) == '_')) {
+            star(domById(e));
+        }
+    });
+}
 
-    else {
-        var liveries = document.getElementById("liverylist").childNodes;
-        liveries.forEach(function(e){
-            if (e.innerText.toLowerCase().includes(text.toLowerCase())){
-                e.style.display = "block";
-            }
-            else {
-                e.style.display = "none";
-            }
-        })
+function addCustomForm() {
+    document.querySelector('#livery-custom-tab-upload .upload-fields').innerHTML = '';
+    document.querySelector('#livery-custom-tab-direct .upload-fields').innerHTML = '';
+    const airplane = getCurrentAircraft();
+    const textures = airplane.liveries[0].texture;
+    const placeholders = airplane.labels;
+    if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+        createUploadButton(placeholders[0]);
+        createDirectButton(placeholders[0]);
+    } else {
+        placeholders.forEach((placeholder,i)=>{
+            createUploadButton(placeholder);
+            createDirectButton(placeholder,i);
+        });
+    }
+    // click first tab to refresh button status
+    document.querySelector('.livery-custom-tabs li').click();
+}
+
+function search(text) {
+    if (text === '') {
+        listLiveries();
+    } else {
+        const liveries = domById('liverylist').childNodes;
+        liveries.forEach(function (e) {
+            const found = e.innerText.toLowerCase().includes(text.toLowerCase());
+            e.style.display = found ? 'block' : 'none';
+        });
     }
 }
 
-function star(element){
-    let e = element.classList;
-    //console.log(e);
-    //console.log("clicked");
-    if (e == "fa fa-star nocheck"){
-        //console.log("checked");
-        let btn = document.getElementById(element.id +"_button");
-        let fbtn = document.createElement("li");
-        fbtn.innerText = btn.innerText;
-        fbtn.setAttribute("id", element.id + "_favorite");
-        fbtn.setAttribute("onclick", btn.getAttribute('onclick'));
-        document.getElementById("favorites").appendChild(fbtn);
-        let list = localStorage.favorites.split(",");
+/**
+ * Mark as favorite
+ *
+ * @param {HTMLElement} element
+ */
+function star(element) {
+    const e = element.classList;
+    const elementId = [element.id, 'favorite'].join('_');
+    if (e == 'fa fa-star nocheck') {
+        const btn = domById([element.id, 'button'].join('_'));
+        const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
+        fbtn.onclick = btn.onclick;
+        fbtn.innerText = btn.firstChild.data;
+
+        let list = localStorage.favorites.split(',');
         list.push(element.id);
-        list = [...new Set(list)]
+        list = [...new Set(list)];
         localStorage.favorites = list;
 
-    }
-    else if (e == "fa fa-star checked"){
-        //console.log("checked out");
-        document.getElementById("favorites").removeChild(document.getElementById(element.id + "_favorite"));
-        let list = localStorage.favorites.split(",");
-        let index = list.indexOf(element.id);
+    } else if (e == 'fa fa-star checked') {
+        domById('favorites').removeChild(domById(elementId));
+        const list = localStorage.favorites.split(',');
+        const index = list.indexOf(element.id);
         if (index !== -1) {
             list.splice(index, 1);
         }
         localStorage.favorites = list;
     }
     //style animation
-    e.toggle("checked");
-    e.toggle("nocheck");
+    e.toggle('checked');
+    e.toggle('nocheck');
 }
 
 function loadFavorites(){
@@ -211,8 +250,7 @@ function addCustomForm(){
     let airplane = geofs.aircraft.instance.id;
     let textures = liveryobj.aircrafts[airplane].liveries[0].texture;
     let placeholders = liveryobj.aircrafts[airplane].labels;
-    console.log(placeholders);
-    if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+    if (textures.filter(x => x=== textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
         let uploadButton = document.createElement("input");
         uploadButton.setAttribute("type", "file");
         uploadButton.setAttribute("onchange", "uploadLivery(this)");
@@ -243,38 +281,277 @@ function addCustomForm(){
             customDiv.appendChild(document.createElement("br"));
         });
     }
-}
+    const form = new FormData();
+    form.append('image', fileInput.files[0]);
+    if (localStorage.liveryAutoremove)
+        form.append('expiration', (new Date()/1000) * 60 * 60);
 
-function uploadLivery(e){
-    var form = new FormData();
-    form.append("image", e.files[0]);
-
-    var settings = {
-        "url": "https://api.imgbb.com/1/upload?key=" + localStorage.imgbbAPIKEY,
-        "method": "POST",
-        "timeout": 0,
-        "processData": false,
-        "mimeType": "multipart/form-data",
-        "contentType": false,
-        "data": form
+    const settings = {
+        'url': `https://api.imgbb.com/1/upload?key=${localStorage.imgbbAPIKEY}`,
+        'method': 'POST',
+        'timeout': 0,
+        'processData': false,
+        'mimeType': 'multipart/form-data',
+        'contentType': false,
+        'data': form
     };
 
-
     $.ajax(settings).done(function (response) {
-        var jx = JSON.parse(response);
+        const jx = JSON.parse(response);
         console.log(jx.data.url);
-        e.nextSibling.value = jx.data.url;
+        fileInput.nextSibling.value = jx.data.url;
+        fileInput.value = null;
+        uploadHistory.push(jx.data);
     });
 }
 
-function updateMultiplayer(){
-    Object.values(multiplayer.visibleUsers).forEach(function(e){
-        geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, multiplayertexture, 0);
-        })
+function handleCustomTabs(e){
+    e = e || window.event;
+    const src = e.target || e.srcElement;
+    const tabId = src.innerHTML.toLocaleLowerCase();
+    // iterate all divs and check if it was the one clicked, hide others
+    domById('customDiv').querySelectorAll(':scope > div').forEach(tabDiv => {
+        if (tabDiv.id != ['livery-custom-tab', tabId].join('-')) {
+            tabDiv.style.display =  'none';
+            return;
+        }
+        tabDiv.style.display = '';
+        // special handling for each tab, could be extracted
+        switch (tabId) {
+            case 'upload': {
+                const fields = tabDiv.querySelectorAll('input[type="file"]');
+                fields.forEach(f=>localStorage.imgbbAPIKEY ? f.classList.remove('err') : f.classList.add('err'));
+            } break;
+
+            case 'download': {
+                reloadDownloadsForm(tabDiv);
+            } break;
+
+            case 'api': {
+                reloadSettingsForm();
+            } break;
+        }
+    });
+
 }
 
-init();
+/**
+ * reloads texture files for current airplane
+ *
+ * @param {HTMLElement} tabDiv
+ */
+function reloadDownloadsForm(tabDiv) {
+    const airplane = getCurrentAircraft();
+    const liveries = airplane.liveries;
+    const defaults = liveries[0];
+    const fields = tabDiv.querySelector('.download-fields');
+    fields.innerHTML = '';
+    liveries.forEach((livery,liveryNo) => {
+        appendNewChild(fields, 'h7').innerHTML = livery.name;
+        const wrap = appendNewChild(fields, 'div');
+        livery.texture.forEach((href,i) => {
+            if (liveryNo>0 && href == defaults.texture[i]) return;
+            const link = appendNewChild(wrap,'a',{href,target:'_blank',
+                class:"mdl-button mdl-button--raised mdl-button--colored"
+            });
+            link.innerHTML = airplane.labels[i];
+        });
+    });
+}
 
-let refreshMultiplayer = setInterval(function(){  
-    updateMultiplayer();
-}, 5000);
+/**
+ * reloads settings form after changes
+ */
+function reloadSettingsForm() {
+    const apiInput = domById('livery-setting-apikey');
+    apiInput.placeholder = localStorage.imgbbAPIKEY ?
+        'API KEY SAVED ✓ (type CLEAR to remove)' :
+        'API KEY HERE';
+
+    const removeCheckbox = domById('livery-setting-remove');
+    removeCheckbox.checked = (localStorage.liveryAutoremove==1);
+}
+
+/**
+ * saves setting, gets setting key from event element
+ *
+ * @param {HTMLElement} element
+ */
+function saveSetting(element) {
+    const id = element.id.replace('livery-setting-','');
+    switch (id) {
+        case 'apikey': {
+            if (element.value.length) {
+                if (element.value.trim().toLowerCase() == 'clear') {
+                    delete localStorage.imgbbAPIKEY;
+                } else {
+                    localStorage.imgbbAPIKEY = element.value.trim();
+                }
+                element.value = '';
+            }
+        } break;
+
+        case 'remove': {
+            localStorage.liveryAutoremove = element.checked ? '1' : '0';
+        } break;
+    }
+    reloadSettingsForm();
+}
+
+/**
+ * @returns {object} current aircraft from liveryobj
+ */
+function getCurrentAircraft() {
+    return liveryobj.aircrafts[geofs.aircraft.instance.id];
+}
+
+function updateMultiplayer() {
+    Object.values(multiplayer.visibleUsers).forEach(function (e) {
+        geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, multiplayertexture, 0);
+    });
+}
+
+/******************* Utilities *********************/
+
+/**
+ * @param {string} id Div ID to toggle, in addition to clicked element
+ */
+function toggleDiv(id) {
+    const div = domById(id);
+    const target = window.event.target;
+    if (target.classList.contains('closed')) {
+        target.classList.remove('closed');
+        div.style.display='';
+    } else {
+        target.classList.add('closed');
+        div.style.display='none';
+    }
+}
+
+/**
+ * Create tag with <name attributes=...
+ *
+ * @param {string} name
+ * @param {object} attributes
+ * @returns {HTMLElement}
+ */
+function createTag(name, attributes = {}) {
+    const el = document.createElement(name);
+    Object.keys(attributes).forEach(k => el.setAttribute(k, attributes[k]));
+
+    return el;
+}
+
+/**
+ * Creates a new element <tagName attributes=...
+ * appends to parent and returns the child for later access
+ *
+ * @param {HTMLElement} parent
+ * @param {string} tagName
+ * @param {object} attributes
+ * @param {number} pos insert in Nth position (default append)
+ * @returns {HTMLElement}
+ */
+function appendNewChild(parent, tagName, attributes = {}, pos = -1) {
+    const child = createTag(tagName, attributes);
+    if (pos < 0) {
+        parent.appendChild(child);
+    } else {
+        parent.insertBefore(child, parent.children[pos]);
+    }
+
+    return child;
+}
+
+/**
+ * @param {string} elementId
+ * @returns {HTMLElement}
+ */
+function domById(elementId) {
+    return document.getElementById(elementId);
+}
+
+/******************* HTML & CSS Templates *********************/
+
+/**
+ * @returns {string} HTML template for main panel
+ */
+function generateListHTML() {
+    return `
+        <h3><img src="${githubRepo}/liveryselector-logo.svg" class="livery-title" title="LiverySelector" /></h3>
+
+        <div class="livery-searchbar mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation">
+            <input class="mdl-textfield__input address-input" type="text" placeholder="Search liveries" onkeyup="LiverySelector.search(this.value)" id="searchlivery">
+            <label class="mdl-textfield__label" for="searchlivery">Search liveries</label>
+        </div>
+
+        <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorite liveries</h6>
+        <ul id="favorites" class="geofs-list geofs-visible"></ul>
+
+        <h6 onclick="LiverySelector.toggleDiv('liverylist')">Available liveries</h6>
+        <ul id="liverylist" class=" geofs-list geofs-visible"></ul>
+
+        <h6 onclick="LiverySelector.toggleDiv('customDiv')" class="closed">Load external livery</h6>
+        <div id="customDiv" class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="display:none;">
+            <ul class="livery-custom-tabs" onclick="LiverySelector.handleCustomTabs()">
+                <li>Upload</li>
+                <li>Direct</li>
+                <li>Download</li>
+                <li>API</li>
+            </ul>
+            <div id="livery-custom-tab-upload" style="display:none;">
+                <div>Paste URL or upload image to generate imgbb URL</div>
+                <div class="upload-fields"></div>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.inputLivery()">Load livery</button>
+            </div>
+            <div id="livery-custom-tab-direct" style="display:none;">
+                <div>Load texture directly in client, no upload.</div>
+                <div class="upload-fields"></div>
+            </div>
+            <div id="livery-custom-tab-download" style="display:none;">
+                <div>Download textures for current Airplane:</div>
+                <div class="download-fields"></div>
+            </div>
+            <div id="livery-custom-tab-api" style="display:none;">
+              <div>
+                <label for="livery-setting-apikey">Paste your imgbb API key here (<a href="https://api.imgbb.com" target="_blank">get key</a>)</label>
+                <input type="text" id="livery-setting-apikey" class="mdl-textfield__input address-input" onchange="LiverySelector.saveSetting(this)">
+                <br>
+                <input type="checkbox" id="livery-setting-remove" onchange="LiverySelector.saveSetting(this)">
+                <label for="livery-setting-remove">Remove uploaded files after an hour</label>
+              </div>
+            </div>
+        </div>
+`;
+}
+
+/**
+ * @returns {HTMLElement} HTML template for main menu livery button
+ */
+function generatePanelButtonHTML() {
+    const liveryButton = createTag('button', {
+        title: 'Change livery',
+        id: 'liverybutton',
+        class: 'mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly',
+        onclick: 'LiverySelector.listLiveries()',
+        'data-toggle-panel': '.livery-list',
+        'data-tooltip-classname': 'mdl-tooltip--top',
+        'data-upgraded': ',MaterialButton'
+    });
+    liveryButton.innerHTML = 'LIVERY' + createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
+
+    return liveryButton;
+}
+
+window.LiverySelector = {
+    liveryobj,
+    saveSetting,
+    toggleDiv,
+    loadLiveryDirect,
+    handleCustomTabs,
+    listLiveries,
+    star,
+    search,
+    inputLivery,
+    uploadLivery,
+};
