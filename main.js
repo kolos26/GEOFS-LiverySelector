@@ -228,58 +228,75 @@ function star(element) {
     e.toggle('nocheck');
 }
 
-function loadFavorites(){
-    if (localStorage.getItem("favorites") === null) {
-        localStorage.favorites = "";
-    }
-    document.getElementById("favorites").innerHTML = "";
-    let list = localStorage.favorites.split(",");
-    //console.log(list);
-    let airplane =  geofs.aircraft.instance.id;
-    list.forEach(function(e){
-        //console.log(e.slice(0, airplane.length));
-        if ((airplane == e.slice(0, airplane.length)) && (e.charAt(airplane.length) == "_")){
-            star(document.getElementById(e));
-            //console.log(document.getElementById("favorites").innerHTML);
-        }
-    })
+/**
+ * @param {string} id
+ */
+function createUploadButton(id) {
+    const customDiv = document.querySelector('#livery-custom-tab-upload .upload-fields');
+    appendNewChild(customDiv, 'input', {
+        type: 'file',
+        onchange: 'LiverySelector.uploadLivery(this)'
+    });
+    appendNewChild(customDiv, 'input', {
+        type: 'text',
+        name: 'textureInput',
+        class: 'mdl-textfield__input address-input',
+        placeholder: id,
+        id: id
+    });
+    appendNewChild(customDiv, 'br');
 }
 
-function addCustomForm(){
-    customDiv.innerHTML = "";
-    let airplane = geofs.aircraft.instance.id;
-    let textures = liveryobj.aircrafts[airplane].liveries[0].texture;
-    let placeholders = liveryobj.aircrafts[airplane].labels;
-    if (textures.filter(x => x=== textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
-        let uploadButton = document.createElement("input");
-        uploadButton.setAttribute("type", "file");
-        uploadButton.setAttribute("onchange", "uploadLivery(this)");
-        uploadButton.style.marginRight = "-120px";
-        customDiv.appendChild(uploadButton);
-        let textureInput = document.createElement("input");
-        textureInput.setAttribute("type", "text");
-        textureInput.setAttribute("name", "textureInput");
-        textureInput.setAttribute("class", "mdl-textfield__input address-input");
-        textureInput.setAttribute("placeholder", placeholders[0]);
-        textureInput.setAttribute("id", placeholders[0]);
-        customDiv.appendChild(textureInput);
-        customDiv.appendChild(document.createElement("br"));
-    } else {
-        placeholders.forEach(function(e){
-            let uploadButton = document.createElement("input");
-            uploadButton.setAttribute("type", "file");
-            uploadButton.setAttribute("onchange", "uploadLivery(this)");
-            uploadButton.style.marginRight = "-120px";
-            customDiv.appendChild(uploadButton);
-            let textureInput = document.createElement("input");
-            textureInput.setAttribute("type", "text");
-            textureInput.setAttribute("name", "textureInput");
-            textureInput.setAttribute("class", "mdl-textfield__input address-input");
-            textureInput.setAttribute("placeholder", e);
-            textureInput.setAttribute("id", e);
-            customDiv.appendChild(textureInput);
-            customDiv.appendChild(document.createElement("br"));
-        });
+/**
+ * @param {string} id
+ * @param {number} i
+ */
+function createDirectButton(id,i) {
+    const customDiv = document.querySelector('#livery-custom-tab-direct .upload-fields');
+    appendNewChild(customDiv, 'input', {
+        type: 'file',
+        onchange: 'LiverySelector.loadLiveryDirect(this,'+i+')'
+    });
+    appendNewChild(customDiv, 'span').innerHTML = id;
+    appendNewChild(customDiv, 'br');
+}
+
+/**
+ * @param {HTMLInputElement} fileInput
+ * @param {number} i
+ */
+function loadLiveryDirect(fileInput, i) {
+    const reader = new FileReader();
+    reader.addEventListener('load', (event) => {
+        const airplane = getCurrentAircraft();
+        const textures = airplane.liveries[0].texture;
+        const newTexture = event.target.result;
+        if (i === undefined) {
+            loadLivery(Array(textures.length).fill(newTexture), airplane.index, airplane.parts);
+        } else {
+            // doesnt use loadLivery so no multiplayer, direct doesn't work it anyway
+            geofs.api.changeModelTexture(
+                geofs.aircraft.instance.definition.parts[airplane.parts[i]]["3dmodel"]._model,
+                newTexture,
+                airplane.index[i]
+            );
+        }
+        fileInput.value = null;
+    });
+    // read file (if there is one)
+    fileInput.files.length && reader.readAsDataURL(fileInput.files[0]);
+}
+
+/**
+ * @param {HTMLInputElement} fileInput
+ */
+function uploadLivery(fileInput) {
+    if (!fileInput.files.length)
+        return;
+    if (!localStorage.imgbbAPIKEY) {
+        alert('No imgbb API key saved! Check API tab');
+        fileInput.value = null;
+        return;
     }
     const form = new FormData();
     form.append('image', fileInput.files[0]);
