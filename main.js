@@ -211,7 +211,8 @@ function addCustomForm(){
     let airplane = geofs.aircraft.instance.id;
     let textures = liveryobj.aircrafts[airplane].liveries[0].texture;
     let placeholders = liveryobj.aircrafts[airplane].labels;
-    if (textures.filter(x => x=== textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+    console.log(placeholders);
+    if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
         let uploadButton = document.createElement("input");
         uploadButton.setAttribute("type", "file");
         uploadButton.setAttribute("onchange", "uploadLivery(this)");
