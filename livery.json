@@ -4416,6 +4416,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-1000/Air_Algerie_A350-1000.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "KLM Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-1000/KLM_Cargo_A350F.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": ["Texture"]
@@ -5081,7 +5088,7 @@
                 {
                     "name": "China Eastern",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/Icelandair_787-9.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/CHINA_EASTERN_B789.jpg"
                     ],
                     "credits": "ChengyuWordle"
                 }
@@ -6528,7 +6535,7 @@
                 {
                     "name": "Garuda Indonesia (ex Citilink)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/usairways.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/citilinkgarudahybridA320.png"
                     ],
                     "credits": "Androway"
                 },
@@ -9429,18 +9436,18 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "Quebecwings",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Quebecwings_737-200.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
                     "name": "AdamAir",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/adamair.png"
                     ],
                     "credits": "Androway"
+                },
+                {
+                    "name": "TANS Peru",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/TANS_737-200.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": ["Texture"]
@@ -10384,6 +10391,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/CA-359-STAR.jpg"
                     ],
                     "credits": "Youtube VR PoZz"
+                },
+                {
+                    "name": "IndiGo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/indigo.png"
+                    ],
+                    "credits": "Androway"
                 }
             ],
             "labels": ["Texture"]
@@ -10661,7 +10675,14 @@
                 {
                     "name": "Air France (SkyTeam)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/afnomask4  .png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/afnomask4.png"
+                    ],
+                    "credits": "Youtube VR PoZz"
+                },
+                {
+                    "name": "TAP (1st to fly a330neo livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/tap1st.png"
                     ],
                     "credits": "Youtube VR PoZz"
                 }
@@ -12387,7 +12408,7 @@
                     "name": "Cathay Pacific (Cathay Paciic misspelled livery)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cathaypacificold.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/cathaypaciic.jpg"
                     ]
                 },
                 {
