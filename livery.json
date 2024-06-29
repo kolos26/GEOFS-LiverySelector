@@ -5566,6 +5566,13 @@
                     "credits": "luca b"
                 },
                 {
+                    "name": "Freebird Green",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Freebird Green A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
                     "name": "Freebird Europe Green",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Freebird Europe Green A320.png"
@@ -5946,7 +5953,7 @@
                 {
                     "name": "Egypt Air",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/egypitair.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/egyptair.png"
                     ],
                     "credits": "Androway"
                 },
@@ -7392,6 +7399,55 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/silkair.jpg"
                     ],
                     "credits": "Androway"
+                },
+                {
+                    "name": "Ted",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Ted_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Battleship Grey design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Battleship_gray_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Blue Tulip design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Blue_Tulip_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Evo Blue design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Evo_Blue_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Gray design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Gray_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (1001th A320 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_1001st_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Friendship livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Friendship_A320.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": ["Texture"]
@@ -13056,13 +13112,6 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinafrance.png"
-                    ]
-                },
-                {
-                    "name": "EVA (Hello Kitty livery)",
-                    "texture": [
-                        "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/evakitty.png"
                     ]
                 },
                 {
