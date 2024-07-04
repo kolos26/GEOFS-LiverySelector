@@ -21,7 +21,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Piper J3 Cub"
         },
         "2": {
             "index": [
@@ -56,7 +57,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Cessna 172 Skyhawk"
         },
         "4": {
             "index": [
@@ -484,7 +486,8 @@
                     "credits": "Androway"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b737-700"
         },
         "6": {
             "index": [
@@ -519,7 +522,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "de Havilland Canada DHC6 Twin Otter"
         },
         "10": {
             "index": [
@@ -740,7 +744,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a380-800"
         },
         "13": {
             "index": [
@@ -805,7 +810,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "de Havilland Canada DHC2 Beaver"
         },
         "14": {
             "index": [
@@ -834,7 +840,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Colomban MC-15 Cri-cri"
         },
         "15": {
             "index": [
@@ -868,7 +875,8 @@
                     ]
                 }
             ],
-            "labels": ["Specular shader", "Texture"]
+            "labels": ["Specular shader", "Texture"],
+            "name": "Lokheed P38 Lightning"
         },
         "18": {
             "index": [
@@ -903,7 +911,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Sukhoi Su-35 Flanker"
         },
         "20": {
             "index": [
@@ -970,11 +979,12 @@
                 {
                     "name": "Singapore Airlines (planned livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/singapore.kpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/singapore.jpg"
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Aerospatiale France - British Aircraft Corporation Concorde"
         },
         "235": {
             "index": [
@@ -2235,7 +2245,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b767-300ER"
         },
         "238": {
             "index": [
@@ -2610,7 +2621,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b757-200"
         },
         "239": {
             "index": [
@@ -3381,7 +3393,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a350-900"
         },
         "2879": {
             "index": [
@@ -3960,7 +3973,8 @@
                     "credits":"Androway"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a319-100"
         },
         "2418": {
             "index": [
@@ -4262,7 +4276,8 @@
                     "credits": "ChengyuWordle"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "ATR 72-600"
         },
         "2973": {
             "index": [
@@ -4460,7 +4475,8 @@
                     "credits": "luca b"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a350-1000"
         },
         "3575": {
             "index": [
@@ -5128,7 +5144,8 @@
                     "credits": "ChengyuWordle"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b787-9"
         },
         "3534": {
             "index": [
@@ -6168,7 +6185,8 @@
                     "credits": "Androway"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a320-214"
         },
         "2899": {
             "index": [
@@ -6354,7 +6372,8 @@
                     "credits":"luca b"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a220-300"
         },
         "2871": {
             "index": [
@@ -7450,7 +7469,8 @@
                     "credits": "luca b"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a320neo"
         },
         "2769": {
             "index": [
@@ -7944,7 +7964,8 @@
                     "credits": "Nichy"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b737-MAX8"
         },
         "3180": {
             "index": [
@@ -8118,7 +8139,8 @@
                     "credits": "Androway"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b787-10"
         },
         "3292": {
             "index": [
@@ -8153,7 +8175,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing p8I Neptune"
         },
         "3307": {
             "index": [
@@ -8216,7 +8239,8 @@
                     ]
                 }
             ],
-            "labels": ["Fuselage texture", "Wing texture", "Engine texture"]
+            "labels": ["Fuselage texture", "Wing texture", "Engine texture"],
+            "name": "Bombardier CRJ700"
         },
         "3054": {
             "index": [
@@ -9365,7 +9389,8 @@
                     "credits": "QuebecAviationYT"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b737-800"
         },
         "4017": {
             "index": [
@@ -9640,7 +9665,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Embraer ERJ 145LR"
         },
         "4140": {
             "index": [
@@ -10367,7 +10393,8 @@
                     "credits": "BusinessDuck"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b737-200"
         },
         "247": {
             "index": [
@@ -10537,7 +10564,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Bombardier Dash8-q400"
         },
         "4398": {
             "index": [
@@ -10602,7 +10630,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Britten-Norman BN2 Islander"
         },
         "2892": {
             "index": [
@@ -10770,7 +10799,8 @@
                     "credits": "QuebecAviationYT"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "SAAB 340"
         },
         "16": {
             "index": [
@@ -10804,7 +10834,8 @@
                     ]
                 }
             ],
-            "labels": ["Specular shader", "Texture"]
+            "labels": ["Specular shader", "Texture"],
+            "name": "Douglas DC-3"
         },
         "2706": {
             "index": [
@@ -10894,7 +10925,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Bombardier CRJ200"
         },
         "3341": {
             "index": [
@@ -10949,7 +10981,8 @@
                     ]
                 }
             ],
-            "labels": ["Fuselage texture", "Wing texture", "Engine texture"]
+            "labels": ["Fuselage texture", "Wing texture", "Engine texture"],
+            "name": "Embraer ERJ 170"
         },
         "24": {
             "index": [
@@ -11332,7 +11365,8 @@
                     "credits": "Coolpilot11"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a350-900"
         },
         "4631": {
             "index": [
@@ -11635,7 +11669,8 @@
                     "credits": "Androway"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a330-900neo"
         },
         "4646": {
             "index": [
@@ -12353,7 +12388,8 @@
                     "credits":"QuebecAviationYT"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Airbus a321neo"
         },
         "7": {
             "index": [
@@ -12388,7 +12424,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "General Dynamics F16 Fighting Falcon"
         },
         "4745": {
             "index": [
@@ -12459,7 +12496,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b757-300WL"
         },
         "4743": {
             "index": [
@@ -12500,7 +12538,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b757-300"
         },
         "25": {
             "index": [
@@ -13458,7 +13497,8 @@
                     "credits": "Androway"
                 }
             ],
-            "labels": ["Specular shader", "Texture"]
+            "labels": ["Specular shader", "Texture"],
+            "name": "Boeing b777-300ER"
         },
         "4596": {
             "index": [
@@ -13493,7 +13533,8 @@
                     ]
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Vans RV6"
         },
         "23": {
             "index": [
@@ -13558,7 +13599,8 @@
                     "credits": "Nighthearth"
                 }
             ],
-            "labels": ["Normal map", "Specular shader", "Texture"]
+            "labels": ["Normal map", "Specular shader", "Texture"],
+            "name": "Piper PA-28 161 Warrior II"
         },
         "3289": {
             "index": [
@@ -13606,7 +13648,8 @@
                     "credits": "luca b"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Dornier do228-200"
         },
         "4764":{
             "index": [
@@ -13722,7 +13765,8 @@
                 "credits": "Androway"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Boeing b767-400ER"
         },
         "5061": {
             "index": [
@@ -13753,7 +13797,8 @@
                     "credits": "TurboMaximus"
                 }
             ],
-            "labels": ["Normal map", "Specular shader", "Texture", "Propwash"]
+            "labels": ["Normal map", "Specular shader", "Texture", "Propwash"],
+            "name": "Sonex-B kit"
         },
         "5073": {
             "index": [0],
@@ -13788,7 +13833,8 @@
                     "credits": "Nighthearth"
                 }
             ],
-            "labels": ["Texture"]
+            "labels": ["Texture"],
+            "name": "Bombardier Learjet45"
         }
     }
 }
