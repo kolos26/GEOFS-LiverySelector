@@ -105,7 +105,7 @@
                     ]
                 },
                 {
-                    "name": "RyanAir",
+                    "name": "Ryanair",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ryanair.png"
                     ]
@@ -180,7 +180,8 @@
                     "name": "China Eastern",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeastern.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Ethiopian",
@@ -392,25 +393,29 @@
                     "name": "Air China",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchina.png"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Air China (YuNan peacock livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchinapeacock.png"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Shandong Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shandong.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Shanghai Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shanghai.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Reno Air",
@@ -422,7 +427,8 @@
                     "name": "China United Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaunited.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Virgin Australia",
@@ -636,7 +642,8 @@
                     "name": "China Southern",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinasouthern.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Emirates (Dubai Expo 2022 livery)",
@@ -4266,6 +4273,27 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Avooma_ATR_72.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "La Costena (unpainted)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/La_Costena_YN-CHG_-_Unpainted_Livery_ATR_72-600.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "La Costena",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/La_Costena_YN-CIE_-_Unpainted_Livery_ATR_72-600.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Air Astana",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/airastana.png"
+                    ],
+                    "credits": "GeoFS_TrailerGroup"
                 }
             ],
             "labels": ["Texture"],
@@ -6156,7 +6184,7 @@
                     "credits": "bilibili開飛機のzm"
                 },
                 {
-                    "name": "Quindao Airlines",
+                    "name": "Qingdao Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/quindao.png"
                     ],
@@ -6217,6 +6245,55 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/chinanorthwest.jpg"
                     ],
                     "credits": "5527635"
+                },
+                {
+                    "name": "Ted",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Ted_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Battleship Grey design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Battleship_gray_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Blue Tulip design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Blue_Tulip_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Evo Blue design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Evo_Blue_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Gray design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Gray_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (1001th A320 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_1001st_A320.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Friendship livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Friendship_A320.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": ["Texture"],
@@ -7452,55 +7529,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/silkair.jpg"
                     ],
                     "credits": "Androway"
-                },
-                {
-                    "name": "Ted",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Ted_A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "United Airlines (Battleship Grey design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Battleship_gray_A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "United Airlines (Blue Tulip design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Blue_Tulip_A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "United Airlines (Evo Blue design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Evo_Blue_A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "United Airlines (Gray design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Gray_A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "United Airlines (1001th A320 livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_1001st_A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "United Airlines (Friendship livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/United_Friendship_A320.png"
-                    ],
-                    "credits": "luca b"
                 },
                 {
                     "name": "Lufthansa City",
@@ -9194,31 +9222,31 @@
                     ]
                 },
                 {
-                    "name": "Ryan Air (old design)",
+                    "name": "Ryanair (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Ryanair%20737-800%20Old.png"
                     ]
                 },
                 {
-                    "name": "Ryan Air (Bye Bye Latehansa livery)",
+                    "name": "Ryanair (Bye Bye Latehansa livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Ryanair%20Bye%20Bye%20Latehansa.png"
                     ]
                 },
                 {
-                    "name": "Ryan Air (Bye Bye Easyjet livery)",
+                    "name": "Ryanair (Bye Bye Easyjet livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Ryanair%20Bye%20Bye%20Easyjet.png"
                     ]
                 },
                 {
-                    "name": "Ryan Air (Bye Bye Baby livery)",
+                    "name": "Ryanair (Bye Bye Baby livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Ryanair%20Bye%20Bye%20Baby.png"
                     ]
                 },
                 {
-                    "name": "Ryan Air (Bye Bye Skyeurope livery)",
+                    "name": "Ryanair (Bye Bye Skyeurope livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Ryanair%20Bye%20Bye%20Skyeurope.png"
                     ]
@@ -9440,6 +9468,13 @@
                     "name": "Sunwing Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/sunwing.png"
+                    ],
+                    "credits": "QuebecAviationYT"
+                },
+                {
+                    "name": "Enter Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/737-800_Enter_Air.png"
                     ],
                     "credits": "QuebecAviationYT"
                 }
@@ -9852,13 +9887,13 @@
                     ]
                 },
                 {
-                    "name": "RyanAir",
+                    "name": "Ryanair",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/ryanair.png"
                     ]
                 },
                 {
-                    "name": "RyanAir (Santa Strike livery)",
+                    "name": "Ryanair (Santa Strike livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/ryanairsantastrike.png"
                     ]
@@ -11162,13 +11197,15 @@
                     "name": "China Eastern",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Air China (Big Chinese design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchina.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Air China (Small Chinese design)",
@@ -11216,7 +11253,8 @@
                     "name": "Japan Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/japan.png"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Japan Airlines (red design)",
@@ -11264,31 +11302,36 @@
                     "name": "Air China (Star Alliance livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchinastar.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Sichuan Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanairlines.png"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "China Eastern (1st Airbus A350 delivered form China livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern1st.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "HongKong Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/hongkong.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Hainan Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/hainan.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Air India (new design)",
@@ -11364,7 +11407,8 @@
                     "name": "Air China (white nose design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchinawhite.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Corendon Airlines",
@@ -12739,7 +12783,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airchina.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Korean Air Lines",
@@ -12837,7 +12882,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinasouthernbigenglish.png"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Cathay Pacific (new design)",
@@ -12872,14 +12918,16 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airchinastar.jpg"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "China Eastern",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinaeastern.png"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Bangladesh Airlines",
@@ -13264,7 +13312,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/lovechina.png"
-                    ]
+                    ],
+                    "credits" : "bilibili開飛機のzm"
                 },
                 {
                     "name": "Philippine Airlines (70th anniversary livery)",
@@ -13596,6 +13645,22 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/swissair.jpg"
                     ],
                     "credits": "SolAva8"
+                },
+                {
+                    "name": "euroAtlantic Airways",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/EuroAtlantic_Airways_Boeing_777-323ER.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Ghadames Air Transport",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Ghadames_Air_Transport_Boeing_777-300ER.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": ["Specular shader", "Texture"],
