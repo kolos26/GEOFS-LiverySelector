@@ -23,6 +23,10 @@ Loading local personal liveries is also a planned feature just as writing the fu
 
 ## How to use
 
+> Tutorial video by bilibili開飛機のzm
+> - [on youtube](https://www.youtube.com/watch?v=luASAu7ikYA)
+> - [on bilibili](https://www.bilibili.com/video/BV1gS411w7Co/?spm_id_from=333.999.0.0&vd_source=6be8a43efb2014347309862b1aaf1fd2)
+
 You can use LiverySelector without installation, or you can add it to your Tampermonkey browser addon.
 
 **Both versions download the list of newest aircrafts every time you start GeoFS, you don't have to do anything after installation.**
@@ -66,7 +70,7 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Bombardier CRJ-200
 - Douglas dc3
 - Lockheed P38 Lightning
-- General Dynamics F16 Fighning Falcon
+- General Dynamics F16 Fighting Falcon
 
 ## Feedback
 
