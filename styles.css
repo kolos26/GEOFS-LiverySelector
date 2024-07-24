@@ -116,6 +116,23 @@ ul.livery-custom-tabs {
     flex-grow: 1;
     text-align: center;
 }
+.livery-submit div {
+    padding: 10px 0;
+}
+.livery-submit div label {
+    display: block;
+    padding: 5px 0;
+}
+.livery-submit div label[for="livery-submit-confirm-perms"],
+.livery-submit div label[for="livery-submit-confirm-legal"] {
+    display: inline;
+}
+.livery-submit div input[id="livery-submit-liveryname"] {
+    margin-bottom: 10px;
+}
+.livery-submit div input[type="text"],
+.livery-submit div input[type="number"],
+#livery-setting-discordid,
 #livery-setting-apikey {
     background-color: #729e8f;
     color: #dedede;
@@ -139,10 +156,16 @@ ul.livery-custom-tabs {
     padding: 10px;
     background: white;
 }
+#livery-custom-tab-api label[for="livery-setting-discordid"] {
+    padding-top: 16px;
+    display: block;
+}
 #favorites li.livery-list-item small,
 #liverylist li.livery-list-item small {
     position: absolute;
-    right: 32px;
+    left: 12px;
+    top: 16px;
+    color: darkgray;
 }
 
 #favorites li.livery-list-item span,
