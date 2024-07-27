@@ -425,9 +425,9 @@ function handleCustomTabs(e){
             case 'upload': {
                 const fields = tabDiv.querySelectorAll('input[type="file"]');
                 fields.forEach(f => localStorage.imgbbAPIKEY ? f.classList.remove('err') : f.classList.add('err'));
-                const discordId = (!!localStorage.liveryDiscordId);
-                tabDiv.querySelector('.livery-submit .api').style.display = discordId ? '' : 'none';
-                tabDiv.querySelector('.livery-submit .no-api').style.display = discordId ? 'none' : '';
+                const apiKeys = !!localStorage.liveryDiscordId && !!localStorage.imgbbAPIKEY;
+                tabDiv.querySelector('.livery-submit .api').style.display = apiKeys ? '' : 'none';
+                tabDiv.querySelector('.livery-submit .no-api').style.display = apiKeys ? 'none' : '';
             } break;
 
             case 'download': {
@@ -628,8 +628,8 @@ function generateListHTML() {
                         <label for="livery-submit-confirm-legal">I confirm the textures are safe for all ages, are non-offensive and appropriate for the game and don't violate any laws or other regulations.</label>
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.submitLivery()">Submit livery for review</button>
                         <small>
-                          By submitting you also agree to our <a href="https://discord.gg/2tcdzyYaWU" target="_blank">Discord</a> server rules.
-                          Failing to comply may result in exclusion from further submits.
+                          Join our <a href="https://discord.gg/2tcdzyYaWU" target="_blank">Discord</a> to follow up on your contributions.
+                          By submitting you agree to the Discord server rules. Failing to comply may result in exclusion from further submits.
                         </small>
                     </div>
                 </div>
