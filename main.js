@@ -402,7 +402,7 @@ function uploadLivery(fileInput) {
         console.log(jx.data.url);
         fileInput.nextSibling.value = jx.data.url;
         fileInput.value = null;
-        if (!uploadHistory[jx.data.id]) {
+        if (!uploadHistory[jx.data.id] || (uploadHistory[jx.data.id].expiration !== jx.data.expiration)) {
             uploadHistory[jx.data.id] = jx.data;
             localStorage.lsUploadHistory = JSON.stringify(uploadHistory);
         }
