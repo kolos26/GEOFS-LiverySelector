@@ -1,9 +1,11 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 
-let liveryobj;
-let multiplayertexture;
-let origHTMLs = {};
-let uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
+const liveryobj = {};
+const mpLiveryIds = {};
+const mLiveries = {};
+const origHTMLs = {};
+const uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
+const liveryIdOffset = 10e3;
 
 (function init() {
 
@@ -35,17 +37,18 @@ let uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
     Object.values(origButtons).forEach(btn => btn.parentElement.removeChild(btn));
 
     //Load liveries (@todo: consider moving to listLiveries)
-    fetch(`${githubRepo}/livery.json`).then(handleLiveryJson);
+    fetch(`${githubRepo}/livery.json?`+Date.now()).then(handleLiveryJson);
 
-    // Start multiplayer (WIP)
-    //setInterval(updateMultiplayer, 5000);
+    // Start multiplayer
+    setInterval(updateMultiplayer, 5000);
 })();
 
 /**
  * @param {Response} data
  */
 async function handleLiveryJson(data) {
-    liveryobj = await data.json();
+    const json = await data.json();
+    Object.keys(json).forEach(key => liveryobj[key] = json[key]);
 
     // mark aircraft with livery icons
     Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
@@ -57,7 +60,17 @@ async function handleLiveryJson(data) {
 
         // use orig HTML to concatenate so theres only ever one icon
         element.innerHTML = origHTMLs[aircraftId] +
-            createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
+            createTag('img', {
+                src: `${githubRepo}/liveryselector-logo-small.svg`,
+                style:'height:30px;width:auto;margin-left:20px;',
+                title:'Liveries available'
+            }).outerHTML;
+
+        if (liveryobj.aircrafts[aircraftId].mp != "disabled")
+            element.innerHTML += createTag('small',{
+                title:'Liveries are multiplayer compatible\n(visible to other players)',
+                style:'position:relative;top:-7px;left:-25px;'
+            }, '🌐').outerHTML;
     });
 }
 
@@ -79,8 +92,6 @@ function loadLivery(texture, index, parts) {
         } else {
             geofs.api.changeModelTexture(model3d._model, texture[i], {index:index[i]});
         }
-        //change multiplayer texture
-        multiplayertexture = texture;
     }
 }
 
@@ -211,12 +222,18 @@ function listLiveries() {
     domById('liverylist').innerHTML = '';
 
     const airplane = getCurrentAircraft();
-    airplane.liveries.forEach(function (e) {
+    airplane.liveries.forEach(function (e, idx) {
         let listItem = appendNewChild(domById('liverylist'), 'li', {
             id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
             class: 'livery-list-item'
         });
-        listItem.onclick = () => loadLivery(e.texture, airplane.index, airplane.parts);
+        listItem.onclick = () => {
+            loadLivery(e.texture, airplane.index, airplane.parts);
+            if (e.mp != 'disabled') {
+                // use vanilla ids for basegame compat
+                setInstanceId(idx+(e.credits?.toLowerCase()=='geofs'?'':liveryIdOffset));
+            }
+        };
         listItem.innerHTML = e.name;
         if (e.credits && e.credits.length) {
             listItem.innerHTML += `<small>by ${e.credits}</small>`;
@@ -358,7 +375,6 @@ function loadLiveryDirect(fileInput, i) {
         if (i === undefined) {
             loadLivery(Array(textures.length).fill(newTexture), airplane.index, airplane.parts);
         } else {
-            // doesnt use loadLivery so no multiplayer, direct doesn't work it anyway
             geofs.api.changeModelTexture(
                 geofs.aircraft.instance.definition.parts[airplane.parts[i]]["3dmodel"]._model,
                 newTexture,
@@ -519,10 +535,92 @@ function getCurrentAircraft() {
     return liveryobj.aircrafts[geofs.aircraft.instance.id];
 }
 
+function setInstanceId(id) {
+    geofs.aircraft.instance.liveryId = id;
+}
+
 function updateMultiplayer() {
-    Object.values(multiplayer.visibleUsers).forEach(function (e) {
-        geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, multiplayertexture, 0);
+    Object.values(multiplayer.visibleUsers).forEach(u => {
+        const liveryEntry = liveryobj.aircrafts[u.aircraft];
+        let otherId = u.currentLivery;
+        if (!liveryEntry || !u.model || liveryEntry.mp == 'disabled') {
+            return; // without livery or disabled
+        }
+        else if (otherId >= 1e3 && otherId < liveryIdOffset) {
+            return getMLTexture(u, liveryEntry); // ML range 1k-10k
+        }
+        else if (otherId >= liveryIdOffset && otherId < liveryIdOffset*2) {
+            otherId -= liveryIdOffset; // LS range 10k+10k
+        }
+        if (otherId < 0 || mpLiveryIds[u.id] === u.currentLivery) {
+            return; // invalid id or already updated
+        }
+        mpLiveryIds[u.id] = u.currentLivery;
+        // check model for expected textures
+        const uModelTextures = u.model._model._rendererResources.textures;
+        if (liveryEntry.mp == 'multi') {
+            // try map textures on multi-entry
+            liveryEntry.index.forEach((index,pos) => {
+                getMPTexture(
+                    liveryEntry.liveries[otherId].texture[pos],
+                    uModelTextures[index],
+                    img => u.model.changeTexture(img, {index})
+                );
+            });
+        } else {
+            const texIdx = liveryEntry.labels.indexOf('Texture');
+            // try main texture on single-entry
+            getMPTexture(
+                liveryEntry.liveries[otherId].texture[texIdx],
+                uModelTextures[0],
+                img => u.model.changeTexture(img, {index: 0})
+            );
+        }
     });
+}
+
+/**
+ * Fetch and resize texture to expected format
+ * @param {string} url
+ * @param {sd} tex
+ * @param {function} cb
+ */
+function getMPTexture(url, tex, cb) {
+    try {
+        Cesium.Resource.fetchImage({url}).then(img => {
+            const canvas = createTag('canvas', {width: tex._width, height: tex._height});
+            canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+            cb(canvas.toDataURL('image/png'));
+        });
+    } catch (e) {
+        console.log('LSMP', !!tex, url, e);
+    }
+}
+
+/**
+ * @param {object} u
+ * @param {object} liveryEntry
+ */
+function getMLTexture(u, liveryEntry) {
+    // cache ML liveries
+    if (!mLiveries.aircraft) {
+        return fetch(atob(liveryobj.mapi)).then(data => data.json()).then(json => {
+            Object.keys(json).forEach(key => mLiveries[key] = json[key]);
+        });
+    }
+    const liveryId = u.currentLivery;
+    if (mpLiveryIds[u.id] === liveryId) {
+        return; // already updated
+    }
+    mpLiveryIds[u.id] = liveryId;
+    const texIdx = liveryEntry.labels.indexOf('Texture');
+    if (texIdx !== -1) {
+        getMPTexture(
+            mLiveries.aircraft[liveryId-1000].mptx,
+            u.model._model._rendererResources.textures[liveryEntry.index[texIdx]],
+            img => u.model.changeTexture(img, {index: liveryEntry.index[texIdx]})
+        );
+    }
 }
 
 /******************* Utilities *********************/
@@ -546,13 +644,16 @@ function toggleDiv(id) {
  * Create tag with <name attributes=...
  *
  * @param {string} name
- * @param {object} attributes
+ * @param {Object} attributes
+ * @param {string|number} content
  * @returns {HTMLElement}
  */
-function createTag(name, attributes = {}) {
+function createTag(name, attributes = {}, content = '') {
     const el = document.createElement(name);
-    Object.keys(attributes).forEach(k => el.setAttribute(k, attributes[k]));
-
+    Object.keys(attributes||{}).forEach(k => el.setAttribute(k, attributes[k]));
+    if ((''+content).length) {
+        el.innerHTML = content;
+    }
     return el;
 }
 
