@@ -3,7 +3,7 @@ const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelect
 let liveryobj;
 let multiplayertexture;
 let origHTMLs = {};
-let uploadHistory = [];
+let uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
 
 (function init() {
 
@@ -102,6 +102,88 @@ function inputLivery() {
         inputFields.forEach(e => texture.push(e.value));
         loadLivery(texture, airplane.index, airplane.parts);
     }
+}
+
+/**
+ * Submit livery for review
+ */
+function submitLivery() {
+    const airplane = getCurrentAircraft();
+    const textures = airplane.liveries[0].texture;
+    const inputFields = document.getElementsByName('textureInput');
+    const formFields = {};
+    document.querySelectorAll('.livery-submit input').forEach(f => formFields[f.id.replace('livery-submit-','')] = f);
+    if (!localStorage.liveryDiscordId || localStorage.liveryDiscordId.length < 6) {
+        return alert('Invalid Discord User id!');
+    }
+    if (formFields.liveryname.value.trim().length < 3) {
+        return alert('Invalid Livery Name!');
+    }
+    if (!formFields['confirm-perms'].checked || !formFields['confirm-legal'].checked) {
+        return alert('Confirm all checkboxes!');
+    }
+    const json = {
+        name: formFields.liveryname.value.trim(),
+        credits: '',
+        texture: []
+    };
+    if (!json.name || json.name.trim()=='') {
+        return;
+    }
+    const hists = [];
+    const embeds = [];
+    inputFields.forEach((f,i) => {
+        f.value = f.value.trim();
+        if (f.value.match(/^https:\/\/.+/i)) {
+            const hist = Object.values(uploadHistory).find(o => o.url == f.value);
+            if (!hist) {
+                return alert('Only self-uploaded imgbb links work for submitting!');
+            }
+            if (hist.expiration > 0) {
+                return alert('Can\' submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
+            }
+            const embed = {
+                title: airplane.labels[i] + ' (' + (Math.ceil(hist.size/1024/10.24)/100) + 'MB, '+hist.width +'x' + hist.height +')',
+                description: f.value,
+                image: { url: f.value },
+                fields: [
+                    { name: 'Timestamp', value: new Date(hist.time*1e3), inline: true },
+                    { name: 'File ID', value: hist.id, inline: true },
+                ]
+            };
+            if (hist.submitted) {
+                if (!confirm('The following texture was already submitted:\n' + f.value + '\nContinue anyway?')) {
+                    return;
+                }
+                embed.fields.push({ name: 'First submitted', value: new Date(hist.submitted*1e3) });
+            }
+            embeds.push(embed);
+            hists.push(hist);
+            json.texture.push(f.value);
+        } else {
+            json.texture.push(textures[i]);
+        }
+    });
+    if (!embeds.length)
+        return alert('Nothing to submit, upload images first!');
+
+    let content = [
+        `Livery upload by <@${localStorage.liveryDiscordId}>`,
+        `__Plane:__ \`${geofs.aircraft.instance.id}\` ${geofs.aircraft.instance.aircraftRecord.name}`,
+        `__Livery Name:__ \`${json.name}\``,
+        '```json\n' + JSON.stringify(json, null, 2) + '```'
+    ];
+
+    fetch(atob(liveryobj.dapi), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({content: content.join('\n'), embeds })
+    }).then(res => {
+        hists.forEach(hist => {
+            hist.submitted = hist.submitted || Math.round(new Date()/1000);
+        });
+        localStorage.lsUploadHistory = JSON.stringify(uploadHistory);
+    });
 }
 
 function sortList(id) {
@@ -323,7 +405,10 @@ function uploadLivery(fileInput) {
         console.log(jx.data.url);
         fileInput.nextSibling.value = jx.data.url;
         fileInput.value = null;
-        uploadHistory.push(jx.data);
+        if (!uploadHistory[jx.data.id] || (uploadHistory[jx.data.id].expiration !== jx.data.expiration)) {
+            uploadHistory[jx.data.id] = jx.data;
+            localStorage.lsUploadHistory = JSON.stringify(uploadHistory);
+        }
     });
 }
 
@@ -342,7 +427,10 @@ function handleCustomTabs(e){
         switch (tabId) {
             case 'upload': {
                 const fields = tabDiv.querySelectorAll('input[type="file"]');
-                fields.forEach(f=>localStorage.imgbbAPIKEY ? f.classList.remove('err') : f.classList.add('err'));
+                fields.forEach(f => localStorage.imgbbAPIKEY ? f.classList.remove('err') : f.classList.add('err'));
+                const apiKeys = !!localStorage.liveryDiscordId && !!localStorage.imgbbAPIKEY;
+                tabDiv.querySelector('.livery-submit .api').style.display = apiKeys ? '' : 'none';
+                tabDiv.querySelector('.livery-submit .no-api').style.display = apiKeys ? 'none' : '';
             } break;
 
             case 'download': {
@@ -392,6 +480,9 @@ function reloadSettingsForm() {
 
     const removeCheckbox = domById('livery-setting-remove');
     removeCheckbox.checked = (localStorage.liveryAutoremove==1);
+
+    const discordInput = domById('livery-setting-discordid');
+    discordInput.value = localStorage.liveryDiscordId||'';
 }
 
 /**
@@ -415,6 +506,10 @@ function saveSetting(element) {
 
         case 'remove': {
             localStorage.liveryAutoremove = element.checked ? '1' : '0';
+        } break;
+
+        case 'discordid': {
+            localStorage.liveryDiscordId = element.value.trim();
         } break;
     }
     reloadSettingsForm();
@@ -524,7 +619,23 @@ function generateListHTML() {
             <div id="livery-custom-tab-upload" style="display:none;">
                 <div>Paste URL or upload image to generate imgbb URL</div>
                 <div class="upload-fields"></div>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.inputLivery()">Load livery</button>
+                <div><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.inputLivery()">Load livery</button></div>
+                <div class="livery-submit geofs-list-collapsible-item">Contribute to the LiverySelector Database
+                    <div class="geofs-collapsible no-api">-&gt; Fill in API key and Discord User ID in API tab.</div>
+                    <div class="geofs-collapsible api">
+                        <label for="livery-submit-liveryname">Livery Name</label>
+                        <input type="text" id="livery-submit-liveryname" class="mdl-textfield__input address-input">
+                        <input type="checkbox" id="livery-submit-confirm-perms">
+                        <label for="livery-submit-confirm-perms">I am the author and have created the textures myself or have the permission from the author to use those textures.</label>
+                        <input type="checkbox" id="livery-submit-confirm-legal">
+                        <label for="livery-submit-confirm-legal">I confirm the textures are safe for all ages, are non-offensive and appropriate for the game and don't violate any laws or other regulations.</label>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.submitLivery()">Submit livery for review</button>
+                        <small>
+                          Join our <a href="https://discord.gg/2tcdzyYaWU" target="_blank">Discord</a> to follow up on your contributions.
+                          By submitting you agree to the Discord server rules. Failing to comply may result in exclusion from further submits.
+                        </small>
+                    </div>
+                </div>
             </div>
             <div id="livery-custom-tab-direct" style="display:none;">
                 <div>Load texture directly in client, no upload.</div>
@@ -538,9 +649,10 @@ function generateListHTML() {
               <div>
                 <label for="livery-setting-apikey">Paste your imgbb API key here (<a href="https://api.imgbb.com" target="_blank">get key</a>)</label>
                 <input type="text" id="livery-setting-apikey" class="mdl-textfield__input address-input" onchange="LiverySelector.saveSetting(this)">
-                <br>
                 <input type="checkbox" id="livery-setting-remove" onchange="LiverySelector.saveSetting(this)">
-                <label for="livery-setting-remove">Remove uploaded files after an hour</label>
+                <label for="livery-setting-remove">Expire links after one hour<br><small>(only for testing, disable when submitting to the database!)</small></label>
+                <label for="livery-setting-discordid">Discord User ID (<a href="https://support.discord.com/hc/en-us/articles/206346498" target="_blank">howto</a>)</label>
+                <input type="number" id="livery-setting-discordid" class="mdl-textfield__input address-input" onchange="LiverySelector.saveSetting(this)">
               </div>
             </div>
         </div>
@@ -560,7 +672,7 @@ function generatePanelButtonHTML() {
         'data-tooltip-classname': 'mdl-tooltip--top',
         'data-upgraded': ',MaterialButton'
     });
-    liveryButton.innerHTML = 'LIVERY' + createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
+    liveryButton.innerHTML = createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
 
     return liveryButton;
 }
@@ -576,4 +688,6 @@ window.LiverySelector = {
     search,
     inputLivery,
     uploadLivery,
+    submitLivery,
+    uploadHistory
 };
