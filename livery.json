@@ -1,5 +1,6 @@
 {
     "dapi": "",
+    "mapi": "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NwaWNlOS9HZW9mcy1NdWx0aWxpdmVyaWVzL21haW4vZGVwZW5kZW5jaWVzL2xpdmVyaWVzLmpzb24",
     "aircrafts": {
         "1": {
             "index": [
@@ -682,7 +683,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "de Havilland Canada DHC6 Twin Otter"
+            "name": "de Havilland Canada DHC6 Twin Otter",
+            "mp": "disabled"
         },
         "8": {
             "index": [
@@ -4203,7 +4205,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a350-900"
+            "name": "Airbus a350-900",
+            "mp": "disabled"
         },
         "2879": {
             "index": [
@@ -4805,7 +4808,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a319-100"
+            "name": "Airbus a319-100",
+            "mp": "disabled"
         },
         "2418": {
             "index": [
@@ -7604,7 +7608,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a220-300"
+            "name": "Airbus a220-300",
+            "mp": "disabled"
         },
         "2871": {
             "index": [
@@ -9471,7 +9476,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Boeing p8I Neptune"
+            "name": "Boeing p8I Neptune",
+            "mp": "disabled"
         },
         "3307": {
             "index": [
@@ -9544,7 +9550,8 @@
                 }
             ],
             "labels": ["Fuselage texture", "Wing texture", "Engine texture"],
-            "name": "Bombardier CRJ700"
+            "name": "Bombardier CRJ700",
+            "mp": "multi"
         },
         "3054": {
             "index": [
@@ -11041,7 +11048,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Embraer ERJ 145LR"
+            "name": "Embraer ERJ 145LR",
+            "mp": "disabled"
         },
         "4140": {
             "index": [
@@ -12255,7 +12263,8 @@
                 }
             ],
             "labels": ["Specular shader", "Texture"],
-            "name": "Douglas DC-3"
+            "name": "Douglas DC-3",
+            "mp": "disabled"
         },
         "2706": {
             "index": [
@@ -12371,7 +12380,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Bombardier CRJ200"
+            "name": "Bombardier CRJ200",
+            "mp": "disabled"
         },
         "3341": {
             "index": [
@@ -12436,7 +12446,8 @@
                 }
             ],
             "labels": ["Fuselage texture", "Wing texture", "Engine texture"],
-            "name": "Embraer ERJ 170"
+            "name": "Embraer ERJ 170",
+            "mp": "disabled"
         },
         "24": {
             "index": [
@@ -13277,7 +13288,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a330-900neo"
+            "name": "Airbus a330-900neo",
+            "mp": "disabled"
         },
         "4646": {
             "index": [
@@ -15428,7 +15440,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Dornier do228-200"
+            "name": "Dornier do228-200",
+            "mp": "disabled"
         },
         "4764":{
             "index": [
@@ -15636,7 +15649,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Boeing b767-400ER"
+            "name": "Boeing b767-400ER",
+            "mp": "disabled"
         },
         "5061": {
             "index": [
@@ -15795,7 +15809,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Bombardier Learjet45"
+            "name": "Bombardier Learjet45",
+            "mp": "disabled"
         },
         "5": {
             "index": [
@@ -15843,7 +15858,8 @@
                 }
             ],
             "labels": ["Normal map", "Specular shader", "Texture"],
-            "name": "Embraer Phenom100"
+            "name": "Embraer Phenom100",
+            "mp": "disabled"
         },
         "5086": {
             "index": [
