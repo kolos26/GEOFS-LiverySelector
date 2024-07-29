@@ -87,7 +87,8 @@
             "labels": [
                 "Fuselage texture",
                 "Wing texture"
-            ]
+            ],
+            "mp": "disabled"
         },
         "4": {
             "index": [
@@ -692,12 +693,21 @@
             "name": "Pitts Special S1",
             "liveries": [
                 {
-                    "name": "Pitts Special S1",
+                    "name": "Classic Red",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/pitts/Pitts_texture_02_T_0.jpg",
                         "/models/aircraft/premium/pitts/Pitts_texture_01_T_0.jpg",
                         "/models/aircraft/premium/pitts/Pitts_texture_03_T_0.jpg"
+                    ]
+                },
+                {
+                    "name": "Airshow",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/pitts/Pitts_texture_02_T_1.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_01_T_1.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_03_T_1.jpg"
                     ]
                 }
             ],
@@ -1564,10 +1574,59 @@
             "name": "Major Tom (hot air balloon)",
             "liveries": [
                 {
-                    "name": "Major Tom (hot air balloon)",
+                    "name": "Major Tom",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_0.jpg"
+                    ]
+                },
+                {
+                    "name": "Pixels",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_1.jpg"
+                    ]
+                },
+                {
+                    "name": "GeoFS",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_2.jpg"
+                    ]
+                },
+                {
+                    "name": "Losanges",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_3.jpg"
+                    ]
+                },
+                {
+                    "name": "Red",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_4.jpg"
+                    ]
+                },
+                {
+                    "name": "Orange",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_5.jpg"
+                    ]
+                },
+                {
+                    "name": "Scale",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_6.jpg"
+                    ]
+                },
+                {
+                    "name": "Christmas",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_7.jpg"
                     ]
                 }
             ],
@@ -1622,12 +1681,48 @@
             "name": "Citroen 2CV",
             "liveries": [
                 {
-                    "name": "Citroen 2CV",
+                    "name": "Bleue",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "/models/aircraft/premium/2cv/texture_0.jpg"
+                    ]
+                },
+                {
+                    "name": "Yellow (Jaune)",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_1.jpg"
+                    ]
+                },
+                {
+                    "name": "Green (Verte)",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_2.jpg"
+                    ]
+                },
+                {
+                    "name": "Red (Rouge)",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_3.jpg"
+                    ]
+                },
+                {
+                    "name": "Charleston",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_4.jpg"
                     ]
                 }
             ],
