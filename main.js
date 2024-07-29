@@ -49,6 +49,9 @@ async function handleLiveryJson(data) {
 
     // mark aircraft with livery icons
     Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
+        if (liveryobj.aircrafts[aircraftId].liveries.length < 2) {
+            return; // only show icon if there's more than one livery
+        }
         const element = document.querySelector(`[data-aircraft='${aircraftId}']`);
         // save original HTML for later use (reload, aircraft change, etc..)
         if (!origHTMLs[aircraftId]) {
