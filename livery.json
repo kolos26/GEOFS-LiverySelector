@@ -682,6 +682,31 @@
             "labels": ["Texture"],
             "name": "de Havilland Canada DHC6 Twin Otter"
         },
+        "8": {
+            "index": [
+                3, 1, 5
+            ],
+            "parts": [
+                0, 0, 0
+            ],
+            "name": "Pitts Special S1",
+            "liveries": [
+                {
+                    "name": "Pitts Special S1",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/pitts/Pitts_texture_02_T_0.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_01_T_0.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_03_T_0.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Wing texture",
+                "Gear texture"
+            ]
+        },
         "10": {
             "index": [
                 3
