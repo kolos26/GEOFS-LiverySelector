@@ -66,6 +66,29 @@
             "labels": ["Texture"],
             "name": "Cessna 172 Skyhawk"
         },
+        "3": {
+            "name": "Alphajet PAF",
+            "index": [
+                3, 1
+            ],
+            "parts": [
+                0, 0
+            ],
+            "liveries": [
+                {
+                    "name": "Alphajet PAF",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/alphajet_paf/alpha02_T.jpg",
+                        "/models/aircraft/premium/alphajet_paf/alpha01_T.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Wing texture"
+            ]
+        },
         "4": {
             "index": [
                 3
