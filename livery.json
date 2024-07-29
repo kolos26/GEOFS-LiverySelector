@@ -995,6 +995,39 @@
                 "Texture"
             ]
         },
+        "12": {
+            "index": [
+                0,
+                3,
+                4,
+                1
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "name": "Pilatus PC-7 Mk-I",
+            "liveries": [
+                {
+                    "name": "Pilatus PC-7 Mk-I",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/pilatus/normal.jpg",
+                        "/models/aircraft/premium/pilatus/specular.jpg",
+                        "/models/aircraft/premium/pilatus/texture.jpg",
+                        "/models/aircraft/premium/pilatus/propblur.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture",
+                "Propwash"
+            ]
+        },
         "13": {
             "index": [
                 4
