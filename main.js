@@ -68,9 +68,8 @@ async function handleLiveryJson(data) {
 
         if (liveryobj.aircrafts[aircraftId].mp != "disabled")
             element.innerHTML += createTag('small',{
-                title:'Liveries are multiplayer compatible\n(visible to other players)',
-                style:'position:relative;top:-7px;left:-25px;'
-            }, '🌐').outerHTML;
+                title:'Liveries are multiplayer compatible\n(visible to other players)'
+            }, '🎮').outerHTML;
     });
 }
 
