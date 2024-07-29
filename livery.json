@@ -966,6 +966,35 @@
             "labels": ["Texture"],
             "name": "Airbus a380-800"
         },
+        "11": {
+            "index": [
+                3,
+                5,
+                6
+            ],
+            "parts": [
+                0,
+                0,
+                0
+            ],
+            "name": "Alisport Silent 2 Electro",
+            "liveries": [
+                {
+                    "name": "Alisport Silent 2 Electro",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/silent2/normals.jpg",
+                        "/models/aircraft/premium/silent2/specular.jpg",
+                        "/models/aircraft/premium/silent2/texture.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture"
+            ]
+        },
         "13": {
             "index": [
                 4
