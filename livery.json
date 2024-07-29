@@ -1267,6 +1267,53 @@
             "labels": ["Texture"],
             "name": "Aerospatiale France - British Aircraft Corporation Concorde"
         },
+        "21": {
+            "index": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                0,
+                0,
+                8,
+                9,
+                10,
+                11,
+                13,
+                15,
+                16,
+                19
+            ],
+            "name": "Zlin Z-50",
+            "liveries": [
+                {
+                    "name": "Zlin Z-50",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
         "237": {
             "index": [
                 0,
