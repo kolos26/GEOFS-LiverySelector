@@ -1434,6 +1434,39 @@
                 "Texture"
             ]
         },
+        "31": {
+            "index": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "parts": [
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            "name": "Potez 25",
+            "liveries": [
+                {
+                    "name": "Potez 25",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/textureLeft.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/textureRight.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture Left",
+                "Texture Right"
+            ]
+        },
         "237": {
             "index": [
                 0,
