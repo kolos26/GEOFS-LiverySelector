@@ -1608,6 +1608,35 @@
                 "Texture"
             ]
         },
+        "102": {
+            "index": [
+                0,
+                2,
+                3
+            ],
+            "parts": [
+                0,
+                0,
+                0
+            ],
+            "name": "Citroen 2CV",
+            "liveries": [
+                {
+                    "name": "Citroen 2CV",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_0.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture"
+            ]
+        },
         "237": {
             "index": [
                 0,
