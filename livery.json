@@ -1467,6 +1467,51 @@
                 "Texture Right"
             ]
         },
+        "40": {
+            "index": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                "0",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "13"
+            ],
+            "name": "Evektor Sportstar",
+            "liveries": [
+                {
+                    "name": "Evektor Sportstar",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
         "237": {
             "index": [
                 0,
