@@ -1575,6 +1575,39 @@
                 "Texture"
             ]
         },
+        "53": {
+            "index": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                0,
+                5,
+                6,
+                7,
+                8
+            ],
+            "name": "Goat Airchair",
+            "liveries": [
+                {
+                    "name": "Goat Airchair",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
         "237": {
             "index": [
                 0,
