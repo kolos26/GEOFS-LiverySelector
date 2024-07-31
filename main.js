@@ -544,43 +544,22 @@ function updateMultiplayer() {
         const liveryEntry = liveryobj.aircrafts[u.aircraft];
         let textures = [];
         let otherId = u.currentLivery;
-        if (!liveryEntry || !u.model || otherId === null || liveryEntry.mp == 'disabled') {
+        if (!liveryEntry || !u.model || liveryEntry.mp == 'disabled') {
             return; // without livery or disabled
-        } else if (otherId >= mlIdOffset && otherId < liveryIdOffset) {
+        }
+        if (mpLiveryIds[u.id] === otherId) {
+            return; // already updated
+        }
+        mpLiveryIds[u.id] = otherId;
+        if (otherId >= mlIdOffset && otherId < liveryIdOffset) {
             textures = getMLTexture(u, liveryEntry); // ML range 1k-10k
         } else if (otherId >= liveryIdOffset && otherId < liveryIdOffset*2) {
-            otherId -= liveryIdOffset; // LS range 10k+10k
+            textures = getMPTexture(u, liveryEntry); // LS range 10k+10k
         } else {
             return; // game managed livery
         }
-        if (mpLiveryIds[u.id] === u.currentLivery) {
-            return; // already updated
-        }
-        mpLiveryIds[u.id] = u.currentLivery;
-        if (!textures.length) {
-            // check model for expected textures
-            const uModelTextures = u.model._model._rendererResources.textures;
-            if (liveryEntry.mp == 'multi') {
-                // try map textures on multi-entry
-                liveryEntry.index.forEach((index, pos) => {
-                    textures.push({
-                        uri: liveryEntry.liveries[otherId].texture[pos],
-                        tex: uModelTextures[index],
-                        index
-                    });
-                });
-            } else {
-                const texIdx = liveryEntry.labels.indexOf('Texture');
-                // try main texture on single-entry
-                textures.push({
-                    uri: liveryEntry.liveries[otherId].texture[texIdx],
-                    tex: uModelTextures[0],
-                    index:0
-                });
-            }
-        }
         textures.forEach(texture => {
-            getMPTexture(
+            applyMPTexture(
                 texture.uri,
                 texture.tex,
                 img => u.model.changeTexture(img, {index: texture.index})
@@ -595,7 +574,7 @@ function updateMultiplayer() {
  * @param {sd} tex
  * @param {function} cb
  */
-function getMPTexture(url, tex, cb) {
+function applyMPTexture(url, tex, cb) {
     try {
         Cesium.Resource.fetchImage({url}).then(img => {
             const canvas = createTag('canvas', {width: tex._width, height: tex._height});
@@ -611,8 +590,36 @@ function getMPTexture(url, tex, cb) {
  * @param {object} u
  * @param {object} liveryEntry
  */
+function getMPTexture(u, liveryEntry) {
+    const textures = [];
+    // check model for expected textures
+    const uModelTextures = u.model._model._rendererResources.textures;
+    if (liveryEntry.mp == 'multi') {
+        // try map textures on multi-entry
+        liveryEntry.index.forEach((index, pos) => {
+            textures.push({
+                uri: liveryEntry.liveries[otherId].texture[pos],
+                tex: uModelTextures[index],
+                index
+            });
+        });
+    } else {
+        const texIdx = liveryEntry.labels.indexOf('Texture');
+        // try main texture on single-entry
+        textures.push({
+            uri: liveryEntry.liveries[otherId].texture[texIdx],
+            tex: uModelTextures[0],
+            index: 0
+        });
+    }
+    return textures;
+}
+
+/**
+ * @param {object} u
+ * @param {object} liveryEntry
+ */
 function getMLTexture(u, liveryEntry) {
-    // cache ML liveries
     if (!mLiveries.aircraft) {
         fetch(atob(liveryobj.mapi)).then(data => data.json()).then(json => {
             Object.keys(json).forEach(key => mLiveries[key] = json[key]);
