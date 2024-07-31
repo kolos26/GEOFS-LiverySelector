@@ -594,6 +594,7 @@ function applyMPTexture(url, tex, cb) {
  * @param {object} liveryEntry
  */
 function getMPTexture(u, liveryEntry) {
+    const otherId = u.currentLivery - liveryIdOffset;
     const textures = [];
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
