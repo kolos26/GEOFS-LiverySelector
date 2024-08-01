@@ -682,7 +682,12 @@
                     ]
                 }
             ],
-            "labels": ["Texture"],
+            "labels": [
+                "Texture",
+                "Texture Left",
+                "Texture Bottom",
+                "Texture Right"
+            ],
             "name": "de Havilland Canada DHC6 Twin Otter",
             "mp": "disabled"
         },
@@ -1109,32 +1114,40 @@
         },
         "14": {
             "index": [
-                6
+                6,
+                2
             ],
             "parts": [
+                0,
                 0
             ],
             "liveries": [
                 {
                     "name": "Criquet",
                     "texture": [
-                        "/models/aircraft/premium/cricri/texture_0.jpg"
+                        "/models/aircraft/premium/cricri/texture_0.jpg",
+                        "/models/aircraft/premium/cricri/interior_0.jpg"
                     ]
                 },
                 {
                     "name": "Bleu Blanc Rouge",
                     "texture": [
-                        "/models/aircraft/premium/cricri/texture_1.jpg"
+                        "/models/aircraft/premium/cricri/texture_1.jpg",
+                        "/models/aircraft/premium/cricri/interior_1.jpg"
                     ]
                 },
                 {
                     "name": "Camo",
                     "texture": [
-                        "/models/aircraft/premium/cricri/texture_2.jpg"
+                        "/models/aircraft/premium/cricri/texture_2.jpg",
+                        "/models/aircraft/premium/cricri/interior_2.jpg"
                     ]
                 }
             ],
-            "labels": ["Texture"],
+            "labels": [
+                "Texture",
+                "Texture Interior"
+            ],
             "name": "Colomban MC-15 Cri-cri"
         },
         "15": {
@@ -1311,6 +1324,7 @@
                     "name": "Red Bull OK-XRA",
                     "credits": "GeoFS",
                     "texture": [
+                        "/models/aircraft/zlin/texture.png",
                         "/models/aircraft/zlin/texture.png",
                         "/models/aircraft/zlin/texture.png",
                         "/models/aircraft/zlin/texture.png",
@@ -15378,7 +15392,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
                         "/models/aircraft/premium/pa28/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/xblfv.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/xblfv.jpg"
                     ],
                     "credits": "XA-AIR"
                 }
