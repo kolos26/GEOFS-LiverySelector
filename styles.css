@@ -168,22 +168,50 @@ ul.livery-custom-tabs {
     color: darkgray;
 }
 
-#favorites li.livery-list-item span,
-#liverylist li.livery-list-item span {
-    float: right;
-    padding-top: 15px;
+#favorites li.livery-list-item span.fa,
+#liverylist li.livery-list-item span.fa {
+    position: absolute;
+    top: 15px;
+    right: 10px;
 }
 
 #favorites li.livery-list-item,
 #liverylist li.livery-list-item {
     background-color: white;
     display: block;
+    height: 48px;
+    transition: height .1s;
+    overflow: hidden;
+}
+#liverylist li.livery-list-item.offi:hover {
+    transition: height 0.1s;
+    height: 240px;
 }
 
 .geofs-list .livery-custom-tabs li:hover,
 #favorites li.livery-list-item:hover,
 #liverylist li.livery-list-item:hover {
-    background-color: #dedede;
+    border: 2px solid #dedede;
+    margin: -2px 0 0 -2px;
+}
+
+#favorites li.livery-list-item span.livery-name,
+#liverylist li.livery-list-item span.livery-name {
+    position: relative;
+    z-index: 10;
+    width: 80%;
+    display: block;
+}
+#liverylist li.livery-list-item img {
+    transition: height .1s;
+    height: 48px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+#liverylist li.livery-list-item:hover img {
+    height: 240px;
+    transition: height 0.1s;
 }
 
 .livery-searchbar {

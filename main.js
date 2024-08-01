@@ -11,7 +11,7 @@ const mlIdOffset = 1e3;
 (function init() {
 
     // styles
-    fetch(`${githubRepo}/styles.css`).then(async data => {
+    fetch(`${githubRepo}/styles.css?`+Date.now()).then(async data => {
         const styleTag = createTag('style',{type:'text/css'});
         styleTag.innerHTML = await data.text();
         document.head.appendChild(styleTag);
@@ -21,7 +21,7 @@ const mlIdOffset = 1e3;
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
         id: 'listDiv',
-        class: 'geofs-list geofs-toggle-panel livery-list geofs-visible',
+        class: 'geofs-list geofs-toggle-panel livery-list',
         'data-noblur': 'true',
         'data-onshow': '{geofs.initializePreferencesPanel()}',
         'data-onhide': '{geofs.savePreferencesPanel()}'
@@ -224,6 +224,8 @@ function sortList(id) {
 function listLiveries() {
     domById('liverylist').innerHTML = '';
 
+    const thumbsDir = [githubRepo, 'thumbs'].join('/');
+    const defaultThumb = [thumbsDir, geofs.aircraft.instance.id+'.png'].join('/');
     const airplane = getCurrentAircraft();
     airplane.liveries.forEach(function (e, idx) {
         let listItem = appendNewChild(domById('liverylist'), 'li', {
@@ -237,7 +239,17 @@ function listLiveries() {
                 setInstanceId(idx+(e.credits?.toLowerCase()=='geofs'?'':liveryIdOffset));
             }
         };
-        listItem.innerHTML = e.name;
+        listItem.innerHTML = createTag('span', {class:'livery-name'}, e.name).outerHTML;
+        if (geofs.aircraft.instance.id < 1000) {
+            listItem.classList.add('offi');
+            const thumb = createTag('img');
+            thumb.onerror = () => {
+                thumb.onerror = null;
+                thumb.src = defaultThumb;
+            };
+            thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id+'-'+idx+'.png'].join('/');
+            listItem.appendChild(thumb);
+        }
         if (e.credits && e.credits.length) {
             listItem.innerHTML += `<small>by ${e.credits}</small>`;
         }
@@ -311,7 +323,7 @@ function star(element) {
         const btn = domById([element.id, 'button'].join('_'));
         const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
         fbtn.onclick = btn.onclick;
-        fbtn.innerText = btn.firstChild.data;
+        fbtn.innerText = btn.children[0].innerText;
 
         let list = localStorage.favorites.split(',');
         list.push(element.id);
