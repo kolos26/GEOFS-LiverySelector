@@ -93,11 +93,21 @@ async function handleLiveryJson(data) {
  * @param {string[]} texture
  * @param {number[]} index
  * @param {number[]} parts
+ * @param {Object[]} mats
  */
-function loadLivery(texture, index, parts) {
+function loadLivery(texture, index, parts, mats) {
     //change livery
     for (let i = 0; i < texture.length; i++) {
         const model3d = geofs.aircraft.instance.definition.parts[parts[i]]['3dmodel'];
+        // check for material definition (for untextured parts)
+        if (typeof texture[i] === 'object') {
+            if (texture[i].material !== undefined) {
+                const mat = mats[texture[i].material];
+                model3d._model.getMaterial(mat.name)
+                    .setValue('diffuse', new Cesium.Cartesian4(...mat.diffuse, 1.0));
+            }
+            continue;
+        }
         if (geofs.version == 2.9) {
             geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
         } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
@@ -243,7 +253,7 @@ function listLiveries() {
             class: 'livery-list-item'
         });
         listItem.onclick = () => {
-            loadLivery(e.texture, airplane.index, airplane.parts);
+            loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
             if (e.mp != 'disabled') {
                 // use vanilla ids for basegame compat
                 setInstanceId(idx+(e.credits?.toLowerCase()=='geofs'?'':liveryIdOffset));
@@ -294,7 +304,10 @@ function addCustomForm() {
     document.querySelector('#livery-custom-tab-upload .upload-fields').innerHTML = '';
     document.querySelector('#livery-custom-tab-direct .upload-fields').innerHTML = '';
     const airplane = getCurrentAircraft();
-    const textures = airplane.liveries[0].texture;
+    const textures = airplane.liveries[0].texture.filter(t=>typeof t !== 'object');
+    if (!textures.length) {
+        return; // ignore material defs
+    }
     const placeholders = airplane.labels;
     if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
         createUploadButton(placeholders[0]);
@@ -495,10 +508,13 @@ function reloadDownloadsForm(tabDiv) {
     const fields = tabDiv.querySelector('.download-fields');
     fields.innerHTML = '';
     liveries.forEach((livery,liveryNo) => {
+        const textures = livery.texture.filter(t => typeof t !== 'object');
+        if (!textures.length) return; // ignore material defs
         appendNewChild(fields, 'h7').innerHTML = livery.name;
         const wrap = appendNewChild(fields, 'div');
-        livery.texture.forEach((href,i) => {
-            if (liveryNo>0 && href == defaults.texture[i]) return;
+        textures.forEach((href,i) => {
+            if (typeof href === 'object') return;
+            if (liveryNo > 0 && href == defaults.texture[i]) return;
             const link = appendNewChild(wrap,'a',{href,target:'_blank',
                 class:"mdl-button mdl-button--raised mdl-button--colored"
             });

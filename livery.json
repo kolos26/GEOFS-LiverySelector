@@ -1542,24 +1542,181 @@
         },
         "41": {
             "index": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0
             ],
             "parts": [
-                "0"
+                "0",
+                "0",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "13",
+                "14"
             ],
             "name": "szd-48-3 Jantar",
             "liveries": [
                 {
-                    "name": "szd-48-3 Jantar",
+                    "name": "Base",
                     "credits": "GeoFS",
                     "texture": [
-                        "/models/aircraft/jantar/texture.jpg"
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [1.0, 1.0, 1.0] }
+                    ]
+                },
+                {
+                    "name": "Red",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.8, 0.2, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Green",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Yellow",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.8, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Magenta",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.8, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Cyan",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.8, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.2, 0.2] }
                     ]
                 }
             ],
             "labels": [
                 "Texture"
-            ]
+            ],
+            "mp": "disabled"
         },
         "50": {
             "index": [
@@ -1651,6 +1808,91 @@
             "labels": [
                 "Texture"
             ]
+        },
+        "52": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "name": "Hughes 269a/TH-55 Osage",
+            "liveries": [
+                {
+                    "name": "Red",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.8, 0.2, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Green",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Yellow",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.8, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Magenta",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.8, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Cyan",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.8, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.2, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Base",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [1.0, 1.0, 1.0] }
+                    ]
+                }
+            ],
+            "labels": [],
+            "mp": "disabled"
         },
         "53": {
             "index": [
