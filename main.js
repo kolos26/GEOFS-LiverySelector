@@ -1,4 +1,5 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+const version = '3.0.3';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -51,6 +52,15 @@ async function handleLiveryJson(data) {
     const json = await data.json();
     Object.keys(json).forEach(key => liveryobj[key] = json[key]);
 
+    if (liveryobj.version != version) {
+        document.querySelector('.livery-list h3').appendChild(
+            createTag('a', {
+                href:'https://github.com/kolos26/GEOFS-LiverySelector',
+                target:'_blank',
+                style: 'display:block;width:100%;text-decoration:none;text-align:center;'
+            }, 'Update available: ' + liveryobj.version)
+        );
+    }
     // mark aircraft with livery icons
     Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
         if (liveryobj.aircrafts[aircraftId].liveries.length < 2) {
