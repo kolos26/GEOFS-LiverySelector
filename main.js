@@ -1,5 +1,5 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
-const version = '3.0.3';
+const version = '3.1.0';
 
 const liveryobj = {};
 const mpLiveryIds = {};
