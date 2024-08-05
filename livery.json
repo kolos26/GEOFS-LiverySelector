@@ -1,4 +1,7 @@
 {
+    "version": "3.1.0",
+    "dapi": "",
+    "mapi": "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NwaWNlOS9HZW9mcy1NdWx0aWxpdmVyaWVzL21haW4vZGVwZW5kZW5jaWVzL2xpdmVyaWVzLmpzb24",
     "aircrafts": {
         "1": {
             "index": [
@@ -65,6 +68,30 @@
             ],
             "labels": ["Texture"],
             "name": "Cessna 172 Skyhawk"
+        },
+        "3": {
+            "name": "Alphajet PAF",
+            "index": [
+                3, 1
+            ],
+            "parts": [
+                0, 0
+            ],
+            "liveries": [
+                {
+                    "name": "Armee de L'air ",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/alphajet_paf/alpha02_T.jpg",
+                        "/models/aircraft/premium/alphajet_paf/alpha01_T.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Wing texture"
+            ],
+            "mp": "disabled"
         },
         "4": {
             "index": [
@@ -656,8 +683,77 @@
                     ]
                 }
             ],
-            "labels": ["Texture"],
-            "name": "de Havilland Canada DHC6 Twin Otter"
+            "labels": [
+                "Texture",
+                "Texture Left",
+                "Texture Bottom",
+                "Texture Right"
+            ],
+            "name": "de Havilland Canada DHC6 Twin Otter",
+            "mp": "disabled"
+        },
+        "8": {
+            "index": [
+                3, 1, 5
+            ],
+            "parts": [
+                0, 0, 0
+            ],
+            "name": "Pitts Special S1",
+            "liveries": [
+                {
+                    "name": "Classic Red",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/pitts/Pitts_texture_02_T_0.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_01_T_0.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_03_T_0.jpg"
+                    ]
+                },
+                {
+                    "name": "Airshow",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/pitts/Pitts_texture_02_T_1.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_01_T_1.jpg",
+                        "/models/aircraft/premium/pitts/Pitts_texture_03_T_1.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Wing texture",
+                "Gear texture"
+            ]
+        },
+        "9": {
+            "index": [
+                5,
+                9,
+                10
+            ],
+            "parts": [
+                0,
+                0,
+                0
+            ],
+            "name": "Eurocopter EC135",
+            "liveries": [
+                {
+                    "name": "Eurocopter",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "/models/aircraft/premium/ec135/texture.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture"
+            ]
         },
         "10": {
             "index": [
@@ -889,6 +985,68 @@
             "labels": ["Texture"],
             "name": "Airbus a380-800"
         },
+        "11": {
+            "index": [
+                3,
+                5,
+                6
+            ],
+            "parts": [
+                0,
+                0,
+                0
+            ],
+            "name": "Alisport Silent 2 Electro",
+            "liveries": [
+                {
+                    "name": "Silent 2 Electro",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/silent2/normals.jpg",
+                        "/models/aircraft/premium/silent2/specular.jpg",
+                        "/models/aircraft/premium/silent2/texture.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture"
+            ]
+        },
+        "12": {
+            "index": [
+                0,
+                3,
+                4,
+                1
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "name": "Pilatus PC-7 Mk-I",
+            "liveries": [
+                {
+                    "name": "Pilatus PC-7 Mk-I",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/pilatus/normal.jpg",
+                        "/models/aircraft/premium/pilatus/specular.jpg",
+                        "/models/aircraft/premium/pilatus/texture.jpg",
+                        "/models/aircraft/premium/pilatus/propblur.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture",
+                "Propwash"
+            ]
+        },
         "13": {
             "index": [
                 4
@@ -957,32 +1115,40 @@
         },
         "14": {
             "index": [
-                6
+                6,
+                2
             ],
             "parts": [
+                0,
                 0
             ],
             "liveries": [
                 {
                     "name": "Criquet",
                     "texture": [
-                        "/models/aircraft/premium/cricri/texture_0.jpg"
+                        "/models/aircraft/premium/cricri/texture_0.jpg",
+                        "/models/aircraft/premium/cricri/interior_0.jpg"
                     ]
                 },
                 {
                     "name": "Bleu Blanc Rouge",
                     "texture": [
-                        "/models/aircraft/premium/cricri/texture_1.jpg"
+                        "/models/aircraft/premium/cricri/texture_1.jpg",
+                        "/models/aircraft/premium/cricri/interior_1.jpg"
                     ]
                 },
                 {
                     "name": "Camo",
                     "texture": [
-                        "/models/aircraft/premium/cricri/texture_2.jpg"
+                        "/models/aircraft/premium/cricri/texture_2.jpg",
+                        "/models/aircraft/premium/cricri/interior_2.jpg"
                     ]
                 }
             ],
-            "labels": ["Texture"],
+            "labels": [
+                "Texture",
+                "Texture Interior"
+            ],
             "name": "Colomban MC-15 Cri-cri"
         },
         "15": {
@@ -1127,6 +1293,704 @@
             ],
             "labels": ["Texture"],
             "name": "Aerospatiale France - British Aircraft Corporation Concorde"
+        },
+        "21": {
+            "index": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                0,
+                0,
+                8,
+                9,
+                10,
+                11,
+                13,
+                15,
+                16,
+                19
+            ],
+            "name": "Zlin Z-50",
+            "liveries": [
+                {
+                    "name": "Red Bull OK-XRA",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png",
+                        "/models/aircraft/zlin/texture.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "22": {
+            "index": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                0,
+                0,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                13,
+                15,
+                17
+            ],
+            "name": "Cessna 152",
+            "liveries": [
+                {
+                    "name": "Cessna 152 FSO",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png",
+                        "/models/aircraft/cessna/texture.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "26": {
+            "index": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                0,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                21,
+                24
+            ],
+            "name": "Antonov An-140",
+            "liveries": [
+                {
+                    "name": "Aeromost Kharkiv An-140 Idaszak",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png",
+                        "/models/aircraft/AN140/texture.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "31": {
+            "index": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "parts": [
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            "name": "Potez 25",
+            "liveries": [
+                {
+                    "name": "Compagnie Generale Aeropostale 1522 F-AJDZ",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/textureLeft.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/potez25/textureRight.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture Left",
+                "Texture Right"
+            ]
+        },
+        "40": {
+            "index": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                "0",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "13"
+            ],
+            "name": "Evektor Sportstar",
+            "liveries": [
+                {
+                    "name": "Sportstar",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg",
+                        "/models/aircraft/sportstar/texture.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "41": {
+            "index": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                "0",
+                "0",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "13",
+                "14"
+            ],
+            "name": "szd-48-3 Jantar",
+            "liveries": [
+                {
+                    "name": "Base",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [1.0, 1.0, 1.0] }
+                    ]
+                },
+                {
+                    "name": "Red",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.8, 0.2, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Green",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Yellow",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.8, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Magenta",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.8, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Cyan",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.8, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "texture": [
+                        "/models/aircraft/jantar/texture.jpg",
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 },
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_000_", "diffuse": [0.2, 0.2, 0.2] }
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "mp": "disabled"
+        },
+        "50": {
+            "index": [
+                0
+            ],
+            "parts": [
+                "0"
+            ],
+            "name": "Paraglider",
+            "liveries": [
+                {
+                    "name": "Paraglider",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/paraglider/texture.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "51": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "name": "Major Tom (hot air balloon)",
+            "liveries": [
+                {
+                    "name": "Major Tom",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_0.jpg"
+                    ]
+                },
+                {
+                    "name": "Pixels",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_1.jpg"
+                    ]
+                },
+                {
+                    "name": "GeoFS",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_2.jpg"
+                    ]
+                },
+                {
+                    "name": "Losanges",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_3.jpg"
+                    ]
+                },
+                {
+                    "name": "Red",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_4.jpg"
+                    ]
+                },
+                {
+                    "name": "Orange",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_5.jpg"
+                    ]
+                },
+                {
+                    "name": "Scale",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_6.jpg"
+                    ]
+                },
+                {
+                    "name": "Christmas",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/majortom/texture_7.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "52": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "name": "Hughes 269a/TH-55 Osage",
+            "liveries": [
+                {
+                    "name": "Red",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.8, 0.2, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Green",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Yellow",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.8, 0.8, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Magenta",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.8, 0.2, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Cyan",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.8, 0.8] }
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [0.2, 0.2, 0.2] }
+                    ]
+                },
+                {
+                    "name": "Base",
+                    "texture": [
+                        { "material": 0 }
+                    ],
+                    "materials": [
+                        { "name": "Color_A07", "diffuse": [1.0, 1.0, 1.0] }
+                    ]
+                }
+            ],
+            "labels": [],
+            "mp": "disabled"
+        },
+        "53": {
+            "index": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                0,
+                5,
+                6,
+                7,
+                8
+            ],
+            "name": "Goat Airchair",
+            "liveries": [
+                {
+                    "name": "Goat Airchair",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png",
+                        "/models/aircraft/goat/texture.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "102": {
+            "index": [
+                0,
+                2,
+                3
+            ],
+            "parts": [
+                0,
+                0,
+                0
+            ],
+            "name": "Citroen 2CV",
+            "liveries": [
+                {
+                    "name": "Bleue",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_0.jpg"
+                    ]
+                },
+                {
+                    "name": "Yellow (Jaune)",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_1.jpg"
+                    ]
+                },
+                {
+                    "name": "Green (Verte)",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_2.jpg"
+                    ]
+                },
+                {
+                    "name": "Red (Rouge)",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_3.jpg"
+                    ]
+                },
+                {
+                    "name": "Charleston",
+                    "credits": "GeoFS",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "/models/aircraft/premium/2cv/texture_4.jpg"
+                    ]
+                }
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture"
+            ]
         },
         "237": {
             "index": [
@@ -3598,7 +4462,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a350-900"
+            "name": "Airbus a350-900",
+            "mp": "disabled"
         },
         "2879": {
             "index": [
@@ -4200,7 +5065,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a319-100"
+            "name": "Airbus a319-100",
+            "mp": "disabled"
         },
         "2418": {
             "index": [
@@ -4357,7 +5223,7 @@
                 {
                     "name": "Citilink",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Citilink.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/citilink.jpg"
                     ]
                 },
                 {
@@ -6999,7 +7865,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a220-300"
+            "name": "Airbus a220-300",
+            "mp": "disabled"
         },
         "2871": {
             "index": [
@@ -8866,7 +9733,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Boeing p8I Neptune"
+            "name": "Boeing p8I Neptune",
+            "mp": "disabled"
         },
         "3307": {
             "index": [
@@ -8939,7 +9807,8 @@
                 }
             ],
             "labels": ["Fuselage texture", "Wing texture", "Engine texture"],
-            "name": "Bombardier CRJ700"
+            "name": "Bombardier CRJ700",
+            "mp": "multi"
         },
         "3054": {
             "index": [
@@ -10436,7 +11305,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Embraer ERJ 145LR"
+            "name": "Embraer ERJ 145LR",
+            "mp": "disabled"
         },
         "4140": {
             "index": [
@@ -11650,7 +12520,8 @@
                 }
             ],
             "labels": ["Specular shader", "Texture"],
-            "name": "Douglas DC-3"
+            "name": "Douglas DC-3",
+            "mp": "disabled"
         },
         "2706": {
             "index": [
@@ -11766,7 +12637,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Bombardier CRJ200"
+            "name": "Bombardier CRJ200",
+            "mp": "disabled"
         },
         "3341": {
             "index": [
@@ -11805,7 +12677,7 @@
                     ]
                 },
                 {
-                    "name": "Delta Connection",
+                    "name": "LOT Polish Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/lot/fuselage.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/delta/wing.jpg",
@@ -11831,7 +12703,8 @@
                 }
             ],
             "labels": ["Fuselage texture", "Wing texture", "Engine texture"],
-            "name": "Embraer ERJ 170"
+            "name": "Embraer ERJ 170",
+            "mp": "disabled"
         },
         "24": {
             "index": [
@@ -12672,7 +13545,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Airbus a330-900neo"
+            "name": "Airbus a330-900neo",
+            "mp": "disabled"
         },
         "4646": {
             "index": [
@@ -14761,7 +15635,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/maps/normals.jpg",
                         "/models/aircraft/premium/pa28/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/xblfv.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_pa28/xblfv.jpg"
                     ],
                     "credits": "XA-AIR"
                 }
@@ -14823,7 +15697,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Dornier do228-200"
+            "name": "Dornier do228-200",
+            "mp": "disabled"
         },
         "4764":{
             "index": [
@@ -15031,7 +15906,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Boeing b767-400ER"
+            "name": "Boeing b767-400ER",
+            "mp": "disabled"
         },
         "5061": {
             "index": [
@@ -15055,9 +15931,9 @@
                     "name": "Experimental Aviation Swiss",
                     "texture": [
                         "/backend/aircraft/repository/Sonex-B%20Kit_945960_5061/normals.png",
-                        "/backend/aircraft/repository/Sonex-B%20Kit_945960_5061/specular.png",
-                        "/backend/aircraft/repository/Sonex-B%20Kit_945960_5061/texture.jpg",
-                        "/backend/aircraft/repository/Sonex-B%20Kit_945960_5061/propwash.png"
+                        "/backend/aircraft/repository/Sonex-B%20Kit_945960_5061/specular_2.png",
+                        "/backend/aircraft/repository/Sonex-B%20Kit_945960_5061/texture_2.jpg",
+                        "/backend/aircraft/repository/Sonex-B%20Kit_945960_5061/propwash_2.png"
                     ],
                     "credits": "TurboMaximus"
                 }
@@ -15190,7 +16066,8 @@
                 }
             ],
             "labels": ["Texture"],
-            "name": "Bombardier Learjet45"
+            "name": "Bombardier Learjet45",
+            "mp": "disabled"
         },
         "5": {
             "index": [
@@ -15238,7 +16115,8 @@
                 }
             ],
             "labels": ["Normal map", "Specular shader", "Texture"],
-            "name": "Embraer Phenom100"
+            "name": "Embraer Phenom100",
+            "mp": "disabled"
         },
         "5086": {
             "index": [

@@ -1,14 +1,18 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+const version = '3.0.3';
 
-let liveryobj;
-let multiplayertexture;
-let origHTMLs = {};
-let uploadHistory = [];
+const liveryobj = {};
+const mpLiveryIds = {};
+const mLiveries = {};
+const origHTMLs = {};
+const uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
+const liveryIdOffset = 10e3;
+const mlIdOffset = 1e3;
 
 (function init() {
 
     // styles
-    fetch(`${githubRepo}/styles.css`).then(async data => {
+    fetch(`${githubRepo}/styles.css?`+Date.now()).then(async data => {
         const styleTag = createTag('style',{type:'text/css'});
         styleTag.innerHTML = await data.text();
         document.head.appendChild(styleTag);
@@ -18,7 +22,7 @@ let uploadHistory = [];
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
         id: 'listDiv',
-        class: 'geofs-list geofs-toggle-panel livery-list geofs-visible',
+        class: 'geofs-list geofs-toggle-panel livery-list',
         'data-noblur': 'true',
         'data-onshow': '{geofs.initializePreferencesPanel()}',
         'data-onhide': '{geofs.savePreferencesPanel()}'
@@ -35,20 +39,33 @@ let uploadHistory = [];
     Object.values(origButtons).forEach(btn => btn.parentElement.removeChild(btn));
 
     //Load liveries (@todo: consider moving to listLiveries)
-    fetch(`${githubRepo}/livery.json`).then(handleLiveryJson);
+    fetch(`${githubRepo}/livery.json?`+Date.now()).then(handleLiveryJson);
 
-    // Start multiplayer (WIP)
-    //setInterval(updateMultiplayer, 5000);
+    // Start multiplayer
+    setInterval(updateMultiplayer, 5000);
 })();
 
 /**
  * @param {Response} data
  */
 async function handleLiveryJson(data) {
-    liveryobj = await data.json();
+    const json = await data.json();
+    Object.keys(json).forEach(key => liveryobj[key] = json[key]);
 
+    if (liveryobj.version != version) {
+        document.querySelector('.livery-list h3').appendChild(
+            createTag('a', {
+                href:'https://github.com/kolos26/GEOFS-LiverySelector',
+                target:'_blank',
+                style: 'display:block;width:100%;text-decoration:none;text-align:center;'
+            }, 'Update available: ' + liveryobj.version)
+        );
+    }
     // mark aircraft with livery icons
     Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
+        if (liveryobj.aircrafts[aircraftId].liveries.length < 2) {
+            return; // only show icon if there's more than one livery
+        }
         const element = document.querySelector(`[data-aircraft='${aircraftId}']`);
         // save original HTML for later use (reload, aircraft change, etc..)
         if (!origHTMLs[aircraftId]) {
@@ -57,7 +74,16 @@ async function handleLiveryJson(data) {
 
         // use orig HTML to concatenate so theres only ever one icon
         element.innerHTML = origHTMLs[aircraftId] +
-            createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
+            createTag('img', {
+                src: `${githubRepo}/liveryselector-logo-small.svg`,
+                style:'height:30px;width:auto;margin-left:20px;',
+                title:'Liveries available'
+            }).outerHTML;
+
+        if (liveryobj.aircrafts[aircraftId].mp != "disabled")
+            element.innerHTML += createTag('small',{
+                title:'Liveries are multiplayer compatible\n(visible to other players)'
+            }, '🎮').outerHTML;
     });
 }
 
@@ -67,11 +93,21 @@ async function handleLiveryJson(data) {
  * @param {string[]} texture
  * @param {number[]} index
  * @param {number[]} parts
+ * @param {Object[]} mats
  */
-function loadLivery(texture, index, parts) {
+function loadLivery(texture, index, parts, mats) {
     //change livery
     for (let i = 0; i < texture.length; i++) {
         const model3d = geofs.aircraft.instance.definition.parts[parts[i]]['3dmodel'];
+        // check for material definition (for untextured parts)
+        if (typeof texture[i] === 'object') {
+            if (texture[i].material !== undefined) {
+                const mat = mats[texture[i].material];
+                model3d._model.getMaterial(mat.name)
+                    .setValue('diffuse', new Cesium.Cartesian4(...mat.diffuse, 1.0));
+            }
+            continue;
+        }
         if (geofs.version == 2.9) {
             geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
         } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
@@ -79,8 +115,6 @@ function loadLivery(texture, index, parts) {
         } else {
             geofs.api.changeModelTexture(model3d._model, texture[i], {index:index[i]});
         }
-        //change multiplayer texture
-        multiplayertexture = texture;
     }
 }
 
@@ -99,6 +133,88 @@ function inputLivery() {
         inputFields.forEach(e => texture.push(e.value));
         loadLivery(texture, airplane.index, airplane.parts);
     }
+}
+
+/**
+ * Submit livery for review
+ */
+function submitLivery() {
+    const airplane = getCurrentAircraft();
+    const textures = airplane.liveries[0].texture;
+    const inputFields = document.getElementsByName('textureInput');
+    const formFields = {};
+    document.querySelectorAll('.livery-submit input').forEach(f => formFields[f.id.replace('livery-submit-','')] = f);
+    if (!localStorage.liveryDiscordId || localStorage.liveryDiscordId.length < 6) {
+        return alert('Invalid Discord User id!');
+    }
+    if (formFields.liveryname.value.trim().length < 3) {
+        return alert('Invalid Livery Name!');
+    }
+    if (!formFields['confirm-perms'].checked || !formFields['confirm-legal'].checked) {
+        return alert('Confirm all checkboxes!');
+    }
+    const json = {
+        name: formFields.liveryname.value.trim(),
+        credits: '',
+        texture: []
+    };
+    if (!json.name || json.name.trim()=='') {
+        return;
+    }
+    const hists = [];
+    const embeds = [];
+    inputFields.forEach((f,i) => {
+        f.value = f.value.trim();
+        if (f.value.match(/^https:\/\/.+/i)) {
+            const hist = Object.values(uploadHistory).find(o => o.url == f.value);
+            if (!hist) {
+                return alert('Only self-uploaded imgbb links work for submitting!');
+            }
+            if (hist.expiration > 0) {
+                return alert('Can\' submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
+            }
+            const embed = {
+                title: airplane.labels[i] + ' (' + (Math.ceil(hist.size/1024/10.24)/100) + 'MB, '+hist.width +'x' + hist.height +')',
+                description: f.value,
+                image: { url: f.value },
+                fields: [
+                    { name: 'Timestamp', value: new Date(hist.time*1e3), inline: true },
+                    { name: 'File ID', value: hist.id, inline: true },
+                ]
+            };
+            if (hist.submitted) {
+                if (!confirm('The following texture was already submitted:\n' + f.value + '\nContinue anyway?')) {
+                    return;
+                }
+                embed.fields.push({ name: 'First submitted', value: new Date(hist.submitted*1e3) });
+            }
+            embeds.push(embed);
+            hists.push(hist);
+            json.texture.push(f.value);
+        } else {
+            json.texture.push(textures[i]);
+        }
+    });
+    if (!embeds.length)
+        return alert('Nothing to submit, upload images first!');
+
+    let content = [
+        `Livery upload by <@${localStorage.liveryDiscordId}>`,
+        `__Plane:__ \`${geofs.aircraft.instance.id}\` ${geofs.aircraft.instance.aircraftRecord.name}`,
+        `__Livery Name:__ \`${json.name}\``,
+        '```json\n' + JSON.stringify(json, null, 2) + '```'
+    ];
+
+    fetch(atob(liveryobj.dapi), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({content: content.join('\n'), embeds })
+    }).then(res => {
+        hists.forEach(hist => {
+            hist.submitted = hist.submitted || Math.round(new Date()/1000);
+        });
+        localStorage.lsUploadHistory = JSON.stringify(uploadHistory);
+    });
 }
 
 function sortList(id) {
@@ -128,14 +244,32 @@ function sortList(id) {
 function listLiveries() {
     domById('liverylist').innerHTML = '';
 
+    const thumbsDir = [githubRepo, 'thumbs'].join('/');
+    const defaultThumb = [thumbsDir, geofs.aircraft.instance.id+'.png'].join('/');
     const airplane = getCurrentAircraft();
-    airplane.liveries.forEach(function (e) {
+    airplane.liveries.forEach(function (e, idx) {
         let listItem = appendNewChild(domById('liverylist'), 'li', {
             id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
             class: 'livery-list-item'
         });
-        listItem.onclick = () => loadLivery(e.texture, airplane.index, airplane.parts);
-        listItem.innerHTML = e.name;
+        listItem.onclick = () => {
+            loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
+            if (e.mp != 'disabled') {
+                // use vanilla ids for basegame compat
+                setInstanceId(idx+(e.credits?.toLowerCase()=='geofs'?'':liveryIdOffset));
+            }
+        };
+        listItem.innerHTML = createTag('span', {class:'livery-name'}, e.name).outerHTML;
+        if (geofs.aircraft.instance.id < 1000) {
+            listItem.classList.add('offi');
+            const thumb = createTag('img');
+            thumb.onerror = () => {
+                thumb.onerror = null;
+                thumb.src = defaultThumb;
+            };
+            thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id+'-'+idx+'.png'].join('/');
+            listItem.appendChild(thumb);
+        }
         if (e.credits && e.credits.length) {
             listItem.innerHTML += `<small>by ${e.credits}</small>`;
         }
@@ -170,7 +304,10 @@ function addCustomForm() {
     document.querySelector('#livery-custom-tab-upload .upload-fields').innerHTML = '';
     document.querySelector('#livery-custom-tab-direct .upload-fields').innerHTML = '';
     const airplane = getCurrentAircraft();
-    const textures = airplane.liveries[0].texture;
+    const textures = airplane.liveries[0].texture.filter(t=>typeof t !== 'object');
+    if (!textures.length) {
+        return; // ignore material defs
+    }
     const placeholders = airplane.labels;
     if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
         createUploadButton(placeholders[0]);
@@ -209,7 +346,7 @@ function star(element) {
         const btn = domById([element.id, 'button'].join('_'));
         const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
         fbtn.onclick = btn.onclick;
-        fbtn.innerText = btn.firstChild.data;
+        fbtn.innerText = btn.children[0].innerText;
 
         let list = localStorage.favorites.split(',');
         list.push(element.id);
@@ -276,7 +413,6 @@ function loadLiveryDirect(fileInput, i) {
         if (i === undefined) {
             loadLivery(Array(textures.length).fill(newTexture), airplane.index, airplane.parts);
         } else {
-            // doesnt use loadLivery so no multiplayer, direct doesn't work it anyway
             geofs.api.changeModelTexture(
                 geofs.aircraft.instance.definition.parts[airplane.parts[i]]["3dmodel"]._model,
                 newTexture,
@@ -320,7 +456,10 @@ function uploadLivery(fileInput) {
         console.log(jx.data.url);
         fileInput.nextSibling.value = jx.data.url;
         fileInput.value = null;
-        uploadHistory.push(jx.data);
+        if (!uploadHistory[jx.data.id] || (uploadHistory[jx.data.id].expiration !== jx.data.expiration)) {
+            uploadHistory[jx.data.id] = jx.data;
+            localStorage.lsUploadHistory = JSON.stringify(uploadHistory);
+        }
     });
 }
 
@@ -339,7 +478,10 @@ function handleCustomTabs(e){
         switch (tabId) {
             case 'upload': {
                 const fields = tabDiv.querySelectorAll('input[type="file"]');
-                fields.forEach(f=>localStorage.imgbbAPIKEY ? f.classList.remove('err') : f.classList.add('err'));
+                fields.forEach(f => localStorage.imgbbAPIKEY ? f.classList.remove('err') : f.classList.add('err'));
+                const apiKeys = !!localStorage.liveryDiscordId && !!localStorage.imgbbAPIKEY;
+                tabDiv.querySelector('.livery-submit .api').style.display = apiKeys ? '' : 'none';
+                tabDiv.querySelector('.livery-submit .no-api').style.display = apiKeys ? 'none' : '';
             } break;
 
             case 'download': {
@@ -366,10 +508,13 @@ function reloadDownloadsForm(tabDiv) {
     const fields = tabDiv.querySelector('.download-fields');
     fields.innerHTML = '';
     liveries.forEach((livery,liveryNo) => {
+        const textures = livery.texture.filter(t => typeof t !== 'object');
+        if (!textures.length) return; // ignore material defs
         appendNewChild(fields, 'h7').innerHTML = livery.name;
         const wrap = appendNewChild(fields, 'div');
-        livery.texture.forEach((href,i) => {
-            if (liveryNo>0 && href == defaults.texture[i]) return;
+        textures.forEach((href,i) => {
+            if (typeof href === 'object') return;
+            if (liveryNo > 0 && href == defaults.texture[i]) return;
             const link = appendNewChild(wrap,'a',{href,target:'_blank',
                 class:"mdl-button mdl-button--raised mdl-button--colored"
             });
@@ -389,6 +534,9 @@ function reloadSettingsForm() {
 
     const removeCheckbox = domById('livery-setting-remove');
     removeCheckbox.checked = (localStorage.liveryAutoremove==1);
+
+    const discordInput = domById('livery-setting-discordid');
+    discordInput.value = localStorage.liveryDiscordId||'';
 }
 
 /**
@@ -413,6 +561,10 @@ function saveSetting(element) {
         case 'remove': {
             localStorage.liveryAutoremove = element.checked ? '1' : '0';
         } break;
+
+        case 'discordid': {
+            localStorage.liveryDiscordId = element.value.trim();
+        } break;
     }
     reloadSettingsForm();
 }
@@ -424,10 +576,109 @@ function getCurrentAircraft() {
     return liveryobj.aircrafts[geofs.aircraft.instance.id];
 }
 
+function setInstanceId(id) {
+    geofs.aircraft.instance.liveryId = id;
+}
+
 function updateMultiplayer() {
-    Object.values(multiplayer.visibleUsers).forEach(function (e) {
-        geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, multiplayertexture, 0);
+    Object.values(multiplayer.visibleUsers).forEach(u => {
+        const liveryEntry = liveryobj.aircrafts[u.aircraft];
+        let textures = [];
+        let otherId = u.currentLivery;
+        if (!liveryEntry || !u.model || liveryEntry.mp == 'disabled') {
+            return; // without livery or disabled
+        }
+        if (mpLiveryIds[u.id] === otherId) {
+            return; // already updated
+        }
+        mpLiveryIds[u.id] = otherId;
+        if (otherId >= mlIdOffset && otherId < liveryIdOffset) {
+            textures = getMLTexture(u, liveryEntry); // ML range 1k-10k
+        } else if (otherId >= liveryIdOffset && otherId < liveryIdOffset*2) {
+            textures = getMPTexture(u, liveryEntry); // LS range 10k+10k
+        } else {
+            return; // game managed livery
+        }
+        textures.forEach(texture => {
+            applyMPTexture(
+                texture.uri,
+                texture.tex,
+                img => u.model.changeTexture(img, {index: texture.index})
+            );
+        });
     });
+}
+
+/**
+ * Fetch and resize texture to expected format
+ * @param {string} url
+ * @param {sd} tex
+ * @param {function} cb
+ */
+function applyMPTexture(url, tex, cb) {
+    try {
+        Cesium.Resource.fetchImage({url}).then(img => {
+            const canvas = createTag('canvas', {width: tex._width, height: tex._height});
+            canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+            cb(canvas.toDataURL('image/png'));
+        });
+    } catch (e) {
+        console.log('LSMP', !!tex, url, e);
+    }
+}
+
+/**
+ * @param {object} u
+ * @param {object} liveryEntry
+ */
+function getMPTexture(u, liveryEntry) {
+    const otherId = u.currentLivery - liveryIdOffset;
+    const textures = [];
+    // check model for expected textures
+    const uModelTextures = u.model._model._rendererResources.textures;
+    if (liveryEntry.mp == 'multi') {
+        // try map textures on multi-entry
+        liveryEntry.index.forEach((index, pos) => {
+            textures.push({
+                uri: liveryEntry.liveries[otherId].texture[pos],
+                tex: uModelTextures[index],
+                index
+            });
+        });
+    } else {
+        const texIdx = liveryEntry.labels.indexOf('Texture');
+        // try main texture on single-entry
+        textures.push({
+            uri: liveryEntry.liveries[otherId].texture[texIdx],
+            tex: uModelTextures[0],
+            index: 0
+        });
+    }
+    return textures;
+}
+
+/**
+ * @param {object} u
+ * @param {object} liveryEntry
+ */
+function getMLTexture(u, liveryEntry) {
+    if (!mLiveries.aircraft) {
+        fetch(atob(liveryobj.mapi)).then(data => data.json()).then(json => {
+            Object.keys(json).forEach(key => mLiveries[key] = json[key]);
+        });
+        return [];
+    }
+    const liveryId = u.currentLivery - mlIdOffset;
+    const textures = [];
+    const texIdx = liveryEntry.labels.indexOf('Texture');
+    if (texIdx !== -1) {
+        textures.push({
+            uri: mLiveries.aircraft[liveryId].mptx,
+            tex: u.model._model._rendererResources.textures[liveryEntry.index[texIdx]],
+            index: liveryEntry.index[texIdx]
+        });
+    }
+    return textures;
 }
 
 /******************* Utilities *********************/
@@ -451,13 +702,16 @@ function toggleDiv(id) {
  * Create tag with <name attributes=...
  *
  * @param {string} name
- * @param {object} attributes
+ * @param {Object} attributes
+ * @param {string|number} content
  * @returns {HTMLElement}
  */
-function createTag(name, attributes = {}) {
+function createTag(name, attributes = {}, content = '') {
     const el = document.createElement(name);
-    Object.keys(attributes).forEach(k => el.setAttribute(k, attributes[k]));
-
+    Object.keys(attributes||{}).forEach(k => el.setAttribute(k, attributes[k]));
+    if ((''+content).length) {
+        el.innerHTML = content;
+    }
     return el;
 }
 
@@ -521,7 +775,23 @@ function generateListHTML() {
             <div id="livery-custom-tab-upload" style="display:none;">
                 <div>Paste URL or upload image to generate imgbb URL</div>
                 <div class="upload-fields"></div>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.inputLivery()">Load livery</button>
+                <div><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.inputLivery()">Load livery</button></div>
+                <div class="livery-submit geofs-list-collapsible-item">Contribute to the LiverySelector Database
+                    <div class="geofs-collapsible no-api">-&gt; Fill in API key and Discord User ID in API tab.</div>
+                    <div class="geofs-collapsible api">
+                        <label for="livery-submit-liveryname">Livery Name</label>
+                        <input type="text" id="livery-submit-liveryname" class="mdl-textfield__input address-input">
+                        <input type="checkbox" id="livery-submit-confirm-perms">
+                        <label for="livery-submit-confirm-perms">I am the author and have created the textures myself or have the permission from the author to use those textures.</label>
+                        <input type="checkbox" id="livery-submit-confirm-legal">
+                        <label for="livery-submit-confirm-legal">I confirm the textures are safe for all ages, are non-offensive and appropriate for the game and don't violate any laws or other regulations.</label>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.submitLivery()">Submit livery for review</button>
+                        <small>
+                          Join our <a href="https://discord.gg/2tcdzyYaWU" target="_blank">Discord</a> to follow up on your contributions.
+                          By submitting you agree to the Discord server rules. Failing to comply may result in exclusion from further submits.
+                        </small>
+                    </div>
+                </div>
             </div>
             <div id="livery-custom-tab-direct" style="display:none;">
                 <div>Load texture directly in client, no upload.</div>
@@ -535,9 +805,10 @@ function generateListHTML() {
               <div>
                 <label for="livery-setting-apikey">Paste your imgbb API key here (<a href="https://api.imgbb.com" target="_blank">get key</a>)</label>
                 <input type="text" id="livery-setting-apikey" class="mdl-textfield__input address-input" onchange="LiverySelector.saveSetting(this)">
-                <br>
                 <input type="checkbox" id="livery-setting-remove" onchange="LiverySelector.saveSetting(this)">
-                <label for="livery-setting-remove">Remove uploaded files after an hour</label>
+                <label for="livery-setting-remove">Expire links after one hour<br><small>(only for testing, disable when submitting to the database!)</small></label>
+                <label for="livery-setting-discordid">Discord User ID (<a href="https://support.discord.com/hc/en-us/articles/206346498" target="_blank">howto</a>)</label>
+                <input type="number" id="livery-setting-discordid" class="mdl-textfield__input address-input" onchange="LiverySelector.saveSetting(this)">
               </div>
             </div>
         </div>
@@ -557,7 +828,7 @@ function generatePanelButtonHTML() {
         'data-tooltip-classname': 'mdl-tooltip--top',
         'data-upgraded': ',MaterialButton'
     });
-    liveryButton.innerHTML = 'LIVERY' + createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
+    liveryButton.innerHTML = createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
 
     return liveryButton;
 }
@@ -573,4 +844,6 @@ window.LiverySelector = {
     search,
     inputLivery,
     uploadLivery,
+    submitLivery,
+    uploadHistory
 };
