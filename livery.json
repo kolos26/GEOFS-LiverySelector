@@ -284,7 +284,8 @@
                     "name": "United (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/unitednew.jpg"
-                    ]
+                    ],
+                    "disabled": true
                 },
                 {
                     "name": "Air North",
@@ -355,7 +356,7 @@
                 {
                     "name": "Philippine Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/philippine.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/philippine.png"
                     ]
                 },
                 {
@@ -372,11 +373,16 @@
                 },
                 {
                     "name": "Copa Airlines",
-                    "texture": "https://i.ibb.co/LYykJGX/texture-1.jpg"
+                    "texture": [
+                        "https://i.ibb.co/LYykJGX/texture-1.jpg"
+                    ],
+                    "disabled": true
                 },
                 {
                     "name": "Alaska",
-                    "texture": "https://i.ibb.co/1r6bV1b/b737-700.jpg"
+                    "texture": [
+                        "https://i.ibb.co/1r6bV1b/b737-700.jpg"
+                    ]
                 },
                 {
                     "name": "AeroMexico (old design)",
@@ -441,7 +447,7 @@
                 {
                     "name": "Janet",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/janet.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Janet.png"
                     ]
                 },
                 {
@@ -623,7 +629,8 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/citilink737-7.png"
                     ],
-                    "credits": "Androway"
+                    "credits": "Androway",
+                    "disabled": true
                 },
                 {
                     "name": "Southwest (California One livery)",
@@ -13033,7 +13040,7 @@
                 {
                     "name": "Finnair (Oneworld livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/finnairone.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/finnairone.jpg"
                     ]
                 },
                 {
@@ -15527,7 +15534,7 @@
                     "name": "United Airlines (Battleship Grey design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/United_Battleship_Grey.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/United_Battleship_Gray.png"
                     ]
                 },
                 {
@@ -15753,7 +15760,7 @@
                     "name": "Alitalia",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/alitalia.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/alitalia.jpg"
                     ],
                     "credits": "Androway"
                 },
@@ -15761,7 +15768,7 @@
                     "name": "Delta",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/delta.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/delta.jpg"
                     ],
                     "credits": "Androway"
                 },
@@ -15793,7 +15800,7 @@
                     "name": "Qatar Airways (A7-BOC)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/a7boc.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/a7boc.jpg"
                     ],
                     "credits": "Youtube VR PoZz"
                 },
@@ -15920,7 +15927,7 @@
                     "name": "North West (old design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/nwaold.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/nwaold.png"
                     ],
                     "credits": "SolAva8"
                 },

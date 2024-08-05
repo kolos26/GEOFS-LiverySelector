@@ -248,10 +248,12 @@ function listLiveries() {
     const defaultThumb = [thumbsDir, geofs.aircraft.instance.id+'.png'].join('/');
     const airplane = getCurrentAircraft();
     airplane.liveries.forEach(function (e, idx) {
+        if (e.disabled) return;
         let listItem = appendNewChild(domById('liverylist'), 'li', {
             id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
             class: 'livery-list-item'
         });
+        listItem.dataset.idx = idx;
         listItem.onclick = () => {
             loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
             if (e.mp != 'disabled') {
@@ -269,6 +271,8 @@ function listLiveries() {
             };
             thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id+'-'+idx+'.png'].join('/');
             listItem.appendChild(thumb);
+        } else {
+            listItem.classList.remove('offi');
         }
         if (e.credits && e.credits.length) {
             listItem.innerHTML += `<small>by ${e.credits}</small>`;
