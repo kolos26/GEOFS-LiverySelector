@@ -150,12 +150,15 @@ function submitLivery() {
     if (formFields.liveryname.value.trim().length < 3) {
         return alert('Invalid Livery Name!');
     }
+    if (formFields.credits.value.trim().length) {
+        return alert('Invalid Author!');
+    }
     if (!formFields['confirm-perms'].checked || !formFields['confirm-legal'].checked) {
         return alert('Confirm all checkboxes!');
     }
     const json = {
         name: formFields.liveryname.value.trim(),
-        credits: '',
+        credits: formFields.credits.value.trim(),
         texture: []
     };
     if (!json.name || json.name.trim()=='') {
@@ -248,10 +251,12 @@ function listLiveries() {
     const defaultThumb = [thumbsDir, geofs.aircraft.instance.id+'.png'].join('/');
     const airplane = getCurrentAircraft();
     airplane.liveries.forEach(function (e, idx) {
+        if (e.disabled) return;
         let listItem = appendNewChild(domById('liverylist'), 'li', {
             id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
             class: 'livery-list-item'
         });
+        listItem.dataset.idx = idx;
         listItem.onclick = () => {
             loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
             if (e.mp != 'disabled') {
@@ -269,6 +274,8 @@ function listLiveries() {
             };
             thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id+'-'+idx+'.png'].join('/');
             listItem.appendChild(thumb);
+        } else {
+            listItem.classList.remove('offi');
         }
         if (e.credits && e.credits.length) {
             listItem.innerHTML += `<small>by ${e.credits}</small>`;
@@ -781,8 +788,10 @@ function generateListHTML() {
                     <div class="geofs-collapsible api">
                         <label for="livery-submit-liveryname">Livery Name</label>
                         <input type="text" id="livery-submit-liveryname" class="mdl-textfield__input address-input">
+                        <label for="livery-submit-credits">Author</label>
+                        <input type="text" id="livery-submit-credits" class="mdl-textfield__input address-input">
                         <input type="checkbox" id="livery-submit-confirm-perms">
-                        <label for="livery-submit-confirm-perms">I am the author and have created the textures myself or have the permission from the author to use those textures.</label>
+                        <label for="livery-submit-confirm-perms">I am the author and have created the textures myself or have the permission from the author to use those textures.</label><br>
                         <input type="checkbox" id="livery-submit-confirm-legal">
                         <label for="livery-submit-confirm-legal">I confirm the textures are safe for all ages, are non-offensive and appropriate for the game and don't violate any laws or other regulations.</label>
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.submitLivery()">Submit livery for review</button>
