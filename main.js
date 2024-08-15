@@ -150,9 +150,6 @@ function submitLivery() {
     if (formFields.liveryname.value.trim().length < 3) {
         return alert('Invalid Livery Name!');
     }
-    if (formFields.credits.value.trim().length) {
-        return alert('Invalid Author!');
-    }
     if (!formFields['confirm-perms'].checked || !formFields['confirm-legal'].checked) {
         return alert('Confirm all checkboxes!');
     }
