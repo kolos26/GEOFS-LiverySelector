@@ -15,6 +15,11 @@ In the list of liveries you can find:
 
 My goal was to put the liveries into one easy to use interface where you can select them fast with one click.
 
+## Trailer
+YouTube: [![YouTube Trailer](https://img.youtube.com/vi/VsFhiWKO5tQ/hqdefault.jpg)](https://www.youtube.com/watch?v=VsFhiWKO5tQ)
+Bilibili: [![Bilibili Trailer](https://img.youtube.com/vi/VsFhiWKO5tQ/hqdefault.jpg)](https://www.bilibili.com/video/BV15dYDe5EB2)
+
+
 ## Features
 
 For every supported aircraft you can find the list of avaliable liveries in the **LIVERY** menu. Here you can star your favourite liveries to show them on the top and search for any livery. I'm only planning to support real-life liveries, because most people do not want to share their personal liveries.
