@@ -14845,15 +14845,18 @@
         },
         "24": {
             "index": [
+                2,
                 3
             ],
             "parts": [
+                0,
                 0
             ],
             "liveries": [
                 {
                     "name": "Airbus house livery",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "/models/aircraft/premium/a350/texture_0.jpg"
                     ],
                     "credits": "GeoFS"
@@ -14861,6 +14864,7 @@
                 {
                     "name": "Delta",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "/models/aircraft/premium/a350/texture_1.jpg"
                     ],
                     "credits": "GeoFS"
@@ -14868,6 +14872,7 @@
                 {
                     "name": "Air France",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/af.png"
                     ],
                     "credits": "Youtube VR PoZz"
@@ -14875,6 +14880,7 @@
                 {
                     "name": "Aeroflot",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Aeroflot_A350-900.png"
                     ],
                     "credits": "Androway & luca b"
@@ -14882,84 +14888,98 @@
                 {
                     "name": "Cathay Pacific",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/cathaypacific.jpg"
                     ]
                 },
                 {
                     "name": "German Air Force",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/deutschland.jpg"
                     ]
                 },
                 {
                     "name": "Ethiopian",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/ethiopian.jpg"
                     ]
                 },
                 {
                     "name": "Finnair",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/finnair.jpg"
                     ]
                 },
                 {
                     "name": "Iberia",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/iberia.jpg"
                     ]
                 },
                 {
                     "name": "ITA",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/ita.jpg"
                     ]
                 },
                 {
                     "name": "Japan Airlines (OneWorld livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/japanone.jpg"
                     ]
                 },
                 {
                     "name": "Lufthansa (new design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/lufthansanew.jpg"
                     ]
                 },
                 {
                     "name": "Qatar Airways",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/qatar.jpg"
                     ]
                 },
                 {
                     "name": "Singapore Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/singapore.jpg"
                     ]
                 },
                 {
                     "name": "World2Fly",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/W2FLY2.png"
                     ]
                 },
                 {
                     "name": "Air Mauritius",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/Mauritius2.png"
                     ]
                 },
                 {
                     "name": "China Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/ChinaAirlines.png"
                     ]
                 },
                 {
                     "name": "China Eastern",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -14967,6 +14987,7 @@
                 {
                     "name": "Air China (Big Chinese design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchina.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -14974,12 +14995,14 @@
                 {
                     "name": "Air China (Small Chinese design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchinasmall.jpg"
                     ]
                 },
                 {
                     "name": "Philippine Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/philippine.jpg"
                     ],
                     "credits": "Philavia744"
@@ -14987,30 +15010,35 @@
                 {
                     "name": "China Southern",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/southern.png"
                     ]
                 },
                 {
                     "name": "Frenchbee 🥉",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/frenchbee.png"
                     ]
                 },
                 {
                     "name": "Starlux",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/starlux.png"
                     ]
                 },
                 {
                     "name": "Finnair (Oneworld livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/finnairone.jpg"
                     ]
                 },
                 {
                     "name": "Japan Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/japan.png"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15018,30 +15046,35 @@
                 {
                     "name": "Japan Airlines (red design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/japanr.png"
                     ]
                 },
                 {
                     "name": "Turkish Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/turkishairlines.png"
                     ]
                 },
                 {
                     "name": "Thai Airways",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/thai.png"
                     ]
                 },
                 {
                     "name": "Swiss Air",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/swiss.png"
                     ]
                 },
                 {
                     "name": "Philippine Airlines (The Love Bus livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Philippine_Love_Bus.jpg"
                     ],
                     "credits": "Philavia744"
@@ -15049,18 +15082,21 @@
                 {
                     "name": "Yemenia Airways",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Yemenia.jpg"
                     ]
                 },
                 {
                     "name": "Edelweiss",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/edelweiss.png"
                     ]
                 },
                 {
                     "name": "Air China (Star Alliance livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchinastar.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15068,6 +15104,7 @@
                 {
                     "name": "Sichuan Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanairlines.png"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15075,6 +15112,7 @@
                 {
                     "name": "China Eastern (1st Airbus A350 delivered form China livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern1st.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15082,6 +15120,7 @@
                 {
                     "name": "HongKong Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/hongkong.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15089,6 +15128,7 @@
                 {
                     "name": "Hainan Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/hainan.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15096,24 +15136,28 @@
                 {
                     "name": "Air India (new design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/A359AirIndiaNew1.jpg"
                     ]
                 },
                 {
                     "name": "United",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/united.png"
                     ]
                 },
                 {
                     "name": "Emirates",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/emiratesnew.png"
                     ]
                 },
                 {
                     "name": "Sichuan Airlines (Panda livery B-301D)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanpanda.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15121,6 +15165,7 @@
                 {
                     "name": "Sichuan Airlines (2021 Chengdu Summer Universiade livery B-304V)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanfisu.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15128,6 +15173,7 @@
                 {
                     "name": "Sichuan Airlines (Panda Route livery B-306N)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/sichuanpandaroute.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15135,6 +15181,7 @@
                 {
                     "name": "Sichuan Airlines (Panda Route livery B-32AG) 🥈",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/b32ag.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15142,12 +15189,14 @@
                 {
                     "name": "China Southern",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinasouthern.jpg"
                     ]
                 },
                 {
                     "name": "Air Canada",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/aircanada.png"
                     ],
                     "credits": "SolAva8"
@@ -15155,18 +15204,21 @@
                 {
                     "name": "K5 Aviation (blank design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/k5.png"
                     ]
                 },
                 {
                     "name": "Air France (seahorse logo)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/afseahorse.png"
                     ]
                 },
                 {
                     "name": "Air China (white nose design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchinawhite.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15174,12 +15226,14 @@
                 {
                     "name": "Corendon Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/corendon.png"
                     ]
                 },
                 {
                     "name": "Fiji Airways",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/fiji1.png"
                     ],
                     "credits": "Androway"
@@ -15187,6 +15241,7 @@
                 {
                     "name": "Turkish Airlines (Turkoflot design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/turkoflota350fail.png"
                     ],
                     "credits": "Androway"
@@ -15194,6 +15249,7 @@
                 {
                     "name": "Kingfisher",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Kingfisher_A350-900.png"
                     ],
                     "credits": "luca b"
@@ -15201,6 +15257,7 @@
                 {
                     "name": "Etihad Airways",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Etihad_A350.png"
                     ],
                     "credits": "Androway"
@@ -15208,6 +15265,7 @@
                 {
                     "name": "Sichuan Airlines (Panda Route livery B32F8) 🥈",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/B32F8-.jpg"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15215,6 +15273,7 @@
                 {
                     "name": "Thai Airways (Star Alliance livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/CA-359-STAR.jpg"
                     ],
                     "credits": "Youtube VR PoZz"
@@ -15222,6 +15281,7 @@
                 {
                     "name": "IndiGo",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/indigo.png"
                     ],
                     "credits": "Androway"
@@ -15229,6 +15289,7 @@
                 {
                     "name": "Malaysia Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/Mas359fnal.jpg"
                     ],
                     "credits": "Coolpilot11"
@@ -15236,6 +15297,7 @@
                 {
                     "name": "Malaysia Airlines (old design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/MalaysianairlinesA350.png"
                     ],
                     "credits": "Androway"
@@ -15243,6 +15305,7 @@
                 {
                     "name": "Lufthansa (old design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/lufthansaold.png"
                     ],
                     "credits": "Androway"
@@ -15250,6 +15313,7 @@
                 {
                     "name": "Delta A350 (Los Angeles Olympics/Paralympics 2028 livery) 🥇",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/DeltaLAX28.jpg"
                     ],
                     "credits": "Coolpilot11"
@@ -15257,6 +15321,7 @@
                 {
                     "name": "Air Caraïbes",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/aircaribes.png"
                     ],
                     "credits": "Androway"
@@ -15264,6 +15329,7 @@
                 {
                     "name": "SAS",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/SASA350.png"
                     ],
                     "credits": "Androway"
@@ -15271,6 +15337,7 @@
                 {
                     "name": "China Airlines (60th anniversary livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaairlines60.png"
                     ],
                     "credits": "HO1076"
@@ -15278,6 +15345,7 @@
                 {
                     "name": "TAP",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/TAP_A359_Z1.png"
                     ],
                     "credits": "HO1076"
@@ -15285,6 +15353,7 @@
                 {
                     "name": "Azul",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/azul350.png"
                     ],
                     "credits": "Androway"
@@ -15292,6 +15361,7 @@
                 {
                     "name": "Qatar Airways (Oneworld livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/qataroneworld.png"
                     ],
                     "credits": "projectsrv"
@@ -15299,6 +15369,7 @@
                 {
                     "name": "Garuda Indonesia",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/garuda.png"
                     ],
                     "credits": "leonardᵗᵃⁿ"
@@ -15306,6 +15377,7 @@
                 {
                     "name": "Sichuan Airlines (Panda livery B-32G2)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/B32G2.png"
                     ],
                     "credits": "bilibili開飛機のzm"
@@ -15313,6 +15385,7 @@
                 {
                     "name": "Vietnam Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/vietnamairlines.png"
                     ],
                     "credits": "YT_Làm về mọi thứ có thể làm"
@@ -15320,6 +15393,7 @@
                 {
                     "name": "Iberojet",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/iberojet.jpg"
                     ],
                     "credits": "Class323"
@@ -15327,6 +15401,7 @@
                 {
                     "name": "Go First",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Go_First_A350.png"
                     ],
                     "credits": "luca b"
@@ -15334,6 +15409,7 @@
                 {
                     "name": "South African Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/South_african_A359_1.png"
                     ],
                     "credits": "Lego and Avgeek YT"
@@ -15341,6 +15417,7 @@
                 {
                     "name": "American Airlines (planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/americanairlines359.png"
                     ],
                     "credits": "Androway"
@@ -15348,6 +15425,7 @@
                 {
                     "name": "Air Canada (old design)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/ACA-ICY-A350.jpg"
                     ],
                     "credits": "SolAva8"
@@ -15355,13 +15433,14 @@
                 {
                     "name": "Air China (Bejing Expo 2019 livery)",
                     "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/airchinaexpo2019.png"
                     ],
                     "credits": "bilibili開飛機のzm"
                 }
             ],
             "labels": [
-                "Texture"
+                "Specular shader","Texture"
             ],
             "name": "Airbus a350-900"
         },
