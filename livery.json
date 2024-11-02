@@ -9321,7 +9321,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/CSA_White_Tail_Airbus_A320-214.png"
                     ],
-                    "credits": "Lego and Avgeek YT"
+                    "credits": "RomfordTransport296"
                 },
                 {
                     "name": "Avianca (Nicaragüense de Aviación Heritage livery)",
@@ -11274,7 +11274,7 @@
                     "credits": "LAC"
                 },
                 {
-                    "name": "Buzz",
+                    "name": "Malta Air",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/Malta_Air_Fixed.png"
                     ],
@@ -22712,6 +22712,34 @@
             "Texture"
         ],
         "name": "Airbus a330-200"
+        },
+        "27": {
+            "index": [
+                1
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "US Navy - Blue Angles",
+                    "texture": [
+                        "/models/aircraft/premium/fa18/texture_0.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "US Navy",
+                    "texture": [
+                        "/models/aircraft/premium/fa18/texture_1.jpg"
+                    ],
+                    "credits": "GeoFS"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Boeing F/A-18F Super Hornet"
         }
     }
 }
