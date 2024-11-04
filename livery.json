@@ -1539,55 +1539,71 @@
                     "name": "EPOCH Alaska Air",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_0.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "N963DH Green-White",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_1.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "N323KT Red-White",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_2.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "N297B White-Brown",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_3.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "Lakeland Airways",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_4.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "Kenmore 66Z",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_5.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "Clipper Aviation",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_6.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "Civil Air Patrol",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_7.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
                 },
                 {
                     "name": "Alaska Forestry",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_8.jpg"
-                    ]
+                    ],
+                    "credits:": "GeoFS"
+                },
+                {
+                    "name": "Harbour Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/DHC2HarbourAir.jpg"
+                    ],
+                    "credits:": "Coolpilot11"
                 }
             ],
             "labels": [
@@ -23104,11 +23120,18 @@
                     "credits": "GeoFS"
                 },
                 {
-                    "name": "US Navy",
+                    "name": "US Navy - VFA-103 Jolly Rogers",
                     "texture": [
                         "/models/aircraft/premium/fa18/texture_1.jpg"
                     ],
                     "credits": "GeoFS"
+                },
+                {
+                    "name": "US Navy - VFA 41 Black Aces",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/fa18/blackaces.png"
+                    ],
+                    "credits": "Vansh-Vviation"
                 }
             ],
             "labels": [
