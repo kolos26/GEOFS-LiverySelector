@@ -1458,6 +1458,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Emirates_Wimbleton_A380_GeoFS_Livery.png"
                     ],
                     "credits": "kingjacob23"
+                },
+                {
+                    "name": "Kingfisher",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/kingfisher_A380.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -1601,7 +1608,7 @@
                 {
                     "name": "Harbour Air",
                     "texture": [
-                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/DHC2HarbourAir.jpg"
+                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/DHC2Harbour.jpg"
                     ],
                     "credits:": "Coolpilot11"
                 }
@@ -19494,6 +19501,14 @@
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/palleased.png"
                       ]
+                    },
+                  {
+                      "name": "t'way Air",
+                      "credits": "luca b",
+                      "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Tway_Air_777-300ER.png"
+                      ]
                     }
             ],
             "labels": [
@@ -23096,6 +23111,13 @@
                 "credits": "luca b",
                 "texture": [
                     "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/LEVEL A332.png"
+                ]
+            },
+            {
+                "name": "Luke Air",
+                "credits": "luca b",
+                "texture": [
+                    "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Luke_Air_A332.png"
                 ]
             }
         ],
