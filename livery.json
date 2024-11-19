@@ -23632,7 +23632,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Boeing F/A-18F Super Hornet"
+            "name": "McDonell Douglas - Boeing F/A-18F Super Hornet"
         },
         "5156": {
             "index": [
@@ -23702,6 +23702,12 @@
                     "name": "Avianca",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a318-112/Avianca A318.png"
+                    ],
+                    "credits": "luca b"
+                },{
+                    "name": "Avianca Colombia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a318-112/Avianca_Colombia_A318.png"
                     ],
                     "credits": "luca b"
                 },
@@ -23809,12 +23815,62 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a318-112/Yalian Business Jet A318.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Airbus house livery (ACJ318 elite)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a318-112/A318_ELITE_1.jpg"
+                    ],
+                    "credits": "concordeandferrarifan"
                 }
             ],
             "labels": [
                 "Texture"
             ],
             "name": "Airbus a318-112"
+        },
+        "2864": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Leonardo house livery (white design)",
+                    "texture": [
+                        "/backend/aircraft/repository/M200V_267286_2864/texture_0.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Leonardo house livery (black design)",
+                    "texture": [
+                        "/backend/aircraft/repository/M200V_267286_2864/texture_1.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Bell-Augusta house livery",
+                    "texture": [
+                        "/backend/aircraft/repository/M200V_267286_2864/texture_2.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Neotran ProximaOne",
+                    "texture": [
+                        "/backend/aircraft/repository/M200V_267286_2864/texture_4.jpg"
+                    ],
+                    "credits": "AF267"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Leonardo - AugustaWestland AW609"
+            
         }
     }
 }
