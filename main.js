@@ -8,9 +8,6 @@ const origHTMLs = {};
 const uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
 const liveryIdOffset = 10e3;
 const mlIdOffset = 1e3;
-let links = [];
-let airlineobjs = [];
-let whitelist = {};
 
 (function init() {
 
@@ -43,15 +40,6 @@ let whitelist = {};
 
     //Load liveries (@todo: consider moving to listLiveries)
     fetch(`${githubRepo}/livery.json?`+Date.now()).then(handleLiveryJson);
-
-    //Init airline databases
-    links = localStorage.links.split(",");
-    links.forEach(async function(e){
-        await fetch(e).then(res => res.json()).then(data => airlineobjs.push(data));
-        airlineobjs[airlineobjs.length].url = e;
-    });
-    //await fetch(`${githubRepo}/whitelist.json`).then(res => res.json()).then(data => whitelist.push(data));
-
 
     // Start multiplayer
     setInterval(updateMultiplayer, 5000);
@@ -251,7 +239,7 @@ function sortList(id) {
 }
 
 /**
- *  main livery list
+ * Generate main livery list
  */
 function listLiveries() {
     domById('liverylist').innerHTML = '';
@@ -313,46 +301,6 @@ function loadFavorites() {
         if ((airplane == e.slice(0, airplane.length)) && (e.charAt(airplane.length) == '_')) {
             star(domById(e));
         }
-    });
-}
-
-function loadAirlines(){
-    domById("airlinelist").innerHTML = '';
-    const airplane = getCurrentAircraft();
-    const textures = airplane.liveries[0].texture;
-    airlineobjs.forEach(function(airline){
-        console.log(airline[0])
-        console.log(airline[0].name)
-        console.log(airline[0].color)
-        appendNewChild(domById('airlinelist'), 'li', {
-            innerHTML: "TESTING"
-            //innerHTML: airline[0].name,
-            //style: "color:"+airline[0].color+";backgroud-color:"+airline[0].bg-color+";"
-        });
-        airline[0].aircrafts[geofs.aircraft.instance.id].liveries.forEach(function(e, idx){
-            let listItem = appendNewChild(domById('airlinelist'), 'li', {
-                id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
-                class: 'livery-list-item'
-            });
-            listItem.dataset.idx = idx;
-            if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
-                const texture = e.texture[0];
-                listItem.onclick = () => {
-                    loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                    if (e.mp != 'disabled') { //TODO check whitelist
-                        setInstanceId(e.texture);
-                    }
-                }
-                } else {
-                listItem.onclick = () => {
-                    loadLivery(airplane.liveries, airplane.index, airplane.parts);
-                    if (e.mp != 'disabled') { //TODO check whitelist
-                        setInstanceId(domById('liverylist').childElementCount+idx+liveryIdOffset);
-                    }
-                }
-            }
-            listItem.innerHTML = createTag('span', {class:'livery-name'}, e.name).outerHTML;
-        });
     });
 }
 
@@ -819,9 +767,6 @@ function generateListHTML() {
 
         <h6 onclick="LiverySelector.toggleDiv('liverylist')">Available liveries</h6>
         <ul id="liverylist" class=" geofs-list geofs-visible"></ul>
-
-        <h6 onclick="LiverySelector.toggleDiv('airlinelist')">Virtual Airlines</h6>
-        <ul id="airlinelist" class=" geofs-list geofs-visible"></ul>
 
         <h6 onclick="LiverySelector.toggleDiv('customDiv')" class="closed">Load external livery</h6>
         <div id="customDiv" class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="display:none;">
