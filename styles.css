@@ -161,6 +161,7 @@ ul.livery-custom-tabs {
     display: block;
 }
 #favorites li.livery-list-item small,
+#airlinelist li.livery-list-item small,
 #liverylist li.livery-list-item small {
     position: absolute;
     left: 12px;
@@ -169,6 +170,7 @@ ul.livery-custom-tabs {
 }
 
 #favorites li.livery-list-item span.fa,
+#airlinelist li.livery-list-item span.fa,
 #liverylist li.livery-list-item span.fa {
     position: absolute;
     top: 15px;
@@ -176,6 +178,7 @@ ul.livery-custom-tabs {
 }
 
 #favorites li.livery-list-item,
+#airlinelist li.livery-list-item,
 #liverylist li.livery-list-item {
     background-color: white;
     display: block;
@@ -190,18 +193,21 @@ ul.livery-custom-tabs {
 
 .geofs-list .livery-custom-tabs li:hover,
 #favorites li.livery-list-item:hover,
+#airlinelist li.livery-list-item:hover,
 #liverylist li.livery-list-item:hover {
     border: 2px solid #dedede;
     margin: -2px 0 0 -2px;
 }
 
 #favorites li.livery-list-item span.livery-name,
+#airlinelist li.livery-list-item span.livery-name,
 #liverylist li.livery-list-item span.livery-name {
     position: relative;
     z-index: 10;
     width: 80%;
     display: block;
 }
+#airlinelist li.livery-list-item img,
 #liverylist li.livery-list-item img {
     transition: height .1s;
     height: 48px;
@@ -209,6 +215,7 @@ ul.livery-custom-tabs {
     right: 30px;
     top: 0;
 }
+#airlinelist li.livery-list-item:hover img,
 #liverylist li.livery-list-item:hover img {
     height: 240px;
     transition: height 0.1s;
