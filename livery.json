@@ -26783,6 +26783,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/cathaypacific.png"
                     ],
                     "credits": "HO1076"
+                },
+                {
+                    "name": "ANA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/ANA-L-1011.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/shaders/prototype.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/ANA-L-1011.jpg"
+                    ],
+                    "credits": "frederikvl"
                 }
             ],
             "labels": [
@@ -27391,7 +27400,7 @@
                 {
                     "name": "Air Gabon",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/Qantas_Wunala_Dreaming_747-8.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/Air_Gabon_747.png"
                     ],
                     "credits": "Calculus37"
                 },
@@ -27618,6 +27627,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/Air_Namibia_SP_747-8.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Transaero (Flight for Hope livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/Transaero_flight_for_hope_livery_747-8i.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
