@@ -41,6 +41,14 @@ const mlIdOffset = 1e3;
     //Load liveries (@todo: consider moving to listLiveries)
     fetch(`${githubRepo}/livery.json?`+Date.now()).then(handleLiveryJson);
 
+    //Init airline databases
+    links = localStorage.links.split(",");
+    links.forEach(async function(e){
+        await fetch(e).then(res => res.json()).then(data => airlineobjs.push(data));
+        airlineobjs[airlineobjs.length-1].url = e.trim();
+    });
+    fetch(`${githubRepo}/whitelist.json?`+Date.now()).then(res => res.json()).then(data => whitelist = data);
+
     // Start multiplayer
     setInterval(updateMultiplayer, 5000);
 
@@ -246,7 +254,7 @@ function sortList(id) {
 }
 
 /**
- * Generate main livery list
+ *  main livery list
  */
 function listLiveries() {
     domById('liverylist').innerHTML = '';
@@ -294,6 +302,7 @@ function listLiveries() {
     sortList('liverylist');
     loadFavorites();
     sortList('favorites');
+    loadAirlines();
     addCustomForm();
 }
 
@@ -308,6 +317,51 @@ function loadFavorites() {
         if ((airplane == e.slice(0, airplane.length)) && (e.charAt(airplane.length) == '_')) {
             star(domById(e));
         }
+    });
+}
+
+function loadAirlines(){
+    domById("airlinelist").innerHTML = '';
+    const airplane = getCurrentAircraft();
+    const textures = airplane.liveries[0].texture;
+    airlineobjs.forEach(function(airline){
+        let airlinename = appendNewChild(domById('airlinelist'), 'li', {
+            style: "color:"+airline.color+";background-color:"+airline.bgcolor+"; font-weight: bold;"
+        });
+        airlinename.innerText = airline.name;
+        let removebtn = appendNewChild(airlinename, "button", {
+            class: "mdl-button mdl-js-button mdl-button--raised mdl-button",
+            style: "float: right; margin-top: 6px; background-color: #9e150b;",
+            onclick: `LiverySelector.removeAirline("${airline.url}")`
+        });
+        removebtn.innerText = "- Remove airline";
+        airline.aircrafts[geofs.aircraft.instance.id].liveries.forEach(function(e){
+            let listItem = appendNewChild(domById('airlinelist'), 'li', {
+                id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
+                class: 'livery-list-item'
+            });
+            if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+                const texture = e.texture[0];
+                listItem.onclick = () => {
+                    loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
+                    if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())){
+                        setInstanceId(texture);
+                    }
+                }
+                } else {
+                listItem.onclick = () => {
+                    let textureIndex = airplane.labels.indexOf("Texture");
+                    loadLivery(e.texture, airplane.index, airplane.parts);
+                    if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())){
+                        setInstanceId(e.texture[textureIndex]);
+                    }
+                }
+            }
+            listItem.innerHTML = createTag('span', {class:'livery-name'}, e.name).outerHTML;
+            if (e.credits && e.credits.length) {
+                listItem.innerHTML += `<small>by ${e.credits}</small>`;
+            }
+        });
     });
 }
 
@@ -580,6 +634,29 @@ function saveSetting(element) {
     reloadSettingsForm();
 }
 
+async function addAirline(){
+    let url = prompt("Enter URL to the json file of the airline:");
+    if (!links.includes(url)){
+        links.push(url);
+        localStorage.links += `,${url}`
+        await fetch(url).then(res => res.json()).then(data => airlineobjs.push(data));
+        airlineobjs[airlineobjs.length-1].url = url.trim();
+        loadAirlines();
+    } else {
+        alert("Airline already added");
+    }
+}
+function removeAirline(url){
+    removeItem(links, url.trim());
+    localStorage.links = links.toString();
+    airlineobjs.forEach(function(e, index){
+        if (e.url.trim() === url.trim()){
+            airlineobjs.splice(index, 1);
+        }
+    });
+    loadAirlines();
+}
+
 /**
  * @returns {object} current aircraft from liveryobj
  */
@@ -605,7 +682,7 @@ function updateMultiplayer() {
         mpLiveryIds[u.id] = otherId;
         if (otherId >= mlIdOffset && otherId < liveryIdOffset) {
             textures = getMLTexture(u, liveryEntry); // ML range 1k-10k
-        } else if (otherId >= liveryIdOffset && otherId < liveryIdOffset*2) {
+        } else if ((otherId >= liveryIdOffset && otherId < liveryIdOffset*2) || typeof(otherId == "string")) {
             textures = getMPTexture(u, liveryEntry); // LS range 10k+10k
         } else {
             return; // game managed livery
@@ -647,24 +724,38 @@ function getMPTexture(u, liveryEntry) {
     const textures = [];
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
-    if (liveryEntry.mp == 'multi') {
-        // try map textures on multi-entry
-        liveryEntry.index.forEach((index, pos) => {
-            textures.push({
-                uri: liveryEntry.liveries[otherId].texture[pos],
-                tex: uModelTextures[index],
-                index
-            });
-        });
-    } else {
-        const texIdx = liveryEntry.labels.indexOf('Texture');
+    console.log(u.currentLivery);
+    console.log(typeof(u.currentLivery));
+    if (typeof(u.currentLivery[0]) == "string"){
+        console.log("VA detected");
+        console.log(u.currentLivery);
         // try main texture on single-entry
         textures.push({
-            uri: liveryEntry.liveries[otherId].texture[texIdx],
+            uri: u.currentLivery,
             tex: uModelTextures[0],
             index: 0
         });
+    } else {
+        if (liveryEntry.mp == 'multi') {
+            // try map textures on multi-entry
+            liveryEntry.index.forEach((index, pos) => {
+                textures.push({
+                    uri: liveryEntry.liveries[otherId].texture[pos],
+                    tex: uModelTextures[index],
+                    index
+                });
+            });
+        } else {
+            const texIdx = liveryEntry.labels.indexOf('Texture');
+            // try main texture on single-entry
+            textures.push({
+                uri: liveryEntry.liveries[otherId].texture[texIdx],
+                tex: uModelTextures[0],
+                index: 0
+            });
+        }
     }
+    console.log(textures);
     return textures;
 }
 
@@ -747,6 +838,13 @@ function appendNewChild(parent, tagName, attributes = {}, pos = -1) {
     return child;
 }
 
+function removeItem(array, itemToRemove) {
+    const index = array.indexOf(itemToRemove);
+    if (index !== -1) {
+        array.splice(index, 1);
+    }
+}
+
 /**
  * @param {string} elementId
  * @returns {HTMLElement}
@@ -773,7 +871,10 @@ function generateListHTML() {
         <ul id="favorites" class="geofs-list geofs-visible"></ul>
 
         <h6 onclick="LiverySelector.toggleDiv('liverylist')">Available liveries</h6>
-        <ul id="liverylist" class=" geofs-list geofs-visible"></ul>
+        <ul id="liverylist" class="geofs-list geofs-visible"></ul>
+
+        <h6 onclick="LiverySelector.toggleDiv('airlinelist')">Virtual airlines</h6><button class="mdl-button mdl-js-button mdl-button--raised mdl-button" style="background-color: #096628; color: white;" onclick="LiverySelector.addAirline()">+ Add airline</button>
+        <ul id="airlinelist" class="geofs-list geofs-visible"></ul>
 
         <h6 onclick="LiverySelector.toggleDiv('customDiv')" class="closed">Load external livery</h6>
         <div id="customDiv" class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="display:none;">
@@ -863,5 +964,8 @@ window.LiverySelector = {
     inputLivery,
     uploadLivery,
     submitLivery,
-    uploadHistory
+    uploadHistory,
+    loadAirlines,
+    addAirline,
+    removeAirline
 };
