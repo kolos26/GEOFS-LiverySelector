@@ -43,6 +43,13 @@ const mlIdOffset = 1e3;
 
     // Start multiplayer
     setInterval(updateMultiplayer, 5000);
+
+    document.addEventListener("keypress", function(e){
+        if (e.key === "l"){
+            listLiveries();
+            ui.panel.toggle(".livery-list");
+        }
+    });
 })();
 
 /**
