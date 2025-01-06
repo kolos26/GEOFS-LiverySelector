@@ -8,6 +8,9 @@ const origHTMLs = {};
 const uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
 const liveryIdOffset = 10e3;
 const mlIdOffset = 1e3;
+let links = [];
+let airlineobjs = [];
+let whitelist;
 
 (function init() {
 
@@ -967,5 +970,6 @@ window.LiverySelector = {
     uploadHistory,
     loadAirlines,
     addAirline,
-    removeAirline
+    removeAirline,
+    airlineobjs
 };
