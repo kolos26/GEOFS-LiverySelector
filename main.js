@@ -45,6 +45,9 @@ let whitelist;
     fetch(`${githubRepo}/livery.json?`+Date.now()).then(handleLiveryJson);
 
     //Init airline databases
+    if (localStorage.getItem('favorites') === null) {
+        localStorage.favorites = '';
+    }
     links = localStorage.links.split(",");
     links.forEach(async function(e){
         await fetch(e).then(res => res.json()).then(data => airlineobjs.push(data));
