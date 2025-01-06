@@ -47,12 +47,13 @@ let whitelist;
     //Init airline databases
     if (localStorage.getItem('links') === null) {
         localStorage.links = '';
+    } else {
+            links = localStorage.links.split(",");
+            links.forEach(async function(e){
+                await fetch(e).then(res => res.json()).then(data => airlineobjs.push(data));
+                airlineobjs[airlineobjs.length-1].url = e.trim();
+            });
     }
-    links = localStorage.links.split(",");
-    links.forEach(async function(e){
-        await fetch(e).then(res => res.json()).then(data => airlineobjs.push(data));
-        airlineobjs[airlineobjs.length-1].url = e.trim();
-    });
     fetch(`${githubRepo}/whitelist.json?`+Date.now()).then(res => res.json()).then(data => whitelist = data);
 
     // Start multiplayer
