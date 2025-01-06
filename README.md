@@ -23,9 +23,8 @@ My goal was to put the liveries into one easy to use interface where you can sel
 
 ## Features
 
-For every supported aircraft you can find the list of avaliable liveries in the **LIVERY** menu. Here you can star your favourite liveries to show them on the top and search for any livery. I'm only planning to support real-life liveries, because most people do not want to share their personal liveries.
+For every supported aircraft you can find the list of avaliable liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing *l* on your keyboard.0 Here you can star your favourite liveries to show them on the top and search for any livery. I'm only planning to support real-life liveries, because most people do not want to share their personal liveries.
 
-Loading local personal liveries is also a planned feature just as writing the full multiplayer visibility.
 
 ## How to use
 
@@ -48,35 +47,131 @@ You need to do that every time you want to use LiverySelector.
 You can also find the [Tampermonkey](https://www.tampermonkey.net/) compatible version of LiverySelector in the Releases menu and add it to your Tampermonkey addon.
 
 
-## Aircrafts
+## How to use the test feature?
 
-In this time near all basic aircrafts are supported witch has originally more than one livery. The list of supported aircrafts with extra liveries is:
+The test feature is a brand new function in 2.1.0. You can find it at the end of the LIVERY menu.
+
+- You can insert the direct url to the image in the green box, or
+- you can also post it directly to imgbb, via the blue **UPLOAD IMAGE** button. To do that you need to [create an API key](https://api.imgbb.com/), and save it to local storage by typing `localStorage.imgbbAPIKEY = "YOUR API KEY"` into the console. You only need to do this for the first time, the app will remember your key. After pressing the button, within a few seconds the url should appear in the green box.
+
+After pasting a link, add the livery by pressing the yellow **LOAD LIVERY** button. For some planes more than one boxes are available. To add only the painting, use the box called **Texture**, you can keep the rest of them empty.
+
+Here you can find a tutorial on using this feature: [https://www.youtube.com/watch?v=QC4E_DNmvjY](https://www.youtube.com/watch?v=QC4E_DNmvjY) (Created by bilibilizm)
+
+## Virtal Airlines
+
+Since LiverySelector 3.2.0 you can link your own copy of [airline.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/airline.json) to have an easily shareable database of custom liveries.
+You can add an airline by clicking on **+ Add Airline** button, and you can always remove them by clicking the **- Remove Airline** button. The airline.json is being synced each time you load geofs, the list of subscribed airlines are saved locally and being kept from game to game.
+By default due to security reasons these liveries are not visible in multiplayer mode. If you would like to make your liveries visible please contact us on [discord](https://discord.gg/2tcdzyYaWU) to vertify your airline and put it onto the whitelist. The owner of the airline.json is responsible for ALL CONTENT displayed on the liveries!
+
+### Example for airline.json
+
+In the header you can customize your airline
+```
+{
+    "name": "Example Airlines", //Name of your airline
+    "color": "red",             //The color of the name in LiverySelector
+    "bgcolor": "darkblue",      //The background color of the name in LiverySelector
+    "aircrafts": {
+...
+```
+
+The liveries are stored in your airline.json as json objects. Into the [] brackets of **"liveies"** you can add several of them. In the **"texture"** array The links to textures are listed as they are ordered in the **"labels"** array. For most planes you can cheat from the [livery.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/livery.json), which is the main database where liveries are stored, however the airline.json is designed to be easier to use, so there are minor differences in the structure. The most important one is that when a plane has only one texture file applied and no shaders are used, you only need to add the link once (unlikely to the livery.json where it's depending on how many times each texture is used on the plane).
+
+```
+...
+"10": {
+            "name": "Airbus a380-800",
+            "liveries": [
+                {
+                    "name": "RedBull",                                                          // Name of the livery
+                    "texture": [
+                        "htttps://geo-fs.com/models/aircraft/premium/a380/specular.jpg",        // This is the link to the Specular shader
+                        "https://geo-fs.com/models/aircraft/premium/a380/texture_3.jpg"         // This is the link to the Texture
+                    ],
+                    "credits": "GeoFS"                                                          // The creator of the livery mostly a discord or github nickname
+                }
+            ],
+            "labels": [
+                "Specular shader",
+                "Texture"
+            ]
+        },
+...
+```
+
+If you have any difficulties with setting up airline.json please feel free to contact us!
+
+In this time near all basic aircrafts are supported witch has originally more than one livery. The list of supported aircrafts is:
+- Aerospatiale France - British Aircraft Corporation Concorde
+- Airbus a220-300
+- Airbus a318-112
+- Airbus a319-100
+- Airbus a320-214
+- Airbus a320neo
+- Airbus a321-211
+- Airbus a321neo
+- Airbus a330-200
+- Airbus a330-900neo
+- Airbus a340-300
+- Airbus a350-1000
+- Airbus a350-900
+- Airbus a380-800
+- Alphajet PAF
+- Alisport Silent 2 Electro
+- Antonov An-140
+- ATR 72-600
+- Boeing 757-300
+- Boeing b737-200
 - Boeing b737-700
 - Boeing b737-800
-- Boeing b737-8
+- Boeing b737-MAX8
+- Boeing b747-8I
 - Boeing b757-200
-- Boeing b767-300er
-- Boeing b787-9
+- Boeing b757-300WL
+- Boeing b767-300ER
+- Boeing b767-400ER
+- Boeing b777-300ER
 - Boeing b787-10
-- Bombardier CRJ-700
-- Boeing P8 Poseidon
-- Airbus a220-300
-- Airbus a319-100
-- Airbus a320neo
-- Airbus a330-900neo
-- Airbus a350-900
-- Airbus a350-1000
-- Airbus a380
-- Concorde
-- ATR-72
-- Embraer erj145LR
-- SAAB 340
-- Britten-Normal BN2 Islander
+- Boeing b787-9
+- Boeing p8I Neptune
+- Bombardier CRJ200
+- Bombardier CRJ700
 - Bombardier Dash8-q400
-- Bombardier CRJ-200
-- Douglas dc3
-- Lockheed P38 Lightning
+- Bombardier Learjet45
+- Britten-Norman BN2 Islander
+- Cameron R-650 Rozière Balloon
+- Cessna 152
+- Cessna 172 Skyhawk
+- Citroen 2CV
+- Colomban MC-15 Cri-cri
+- de Havilland Canada DHC2 Beaver
+- de Havilland Canada DHC6 Twin Otter
+- Dornier do228-200
+- Douglas DC-3
+- Embraer ERJ 145LR
+- Embraer ERJ 170
+- Embraer Phenom100
+- Evektor Sportstar
 - General Dynamics F16 Fighting Falcon
+- Goat Airchair
+- Leonardo - AugustaWestland AW609
+- Lokheed L1011-1 TriStar
+- Lokheed P38 Lightning
+- Major Tom (hot air balloon)
+- McDonell Douglas - Boeing F/A-18F Super Hornet
+- Paraglider
+- Pilatus PC-7 Mk-I
+- Piper J3 Cub
+- Piper PA-28 161 Warrior II
+- Pitts Special S1
+- Potez 25
+- SAAB 340
+- Sonex-B kit
+- Sukhoi Su-35 Flanker
+- Vans RV6
+- Zlin Z-50
+
 
 ## Feedback
 
@@ -86,17 +181,13 @@ Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to
 > **[You can join to our discord server, to keep yourself up to date about the new features.](https://discord.gg/2tcdzyYaWU)**
 
 
-
-
 ## Known issues
 
-- Version 1 works no longer, please update to 2.0.0!
+- Old versions are no longer working, please update to the latest version!
 
 ## How to contribute?
 
-I'm very happy if you contribute new liveries to this livery project!
-
-At the time you can contribute liveries to the original Multiliveries aircrafts (b787-9, b787-10, b737-8, b737-800, a320neo, a220-300, a319-100, erj145lr, saab340), the b737-700, a350-900, a350-1000, b757-200, b767-300er, ATR 72-600, BN2, dash8 and crj200.
+I'm very happy if you contribute new liveries to this livery project! The best way to start contributing to LiverySelector is by joining our discord server, where you can find useful materials and helping hands.
 
 Here you can find the maps, that you can paint out:
 - [Boeing b737-700](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-700.png)
@@ -122,18 +213,7 @@ For these aircrafts, instead of using maps, you can repaint the original texture
 - [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
 - [Bombardier Dash8-q400](https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png)
 
-> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline), so if you would like to fly with fictional liveries you can build your own liveries.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**, if you are sending it as an issue, please add a "livery" label too, to make the process faster.
-
-## How to use the test feature?
-
-The test feature is a brand new function in 2.1.0. You can find it at the end of the LIVERY menu.
-
-- You can insert the direct url to the image in the green box, or
-- you can also post it directly to imgbb, via the blue **UPLOAD IMAGE** button. To do that you need to [create an API key](https://api.imgbb.com/), and save it to local storage by typing `localStorage.imgbbAPIKEY = "YOUR API KEY"` into the console. You only need to do this for the first time, the app will remember your key. After pressing the button, within a few seconds the url should appear in the green box.
-
-After pasting a link, add the livery by pressing the yellow **LOAD LIVERY** button. For some planes more than one boxes are available. To add only the painting, use the box called **Texture**, you can keep the rest of them empty.
-
-Here you can find a tutorial on using this feature: [https://www.youtube.com/watch?v=QC4E_DNmvjY](https://www.youtube.com/watch?v=QC4E_DNmvjY) (Created by bilibilizm)
+> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline or the manafacturer), so if you would like to fly with fictional liveries you can build your own airline.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**, if you are sending it as an issue, please add a "livery" label too, to make the process faster.
 
 ## Resources
 
