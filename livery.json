@@ -1808,7 +1808,8 @@
                     "texture": [
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesnew.png"
-                    ]
+                    ],
+                    "credits": "GeoFSFlightVideoGroupYT-GFVGE"
                 },
                 {
                     "name": "Emirates (old design)",
@@ -26612,6 +26613,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/AIR_couscous_old_A332.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "MNG Airlines Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/mngcargo.jpg"
+                    ],
+                    "credits": "Class323"
                 }
             ],
             "labels": [
