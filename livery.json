@@ -1591,10 +1591,10 @@
                 {
                     "name": "TAP Air Portugal",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/TAP/ana/main.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/TAP/ana/left.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/TAP/ana/bottom.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/TAP/ana/right.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/TAP/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/TAP/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/TAP/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/TAP/right.jpg"
                     ],
                     "credits": "frederikvl"
                 }
@@ -20772,6 +20772,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/NPA_-_757_2.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Condor (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Condor_Old_757-300.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Thomas Cook (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Thomas_Cook_Old_757-300.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
