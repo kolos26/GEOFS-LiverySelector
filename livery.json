@@ -1516,6 +1516,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_9_3.jpg"
                     ],
                     "credits": "Burnin Hell"
+                },
+                {
+                    "name": "Aeroflot",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aeroflot.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -1597,6 +1605,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/TAP/right.jpg"
                     ],
                     "credits": "frederikvl"
+                },
+                {
+                    "name": "Pilgrim Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/pilgrim/main.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/pilgrim/left.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/pilgrim/bottom.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/pilgrim/right.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -10794,6 +10812,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/yamal.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Volotea",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Volotea_a320ceo_acutal_livery_1.jpg"
+                    ],
+                    "credits": "concordeandferrarifan"
+                },
+                {
+                    "name": "Iberia Express",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/iberia_express_a320ceo_1_1.jpg"
+                    ],
+                    "credits": "concordeandferrarifan"
                 }
             ],
             "labels": [
@@ -17399,6 +17431,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/United Express Saab 340.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Fuerza Aerea Argentina",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/Argentina_Air_Force_Saab_340.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -18682,7 +18721,7 @@
                     "name": "China Airlines (Carbon fiber livery)",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinacarbon.jpeg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/China_Airlines_Carbon_Fiber_Livery.png"
                     ],
                     "credits": "Jeffa"
                 }
@@ -28727,6 +28766,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/Continental_Airlines_ex_People_Express_747-8i.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Dubai Royal Airwing",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/A6-GGP.png"
+                    ],
+                    "credits": "Pom-Pom d'Cat"
                 }
             ],
             "labels": [
