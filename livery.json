@@ -17888,10 +17888,12 @@
         },
         "16": {
             "index": [
+                0,
                 3,
                 4
             ],
             "parts": [
+                0,
                 0,
                 0
             ],
@@ -17899,6 +17901,7 @@
                 {
                     "name": "US Air Force",
                     "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/usaf.png"
                     ],
@@ -17907,6 +17910,7 @@
                 {
                     "name": "Buffalo Airways",
                     "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-buffalo.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/buffalo.png"
                     ],
@@ -17915,6 +17919,7 @@
                 {
                     "name": "Malév",
                     "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-malev.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/malev.png"
                     ],
@@ -17923,6 +17928,7 @@
                 {
                     "name": "Aeromexico",
                     "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/aeromexico.png"
                     ],
@@ -17931,6 +17937,7 @@
                 {
                     "name": "Compañia Mexicana de Aviacion",
                     "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-shiny.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/mexicana.png"
                     ],
@@ -17938,6 +17945,7 @@
                 }
             ],
             "labels": [
+                "Normal map",
                 "Specular shader",
                 "Texture"
             ],
