@@ -29545,6 +29545,30 @@
                 "Wing texture"
             ],
             "name": "Boeing b747-8I"
+        },
+        "2857": {
+            "index": [
+                1,
+                2
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "US Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f22/F22Texture.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f22/shaders/F22Texture.001.png"
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture",
+                "Metallic Roughness shader"
+            ],
+            "name": "Lokheed Martin F22 Raptor"
         }
     }
 }
