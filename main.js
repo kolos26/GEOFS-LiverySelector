@@ -1,5 +1,5 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
-const version = '3.2.0';
+const version = '3.2.1';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -59,7 +59,10 @@ let whitelist;
     // Start multiplayer
     setInterval(updateMultiplayer, 5000);
 
-    document.addEventListener("keypress", function(e){
+    window.addEventListener("keyup", function(e){
+        if (e.target.classList.contains("geofs-stopKeyupPropagation")) {
+            e.stopImmediatePropagation();
+        }
         if (e.key === "l"){
             listLiveries();
             ui.panel.toggle(".livery-list");
