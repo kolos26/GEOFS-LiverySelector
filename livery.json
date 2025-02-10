@@ -1674,6 +1674,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/transaviafrance.png"
                     ],
                     "credits": "Youtube VR PoZz"
+                },
+                {
+                    "name": "Shandong Airlines (old design)",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/sanghaiairlinesold.png"
+                    ],
+                    "credits": "HO1076[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -5445,6 +5453,21 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/jalmickey90years.jpg"
                     ],
                     "credits": "747lover"
+                },
+                {
+                    "name": "Hainan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Hainan_Airlines_767-300ER.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -9566,6 +9589,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/All_Nippon_Airways_ANA_Future_Promise_Design_-_Boeing_787-9_1.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Air France (F-HRBA)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/af789Saint-Emilion (1).jpg"
+                    ],
+                    "credits": "Youtube VR PoZz"
                 }
             ],
             "labels": [
@@ -11624,6 +11654,27 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/lucky320ceo.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "S7 Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/s7old.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "S7 Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/s7new.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "S7 Airlines (art livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/s7art.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -13991,6 +14042,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/Korean Air 787-10.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Air France (F-HRBJ)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/fhrjb.png"
+                    ],
+                    "credits": "Youtube VR PoZz"
+                },
+                {
+                    "name": "Air France (F-HRBA)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/fhrba.png"
+                    ],
+                    "credits": "Youtube VR PoZz"
                 }
             ],
             "labels": [
@@ -16007,6 +16072,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Livery-737-800-bluebird-airway.png"
                     ],
                     "credits": "nothingy"
+                },
+                {
+                    "name": "Air Austral (F-ONGA)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/fonga.png"
+                    ],
+                    "credits": "Youtube VR PoZz"
+                },
+                {
+                    "name": "Air Austral (F-ONGB)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/fongb.png"
+                    ],
+                    "credits": "Youtube VR PoZz"
                 }
             ],
             "labels": [
@@ -20137,7 +20216,7 @@
                     "name": "Emirates (A6-EXB)",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/a6exb"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/a6exb.png"
                     ],
                     "credits": "GeoFSFlightVideoGroupYT"
                 }
@@ -24067,6 +24146,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/airchinacargo.jpg"
                     ],
                     "credits": "XingHaoAirlines"
+                },
+                {
+                    "name": "Malaysian Airlines (old design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/b777-300er_7_14_malaysia.jpg"
+                    ],
+                    "credits": "Burnin Hell"
                 }
             ],
             "labels": [
@@ -28546,6 +28633,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Air_Calin_Intenational_Nouvelle_Caledonie_design_A330-200.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Air China (Beijing 2008 Olympic Torch Relay livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/bejing2008.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -28663,6 +28757,13 @@
                     "name": "Finnish Air Force",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/fa18/finnishairforce.png"
+                    ],
+                    "credits": "Cranberry"
+                },
+                {
+                    "name": "Finnish Air Force - RIAT 2023",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/fa18/finnishriat2023.png"
                     ],
                     "credits": "Cranberry"
                 }
