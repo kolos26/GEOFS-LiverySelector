@@ -1,5 +1,5 @@
 {
-    "version": "3.2.1",
+    "version": "3.2.2",
     "dapi": "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTI2OTkyODcxODMxOTQ4OTA5Ny9sSGQwRUxyWVhBRWNyT2FORXF2RWRhX3hsNjhwUDRGTXNucUJYR25hc0xoVnA4Sk9HSlBzanRBVEh4a0RhRlBkODlVYg==",
     "mapi": "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NwaWNlOS9HZW9mcy1NdWx0aWxpdmVyaWVzL21haW4vZGVwZW5kZW5jaWVzL2xpdmVyaWVzLmpzb24",
     "aircrafts": {
@@ -2156,7 +2156,8 @@
                     "texture": [
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emirates.png"
-                    ]
+                    ],
+                    "credits": "Youtube VR PoZz"
                 },
                 {
                     "name": "Airbus house livery (50 years jubilee design)",
@@ -31451,6 +31452,134 @@
                 "Texture"
             ],
             "name": "UTVA 75"
+        },
+        "2808": {
+            "index": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Royal Air Force - HA121",
+                    "credits": "Eco[LAC]",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/rafha121.jpg",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        },
+                        {
+                            "material": 2
+                        },
+                        {
+                            "material": 3
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Prop Cone",
+                            "baseColorFactor": [
+                                0.15295729041099548,
+                                0.16999061405658722,
+                                0.11210495233535767
+                            ]
+                        },
+                        {
+                            "name": "Wings Red",
+                            "baseColorFactor": [
+                                0.20689654350280762,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "Wings Yellow",
+                            "baseColorFactor": [
+                                0.2068936824798584,
+                                0.2068936824798584,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "Canopy Metal",
+                            "baseColorFactor": [
+                                0.047207802534103394,
+                                0.0592767596244812,
+                                0.0592767596244812
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Royal Air Force - PL965",
+                    "credits": "Kolos26",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/spitfireblue.png",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        },
+                        {
+                            "material": 2
+                        },
+                        {
+                            "material": 3
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Prop Cone",
+                            "baseColorFactor": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "Wings Red",
+                            "baseColorFactor": [
+                                0.082,
+                                0.42,
+                                0.6
+                            ]
+                        },
+                        {
+                            "name": "Wings Yellow",
+                            "baseColorFactor": [
+                                0.082,
+                                0.42,
+                                0.6
+                            ]
+                        },
+                        {
+                            "name": "Canopy Metal",
+                            "baseColorFactor": [
+                                0.082,
+                                0.42,
+                                0.6
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Supermarine Spitfire Mk XIV"
         }
     }
 }
