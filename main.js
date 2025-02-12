@@ -1,5 +1,5 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
-const version = '3.2.1';
+const version = '3.2.2';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -129,7 +129,7 @@ function loadLivery(texture, index, parts, mats) {
             if (texture[i].material !== undefined) {
                 const mat = mats[texture[i].material];
                 model3d._model.getMaterial(mat.name)
-                    .setValue('diffuse', new Cesium.Cartesian4(...mat.diffuse, 1.0));
+                    .setValue(Object.keys(mat)[1], new Cesium.Cartesian4(...mat[Object.keys(mat)[1]], 1.0));
             }
             continue;
         }
