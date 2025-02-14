@@ -1,5 +1,5 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
-const version = '3.2.2';
+const version = '3.2.3';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -15,12 +15,12 @@ let whitelist;
 (function init() {
 
     // styles
-    fetch(`${githubRepo}/styles.css?`+Date.now()).then(async data => {
-        const styleTag = createTag('style',{type:'text/css'});
+    fetch(`${githubRepo}/styles.css?` + Date.now()).then(async data => {
+        const styleTag = createTag('style', { type: 'text/css' });
         styleTag.innerHTML = await data.text();
         document.head.appendChild(styleTag);
     });
-    appendNewChild(document.head, 'link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'});
+    appendNewChild(document.head, 'link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' });
 
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
@@ -42,28 +42,28 @@ let whitelist;
     Object.values(origButtons).forEach(btn => btn.parentElement.removeChild(btn));
 
     //Load liveries (@todo: consider moving to listLiveries)
-    fetch(`${githubRepo}/livery.json?`+Date.now()).then(handleLiveryJson);
+    fetch(`${githubRepo}/livery.json?` + Date.now()).then(handleLiveryJson);
 
     //Init airline databases
     if (localStorage.getItem('links') === null) {
         localStorage.links = '';
     } else {
-            links = localStorage.links.split(",");
-            links.forEach(async function(e){
-                await fetch(e).then(res => res.json()).then(data => airlineobjs.push(data));
-                airlineobjs[airlineobjs.length-1].url = e.trim();
-            });
+        links = localStorage.links.split(",");
+        links.forEach(async function (e) {
+            await fetch(e).then(res => res.json()).then(data => airlineobjs.push(data));
+            airlineobjs[airlineobjs.length - 1].url = e.trim();
+        });
     }
-    fetch(`${githubRepo}/whitelist.json?`+Date.now()).then(res => res.json()).then(data => whitelist = data);
+    fetch(`${githubRepo}/whitelist.json?` + Date.now()).then(res => res.json()).then(data => whitelist = data);
 
     // Start multiplayer
     setInterval(updateMultiplayer, 5000);
 
-    window.addEventListener("keyup", function(e){
+    window.addEventListener("keyup", function (e) {
         if (e.target.classList.contains("geofs-stopKeyupPropagation")) {
             e.stopImmediatePropagation();
         }
-        if (e.key === "l"){
+        if (e.key === "l") {
             listLiveries();
             ui.panel.toggle(".livery-list");
         }
@@ -80,8 +80,8 @@ async function handleLiveryJson(data) {
     if (liveryobj.version != version) {
         document.querySelector('.livery-list h3').appendChild(
             createTag('a', {
-                href:'https://github.com/kolos26/GEOFS-LiverySelector',
-                target:'_blank',
+                href: 'https://github.com/kolos26/GEOFS-LiverySelector',
+                target: '_blank',
                 style: 'display:block;width:100%;text-decoration:none;text-align:center;'
             }, 'Update available: ' + liveryobj.version)
         );
@@ -101,13 +101,13 @@ async function handleLiveryJson(data) {
         element.innerHTML = origHTMLs[aircraftId] +
             createTag('img', {
                 src: `${githubRepo}/liveryselector-logo-small.svg`,
-                style:'height:30px;width:auto;margin-left:20px;',
-                title:'Liveries available'
+                style: 'height:30px;width:auto;margin-left:20px;',
+                title: 'Liveries available'
             }).outerHTML;
 
         if (liveryobj.aircrafts[aircraftId].mp != "disabled")
-            element.innerHTML += createTag('small',{
-                title:'Liveries are multiplayer compatible\n(visible to other players)'
+            element.innerHTML += createTag('small', {
+                title: 'Liveries are multiplayer compatible\n(visible to other players)'
             }, '🎮').outerHTML;
     });
 }
@@ -138,7 +138,7 @@ function loadLivery(texture, index, parts, mats) {
         } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
             geofs.api.changeModelTexture(model3d._model, texture[i], index[i]);
         } else {
-            geofs.api.changeModelTexture(model3d._model, texture[i], {index:index[i]});
+            geofs.api.changeModelTexture(model3d._model, texture[i], { index: index[i] });
         }
     }
 }
@@ -168,7 +168,7 @@ function submitLivery() {
     const textures = airplane.liveries[0].texture;
     const inputFields = document.getElementsByName('textureInput');
     const formFields = {};
-    document.querySelectorAll('.livery-submit input').forEach(f => formFields[f.id.replace('livery-submit-','')] = f);
+    document.querySelectorAll('.livery-submit input').forEach(f => formFields[f.id.replace('livery-submit-', '')] = f);
     if (!localStorage.liveryDiscordId || localStorage.liveryDiscordId.length < 6) {
         return alert('Invalid Discord User id!');
     }
@@ -183,12 +183,12 @@ function submitLivery() {
         credits: formFields.credits.value.trim(),
         texture: []
     };
-    if (!json.name || json.name.trim()=='') {
+    if (!json.name || json.name.trim() == '') {
         return;
     }
     const hists = [];
     const embeds = [];
-    inputFields.forEach((f,i) => {
+    inputFields.forEach((f, i) => {
         f.value = f.value.trim();
         if (f.value.match(/^https:\/\/.+/i)) {
             const hist = Object.values(uploadHistory).find(o => o.url == f.value);
@@ -199,11 +199,11 @@ function submitLivery() {
                 return alert('Can\' submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
             }
             const embed = {
-                title: airplane.labels[i] + ' (' + (Math.ceil(hist.size/1024/10.24)/100) + 'MB, '+hist.width +'x' + hist.height +')',
+                title: airplane.labels[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
                 description: f.value,
                 image: { url: f.value },
                 fields: [
-                    { name: 'Timestamp', value: new Date(hist.time*1e3), inline: true },
+                    { name: 'Timestamp', value: new Date(hist.time * 1e3), inline: true },
                     { name: 'File ID', value: hist.id, inline: true },
                 ]
             };
@@ -211,7 +211,7 @@ function submitLivery() {
                 if (!confirm('The following texture was already submitted:\n' + f.value + '\nContinue anyway?')) {
                     return;
                 }
-                embed.fields.push({ name: 'First submitted', value: new Date(hist.submitted*1e3) });
+                embed.fields.push({ name: 'First submitted', value: new Date(hist.submitted * 1e3) });
             }
             embeds.push(embed);
             hists.push(hist);
@@ -233,10 +233,10 @@ function submitLivery() {
     fetch(atob(liveryobj.dapi), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({content: content.join('\n'), embeds })
+        body: JSON.stringify({ content: content.join('\n'), embeds })
     }).then(res => {
         hists.forEach(hist => {
-            hist.submitted = hist.submitted || Math.round(new Date()/1000);
+            hist.submitted = hist.submitted || Math.round(new Date() / 1000);
         });
         localStorage.lsUploadHistory = JSON.stringify(uploadHistory);
     });
@@ -270,7 +270,7 @@ function listLiveries() {
     domById('liverylist').innerHTML = '';
 
     const thumbsDir = [githubRepo, 'thumbs'].join('/');
-    const defaultThumb = [thumbsDir, geofs.aircraft.instance.id+'.png'].join('/');
+    const defaultThumb = [thumbsDir, geofs.aircraft.instance.id + '.png'].join('/');
     const airplane = getCurrentAircraft();
     airplane.liveries.forEach(function (e, idx) {
         if (e.disabled) return;
@@ -283,10 +283,10 @@ function listLiveries() {
             loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
             if (e.mp != 'disabled') {
                 // use vanilla ids for basegame compat
-                setInstanceId(idx+(e.credits?.toLowerCase()=='geofs'?'':liveryIdOffset));
+                setInstanceId(idx + (e.credits?.toLowerCase() == 'geofs' ? '' : liveryIdOffset));
             }
         };
-        listItem.innerHTML = createTag('span', {class:'livery-name'}, e.name).outerHTML;
+        listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
         if (geofs.aircraft.instance.id < 1000) {
             listItem.classList.add('offi');
             const thumb = createTag('img');
@@ -294,7 +294,7 @@ function listLiveries() {
                 thumb.onerror = null;
                 thumb.src = defaultThumb;
             };
-            thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id+'-'+idx+'.png'].join('/');
+            thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id + '-' + idx + '.png'].join('/');
             listItem.appendChild(thumb);
         } else {
             listItem.classList.remove('offi');
@@ -330,13 +330,13 @@ function loadFavorites() {
     });
 }
 
-function loadAirlines(){
+function loadAirlines() {
     domById("airlinelist").innerHTML = '';
     const airplane = getCurrentAircraft();
     const textures = airplane.liveries[0].texture;
-    airlineobjs.forEach(function(airline){
+    airlineobjs.forEach(function(airline) {
         let airlinename = appendNewChild(domById('airlinelist'), 'li', {
-            style: "color:"+airline.color+";background-color:"+airline.bgcolor+"; font-weight: bold;"
+            style: "color:" + airline.color + ";background-color:" + airline.bgcolor + "; font-weight: bold;"
         });
         airlinename.innerText = airline.name;
         let removebtn = appendNewChild(airlinename, "button", {
@@ -345,33 +345,35 @@ function loadAirlines(){
             onclick: `LiverySelector.removeAirline("${airline.url}")`
         });
         removebtn.innerText = "- Remove airline";
-        airline.aircrafts[geofs.aircraft.instance.id].liveries.forEach(function(e){
-            let listItem = appendNewChild(domById('airlinelist'), 'li', {
-                id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
-                class: 'livery-list-item'
-            });
-            if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
-                const texture = e.texture[0];
-                listItem.onclick = () => {
-                    loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                    if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())){
-                        setInstanceId(texture);
+        if (Object.keys(airline.aircrafts).includes(geofs.aircraft.instance.id)) {
+            airline.aircrafts[geofs.aircraft.instance.id].liveries.forEach(function (e) {
+                let listItem = appendNewChild(domById('airlinelist'), 'li', {
+                    id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
+                    class: 'livery-list-item'
+                });
+                if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+                    const texture = e.texture[0];
+                    listItem.onclick = () => {
+                        loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
+                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                            setInstanceId(texture);
+                        }
                     }
-                }
                 } else {
-                listItem.onclick = () => {
-                    let textureIndex = airplane.labels.indexOf("Texture");
-                    loadLivery(e.texture, airplane.index, airplane.parts);
-                    if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())){
-                        setInstanceId(e.texture[textureIndex]);
+                    listItem.onclick = () => {
+                        let textureIndex = airplane.labels.indexOf("Texture");
+                        loadLivery(e.texture, airplane.index, airplane.parts);
+                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                            setInstanceId(e.texture[textureIndex]);
+                        }
                     }
                 }
-            }
-            listItem.innerHTML = createTag('span', {class:'livery-name'}, e.name).outerHTML;
-            if (e.credits && e.credits.length) {
-                listItem.innerHTML += `<small>by ${e.credits}</small>`;
-            }
-        });
+                listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
+                if (e.credits && e.credits.length) {
+                    listItem.innerHTML += `<small>by ${e.credits}</small>`;
+                }
+            });
+        }
     });
 }
 
@@ -379,7 +381,7 @@ function addCustomForm() {
     document.querySelector('#livery-custom-tab-upload .upload-fields').innerHTML = '';
     document.querySelector('#livery-custom-tab-direct .upload-fields').innerHTML = '';
     const airplane = getCurrentAircraft();
-    const textures = airplane.liveries[0].texture.filter(t=>typeof t !== 'object');
+    const textures = airplane.liveries[0].texture.filter(t => typeof t !== 'object');
     if (!textures.length) {
         return; // ignore material defs
     }
@@ -388,9 +390,9 @@ function addCustomForm() {
         createUploadButton(placeholders[0]);
         createDirectButton(placeholders[0]);
     } else {
-        placeholders.forEach((placeholder,i)=>{
+        placeholders.forEach((placeholder, i) => {
             createUploadButton(placeholder);
-            createDirectButton(placeholder,i);
+            createDirectButton(placeholder, i);
         });
     }
     // click first tab to refresh button status
@@ -465,11 +467,11 @@ function createUploadButton(id) {
  * @param {string} id
  * @param {number} i
  */
-function createDirectButton(id,i) {
+function createDirectButton(id, i) {
     const customDiv = document.querySelector('#livery-custom-tab-direct .upload-fields');
     appendNewChild(customDiv, 'input', {
         type: 'file',
-        onchange: 'LiverySelector.loadLiveryDirect(this,'+i+')'
+        onchange: 'LiverySelector.loadLiveryDirect(this,' + i + ')'
     });
     appendNewChild(customDiv, 'span').innerHTML = id;
     appendNewChild(customDiv, 'br');
@@ -491,7 +493,7 @@ function loadLiveryDirect(fileInput, i) {
             geofs.api.changeModelTexture(
                 geofs.aircraft.instance.definition.parts[airplane.parts[i]]["3dmodel"]._model,
                 newTexture,
-                {index:airplane.index[i]}
+                { index: airplane.index[i] }
             );
         }
         fileInput.value = null;
@@ -514,7 +516,7 @@ function uploadLivery(fileInput) {
     const form = new FormData();
     form.append('image', fileInput.files[0]);
     if (localStorage.liveryAutoremove)
-        form.append('expiration', (new Date()/1000) * 60 * 60);
+        form.append('expiration', (new Date() / 1000) * 60 * 60);
 
     const settings = {
         'url': `https://api.imgbb.com/1/upload?key=${localStorage.imgbbAPIKEY}`,
@@ -538,14 +540,14 @@ function uploadLivery(fileInput) {
     });
 }
 
-function handleCustomTabs(e){
+function handleCustomTabs(e) {
     e = e || window.event;
     const src = e.target || e.srcElement;
     const tabId = src.innerHTML.toLocaleLowerCase();
     // iterate all divs and check if it was the one clicked, hide others
     domById('customDiv').querySelectorAll(':scope > div').forEach(tabDiv => {
         if (tabDiv.id != ['livery-custom-tab', tabId].join('-')) {
-            tabDiv.style.display =  'none';
+            tabDiv.style.display = 'none';
             return;
         }
         tabDiv.style.display = '';
@@ -582,16 +584,17 @@ function reloadDownloadsForm(tabDiv) {
     const defaults = liveries[0];
     const fields = tabDiv.querySelector('.download-fields');
     fields.innerHTML = '';
-    liveries.forEach((livery,liveryNo) => {
+    liveries.forEach((livery, liveryNo) => {
         const textures = livery.texture.filter(t => typeof t !== 'object');
         if (!textures.length) return; // ignore material defs
         appendNewChild(fields, 'h7').innerHTML = livery.name;
         const wrap = appendNewChild(fields, 'div');
-        textures.forEach((href,i) => {
+        textures.forEach((href, i) => {
             if (typeof href === 'object') return;
             if (liveryNo > 0 && href == defaults.texture[i]) return;
-            const link = appendNewChild(wrap,'a',{href,target:'_blank',
-                class:"mdl-button mdl-button--raised mdl-button--colored"
+            const link = appendNewChild(wrap, 'a', {
+                href, target: '_blank',
+                class: "mdl-button mdl-button--raised mdl-button--colored"
             });
             link.innerHTML = airplane.labels[i];
         });
@@ -608,10 +611,10 @@ function reloadSettingsForm() {
         'API KEY HERE';
 
     const removeCheckbox = domById('livery-setting-remove');
-    removeCheckbox.checked = (localStorage.liveryAutoremove==1);
+    removeCheckbox.checked = (localStorage.liveryAutoremove == 1);
 
     const discordInput = domById('livery-setting-discordid');
-    discordInput.value = localStorage.liveryDiscordId||'';
+    discordInput.value = localStorage.liveryDiscordId || '';
 }
 
 /**
@@ -620,7 +623,7 @@ function reloadSettingsForm() {
  * @param {HTMLElement} element
  */
 function saveSetting(element) {
-    const id = element.id.replace('livery-setting-','');
+    const id = element.id.replace('livery-setting-', '');
     switch (id) {
         case 'apikey': {
             if (element.value.length) {
@@ -644,23 +647,27 @@ function saveSetting(element) {
     reloadSettingsForm();
 }
 
-async function addAirline(){
+async function addAirline() {
     let url = prompt("Enter URL to the json file of the airline:");
-    if (!links.includes(url)){
+    if (!links.includes(url)) {
         links.push(url);
         localStorage.links += `,${url}`
         await fetch(url).then(res => res.json()).then(data => airlineobjs.push(data));
-        airlineobjs[airlineobjs.length-1].url = url.trim();
+        airlineobjs[airlineobjs.length - 1].url = url.trim();
         loadAirlines();
     } else {
         alert("Airline already added");
     }
 }
-function removeAirline(url){
+function removeAirline(url) {
     removeItem(links, url.trim());
-    localStorage.links = links.toString();
-    airlineobjs.forEach(function(e, index){
-        if (e.url.trim() === url.trim()){
+    if (links.toString().charAt(0) === ","){
+        localStorage.links = links.toString().slice(1);
+    } else {
+        localStorage.links = links.toString();
+    }
+    airlineobjs.forEach(function (e, index) {
+        if (e.url.trim() === url.trim()) {
             airlineobjs.splice(index, 1);
         }
     });
@@ -692,7 +699,7 @@ function updateMultiplayer() {
         mpLiveryIds[u.id] = otherId;
         if (otherId >= mlIdOffset && otherId < liveryIdOffset) {
             textures = getMLTexture(u, liveryEntry); // ML range 1k-10k
-        } else if ((otherId >= liveryIdOffset && otherId < liveryIdOffset*2) || typeof(otherId == "string")) {
+        } else if ((otherId >= liveryIdOffset && otherId < liveryIdOffset * 2) || typeof (otherId == "string")) {
             textures = getMPTexture(u, liveryEntry); // LS range 10k+10k
         } else {
             return; // game managed livery
@@ -701,7 +708,7 @@ function updateMultiplayer() {
             applyMPTexture(
                 texture.uri,
                 texture.tex,
-                img => u.model.changeTexture(img, {index: texture.index})
+                img => u.model.changeTexture(img, { index: texture.index })
             );
         });
     });
@@ -715,8 +722,8 @@ function updateMultiplayer() {
  */
 function applyMPTexture(url, tex, cb) {
     try {
-        Cesium.Resource.fetchImage({url}).then(img => {
-            const canvas = createTag('canvas', {width: tex._width, height: tex._height});
+        Cesium.Resource.fetchImage({ url }).then(img => {
+            const canvas = createTag('canvas', { width: tex._width, height: tex._height });
             canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
             cb(canvas.toDataURL('image/png'));
         });
@@ -735,8 +742,8 @@ function getMPTexture(u, liveryEntry) {
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
     console.log(u.currentLivery);
-    console.log(typeof(u.currentLivery));
-    if (typeof(u.currentLivery[0]) == "string"){
+    console.log(typeof (u.currentLivery));
+    if (typeof (u.currentLivery[0]) == "string") {
         console.log("VA detected");
         console.log(u.currentLivery);
         // try main texture on single-entry
@@ -803,10 +810,10 @@ function toggleDiv(id) {
     const target = window.event.target;
     if (target.classList.contains('closed')) {
         target.classList.remove('closed');
-        div.style.display='';
+        div.style.display = '';
     } else {
         target.classList.add('closed');
-        div.style.display='none';
+        div.style.display = 'none';
     }
 }
 
@@ -820,8 +827,8 @@ function toggleDiv(id) {
  */
 function createTag(name, attributes = {}, content = '') {
     const el = document.createElement(name);
-    Object.keys(attributes||{}).forEach(k => el.setAttribute(k, attributes[k]));
-    if ((''+content).length) {
+    Object.keys(attributes || {}).forEach(k => el.setAttribute(k, attributes[k]));
+    if (('' + content).length) {
         el.innerHTML = content;
     }
     return el;
@@ -957,7 +964,7 @@ function generatePanelButtonHTML() {
         'data-tooltip-classname': 'mdl-tooltip--top',
         'data-upgraded': ',MaterialButton'
     });
-    liveryButton.innerHTML = createTag('img', {src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px'}).outerHTML;
+    liveryButton.innerHTML = createTag('img', { src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px' }).outerHTML;
 
     return liveryButton;
 }
