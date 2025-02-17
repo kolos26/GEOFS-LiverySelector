@@ -31744,6 +31744,27 @@
                 "Texture"
             ],
             "name": "Boeing b737-600"
+        },
+        "5229": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "US Navy",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/texture_0.jpg"
+                    ],
+                    "credits": "AF267"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Lokheed Martin F35B Lightning II"
         }
     }
 }
