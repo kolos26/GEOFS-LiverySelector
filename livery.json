@@ -620,13 +620,6 @@
                     ]
                 },
                 {
-                    "name": "Comair Limited",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/comair.jpg"
-                    ]
-                },
-                {
                     "name": "Philippine Airlines",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -638,13 +631,6 @@
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/hcR28vY/raaf.jpg"
-                    ]
-                },
-                {
-                    "name": "Air Europa",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aireuropa.jpg"
                     ]
                 },
                 {
@@ -723,21 +709,7 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/wingo.png"
                     ]
-                },
-                {
-                    "name": "Thai Airways",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/thai.png"
-                    ]
-                },
-                {
-                    "name": "Janet",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Janet.png"
-                    ]
-                },
+                }
                 {
                     "name": "Air China",
                     "texture": [
@@ -804,13 +776,6 @@
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ramold.jpg"
-                    ]
-                },
-                {
-                    "name": "Viação Aérea São Paulo",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/vasp.jpg"
                     ]
                 },
                 {
@@ -923,15 +888,6 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "Citilink",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/citilink737-7.png"
-                    ],
-                    "credits": "Androway",
-                    "disabled": true
-                },
-                {
                     "name": "Southwest (California One livery)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -964,26 +920,10 @@
                     "credits": "GeoFS_TrailerGroup"
                 },
                 {
-                    "name": "Batik air",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/batik.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
-                },
-                {
                     "name": "Lion Air",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/lion.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
-                },
-                {
-                    "name": "Singapore Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/singapore.png"
                     ],
                     "credits": "leonardᵗᵃⁿ"
                 },
@@ -1042,22 +982,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700_T-99.png"
                     ],
                     "credits": "Felidorado"
-                },
-                {
-                    "name": "Aero Dili Timor Leste",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aerodili.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
-                },
-                {
-                    "name": "Malaysia Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/malaysia7377.png"
-                    ],
-                    "credits": "Androway"
                 },
                 {
                     "name": "Xiamen Airlines (old design)",
@@ -1172,14 +1096,6 @@
                     "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
-                    "name": "Citilink (Floral livery)",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/floral.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
-                },
-                {
                     "name": "Xiamen Airlines (new design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -1218,14 +1134,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeastern2010expo.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
-                },
-                {
-                    "name": "Helios Airways",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Helios Airways 737-700.png"
-                    ],
-                    "credits": "luca b"
                 },
                 {
                     "name": "Air Canada (old design)",
