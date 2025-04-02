@@ -346,7 +346,7 @@
                     "credits": "GeoFS"
                 },
                 {
-                    "name": "United (old design)",
+                    "name": "United Airlines (old design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_1.jpg"
@@ -426,7 +426,7 @@
                     "credits": "iuhairways"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_4.png"
@@ -482,7 +482,7 @@
                     "credits": "Ariakim Taiyo"
                 },
                 {
-                    "name": "China Eastern (new design)",
+                    "name": "China Eastern Airlines (new design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeastern.jpg"
@@ -543,7 +543,7 @@
                     ]
                 },
                 {
-                    "name": "United (new design)",
+                    "name": "United Airlines (new design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/unitednew.jpg"
@@ -592,7 +592,7 @@
                     ]
                 },
                 {
-                    "name": "United (Star Alliance livery)",
+                    "name": "United Airlines (Star Alliance livery)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/ZWDTvvN/b737-700.jpg"
@@ -620,13 +620,6 @@
                     ]
                 },
                 {
-                    "name": "Comair Limited",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/comair.jpg"
-                    ]
-                },
-                {
                     "name": "Philippine Airlines",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -638,13 +631,6 @@
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/hcR28vY/raaf.jpg"
-                    ]
-                },
-                {
-                    "name": "Air Europa",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aireuropa.jpg"
                     ]
                 },
                 {
@@ -725,20 +711,6 @@
                     ]
                 },
                 {
-                    "name": "Thai Airways",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/thai.png"
-                    ]
-                },
-                {
-                    "name": "Janet",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Janet.png"
-                    ]
-                },
-                {
                     "name": "Air China",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -747,7 +719,7 @@
                     "credits": "bilibili開飛機のzm[Sino Wings Group]"
                 },
                 {
-                    "name": "China Eastern (Yunnan Peacock livery - new design)",
+                    "name": "China Eastern Airlines (Yunnan Peacock livery - new design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchinapeacock.png"
@@ -804,13 +776,6 @@
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ramold.jpg"
-                    ]
-                },
-                {
-                    "name": "Viação Aérea São Paulo",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/vasp.jpg"
                     ]
                 },
                 {
@@ -923,15 +888,6 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "Citilink",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/citilink737-7.png"
-                    ],
-                    "credits": "Androway",
-                    "disabled": true
-                },
-                {
                     "name": "Southwest (California One livery)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -964,26 +920,10 @@
                     "credits": "GeoFS_TrailerGroup"
                 },
                 {
-                    "name": "Batik air",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/batik.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
-                },
-                {
                     "name": "Lion Air",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/lion.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
-                },
-                {
-                    "name": "Singapore Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/singapore.png"
                     ],
                     "credits": "leonardᵗᵃⁿ"
                 },
@@ -1020,7 +960,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinasouthern.png"
@@ -1044,22 +984,6 @@
                     "credits": "Felidorado"
                 },
                 {
-                    "name": "Aero Dili Timor Leste",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aerodili.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
-                },
-                {
-                    "name": "Malaysia Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/malaysia7377.png"
-                    ],
-                    "credits": "Androway"
-                },
-                {
                     "name": "Xiamen Airlines (old design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -1068,7 +992,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "China Eastern (Headquarters livery)",
+                    "name": "China Eastern Airlines (Headquarters livery)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/CE.png"
@@ -1156,7 +1080,7 @@
                     "credits": "GeoFS_TrailerGroup"
                 },
                 {
-                    "name": "China Eastern (Yunnan Peacock livery - old design)",
+                    "name": "China Eastern Airlines (Yunnan Peacock livery - old design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/peackokold.png"
@@ -1164,20 +1088,12 @@
                     "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
-                    "name": "China Eastern (old design)",
+                    "name": "China Eastern Airlines (old design)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeasternold.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
-                },
-                {
-                    "name": "Citilink (Floral livery)",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/floral.png"
-                    ],
-                    "credits": "leonardᵗᵃⁿ"
                 },
                 {
                     "name": "Xiamen Airlines (new design)",
@@ -1218,14 +1134,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeastern2010expo.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
-                },
-                {
-                    "name": "Helios Airways",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Helios Airways 737-700.png"
-                    ],
-                    "credits": "luca b"
                 },
                 {
                     "name": "Air Canada (old design)",
@@ -1284,36 +1192,12 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "Air North (old logo)",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/yukonold.jpeg"
-                    ],
-                    "credits": "Mathieu"
-                },
-                {
-                    "name": "Air North (new logo)",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/yukonnew.jpeg"
-                    ],
-                    "credits": "Mathieu"
-                },
-                {
-                    "name": "China Eastern (Shanghai Expo livery)",
+                    "name": "China Eastern Airlines (Shanghai Expo livery)",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeasternshangaiexpo.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
-                },
-                {
-                    "name": "Joly Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jolyairlines.jpg"
-                    ],
-                    "credits": "Mathieu"
                 },
                 {
                     "name": "Air China (Red Peony livery)",
@@ -1348,22 +1232,6 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Bul Air",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Bul_Air_737-700.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "Lufthansa",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Lufthansa_737.png"
-                    ],
-                    "credits": "Myklischa"
-                },
-                {
                     "name": "Air X Charter",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -1396,30 +1264,6 @@
                     "credits": "Pom-Pom d'Cat"
                 },
                 {
-                    "name": "Reliance Group T7-LOTUS",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/LOTUSPNG.png"
-                    ],
-                    "credits": "Pom-Pom d'Cat"
-                },
-                {
-                    "name": "Skymark",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/JA73AA.png"
-                    ],
-                    "credits": "magu"
-                },
-                {
-                    "name": "American Airlines (old desing)",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/American_Old.png"
-                    ],
-                    "credits": "Jeffa"
-                },
-                {
                     "name": "Air Namibia",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -1442,14 +1286,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/anabusisnessjet.jpg"
                     ],
                     "credits": "747lover"
-                },
-                {
-                    "name": "Swiftair (Operated by European Air Transport)",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Swiftair_x_DHL_-_B734_2.png"
-                    ],
-                    "credits": "Nichy"
                 },
                 {
                     "name": "Eastern Air Express",
@@ -1476,14 +1312,6 @@
                     "credits": "Cranberry"
                 },
                 {
-                    "name": "Sriwijaya Air",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Sriwijaya_Air_-_Boeing_735_4.png"
-                    ],
-                    "credits": "Nichy"
-                },
-                {
                     "name": "Jettime",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -1498,14 +1326,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/hainan.png"
                     ],
                     "credits": "HO1076[Sino Wings Group]"
-                },
-                {
-                    "name": "Star Perù",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Star_Peru_b737-700.png"
-                    ],
-                    "credits": "Kendry"
                 },
                 {
                     "name": "Japan Airlines",
@@ -1572,14 +1392,6 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "Greater Bay Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_9_3.jpg"
-                    ],
-                    "credits": "Burnin Hell"
-                },
-                {
                     "name": "Aeroflot",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -1596,7 +1408,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Aires Airlines",
+                    "name": "AIRES",
                     "texture": [
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/HK-4682.png"
@@ -2261,7 +2073,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinasouthern.jpg"
@@ -3007,7 +2819,7 @@
                     "credits": "Jeffa"
                 },
                 {
-                    "name": "United (planned livery)",
+                    "name": "United Airlines (planned livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/United_Concorde.png"
                     ],
@@ -4322,7 +4134,7 @@
                     ]
                 },
                 {
-                    "name": "United (2019- design)",
+                    "name": "United Airlines (2019- design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/united.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/united.png",
@@ -4406,7 +4218,7 @@
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/delta.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/delta.png",
@@ -4954,7 +4766,7 @@
                     ]
                 },
                 {
-                    "name": "Delta (old design)",
+                    "name": "Delta Air Lines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/deltaold.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/deltaold.png",
@@ -4968,7 +4780,7 @@
                     ]
                 },
                 {
-                    "name": "Delta (Skyteam livery)",
+                    "name": "Delta Air Lines (Skyteam livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/deltaskx.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/deltaskx.png",
@@ -6183,7 +5995,7 @@
             ],
             "liveries": [
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "/backend/aircraft/repository/GXD04N_126645_238/texture.png",
                         "/backend/aircraft/repository/GXD04N_126645_238/texture.png",
@@ -6391,7 +6203,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
@@ -6519,7 +6331,7 @@
                     ]
                 },
                 {
-                    "name": "Delta (Rolling Stones livery)",
+                    "name": "Delta Air Lines (Rolling Stones livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/rollingstones.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/rollingstones.png",
@@ -7425,7 +7237,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern.png",
@@ -7649,7 +7461,7 @@
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://i.ibb.co/9hnJPT2/texture.jpg",
                         "https://i.ibb.co/9hnJPT2/texture.jpg",
@@ -7719,7 +7531,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinasouthern.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinasouthern.png",
@@ -7959,7 +7771,7 @@
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "/backend/aircraft/repository/Philpians%20a319_230250_2879/texture_93.jpg"
                     ]
@@ -8196,7 +8008,7 @@
                     ]
                 },
                 {
-                    "name": "United (old design)",
+                    "name": "United Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/United_a319_old.png"
                     ]
@@ -8400,13 +8212,13 @@
                     ]
                 },
                 {
-                    "name": "United (new design)",
+                    "name": "United Airlines (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/t611.png"
                     ]
                 },
                 {
-                    "name": "United (Tulip design)",
+                    "name": "United Airlines (Tulip design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/t612.png"
                     ]
@@ -8711,7 +8523,7 @@
                     "credits": "yijiashanhangdeboyin737"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/chinaeastern.jpg"
                     ],
@@ -9222,7 +9034,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "credits": "Class323",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/chinasouth.png"
@@ -9993,7 +9805,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_234.jpg"
                     ]
@@ -10100,7 +9912,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/China%20Eastern%20787-9.png"
                     ]
@@ -10118,7 +9930,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/China_Southern_787-9_Final.png "
                     ]
@@ -10130,7 +9942,7 @@
                     ]
                 },
                 {
-                    "name": "United (retro livery)",
+                    "name": "United Airlines (retro livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20Saul%20Bass%20787-9.png"
                     ]
@@ -10456,7 +10268,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern (787th Boeing 787 livery)",
+                    "name": "China Southern Airlines (787th Boeing 787 livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/southern787.png"
                     ]
@@ -10474,7 +10286,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/united.png"
                     ]
@@ -10494,7 +10306,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/CHINA_EASTERN_B789.jpg"
                     ],
@@ -11173,7 +10985,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/China Eastern A320.png"
                     ],
@@ -11194,7 +11006,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/China Southern A320.png"
                     ],
@@ -11852,7 +11664,7 @@
                     "credits": "Spice9"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/delta.png"
                     ],
@@ -12342,7 +12154,7 @@
                     "credits": "leonardᵗᵃⁿ"
                 },
                 {
-                    "name": "China Eastern (Magnificent Qinghai livery)",
+                    "name": "China Eastern Airlines (Magnificent Qinghai livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/chinaeasternmagificent.png"
                     ],
@@ -12482,7 +12294,7 @@
                     "credits": "LAC"
                 },
                 {
-                    "name": "China Eastern (Young Pioneer livery)",
+                    "name": "China Eastern Airlines (Young Pioneer livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/chinaeasternyoungpioneer.png"
                     ],
@@ -12650,7 +12462,7 @@
                     "credits": "JuanMNG"
                 },
                 {
-                    "name": "China Eastern (2010 xi'an expo livery)",
+                    "name": "China Eastern Airlines (2010 xi'an expo livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/chinaeastern2010expo.png"
                     ],
@@ -13158,7 +12970,7 @@
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/DAL_A220.png"
                     ]
@@ -13511,7 +13323,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_39.3.jpg"
                     ]
@@ -13548,7 +13360,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_110.jpg"
                     ]
@@ -13638,7 +13450,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/chinasouthern.png"
                     ],
@@ -14162,13 +13974,13 @@
                     ]
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/chinaeastern.jpg"
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/delta.png"
                     ]
@@ -14318,7 +14130,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern (old design)",
+                    "name": "China Eastern Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/China_Eastern_Old_A320.png"
                     ]
@@ -14715,7 +14527,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_7.jpg"
                     ]
@@ -14899,7 +14711,7 @@
                     ]
                 },
                 {
-                    "name": "United (Star Wars - The rise of Skywalker livery)",
+                    "name": "United Airlines (Star Wars - The rise of Skywalker livery)",
                     "texture": [
                         "https://i.ibb.co/j8FnqhK/United-Star-Wars-737-Max-8.png"
                     ]
@@ -15053,7 +14865,7 @@
                     "credits": "Coolpilot11"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/chinasouthern.png"
                     ],
@@ -15161,7 +14973,7 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "United (wavy design)",
+                    "name": "United Airlines (wavy design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/wavyunited.png"
                     ],
@@ -15238,7 +15050,7 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/chinaeastern.png"
                     ],
@@ -15334,7 +15146,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "/backend/aircraft/repository/Boeing 787-10 Dreamliner (Etihad)_427352_3180/texture_43.jpg"
                     ]
@@ -15444,7 +15256,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/united.png"
                     ]
@@ -15678,7 +15490,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj700/delta/image0.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj700/delta/image1.png",
@@ -16021,7 +15833,7 @@
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_291.5.jpg"
                     ]
@@ -16123,7 +15935,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/ChineEastern%20738.jpg"
                     ]
@@ -16273,7 +16085,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern (Yunnan Peacock livery)",
+                    "name": "China Eastern Airlines (Yunnan Peacock livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/peacock.png"
                     ],
@@ -16418,7 +16230,7 @@
                     ]
                 },
                 {
-                    "name": "Delta (skyteam livery)",
+                    "name": "Delta Air Lines (skyteam livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/737-800_delta_skyteam.jpg"
                     ]
@@ -16546,7 +16358,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/chinasouthern.png"
                     ],
@@ -16619,7 +16431,7 @@
                     ]
                 },
                 {
-                    "name": "United (old design)",
+                    "name": "United Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20737-800%20Old.png"
                     ]
@@ -16644,7 +16456,7 @@
                     "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
-                    "name": "United (new design)",
+                    "name": "United Airlines (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20737-800%20New.png"
                     ]
@@ -17090,7 +16902,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern (Guizhou livery)",
+                    "name": "China Southern Airlines (Guizhou livery)",
                     "credits": "HO1076[Sino Wings Group]",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/guizhou.png"
@@ -19529,14 +19341,14 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/China_Eastern_737-200.png"
                     ],
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/China_Southern_737-200.png"
                     ],
@@ -19958,7 +19770,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/chinasouthern.png"
                     ],
@@ -20199,7 +20011,7 @@
                     "credits": "QuebecAviationYT"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/China_Southern_Saab.png"
                     ],
@@ -21069,7 +20881,7 @@
                     "credits": "LAC"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/DELTA_3.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/DELTA_3.png"
@@ -21466,7 +21278,7 @@
                     "credits": "GeoFS"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900Delta_Airlines_A350-900.jpg"
@@ -21584,7 +21396,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern.jpg"
@@ -21615,7 +21427,7 @@
                     "credits": "abaca_193"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/southern.png"
@@ -21718,7 +21530,7 @@
                     "credits": "bilibili開飛機のzm[Sino Wings Group]"
                 },
                 {
-                    "name": "China Eastern (1st Airbus A350 delivered form China livery)",
+                    "name": "China Eastern Airlines (1st Airbus A350 delivered form China livery)",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinaeastern1st.jpg"
@@ -21749,7 +21561,7 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/united.png"
@@ -21796,7 +21608,7 @@
                     "credits": "bilibili開飛機のzm[Sino Wings Group]"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/chinasouthern.jpg"
@@ -22168,7 +21980,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Southern (China Moutai livery)",
+                    "name": "China Southern Airlines (China Moutai livery)",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/30CE.png"
@@ -22400,7 +22212,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "Delta (The Spirit of Delta livery)",
+                    "name": "Delta Air Lines (The Spirit of Delta livery)",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Delta_Airlines_The_Delta_Spirit_Sticker_A350-900.jpg"
@@ -22408,7 +22220,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "Delta (Team USA livery)",
+                    "name": "Delta Air Lines (Team USA livery)",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Delta_Airlines_Team_USA_Livery_A350-900.jpg.png"
@@ -22416,7 +22228,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "Delta (100th anniversary livery)",
+                    "name": "Delta Air Lines (100th anniversary livery)",
                     "texture": [
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Delta_Airlines_100th_Aniversary_Livery_A350-900.jpg.png"
@@ -22535,7 +22347,7 @@
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/delta.png"
                     ],
@@ -23134,7 +22946,7 @@
                     ]
                 },
                 {
-                    "name": "Delta (new concept)",
+                    "name": "Delta Air Lines (new concept)",
                     "credits": "GEO-FS-FLIGHTS[YT]",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/deltaconcept.png"
@@ -23211,7 +23023,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "credits": "CNParrot",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/chinaeastern.png"
@@ -23323,7 +23135,7 @@
                     "credits": "Coolpilot11"
                 },
                 {
-                    "name": "United",
+                    "name": "United Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/9luca_untd.jpg"
                     ],
@@ -23392,7 +23204,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/20cp11_chinasouth.jpg"
                     ],
@@ -23935,7 +23747,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/chinaeastern.jpg"
                     ],
@@ -24153,7 +23965,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Delta (Blue tail design - unpainted)",
+                    "name": "Delta Air Lines (Blue tail design - unpainted)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Delta_Blue_A321Neo.png"
                     ],
@@ -24230,7 +24042,7 @@
                     "credits": "concordeandferrarifan"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/delta321neo-liv.png"
                     ],
@@ -24258,7 +24070,7 @@
                     "credits": "Ivan Dimitrev"
                 },
                 {
-                    "name": "Delta (100 years anniversary livery)",
+                    "name": "Delta Air Lines (100 years anniversary livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Delta_100_years_A321neo.png"
                     ],
@@ -24504,7 +24316,7 @@
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-300wl/Delta.jpg"
                     ]
@@ -24961,14 +24773,14 @@
                     ]
                 },
                 {
-                    "name": "United (old design)",
+                    "name": "United Airlines (old design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/unitedold.png"
                     ]
                 },
                 {
-                    "name": "United (new design)",
+                    "name": "United Airlines (new design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/unitednew.png"
@@ -25018,14 +24830,14 @@
                     ]
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinasouthern.png"
                     ]
                 },
                 {
-                    "name": "China Southern (Big English design)",
+                    "name": "China Southern Airlines (Big English design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinasouthernbigenglish.png"
@@ -25070,7 +24882,7 @@
                     "credits": "bilibili開飛機のzm[Sino Wings Group]"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinaeastern.png"
@@ -25206,7 +25018,7 @@
                     ]
                 },
                 {
-                    "name": "United (Star Alliance livery)",
+                    "name": "United Airlines (Star Alliance livery)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/unitedstar.png"
@@ -25800,7 +25612,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/delta.jpg"
@@ -26455,7 +26267,7 @@
                     ]
                 },
                 {
-                    "name": "China Southern (SkyTeam livery)",
+                    "name": "China Southern Airlines (SkyTeam livery)",
                     "credits": "HO1076[Sino Wings Group]",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
@@ -27014,25 +26826,25 @@
             ],
             "liveries": [
                 {
-                    "name": "United (Star Alliance livery)",
+                    "name": "United Airlines (Star Alliance livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/untdstr.png"
                     ]
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Delta%20767-400ER.png"
                     ]
                 },
                 {
-                    "name": "Delta (Skyteam livery)",
+                    "name": "Delta Air Lines (Skyteam livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Delta%20Skyteam%20767-400ER.png"
                     ]
                 },
                 {
-                    "name": "Delta (BCRF livery)",
+                    "name": "Delta Air Lines (BCRF livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/Delta%20old%20BRCF%20767-400ER.png"
                     ]
@@ -27050,19 +26862,19 @@
                     ]
                 },
                 {
-                    "name": "United (old design)",
+                    "name": "United Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20767-400ER.png"
                     ]
                 },
                 {
-                    "name": "United (new design)",
+                    "name": "United Airlines (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/United%20New%20767-400ER.png"
                     ]
                 },
                 {
-                    "name": "United (Tulip design)",
+                    "name": "United Airlines (Tulip design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-400er/United_Blue_Tulip_767-400ER.png"
                     ]
@@ -27685,7 +27497,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/CE321.png"
                     ],
@@ -27895,7 +27707,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Eastern (old design)",
+                    "name": "China Eastern Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/China Eastern Old A321.png"
                     ],
@@ -27909,7 +27721,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/China Southern A321.png"
                     ],
@@ -27958,7 +27770,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Delta A321.png"
                     ],
@@ -28280,7 +28092,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "American",
+                    "name": "American Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/American A321.png"
                     ],
@@ -28448,7 +28260,7 @@
                     "credits": "HO1076[Sino Wings Group]"
                 },
                 {
-                    "name": "China Southern (Moutai livery)",
+                    "name": "China Southern Airlines (Moutai livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/moutai.png"
                     ],
@@ -28574,7 +28386,7 @@
                     "credits": "Rick"
                 },
                 {
-                    "name": "China Southern (SkyTeam livery)",
+                    "name": "China Southern Airlines (SkyTeam livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/chinasouthsky.png"
                     ],
@@ -28952,7 +28764,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a340-300/China Eastern A340-300.png"
                     ],
@@ -29365,7 +29177,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "China Eastern (Millenium Flight livery)",
+                    "name": "China Eastern Airlines (Millenium Flight livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a340-300/China_Eastern_Millenium_Flight_A343.png"
                     ],
@@ -29771,7 +29583,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/MU332.png"
                     ],
@@ -29890,7 +29702,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "China Eastern (Yunnan Peacock livery)",
+                    "name": "China Eastern Airlines (Yunnan Peacock livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/China_Eastern_Yunnan_A332.png"
                     ],
@@ -29967,7 +29779,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "China Southern (Guangzhou 2010 16th Asian games livery)",
+                    "name": "China Southern Airlines (Guangzhou 2010 16th Asian games livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/asiangames.png"
                     ],
@@ -30142,7 +29954,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Delta_A332.png"
                     ],
@@ -30289,14 +30101,14 @@
                     "credits": "bilibili開飛機のzm[Sino Wings Group]"
                 },
                 {
-                    "name": "China Southern (SkyTeam logo)",
+                    "name": "China Southern Airlines (SkyTeam logo)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/CZ332-2.png"
                     ],
                     "credits": "bilibili開飛機のzm[Sino Wings Group]"
                 },
                 {
-                    "name": "China Eastern (China Eastern People's Daily Online livery)",
+                    "name": "China Eastern Airlines (China Eastern People's Daily Online livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/cepeople.png"
                     ],
@@ -30317,7 +30129,7 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "China Eastern (SkyTeam livery)",
+                    "name": "China Eastern Airlines (SkyTeam livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/6538.png"
                     ],
@@ -30464,7 +30276,7 @@
                     "credits": "GEO-FS-FLIGHTS[YT]"
                 },
                 {
-                    "name": "China Eastern (50th A330 for China Eastern sticker)",
+                    "name": "China Eastern Airlines (50th A330 for China Eastern sticker)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/ce50.png"
                     ],
@@ -30576,7 +30388,7 @@
                     "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
-                    "name": "China Eastern (Shanghai 2022 Worldskills livery)",
+                    "name": "China Eastern Airlines (Shanghai 2022 Worldskills livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/chinaeastern2022worldskill.png"
                     ],
@@ -30618,7 +30430,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern (old design)",
+                    "name": "China Eastern Airlines (old design)",
                     "credits": "luca b",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/China_Eastern_old_A332.png"
@@ -30646,14 +30458,14 @@
                     ]
                 },
                 {
-                    "name": "China Eastern (Xinhua.com livery)",
+                    "name": "China Eastern Airlines (Xinhua.com livery)",
                     "credits": "HO1076[Sino Wings Group]",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/xinhua.png"
                     ]
                 },
                 {
-                    "name": "China Southern (SkyTeam livery)",
+                    "name": "China Southern Airlines (SkyTeam livery)",
                     "credits": "HO1076[Sino Wings Group]",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/chinasouthsky.png"
@@ -31220,7 +31032,7 @@
                     ]
                 },
                 {
-                    "name": "China Eastern (Greenland Group livery)",
+                    "name": "China Eastern Airlines (Greenland Group livery)",
                     "credits": "HO1076[Sino Wings Group]",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/chinaeasterngreenland.png"
@@ -31703,7 +31515,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "China Southern",
+                    "name": "China Southern Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a318-112/China Southern A318.png"
                     ],
@@ -33162,7 +32974,7 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "Delta",
+                    "name": "Delta Air Lines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/delta747-8i.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
@@ -33970,7 +33782,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "United (old livery)",
+                    "name": "United Airlines (old livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/747united.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
@@ -33978,7 +33790,7 @@
                     "credits": "Youtube VR PoZz"
                 },
                 {
-                    "name": "United (Blue Tulip design - Star Alliance livery)",
+                    "name": "United Airlines (Blue Tulip design - Star Alliance livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/United_Blue_Tulip_Star_Alliance_747.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
@@ -35302,7 +35114,7 @@
             "parts": [
                 0
             ],
-            "liveries":[
+            "liveries": [
                 {
                     "name": "Air Algerie",
                     "texture": [
