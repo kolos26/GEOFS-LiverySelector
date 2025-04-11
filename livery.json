@@ -3023,7 +3023,8 @@
                     "name": "PanAm (planned livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/panam.jpg"
-                    ]
+                    ],
+                    "credits": "CNParrot"
                 },
                 {
                     "name": "Académie de l'Air et de l'Espace (Aeroscopia museum piece)",
@@ -36652,6 +36653,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/ROKAF_F-35.jpg"
                     ],
                     "credits": "Raptor4001"
+                },
+                {
+                    "name": "Brazilian Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/F-35_FAB_Livery_2048_x_2048.png"
+                    ],
+                    "credits": "One1"
                 }
             ],
             "labels": [
