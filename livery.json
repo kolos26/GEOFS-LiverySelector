@@ -1897,6 +1897,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/smartavia.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Shenzen Airlines (old design)",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shenzenold.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -13200,6 +13208,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/LATAM_Chile_Livery_-_Airbus_A320-214.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Juneyao Air (Flowers see China livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/juneyao-flower.jpg"
+                    ],
+                    "credits": "yijiashanhangdeboyin737"
                 }
             ],
             "labels": [
@@ -23628,6 +23643,13 @@
                     "credits": "Raptor4001",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/rokaf_a330.png"
+                    ]
+                },
+                {
+                    "name": "China Airlines (Phalaenopsis livery)",
+                    "credits": "yijiashanhangdeboyin737",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/chinaflower.png"
                     ]
                 }
             ],
@@ -35862,7 +35884,7 @@
                     ]
                 },
                 {
-                    "name": "Royal Air Forece - 322 (Dutch) Squadron 3W-F - Invasion Stripes",
+                    "name": "Royal Air Force - 322 (Dutch) Squadron 3W-F - Invasion Stripes",
                     "credits": "Rick",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/3-WF-Invasion-Stripes.jpg",
@@ -35915,7 +35937,7 @@
                     ]
                 },
                 {
-                    "name": "Royal Air Forece - 349 (Belgian) Squadron - Ivan Du Monceau de Bergendal commander",
+                    "name": "Royal Air Force - 349 (Belgian) Squadron - Ivan Du Monceau de Bergendal commander",
                     "credits": "Rick",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/Ivan-Du-Monceau-De-Bergendal.jpg",
@@ -35968,10 +35990,10 @@
                     ]
                 },
                 {
-                    "name": "Royal Air Forece - 350 (Belgian) Squadron - Mike Donnet",
+                    "name": "Royal Air Force - 350 (Belgian) Squadron - Mike Donnet",
                     "credits": "Rick",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/Ivan-Du-Monceau-De-Bergendal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/Mike-Donnet.jpg",
                         {
                             "material": 0
                         },
@@ -36021,7 +36043,7 @@
                     ]
                 },
                 {
-                    "name": "Belgian Air Forece - 1st Squadron",
+                    "name": "Belgian Air Force - 1st Squadron - 1946",
                     "credits": "Rick",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/1st-Squadron-Belgian-Air-Force-1946.jpg",
@@ -36042,9 +36064,9 @@
                         {
                             "name": "Prop Cone",
                             "baseColorFactor": [
-                                0.929,
-                                0.157,
-                                0.224
+                                0.20689654350280762,
+                                0.0,
+                                0.0
                             ]
                         },
                         {
