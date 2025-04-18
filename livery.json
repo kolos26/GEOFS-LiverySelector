@@ -26,11 +26,18 @@
                     "credits": "GeoFS"
                 },
                 {
-                    "name": "NC29508_1.png",
+                    "name": "NC29508",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_cub/NC29508_1.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "US Army Air Corps - 1940",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_cub/US-Army-Air-Corps.jpg"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -269,6 +276,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_172/auburn.png"
                     ],
                     "credits": "lateaviationfan"
+                },
+                {
+                    "name": "Irish Air Corps",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_172/Irish-Air-Corps.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Royal Netherlands Air Force Historical Flight",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_172/KLuHV.png"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -919,7 +940,7 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/SouthWest_Colorado_One.png"
                     ],
-                    "credits": "Nichy"
+                    "credits": "air1usa"
                 },
                 {
                     "name": "Garuda Indonesia (new design)",
@@ -1905,6 +1926,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shenzenold.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "VASP",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/VASP_737-700.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -2046,6 +2075,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/chinageneral/right.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Aurora",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/aurora/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/aurora/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/aurora/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/aurora/right.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -2570,7 +2609,7 @@
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesfoundation.png"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "Virgin Atlantic (new design - planned livery)",
@@ -2642,7 +2681,7 @@
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesopportunity.png"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "Emirates (Sustainability livery)",
@@ -2650,7 +2689,7 @@
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratessustainibility.jpg"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "Emirates (Mobility livery)",
@@ -2658,7 +2697,7 @@
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesmobility.png"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "Emirates (unpainted)",
@@ -4334,6 +4373,33 @@
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/citroen_2cv/limenew.jpg"
+                    ]
+                },
+                {
+                    "name": "FOLLOW ME",
+                    "credits": "Rick",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/citroen_2cv/FollowMe.jpg"
+                    ]
+                },
+                {
+                    "name": "San Francisco Police Department",
+                    "credits": "Raptor4001",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/citroen_2cv/police.jpg"
+                    ]
+                },
+                {
+                    "name": "New York Police Department",
+                    "credits": "Raptor4001",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/citroen_2cv/NYPD.jpg"
                     ]
                 }
             ],
@@ -6219,7 +6285,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/tamoneworld.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/tamoneworld.jpg"
                     ],
-                    "credits": "Lego and Avgeek YT"
+                    "credits": "747lover"
                 },
                 {
                     "name": "Aeromexico (2 doors version)",
@@ -6491,22 +6557,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/greenland.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/greenland.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/greenland.jpg"
-                    ]
-                },
-                {
-                    "name": "United",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/united.jpg"
                     ]
                 },
                 {
@@ -7048,17 +7098,17 @@
                 {
                     "name": "United Airlines (Evo Blue design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Battleship_Gray_757-200.png"
                     ],
                     "credits": "luca b"
                 },
@@ -7212,6 +7262,40 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Aeroflot_757-200.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Aeroflot_757-200.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Aeroflot_757-200.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "U2 - The Joshua Tree Tour 2017",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Joshua-Tree-Tour2017.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "United Airlines (Battleship Grey design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/United_Evo_Blue_757-200.png"
                     ],
                     "credits": "luca b"
                 }
@@ -8833,6 +8917,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/westair.jpg"
                     ],
                     "credits": "XingHaoAirlines"
+                },
+                {
+                    "name": "Aurora",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/Aurora_a319.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Aurora (Amur Tiger livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/a319_Aurora_Amur_Tiger_livery.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -9659,6 +9757,27 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/iberiaregionalold.jpg"
                     ],
                     "credits": "yijiashanhangdeboyin737"
+                },
+                {
+                    "name": "Jump Air (white design - LY-JUP)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Jump_Air_white_design___LY-JUP_-_Aerospatiale_ATR_72-600.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Jump Air (white design - LY-JUA)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Jump_Air_White_design___LY-JUA_-_Aerospatiale_ATR_72-600.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Georgian Wings",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Georgian_Wings_-_Aerospatiale_ATR_72-600.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -9979,8 +10098,9 @@
                 {
                     "name": "Qantas",
                     "texture": [
-                        "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_51.jpg"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/qantas.jpg"
+                    ],
+                    "credits": "RYANAIR5719"
                 },
                 {
                     "name": "KLM",
@@ -10959,6 +11079,13 @@
                     "name": "IndiGo (leased from North Atlantic)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/Norse_Atlantic_Indigo_Leased_787-9.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Riyadh Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/Riyadh_Air_787-9.png"
                     ],
                     "credits": "luca b"
                 }
@@ -13215,6 +13342,27 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/juneyao-flower.jpg"
                     ],
                     "credits": "yijiashanhangdeboyin737"
+                },
+                {
+                    "name": "Air Asia (Taylor Swift Red Tour 2014 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Taylor-Swift-Red2014.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Air Canada (U2 360 Tour livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/U2-360-Tour.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "China Eastern Airlines (Disney World Shanghai's Zootopia livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/China_Eastern_Airlines_Disney_World_Shanghais_Zootopia_Livery_-_Airbus_A320-232.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -13476,133 +13624,155 @@
                     "name": "Indigo",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_1.5.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Vistara",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_2.5.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Air Asia",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_3.5.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Nepal Airlines",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_157.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Gulf Air",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_1.6.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Kuwait Airways",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_2.6.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Egypt Air",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_3.6.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Qatar Airways",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_4.5.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Scoot",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_4.6.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Aegean",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_5.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "WIZZ",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_6.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Azul",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871//texture_7.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Airbus house livery",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_9.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Air Astana",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_10.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Iberia",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_11.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Air Seychelles",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_12.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "VIVA (pink design)",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_13.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "LATAM",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_15.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "SAS",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_17.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "JetStar",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_18.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
-                    "name": "Spirit",
+                    "name": "Spirit (old livery)",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_21.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "Air cote d'ivoire",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_24.3.jpg"
-                    ]
+                    ],
+                    "credits": "Spice9"
                 },
                 {
                     "name": "TAP",
@@ -13629,7 +13799,8 @@
                     "name": "Lufthansa (new design)",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_26.3.jpg"
-                    ]
+                    ],
+                    "credits": "iuhairways"
                 },
                 {
                     "name": "Easyjet (NEO livery)",
@@ -14823,9 +14994,16 @@
                 {
                     "name": "LATAM (Librea Brasileña)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/LATAM_Brazil_Livery_-_Airbus_A320-251N.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Spirit (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/spirit-new.jpg"
+                    ],
+                    "credits": "AF267"
                 }
             ],
             "labels": [
@@ -17941,13 +18119,6 @@
                     "credits": "Torchivory"
                 },
                 {
-                    "name": "Southwest (Colorado One livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Southwest-Airlines-Colorado-One.png"
-                    ],
-                    "credits": "air1usa"
-                },
-                {
                     "name": "Pobeda (My mom's on board livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/podebamum.jpg"
@@ -17960,6 +18131,48 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/kuayue.png"
                     ],
                     "credits": "yijiashanhangdeboyin737"
+                },
+                {
+                    "name": "Georgian Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/georgian.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Georgian Airways (white tail design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/georgianwhite.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Southwest (Tennessee One livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Southwest-Airlines-tennessee-one.png"
+                    ],
+                    "credits": "air1usa"
+                },
+                {
+                    "name": "7Air Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/7Air_Cargo_-_Boeing_737-8BCF.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Southwest (Triple Crown livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Southwest-Triple-Crown-Livery.png"
+                    ],
+                    "credits": "air1usa"
+                },
+                {
+                    "name": "Southwest (Nevada One livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Southwest-Airlines-Nevada-One-Livery.png"
+                    ],
+                    "credits": "air1usa"
                 }
             ],
             "labels": [
@@ -20853,6 +21066,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/Royal-Thai-Air-Force.png"
                     ],
                     "credits": "Rick"
+                },
+                {
+                    "name": "British Airways (operated by Loganair)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/British-Airways.png"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -21851,6 +22071,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/polish/engines.jpg"
                     ],
                     "credits": "Rick"
+                },
+                {
+                    "name": "JetBlue",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/jetblue/fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/jetblue/wings.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/jetblue/engines.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -21966,7 +22195,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/qatar.jpg"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "Singapore Airlines",
@@ -22175,7 +22404,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/emiratesnew.png"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT & Burnin Hell"
+                    "credits": "GFVG-YT[10thGeo-Owner] & Burnin Hell"
                 },
                 {
                     "name": "Sichuan Airlines (Panda livery B-301D)",
@@ -22787,7 +23016,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/a6exb.png"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "ITA Airways (Inspired by Alitalia livery)",
@@ -24911,6 +25140,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/2solo.png"
                     ],
                     "credits": "Desirex"
+                },
+                {
+                    "name": "Belgian Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/Belgian-Air-Force.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Royal Netherlands Air Force - 2005 Demo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/J-055-demo.png"
+                    ],
+                    "credits": "Rick & Hobbymaker"
+                },
+                {
+                    "name": "Royal Netherlands Air Force - Farewell Falcon J-197",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/Farewellfalcon.png"
+                    ],
+                    "credits": "Rick & Hobbymaker"
+                },
+                {
+                    "name": "US Air Force - 64th Agressor squadron",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/18th-aggressors-squadron-black-and-red-F16.png"
+                    ],
+                    "credits": "air1usa"
                 }
             ],
             "labels": [
@@ -25357,7 +25614,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/emirates.png"
-                    ]
+                    ],
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "Air China",
@@ -25372,7 +25630,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Korean.png"
-                    ]
+                    ],
+                    "credits": "HO1076[Sino Wings Group]"
                 },
                 {
                     "name": "Saudia",
@@ -26899,7 +27158,7 @@
                 },
                 {
                     "name": "Emirates (1000th 777 livery)",
-                    "credits": "GeoFSFlightVideoGroupYT",
+                    "credits": "GFVG-YT[10thGeo-Owner]",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/emirates1000.png"
@@ -27055,7 +27314,7 @@
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/emirateszayed.jpg"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "JIN AIR",
@@ -27138,12 +27397,20 @@
                     "credits": "sshreyaspathak"
                 },
                 {
-                    "name": "China Shouthern Cargo (white design)",
+                    "name": "China Southern Cargo (white design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinasouthernwhite.png"
                     ],
                     "credits": "XingHaoAirlines"
+                },
+                {
+                    "name": "Emirates (Mobility livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/emiratesmobilityjpg"
+                    ],
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 }
             ],
             "labels": [
@@ -27445,6 +27712,20 @@
                     "name": "Dutch Coast Guard",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/Dutch-Coast-Guard.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "German Navy",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/Deutsche-Marine.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Olympic Aviation",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-200/Olympic.png"
                     ],
                     "credits": "Rick"
                 }
@@ -29108,6 +29389,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Livery-A321-Viva-Aerobus.png"
                     ],
                     "credits": "nothingy"
+                },
+                {
+                    "name": "Lufthansa (retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Lufthansa-rtro.png"
+                    ],
+                    "credits": "nothingy"
                 }
             ],
             "labels": [
@@ -30249,6 +30537,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a340-300/chinaeasternsky.jpg"
                     ],
                     "credits": "XingHaoAirlines"
+                },
+                {
+                    "name": "Air Canada (1964 design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a340-300/Air_Canada_Retro.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Austrian Airlines (Wiener Philharmoniker livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a340-300/Wiener-Philharmoniker.jpg"
+                    ],
+                    "credits": "Rick & Pierre Dupont"
+                },
+                {
+                    "name": "HiFly Malta (9H-SOL)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a340-300/9h-sol__1___1_.jpg"
+                    ],
+                    "credits": "Nighthearth"
+                },
+                {
+                    "name": "VASP Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a340-300/VASP_Cargo_A340-300.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -32048,6 +32364,34 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Nepal_Airlines_-_Airbus_A330-200.png"
                     ]
+                },
+                {
+                    "name": "SWISS",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Swiss_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "SWISS (Novartis sticker)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Swiss_Novartis_logo_sticker_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "Premiair",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Premiair_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "MyTravel Airways (ex Premiair)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Mytravel_Airways_Ex_Premiair_design_A330-200.png"
+                    ]
                 }
             ],
             "labels": [
@@ -33012,7 +33356,7 @@
                     "credits": "AF267"
                 },
                 {
-                    "name": "Lufthansa (Retro livery)",
+                    "name": "Lufthansa (retro livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/747-8LuftyRetro.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
@@ -33289,7 +33633,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/philippines.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
                     ],
-                    "credits": "GeoFSFlightVideoGroupYT"
+                    "credits": "GFVG-YT[10thGeo-Owner]"
                 },
                 {
                     "name": "Qantas (Flying Kangaroo design)",
@@ -36094,6 +36438,218 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "Royal Netherlands Air Force - 322th Squadron - Kalidjati 1948",
+                    "credits": "Rick",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/322NEI.jpg",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        },
+                        {
+                            "material": 2
+                        },
+                        {
+                            "material": 3
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Prop Cone",
+                            "baseColorFactor": [
+                                0.969,
+                                0.4,
+                                0.051
+                            ]
+                        },
+                        {
+                            "name": "Wings Red",
+                            "baseColorFactor": [
+                                0.192,
+                                0.227,
+                                0.161
+                            ]
+                        },
+                        {
+                            "name": "Wings Yellow",
+                            "baseColorFactor": [
+                                0.192,
+                                0.227,
+                                0.161
+                            ]
+                        },
+                        {
+                            "name": "Canopy Metal",
+                            "baseColorFactor": [
+                                0.192,
+                                0.227,
+                                0.161
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Royal Netherlands Air Force Historical Flight - 3W17 (PH-OUQ)",
+                    "credits": "Rick",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/3w17.png",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        },
+                        {
+                            "material": 2
+                        },
+                        {
+                            "material": 3
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Prop Cone",
+                            "baseColorFactor": [
+                                0.004,
+                                0.212,
+                                0.345
+                            ]
+                        },
+                        {
+                            "name": "Wings Red",
+                            "baseColorFactor": [
+                                0.569,
+                                0.569,
+                                0.569
+                            ]
+                        },
+                        {
+                            "name": "Wings Yellow",
+                            "baseColorFactor": [
+                                0.569,
+                                0.569,
+                                0.569
+                            ]
+                        },
+                        {
+                            "name": "Canopy Metal",
+                            "baseColorFactor": [
+                                0.569,
+                                0.569,
+                                0.569
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Luftwaffe - T9+EB",
+                    "credits": "Rick",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/Luftwaffe-T9-EB.jpg",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        },
+                        {
+                            "material": 2
+                        },
+                        {
+                            "material": 3
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Prop Cone",
+                            "baseColorFactor": [
+                                0.149,
+                                0.18,
+                                0.122
+                            ]
+                        },
+                        {
+                            "name": "Wings Red",
+                            "baseColorFactor": [
+                                0.149,
+                                0.18,
+                                0.122
+                            ]
+                        },
+                        {
+                            "name": "Wings Yellow",
+                            "baseColorFactor": [
+                                0.149,
+                                0.18,
+                                0.122
+                            ]
+                        },
+                        {
+                            "name": "Canopy Metal",
+                            "baseColorFactor": [
+                                0.149,
+                                0.18,
+                                0.122
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Luftwaffe - T9+EB",
+                    "credits": "Rick",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/spitfire/ironmaiden.jpg",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        },
+                        {
+                            "material": 2
+                        },
+                        {
+                            "material": 3
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Prop Cone",
+                            "baseColorFactor": [
+                                0.757,
+                                0.753,
+                                0.49
+                            ]
+                        },
+                        {
+                            "name": "Wings Red",
+                            "baseColorFactor": [
+                                0.757,
+                                0.753,
+                                0.49
+                            ]
+                        },
+                        {
+                            "name": "Wings Yellow",
+                            "baseColorFactor": [
+                                0.757,
+                                0.753,
+                                0.49
+                            ]
+                        },
+                        {
+                            "name": "Canopy Metal",
+                            "baseColorFactor": [
+                                0.224,
+                                0.247,
+                                0.204
+                            ]
+                        }
+                    ]
                 }
             ],
             "labels": [
@@ -36535,6 +37091,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/garuda736.png"
                     ],
                     "credits": "Androway"
+                },
+                {
+                    "name": "Georgian Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/georgian.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
