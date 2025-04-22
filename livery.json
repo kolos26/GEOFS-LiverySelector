@@ -2971,10 +2971,42 @@
                     "credits": "Kolos26"
                 },
                 {
-                    "name": "Red Bull - Flying Bulls Aerobaric Team",
+                    "name": "Red Bull - Flying Bulls",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/speculars/RedBull.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/RedBull.jpg"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Luftwaffe - T9+XB",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/speculars/yippee.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/Luftwaffe-T9-XB.jpg"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Spartan Air Services",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/speculars/Spartan-Air-Services.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/Spartan-Air-Services.jpg"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Honduran Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/speculars/Honduran-Air-Force.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/Honduran-Air-Force.jpg"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Italian Air Force - 4º Stormo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/speculars/Italian-Air-Force4-Stormo.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/Italian-Air-Force4-Stormo.jpg"
                     ],
                     "credits": "Rick"
                 }
@@ -3043,7 +3075,7 @@
                     "credits": "Raptor4001"
                 },
                 {
-                    "name": "Peoples' Republic of China Air Force",
+                    "name": "People's Livberation Army Air Force",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/china.jpg"
                     ],
@@ -4434,6 +4466,15 @@
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/citroen_2cv/NYPD.jpg"
+                    ]
+                },
+                {
+                    "name": "Spot",
+                    "credits": "Raptor4001",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/citroen_2cv/Spot.png"
                     ]
                 }
             ],
@@ -7248,7 +7289,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/fedex.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/fedex.png"
                     ],
-                    "credits": "yijiashanhangdeboyin737"
+                    "credits": "luca b"
                 },
                 {
                     "name": "Samaritan's Purse",
@@ -25346,6 +25387,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/18th-aggressors-squadron-black-and-red-F16.png"
                     ],
                     "credits": "air1usa"
+                },
+                {
+                    "name": "Italian Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/Italian-Air-Force.png"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -32598,6 +32646,20 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Thomas_Cook_Scandinavia_Airlines_Old_Design_A330-200.png"
                     ]
+                },
+                {
+                    "name": "Thomas Cook Airlines Scandinavia (Heart design)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Thomas_Cook_Scandinavia_Airlines_Heart_Design_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "Sunclass Airlines",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Sunclass_Airlines_A330-200.png"
+                    ]
                 }
             ],
             "labels": [
@@ -33541,6 +33603,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/Northrop_Grumman_L1001_Stargazer.png"
                     ],
                     "credits": "SoyDave"
+                },
+                {
+                    "name": "Air Transat (new livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/Air_Transat_L-1011_Version_2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/shaders/prototype.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_L1011-1_TriStar/Air_Transat_L-1011_Version_2.png"
+                    ],
+                    "credits": "JustFrost"
                 }
             ],
             "labels": [
@@ -37743,7 +37814,34 @@
                 "Main",
                 "Tail"
             ],
+            "mp": "multi",
             "name": "Beechcraft B55 Baron"
+        },
+        "2788": {
+            "index": [
+                0,
+                3
+            ],
+            "parts":[
+                0,
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Antonov Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an225/antonov/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an225/antonov/engine.jpg"
+                    ],
+                    "credits": "NS-Studoios"
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Engine texture"
+            ],
+            "mp": "multi",
+            "name": "Antonov An-225 Mriya"
         }
     }
 }
