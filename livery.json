@@ -1941,6 +1941,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/VASP_737-700.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Malaysia Airlines (old design)",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_32.jpg"
+                    ],
+                    "credits": "Burnin Hell"
                 }
             ],
             "labels": [
@@ -21697,6 +21705,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Martinair-Holland-PH-MAA.jpg"
                     ],
                     "credits": "Rick"
+                },
+                {
+                    "name": "Aer Lingus",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-aer-lingus.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Aer-Lingus.png"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -32659,6 +32676,13 @@
                     "credits": "Lego and Avgeek YT",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Sunclass_Airlines_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "Compagnie Africain d'Aviation",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/CAA_Congo_A330-200.png"
                     ]
                 }
             ],
