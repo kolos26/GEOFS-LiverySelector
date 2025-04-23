@@ -64,7 +64,7 @@ let whitelist;
             e.stopImmediatePropagation();
         }
         if (e.key === "l") {
-            listLiveries();
+            ();
             ui.panel.toggle(".livery-list");
         }
     });
@@ -398,18 +398,28 @@ function addCustomForm() {
     // click first tab to refresh button status
     document.querySelector('.livery-custom-tabs li').click();
 }
-
-function search(text) {
-    if (text === '') {
-        listLiveries();
-    } else {
-        const liveries = domById('liverylist').childNodes;
-        liveries.forEach(function (e) {
-            const found = e.innerText.toLowerCase().includes(text.toLowerCase());
-            e.style.display = found ? 'block' : 'none';
-        });
-    }
+function debounceSearch (func) {
+    let timeoutId = null;
+    return (text) => {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            func(text);
+        }, 500); // debounces for 500 ms
+    };
 }
+const search = debounceSearch(text => {
+    if (text == '') return void listLiveries(); // early return using void keyword to ignore the return value of listLiveries in case you ever add one
+    text = text.toLowerCase(); // query string lowered here to avoid repeated calls
+    const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
+    for (let i = 0; i < liveries.length; i++) {
+        const e = liveries[i];
+        if (e.textContent.toLowerCase().includes(text)) { // textContent better than innerText
+            if (e.style.display == 'none') e.style.display = 'block';
+        } else {
+            if (e.style.display != 'none') e.style.display = 'none';
+        }
+    };
+})
 
 /**
  * Mark as favorite
