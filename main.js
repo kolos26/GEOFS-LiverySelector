@@ -6,8 +6,8 @@ const mpLiveryIds = {};
 const mLiveries = {};
 const origHTMLs = {};
 const uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
-const liveryIdOffset = 10e3;
-const mlIdOffset = 1e3;
+const LIVERY_ID_OFFSET = 10e3;
+const ML_ID_OFFSET = 1e3;
 let links = [];
 let airlineobjs = [];
 let whitelist;
@@ -269,26 +269,27 @@ function sortList(id) {
 function listLiveries() {
     const livList = domById('liverylist');
     livList.innerHTML = '';
-    livList.onclick = (e) => {
-        const idx = e.target.closest('li').getAttribute('data-idx')
-        , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
+    // one big event listener instead of multiple event listeners
+    livList.onclick = ({ target }) => {
+        const idx = target.closest('li')?.dataset.idx;
+        if (!idx) return;
+        const airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
-        if (livery.disabled) return;
-        loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials);
-        if (livery.mp != 'disabled') setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : liveryIdOffset));
-    } // one big event listener instead of multiple event listeners
+        livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
+        livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
+    } // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     const tempFrag = document.createDocumentFragment()
     , thumbsDir = [githubRepo, 'thumbs'].join('/')
     , defaultThumb = [thumbsDir, geofs.aircraft.instance.id + '.png'].join('/')
     , airplane = getCurrentAircraft(); // chained variable declarations
     airplane.liveries.forEach(function (e, idx) {
         if (e.disabled) return;
-        let listItem = tempFrag.appendChild(createTag('li', {
+        let listItem = createTag('li', {
             id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
             class: 'livery-list-item'
-        }));
+        });
         listItem.dataset.idx = idx;
-        listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
+        listItem.appendChild(createTag('span', { class: 'livery-name' }, e.name));
         if (geofs.aircraft.instance.id < 1000) {
             listItem.classList.add('offi');
             const thumb = createTag('img', {loading: 'lazy'});
@@ -302,7 +303,9 @@ function listLiveries() {
             listItem.classList.remove('offi');
         }
         if (e.credits && e.credits.length) {
-            listItem.innerHTML += `<small>by ${e.credits}</small>`;
+            const cr = createTag('small');
+            cr.textContent = `by ${e.credits}`;
+            listItem.appendChild(cr);
         }
 
         appendNewChild(listItem, 'span', {
@@ -310,6 +313,7 @@ function listLiveries() {
             class: 'fa fa-star nocheck',
             onclick: 'LiverySelector.star(this)'
         });
+        tempFrag.appendChild(listItem);
     });
     livList.appendChild(tempFrag);
     sortList('liverylist');
@@ -411,9 +415,12 @@ function debounceSearch (func) {
     };
 }
 const search = debounceSearch(text => {
-    if (text == '') return void listLiveries(); // early return using void keyword to ignore the return value of listLiveries in case you ever add one
-    text = text.toLowerCase(); // query string lowered here to avoid repeated calls
     const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
+    if (text == '') {
+        for (const a of liveries) a.display = 'block';
+        return;
+    }
+    text = text.toLowerCase(); // query string lowered here to avoid repeated calls
     for (let i = 0; i < liveries.length; i++) {
         const e = liveries[i];
         if (e.textContent.toLowerCase().includes(text)) { // textContent better than innerText
@@ -710,9 +717,9 @@ function updateMultiplayer() {
             return; // already updated
         }
         mpLiveryIds[u.id] = otherId;
-        if (otherId >= mlIdOffset && otherId < liveryIdOffset) {
+        if (otherId >= ML_ID_OFFSET && otherId < LIVERY_ID_OFFSET) {
             textures = getMLTexture(u, liveryEntry); // ML range 1k-10k
-        } else if ((otherId >= liveryIdOffset && otherId < liveryIdOffset * 2) || typeof (otherId == "string")) {
+        } else if ((otherId >= LIVERY_ID_OFFSET && otherId < LIVERY_ID_OFFSET * 2) || typeof (otherId == "string")) {
             textures = getMPTexture(u, liveryEntry); // LS range 10k+10k
         } else {
             return; // game managed livery
@@ -750,7 +757,7 @@ function applyMPTexture(url, tex, cb) {
  * @param {object} liveryEntry
  */
 function getMPTexture(u, liveryEntry) {
-    const otherId = u.currentLivery - liveryIdOffset;
+    const otherId = u.currentLivery - LIVERY_ID_OFFSET;
     const textures = [];
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
@@ -800,7 +807,7 @@ function getMLTexture(u, liveryEntry) {
         });
         return [];
     }
-    const liveryId = u.currentLivery - mlIdOffset;
+    const liveryId = u.currentLivery - ML_ID_OFFSET;
     const textures = [];
     const texIdx = liveryEntry.labels.indexOf('Texture');
     if (texIdx !== -1) {
