@@ -1949,6 +1949,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_32.jpg"
                     ],
                     "credits": "Burnin Hell"
+                },
+                {
+                    "name": "Air New Zealand",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/air_new_zealand_22_3.jpg"
+                    ],
+                    "credits": "Burnin Hell"
                 }
             ],
             "labels": [
@@ -3076,18 +3084,25 @@
                     "credits": "Wen"
                 },
                 {
-                    "name": "Peoples Liberation Army of China",
+                    "name": "People's Liberation Army of China",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/J-15.jpg"
                     ],
                     "credits": "Raptor4001"
                 },
                 {
-                    "name": "People's Livberation Army Air Force",
+                    "name": "People's Liberation Army Air Force",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/china.jpg"
                     ],
                     "credits": "CNParrot"
+                },
+                {
+                    "name": "Russia Bort 55",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/bort_55.jpg"
+                    ],
+                    "credits": "Raptor4001"
                 }
             ],
             "labels": [
@@ -11231,6 +11246,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/juneyao-flower.jpg"
                     ],
                     "credits": "yijiashanhangdeboyin737"
+                },
+                {
+                    "name": "Qantas (Go Australia livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/VH-ZNH.jpg"
+                    ],
+                    "credits": "RYANAIR5719"
                 }
             ],
             "labels": [
@@ -11419,7 +11441,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/SpiritNew.png"
                     ],
-                    "credits": "Androway"
+                    "credits": "RYANAIR5719"
                 },
                 {
                     "name": "Spirit (old design)",
@@ -13541,6 +13563,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Azerbaijan_Retro_A320-200.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "TAM Linhas Aéreas (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/TAM_-_Airbus_A320-214.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -15181,7 +15210,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/spirit-new.jpg"
                     ],
-                    "credits": "AF267"
+                    "credits": "AF267 & RYANAIR5719"
                 }
             ],
             "labels": [
@@ -21712,6 +21741,33 @@
                         "/models/aircraft/premium/dc3/normal.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-aer-lingus.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Aer-Lingus.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Dutch Dakota Association PH-DDA",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-phdda.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/PHDDA.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "TWA - The Lindbergh Line",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-twa.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/TWA1.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "PanAm",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-panam.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/PanAm.png"
                     ],
                     "credits": "Rick"
                 }
@@ -32683,6 +32739,20 @@
                     "credits": "Lego and Avgeek YT",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/CAA_Congo_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "Eurowings",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Eurowings_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "Air Transat (old design)",
+                    "credits": "luca b",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Air_Transat_Old_A330-200.png"
                     ]
                 }
             ],
