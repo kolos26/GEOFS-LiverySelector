@@ -269,7 +269,14 @@ function sortList(id) {
 function listLiveries() {
     const livList = domById('liverylist');
     livList.innerHTML = '';
-    
+    livList.onclick = (e) => {
+        const idx = e.target.closest('li').getAttribute('data-idx')
+        , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
+        , livery = airplane.liveries[idx];
+        if (livery.disabled) return;
+        loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials);
+        if (livery.mp != 'disabled') setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : liveryIdOffset));
+    }
     const tempFrag = document.createDocumentFragment()
     , thumbsDir = [githubRepo, 'thumbs'].join('/')
     , defaultThumb = [thumbsDir, geofs.aircraft.instance.id + '.png'].join('/')
@@ -281,6 +288,7 @@ function listLiveries() {
             class: 'livery-list-item'
         }));
         listItem.dataset.idx = idx;
+        /*
         listItem.onclick = () => { //@todo try making one onclick for the container that runs a function based on clicktarget data
             loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
             if (e.mp != 'disabled') {
@@ -288,6 +296,7 @@ function listLiveries() {
                 setInstanceId(idx + (e.credits?.toLowerCase() == 'geofs' ? '' : liveryIdOffset));
             }
         };
+        */
         listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
         if (geofs.aircraft.instance.id < 1000) {
             listItem.classList.add('offi');
@@ -986,6 +995,7 @@ window.LiverySelector = {
     liveryobj,
     saveSetting,
     toggleDiv,
+    loadLivery,
     loadLiveryDirect,
     handleCustomTabs,
     listLiveries,
