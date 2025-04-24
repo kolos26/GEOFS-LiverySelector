@@ -64,7 +64,7 @@ let whitelist;
             e.stopImmediatePropagation();
         }
         if (e.key === "l") {
-            ();
+            listLiveries();
             ui.panel.toggle(".livery-list");
         }
     });
