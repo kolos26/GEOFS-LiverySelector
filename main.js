@@ -267,19 +267,21 @@ function sortList(id) {
  *  main livery list
  */
 function listLiveries() {
-    domById('liverylist').innerHTML = '';
-
-    const thumbsDir = [githubRepo, 'thumbs'].join('/');
-    const defaultThumb = [thumbsDir, geofs.aircraft.instance.id + '.png'].join('/');
-    const airplane = getCurrentAircraft();
+    const livList = domById('liverylist');
+    livList.innerHTML = '';
+    
+    const tempFrag = document.createDocumentFragment()
+    , thumbsDir = [githubRepo, 'thumbs'].join('/')
+    , defaultThumb = [thumbsDir, geofs.aircraft.instance.id + '.png'].join('/')
+    , airplane = getCurrentAircraft(); // chained variable declarations
     airplane.liveries.forEach(function (e, idx) {
         if (e.disabled) return;
-        let listItem = appendNewChild(domById('liverylist'), 'li', {
+        let listItem = tempFrag.appendChild(createTag('li', {
             id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
             class: 'livery-list-item'
-        });
+        }));
         listItem.dataset.idx = idx;
-        listItem.onclick = () => {
+        listItem.onclick = () => { //@todo try making one onclick for the container that runs a function based on clicktarget data
             loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
             if (e.mp != 'disabled') {
                 // use vanilla ids for basegame compat
@@ -289,7 +291,7 @@ function listLiveries() {
         listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
         if (geofs.aircraft.instance.id < 1000) {
             listItem.classList.add('offi');
-            const thumb = createTag('img');
+            const thumb = createTag('img', {loading: 'lazy'});
             thumb.onerror = () => {
                 thumb.onerror = null;
                 thumb.src = defaultThumb;
@@ -309,6 +311,7 @@ function listLiveries() {
             onclick: 'LiverySelector.star(this)'
         });
     });
+    livList.appendChild(tempFrag);
     sortList('liverylist');
     loadFavorites();
     sortList('favorites');
