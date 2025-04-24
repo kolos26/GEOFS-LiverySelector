@@ -46,9 +46,10 @@ input[type="file"] {
     display: inline-block;
     background-color: rgb(83, 109, 254);
     color: white;
-    padding: 12px 0;
+    padding: 1px 0;
     margin: 2px 0;
-    height: 20px;
+    height: 45px;
+    outline: none;
     cursor: pointer;
     -webkit-user-select: none;
     -khtml-user-select: none;
