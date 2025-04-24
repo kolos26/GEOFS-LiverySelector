@@ -41,6 +41,22 @@ input[type="file"] {
     user-select: none;
 }
 
+input[type="color"] {
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(83, 109, 254);
+    color: white;
+    padding: 12px 0;
+    margin: 2px 0;
+    height: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 input[type="file"].err {
     background-color: rgb(254, 109, 83);
 }
