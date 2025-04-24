@@ -86,7 +86,7 @@ input[type="file"]::file-selector-button {
 }
 
 
-input[name="textureInput"] {
+input[name="textureInput"] input[type="file"]{
     color: white;
     font-size: 14px;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
