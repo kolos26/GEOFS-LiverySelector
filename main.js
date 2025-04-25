@@ -64,8 +64,7 @@ let whitelist;
             e.stopImmediatePropagation();
         }
         if (e.key === "l") {
-            listLiveries();
-            ui.panel.toggle(".livery-list");
+            LiverySelector.togglePanel();
         }
     });
 })();
@@ -280,24 +279,26 @@ function listLiveries() {
     } // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     const tempFrag = document.createDocumentFragment()
     , thumbsDir = [githubRepo, 'thumbs'].join('/')
-    , defaultThumb = [thumbsDir, geofs.aircraft.instance.id + '.png'].join('/')
+    , acftId = geofs.aircraft.instance.id
+    , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
     , airplane = getCurrentAircraft(); // chained variable declarations
+    document.getElementById('listDiv').dataset.ac = acftId; // tells us which aircraft's liveries are loaded
     airplane.liveries.forEach(function (e, idx) {
         if (e.disabled) return;
         let listItem = createTag('li', {
-            id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
+            id: [acftId, e.name, 'button'].join('_'),
             class: 'livery-list-item'
         });
         listItem.dataset.idx = idx;
         listItem.appendChild(createTag('span', { class: 'livery-name' }, e.name));
-        if (geofs.aircraft.instance.id < 1000) {
+        if (acftId < 1000) {
             listItem.classList.add('offi');
             const thumb = createTag('img', {loading: 'lazy'});
             thumb.onerror = () => {
                 thumb.onerror = null;
                 thumb.src = defaultThumb;
             };
-            thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id + '-' + idx + '.png'].join('/');
+            thumb.src = [thumbsDir, acftId, acftId + '-' + idx + '.png'].join('/');
             listItem.appendChild(thumb);
         } else {
             listItem.classList.remove('offi');
@@ -309,7 +310,7 @@ function listLiveries() {
         }
 
         appendNewChild(listItem, 'span', {
-            id: [geofs.aircraft.instance.id, e.name].join('_'),
+            id: [acftId, e.name].join('_'),
             class: 'fa fa-star nocheck',
             onclick: 'LiverySelector.star(this)'
         });
@@ -411,7 +412,7 @@ function debounceSearch (func) {
         clearTimeout(timeoutId);
         timeoutId = setTimeout(() => {
             func(text);
-        }, 500); // debounces for 500 ms
+        }, 250); // debounces for 250 ms
     };
 }
 const search = debounceSearch(text => {
@@ -422,11 +423,12 @@ const search = debounceSearch(text => {
     }
     text = text.toLowerCase(); // query string lowered here to avoid repeated calls
     for (let i = 0; i < liveries.length; i++) {
-        const e = liveries[i];
+        const e = liveries[i]
+        , v = e.classList.contains('geofs-visible')
         if (e.textContent.toLowerCase().includes(text)) { // textContent better than innerText
-            if (e.style.display == 'none') e.style.display = 'block';
+            if (!v) e.classList.remove('geofs-visible');
         } else {
-            if (e.style.display != 'none') e.style.display = 'none';
+            if (v) e.classList.remove('geofs-visible');
         }
     };
 })
@@ -978,8 +980,8 @@ function generatePanelButtonHTML() {
     const liveryButton = createTag('button', {
         title: 'Change livery',
         id: 'liverybutton',
+        onclick: 'LiverySelector.togglePanel()',
         class: 'mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly',
-        onclick: 'LiverySelector.listLiveries()',
         'data-toggle-panel': '.livery-list',
         'data-tooltip-classname': 'mdl-tooltip--top',
         'data-upgraded': ',MaterialButton'
@@ -987,6 +989,13 @@ function generatePanelButtonHTML() {
     liveryButton.innerHTML = createTag('img', { src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px' }).outerHTML;
 
     return liveryButton;
+}
+
+function togglePanel() {
+    const p = document.getElementById('listDiv');
+    console.time('');
+    p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
+    console.timeEnd('');
 }
 
 window.LiverySelector = {
@@ -1006,5 +1015,6 @@ window.LiverySelector = {
     loadAirlines,
     addAirline,
     removeAirline,
-    airlineobjs
+    airlineobjs,
+    togglePanel
 };
