@@ -33,6 +33,7 @@
             "liveries": [
             ],
             "labels": [
+                "Normal map",
                 "Specular shader",
                 "Texture"
             ]
@@ -633,10 +634,44 @@
         },
         "5203": {
             "name": "Boeing b737-600",
-            "liveries":[
+            "liveries": [
             ],
             "labels": [
                 "Texture"
+            ]
+        },
+        "5229": {
+            "name": "Lokheed Martin F35B Lightning II",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "3591": {
+            "name": "McDonnell Douglas F-15C Eagle",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "28": {
+            "name": "Beechcraft B55 Baron",
+            "liveries": [
+            ],
+            "labels": [
+                "Main",
+                "Tail"
+            ]
+        },
+        "2788": {
+            "name": "Antonov An-225 Mriya",
+            "liveries": [
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Engine texture"
             ]
         }
     }
