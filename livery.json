@@ -2400,6 +2400,15 @@
                         "/models/aircraft/premium/ec135/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Lifeliner.jpg"
                     ]
+                },
+                {
+                    "name": "MUG St Jan Hospital Bruges",
+                    "credits": "Rick",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/MUG.jpg"
+                    ]
                 }
             ],
             "labels": [
@@ -25640,7 +25649,14 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/75_Years_349th.png"
                     ],
-                    "credits": "One1"
+                    "credits": "Raptor4001"
+                },
+                {
+                    "name": "Italian Air Force - Vipers 03 - Waddington Air Show 2010",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/Italian_agrressor_03.png"
+                    ],
+                    "credits": "Raptor4001"
                 }
             ],
             "labels": [
@@ -38066,13 +38082,6 @@
                     "name": "Brazilian Air Force",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/F-35_FAB_Livery_2048_x_2048.png"
-                    ],
-                    "credits": "One1"
-                },
-                {
-                    "name": "Fuerza Aérea Argentina",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/F-35_F.A.A._LIVERY_1.png"
                     ],
                     "credits": "One1"
                 }
