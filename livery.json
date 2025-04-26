@@ -1971,14 +1971,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Kenya_Airways_737-7.png"
                     ],
                     "credits": "air1usa"
-                },
-                {
-                    "name": "Xiamen Open University",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://146687434-530121269341574877.preview.editmysite.com/uploads/1/4/6/6/146687434/b737-700201__8_2__4_.jpg"
-                    ],
-                    "credits": "Nighthearth"
                 }
             ],
             "labels": [
@@ -2298,6 +2290,15 @@
                         "/models/aircraft/premium/ec135/normals.jpg",
                         "/models/aircraft/premium/ec135/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Irish-Air-Corps.png"
+                    ]
+                },
+                {
+                    "name": "ANWB Lifeliner",
+                    "credits": "Rick",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Lifeliner.jpg"
                     ]
                 }
             ],
@@ -18022,7 +18023,7 @@
                 {
                     "name": "Yakutia",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/yakutia.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Boeing_737-800__Yakutia.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
                 },
@@ -18438,6 +18439,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/South_African_Airways_737-800.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Izhavia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Izhavia_boeing_737-800.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Izhavia (Soul of Udmurtia livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Izhavia_Soul_of_Udmurtia_livery_boeing_737-800.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -20303,6 +20318,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/NASA515.png"
                     ],
                     "credits": "Rick & Brett Harrison"
+                },
+                {
+                    "name": "Air Tanzania",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Air_Tanzania_737-200.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "South African Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/South_African_Airways_737-200.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -25483,14 +25512,21 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/Italian_agrressor.png"
                     ],
-                    "credits": "Rick"
+                    "credits": "Raptor4001"
                 },
                 {
                     "name": "Italian Air Force - Vipers 02 - Waddington Air Show 2010",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/Italian_agrressor_02.png"
                     ],
-                    "credits": "Rick"
+                    "credits": "Raptor4001"
+                },
+                {
+                    "name": "Fuerza Aérea Argentina",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/argentin.png"
+                    ],
+                    "credits": "One1"
                 }
             ],
             "labels": [
@@ -32800,6 +32836,34 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Discover_Airlines_ex_Eurowings_design_A330-200.png"
                     ]
+                },
+                {
+                    "name": "South African Airways",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/South_African_Airways_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "South African Airways (Nelson Mandela Day sticker)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/South_African_Airways_Nelson_Mandela_Day_Sticker_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "South African Airways (leased from BMI)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/South_African_Airways_Leassed_from_BMI_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "South African Airways (leased from TAM)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/South_African_Airways_Leassed_from_TAM_A330-200.png"
+                    ]
                 }
             ],
             "labels": [
@@ -37957,6 +38021,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beechcraft_b55/klm/Image_4.jpg"
                     ],
                     "credits": "lateaviationfan"
+                },
+                {
+                    "name": "N628Q (no registrtion)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beechcraft_b55/N628Q/Image_1.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beechcraft_b55/N628Q/Image_4.jpg"
+                    ],
+                    "credits": "lateaviationfan"
                 }
             ],
             "labels": [
@@ -37987,7 +38059,7 @@
                 {
                     "name": "USSR",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an225/ussr/main.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an225/ussr/main.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an225/ussr/engine.jpg"
                     ],
                     "credits": "Lego and Avgeek YT"
