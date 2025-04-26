@@ -378,10 +378,12 @@
         },
         "4": {
             "index": [
+                0,
                 2,
                 3
             ],
             "parts": [
+                0,
                 0,
                 0
             ],
@@ -389,6 +391,7 @@
                 {
                     "name": "KLM (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_0.jpg"
                     ],
@@ -397,6 +400,7 @@
                 {
                     "name": "United (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_1.jpg"
                     ],
@@ -405,6 +409,7 @@
                 {
                     "name": "ANA",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_2.jpg"
                     ],
@@ -413,6 +418,7 @@
                 {
                     "name": "Southwest",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_3.jpg"
                     ],
@@ -421,6 +427,7 @@
                 {
                     "name": "WestJet (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_4.jpg"
                     ],
@@ -429,6 +436,7 @@
                 {
                     "name": "GOL",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_5.jpg"
                     ],
@@ -437,6 +445,7 @@
                 {
                     "name": "Ryanair",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ryanair.png"
                     ],
@@ -445,6 +454,7 @@
                 {
                     "name": "Buzz",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg"
                     ],
@@ -453,6 +463,7 @@
                 {
                     "name": "Jet2",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jet_2.png"
                     ],
@@ -461,6 +472,7 @@
                 {
                     "name": "Jet2 (Manchester livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jet_2m.png"
                     ],
@@ -469,6 +481,7 @@
                 {
                     "name": "Jet2Holidays",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/j2h.png"
                     ],
@@ -477,6 +490,7 @@
                 {
                     "name": "Delta",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_4.png"
                     ],
@@ -485,6 +499,7 @@
                 {
                     "name": "Lauda",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/28xnQDx/Lauda737.jpg"
                     ],
@@ -493,6 +508,7 @@
                 {
                     "name": "West Atlantic",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/MBdGnLB/po-2.jpg"
                     ],
@@ -501,6 +517,7 @@
                 {
                     "name": "TUI (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/QcsDXDp/TUI.jpg"
                     ],
@@ -509,6 +526,7 @@
                 {
                     "name": "TUI (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/kXZ66Z3/tui737new.jpg"
                     ],
@@ -517,6 +535,7 @@
                 {
                     "name": "Transavia (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/Dts72Wj/tra737.png"
                     ],
@@ -525,6 +544,7 @@
                 {
                     "name": "WestJet (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/westjet_new_livery.png"
                     ],
@@ -533,6 +553,7 @@
                 {
                     "name": "China Eastern (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeastern.jpg"
                     ],
@@ -541,6 +562,7 @@
                 {
                     "name": "Ethiopian",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/c1WJM2x/ethiopian.jpg"
                     ],
@@ -549,6 +571,7 @@
                 {
                     "name": "Easyjet",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/zV7DhTp/lji.png"
                     ],
@@ -557,6 +580,7 @@
                 {
                     "name": "Malév",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/malev.png"
                     ],
@@ -565,6 +589,7 @@
                 {
                     "name": "Norwegian",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/norwegian.jpg"
                     ],
@@ -573,6 +598,7 @@
                 {
                     "name": "Avelo",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/YTJc2dr/avelo.jpg"
                     ]
@@ -580,6 +606,7 @@
                 {
                     "name": "Turkish Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/turkish.jpg"
                     ]
@@ -587,6 +614,7 @@
                 {
                     "name": "Aerolineas Argentinas",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/argentinas.jpg"
                     ]
@@ -594,6 +622,7 @@
                 {
                     "name": "United (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/unitednew.jpg"
                     ]
@@ -601,6 +630,7 @@
                 {
                     "name": "Air North",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airnorth.png"
                     ]
@@ -608,6 +638,7 @@
                 {
                     "name": "Air France",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airfrance.jpg"
                     ]
@@ -615,6 +646,7 @@
                 {
                     "name": "ElAL",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/elal.jpg"
                     ]
@@ -622,6 +654,7 @@
                 {
                     "name": "Tarom",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/tarom.jpg"
                     ]
@@ -629,6 +662,7 @@
                 {
                     "name": "KLM (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/Bwc8XgS/b737-700.jpg"
                     ]
@@ -636,6 +670,7 @@
                 {
                     "name": "Air Transat",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/fCv4Kff/b737-700.jpg"
                     ]
@@ -643,6 +678,7 @@
                 {
                     "name": "United (Star Alliance livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/ZWDTvvN/b737-700.jpg"
                     ]
@@ -650,6 +686,7 @@
                 {
                     "name": "WestJet (old design - new logo)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/nj0VLKF/texture-4-1.jpg"
                     ]
@@ -657,6 +694,7 @@
                 {
                     "name": "WestJet (Tartan design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/rww1TpD/texture-4-1.jpg"
                     ]
@@ -664,6 +702,7 @@
                 {
                     "name": "British Airways",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/british.jpg"
                     ]
@@ -671,6 +710,7 @@
                 {
                     "name": "Philippine Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/philippine.png"
                     ]
@@ -678,6 +718,7 @@
                 {
                     "name": "Royal Australian Air Force",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/hcR28vY/raaf.jpg"
                     ]
@@ -685,6 +726,7 @@
                 {
                     "name": "Air Europa",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aireuropa.jpg"
                     ]
@@ -692,6 +734,7 @@
                 {
                     "name": "Copa Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/LYykJGX/texture-1.jpg"
                     ]
@@ -699,6 +742,7 @@
                 {
                     "name": "Alaska",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/1r6bV1b/b737-700.jpg"
                     ]
@@ -706,6 +750,7 @@
                 {
                     "name": "AeroMexico (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/QkPDnHS/b737-700.jpg"
                     ]
@@ -713,6 +758,7 @@
                 {
                     "name": "ASL Airlines France",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/asl.png"
                     ]
@@ -720,6 +766,7 @@
                 {
                     "name": "BahamasAir",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/bahamas.png"
                     ]
@@ -727,6 +774,7 @@
                 {
                     "name": "Jet Airways",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jetairways.png"
                     ]
@@ -734,6 +782,7 @@
                 {
                     "name": "Luxair",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/luxair.png"
                     ]
@@ -741,6 +790,7 @@
                 {
                     "name": "SkyEurope (white design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/skyeurope.png"
                     ]
@@ -748,6 +798,7 @@
                 {
                     "name": "South African Air Force",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/southafricanaf.png"
                     ]
@@ -755,6 +806,7 @@
                 {
                     "name": "Virgin Blue (retirement design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/virginblue.png"
                     ]
@@ -762,6 +814,7 @@
                 {
                     "name": "Wingo",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/wingo.png"
                     ]
@@ -769,6 +822,7 @@
                 {
                     "name": "Janet",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Janet.png"
                     ]
@@ -776,6 +830,7 @@
                 {
                     "name": "Air China",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchina.png"
                     ],
@@ -784,6 +839,7 @@
                 {
                     "name": "China Eastern (Yunnan Peacock livery - new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchinapeacock.png"
                     ],
@@ -792,6 +848,7 @@
                 {
                     "name": "Shandong Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shandong.jpg"
                     ],
@@ -800,6 +857,7 @@
                 {
                     "name": "Shanghai Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shanghai.jpg"
                     ],
@@ -808,6 +866,7 @@
                 {
                     "name": "Reno Air",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/renoair.png"
                     ]
@@ -815,6 +874,7 @@
                 {
                     "name": "China United Airlines (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaunited.jpg"
                     ],
@@ -823,6 +883,7 @@
                 {
                     "name": "Virgin Australia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/Virgin737Finally.jpg"
                     ]
@@ -830,6 +891,7 @@
                 {
                     "name": "Royal Air Maroc (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/RAMaroc.png"
                     ]
@@ -837,6 +899,7 @@
                 {
                     "name": "Royal Air Maroc (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ramold.jpg"
                     ]
@@ -844,6 +907,7 @@
                 {
                     "name": "Viação Aérea São Paulo",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/vasp.jpg"
                     ]
@@ -851,6 +915,7 @@
                 {
                     "name": "Kunming Airlines (Tengchong livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/kunming.jpg"
                     ],
@@ -859,6 +924,7 @@
                 {
                     "name": "Ruili Airlines (blank design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ruili.jpg"
                     ],
@@ -867,6 +933,7 @@
                 {
                     "name": "Ruili Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ruili.png"
                     ],
@@ -875,6 +942,7 @@
                 {
                     "name": "Privatair",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/privatair.png"
                     ]
@@ -882,6 +950,7 @@
                 {
                     "name": "Silkair",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/silkair.png"
                     ]
@@ -889,6 +958,7 @@
                 {
                     "name": "US Airways",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/usairways.png"
                     ]
@@ -896,6 +966,7 @@
                 {
                     "name": "China Yunnan Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/China_Yunnan_737-700.png"
                     ],
@@ -904,6 +975,7 @@
                 {
                     "name": "Garuda Indonesia (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/garuda.png"
                     ],
@@ -912,6 +984,7 @@
                 {
                     "name": "LAS Cargo",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/LAS_Cargo_737-700.png"
                     ],
@@ -920,6 +993,7 @@
                 {
                     "name": "Air China (The Bejing 2008 Olympic Games livery) 🥈",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/AIR_CHINA_737_BJ2008.png"
                     ],
@@ -928,6 +1002,7 @@
                 {
                     "name": "Tianjin Air Cargo",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/tianjincargo.png"
                     ],
@@ -936,6 +1011,7 @@
                 {
                     "name": "Southwest (Lone Star One livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/SouthWest_Lone_Star.png"
                     ],
@@ -944,6 +1020,7 @@
                 {
                     "name": "Southwest (Colorado One livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/SouthWest_Colorado_One.png"
                     ],
@@ -952,6 +1029,7 @@
                 {
                     "name": "Garuda Indonesia (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/garuda737-7.png"
                     ],
@@ -960,6 +1038,7 @@
                 {
                     "name": "Citilink",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/citilink737-7.png"
                     ],
@@ -969,6 +1048,7 @@
                 {
                     "name": "Southwest (California One livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/SWA_California_One_-_Boeing_737-3H4_1.png"
                     ],
@@ -977,6 +1057,7 @@
                 {
                     "name": "Reno Air",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/RenoAir_-_Boeing_737-700_1.png"
                     ],
@@ -985,6 +1066,7 @@
                 {
                     "name": "TACA",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/taca.png"
                     ],
@@ -993,6 +1075,7 @@
                 {
                     "name": "Republic of Tunisia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/govt_737.png"
                     ],
@@ -1001,6 +1084,7 @@
                 {
                     "name": "Lion Air",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/lion.png"
                     ],
@@ -1009,6 +1093,7 @@
                 {
                     "name": "Air China Boeing BBJ",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Air_China_BBJ_737-700.png"
                     ],
@@ -1017,6 +1102,7 @@
                 {
                     "name": "Boeing (Let your dreams fly livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/dreams.png"
                     ],
@@ -1025,6 +1111,7 @@
                 {
                     "name": "Air Algerie",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Air_Algerie_737-700C.png"
                     ],
@@ -1033,6 +1120,7 @@
                 {
                     "name": "Texel Air",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Texel_Air_737-700C.png"
                     ],
@@ -1041,6 +1129,7 @@
                 {
                     "name": "China Southern",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinasouthern.png"
                     ],
@@ -1049,6 +1138,7 @@
                 {
                     "name": "China Xinjiang Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaxinjiang.png"
                     ],
@@ -1057,6 +1147,7 @@
                 {
                     "name": "Fuerza Aerea Argentina",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700_T-99.png"
                     ],
@@ -1065,6 +1156,7 @@
                 {
                     "name": "Aero Dili Timor Leste",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aerodili.png"
                     ],
@@ -1073,6 +1165,7 @@
                 {
                     "name": "Malaysia Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/malaysia7377.png"
                     ],
@@ -1081,6 +1174,7 @@
                 {
                     "name": "Xiamen Airlines (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/xiamenold.png"
                     ],
@@ -1089,6 +1183,7 @@
                 {
                     "name": "China Eastern (Headquarters livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/CE.png"
                     ],
@@ -1097,6 +1192,7 @@
                 {
                     "name": "Skyup (Shakhtahar livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201.png"
                     ],
@@ -1105,6 +1201,7 @@
                 {
                     "name": "Aerolineas Argentinas (Skyteam livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700_AEROLINEAS_ARGENTINAS_SKYTEAM_FIX.png"
                     ],
@@ -1113,6 +1210,7 @@
                 {
                     "name": "WebJet",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/WebJet_-_Boeing_737-300.png"
                     ],
@@ -1121,6 +1219,7 @@
                 {
                     "name": "Puma Air",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Puma_-_Boeing_737-300.png"
                     ],
@@ -1129,6 +1228,7 @@
                 {
                     "name": "Trans Brasil",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/TransBrasil_-_Boeing_737-300.png"
                     ],
@@ -1137,6 +1237,7 @@
                 {
                     "name": "Southwest (Canyon blue design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/southwestbluecanyon7377.png"
                     ],
@@ -1145,6 +1246,7 @@
                 {
                     "name": "Aerolineas Argentinas (retro livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/B737-700_aerolineas_argentinas_retro_livery_lv-goo_1.png"
                     ],
@@ -1153,6 +1255,7 @@
                 {
                     "name": "China Air Force V1",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/CAFV1.png"
                     ],
@@ -1161,6 +1264,7 @@
                 {
                     "name": "China Air Force V2",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/CAFV2.png"
                     ],
@@ -1169,6 +1273,7 @@
                 {
                     "name": "Regent Airways",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Regent_airways_73-7.png"
                     ],
@@ -1177,6 +1282,7 @@
                 {
                     "name": "China Eastern (Yunnan Peacock livery - old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/peackokold.png"
                     ],
@@ -1185,6 +1291,7 @@
                 {
                     "name": "China Eastern (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeasternold.png"
                     ],
@@ -1193,6 +1300,7 @@
                 {
                     "name": "Citilink (Floral livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/floral.png"
                     ],
@@ -1201,6 +1309,7 @@
                 {
                     "name": "Xiamen Airlines (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/xiamen.png"
                     ],
@@ -1209,6 +1318,7 @@
                 {
                     "name": "Aerolineas Argentinas (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700_LV-BZO_AEROLINEAS_ARGENTINAS.png"
                     ],
@@ -1217,6 +1327,7 @@
                 {
                     "name": "Aerolineas Argentinas (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/B737-700_LV-BZO_aerolineas_argentinas_OLD_design.png"
                     ],
@@ -1225,6 +1336,7 @@
                 {
                     "name": "Southwest (Desert Gold design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Southwest_Dessert_Gold.png"
                     ],
@@ -1233,6 +1345,7 @@
                 {
                     "name": "China Eastern Airlines (2010 Shanghai Expo livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeastern2010expo.png"
                     ],
@@ -1241,6 +1354,7 @@
                 {
                     "name": "Helios Airways",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Helios Airways 737-700.png"
                     ],
@@ -1249,6 +1363,7 @@
                 {
                     "name": "Air Canada (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ACA_ICE_BLUE_737.jpg"
                     ],
@@ -1257,6 +1372,7 @@
                 {
                     "name": "Transavia (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/transaviaold.jpg"
                     ],
@@ -1265,6 +1381,7 @@
                 {
                     "name": "2Excel Aviation",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/excel.png"
                     ],
@@ -1273,6 +1390,7 @@
                 {
                     "name": "ASL Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aslairlines.png"
                     ],
@@ -1281,6 +1399,7 @@
                 {
                     "name": "ASL Airlines Cargo",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aslcargo.png"
                     ],
@@ -1289,6 +1408,7 @@
                 {
                     "name": "Southwest (New Mexico One livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/737SouthwestMexico.jpg"
                     ],
@@ -1297,6 +1417,7 @@
                 {
                     "name": "Air Peace",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airpeace7377.png"
                     ],
@@ -1305,6 +1426,7 @@
                 {
                     "name": "Air North (old logo)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/yukonold.jpeg"
                     ],
@@ -1313,6 +1435,7 @@
                 {
                     "name": "Air North (new logo)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/yukonnew.jpeg"
                     ],
@@ -1321,6 +1444,7 @@
                 {
                     "name": "China Eastern (Shanghai Expo livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/chinaeasternshangaiexpo.png"
                     ],
@@ -1329,6 +1453,7 @@
                 {
                     "name": "Air China (Red Peony livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airchinaredpeony.png"
                     ],
@@ -1337,6 +1462,7 @@
                 {
                     "name": "China United Airlines (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/CUA.png"
                     ],
@@ -1345,6 +1471,7 @@
                 {
                     "name": "Samsung Techwin Aviation",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Samsung_Techwin_Aviation_737-700.png"
                     ],
@@ -1353,6 +1480,7 @@
                 {
                     "name": "Republik Indonesia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Republik_Indonesia_737-700.png"
                     ],
@@ -1361,6 +1489,7 @@
                 {
                     "name": "Bul Air",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Bul_Air_737-700.png"
                     ],
@@ -1369,6 +1498,7 @@
                 {
                     "name": "Lufthansa",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Lufthansa_737.png"
                     ],
@@ -1377,6 +1507,7 @@
                 {
                     "name": "Air X Charter",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airx.jpg"
                     ],
@@ -1385,6 +1516,7 @@
                 {
                     "name": "Republic of Indonesia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/A-001_PNG.png"
                     ],
@@ -1393,6 +1525,7 @@
                 {
                     "name": "Indian Air Force",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/iaf_737.png"
                     ],
@@ -1401,6 +1534,7 @@
                 {
                     "name": "Taiwan Air Force",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/TAIPDN_PNG.png"
                     ],
@@ -1409,6 +1543,7 @@
                 {
                     "name": "American Airlines (old desing)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/specular/americanold.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/American_Old.png"
                     ],
@@ -1417,6 +1552,7 @@
                 {
                     "name": "Air Namibia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/air_namibia_737_700.png"
                     ],
@@ -1425,6 +1561,7 @@
                 {
                     "name": "Boeing Business Jets",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/bbj.jpeg"
                     ],
@@ -1433,6 +1570,7 @@
                 {
                     "name": "ANA Business Jet",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/anabusisnessjet.jpg"
                     ],
@@ -1441,6 +1579,7 @@
                 {
                     "name": "Eastern Air Express",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Eastern_Air_Express_737-700.png"
                     ],
@@ -1449,6 +1588,7 @@
                 {
                     "name": "United Nations",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/United_Nation_737-700.png"
                     ],
@@ -1457,6 +1597,7 @@
                 {
                     "name": "Southwest (Maryland One livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/N214WN_2.png"
                     ],
@@ -1465,6 +1606,7 @@
                 {
                     "name": "Jettime",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jettime.jpg"
                     ],
@@ -1473,6 +1615,7 @@
                 {
                     "name": "Hainan Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/hainan.png"
                     ],
@@ -1481,6 +1624,7 @@
                 {
                     "name": "Star Perù",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Star_Peru_b737-700.png"
                     ],
@@ -1489,6 +1633,7 @@
                 {
                     "name": "Japan Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/jal.jpg"
                     ],
@@ -1497,6 +1642,7 @@
                 {
                     "name": "UTair",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/utair.jpg"
                     ],
@@ -1505,6 +1651,7 @@
                 {
                     "name": "Air Baltic",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/airbaltic.jpg"
                     ],
@@ -1513,6 +1660,7 @@
                 {
                     "name": "Belavia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/balavia.jpg"
                     ],
@@ -1521,6 +1669,7 @@
                 {
                     "name": "USAF (C40B)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/c40b.jpg"
                     ],
@@ -1529,6 +1678,7 @@
                 {
                     "name": "Qantas",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/qantas.jpg"
                     ],
@@ -1537,6 +1687,7 @@
                 {
                     "name": "Coulson Fireliner",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/N619SW_-_Boeing_737-3H4_1_1.png"
                     ],
@@ -1545,6 +1696,7 @@
                 {
                     "name": "Ajira Airways (from the series Lost)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Ajira_Airways_Lost_-_Boeing_737-700.png"
                     ],
@@ -1553,6 +1705,7 @@
                 {
                     "name": "Aeroflot",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aeroflot.jpg"
                     ],
@@ -1561,6 +1714,7 @@
                 {
                     "name": "SAS",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/SAS_737-700.png"
                     ],
@@ -1569,6 +1723,7 @@
                 {
                     "name": "Aires Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/HK-4682.png"
                     ],
@@ -1577,6 +1732,7 @@
                 {
                     "name": "Ukraine International Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/UIA.png"
                     ],
@@ -1585,6 +1741,7 @@
                 {
                     "name": "Smartavia (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/smartaviaold.jpg"
                     ],
@@ -1593,6 +1750,7 @@
                 {
                     "name": "Air Nicaragua (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Air_Nicaragua_Old_Design_-_Boeing_737-700.png"
                     ],
@@ -1601,6 +1759,7 @@
                 {
                     "name": "Air Nicaragua (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Air_Nicaragua_New_Design_-_Boeing_737-700.png"
                     ],
@@ -1609,6 +1768,7 @@
                 {
                     "name": "Nicaragüense de Aviación",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Nica_Air_-_Boeing_737-7.png"
                     ],
@@ -1617,6 +1777,7 @@
                 {
                     "name": "ANA (Gold livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ANA_Gold_737-700.png"
                     ],
@@ -1625,6 +1786,7 @@
                 {
                     "name": "Royal Air Maroc (60th anniversary livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/ram60.png"
                     ],
@@ -1633,6 +1795,7 @@
                 {
                     "name": "US Airways (USAir Heritage livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/U.S_Airways_USAir_Heritage_-_Boeing_737-400.png"
                     ],
@@ -1641,6 +1804,7 @@
                 {
                     "name": "Lucky Air",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/luckyb737-700.png"
                     ],
@@ -1649,6 +1813,7 @@
                 {
                     "name": "Continental Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Continental_Airlines_-_Boeing_737-700_1.png"
                     ],
@@ -1657,6 +1822,7 @@
                 {
                     "name": "TOTAL Linhas Aéreas Cargo",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/TOTAL_Linhas_Aereas_Cargo_-_Boeing_737-700F.png"
                     ],
@@ -1665,6 +1831,7 @@
                 {
                     "name": "Belavia (retro livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/belaviaretro.jpg"
                     ],
@@ -1673,6 +1840,7 @@
                 {
                     "name": "Transavia Netherlands",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/transavianetherlands.png"
                     ],
@@ -1681,6 +1849,7 @@
                 {
                     "name": "Transavia France",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/transaviafrance.png"
                     ],
@@ -1689,6 +1858,7 @@
                 {
                     "name": "Shandong Airlines (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/sanghaiairlinesold.png"
                     ],
@@ -1697,6 +1867,7 @@
                 {
                     "name": "Aerosucre (HK-5434)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Aerosucre_HK-5434_-_Boeing_737-700SF.png"
                     ],
@@ -1705,6 +1876,7 @@
                 {
                     "name": "Belavia (Tankolet livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/IMG_20250217_233657_746.jpg"
                     ],
@@ -1713,6 +1885,7 @@
                 {
                     "name": "Turkmenistan",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/EZ-A006.jpg"
                     ],
@@ -1721,6 +1894,7 @@
                 {
                     "name": "Shenzen Airlines (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shenzenold.png"
                     ],
@@ -1729,6 +1903,7 @@
                 {
                     "name": "Coulson Fireliner 139",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Coulson_Bomber_139.png"
                     ],
@@ -1737,6 +1912,7 @@
                 {
                     "name": "Coulson Fireliner 138",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Coulson_Bomber_138.png"
                     ],
@@ -1745,6 +1921,7 @@
                 {
                     "name": "Coulson Fireliner 137",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Coulson_Bomber_137.png"
                     ],
@@ -1753,6 +1930,7 @@
                 {
                     "name": "Boeing house livery",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/n737x__7_.jpg"
                     ],
@@ -1761,6 +1939,7 @@
                 {
                     "name": "Virgin Australia (AFL livery)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/AFL_Virgin_Blue.jpg"
                     ],
@@ -1769,6 +1948,7 @@
                 {
                     "name": "Korean Air (new design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://i.ibb.co/VWtvWkrk/Korean-Airlines-New-livery-737-700.png"
                     ],
@@ -1777,6 +1957,7 @@
                 {
                     "name": "Smartwings",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/smartwings.jpg"
                     ],
@@ -1785,6 +1966,7 @@
                 {
                     "name": "Southwest (ex AirTan)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Southwestern_AirTran_-_Boeing_737-700.png"
                     ],
@@ -1793,6 +1975,7 @@
                 {
                     "name": "Southwest (ex ValuJet)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/SouthWest_ValuJet_Hybrid_Livery_-_Boeing_737-700.png"
                     ],
@@ -1801,6 +1984,7 @@
                 {
                     "name": "Malév (HA-LOL)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/malev-halol.jpg"
                     ],
@@ -1809,6 +1993,7 @@
                 {
                     "name": "Aires Airlines",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/aires.jpg"
                     ],
@@ -1817,6 +2002,7 @@
                 {
                     "name": "Malév (HA-LOP)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/malevhalop.jpg"
                     ],
@@ -1825,6 +2011,7 @@
                 {
                     "name": "Yakutia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/yakutia.jpg"
                     ],
@@ -1833,6 +2020,7 @@
                 {
                     "name": "Alaska (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/alaskaold.png"
                     ],
@@ -1841,6 +2029,7 @@
                 {
                     "name": "Smartavia",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/smartavia.jpg"
                     ],
@@ -1849,6 +2038,7 @@
                 {
                     "name": "Shenzen Airlines (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shenzenold.png"
                     ],
@@ -1857,6 +2047,7 @@
                 {
                     "name": "VASP",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/VASP_737-700.png"
                     ],
@@ -1865,6 +2056,7 @@
                 {
                     "name": "Malaysia Airlines (old design)",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_32.jpg"
                     ],
@@ -1873,6 +2065,7 @@
                 {
                     "name": "Kenya Airways",
                     "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Kenya_Airways_737-7.png"
                     ],
@@ -1880,6 +2073,7 @@
                 }
             ],
             "labels": [
+                "Normal map",
                 "Specular shader",
                 "Texture"
             ],
