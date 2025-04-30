@@ -86,7 +86,6 @@ input[type="file"]::file-selector-button {
     content: 'NO API KEY';
 }
 
-
 input[name="textureInput"] input[type="text"] {
     color: white;
     font-size: 14px;
