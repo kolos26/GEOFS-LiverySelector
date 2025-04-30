@@ -41,6 +41,23 @@ input[type="file"] {
     user-select: none;
 }
 
+.colorChooser {
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(83, 109, 254);
+    color: white;
+    padding: 1px 0;
+    margin: 2px 0;
+    height: 45px;
+    outline: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 input[type="file"].err {
     background-color: rgb(254, 109, 83);
 }
@@ -70,7 +87,7 @@ input[type="file"]::file-selector-button {
 }
 
 
-input[name="textureInput"] {
+input[name="textureInput"] input[type="text"] {
     color: white;
     font-size: 14px;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
