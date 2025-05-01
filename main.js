@@ -6,8 +6,8 @@ const mpLiveryIds = {};
 const mLiveries = {};
 const origHTMLs = {};
 const uploadHistory = JSON.parse(localStorage.lsUploadHistory || '{}');
-const liveryIdOffset = 10e3;
-const mlIdOffset = 1e3;
+const LIVERY_ID_OFFSET = 10e3;
+const ML_ID_OFFSET = 1e3;
 let links = [];
 let airlineobjs = [];
 let whitelist;
@@ -64,8 +64,7 @@ let whitelist;
             e.stopImmediatePropagation();
         }
         if (e.key === "l") {
-            listLiveries();
-            ui.panel.toggle(".livery-list");
+            LiverySelector.togglePanel();
         }
     });
 })();
@@ -267,48 +266,57 @@ function sortList(id) {
  *  main livery list
  */
 function listLiveries() {
-    domById('liverylist').innerHTML = '';
-
-    const thumbsDir = [githubRepo, 'thumbs'].join('/');
-    const defaultThumb = [thumbsDir, geofs.aircraft.instance.id + '.png'].join('/');
-    const airplane = getCurrentAircraft();
+    const livList = domById('liverylist');
+    livList.innerHTML = '';
+    // one big event listener instead of multiple event listeners
+    livList.onclick = ({ target }) => {
+        const idx = target.closest('li')?.dataset.idx;
+        if (!idx) return;
+        const airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
+        , livery = airplane.liveries[idx];
+        livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
+        livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
+    } // uses || (logical OR) to run the right side code only if livery.disabled is falsy
+    const tempFrag = document.createDocumentFragment()
+    , thumbsDir = [githubRepo, 'thumbs'].join('/')
+    , acftId = geofs.aircraft.instance.id
+    , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
+    , airplane = getCurrentAircraft(); // chained variable declarations
+    document.getElementById('listDiv').dataset.ac = acftId; // tells us which aircraft's liveries are loaded
     airplane.liveries.forEach(function (e, idx) {
         if (e.disabled) return;
-        let listItem = appendNewChild(domById('liverylist'), 'li', {
-            id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
-            class: 'livery-list-item'
+        let listItem = createTag('li', {
+            id: [acftId, e.name, 'button'].join('_'),
+            class: 'geofs-visible livery-list-item'
         });
         listItem.dataset.idx = idx;
-        listItem.onclick = () => {
-            loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
-            if (e.mp != 'disabled') {
-                // use vanilla ids for basegame compat
-                setInstanceId(idx + (e.credits?.toLowerCase() == 'geofs' ? '' : liveryIdOffset));
-            }
-        };
-        listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
-        if (geofs.aircraft.instance.id < 1000) {
+        listItem.appendChild(createTag('span', { class: 'livery-name' }, e.name));
+        if (acftId < 1000) {
             listItem.classList.add('offi');
-            const thumb = createTag('img');
+            const thumb = createTag('img', {loading: 'lazy'});
             thumb.onerror = () => {
                 thumb.onerror = null;
                 thumb.src = defaultThumb;
             };
-            thumb.src = [thumbsDir, geofs.aircraft.instance.id, geofs.aircraft.instance.id + '-' + idx + '.png'].join('/');
+            thumb.src = [thumbsDir, acftId, acftId + '-' + idx + '.png'].join('/');
             listItem.appendChild(thumb);
         } else {
             listItem.classList.remove('offi');
         }
         if (e.credits && e.credits.length) {
-            listItem.innerHTML += `<small>by ${e.credits}</small>`;
+            const cr = createTag('small');
+            cr.textContent = `by ${e.credits}`;
+            listItem.appendChild(cr);
         }
 
         appendNewChild(listItem, 'span', {
-            id: [geofs.aircraft.instance.id, e.name].join('_'),
+            id: [acftId, e.name].join('_'),
             class: 'fa fa-star nocheck',
             onclick: 'LiverySelector.star(this)'
         });
+        tempFrag.appendChild(listItem);
     });
+    livList.appendChild(tempFrag);
     sortList('liverylist');
     loadFavorites();
     sortList('favorites');
@@ -398,18 +406,32 @@ function addCustomForm() {
     // click first tab to refresh button status
     document.querySelector('.livery-custom-tabs li').click();
 }
-
-function search(text) {
-    if (text === '') {
-        listLiveries();
-    } else {
-        const liveries = domById('liverylist').childNodes;
-        liveries.forEach(function (e) {
-            const found = e.innerText.toLowerCase().includes(text.toLowerCase());
-            e.style.display = found ? 'block' : 'none';
-        });
-    }
+function debounceSearch (func) {
+    let timeoutId = null;
+    return (text) => {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            func(text);
+        }, 250); // debounces for 250 ms
+    };
 }
+const search = debounceSearch(text => {
+    const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
+    if (text == '') {
+        for (const a of liveries) a.classList.add('geofs-visible')
+        return;
+    }
+    text = text.toLowerCase(); // query string lowered here to avoid repeated calls
+    for (let i = 0; i < liveries.length; i++) {
+        const e = liveries[i]
+        , v = e.classList.contains('geofs-visible')
+        if (e.textContent.toLowerCase().includes(text)) { // textContent better than innerText
+            if (!v) e.classList.add('geofs-visible');
+        } else {
+            if (v) e.classList.remove('geofs-visible');
+        }
+    };
+})
 
 /**
  * Mark as favorite
@@ -697,9 +719,9 @@ function updateMultiplayer() {
             return; // already updated
         }
         mpLiveryIds[u.id] = otherId;
-        if (otherId >= mlIdOffset && otherId < liveryIdOffset) {
+        if (otherId >= ML_ID_OFFSET && otherId < LIVERY_ID_OFFSET) {
             textures = getMLTexture(u, liveryEntry); // ML range 1k-10k
-        } else if ((otherId >= liveryIdOffset && otherId < liveryIdOffset * 2) || typeof (otherId == "string")) {
+        } else if ((otherId >= LIVERY_ID_OFFSET && otherId < LIVERY_ID_OFFSET * 2) || typeof (otherId == "string")) {
             textures = getMPTexture(u, liveryEntry); // LS range 10k+10k
         } else {
             return; // game managed livery
@@ -737,7 +759,7 @@ function applyMPTexture(url, tex, cb) {
  * @param {object} liveryEntry
  */
 function getMPTexture(u, liveryEntry) {
-    const otherId = u.currentLivery - liveryIdOffset;
+    const otherId = u.currentLivery - LIVERY_ID_OFFSET;
     const textures = [];
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
@@ -787,7 +809,7 @@ function getMLTexture(u, liveryEntry) {
         });
         return [];
     }
-    const liveryId = u.currentLivery - mlIdOffset;
+    const liveryId = u.currentLivery - ML_ID_OFFSET;
     const textures = [];
     const texIdx = liveryEntry.labels.indexOf('Texture');
     if (texIdx !== -1) {
@@ -958,8 +980,8 @@ function generatePanelButtonHTML() {
     const liveryButton = createTag('button', {
         title: 'Change livery',
         id: 'liverybutton',
+        onclick: 'LiverySelector.togglePanel()',
         class: 'mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly',
-        onclick: 'LiverySelector.listLiveries()',
         'data-toggle-panel': '.livery-list',
         'data-tooltip-classname': 'mdl-tooltip--top',
         'data-upgraded': ',MaterialButton'
@@ -969,10 +991,18 @@ function generatePanelButtonHTML() {
     return liveryButton;
 }
 
+function togglePanel() {
+    const p = document.getElementById('listDiv');
+    console.time('');
+    p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
+    console.timeEnd('');
+}
+
 window.LiverySelector = {
     liveryobj,
     saveSetting,
     toggleDiv,
+    loadLivery,
     loadLiveryDirect,
     handleCustomTabs,
     listLiveries,
@@ -985,5 +1015,6 @@ window.LiverySelector = {
     loadAirlines,
     addAirline,
     removeAirline,
-    airlineobjs
+    airlineobjs,
+    togglePanel
 };
