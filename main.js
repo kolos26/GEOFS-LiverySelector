@@ -287,7 +287,7 @@ function listLiveries() {
         if (e.disabled) return;
         let listItem = createTag('li', {
             id: [acftId, e.name, 'button'].join('_'),
-            class: 'livery-list-item'
+            class: 'geofs-visible livery-list-item'
         });
         listItem.dataset.idx = idx;
         listItem.appendChild(createTag('span', { class: 'livery-name' }, e.name));
@@ -418,7 +418,7 @@ function debounceSearch (func) {
 const search = debounceSearch(text => {
     const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
     if (text == '') {
-        for (const a of liveries) a.display = 'block';
+        for (const a of liveries) a.classList.add('geofs-visible')
         return;
     }
     text = text.toLowerCase(); // query string lowered here to avoid repeated calls
@@ -426,7 +426,7 @@ const search = debounceSearch(text => {
         const e = liveries[i]
         , v = e.classList.contains('geofs-visible')
         if (e.textContent.toLowerCase().includes(text)) { // textContent better than innerText
-            if (!v) e.classList.remove('geofs-visible');
+            if (!v) e.classList.add('geofs-visible');
         } else {
             if (v) e.classList.remove('geofs-visible');
         }
