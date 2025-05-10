@@ -2506,10 +2506,12 @@
         },
         "10": {
             "index": [
+                0,
                 2,
                 3
             ],
             "parts": [
+                0,
                 0,
                 0
             ],
@@ -2517,6 +2519,7 @@
                 {
                     "name": "Emirates (Dubai Expo 2020 logo)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "/models/aircraft/premium/a380/texture_0.jpg"
                     ],
@@ -2525,6 +2528,8 @@
                 {
                     "name": "Air France",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Air_France_Xavier_remaster_A380-800.png"
                     ],
@@ -2533,6 +2538,7 @@
                 {
                     "name": "Qantas (new design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "/models/aircraft/premium/a380/texture_2.jpg"
                     ],
@@ -2541,6 +2547,7 @@
                 {
                     "name": "Airbus house livery (old design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house.png"
                     ],
@@ -2549,6 +2556,7 @@
                 {
                     "name": "British Airways",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://i.ibb.co/xg2Q4CR/BA-a380-1.jpg"
                     ],
@@ -2557,6 +2565,7 @@
                 {
                     "name": "Lufthansa (new design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://i.ibb.co/6DXstZF/lufthansa.jpg"
                     ],
@@ -2565,6 +2574,7 @@
                 {
                     "name": "Lufthansa (old design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/lufthansaold.png"
                     ],
@@ -2573,6 +2583,7 @@
                 {
                     "name": "Qatar Airways",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/qatar.png"
                     ]
@@ -2580,6 +2591,7 @@
                 {
                     "name": "Korean Air Lines",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/korean.png"
                     ],
@@ -2588,6 +2600,7 @@
                 {
                     "name": "Etihad Airways (Airbus house design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/etihadpartial.png"
                     ]
@@ -2595,6 +2608,7 @@
                 {
                     "name": "Malaysia Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/malaysia.png"
                     ]
@@ -2602,6 +2616,7 @@
                 {
                     "name": "Singapore Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/singapore.png"
                     ],
@@ -2610,6 +2625,7 @@
                 {
                     "name": "China Southern",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/chinasouthern.jpg"
                     ],
@@ -2618,6 +2634,7 @@
                 {
                     "name": "Emirates (Dubai Expo 2022 livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesexpo2022.png"
                     ],
@@ -2626,6 +2643,7 @@
                 {
                     "name": "Etihad Airways",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/etihad.png"
                     ]
@@ -2633,6 +2651,7 @@
                 {
                     "name": "Qantas (old design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/qantasold.jpg"
                     ]
@@ -2640,6 +2659,7 @@
                 {
                     "name": "Malaysia Airlines (retired plane)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/malaysiaret.jpg"
                     ]
@@ -2647,6 +2667,7 @@
                 {
                     "name": "Thai Airways",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/thai.png"
                     ]
@@ -2654,6 +2675,7 @@
                 {
                     "name": "HiFly",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/hifly.png"
                     ]
@@ -2661,6 +2683,7 @@
                 {
                     "name": "Airbus house livery (new design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/airbusnew.png"
                     ]
@@ -2668,6 +2691,7 @@
                 {
                     "name": "ANA",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/ana.png"
                     ]
@@ -2675,6 +2699,7 @@
                 {
                     "name": "Qatar Airways (FIFA World Cup 2022 livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/qatarfifa.jpg"
                     ]
@@ -2682,6 +2707,7 @@
                 {
                     "name": "Airbus ZeroE (planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/zeroe.png"
                     ]
@@ -2689,6 +2715,7 @@
                 {
                     "name": "Asiana Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/asiana.png"
                     ]
@@ -2696,6 +2723,7 @@
                 {
                     "name": "Swissair (planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Swissair.png"
                     ]
@@ -2703,6 +2731,7 @@
                 {
                     "name": "ANA (Blue Sea Turtle livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/anaturtle.png"
                     ]
@@ -2710,6 +2739,7 @@
                 {
                     "name": "Emirates (new design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesnew.png"
                     ],
@@ -2718,6 +2748,7 @@
                 {
                     "name": "Emirates (old design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emirates.png"
                     ],
@@ -2726,6 +2757,7 @@
                 {
                     "name": "Airbus house livery (50 years jubilee design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/airbus50.png"
                     ]
@@ -2733,6 +2765,7 @@
                 {
                     "name": "Airbus house livery (Recycable by design livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/recyablebydesign.jpg"
                     ]
@@ -2740,6 +2773,7 @@
                 {
                     "name": "Qantas (Airbus house design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/qantashouse.png"
                     ]
@@ -2747,6 +2781,7 @@
                 {
                     "name": "Air Austral (planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Air_Austral.png"
                     ]
@@ -2754,6 +2789,7 @@
                 {
                     "name": "Air Canada (planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/aircanada.jpg"
                     ]
@@ -2761,6 +2797,7 @@
                 {
                     "name": "Skymark Airlines (planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/skymark.png"
                     ],
@@ -2769,6 +2806,7 @@
                 {
                     "name": "Global Airlines",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/global.png"
                     ],
@@ -2777,6 +2815,7 @@
                 {
                     "name": "Singapore Airlines (Fly the flag livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/singaporeflytheflag.jpg"
                     ],
@@ -2785,6 +2824,7 @@
                 {
                     "name": "Air France (old design - unpainted)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/air_fracne_unpainted_old_lviery_.png"
                     ],
@@ -2793,6 +2833,7 @@
                 {
                     "name": "Air France (new design - unpainted)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/F-WWSQ_1.png"
                     ],
@@ -2801,6 +2842,7 @@
                 {
                     "name": "Air France (old design - planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/VIELLE_AIR_FRANCE_A380.png"
                     ],
@@ -2809,6 +2851,7 @@
                 {
                     "name": "Virgin Atlantic (planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/VIRGIN_A380.png"
                     ],
@@ -2817,6 +2860,7 @@
                 {
                     "name": "Emirates (NBA livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesnba.png"
                     ],
@@ -2825,6 +2869,7 @@
                 {
                     "name": "Emirates (Wimbledon livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Emirates_Wimbleton_A380_GeoFS_Livery.png"
                     ],
@@ -2833,6 +2878,7 @@
                 {
                     "name": "Kingfisher",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/kingfisher_A380.png"
                     ],
@@ -2841,6 +2887,7 @@
                 {
                     "name": "Korean Airlines (unpainted)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/koreanunpainted.jpg"
                     ],
@@ -2849,6 +2896,7 @@
                 {
                     "name": "Emirates (The Emirates Foundation livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesfoundation.png"
                     ],
@@ -2857,6 +2905,7 @@
                 {
                     "name": "Virgin Atlantic (new design - planned livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Virign_Atlantic_Modern_Design_planed_livery_A380-800.png"
                     ],
@@ -2865,6 +2914,7 @@
                 {
                     "name": "Global Airlines (ex China Southern)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/GLOBAL1.png"
                     ],
@@ -2873,6 +2923,7 @@
                 {
                     "name": "Global Airlines (ex China Southern - Global Airlines tail)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/GLOBAL2.png"
                     ],
@@ -2881,6 +2932,7 @@
                 {
                     "name": "Emirates (The sky is only the begining livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratessky.png"
                     ],
@@ -2889,6 +2941,7 @@
                 {
                     "name": "Emirates (AC Milan 125 years livery) 🥇",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesacmilan.png"
                     ],
@@ -2897,6 +2950,7 @@
                 {
                     "name": "Emirates (Year of Zayed livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emirateszahed.jpg"
                     ],
@@ -2905,6 +2959,7 @@
                 {
                     "name": "Air France (50 years Chine France livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Air_France_50_years_Chine_France_design_A380-800.png"
                     ],
@@ -2913,6 +2968,7 @@
                 {
                     "name": "Air France (80 years livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Air_France_80_years_design_A380-800_1.png"
                     ],
@@ -2921,6 +2977,7 @@
                 {
                     "name": "Emirates (Opportunity livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesopportunity.png"
                     ],
@@ -2929,6 +2986,7 @@
                 {
                     "name": "Emirates (Sustainability livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratessustainibility.jpg"
                     ],
@@ -2937,6 +2995,7 @@
                 {
                     "name": "Emirates (Mobility livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/emiratesmobility.png"
                     ],
@@ -2945,6 +3004,7 @@
                 {
                     "name": "Emirates (unpainted)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/F-WWSH_1.png"
                     ],
@@ -2953,6 +3013,7 @@
                 {
                     "name": "Airbus house livery (Own the sky sticker)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/ownthesky.png"
                     ],
@@ -2961,6 +3022,7 @@
                 {
                     "name": "Korean Air (new design)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://i.ibb.co/dJzRtpMc/Korean-Airlines-New-livery-A380.png"
                     ],
@@ -2969,6 +3031,7 @@
                 {
                     "name": "ANA (Orange Sea Turtle livery)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/anaturtleorange.png"
                     ],
@@ -2977,6 +3040,7 @@
                 {
                     "name": "Global Airlines (partially painted)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/globaltail.jpg"
                     ],
@@ -2985,6 +3049,7 @@
                 {
                     "name": "Air France (Ville candidate Jeux Olympiques de 2024)",
                     "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Air_France_Paris_Ville_Candidate_2024_Olympic_design_A380-800.png"
                     ],
@@ -2992,6 +3057,7 @@
                 }
             ],
             "labels": [
+                "Normal map",
                 "Specular shader",
                 "Texture"
             ],
