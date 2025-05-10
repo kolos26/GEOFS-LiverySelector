@@ -39143,5 +39143,38 @@
             "mp": "multi",
             "name": "Antonov An-225 Mriya"
         }
+    },
+    "29": {
+        "index": [
+            0,
+            1,
+            2,
+            4
+        ],
+        "parts":[
+            0,
+            0,
+            0,
+            0
+        ],
+        "liveries": [
+            {
+                "name": "French Air Force",
+                "texture": [
+                    "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                    "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Image_1.jpg",
+                    "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                    "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                ],
+                "credits": "GeoFS"
+            }
+        ],
+        "labels":[
+            "Normal map",
+            "Specular shader",
+            "Main texture",
+            "Cockpit texture"
+        ],
+        "name": "Dassault Rafale"
     }
 }
