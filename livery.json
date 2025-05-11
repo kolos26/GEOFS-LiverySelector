@@ -2137,6 +2137,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Royal_Mail_737.png"
                     ],
                     "credits": "Pom-Pom d'Cat"
+                },
+                {
+                    "name": "Korean Air Lines",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Royal_Mail_737.png"
+                    ],
+                    "credits": "Burnin Hell"
                 }
             ],
             "labels": [
@@ -11811,6 +11820,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/VH-ZNH.jpg"
                     ],
                     "credits": "RYANAIR5719"
+                },
+                {
+                    "name": "Vietnam Airlines (30th anniversary livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/vietnam-4.jpg"
+                    ],
+                    "credits": "Thanhdatle"
                 }
             ],
             "labels": [
@@ -17950,7 +17966,8 @@
                     "name": "China United Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/chinaunitedairlines.jpg"
-                    ]
+                    ],
+                    "credits": "CNParrot"
                 },
                 {
                     "name": "Spring Airlines",
@@ -29382,6 +29399,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-400er/CargoJet_Airways_Operated_by_DHL_Boeing_767-338BDSF.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Scandinavian Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-400er/sasold.png"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "Scandinavian Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-400er/sasnew.png"
+                    ],
+                    "credits": "CNParrot"
                 }
             ],
             "labels": [
@@ -30738,9 +30769,16 @@
                 {
                     "name": "Finnair (old design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/finnairold"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/finnairold.png"
                     ],
                     "credits": "Air France Heavy"
+                },
+                {
+                    "name": "Turkuaz Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/turkuaz.jpg"
+                    ],
+                    "credits": "747lover"
                 }
             ],
             "labels": [
@@ -39157,6 +39195,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/F-1510K.png"
                     ],
                     "credits": "Raptor4001"
+                },
+                {
+                    "name": "Japan Air Self-Defence Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/JASDF.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/JASDF.png"
+                    ],
+                    "credits": "CNParrot"
                 }
             ],
             "labels": [
@@ -39303,6 +39349,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
                     ],
                     "credits": "GeoFS"
+                },
+                {
+                    "name": "Argentine Air Force (planned livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/FAA_Rafale.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "idk"
                 }
             ],
             "labels":[
