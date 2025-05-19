@@ -266,57 +266,50 @@ function sortList(id) {
  *  main livery list
  */
 function listLiveries() {
-    const livList = domById('liverylist');
-    livList.innerHTML = '';
+    const livList = $('#liverylist').html('');
+    livList[0].addEventListener('error', function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.target.onerror = null;
+            e.target.src = defaultThumb;
+        }
+    }, true);
     // one big event listener instead of multiple event listeners
-    livList.onclick = ({ target }) => {
-        const idx = target.closest('li')?.dataset.idx;
-        if (!idx) return;
-        const airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
+    $(livList).on('click', 'li, [data-idx]', function ({ target }) {
+        const idx = $(target).closest('li').data('idx')
+        , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
+        if (!idx) return;
         livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
         livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
-    } // uses || (logical OR) to run the right side code only if livery.disabled is falsy
+    }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     const tempFrag = document.createDocumentFragment()
     , thumbsDir = [githubRepo, 'thumbs'].join('/')
     , acftId = geofs.aircraft.instance.id
     , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
     , airplane = getCurrentAircraft(); // chained variable declarations
-    document.getElementById('listDiv').dataset.ac = acftId; // tells us which aircraft's liveries are loaded
-    airplane.liveries.forEach(function (e, idx) {
+    $('#listDiv').data('ac', acftId); // tells us which aircraft's liveries are loaded
+    for (let i = 0; i < airplane.liveries.length; i++) {
+        const e = airplane.liveries[i];
         if (e.disabled) return;
-        let listItem = createTag('li', {
-            id: [acftId, e.name, 'button'].join('_'),
-            class: 'geofs-visible livery-list-item'
-        });
-        listItem.dataset.idx = idx;
-        listItem.appendChild(createTag('span', { class: 'livery-name' }, e.name));
+        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'geofs-visible livery-list-item'});
+        listItem.data('idx', i).append($('<span/>', {class: 'livery-name'}).html(e.name));
+        listItem.toggleClass('offi', acftId < 1000); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
         if (acftId < 1000) {
-            listItem.classList.add('offi');
-            const thumb = createTag('img', {loading: 'lazy'});
-            thumb.onerror = () => {
-                thumb.onerror = null;
-                thumb.src = defaultThumb;
-            };
-            thumb.src = [thumbsDir, acftId, acftId + '-' + idx + '.png'].join('/');
-            listItem.appendChild(thumb);
-        } else {
-            listItem.classList.remove('offi');
+            const thumb = $('<img/>', {loading: 'lazy'});
+            thumb.attr('src', [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/'));
+            listItem.append(thumb);
         }
         if (e.credits && e.credits.length) {
-            const cr = createTag('small');
-            cr.textContent = `by ${e.credits}`;
-            listItem.appendChild(cr);
+            $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
         }
-
-        appendNewChild(listItem, 'span', {
+        $('<span/>', {
             id: [acftId, e.name].join('_'),
             class: 'fa fa-star nocheck',
             onclick: 'LiverySelector.star(this)'
         });
-        tempFrag.appendChild(listItem);
-    });
-    livList.appendChild(tempFrag);
+        listItem.appendTo(tempFrag);
+    }
+    livList.append(tempFrag);
     sortList('liverylist');
     loadFavorites();
     sortList('favorites');
@@ -993,9 +986,9 @@ function generatePanelButtonHTML() {
 
 function togglePanel() {
     const p = document.getElementById('listDiv');
-    console.time('');
+    console.time('listLiveries');
     p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
-    console.timeEnd('');
+    console.timeEnd('listLiveries');
 }
 
 window.LiverySelector = {
