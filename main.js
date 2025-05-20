@@ -1,4 +1,4 @@
-const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+const githubRepo = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const version = '3.2.3';
 
 const liveryobj = {};
@@ -959,7 +959,7 @@ function generateListHTML() {
             </div>
         </div>
         <br/>
-        <a href="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/tutorial.txt" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open tutorial</button></a><br/>
+        <a href="https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/tutorial.txt" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open tutorial</button></a><br/>
         <a href="https://discord.gg/2tcdzyYaWU" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Join our discord server</button></a><br/>
         <a href="https://github.com/kolos26/GEOFS-LiverySelector" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Visit our Github page</button></a><br/>
         <a href="mailto:LiverySelector20220816@gmail.com" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Contact us: LiverySelector20220816@gmail.com</button></a><br/>
