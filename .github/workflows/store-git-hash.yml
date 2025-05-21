@@ -12,6 +12,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          sparse-checkout: |
+            !*.png
+            !*.jpg
+            !*.jpeg
+            !*.gif
+            .
+          sparse-checkout-cone-mode: false  # disable cone mode for wildcard support
+          fetch-depth: 1
 
       - name: Fetch commit hash
         id: get_commit
@@ -20,7 +29,7 @@ jobs:
       - name: Write file
         uses: "DamianReeves/write-file-action@master"
         with:
-          path: path/to/file.js
+          path: /commit.txt
           write-mode: overwrite
           contents: |
             ${{ steps.get_commit.outputs.short }}
