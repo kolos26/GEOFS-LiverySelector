@@ -1,0 +1,31 @@
+name: Store commit hash
+
+on:
+  push:
+    paths-ignore:
+      - commit.txt
+
+jobs:
+  store-commit-hash:
+    if: github.actor != 'store-git-hash[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Fetch commit hash
+        id: get_commit
+        uses: pr-mpt/actions-commit-hash@v2
+
+      - name: Write file
+        uses: "mathiasvr/write-file-action@v1"
+        with:
+          path: commit.txt
+          contents: ${{ steps.get_commit.outputs.short }}
+
+      - name: Commit the file
+        run: |
+          git config user.name "store-git-hash"
+          git add commit.txt
+          git commit -m "Update commit hash"
+          git push
