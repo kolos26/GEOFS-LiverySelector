@@ -40,6 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git pull
           git config user.name "github-actions"
           git add commit.txt
           git commit -m "Update commit hash"
