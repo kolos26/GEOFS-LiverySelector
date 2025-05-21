@@ -7,7 +7,7 @@ on:
 
 jobs:
   store-commit-hash:
-    if: github.actor != 'store-git-hash[bot]'
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,8 +37,10 @@ jobs:
             ${{ steps.get_commit.outputs.short }}
 
       - name: Commit the file
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "store-git-hash"
+          git config user.name "github-actions"
           git add commit.txt
           git commit -m "Update commit hash"
           git push
