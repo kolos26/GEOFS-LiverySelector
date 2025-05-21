@@ -30,7 +30,6 @@ jobs:
         uses: "DamianReeves/write-file-action@master"
         with:
           path: ${{env.home}}/commit.txt
-          write-mode: overwrite
           contents: |
             ${{ steps.get_commit.outputs.short }}
 
