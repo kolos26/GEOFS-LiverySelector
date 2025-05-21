@@ -27,10 +27,12 @@ jobs:
         uses: pr-mpt/actions-commit-hash@v2
 
       - name: Write file
-        uses: "DamianReeves/write-file-action@master"
+        uses: 1arp/create-a-file-action@0.4.5
         with:
-          path: ${{env.home}}/commit.txt
-          contents: |
+          path: '.'
+          isAbsolutePath: false
+          file: 'commit.txt'
+          content: |
             ${{ steps.get_commit.outputs.short }}
 
       - name: Commit the file
