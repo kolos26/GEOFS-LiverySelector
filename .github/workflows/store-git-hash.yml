@@ -34,7 +34,7 @@ jobs:
           isAbsolutePath: false
           file: 'commit.txt'
           content: |
-            ${{ steps.get_commit.outputs.short }}
+            ${{ steps.get_commit.outputs.full }}
 
       - name: Commit the file
         env:
