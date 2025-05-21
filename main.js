@@ -1,4 +1,6 @@
-const githubRepo = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
+const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
+const noCommit = jsDelivr;
 const version = '3.2.3';
 
 const liveryobj = {};
@@ -12,16 +14,27 @@ let links = [];
 let airlineobjs = [];
 let whitelist;
 
-(function init() {
-
+(async function init() {
+    // latest commit fetch
+    try {
+        const res = await fetch(`${githubRepo}/commit.txt`);
+        if (!res.ok) jsDelivr = githubRepo;
+        const commit = (await res.text()).trim();
+        if (!/^[a-f0-9]{40}$/.test(commit)) jsDelivr = githubRepo;
+        jsDelivr = jsDelivr.replace("@main", `@${commit}`);
+    } catch (err) {jsDelivr = githubRepo};
+    
     // styles
-    fetch(`${githubRepo}/styles.css?` + Date.now()).then(async data => {
+    fetch(`${jsDelivr}/styles.css?` + Date.now()).then(async data => {
         const styleTag = createTag('style', { type: 'text/css' });
         styleTag.innerHTML = await data.text();
         document.head.appendChild(styleTag);
     });
     appendNewChild(document.head, 'link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' });
 
+    //Load liveries (@todo: consider moving to listLiveries)
+    fetch(`${jsDelivr}/livery.json?` + Date.now()).then(handleLiveryJson);
+    
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
         id: 'listDiv',
@@ -41,9 +54,6 @@ let whitelist;
     const origButtons = document.getElementsByClassName('geofs-liveries geofs-list-collapsible-item');
     Object.values(origButtons).forEach(btn => btn.parentElement.removeChild(btn));
 
-    //Load liveries (@todo: consider moving to listLiveries)
-    fetch(`${githubRepo}/livery.json?` + Date.now()).then(handleLiveryJson);
-
     //Init airline databases
     if (localStorage.getItem('links') === null) {
         localStorage.links = '';
@@ -54,7 +64,7 @@ let whitelist;
             airlineobjs[airlineobjs.length - 1].url = e.trim();
         });
     }
-    fetch(`${githubRepo}/whitelist.json?` + Date.now()).then(res => res.json()).then(data => whitelist = data);
+    fetch(`${jsDelivr}/whitelist.json?` + Date.now()).then(res => res.json()).then(data => whitelist = data);
 
     // Start multiplayer
     setInterval(updateMultiplayer, 5000);
@@ -75,7 +85,9 @@ let whitelist;
 async function handleLiveryJson(data) {
     const json = await data.json();
     Object.keys(json).forEach(key => liveryobj[key] = json[key]);
-
+    
+    if (liveryobj.commit) jsDelivr = jsDelivr.replace("@main", "@" + liveryobj.commit)
+    
     if (liveryobj.version != version) {
         document.querySelector('.livery-list h3').appendChild(
             createTag('a', {
@@ -99,7 +111,7 @@ async function handleLiveryJson(data) {
         // use orig HTML to concatenate so theres only ever one icon
         element.innerHTML = origHTMLs[aircraftId] +
             createTag('img', {
-                src: `${githubRepo}/liveryselector-logo-small.svg`,
+                src: `${noCommit}/liveryselector-logo-small.svg`,
                 style: 'height:30px;width:auto;margin-left:20px;',
                 title: 'Liveries available'
             }).outerHTML;
@@ -283,7 +295,7 @@ function listLiveries() {
         livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     const tempFrag = document.createDocumentFragment()
-    , thumbsDir = [githubRepo, 'thumbs'].join('/')
+    , thumbsDir = [noCommit, 'thumbs'].join('/')
     , acftId = geofs.aircraft.instance.id
     , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
     , airplane = getCurrentAircraft(); // chained variable declarations
@@ -893,7 +905,7 @@ function domById(elementId) {
  */
 function generateListHTML() {
     return `
-        <h3><img src="${githubRepo}/liveryselector-logo.svg" class="livery-title" title="LiverySelector" /></h3>
+        <h3><img src="${noCommit}/liveryselector-logo.svg" class="livery-title" title="LiverySelector" /></h3>
 
         <div class="livery-searchbar mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation">
             <input class="mdl-textfield__input address-input" type="text" placeholder="Search liveries" onkeyup="LiverySelector.search(this.value)" id="searchlivery">
@@ -980,7 +992,7 @@ function generatePanelButtonHTML() {
         'data-tooltip-classname': 'mdl-tooltip--top',
         'data-upgraded': ',MaterialButton'
     });
-    liveryButton.innerHTML = createTag('img', { src: `${githubRepo}/liveryselector-logo-small.svg`, height: '30px' }).outerHTML;
+    liveryButton.innerHTML = createTag('img', { src: `${noCommit}/liveryselector-logo-small.svg`, height: '30px' }).outerHTML;
 
     return liveryButton;
 }
