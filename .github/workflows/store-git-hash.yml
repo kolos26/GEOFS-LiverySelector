@@ -29,7 +29,7 @@ jobs:
       - name: Write file
         uses: "DamianReeves/write-file-action@master"
         with:
-          path: /commit.txt
+          path: ${{env.home}}/commit.txt
           write-mode: overwrite
           contents: |
             ${{ steps.get_commit.outputs.short }}
