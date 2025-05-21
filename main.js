@@ -756,6 +756,7 @@ function getMPTexture(u, liveryEntry) {
     const textures = [];
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
+    if (!u.currentLivery) return []; // early return in case of missing livery
     console.log(u.currentLivery);
     console.log(typeof (u.currentLivery));
     if (typeof (u.currentLivery[0]) == "string") {
