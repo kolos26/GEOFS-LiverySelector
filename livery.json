@@ -40709,6 +40709,654 @@
                 "Wing texture"
             ],
             "name": "Ilyushin IL-76TD"
+        },
+        "md11": {
+            "index": [
+                3,
+                7
+            ],
+            "parts": [
+                1,
+                1
+            ],
+            "liveries": [
+                {
+                    "name": "Air New Zealand (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/ANZ.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/ANZ.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Boğaziçi Hava Taşımacılığı",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/BHT.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/BHT.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Continental Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/COA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/COA.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Lufthansa (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH2.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Lufthansa (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH3.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH3.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Laker Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/LKR.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/LKR.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Pan Am",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/PAA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/PAA.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "McDonnell factory unpainted",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/PRT.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/PRT.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Royal Netherlands Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/RNLAF.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/RNLAF.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Swissair Asia (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR7.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR7.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Turkish Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THY.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THY.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Turkish Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THY2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THY2.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Turkish Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THY3.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THY3.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Battleship Gray design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UAL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UAL.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Saul Bass design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UAL2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UAL2.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Continental design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UAL3.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UAL3.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Cargo (Worldwide Cargo livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UALWC.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UALWC.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Ethiopian Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/ETH.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/ETH.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "American Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AAL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AAL.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Alitalia Team",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AZA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AZA.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "CityBird",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CTB.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CTB.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Delta Airlines (Colors in Motion design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DAL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DAL.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Delta Airlines (Interim design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DAL1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DAL1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Finnair (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Finnair (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN2.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Finnair (Santa Claus livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN3.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN3.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KLM.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KLM.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "KLM (KLM - Douglas Aviation History livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KLM1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KLM1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "KLM (classic design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KLM2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KLM2.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Air Namibia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/NMB.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/NMB.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Philipine Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/PAL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/PAL.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Sabena (Flying together with Swissair logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SAB.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SAB.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "World Airways (white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WOA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WOA.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "China Eastern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Delta Airlines (Classic Widget design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DAL2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DAL2.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Aer Lingus",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/EIN.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/EIN.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Japan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/JAL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/JAL.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Korean Air Lines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KAL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KAL.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "World Airways - Sonair",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SOR.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SOR.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Swissair (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Swissair Asia (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "SWISS (gray belly)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR2.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "SWISS (blue belly)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR3.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR3.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "SWISS (white belly)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR4.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR4.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Swissair (gray belly)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR5.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR5.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Swissair (blue belly)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR6.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SWR6.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "World Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WOA1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WOA1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Aeroflot Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AFL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AFL.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Alitalia Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AZA1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AZA1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Cargo Italia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CRG.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CRG.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Lufthansa Cargo (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Lufthansa Cargo (Aktion Deutschland Hilfst livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Lufthansa Cargo (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH5.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH5.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Lufthansa Cargo (cargohumancare.com livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH6.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/DLH6.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "EVA Air Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/EVA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/EVA.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Finnair Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FIN.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Gemini Air Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/GCO.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/GCO.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Nordic Global Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/NGB.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/NGB.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "AV Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SMJ.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SMJ.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Western Global",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WGN.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WGN.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Western Global (white tail)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WGN1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WGN1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "World Airways Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WOA2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/WOA2.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "China Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Korean Air Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KAL1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/KAL1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Martinair Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MPH.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MPH.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Martinair Cargo (MD11CF variant)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MPH1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MPH1.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "Federal Express",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FED2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FED2.png"
+                    ],
+                    "credits": "Pilot2938"
+                },
+                {
+                    "name": "US Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAF.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAF.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "Garuda Indonesia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/GIA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/GIA.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "McDonnell Douglas house livery",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MCD.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MCD.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "Thai Airways (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THA1975.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THA1975.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "Thai Airways (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THA2005.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/THA2005.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "Saudi Arabian",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SVA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/SVA.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "Centurion Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CWC.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CWC.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "FedEx",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FED.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/FED.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "UPS",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UPS.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/UPS.png"
+                    ],
+                    "credits": "Octal450"
+                },
+                {
+                    "name": "China Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CAL.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CAL.png"
+                    ],
+                    "credits": "Winter"
+                },
+                {
+                    "name": "Mandarin Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MDA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MDA.png"
+                    ],
+                    "credits": "Winter"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "McDonnell Douglas MD11"
         }
     }
 }
