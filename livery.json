@@ -26391,11 +26391,11 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Vietnam",
+                    "name": "Vietnam Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/41cp11_vtnam.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Vietnam_airlines_8_1.png"
                     ],
-                    "credits": "Coolpilot11"
+                    "credits": "Thanhdatle"
                 },
                 {
                     "name": "Salam Air (Interjet design)",
@@ -40702,6 +40702,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/base.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Aeroflot",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/Aeroflot_IL-76.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/base.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -41343,6 +41351,22 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MDA.png"
                     ],
                     "credits": "Winter"
+                },
+                {
+                    "name": "AOM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/F-GTDI_-_McDonnell_Douglas_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/F-GTDI_-_McDonnell_Douglas_MD-11.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Cubana de Aviación (leased from AOM)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/F-GTDI_Cubana_-_McDonnell_Douglas_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/F-GTDI_Cubana_-_McDonnell_Douglas_MD-11.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
