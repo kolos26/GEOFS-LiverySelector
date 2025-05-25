@@ -40668,6 +40668,46 @@
                 "SRB"
             ],
             "name": "NASA Space Shuttle"
+        },
+        "1014": {
+            "index": [
+                0,
+                1
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Volga-Dnepr Group",
+                    "texture": [
+                        "/backend/aircraft/repository/NK-V_267286_2525/texture_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/volga-dnepr.png"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Air Koryo (new design)",
+                    "texture": [
+                        "/backend/aircraft/repository/NK-V_267286_2525/texture_1.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/base.png"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Kazakhstan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/Kazakhstan_Airlines_IL-76.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/base.png"
+                    ],
+                    "credits": "luca b"
+                }
+            ],
+            "labels": [
+
+            ],
+            "name": "Ilyushin IL-76TD"
         }
     }
 }
