@@ -2150,7 +2150,16 @@
                     "texture": [
                         "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Royal_Mail_737.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_1_10.png"
+                    ],
+                    "credits": "Burnin Hell"
+                },
+                {
+                    "name": "Greater Bay Airlines",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_9_3.jpg"
                     ],
                     "credits": "Burnin Hell"
                 }
@@ -12445,6 +12454,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/AMA_787-9.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Vietnam Airlines (30th year anniversary)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/vietnam_airline2.jpg"
+                    ],
+                    "credits": "Thanhdatle"
                 }
             ],
             "labels": [
@@ -18059,8 +18075,9 @@
                 {
                     "name": "Copa Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_288.5.jpg"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/HP-1828CMP.jpg"
+                    ],
+                    "credits": "RYANAIR5719"
                 },
                 {
                     "name": "JAL",
@@ -20075,6 +20092,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/shenzen.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "GA Telesis (VP-CTK)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/vpctk.jpg"
+                    ],
+                    "credits": "spudm"
                 }
             ],
             "labels": [
@@ -35179,6 +35203,20 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/rwandair.png"
                     ]
+                },
+                {
+                    "name": "Cathay Pacific (old design)",
+                    "credits": "Save On Foods",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/B-HLL_2048_x_2048_px_4098_x_4098_px_4096_x_4096_px_7.png"
+                    ]
+                },
+                {
+                    "name": "Dragonair",
+                    "credits": "Save On Foods",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/B-HLL_2048_x_2048_px_4098_x_4098_px_4096_x_4096_px_9.png"
+                    ]
                 }
             ],
             "labels": [
@@ -40730,7 +40768,7 @@
                 "Specular shader",
                 "Cockpit texture"
             ],
-            "name": "Dassault Rafale"
+            "name": "Dessault Rafale M"
         },
         "2953": {
             "index": [
@@ -41506,10 +41544,10 @@
                 {
                     "name": "Mandarin Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MDA.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/MDA.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Mandarin_Airlines_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Mandarin_Airlines_MD-11.png"
                     ],
-                    "credits": "Winter"
+                    "credits": "luca b"
                 },
                 {
                     "name": "AOM",
@@ -41638,6 +41676,62 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/China_Airlines_MD-11.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "USAfrica",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAfrica_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAfrica_MD-11.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Global Africa Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Global_Africa_Aviation_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Global_Africa_Aviation_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Martinair",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Martinair_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Martinair_MD-11.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Martinair (gray belly design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Martinair_MD-11_Gray_Belly.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Martinair_MD-11_Gray_Belly.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "NorthWest x KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/NWA_KLM_-_McDonnell_Douglas_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/NWA_KLM_-_McDonnell_Douglas_MD-11.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "LTU",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/LTU_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/LTU_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "10 Tanker Air Service",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/10_Tanker_Air_Service_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/10_Tanker_Air_Service_MD-11.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
