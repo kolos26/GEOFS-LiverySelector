@@ -41644,6 +41644,27 @@
                 "Texture"
             ],
             "name": "McDonnell Douglas MD11"
+        },
+        "3617": {
+            "index": [
+                0
+            ],
+            "parts": [
+                1
+            ],
+            "liveries": [
+                {
+                    "name": "Armée de l'air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_mirage2000/france.jpg"
+                    ],
+                    "credits": "FakeElonMusk"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Dessault Mirage 2000-5"
         }
     }
 }
