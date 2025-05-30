@@ -40907,6 +40907,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/base.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Chinese Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/chineseaf.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/chineseaf.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -41740,6 +41748,38 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Eva_Air_MD-11.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "EVA Air (ANK Joing Service logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Eva_Air_ANK_Joint_Service_Design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Eva_Air_ANK_Joint_Service_Design_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Catran",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Catran_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Catran_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "WestJet (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/westjet.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/westjet.png"
+                    ],
+                    "credits": "Your Local Avgeek"
+                },
+                {
+                    "name": "British Airways (Landor design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/landormd11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/landormd11.png"
+                    ],
+                    "credits": "AF267"
                 }
             ],
             "labels": [
@@ -41761,6 +41801,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_mirage2000/france.jpg"
                     ],
                     "credits": "FakeElonMusk"
+                },
+                {
+                    "name": "Argentine Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_mirage2000/argentine.jpg"
+                    ],
+                    "credits": "HAWXleadGamingYT"
+                },
+                {
+                    "name": "Romanian Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_mirage2000/RoAF_MiG_21_Lancer_Official_.png"
+                    ],
+                    "credits": "darkdino76"
                 }
             ],
             "labels": [
@@ -41777,9 +41831,16 @@
             ],
             "liveries": [
                 {
-                    "name": "Spanish AIr Force",
+                    "name": "Spanish Air Force",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/MirageF1ES.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "Argentine Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/argentine.png"
                     ],
                     "credits": "MirageModels"
                 }
