@@ -7228,6 +7228,21 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/ABX_-_763.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Vietnam Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/vietnam.jpg"
+                    ],
+                    "credits": "Thanhdatle"
                 }
             ],
             "labels": [
@@ -24009,6 +24024,14 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/Bombordier_CRJ_200_IrAero.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/Bombordier_CRJ_200_IrAero.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "UTair",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/Bombordier_CRJ_200_UTair.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj200/Bombordier_CRJ_200_UTair.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
                 }
@@ -40914,7 +40937,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/chineseaf.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/chineseaf.png"
                     ],
-                    "credits": "luca b"
+                    "credits": "yijiashanhangdeboyin737"
+                },
+                {
+                    "name": "Ministry of Emergencies of Russia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/Il-76_Ministry_of_Emergencies_of_Russia.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/WINGS_Ministry_of_Emergencies_of_Russia.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -41198,7 +41229,7 @@
                     "credits": "Pilot2938"
                 },
                 {
-                    "name": "China Eastern",
+                    "name": "China Eastern (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES.png"
@@ -41780,6 +41811,78 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/landormd11.png"
                     ],
                     "credits": "AF267"
+                },
+                {
+                    "name": "Western Global",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/N903WA_-_DC10.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/N903WA_-_DC10.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Avianca Colombia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AVA.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/AVA.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Varig (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Star_Alliance_design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Star_Alliance_design_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Varig (Star Alliance livery, white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Star_Alliance_white_design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Star_Alliance_white_design_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Canadian Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/canadian.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/canadian.png"
+                    ],
+                    "credits": "Your Local Avgeek"
+                },
+                {
+                    "name": "Varig",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Varig (2002 World Cup Brazilian Selection livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2004_World_Cup_Brasil_Selection_Design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2004_World_Cup_Brasil_Selection_Design_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Shanghai Airlines Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/shanghaicargo.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/shanghaicargo.png"
+                    ],
+                    "credits": "yijiashanhangdeboyin737"
+                },
+                {
+                    "name": "China Eastern (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/chinaeastern.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/chinaeastern.png"
+                    ],
+                    "credits": "yijiashanhangdeboyin737"
                 }
             ],
             "labels": [
@@ -41842,7 +41945,14 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/argentine.png"
                     ],
-                    "credits": "MirageModels"
+                    "credits": "HAWXleadGamingYT"
+                },
+                {
+                    "name": "China Air Force (planned livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/chinaj11.png"
+                    ],
+                    "credits": "CNParrot"
                 }
             ],
             "labels": [
