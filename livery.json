@@ -10105,9 +10105,9 @@
                 {
                     "name": "Sichuan Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/sichuan.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/Sichuan_-_A319-112_4.png"
                     ],
-                    "credits": "yijiashanhangdeboyin737"
+                    "credits": "Nichy"
                 },
                 {
                     "name": "Chengdu Airlines",
@@ -20114,6 +20114,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/vpctk.jpg"
                     ],
                     "credits": "spudm"
+                },
+                {
+                    "name": "Kunming Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/kunming.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Xiamen Airlines (old design, SkyTeam livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/xiamenoldsky.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Xiamen Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/xiamenold.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Xiamen Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/xiamennew.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -26630,9 +26658,9 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Icelandair (Pink design)",
+                    "name": "Icelandair (pink design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Icelandair_Pink_A321Neo.png"
                     ],
                     "credits": "luca b"
                 },
@@ -41863,8 +41891,8 @@
                 {
                     "name": "Varig (2002 World Cup Brazilian Selection livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2004_World_Cup_Brasil_Selection_Design_MD-11.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2004_World_Cup_Brasil_Selection_Design_MD-11.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2002_World_Cup_Brasil_Selection_Design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2002_World_Cup_Brasil_Selection_Design_MD-11.png"
                     ],
                     "credits": "Lego and Avgeek YT"
                 },
@@ -41877,12 +41905,20 @@
                     "credits": "yijiashanhangdeboyin737"
                 },
                 {
-                    "name": "China Eastern (new design)",
+                    "name": "Varig (Brasil title livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/chinaeastern.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/chinaeastern.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Brasil_Design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Brasil_Design_MD-11.png"
                     ],
-                    "credits": "yijiashanhangdeboyin737"
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Varig (Brasil half title livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Half_Brasil_Design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Half_Brasil_Design_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
