@@ -2537,6 +2537,15 @@
                         "/models/aircraft/premium/ec135/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/CHINA_Capital_Hilicopter.jpg"
                     ]
+                },
+                {
+                    "name": "China Capital Helicopter (white landing skids)",
+                    "credits": "helicopter028",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/CHINA_Capital_Hilicopterwhite_landing_skids.jpg"
+                    ]
                 }
             ],
             "labels": [
@@ -14968,6 +14977,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Lucky_Blue_-_Airbus_A320-214_1.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Jetblue (Blueberries design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Blueberries_580_-_Airbus_A320-214.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Jetblue (Highrise design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Highrise_537_-_Airbus_A320-214.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Jetblue vacations",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Vacations_648_-_Airbus_A320-214.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Jetblue (Florida Panthers livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/B6_FP_383_-_Airbus_A320-214.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -20142,6 +20179,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/xiamennew.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Copa Airlines (copa.com sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/HP-1825CMP.jpg"
+                    ],
+                    "credits": "RYANAIR5719"
                 }
             ],
             "labels": [
@@ -27364,6 +27408,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Vietjet_Air__1st_Airbus_A321neo_in_Southeast_Asia_.png"
                     ],
                     "credits": "Thanhdatle"
+                },
+                {
+                    "name": "FlyAtlantic",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/FlyAtlantic_A321Neo.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -29886,7 +29937,7 @@
                     "credits": "Raptor4001"
                 },
                 {
-                    "name": "Vietnam Airlines",
+                    "name": "Vietnam Airlines (new design)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/vn-airlines.jpg"
@@ -29996,6 +30047,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/IrAero_b777-300er.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Vietnam Airlines (old design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/vietnamold.png"
+                    ],
+                    "credits": "Thanhdatle"
                 }
             ],
             "labels": [
@@ -35257,16 +35316,23 @@
                 },
                 {
                     "name": "Cathay Pacific (old design)",
-                    "credits": "Save On Foods",
+                    "credits": "Your Local Avgeek",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/B-HLL_2048_x_2048_px_4098_x_4098_px_4096_x_4096_px_7.png"
                     ]
                 },
                 {
                     "name": "Dragonair",
-                    "credits": "Save On Foods",
+                    "credits": "Your Local Avgeek",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/B-HLL_2048_x_2048_px_4098_x_4098_px_4096_x_4096_px_9.png"
+                    ]
+                },
+                {
+                    "name": "Westjet",
+                    "credits": "Your Local Avgeek",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/West-Jet-A330.jpg"
                     ]
                 }
             ],
@@ -40401,6 +40467,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/okair.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Tatarstan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/Tatarstan_Airlines_737-600.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Sriwijaya Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/Sriwijaya_Air_737-600.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -40555,6 +40635,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/bats.jpg"
                     ],
                     "credits": "ConvairF2YSeaDart"
+                },
+                {
+                    "name": "Italian Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/italy.jpg"
+                    ],
+                    "credits": "FG Airlines"
                 }
             ],
             "labels": [
@@ -41902,7 +41989,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/shanghaicargo.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/shanghaicargo.png"
                     ],
-                    "credits": "yijiashanhangdeboyin737"
+                    "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
                     "name": "Varig (Brasil title livery)",
@@ -41917,6 +42004,38 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Half_Brasil_Design_MD-11.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Half_Brasil_Design_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Varig (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Old_Design_MD-11_Intercontinental.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_Old_Design_MD-11_Intercontinental.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Varig (1995 design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_1995_design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_1995_design_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Varig (35 Years Brasil-Japaõ sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_35_Years_Brasil-Japao_sticker_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_35_Years_Brasil-Japao_sticker_MD-11.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Varig (2000 design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2000_Design_MD-11.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2000_Design_MD-11.png"
                     ],
                     "credits": "Lego and Avgeek YT"
                 }
