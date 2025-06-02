@@ -26,12 +26,12 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r ./.webhook/requirements.txt
+        run: pip install -r .webhook/requirements.txt
 
       - name: Send webhook
         env:
           LIVERY_UPDATE_WEBHOOK: ${{ secrets.LIVERY_UPDATE_WEBHOOK }}
-        run: python3 ./.webhook/livery_update.py
+        run: python3 .webhook/livery_update.py
       
       - name: Commit the file
         env:
