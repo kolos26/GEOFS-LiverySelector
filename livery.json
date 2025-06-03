@@ -11677,8 +11677,9 @@
                 {
                     "name": "Vietnam Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/vietnam.png"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/vietnam.jpg"
+                    ],
+                    "credits": "Thanhdatle"
                 },
                 {
                     "name": "WestJet",
@@ -19350,7 +19351,7 @@
                 {
                     "name": "Copa Airlines (ConnectMiles.com livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Connect_Miles_-_Boeing_737-8V3_1.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/CMPCM.c_-_Boeing_737-800_1_2.png"
                     ],
                     "credits": "Nichy"
                 },
@@ -20184,6 +20185,13 @@
                     "name": "Copa Airlines (copa.com sticker)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/HP-1825CMP.jpg"
+                    ],
+                    "credits": "RYANAIR5719"
+                },
+                {
+                    "name": "Wingo Panama",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/HP-1522WWP.jpg"
                     ],
                     "credits": "RYANAIR5719"
                 }
@@ -27684,6 +27692,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/usnavy.png"
                     ],
                     "credits": "HAWXleadGamingYT"
+                },
+                {
+                    "name": "Taiwan Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/taiwan.png"
+                    ],
+                    "credits": "Bear Chiou"
                 }
             ],
             "labels": [
@@ -32135,6 +32150,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/GlobalX_Cargo_-_Airbus_A321-211P2F.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Aeroflot (95 years with you livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/AEROFLOT__Gzhel__A321_.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "S7 Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/S7_a321-211.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -39081,6 +39110,62 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
                     ],
                     "credits": "CNParrot"
+                },
+                {
+                    "name": "Orient Thai (leased from Air China)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/orientthaileased.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "747lover"
+                },
+                {
+                    "name": "Orient Thai",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/orientthai.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "747lover"
+                },
+                {
+                    "name": "Orient Thai (small logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/orientthaismalllogo.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "747lover"
+                },
+                {
+                    "name": "Orient Thai (blank)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/orientthaiblank.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "747lover"
+                },
+                {
+                    "name": "Saudia (leased from Orient Thai, Orient Thai logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/saudiaorientthai.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "747lover"
+                },
+                {
+                    "name": "Saudia (leased from Orient Thai)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/saudiaorientthai2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "747lover"
+                },
+                {
+                    "name": "Saudia (leased from Orient Thai, blank)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/saudiaorientthaiblank.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "747lover"
                 }
             ],
             "labels": [
@@ -42108,6 +42193,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/chinaj11.png"
                     ],
                     "credits": "CNParrot"
+                },
+                {
+                    "name": "Armée de l'air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/MirageF1FR_2.png"
+                    ],
+                    "credits": "MirageModels"
                 }
             ],
             "labels": [
@@ -42146,7 +42238,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "AirTran",
+                    "name": "AirTran (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/AirTran/AirTran 717 Fuselage.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/AirTran/AirTran 717 Engine.png",
@@ -42270,6 +42362,24 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/Vuelamex/Vuelamex 717 Engine.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "AirTran (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/AirTran_old/N959AT.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/AirTran_old/airtran.com.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/AirTran_old/airtran.com.png"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Delta",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/delta/Delta717-200Final.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/delta/engine.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b717-200/delta/engine.png"
+                    ],
+                    "credits": "Torchivory"
                 }
             ],
             "labels": [
