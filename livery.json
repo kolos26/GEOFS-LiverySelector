@@ -2162,6 +2162,24 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/b737-700201_9_3.jpg"
                     ],
                     "credits": "Burnin Hell"
+                },
+                {
+                    "name": "Sriwijaya Air",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Citra_-_Boeing_737-500.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "NAM Air",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/Kedahsyatan_-_Boeing_737-500.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -15006,13 +15024,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/B6_FP_383_-_Airbus_A320-214.png"
                     ],
                     "credits": "Nichy"
-                },
-                {
-                    "name": "Lift Global Aviation",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Lift_Global_Aviation_-_Airbus_A320-214_1.png"
-                    ],
-                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -20230,6 +20241,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/JA04RK.jpg"
                     ],
                     "credits": "RYANAIR5719"
+                },
+                {
+                    "name": "Japan Airlines (Arc of the Sun design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Japan_Airlines_Arc_of_the_Sun_design_737-800.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -42252,6 +42270,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/MirageF1FR_2.png"
                     ],
                     "credits": "MirageModels"
+                },
+                {
+                    "name": "ISAF",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/ISAF.png"
+                    ],
+                    "credits": "Splat"
                 }
             ],
             "labels": [
@@ -42440,6 +42465,69 @@
                 "Right engine texture"
             ],
             "name": "Boeing b717-200"
+        },
+        "3011": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Qantas Link",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/qantaslink.jpg"
+                    ],
+                    "credits": "Spice9"
+                },
+                {
+                    "name": "Lift Global Aviation",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Lift_Global_Aviation_-_Airbus_A320-232.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "TACA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/TACA_A320-232.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "TAM Linhas Aéreas (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/TAM_-_Airbus_A320-232.png"
+                    ],
+                    "credits": "Nichy"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Airbus a320-232"
+        },
+        "5314": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "NASA Shuttle Carrier",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/747-100_SCA_Livery.png"
+                    ],
+                    "credits": "Jeffa"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Boeing b747-100 SCA"
         }
     }
 }
