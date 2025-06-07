@@ -13458,13 +13458,6 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "Jetblue (Canyon blue design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/N536JB_1.png"
-                    ],
-                    "credits": "Nichy"
-                },
-                {
                     "name": "Avianca express",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/aviancaexpress.png"
@@ -13680,13 +13673,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/iberia214.png"
                     ],
                     "credits": "Spice9"
-                },
-                {
-                    "name": "Jetblue vacations",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/JetBlue_Vacations_-_A320.png"
-                    ],
-                    "credits": "Nichy"
                 },
                 {
                     "name": "Jetblue (New York livery)",
@@ -14028,13 +14014,6 @@
                     "name": "AirCalin",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/AirCalin A320-214.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "Jetblue (retro livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Jetblue Retro Livery A320-214.png"
                     ],
                     "credits": "luca b"
                 },
@@ -15008,13 +14987,6 @@
                     "name": "Jetblue (Highrise design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Highrise_537_-_Airbus_A320-214.png"
-                    ],
-                    "credits": "Nichy"
-                },
-                {
-                    "name": "Jetblue vacations",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Vacations_648_-_Airbus_A320-214.png"
                     ],
                     "credits": "Nichy"
                 },
@@ -19179,7 +19151,7 @@
                     "credits": "Felidorado"
                 },
                 {
-                    "name": "Aerolineas Argentinas",
+                    "name": "Aerolineas Argentinas (ex Ukraine International)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/AEROLINEAS_ARGENTINAS_EL_UKRANIANO_LV-KIU.png"
                     ],
@@ -20248,6 +20220,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Japan_Airlines_Arc_of_the_Sun_design_737-800.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Aerolines Argentinas",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Aerolineas_Argentinas_Boeing_737-800_.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -35441,6 +35420,34 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Star_Airlines_A330-200.png"
                     ]
+                },
+                {
+                    "name": "Royal Air Force Voyager Vespina",
+                    "credits": "MirageModels",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Z336.png"
+                    ]
+                },
+                {
+                    "name": "China Airlines",
+                    "credits": "Your Local Avgeek",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/China-Airlines-A330-2.png"
+                    ]
+                },
+                {
+                    "name": "China Airlines (50th anniversary livery)",
+                    "credits": "Your Local Avgeek",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/China-Airlines-A330-18312-2.png"
+                    ]
+                },
+                {
+                    "name": "Belavia",
+                    "credits": "Ivan Dimitrev",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Belavia_a330.jpg"
+                    ]
                 }
             ],
             "labels": [
@@ -42193,6 +42200,22 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Varig_2000_Design_MD-11.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Avient Aviation",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/avient.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/avient.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "KLM (95th anniversary livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/klm95.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/klm95.png"
+                    ],
+                    "credits": "HO1076[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -42501,6 +42524,41 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/TAM_-_Airbus_A320-232.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "JetBlue (Windowpane design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/windowpane.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "JetBlue (Windowpane design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/windowpane.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Jetblue Vacations",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Vacations_-_Airbus_A320-232_1.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Vietnam Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/vietnam.jpg"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "JetBlue (retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/N763JB.jpg"
+                    ],
+                    "credits": "luca b & RRYANAIR5719"
                 }
             ],
             "labels": [
@@ -42527,6 +42585,83 @@
                     "name": "Japan Airlines (1980s design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/JAL_1980s_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "PanAm (Clipper Juan T Trippe)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/panam1.png"
+                    ],
+                    "credits": "Your Local Avgeek"
+                },
+                {
+                    "name": "PanAm (Clipper Maid of the Seas)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Pan_Am_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Lufthansa (classic design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Lufthansa_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Northwest Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/N617US.png"
+                    ],
+                    "credits": "Habsfan1909"
+                },
+                {
+                    "name": "TWA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/TWA_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "KLM (white classic design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/KLM741.png"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Japan Airlines (Rosecha livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/747100rochecha.png"
+                    ],
+                    "credits": "samfromnorthernengland"
+                },
+                {
+                    "name": "United Airlines (Saul Bass design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/747-100_SCA_UAL_Livery_2.6.1.png"
+                    ],
+                    "credits": "Cactus"
+                },
+                {
+                    "name": "Saudia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Saudia_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "EL AL Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/El_Al_Cargo_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "MK Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/MK_Airlines_747-100.png"
                     ],
                     "credits": "luca b"
                 }
