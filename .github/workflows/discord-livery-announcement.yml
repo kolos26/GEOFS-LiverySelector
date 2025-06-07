@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - livery.json
+  workflow_dispatch:
 
 jobs:
   discord-livery-announcement:
