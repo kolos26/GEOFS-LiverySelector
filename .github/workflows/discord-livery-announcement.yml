@@ -16,7 +16,7 @@ jobs:
           sparse-checkout: |
             commit.txt
             livery.json
-            .
+            .webhook/*
           sparse-checkout-cone-mode: false  # disable cone mode for wildcard support
           fetch-depth: 1
 
