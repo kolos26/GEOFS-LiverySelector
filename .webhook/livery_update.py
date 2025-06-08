@@ -1,18 +1,16 @@
-from git import Repo
+import requests
 import json
 import os
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
-ls_repo = Repo("..")
 
-with open("./.webhook/commit.txt", "r") as file:
+with open(".webhook/commit.txt", "r") as file:
     commit_id = file.read()
     print(commit_id)
 
-
-new_json = json.loads((ls_repo.commit(f"origin/{ls_repo.active_branch.name}").tree / "livery.json" ).data_stream.read().decode('utf-8'))
-old_json = json.loads((ls_repo.commit(commit_id).tree / "livery.json").data_stream.read().decode('utf-8'))
+new_json =  json.loads(requests.get("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/livery.json").content)
+old_json = json.loads(requests.get(f"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/{commit_id}/livery.json").content)
 keys = new_json["aircrafts"].keys()
 
 diff_data = []
@@ -57,8 +55,3 @@ if diff_data:
     embed = DiscordEmbed(title=f"Total: {total}", color="25405E")
     webhook.add_embed(embed)
     webhook.execute()
-
-with open("./.webhook/commit.txt", "w") as file:
-    commit_id = ls_repo.commit(f"origin/{ls_repo.active_branch.name}").hexsha
-    print(commit_id)
-    file.write(commit_id)
