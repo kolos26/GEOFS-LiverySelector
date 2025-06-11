@@ -3183,12 +3183,22 @@
             "name": "Pilatus PC-7 Mk-I",
             "liveries": [
                 {
-                    "name": "Pilatus PC-7 Mk-I",
+                    "name": "Royal Netherlands Air Force",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/pilatus/normal.jpg",
                         "/models/aircraft/premium/pilatus/specular.jpg",
                         "/models/aircraft/premium/pilatus/texture.jpg",
+                        "/models/aircraft/premium/pilatus/propblur.png"
+                    ]
+                },
+                {
+                    "name": "Royal Air Force",
+                    "credits": "SAAB BLÅHAJ",
+                    "texture": [
+                        "/models/aircraft/premium/pilatus/normal.jpg",
+                        "/models/aircraft/premium/pilatus/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/pilatus_pc7/raftexan.jpeg",
                         "/models/aircraft/premium/pilatus/propblur.png"
                     ]
                 }
