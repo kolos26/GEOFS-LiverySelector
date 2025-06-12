@@ -3194,7 +3194,7 @@
                 },
                 {
                     "name": "Royal Air Force",
-                    "credits": "SAAB BLÅHAJ",
+                    "credits": "ConvairF2ySeaDart",
                     "texture": [
                         "/models/aircraft/premium/pilatus/normal.jpg",
                         "/models/aircraft/premium/pilatus/specular.jpg",
@@ -23973,6 +23973,33 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/IL-2_Aeroflot.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Royal Aircraft Establishment (Raspberry Ripple livery)",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/RAE-ZA947.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Royal Jordanian Air Force",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/RJAF-111.png"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Türk Hava Yollari - Turkish Airlines",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/THY.png"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -31614,7 +31641,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Czech Airlines",
+                    "name": "Czech Airlines (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Czech Airlines A321.png"
                     ],
@@ -32361,6 +32388,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Air_Samarkand_-_UK32120_-_Airbus_A321-231WL.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Czech Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/CSA_Czech_Airlines_A321-200.jpg"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -43040,6 +43074,20 @@
                     "name": "Avianca Colombia",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Avianca_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Air India",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Air_India_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Canadian Pacific",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/CP_Air_747-100.png"
                     ],
                     "credits": "luca b"
                 }
