@@ -359,7 +359,7 @@
                     ]
                 },
                 {
-                    "name": "Red Bull - Flying Bulls Aerobaric Team",
+                    "name": "Red Bull - Flying Bulls",
                     "credits": "Sebastian Hecker",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/redbull/alpha02_T.bmp",
@@ -396,6 +396,14 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/belgianairforce/Belgian-AT26.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/belgianairforce/Belgian-AT26-Wing.jpg"
+                    ]
+                },
+                {
+                    "name": "Top Aces",
+                    "credits": "John Detrick (GeoFS conversion by Rick)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/topaces/alpha02_T.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/topaces/alpha01_T.png"
                     ]
                 }
             ],
@@ -2340,6 +2348,56 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/aurora/right.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "National Oceanic and Atmospheric Administration (N46RF)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa/right.jpg"
+                    ],
+                    "credits": "George A.Arana (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "National Oceanic and Atmospheric Administration (N723AR)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa2/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa2/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa2/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/noaa2/right.jpg"
+                    ],
+                    "credits": "George A.Arana (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "N125SA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/shark/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/shark/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/shark/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/shark/right.jpg"
+                    ],
+                    "credits": "Mauricio Illanes (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Swiss Federal Office of Topography",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/swisstopo/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/swisstopo/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/swisstopo/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/swisstopo/right.jpg"
+                    ],
+                    "credits": "Mauricio Illanes (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Swiss Federal Office of Topography",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/arma/main.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/arma/left.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/arma/bottom.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/arma/right.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -2571,6 +2629,204 @@
                         "/models/aircraft/premium/ec135/normals.jpg",
                         "/models/aircraft/premium/ec135/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/CHINA_Capital_Hilicopterwhite_landing_skids.jpg"
+                    ]
+                },
+                {
+                    "name": "NASA (N442)",
+                    "credits": "dglendinning (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/NASAN442-NA.png"
+                    ]
+                },
+                {
+                    "name": "NASA (N435)",
+                    "credits": "dglendinning (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/NASAN435-NA.png"
+                    ]
+                },
+                {
+                    "name": "NASA (N425NA)",
+                    "credits": "dglendinning (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/NASAN425-NA.png"
+                    ]
+                },
+                {
+                    "name": "Orsted Babcock Offshore",
+                    "credits": "allymcmurdo5 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/G-ORST-Orsted-Babcock-Offshore.png"
+                    ]
+                },
+                {
+                    "name": "NPAS",
+                    "credits": "allymcmurdo5 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/G-POLA-NPAS.png"
+                    ]
+                },
+                {
+                    "name": "Great Western Air Ambulance",
+                    "credits": "allymcmurdo5 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/G-GWAC-Great-Western-Air-Ambulance.png"
+                    ]
+                },
+                {
+                    "name": "Wales Air Ambulance",
+                    "credits": "allymcmurdo5 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/G-WASC-Wales-Air-Ambulance.png"
+                    ]
+                },
+                {
+                    "name": "NSW PolAir 4",
+                    "credits": "dglendinning (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/VH-PHM-NSW-Pol-Air-4.png"
+                    ]
+                },
+                {
+                    "name": "Bristow Group US",
+                    "credits": "jonhmama (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/N335-BG-Bristow-Group-US.png"
+                    ]
+                },
+                {
+                    "name": "Air Glaciers",
+                    "credits": "dglendinning (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/HB-ZUC-Air-Glaciers.png"
+                    ]
+                },
+                {
+                    "name": "Lotnicze Pogotowie Ratunkowe (Poland HEMS)",
+                    "credits": "Tony_666 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Lotnicze-Pogotowie-Ratunkowe.png"
+                    ]
+                },
+                {
+                    "name": "Xunta de Galicia",
+                    "credits": "Tisor (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/EC-LAL-061-Galicia.png"
+                    ]
+                },
+                {
+                    "name": "Guardia Civil",
+                    "credits": "afnavarro (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Guardia-Civil.png"
+                    ]
+                },
+                {
+                    "name": "Irish National Ambulance Service",
+                    "credits": "dglendinning (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/9-H-SEB-Irish-National-Amublance.png"
+                    ]
+                },
+                {
+                    "name": "Gendarmerie",
+                    "credits": "viclavraie (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/F-MJDH-Gendarmerie.png"
+                    ]
+                },
+                {
+                    "name": "DLR Flugbetriebe",
+                    "credits": "gk103 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/D-HFHS-DLR-Flugbetriebe.png"
+                    ]
+                },
+                {
+                    "name": "Bundeswrhr",
+                    "credits": "ec135_t1 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/shaders/Bundeswehr-8263-Normal.png",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Bundeswehr-8263-texture.png"
+                    ]
+                },
+                {
+                    "name": "Força Aérea Brasileira - VH-35",
+                    "credits": "rafa.almeida.sjc (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/FAB-VH-35.png"
+                    ]
+                },
+                {
+                    "name": "Marinha Do Brasil",
+                    "credits": "Samuel Ferreira Brasil (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Marinha-Do-Brasil-N-7091.png"
+                    ]
+                },
+                {
+                    "name": "Policia Federal Argentina",
+                    "credits": "gk103 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Policia-Federal-Argentina-H-12.png"
+                    ]
+                },
+                {
+                    "name": "Gendarmeria Nacional Argentina",
+                    "credits": "gk103 (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Gendarmeria-Nacional-Argentina-GN-925.png"
+                    ]
+                },
+                {
+                    "name": "Bundespolizei Austria",
+                    "credits": "dglendinning (GeoFS conversion by Rick)",
+                    "texture": [
+                        "/models/aircraft/premium/ec135/normals.jpg",
+                        "/models/aircraft/premium/ec135/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ec135/Bundespolizei-Austria-OE-BXR.png"
                     ]
                 }
             ],
@@ -3294,6 +3550,62 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/VH-NOO_1.png"
                     ],
                     "credits:": "Nichy"
+                },
+                {
+                    "name": "Pacific Western",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/10-external-floats2.png"
+                    ],
+                    "credits:": "Franz Falkenhaus (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Fuerza Aerea Argentina",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/10-external3.jpg"
+                    ],
+                    "credits:": "LNSilva (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "White River Air Service",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/CF-IDM.png"
+                    ],
+                    "credits:": "Franz Falkenhaus (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Bradley Air Service LTD",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/C-FJXO.png"
+                    ],
+                    "credits:": "Franz Falkenhaus (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "N471PM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/refs-fuse-floats-mix.png"
+                    ],
+                    "credits:": "Franz Falkenhaus (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "N1621",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/N1621.png"
+                    ],
+                    "credits:": "Franz Falkenhaus (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Harbour Air (150 years anniversary livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/C-FFHA-anniversary.png"
+                    ],
+                    "credits:": "Franz Falkenhaus (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Harris Air Freight",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc2/C-GHAF.png"
+                    ],
+                    "credits:": "Franz Falkenhaus (GeoFS conversion by Rick)"
                 }
             ],
             "labels": [
@@ -3707,6 +4019,13 @@
                     "name": "British Airways (Negus design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/negus.jpg"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "TWA (planned livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/concorde/twa.jpg"
                     ],
                     "credits": "CNParrot"
                 }
@@ -9614,10 +9933,18 @@
                     ]
                 },
                 {
-                    "name": "Czech Airlines",
+                    "name": "CSA",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/csa.jpg"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/CSA_Czech_Airlines_A319-100.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "CSA (95th anniversary livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/CSA_Czech_Airlines95_years_design_A319-100.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 },
                 {
                     "name": "Czech Airlines - Eurowings",
@@ -10207,7 +10534,7 @@
                 {
                     "name": "Aurora",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/Aurora_a319.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/a319_Aurora.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
                 },
@@ -15050,6 +15377,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Alaskan_Pride_-_Airbus_A320-214_1.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "CSA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/CSA_Czech_Airlines_A320-214.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "CSA (Citibank livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/CSA_Czech_Airlines_Citibank_Design_A320-214.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -17140,9 +17481,9 @@
                 {
                     "name": "Korean Air Lines",
                     "texture": [
-                        "https://raw.githubusercontent.com/coolpilot11/stuff/main/max8Korean.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/max8Korean.jpg"
                     ],
-                    "credits": "Coolpilot11"
+                    "credits": "Coolpilot11 & Ivan Dimitrev"
                 },
                 {
                     "name": "China Southern",
@@ -22840,6 +23181,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/OE-FZO_From_Movie_James_Bond_Spectre_BN2_islander.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Hebridean",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/Hebridean_BN-2_3.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Loganair (small logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/britten-norman_BN2/BN-2_Liveries_2.png"
+                    ],
+                    "credits": "garom"
                 }
             ],
             "labels": [
@@ -23783,7 +24138,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-lufthansa.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Lufthansa.jpg"
                     ],
-                    "credits": "Tim Scharnhop & Rick"
+                    "credits": "Tim Scharnhop (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Eastern Air Lines",
@@ -23792,7 +24147,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Eastern-Air-Lines.jpg"
                     ],
-                    "credits": "William C. Schulz & Rick"
+                    "credits": "William C. Schulz (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Olympic Airways",
@@ -23810,7 +24165,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Douglas-DC3-1-T.jpg"
                     ],
-                    "credits": "A.Datema & Rick"
+                    "credits": "A.Datema (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Martin's Air Charter",
@@ -23870,19 +24225,19 @@
                     "name": "Air America",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-air-america.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Air-America.jpg"
                     ],
-                    "credits": "Rick & Wayne Sinker"
+                    "credits": "Wayne Sinker (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Finnish Airlines (Airveteran)",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-finnish.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Finnish-Airlines.jpg"
                     ],
-                    "credits": "Rick & Kim Dahl"
+                    "credits": "Kim Dahl (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Allegheny Airlines",
@@ -23891,16 +24246,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Allegheny.jpg"
                     ],
-                    "credits": "Rick & Dale De Luca"
+                    "credits": "Dale De Luca (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "United Airlines (Mainliner design)",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-united-mainliner.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/United-Airlines-Mainliner.jpg"
                     ],
-                    "credits": "Rick & Dale De Luca"
+                    "credits": "Dale De Luca (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "VASP",
@@ -23909,7 +24264,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/VASP.jpg"
                     ],
-                    "credits": "Rick & Jaap de Baare"
+                    "credits": "Jaap de Baare (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "RDAF K-684",
@@ -23918,7 +24273,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/RDAF-K684.jpg"
                     ],
-                    "credits": "Rick & Kim Dahl"
+                    "credits": "Kim Dahl (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "USAF (Tico Belle nosepaint)",
@@ -23927,7 +24282,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Tico-Belle.jpg"
                     ],
-                    "credits": "Rick & Kim Dahl"
+                    "credits": "Kim Dahl (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Peau Vava'U Air",
@@ -23936,7 +24291,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Peau-Vava-U-Air.jpg"
                     ],
-                    "credits": "Rick & Daniel Nole"
+                    "credits": "Daniel Nole (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Duggy",
@@ -23945,31 +24300,31 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Duggy2.png"
                     ],
-                    "credits": "Rick & Trace Lewis"
+                    "credits": "Trace Lewis (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Fred Olsen Lines",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fred-olsen-lines.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Fred-Olsen-Lines.jpg"
                     ],
-                    "credits": "Rick & Ted Giana"
+                    "credits": "Ted Giana (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "CSA",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-csa.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/CSA.jpg"
                     ],
-                    "credits": "Rick & Zbynek Pavlon"
+                    "credits": "Zbynek Pavlon (GeoFS conversion by Rick)"
                 },
                 {
                     "name": "Aeroflot",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-aeoflot.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/IL-2_Aeroflot.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
@@ -23987,7 +24342,7 @@
                     "name": "Royal Jordanian Air Force",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-rjaf.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/RJAF-111.png"
                     ],
                     "credits": "Rick"
@@ -23996,7 +24351,7 @@
                     "name": "Türk Hava Yollari - Turkish Airlines",
                     "texture": [
                         "/models/aircraft/premium/dc3/normal.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-thy.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/THY.png"
                     ],
                     "credits": "Rick"
@@ -42404,6 +42759,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/klm95.png"
                     ],
                     "credits": "HO1076[Sino Wings Group]"
+                },
+                {
+                    "name": "Biman Bangladesh",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Biman-Bangladesh.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Biman-Bangladesh.png"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -43088,6 +43451,55 @@
                     "name": "Canadian Pacific",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/CP_Air_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "American Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/American_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "American Freighter",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/American_Freighter_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Korean Air Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Korean_Air_Cargo_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "CAAC",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/b2448_7.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "Kalitta Air (N704CK)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Kalitta_Air_N704CK_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Kalitta Air (N714CK)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Kalitta_Air_N714CK_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Flying Tigers",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Flying_Tigers_747-100.png"
                     ],
                     "credits": "luca b"
                 }
