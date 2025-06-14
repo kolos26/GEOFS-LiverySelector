@@ -52,6 +52,13 @@
                         "https://i.ibb.co/Hpqd4RSv/Geo-FS-Livery-Maker-5-1.png"
                     ],
                     "credits": "ljwalch"
+                },
+                {
+                    "name": "N70209",
+                    "texture": [
+                        "https://i.ibb.co/Hpqd4RSv/N70209.jpg"
+                    ],
+                    "credits": "ljwalch"
                 }
             ],
             "labels": [
@@ -15391,6 +15398,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/CSA_Czech_Airlines_Citibank_Design_A320-214.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "CSA (retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/CSA_Czech_Airlines_old_design_A320-214.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -19305,7 +19319,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/renoair.png"
                     ],
-                    "credits": "Nichy"
+                    "credits": "Torchivory"
                 },
                 {
                     "name": "American Airlines (TWA Heritage livery)",
@@ -26048,6 +26062,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Korean_Air_New_Livery_-_Airbus_A350-900.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Biman Bangladesh",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Biman_a350-900.png"
+                    ],
+                    "credits": "Likelyblaze"
                 }
             ],
             "labels": [
@@ -42844,6 +42866,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/MirageF1FR_2.png"
                     ],
                     "credits": "MirageModels"
+                },
+                {
+                    "name": "Iraqi Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/iraqi.png"
+                    ],
+                    "credits": "plen"
+                },
+                {
+                    "name": "Armee de L'air - Desert camo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/francedesert.png"
+                    ],
+                    "credits": "plen"
                 }
             ],
             "labels": [
@@ -42851,7 +42887,7 @@
             ],
             "name": "Dessault Mirage F1"
         },
-        "1015": {
+        "5316": {
             "index": [
                 2,
                 4,
@@ -43215,6 +43251,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/FLYONE_Armenia_A320.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Condor (Island design - partly painted)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/condorislandtail.png"
+                    ],
+                    "credits": "Youtube VR PoZz"
+                },
+                {
+                    "name": "Condor (Sea design - partly painted)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/1ASans_titre.png"
+                    ],
+                    "credits": "Youtube VR PoZz"
                 }
             ],
             "labels": [
@@ -43500,6 +43550,13 @@
                     "name": "Flying Tigers",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Flying_Tigers_747-100.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "NASA Shuttle Carrier (ex American Airlines)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/NASA_Old_747SCA.png"
                     ],
                     "credits": "luca b"
                 }
