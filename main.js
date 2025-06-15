@@ -1,5 +1,5 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
-const version = '3.2.3';
+const version = '3.2.4';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -93,22 +93,24 @@ async function handleLiveryJson(data) {
         }
         const element = document.querySelector(`[data-aircraft='${aircraftId}']`);
         // save original HTML for later use (reload, aircraft change, etc..)
-        if (!origHTMLs[aircraftId]) {
-            origHTMLs[aircraftId] = element.innerHTML;
+        if (element) {
+            if (!origHTMLs[aircraftId]) {
+                origHTMLs[aircraftId] = element.innerHTML;
+            }
+
+            // use orig HTML to concatenate so theres only ever one icon
+            element.innerHTML = origHTMLs[aircraftId] +
+                createTag('img', {
+                    src: `${githubRepo}/liveryselector-logo-small.svg`,
+                    style: 'height:30px;width:auto;margin-left:20px;',
+                    title: 'Liveries available'
+                }).outerHTML;
+
+            if (liveryobj.aircrafts[aircraftId].mp != "disabled")
+                element.innerHTML += createTag('small', {
+                    title: 'Liveries are multiplayer compatible\n(visible to other players)'
+                }, '🎮').outerHTML;
         }
-
-        // use orig HTML to concatenate so theres only ever one icon
-        element.innerHTML = origHTMLs[aircraftId] +
-            createTag('img', {
-                src: `${githubRepo}/liveryselector-logo-small.svg`,
-                style: 'height:30px;width:auto;margin-left:20px;',
-                title: 'Liveries available'
-            }).outerHTML;
-
-        if (liveryobj.aircrafts[aircraftId].mp != "disabled")
-            element.innerHTML += createTag('small', {
-                title: 'Liveries are multiplayer compatible\n(visible to other players)'
-            }, '🎮').outerHTML;
     });
 }
 
@@ -741,8 +743,6 @@ function getMPTexture(u, liveryEntry) {
     const textures = [];
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
-    console.log(u.currentLivery);
-    console.log(typeof (u.currentLivery));
     if (typeof (u.currentLivery[0]) == "string") {
         console.log("VA detected");
         console.log(u.currentLivery);
@@ -971,6 +971,7 @@ function generatePanelButtonHTML() {
 
 window.LiverySelector = {
     liveryobj,
+    loadLivery,
     saveSetting,
     toggleDiv,
     loadLiveryDirect,
