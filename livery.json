@@ -2405,6 +2405,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/arma/right.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Sunstate  Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/sunstate/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/sunstate/left.jog",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/sunstate/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/sunstate/right.jpg"
+                    ],
+                    "credits": "AusboyX"
                 }
             ],
             "labels": [
@@ -10614,6 +10624,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/Air_Senegal_A319-100.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Iran Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/Iran_Air_A319.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -13741,13 +13758,6 @@
                     "credits": "Spice9"
                 },
                 {
-                    "name": "Egypt Air",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/egyptair.png"
-                    ],
-                    "credits": "Spice9"
-                },
-                {
                     "name": "Qatar Airways",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/qatar.png"
@@ -13776,7 +13786,7 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "WIZZ (new design)",
+                    "name": "Wizz Air (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/wizznew.png"
                     ],
@@ -13928,13 +13938,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/iberiaoldone.png"
                     ],
                     "credits": "Youtube VR PoZz"
-                },
-                {
-                    "name": "Aegean",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/aegan.png"
-                    ],
-                    "credits": "Spice9"
                 },
                 {
                     "name": "Delta",
@@ -14122,13 +14125,6 @@
                     "name": "Aero Lloyd",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Aero Lloyd A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "Air New Zealand",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Air New Zealand A320.png"
                     ],
                     "credits": "luca b"
                 },
@@ -15754,7 +15750,7 @@
                     "credits": "Spice9"
                 },
                 {
-                    "name": "WIZZ",
+                    "name": "Wizz Air",
                     "texture": [
                         "/backend/aircraft/repository/airbus%20a320-214%20(Easyjet)_427352_2871/texture_6.3.jpg"
                     ],
@@ -27092,11 +27088,11 @@
                     "credits": "Coolpilot11"
                 },
                 {
-                    "name": "WIZZ",
+                    "name": "Wizz Air",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/29cp11_wizz.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Wizz_Air_A321NEO.jpg"
                     ],
-                    "credits": "Coolpilot11"
+                    "credits": "Ivan Dimitrev"
                 },
                 {
                     "name": "Iberia Express",
@@ -32770,6 +32766,13 @@
                     "name": "Czech Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/CSA_Czech_Airlines_A321-200.jpg"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Iran Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Iran_Air_A321-211.png"
                     ],
                     "credits": "Lego and Avgeek YT"
                 }
@@ -42079,12 +42082,12 @@
                     "credits": "Pilot2938"
                 },
                 {
-                    "name": "China Eastern (old design)",
+                    "name": "China Eastern",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/CES.png"
                     ],
-                    "credits": "Pilot2938"
+                    "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
                     "name": "Delta Airlines (Classic Widget design)",
@@ -42789,6 +42792,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Biman-Bangladesh.png"
                     ],
                     "credits": "Rick"
+                },
+                {
+                    "name": "China Bluesky (from movie Jinjipojiang)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/china_bluesky.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/china_bluesky.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -43265,6 +43276,69 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/1ASans_titre.png"
                     ],
                     "credits": "Youtube VR PoZz"
+                },
+                {
+                    "name": "LAN Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/A320-232_LAN_AIRLINES_LV-BRY.png"
+                    ],
+                    "credits": "Felidorado"
+                },
+                {
+                    "name": "LAN Airlines (Oneworld livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/A320-232_lan_argentina_LV-BFO.png"
+                    ],
+                    "credits": "Felidorado"
+                },
+                {
+                    "name": "Iran Airtour",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Iran_Airtour_A320-232.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "JetStar (Low Fares Forever livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/JetStar_LFF_-_Airbus_A320-232.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Aegean",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Aegean_A320-232.png"
+                    ],
+                    "credits": "Spice9 & luca b"
+                },
+                {
+                    "name": "Air New Zealand",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Air_New_Zealand_A320-232.png"
+                    ],
+                    "credits": "Spice9 & luca b"
+                },
+                {
+                    "name": "Egypt Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Egyptair_A320-232.png"
+                    ],
+                    "credits": "Spice9 & luca b"
+                },
+                {
+                    "name": "SAS",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/SAS_A320-232.png"
+                    ],
+                    "credits": "Spice9 & luca b"
+                },
+                {
+                    "name": "United",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/United_A320-232.png"
+                    ],
+                    "credits": "Spice9 & luca b"
                 }
             ],
             "labels": [
