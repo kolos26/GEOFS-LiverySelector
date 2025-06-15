@@ -1,0 +1,46 @@
+name: Store commit hash
+
+on:
+  push:
+    paths-ignore:
+      - commit.txt
+
+jobs:
+  store-commit-hash:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          sparse-checkout: |
+            commit.txt
+            !*.png
+            !*.jpg
+            !*.jpeg
+            !*.gif
+            .
+          sparse-checkout-cone-mode: false  # disable cone mode for wildcard support
+          fetch-depth: 1
+
+      - name: Fetch commit hash
+        id: get_commit
+        uses: pr-mpt/actions-commit-hash@v2
+
+      - name: Write file
+        uses: 1arp/create-a-file-action@0.4.5
+        with:
+          path: '.'
+          isAbsolutePath: false
+          file: 'commit.txt'
+          content: |
+            ${{ steps.get_commit.outputs.hash }}
+
+      - name: Commit the file
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions"
+          git add commit.txt
+          git commit -m "Update commit hash"
+          git push

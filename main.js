@@ -1,7 +1,7 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
-const version = '3.2.3';
+const version = '3.2.5';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -104,9 +104,10 @@ async function handleLiveryJson(data) {
         }
         const element = document.querySelector(`[data-aircraft='${aircraftId}']`);
         // save original HTML for later use (reload, aircraft change, etc..)
-        if (!origHTMLs[aircraftId]) {
-            origHTMLs[aircraftId] = element.innerHTML;
-        }
+        if (element) {
+            if (!origHTMLs[aircraftId]) {
+                origHTMLs[aircraftId] = element.innerHTML;
+            }
 
         // use orig HTML to concatenate so theres only ever one icon
         element.innerHTML = origHTMLs[aircraftId] +
@@ -769,8 +770,6 @@ function getMPTexture(u, liveryEntry) {
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
     if (!u.currentLivery) return []; // early return in case of missing livery
-    console.log(u.currentLivery);
-    console.log(typeof (u.currentLivery));
     if (typeof (u.currentLivery[0]) == "string") {
         console.log("VA detected");
         console.log(u.currentLivery);
@@ -1006,6 +1005,7 @@ function togglePanel() {
 
 window.LiverySelector = {
     liveryobj,
+    loadLivery,
     saveSetting,
     toggleDiv,
     loadLivery,
