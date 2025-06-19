@@ -16,9 +16,7 @@ In the list of liveries you can find:
 My goal was to put the liveries into one easy to use interface where you can select them fast with one click.
 
 ## Trailer
-[![YouTube Trailer](https://img.youtube.com/vi/VsFhiWKO5tQ/hqdefault.jpg)](https://www.youtube.com/watch?v=VsFhiWKO5tQ)
-
-[Trailer on Bilibili](https://www.bilibili.com/video/BV15dYDe5EB2)
+[![YouTube Trailer](https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg)](https://www.youtube.com/watch?v=1w5u2R1dnVU)
 
 
 ## Features
