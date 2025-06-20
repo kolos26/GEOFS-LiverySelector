@@ -3402,6 +3402,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Air_France_Paris_Ville_Candidate_2024_Olympic_design_A380-800.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Singapore Airlines (SG50 livery)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/Singapore_Airlines_A380_SG50_LIVERY.png"
+                    ],
+                    "credits": "air1usa"
                 }
             ],
             "labels": [
@@ -15439,6 +15448,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/fin_ver_wi.png"
                     ],
                     "credits": "garom"
+                },
+                {
+                    "name": "Air Asia (white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/airasiawhite.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Air Asia (Come to Lake Toba livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/laketoba.png"
+                    ],
+                    "credits": "garom"
                 }
             ],
             "labels": [
@@ -18859,8 +18882,9 @@
                 {
                     "name": "UTair (old design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/UTair_737-8.png"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Utair_boeing_737-800.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 },
                 {
                     "name": "Asia Cargo",
@@ -22762,6 +22786,13 @@
                     "name": "TAESA (yellow design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Taesa_Yellow_design_737-200.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "TAESA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Taesa_737-200.png"
                     ],
                     "credits": "Lego and Avgeek YT"
                 }
@@ -29107,7 +29138,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/latam.png"
-                    ]
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 },
                 {
                     "name": "Qatar Airways",
@@ -31749,6 +31781,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_learjet45/JMSDF2.png"
                     ],
                     "credits": "Rick"
+                },
+                {
+                    "name": "TAESA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_learjet45/TAESA_Learjet_45.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -42716,7 +42755,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "China Airlines",
+                    "name": "China Airlines (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/China_Airlines_MD-11.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/China_Airlines_MD-11.png"
@@ -42954,6 +42993,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/china_bluesky.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "China Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/chinaairlinesold.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/chinaairlinesold.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -43052,6 +43099,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/Mirage-F1-CT-260-Retirement-EC-2-30-Normandie-Niemen-2009.png"
                     ],
                     "credits": "Rick"
+                },
+                {
+                    "name": "Armée de L'air - Dissolution EC 2/30 Normandie-Niemen 2002",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_miragef1/normandianiemenred.jpeg"
+                    ],
+                    "credits": "ConvairF2ySeaDart"
                 }
             ],
             "labels": [
@@ -43556,6 +43610,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Barcode_-_N805JB_-_Airbus_A320-232_1.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "South African Airways (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/South_African_Airways_Star_Alliance_design_A320-232.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Yamal",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Yamal_A320-232.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Latam",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/CC-BAE_-_See_the_Sea_Baby__-_Airbus_A320-232_1.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Batik air (white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/fin_ver_batik.png"
+                    ],
+                    "credits": "garom"
                 }
             ],
             "labels": [
