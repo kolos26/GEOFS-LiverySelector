@@ -3882,6 +3882,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/Vietnamese_Air_Force_8588.jpg"
                     ],
                     "credits": "opaldelta_17676"
+                },
+                {
+                    "name": "Egyptian Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/egypt_su35.png"
+                    ],
+                    "credits": "Raptor4001"
+                },
+                {
+                    "name": "People's Liberation Army Air Force - 70305",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/70305.png"
+                    ],
+                    "credits": "CNParrot"
                 }
             ],
             "labels": [
@@ -8938,6 +8952,23 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Oceanair_757-200.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Pan Am Commemorative Tours",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -29379,7 +29410,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/tam.png"
-                    ]
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 },
                 {
                     "name": "Air China (50th Anniversaire Chine-France livery)",
@@ -42632,7 +42664,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Mandarin_Airlines_MD-11.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Mandarin_Airlines_MD-11.png"
                     ],
-                    "credits": "luca b"
+                    "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
                     "name": "AOM",
@@ -43570,7 +43602,7 @@
                     "credits": "HotelTDevils"
                 },
                 {
-                    "name": "Mandala Airlines",
+                    "name": "Mandala Airlines (Tigerair)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Mandala_A320_2.png"
                     ],
@@ -43630,12 +43662,26 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/CC-BAE_-_See_the_Sea_Baby__-_Airbus_A320-232_1.png"
                     ],
-                    "credits": "Lego and Avgeek YT"
+                    "credits": "Nichy"
                 },
                 {
                     "name": "Batik air (white design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/fin_ver_batik.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Super Air Jet (white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/fin_ver_SAJ_white.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Mandala Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/mandala_a320_7.png"
                     ],
                     "credits": "garom"
                 }
@@ -43899,11 +43945,18 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "CAAC",
+                    "name": "CAAC (B-2448)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/b2448_7.png"
                     ],
                     "credits": "MirageModels"
+                },
+                {
+                    "name": "CAAC (B-2446)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/caac2446.png"
+                    ],
+                    "credits": "CNParrot"
                 },
                 {
                     "name": "Kalitta Air (N704CK)",
