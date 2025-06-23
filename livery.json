@@ -3902,6 +3902,13 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/iriaf_su35.png"
                     ],
+                    "credits": "Raptor4001"
+                },
+                {
+                    "name": "People's Liberation Army Air Force - 61277",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/61277.png"
+                    ],
                     "credits": "CNParrot"
                 }
             ],
@@ -8976,6 +8983,23 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Pan_Am_757-200.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Iberia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/iberia757-200-livery.png"
+                    ],
+                    "credits": "Delta006"
                 }
             ],
             "labels": [
@@ -12208,8 +12232,9 @@
                 {
                     "name": "China Southern",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/China_Southern_787-9_Final.png "
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/chinasouth.png"
+                    ],
+                    "credits": "TOMAIM"
                 },
                 {
                     "name": "EL AL (USA livery)",
@@ -12548,7 +12573,8 @@
                     "name": "China Southern (787th Boeing 787 livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/southern787.png"
-                    ]
+                    ],
+                    "credits": "TOMAIM"
                 },
                 {
                     "name": "Hainan Airlines (IHG Hotels livery)",
@@ -27049,6 +27075,20 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/Garuda_Indonesia_white_design_A330-900NEO.png"
                     ]
+                },
+                {
+                    "name": "China Southern",
+                    "credits": "CNParrot",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/chinasouthern.png"
+                    ]
+                },
+                {
+                    "name": "Sichuan Airlines (Wuliangye livery)",
+                    "credits": "TOMAIM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/wuliang.png"
+                    ]
                 }
             ],
             "labels": [
@@ -32983,6 +33023,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Iran_Air_A321-211.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "LongJiang Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/LJ.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -39501,6 +39548,14 @@
                     "credits": "XingHaoAirlines"
                 },
                 {
+                    "name": "Air China Cargo (whith flag)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/airchinacargoflag.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+                    ],
+                    "credits": "TOMAIM"
+                },
+                {
                     "name": "China Cargo",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/chinacargo.png",
@@ -41690,6 +41745,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/f-15_75years.png"
                     ],
                     "credits": "Raptor4001"
+                },
+                {
+                    "name": "Royal Singapore Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/RSAF_f-15.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/RSAF_f-15.png"
+                    ],
+                    "credits": "Raptor4001"
                 }
             ],
             "labels": [
@@ -43610,7 +43673,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "JetStar (Low Fares Forever livery)",
+                    "name": "JetStar (10th anniversary livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/JetStar_LFF_-_Airbus_A320-232.png"
                     ],
@@ -43748,6 +43811,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/mandala_a320_7.png"
                     ],
                     "credits": "garom"
+                },
+                {
+                    "name": "JetStar (Flying With Pride livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/JetStar_Flying_With_Pride_-_Airbus_A320-232.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -44063,6 +44133,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Pan_Am_Cargo_X_Qantas_747-100.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Iberia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/iberia747liv.png"
+                    ],
+                    "credits": "Delta006"
                 }
             ],
             "labels": [
