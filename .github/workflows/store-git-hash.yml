@@ -20,7 +20,7 @@ jobs:
             !*.jpeg
             !*.gif
             .
-          sparse-checkout-cone-mode: false  # disable cone mode for wildcard support
+          sparse-checkout-cone-mode: false
           fetch-depth: 1
 
       - name: Fetch commit hash
@@ -28,19 +28,18 @@ jobs:
         uses: pr-mpt/actions-commit-hash@v2
 
       - name: Write file
-        uses: 1arp/create-a-file-action@0.4.5
-        with:
-          path: '.'
-          isAbsolutePath: false
-          file: 'commit.txt'
-          content: |
-            ${{ steps.get_commit.outputs.hash }}
-
-      - name: Commit the file
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "${{ steps.get_commit.outputs.hash }}" > commit.txt
+          if git diff --quiet commit.txt; then
+            echo "No changes to commit.txt"
+            exit 0
+          fi
           git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add commit.txt
-          git commit -m "Update commit hash"
-          git push
+          if git log -1 --pretty=%an | grep -q "github-actions"; then
+            git commit --amend --no-edit
+          else
+            git commit -m "Update commit hash"
+          fi
+          git push --force
