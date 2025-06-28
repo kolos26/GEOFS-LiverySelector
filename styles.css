@@ -14,6 +14,7 @@
     content: "▶";
     margin-right: 2px;
 }
+
 .checked, .nocheck {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     color: rgb(255, 193, 7);
