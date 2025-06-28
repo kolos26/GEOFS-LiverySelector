@@ -198,11 +198,18 @@ ul.livery-custom-tabs {
 #airlinelist li.livery-list-item,
 #liverylist li.livery-list-item {
     background-color: white;
-    display: block;
+    display: none;
     height: 48px;
     transition: height .1s;
     overflow: hidden;
 }
+
+#favorites li.livery-list-item,
+#airlinelist li.livery-list-item,
+#liverylist li.livery-list-item.geofs-visible {
+    display: block;
+}
+
 #liverylist li.livery-list-item.offi:hover {
     transition: height 0.1s;
     height: 240px;
