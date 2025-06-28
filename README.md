@@ -1,10 +1,18 @@
-# GEOFS-LiverySelector
+<h1 align="center">GEOFS-LiverySelector</h1>
 
-<img src="liveryselector-logo.svg" width="120%"/>
+<p align="center">
+    <img src="liveryselector-logo.svg" width="100%"/>
+</p>
 
-Unified livery handler addon for [geofs](https://geo-fs.com).
+<h1></h1>
+<p align="center">
+    <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
+    <img alt="Stars Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
+    <img alt="Stars Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
+</p>
 
-This addon contains more than a hundred of new liveries and a brand new user interface to make it easier to use your favorite livery.
+LiverySelector is a unified livery handler addon for [GeoFS](https://geo-fs.com), 
+containing hundreds of liveries and a feature packed user interface to make it easier to use your favorite livery.
 
 In the list of liveries you can find:
 
@@ -21,7 +29,7 @@ My goal was to put the liveries into one easy to use interface where you can sel
 
 ## Features
 
-For every supported aircraft you can find the list of avaliable liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing *l* on your keyboard.0 Here you can star your favourite liveries to show them on the top and search for any livery. I'm only planning to support real-life liveries, because most people do not want to share their personal liveries.
+For every supported aircraft you can find the list of avaliable liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing *l* on your keyboard. Here you can star your favourite liveries to show them on the top and search for any livery. I'm only planning to support real-life liveries, because most people do not want to share their personal liveries.
 
 
 ## How to use
@@ -67,9 +75,9 @@ By default due to security reasons these liveries are not visible in multiplayer
 In the header you can customize your airline
 ```
 {
-    "name": "Example Airlines", //Name of your airline
-    "color": "red",             //The color of the name in LiverySelector
-    "bgcolor": "darkblue",      //The background color of the name in LiverySelector
+    "name": "Example Airlines", // Name of your airline
+    "color": "red",             // The color of the name in LiverySelector
+    "bgcolor": "darkblue",      // The background color of the name in LiverySelector
     "aircrafts": {
 ...
 ```
@@ -182,6 +190,7 @@ Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to
 ## Known issues
 
 - Old versions are no longer working, please update to the latest version!
+- Opening the livery menu on popular aircraft, such as the default 737, may freeze your screen for a bit as the browser loads all the liveries.
 
 ## How to contribute?
 
