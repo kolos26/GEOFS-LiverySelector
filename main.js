@@ -308,7 +308,7 @@ function listLiveries() {
     , acftId = geofs.aircraft.instance.id
     , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
     , airplane = getCurrentAircraft(); // chained variable declarations
-    $('#listDiv').data('data-ac', acftId); // tells us which aircraft's liveries are loaded
+    $('#listDiv').attr('data-ac', acftId); // tells us which aircraft's liveries are loaded
     for (let i = 0; i < airplane.liveries.length; i++) {
         const e = airplane.liveries[i];
         if (e.disabled) return;
