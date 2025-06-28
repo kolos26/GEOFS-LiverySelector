@@ -2444,6 +2444,26 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/sunstate/right.jpg"
                     ],
                     "credits": "AusboyX"
+                },
+                {
+                    "name": "US Army - Golden Knights",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/knights/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/knights/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/knights/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/knights/right.jpg"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "USAF Academy - D-Day Heritage livery",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/usaf/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/usaf/left.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/usaf/bottom.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dhc6_twinotter/usaf/right.jpg"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -12391,9 +12411,9 @@
                 {
                     "name": "China Southern",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/chinasouth.png"
+                        "https://raw.githubusercontent.com/Spice9/stuff2/main/China_Southern_787-9_Final.png"
                     ],
-                    "credits": "TOMAIM"
+                    "credits": "Burner"
                 },
                 {
                     "name": "EL AL (USA livery)",
@@ -12733,7 +12753,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/southern787.png"
                     ],
-                    "credits": "TOMAIM"
+                    "credits": "bilibili開飛機のzm[Sino Wings Group]"
                 },
                 {
                     "name": "Hainan Airlines (IHG Hotels livery)",
@@ -14294,7 +14314,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "ShenZhen Airlines (Star Alliance livery)",
+                    "name": "Shenzen Airlines (Star Alliance livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/sz_SA_32C.png"
                     ],
@@ -26478,6 +26498,22 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Vietnam-Airlines-unpainted.png"
                     ],
                     "credits": "opaldelta_17676"
+                },
+                {
+                    "name": "Sichuan Airlines (Panda livery B-32G6)",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/32G6.png"
+                    ],
+                    "credits": "bilibili開飛機のzm[Sino Wings Group] & whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Sichuan Airlines (Panda livery B-32HG)",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/32HG.png"
+                    ],
+                    "credits": "bilibili開飛機のzm[Sino Wings Group] & whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -31112,6 +31148,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Rossiya_Leolet_777-300er_.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Nordwind Airlines (white design)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Nordwind_white_design_b777-300er.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -35256,9 +35300,9 @@
                 {
                     "name": "Aeroflot",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/aeroflot.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/aeroflot_a330.jpg"
                     ],
-                    "credits": "Androway"
+                    "credits": "Androway & Ivan Dimitrev"
                 },
                 {
                     "name": "corsairfly.com (white design)",
@@ -36511,6 +36555,13 @@
                     "credits": "Ivan Dimitrev",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/iFly_white_design_A332.jpg"
+                    ]
+                },
+                {
+                    "name": "Jet Airways (old design)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Jet_Airways_Old_Design_A330-200.png"
                     ]
                 }
             ],
@@ -44516,6 +44567,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Norskfreight_747-100.png"
                     ],
                     "credits": "Delta006"
+                },
+                {
+                    "name": "TransCon Airlines (from movie Turbulence)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Transcon_Airlines_747-100.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
