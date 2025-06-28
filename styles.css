@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 .checked {
-    color: rgb(255, 193, 7);
+    color: rgb(255, 193, 7) !important;
 }
 
 input[type="file"] {
