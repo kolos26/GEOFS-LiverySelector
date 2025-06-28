@@ -15,15 +15,15 @@
     margin-right: 2px;
 }
 
-.checked, .nocheck {
+.fa .fa-star {
+    color: white;
+}
+.checked {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     color: rgb(255, 193, 7);
     display: inline;
     text-align: right;
     cursor: pointer;
-}
-.nocheck {
-    color: white;
 }
 
 input[type="file"] {
