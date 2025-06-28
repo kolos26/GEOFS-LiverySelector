@@ -16,14 +16,14 @@
 }
 
 .fa.fa-star {
-    color: white;
-}
-.checked {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    color: rgb(255, 193, 7);
+    color: white;
     display: inline;
     text-align: right;
     cursor: pointer;
+}
+.checked {
+    color: rgb(255, 193, 7);
 }
 
 input[type="file"] {
