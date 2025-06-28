@@ -17,9 +17,9 @@ let whitelist;
 (async function init() {
     // latest commit fetch
     try {
-        const res = await fetch(`${githubRepo}/commit.txt`);
+        const res = await fetch(`https://api.github.com/repos/kolos26/GEOFS-LiverySelector/commits/main`);
         if (!res.ok) jsDelivr = githubRepo;
-        const commit = (await res.text()).trim();
+        const commit = (await res.json()).sha;
         if (!/^[a-f0-9]{40}$/.test(commit)) jsDelivr = githubRepo;
         jsDelivr = jsDelivr.replace("@main", `@${commit}`);
     } catch (err) {jsDelivr = githubRepo};
