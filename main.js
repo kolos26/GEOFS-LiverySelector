@@ -183,7 +183,8 @@ function submitLivery() {
     const json = {
         name: formFields.liveryname.value.trim(),
         credits: formFields.credits.value.trim(),
-        texture: []
+        texture: [],
+        materials: {}
     };
     if (!json.name || json.name.trim() == '') {
         return;
@@ -191,35 +192,40 @@ function submitLivery() {
     const hists = [];
     const embeds = [];
     inputFields.forEach((f, i) => {
-        f.value = f.value.trim();
-        if (f.value.match(/^https:\/\/.+/i)) {
-            const hist = Object.values(uploadHistory).find(o => o.url == f.value);
-            if (!hist) {
-                return alert('Only self-uploaded imgbb links work for submitting!');
-            }
-            if (hist.expiration > 0) {
-                return alert('Can\' submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
-            }
-            const embed = {
-                title: airplane.labels[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
-                description: f.value,
-                image: { url: f.value },
-                fields: [
-                    { name: 'Timestamp', value: new Date(hist.time * 1e3), inline: true },
-                    { name: 'File ID', value: hist.id, inline: true },
-                ]
-            };
-            if (hist.submitted) {
-                if (!confirm('The following texture was already submitted:\n' + f.value + '\nContinue anyway?')) {
-                    return;
+        console.log(f.type)
+        if (f.type === "text"){
+            f.value = f.value.trim();
+            if (f.value.match(/^https:\/\/.+/i)) {
+                const hist = Object.values(uploadHistory).find(o => o.url == f.value);
+                if (!hist) {
+                    return alert('Only self-uploaded imgbb links work for submitting!');
                 }
-                embed.fields.push({ name: 'First submitted', value: new Date(hist.submitted * 1e3) });
+                if (hist.expiration > 0) {
+                    return alert('Can\' submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
+                }
+                const embed = {
+                    title: airplane.labels[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
+                    description: f.value,
+                    image: { url: f.value },
+                    fields: [
+                        { name: 'Timestamp', value: new Date(hist.time * 1e3), inline: true },
+                        { name: 'File ID', value: hist.id, inline: true },
+                    ]
+                };
+                if (hist.submitted) {
+                    if (!confirm('The following texture was already submitted:\n' + f.value + '\nContinue anyway?')) {
+                        return;
+                    }
+                    embed.fields.push({ name: 'First submitted', value: new Date(hist.submitted * 1e3) });
+                }
+                embeds.push(embed);
+                hists.push(hist);
+                json.texture.push(f.value);
+            } else {
+                json.texture.push(textures[i]);
             }
-            embeds.push(embed);
-            hists.push(hist);
-            json.texture.push(f.value);
-        } else {
-            json.texture.push(textures[i]);
+        } else if (f.type === "color"){
+            json.materials[f.id] = [parseInt(f.value.substring(1, 3), 16) / 255, parseInt(f.value.substring(3, 5), 16) / 255, parseInt(f.value.substring(5, 7), 16) / 255]
         }
     });
     if (!embeds.length)
@@ -384,18 +390,31 @@ function addCustomForm() {
     document.querySelector('#livery-custom-tab-direct .upload-fields').innerHTML = '';
     const airplane = getCurrentAircraft();
     const textures = airplane.liveries[0].texture.filter(t => typeof t !== 'object');
-    if (!textures.length) {
-        return; // ignore material defs
-    }
     const placeholders = airplane.labels;
-    if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
-        createUploadButton(placeholders[0]);
-        createDirectButton(placeholders[0]);
-    } else {
-        placeholders.forEach((placeholder, i) => {
-            createUploadButton(placeholder);
-            createDirectButton(placeholder, i);
-        });
+    if (textures.length){
+        if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+            createUploadButton(placeholders[0]);
+            createDirectButton(placeholders[0]);
+        } else {
+            placeholders.forEach((placeholder, i) => {
+                createUploadButton(placeholder);
+                createDirectButton(placeholder, i);
+            });
+        }
+    }
+    if (airplane.liveries[0].materials) {
+        airplane.liveries[0].materials.forEach((material, key) => {
+            let partlist = [];
+            airplane.liveries[0].texture.forEach((e, k) => {
+                if (typeof(e) === 'object'){
+                    if (e.material == key){
+                        partlist.push(airplane.parts[k]);
+                    }
+                }
+            });
+            createColorChooser(material.name, Object.keys(material)[1], partlist);
+            createUploadColorChooser(material.name, Object.keys(material)[1], partlist);
+        })
     }
     // click first tab to refresh button status
     document.querySelector('.livery-custom-tabs li').click();
@@ -411,6 +430,15 @@ function search(text) {
             e.style.display = found ? 'block' : 'none';
         });
     }
+}
+
+function changeMaterial(name, color, type, partlist){
+    let r = parseInt(color.substring(1, 3), 16) / 255
+    let g = parseInt(color.substring(3, 5), 16) / 255
+    let b = parseInt(color.substring(5, 7), 16) / 255
+    partlist.forEach(part => {
+        geofs.aircraft.instance.definition.parts[part]['3dmodel']._model.getMaterial(name).setValue(type, new Cesium.Cartesian4(r, g, b, 1.0));
+    });
 }
 
 /**
@@ -476,6 +504,32 @@ function createDirectButton(id, i) {
         onchange: 'LiverySelector.loadLiveryDirect(this,' + i + ')'
     });
     appendNewChild(customDiv, 'span').innerHTML = id;
+    appendNewChild(customDiv, 'br');
+}
+
+function createColorChooser(name, type, partlist) {
+    const customDiv = document.querySelector('#livery-custom-tab-direct .upload-fields');
+    appendNewChild(customDiv, 'input', {
+        type: 'color',
+        name: name,
+        class: 'colorChooser',
+        onchange: `changeMaterial("${name}", this.value, "${type}", [${partlist}])`
+    });
+    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).innerHTML = name;
+    appendNewChild(customDiv, 'br');
+}
+
+
+function createUploadColorChooser(name, type, partlist) {
+    const customDiv = document.querySelector('#livery-custom-tab-upload .upload-fields');
+    appendNewChild(customDiv, 'input', {
+        type: 'color',
+        name: "textureInput",
+        id: name,
+        class: 'colorChooser',
+        onchange: `changeMaterial("${name}", this.value, "${type}", [${partlist}])`
+    });
+    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).innerHTML = name;
     appendNewChild(customDiv, 'br');
 }
 
