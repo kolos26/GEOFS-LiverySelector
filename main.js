@@ -17,9 +17,9 @@ let whitelist;
 (async function init() {
     // latest commit fetch
     try {
-        const res = await fetch(`${githubRepo}/commit.txt`);
+        const res = await fetch(`https://api.github.com/repos/kolos26/GEOFS-LiverySelector/commits/main`);
         if (!res.ok) jsDelivr = githubRepo;
-        const commit = (await res.text()).trim();
+        const commit = (await res.json()).sha;
         if (!/^[a-f0-9]{40}$/.test(commit)) jsDelivr = githubRepo;
         jsDelivr = jsDelivr.replace("@main", `@${commit}`);
     } catch (err) {jsDelivr = githubRepo};
@@ -299,7 +299,7 @@ function listLiveries() {
         const idx = $(target).closest('li').data('idx')
         , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
-        if (!idx) return;
+        if (!idx || target.classList.contains("fa-star")) return; // avoid livery selection when favorite button is pressed
         livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
         livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
@@ -308,7 +308,7 @@ function listLiveries() {
     , acftId = geofs.aircraft.instance.id
     , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
     , airplane = getCurrentAircraft(); // chained variable declarations
-    $('#listDiv').data('ac', acftId); // tells us which aircraft's liveries are loaded
+    $('#listDiv').attr('data-ac', acftId); // tells us which aircraft's liveries are loaded
     for (let i = 0; i < airplane.liveries.length; i++) {
         const e = airplane.liveries[i];
         if (e.disabled) return;
@@ -325,9 +325,9 @@ function listLiveries() {
         }
         $('<span/>', {
             id: [acftId, e.name].join('_'),
-            class: 'fa fa-star nocheck',
+            class: 'fa fa-star',
             onclick: 'LiverySelector.star(this)'
-        });
+        }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
     livList.append(tempFrag);
@@ -477,29 +477,25 @@ function changeMaterial(name, color, type, partlist){
 function star(element) {
     const e = element.classList;
     const elementId = [element.id, 'favorite'].join('_');
-    if (e == 'fa fa-star nocheck') {
-        const btn = domById([element.id, 'button'].join('_'));
-        const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
-        fbtn.onclick = btn.onclick;
-        fbtn.innerText = btn.children[0].innerText;
-
-        let list = localStorage.favorites.split(',');
-        list.push(element.id);
-        list = [...new Set(list)];
-        localStorage.favorites = list;
-
-    } else if (e == 'fa fa-star checked') {
+	let list = localStorage.favorites.split(',');
+    if (e.contains("checked")) {
         domById('favorites').removeChild(domById(elementId));
-        const list = localStorage.favorites.split(',');
         const index = list.indexOf(element.id);
         if (index !== -1) {
             list.splice(index, 1);
         }
         localStorage.favorites = list;
+    } else {
+		const btn = domById([element.id, 'button'].join('_'));
+        const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
+        fbtn.onclick = btn.onclick;
+        fbtn.innerText = btn.children[0].innerText;
+		
+        list.push(element.id);
+        localStorage.favorites = [...new Set(list)];
     }
     //style animation
     e.toggle('checked');
-    e.toggle('nocheck');
 }
 
 /**

@@ -14,15 +14,16 @@
     content: "▶";
     margin-right: 2px;
 }
-.checked, .nocheck {
+
+.fa.fa-star {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    color: rgb(255, 193, 7);
+    color: white;
     display: inline;
     text-align: right;
     cursor: pointer;
 }
-.nocheck {
-    color: white;
+.checked {
+    color: rgb(255, 193, 7) !important;
 }
 
 input[type="file"] {
