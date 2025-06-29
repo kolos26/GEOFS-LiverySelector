@@ -1,7 +1,7 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
-const version = '3.2.5';
+const version = '3.2.6';
 
 const liveryobj = {};
 const mpLiveryIds = {};
