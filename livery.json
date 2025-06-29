@@ -441,6 +441,46 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/redarrows/fuselage.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/redarrows/wing.png"
                     ]
+                },
+                {
+                    "name": "Armée de l'air - 50 Ans Ecole Chasse",
+                    "credits": "Martial Feron (GeoFS conversion by Rick)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/e68/fuselage.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/e68/wings.jpg"
+                    ]
+                },
+                {
+                    "name": "Armée de l'air - 100 years anniversary",
+                    "credits": "Martial Feron (GeoFS conversion by Rick)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/e33/fuselage.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/e33/wings.jpg"
+                    ]
+                },
+                {
+                    "name": "Armée de l'air - Patrouille de France - USA 2017 Tour",
+                    "credits": "Martial Feron (GeoFS conversion by Rick)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/pafusa/fuselage.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/pafusa/wings.jpg"
+                    ]
+                },
+                {
+                    "name": "Armeé de L'Air",
+                    "credits": "Martial Feron (GeoFS conversion by Rick)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/e52/fuselage.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/e52/wings.jpg"
+                    ]
+                },
+                {
+                    "name": "E01 Prototype",
+                    "credits": "Darmon (GeoFS conversion by Rick)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/proto/fuselage.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/proto/wings.jpg"
+                    ]
                 }
             ],
             "labels": [
@@ -2106,15 +2146,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/smartavia.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
-                },
-                {
-                    "name": "Shenzen Airlines (old design)",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/normal.jpg",
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/shenzenold.png"
-                    ],
-                    "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
                     "name": "VASP",
@@ -4384,6 +4415,23 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/n5241q3__4_.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/n5241q3__4_.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/n5241q3__4_.jpg"
+                    ]
+                },
+                {
+                    "name": "F-GHJO",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_152/F-GHJO_Cessna_152.jpg"
                     ]
                 }
             ],
@@ -10721,14 +10769,14 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/tibet.jpg"
                     ],
-                    "credits": "CNParrot"
+                    "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
                     "name": "Chongqing Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/chongquing.jpg"
                     ],
-                    "credits": "yijiashanhangdeboyin737"
+                    "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
                     "name": "Luftwaffe",
@@ -10756,7 +10804,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/chengdu.jpg"
                     ],
-                    "credits": "yijiashanhangdeboyin737"
+                    "credits": "whois无名氏[Sino Wings Group]"
                 },
                 {
                     "name": "China Eastern (new design)",
@@ -10897,6 +10945,41 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/a319_Rossiya___Sportolet_.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Shenzen Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/shenzen1.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Shenzen Airlines (long design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/shenzen2.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Shenzen Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/shenzen3.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "West Air (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/wastairold.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "West Air (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/westairnew.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -16960,12 +17043,6 @@
                     ]
                 },
                 {
-                    "name": "Avianca (lacsa livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/lacsa.png"
-                    ]
-                },
-                {
                     "name": "Avianca (Surf City El Salvador livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/surfcity.png"
@@ -20883,7 +20960,7 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "Shenzen Airlines",
+                    "name": "Shenzen Airlines (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/shenzen.png"
                     ],
@@ -21411,6 +21488,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/N600XL_EMB-145.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Passaredo Linhas Aéreas",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/Passaredo_Linhas_Aereas.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -25455,6 +25539,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/arcofthesun/fuselage.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/arcofthesun/wing.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/arcofthesun/engine.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "J-AIR (Arc of the Sun design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/commuteair/fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/commuteair/wing.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/commuteair/engine.png"
                     ],
                     "credits": "Lego and Avgeek YT"
                 }
@@ -31156,6 +31249,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Nordwind_white_design_b777-300er.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "China Cargo (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/chinacargo.png"
+                    ],
+                    "credits": "CNParrot"
                 }
             ],
             "labels": [
@@ -36562,6 +36663,27 @@
                     "credits": "Lego and Avgeek YT",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Jet_Airways_Old_Design_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "LTU (old design)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/LTU_old_design_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "HiSky Europe (old design)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/HiSky_Europe_A330-200.png"
+                    ]
+                },
+                {
+                    "name": "HiSky Europe (old design)",
+                    "credits": "Lego and Avgeek YT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/HiSky_Europe_old_design_A330-200.png"
                     ]
                 }
             ],
@@ -43536,6 +43658,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Orbis.png"
                     ],
                     "credits": "Rick"
+                },
+                {
+                    "name": "Royal Netherlands Air Force",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/RNLAF-T-264.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/RNLAF-T-264.png"
+                    ],
+                    "credits": "Rick"
                 }
             ],
             "labels": [
@@ -44231,6 +44361,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/ZH322.png"
                     ],
                     "credits": "bilibili開飛機のzm[Sino Wings Group]"
+                },
+                {
+                    "name": "LACSA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/LACSA_-_Airbus_A320-232.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "China Southern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/chinasouth.png"
+                    ],
+                    "credits": "CNParrot & luca b"
+                },
+                {
+                    "name": "China Eastern (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/chinaeasternold.png"
+                    ],
+                    "credits": "CNParrot & luca b"
+                },
+                {
+                    "name": "China Eastern (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/sichuan.jpg"
+                    ],
+                    "credits": "CNParrot & bilibili開飛機のzm[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -44574,6 +44732,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Transcon_Airlines_747-100.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "HS-UTD (ex KLM)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/HS-UTD_747-100.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -44614,6 +44779,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/grumman_e2_hawkeye/us_navy/usnavy4-sized.png"
                     ],
                     "credits": "Kolos26"
+                },
+                {
+                    "name": "People's Liberation Army Navy",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/grumman_e2_hawkeye/planavy/planavy3.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/grumman_e2_hawkeye/planavy/planavy1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/grumman_e2_hawkeye/planavy/planavy2.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/grumman_e2_hawkeye/planavy/planavy4.png"
+                    ],
+                    "credits": "CNParrot"
                 }
             ],
             "labels": [
