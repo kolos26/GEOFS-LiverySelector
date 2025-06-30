@@ -10980,6 +10980,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/westairnew.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Hainan Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/hainanold.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -12459,7 +12466,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/vietnam.jpg"
                     ],
-                    "credits": "Thanhdatle"
+                    "credits": "opaldelta_17676"
                 },
                 {
                     "name": "WestJet",
@@ -15807,6 +15814,13 @@
                     "name": "Aeroflot (Skyteam livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/AEROFLOT_-_Skyteam_livery_A320-214.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Vladivostok Avia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Vladivostok_avia_A320.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
                 }
@@ -26582,7 +26596,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Vietnam-Airlines-Skyteam-livery.png"
                     ],
-                    "credits": "opaldelta_17676"
+                    "credits": "opaldelta_17676 & geofsflightsyt & Thanhdatle"
                 },
                 {
                     "name": "Vietnam Airlines (unpainted)",
@@ -26607,6 +26621,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/32HG.png"
                     ],
                     "credits": "bilibili開飛機のzm[Sino Wings Group] & whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Iberia (Madrid livery)",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/A350-900_Iberia_EC-NIG.png"
+                    ],
+                    "credits": "frd_ec"
                 }
             ],
             "labels": [
@@ -42413,6 +42435,86 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
                     ],
                     "credits": "GeoFS"
+                },
+                {
+                    "name": "Armée de l'air - SPA162 NATO Tiger Meet 2013",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/SPA162-NATO-Tiger-Meet-2013.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "Martial Feron (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Armée de l'air - Solo Display 2017",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Rafale-Solo-Display-2017.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "Martial Feron (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Armée de l'air - 2/30EC Normandie-Niemen 80 Anniversary",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Normandie-Niemen80.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "Martial Feron (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Armée de l'air - Solo Display 2018",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Rafale-Solo-Display-2018.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "Martial Feron (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Armée de l'air - Solo Display 2021",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Rafale-Solo-Display-2021.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "Martial Feron (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Armée de l'air - EC3/30 Lorraine",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/EC3-30-Lorraine.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "Martial Feron (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Aeronavale - Flotille11F - NATO Tiger Meet 2017",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Aeronavale-Flotille11-F-Tiger-Meet2017.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "Martial Feron (GeoFS conversion by Rick)"
+                },
+                {
+                    "name": "Armée de l'air - Solo Display 2025",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Rafale-Solo-Display-2025.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "168Studios (GeoFS conversion by Rick)"
                 }
             ],
             "labels":[
@@ -44798,6 +44900,29 @@
                 "Prop texture"
             ],
             "name": "Grumman E-2 Hawkeye"
+        },
+        "3436": {
+            "index": [
+                0,
+                1
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "India Coast Guard",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-100/texture.png"
+                    ],
+                    "credits": "Spice9"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Dornier do228-100 Coast Guard"
         }
     }
 }
