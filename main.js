@@ -299,7 +299,7 @@ function listLiveries() {
         const idx = $(target).closest('li').data('idx')
         , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
-        if (!idx || target.classList.contains("fa-star")) return; // avoid livery selection when favorite button is pressed
+        if (idx === void 0 || target.classList.contains("fa-star")) return; // avoid livery selection when favorite button is pressed
         livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
         livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
@@ -339,11 +339,16 @@ function listLiveries() {
 }
 
 function loadFavorites() {
-    if (localStorage.getItem('favorites') === null) {
-        localStorage.favorites = '';
+	const favorites = localStorage.getItem('favorites');
+    if (favorites === null) {
+        localStorage.setItem('favorites', '');
     }
-    domById('favorites').innerHTML = '';
-    const list = localStorage.favorites.split(',');
+    $("#favorites").empty().on("click", "li", function ({ target }) { // clear the child elements & add event listener
+		const $match = $(`#liverylist > [id='${$(target).attr("id").replace("_favorite", "_button")}']`) // find the matching livery list item
+		if ($match.length === 0) return void ui.notification.show(`ID: ${$(target).attr("id")} is missing a liveryList counterpart.`)
+		$match.click(); // click it to simulate onclick behavior and stuff
+	});
+    const list = favorites.split(',');
     const airplane = geofs.aircraft.instance.id;
     list.forEach(function (e) {
         if ((airplane == e.slice(0, airplane.length)) && (e.charAt(airplane.length) == '_')) {
@@ -477,22 +482,22 @@ function changeMaterial(name, color, type, partlist){
 function star(element) {
     const e = element.classList;
     const elementId = [element.id, 'favorite'].join('_');
-	let list = localStorage.favorites.split(',');
+	let list = localStorage.getItem('favorites').split(',');
     if (e.contains("checked")) {
         domById('favorites').removeChild(domById(elementId));
         const index = list.indexOf(element.id);
         if (index !== -1) {
             list.splice(index, 1);
         }
-        localStorage.favorites = list;
+        localStorage.setItem('favorites', list);
     } else {
 		const btn = domById([element.id, 'button'].join('_'));
         const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
-        fbtn.onclick = btn.onclick;
+        // fbtn.onclick = btn.onclick; // moved to loadFavorites
         fbtn.innerText = btn.children[0].innerText;
 		
         list.push(element.id);
-        localStorage.favorites = [...new Set(list)];
+        localStorage.setItem('favorites', [...new Set(list)]);
     }
     //style animation
     e.toggle('checked');
