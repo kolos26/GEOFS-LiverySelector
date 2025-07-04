@@ -13502,7 +13502,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/vietnam-4.jpg"
                     ],
-                    "credits": "Thanhdatle"
+                    "credits": "Thanhdatle & opaldelta_17676"
                 },
                 {
                     "name": "Air Austral (F-ORLB)",
@@ -18371,7 +18371,7 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "Copa Airlines (Fight against breast and prostate cancer livery)",
+                    "name": "Copa Airlines (Breast Cancer Awareness livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/Copa_Airlines_Fight_against_breast_and_prostate_cancer_-_Boeing_737_MAX_9.png"
                     ],
@@ -21460,6 +21460,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/N500WR.jpg"
                     ],
                     "credits": "RYANAIR5719"
+                },
+                {
+                    "name": "Aeromexico (La Aerolínea Más Puntual Del Mundo livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Aeromexico_Global_Winner.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -25928,13 +25935,31 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "J-AIR (Arc of the Sun design)",
+                    "name": "CommuteAir",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/commuteair/fuselage.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/commuteair/wing.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/commuteair/engine.png"
                     ],
-                    "credits": "Lego and Avgeek YT"
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "BermduAir",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/bermudair/fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/bermudair/wing.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/bermudair/engine.jpg"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Conviasa",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/conviasa/fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/conviasa/wing.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/conviasa/engine.jpg"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -45667,6 +45692,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/HS-UTD_747-100.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Qantas",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Qantas-Boeing-747-100-SCA-Livery-Qantas7509.png"
+                    ],
+                    "credits": "qantas7509"
                 }
             ],
             "labels": [
@@ -45765,6 +45797,68 @@
                 "Texture"
             ],
             "name": "Dornier do228-100 Coast Guard"
+        },
+        "5405": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "_mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "Prototype - 2001",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/2001-1.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "Prototype - 2011",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/2011_3.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "People's Liberation Army Air Force - 78272",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/78272_1.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "People's Liberation Army Air Force - 78273",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/78273.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "People's Liberation Army Air Force - 61229",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/61229_8.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "People's Liberation Army Air Force - 78130",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/78130.png"
+                    ],
+                    "credits": "MirageModels"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Chengdu J-20"
         }
     }
 }
