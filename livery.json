@@ -8072,6 +8072,21 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Uzbekistan_767-300er.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Vietnam Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Vietnam-Airlines-Boeing-767-300-White-design.png"
+                    ],
+                    "credits": "YT_Làm về mọi thứ có thể làm"
                 }
             ],
             "labels": [
@@ -16099,6 +16114,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Air_Guinee_International_A320-214.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Aeroflot (PBC CSKA Moscow livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/VP-BWE_Aeroflot_Airbus_A320-214.png"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -17977,7 +17999,7 @@
                 {
                     "name": "Lion Air",
                     "texture": [
-                        "/backend/aircraft/repository/EL%20AL%20737-900_427352_2769/texture_23.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/Lion_Air_737_MAX_8.png"
                     ]
                 },
                 {
@@ -18523,6 +18545,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/Boeing_737_max_8_Ukraine_International_UR-MXB.jpg"
                     ],
                     "credits": "Ivan Dimitrev"
+                },
+                {
+                    "name": "Copa Airlines (First MAX9 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/Copa_Airlines_-_First_for_Copa_-_Boeing_737_MAX_9.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Copa Airlines (copa.com sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/Copa_Airlines_-_copa.com_-_Boeing_737_MAX_9.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -25960,6 +25996,24 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/conviasa/engine.jpg"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Enugu Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/engu/Fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/engu/Wing.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/engu/Engines.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "KLM Cityhopper",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/klm/fuselage.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/klm/wing.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/klm/engines.jpg"
+                    ],
+                    "credits": "Ivan Dimitrev"
                 }
             ],
             "labels": [
@@ -27033,6 +27087,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/A350-900_Iberia_EC-NIG.png"
                     ],
                     "credits": "frd_ec"
+                },
+                {
+                    "name": "Finnair (Marimekko Kivet livery)",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/Finnair_Marimekko_Kivet_Livery_-_A350-941.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -31796,6 +31858,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/indianairforce.png"
                     ],
                     "credits": "Wild E Coyote"
+                },
+                {
+                    "name": "Virgin Australia",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Boeing-777-Virgin.png"
+                    ],
+                    "credits": "qantas7509"
                 }
             ],
             "labels": [
@@ -34008,6 +34078,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Jetstar.png"
                     ],
                     "credits": "qantas7509"
+                },
+                {
+                    "name": "HK express (CR7 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/HK_exp_a321_Ronaldo_3.png"
+                    ],
+                    "credits": "ChengyuWordle[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -45699,6 +45776,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Qantas-Boeing-747-100-SCA-Livery-Qantas7509.png"
                     ],
                     "credits": "qantas7509"
+                },
+                {
+                    "name": "Continental Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Continental_747.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -45815,7 +45899,7 @@
                 {
                     "name": "Prototype - 2001",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/2001-1.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/j20/2001_1.png"
                     ],
                     "credits": "MirageModels"
                 },
@@ -45859,6 +45943,47 @@
                 "Texture"
             ],
             "name": "Chengdu J-20"
+        },
+        "5435": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "_mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "US Air Force - Grey Ghost",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/yf23/870800-1_2.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "US Air Force - Grey Ghost (with hourglass)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/yf23/870800-1_1.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "US Air Force - Spider",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/yf23/870801_3.png"
+                    ],
+                    "credits": "MirageModels"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Northrop YF-23"
         }
     }
 }
