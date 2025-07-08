@@ -719,15 +719,6 @@
                     "credits": "iuhairways"
                 },
                 {
-                    "name": "Malév",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/normal.jpg",
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/malev.png"
-                    ],
-                    "credits": "Kolos26"
-                },
-                {
                     "name": "Norwegian",
                     "texture": [
                         "/models/aircraft/premium/737_700/normal.jpg",
@@ -1861,15 +1852,6 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Aires Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/737_700/normal.jpg",
-                        "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/HK-4682.png"
-                    ],
-                    "credits": "RYANAIR5719"
-                },
-                {
                     "name": "Ukraine International Airlines",
                     "texture": [
                         "/models/aircraft/premium/737_700/normal.jpg",
@@ -2122,7 +2104,7 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "Malév (HA-LOL)",
+                    "name": "Malév Hungarian Airlines (EU Flag sticker)",
                     "texture": [
                         "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -2140,7 +2122,7 @@
                     "credits": "RYANAIR5719"
                 },
                 {
-                    "name": "Malév (HA-LOP)",
+                    "name": "Malév Hungarian Airlines",
                     "texture": [
                         "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
@@ -14268,13 +14250,6 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "TACA",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/TACA A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
                     "name": "TAM",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/TAM A320.png"
@@ -14656,13 +14631,6 @@
                     "name": "United Airlines (Blue Tulip design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/United_Blue_Tulip_A320.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
-                    "name": "United Airlines (Evo Blue design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/United_Evo_Blue_A320.png"
                     ],
                     "credits": "luca b"
                 },
@@ -15820,13 +15788,6 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Azerbaijan_Retro_A320-200.png"
                     ],
                     "credits": "luca b"
-                },
-                {
-                    "name": "TAM Linhas Aéreas (old design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/TAM_-_Airbus_A320-214.png"
-                    ],
-                    "credits": "Nichy"
                 },
                 {
                     "name": "Aeroflot (Dobrolet design)",
@@ -19149,12 +19110,6 @@
                     "name": "Mercado livre",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_263.jpg"
-                    ]
-                },
-                {
-                    "name": "Southwest (freedom livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_264.jpg"
                     ]
                 },
                 {
@@ -26087,7 +26042,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/cathaypacific.jpg"
                     ],
-                    "credits": "random_person_in_the_world" 
+                    "credits": "random_person_in_the_world"
                 },
                 {
                     "name": "German Air Force",
@@ -42214,7 +42169,7 @@
                     "textureIndex": 0
                 }
             ],
-            "liveries":[
+            "liveries": [
                 {
                     "name": "Air Algerie",
                     "texture": [
@@ -42984,7 +42939,7 @@
                 1,
                 4
             ],
-            "parts":[
+            "parts": [
                 0,
                 0
             ],
@@ -43044,7 +42999,7 @@
                 0,
                 3
             ],
-            "parts":[
+            "parts": [
                 0,
                 0
             ],
@@ -43122,7 +43077,7 @@
                 2,
                 4
             ],
-            "parts":[
+            "parts": [
                 0,
                 0,
                 0,
@@ -43286,7 +43241,7 @@
                     "credits": "Rick"
                 }
             ],
-            "labels":[
+            "labels": [
                 "Normal map",
                 "Main texture",
                 "Specular shader",
@@ -43354,7 +43309,7 @@
                     "credits": "luca b & AF267"
                 }
             ],
-            "labels":[
+            "labels": [
                 "Main texture",
                 "EFT",
                 "SRB"
@@ -43546,7 +43501,8 @@
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
-                },{
+                },
+                {
                     "modelIndex": 2,
                     "textureIndex": 0
                 }
@@ -44972,13 +44928,6 @@
                     "name": "TAM Linhas Aéreas (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/TAM_-_Airbus_A320-232.png"
-                    ],
-                    "credits": "Nichy"
-                },
-                {
-                    "name": "JetBlue (Windowpane design)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/windowpane.png"
                     ],
                     "credits": "Nichy"
                 },
