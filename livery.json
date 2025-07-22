@@ -2422,6 +2422,60 @@
                 0,
                 0
             ],
+            "_mp": [
+                {
+                    "modelIndex": 0,
+                    "mosaic": {
+                        "base": "/models/aircraft/premium/dhc6/texture-low_0.jpg",
+                        "tiles" : [
+                            {
+                                "textureIndex": 0,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 0,
+                                "dy": 0,
+                                "dw": 512,
+                                "dh": 512
+                            },
+                            {
+                                "textureIndex": 1,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 512,
+                                "dy": 0,
+                                "dw": 512,
+                                "dh": 512
+                            },
+                            {
+                                "textureIndex": 2,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 512,
+                                "sh": 512,
+                                "dx": 0,
+                                "dy": 512,
+                                "dw": 256,
+                                "dh": 256
+                            },
+                            {
+                                "textureIndex": 3,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 512,
+                                "dy": 512,
+                                "dw": 512,
+                                "dh": 512
+                            }
+                        ]
+                    }
+                }
+            ],
             "liveries": [
                 {
                     "name": "Flybe",
