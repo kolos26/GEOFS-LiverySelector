@@ -16762,6 +16762,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/LOTA2202.jpg"
                     ],
                     "credits": "HotelTDevils"
+                },
+                {
+                    "name": "China Southern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a220-300/CZ220.jpg"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": [
@@ -22393,7 +22400,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj145lr/komiaviatranserj145.png"
                     ],
-                    "credits": "Page's Pages"
+                    "credits": "Page's Pages & Ivan Dmitriev"
                 }
             ],
             "labels": [
@@ -24113,6 +24120,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Ukraine_International_b737-200.jpg"
                     ],
                     "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "Lao Aviation",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Lao_Aviation_Lao_title.png"
+                    ],
+                    "credits": "LOL396YT"
                 }
             ],
             "labels": [
@@ -25972,6 +25986,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/dc1_3.png"
                     ],
                     "credits": "MirageModels"
+                },
+                {
+                    "name": "Shanxi Aviation",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-shiny.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Shanxi_Aviation_IL-14.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
@@ -27853,6 +27876,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/qantas.png"
                     ],
                     "credits": "Burnin Hell"
+                },
+                {
+                    "name": "Air France (Cannes)",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a350-900/cannes.png"
+                    ],
+                    "credits": "blueaviation024"
                 }
             ],
             "labels": [
@@ -32702,6 +32733,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/BAW_Great_Futures_2.png"
                     ],
                     "credits": "Jamal"
+                },
+                {
+                    "name": "Central Airlines Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/speculars/ersf.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Central_Airlines_Cargo.png"
+                    ],
+                    "credits": "kevinwang_1_70847"
                 }
             ],
             "labels": [
@@ -42288,7 +42327,7 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/National-Airlines.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
                     ],
-                    "credits": "747lover"
+                    "credits": "opaldelta_17676"
                 },
                 {
                     "name": "United Airlines (Friendship livery)",
@@ -45207,12 +45246,20 @@
                     "credits": "Pilot2938"
                 },
                 {
-                    "name": "US Air Force",
+                    "name": "US Air Force - Travis Base",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAF.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAF.png"
                     ],
                     "credits": "Octal450"
+                },
+                {
+                    "name": "US Air Force - McGuire Base",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAF.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/USAF.png"
+                    ],
+                    "credits": "Raptor4001"
                 },
                 {
                     "name": "Garuda Indonesia",
@@ -47328,15 +47375,218 @@
                 {
                     "name": "United Airlines (Star Alliance livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200lr/772UALSA.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/772UALSA.jpg"
                     ],
                     "credits": "MirageModels"
+                },
+                {
+                    "name": "ANA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/772ANA.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "Japan Airlines (JA8979)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/772JAL.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "United (Continental design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/772UAL.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "Cathay Pacific (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Cathay_Pacific_777-200.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "British Airways",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/British_Airways_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Emirates (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Emirates_Old_777-200.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Malaysia Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Malaysia_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United (Blue Tulip design - Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/United_Airlines_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Air France (F-GSPG)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Air_France_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "China Southern (SkyTeam livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/772CSNST_1.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "British Airways (OneWorld livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/British_Airways_Oneworld_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "KLM (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/KLM_Old_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United (Continental - Evo Blue hybrid livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/N77014 (Weird Engines).jpg"
+                    ],
+                    "credits": "RYANAIR5719"
+                },
+                {
+                    "name": "KLM (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/KLM_New_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Airlines (Battleship Gray design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/United_Airlines_Battleship_Gray_777-200.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Japan Airlines (OneWorld livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Air_-_OneWorld_-_Boeing_777-246ER.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Delta",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Delta_AIrlines_777-200LR.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Egypt Air (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Egyptair_Old_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Japan Airlines (JA701J)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/JL772.png"
+                    ],
+                    "credits": "MirageModels"
+                },
+                {
+                    "name": "Turkmenistan Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Turkmenistan_777-200LR.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "British Airways (Landor design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/British_Airways_Landor_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "British Airways (Keeping the flag flying livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/British_Airways_Keeping_the_Flag_Flying_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Emirates (2005 design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/emirates_777200_project_ek.png"
+                    ],
+                    "credits": "GeoFS Flight Video Group"
+                },
+                {
+                    "name": "EL AL",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/El_Al_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Air France (F-GSPP)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Air_France_772.png"
+                    ],
+                    "credits": "kevinwang_1_70847"
+                },
+                {
+                    "name": "Aeroflot",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Aeroflot_772b_.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "RedWings",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/RedWings_772b.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "United Express (Evo Blue design - N771UA)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/United_Evo_Blue_777-200.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "United Express (Evo Blue design - N79011)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/United_Evo_Blue_777-200ER.png"
+                    ],
+                    "credits": "luca b"
                 }
             ],
             "labels": [
                 "Texture"
             ],
-            "name": "Boeing b777-200LR"
+            "name": "Boeing b777-200"
         }
     }
 }
