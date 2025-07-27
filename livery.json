@@ -48006,6 +48006,50 @@
                 "Texture"
             ],
             "name": "Boeing b777-200"
+        },
+        "1004": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "Air Canada (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200lr/772ACA.jpg"
+                    ],
+                    "credits": "MirageModels"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Boeing b777-200LR" 
+        },
+        "4402": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "DHL (007 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/772DHL007.png"
+                    ],
+                    "credits": "MirageModels"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Boeing b777-200F" 
         }
     }
 }
