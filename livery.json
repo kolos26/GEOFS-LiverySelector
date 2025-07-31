@@ -34198,6 +34198,82 @@
                 0,
                 0
             ],
+            "_mp": [
+                {
+                    "modelIndex": 0,
+                    "mosaic": {
+                        "base": "/models/aircraft/premium/phenom_100/texture-low.jpg",
+                        "tiles" : [
+                            {
+                                "textureIndex": 2,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 512,
+                                "dy": 512,
+                                "dw": 512,
+                                "dh": 512
+                            },
+                            {
+                                "textureIndex": 2,
+                                "sx": 0,
+                                "sy": 1024,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 0,
+                                "dy": 0,
+                                "dw": 512,
+                                "dh": 512
+                            },
+                            {
+                                "textureIndex": 2,
+                                "sx": 1024,
+                                "sy": 1024,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 0,
+                                "dy": 512,
+                                "dw": 512,
+                                "dh": 512
+                            },
+                            {
+                                "textureIndex": 2,
+                                "sx": 2048,
+                                "sy": 0,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 512,
+                                "dy": 0,
+                                "dw": 256,
+                                "dh": 256
+                            },
+                            {
+                                "textureIndex": 2,
+                                "sx": 2048,
+                                "sy": 1024,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 512,
+                                "dy": 256,
+                                "dw": 256,
+                                "dh": 256
+                            },
+                            {
+                                "textureIndex": 2,
+                                "sx": 3072,
+                                "sy": 1024,
+                                "sw": 1024,
+                                "sh": 1024,
+                                "dx": 768,
+                                "dy": 0,
+                                "dw": 256,
+                                "dh": 256
+                            }
+                        ]
+                    }
+                }
+            ],
             "liveries": [
                 {
                     "name": "Embraer house livery",
