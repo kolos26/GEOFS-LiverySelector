@@ -1,5 +1,5 @@
 {
-    "version": "3.2.7",
+    "version": "3.3.0",
     "dapi": "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTI2OTkyODcxODMxOTQ4OTA5Ny9sSGQwRUxyWVhBRWNyT2FORXF2RWRhX3hsNjhwUDRGTXNucUJYR25hc0xoVnA4Sk9HSlBzanRBVEh4a0RhRlBkODlVYg==",
     "mapi": "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NwaWNlOS9HZW9mcy1NdWx0aWxpdmVyaWVzL21haW4vZGVwZW5kZW5jaWVzL2xpdmVyaWVzLmpzb24",
     "aircrafts": {
@@ -10,7 +10,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -93,7 +93,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -452,7 +452,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 0
@@ -579,8 +579,7 @@
             "labels": [
                 "Fuselage texture",
                 "Wing texture"
-            ],
-            "mp": "disabled"
+            ]
         },
         "4": {
             "index": [
@@ -593,7 +592,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 2
@@ -2438,7 +2437,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "mosaic": {
@@ -2720,8 +2719,7 @@
                 "Texture Bottom",
                 "Texture Right"
             ],
-            "name": "de Havilland Canada DHC6 Twin Otter",
-            "mp": "disabled"
+            "name": "de Havilland Canada DHC6 Twin Otter"
         },
         "8": {
             "index": [
@@ -2733,6 +2731,49 @@
                 0,
                 0,
                 0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "mosaic": {
+                        "base": "/models/aircraft/premium/pitts/texture-low_0.jpg",
+                        "tiles" : [
+                            {
+                                "textureIndex": 0,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 2048,
+                                "sh": 2048,
+                                "dx": 512,
+                                "dy": 0,
+                                "dw": 512,
+                                "dh": 512
+                            },
+                            {
+                                "textureIndex": 1,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 2048,
+                                "sh": 2048,
+                                "dx": 0,
+                                "dy": 0,
+                                "dw": 512,
+                                "dh": 512
+                            },
+                            {
+                                "textureIndex": 2,
+                                "sx": 0,
+                                "sy": 0,
+                                "sw": 2048,
+                                "sh": 2048,
+                                "dx": 0,
+                                "dy": 512,
+                                "dw": 512,
+                                "dh": 512
+                            }
+                        ]
+                    }
+                }
             ],
             "name": "Pitts Special S1",
             "liveries": [
@@ -2772,7 +2813,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 3,
                     "textureIndex": 2
@@ -3226,8 +3267,7 @@
                 "Normal map",
                 "Specular shader",
                 "Texture"
-            ],
-            "mp": "disabled"
+            ]
         },
         "10": {
             "index": [
@@ -3240,7 +3280,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 2
@@ -3813,7 +3853,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 2
@@ -3850,7 +3890,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 2
@@ -3893,7 +3933,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -4069,7 +4109,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -4116,7 +4156,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -4217,7 +4257,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -4384,7 +4424,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -4597,7 +4637,7 @@
                 16,
                 19
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -4685,7 +4725,7 @@
                 15,
                 17
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 0
@@ -4805,7 +4845,7 @@
                 21,
                 24
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -5015,7 +5055,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 2
@@ -5064,7 +5104,7 @@
                 11,
                 13
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -5116,6 +5156,11 @@
                 11,
                 13,
                 14
+            ],
+            "mp": [
+                {
+                    "material": 0
+                }
             ],
             "name": "szd-48-3 Jantar",
             "liveries": [
@@ -5467,8 +5512,7 @@
             ],
             "labels": [
                 "Texture"
-            ],
-            "mp": "disabled"
+            ]
         },
         "50": {
             "index": [
@@ -5477,7 +5521,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -5504,7 +5548,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -5593,6 +5637,11 @@
             ],
             "parts": [
                 0
+            ],
+            "mp": [
+                {
+                    "material": 0
+                }
             ],
             "name": "Hughes 269a/TH-55 Osage",
             "liveries": [
@@ -5741,8 +5790,7 @@
                     ]
                 }
             ],
-            "labels": [],
-            "mp": "disabled"
+            "labels": []
         },
         "53": {
             "index": [
@@ -5759,7 +5807,7 @@
                 7,
                 8
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -5794,7 +5842,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 2
@@ -5949,7 +5997,7 @@
                 32,
                 36
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -8338,7 +8386,7 @@
                 30,
                 37
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -9749,7 +9797,7 @@
                 25,
                 34
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 0
@@ -10504,8 +10552,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Airbus a350-900",
-            "mp": "disabled"
+            "name": "Airbus a350-900"
         },
         "2879": {
             "index": [
@@ -10514,6 +10561,7 @@
             "parts": [
                 0
             ],
+            "mp": "disabled",
             "liveries": [
                 {
                     "name": "Finnair",
@@ -11652,8 +11700,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Airbus a319-100",
-            "mp": "disabled"
+            "name": "Airbus a319-100"
         },
         "2418": {
             "index": [
@@ -11662,7 +11709,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -12660,7 +12707,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -12957,7 +13004,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -14069,7 +14116,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -16602,6 +16649,7 @@
             "parts": [
                 0
             ],
+            "mp": "disabled",
             "liveries": [
                 {
                     "name": "Breeze",
@@ -16876,8 +16924,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Airbus a220-300",
-            "mp": "disabled"
+            "name": "Airbus a220-300"
         },
         "2871": {
             "index": [
@@ -16886,7 +16933,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -18378,7 +18425,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -19147,7 +19194,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -19438,7 +19485,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 2,
                     "textureIndex": 0
@@ -19498,8 +19545,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Boeing p8I Neptune",
-            "mp": "disabled"
+            "name": "Boeing p8I Neptune"
         },
         "3307": {
             "index": [
@@ -19512,7 +19558,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -19651,7 +19697,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -22211,6 +22257,7 @@
             "parts": [
                 0
             ],
+            "mp": "disabled",
             "liveries": [
                 {
                     "name": "HOP!",
@@ -22636,8 +22683,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Embraer ERJ 145LR",
-            "mp": "disabled"
+            "name": "Embraer ERJ 145LR"
         },
         "4140": {
             "index": [
@@ -22646,7 +22692,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -24391,7 +24437,7 @@
                 20,
                 21
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -24773,7 +24819,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -24952,7 +24998,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -25567,7 +25613,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 2
@@ -26300,8 +26346,7 @@
                 "Specular shader",
                 "Texture"
             ],
-            "name": "Douglas DC-3",
-            "mp": "disabled"
+            "name": "Douglas DC-3"
         },
         "2706": {
             "index": [
@@ -26312,6 +26357,7 @@
                 0,
                 0
             ],
+            "mp": "disabled",
             "liveries": [
                 {
                     "name": "Malév Express",
@@ -26627,8 +26673,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Bombardier CRJ200",
-            "mp": "disabled"
+            "name": "Bombardier CRJ200"
         },
         "3341": {
             "index": [
@@ -26641,7 +26686,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -27076,8 +27121,7 @@
                 "Wing texture",
                 "Engine texture"
             ],
-            "name": "Embraer ERJ 170",
-            "mp": "disabled"
+            "name": "Embraer ERJ 170"
         },
         "24": {
             "index": [
@@ -27088,7 +27132,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -28228,7 +28272,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 0
@@ -29053,8 +29097,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Airbus a330-900neo",
-            "mp": "disabled"
+            "name": "Airbus a330-900neo"
         },
         "4646": {
             "index": [
@@ -29063,7 +29106,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -30262,7 +30305,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -30663,7 +30706,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -30848,7 +30891,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -31005,7 +31048,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -33123,7 +33166,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -33193,7 +33236,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -33368,7 +33411,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 0
@@ -33493,8 +33536,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Dornier do228-200",
-            "mp": "disabled"
+            "name": "Dornier do228-200"
         },
         "4764": {
             "index": [
@@ -33503,7 +33545,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -33875,8 +33917,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Boeing b767-400ER",
-            "mp": "disabled"
+            "name": "Boeing b767-400ER"
         },
         "5061": {
             "index": [
@@ -33891,7 +33932,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -33934,6 +33975,7 @@
             "parts": [
                 0
             ],
+            "mp": "disabled",
             "liveries": [
                 {
                     "name": "Air Affair Australia VH-SLE",
@@ -34184,8 +34226,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Bombardier Learjet45",
-            "mp": "disabled"
+            "name": "Bombardier Learjet45"
         },
         "5": {
             "index": [
@@ -34198,7 +34239,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "mosaic": {
@@ -34344,8 +34385,7 @@
                 "Specular shader",
                 "Texture"
             ],
-            "name": "Embraer Phenom100",
-            "mp": "disabled"
+            "name": "Embraer Phenom100"
         },
         "5086": {
             "index": [
@@ -34354,7 +34394,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -35571,7 +35611,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 1,
                     "textureIndex": 0
@@ -36788,7 +36828,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 2,
                     "textureIndex": 0
@@ -38999,7 +39039,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -39194,7 +39234,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -39494,7 +39534,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -39556,7 +39596,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -39594,7 +39634,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -40113,7 +40153,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -42896,7 +42936,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -42997,7 +43037,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -43060,7 +43100,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -43887,7 +43927,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -44425,7 +44465,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -44608,7 +44648,7 @@
                 0,
                 1
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -44710,7 +44750,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -44770,7 +44810,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -44850,7 +44890,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -45014,8 +45054,7 @@
                 "Specular shader",
                 "Cockpit texture"
             ],
-            "name": "Dessault Rafale M",
-            "mp": "disabled"
+            "name": "Dessault Rafale M"
         },
         "2953": {
             "index": [
@@ -45028,7 +45067,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -45092,7 +45131,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -45102,7 +45141,6 @@
                     "textureIndex": 2
                 }
             ],
-            "mp": "disabled",
             "liveries": [
                 {
                     "name": "Volga-Dnepr Group",
@@ -45272,7 +45310,7 @@
                 1,
                 1
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -46351,7 +46389,7 @@
             "parts": [
                 1
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 2,
                     "textureIndex": 0
@@ -46403,7 +46441,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -46483,7 +46521,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 2,
                     "textureIndex": 0
@@ -46702,7 +46740,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -47366,7 +47404,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -47833,7 +47871,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 7,
                     "textureIndex": 0
@@ -47892,7 +47930,7 @@
                 0,
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -47919,7 +47957,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0
@@ -48002,7 +48040,7 @@
             "parts": [
                 0
             ],
-            "_mp": [
+            "mp": [
                 {
                     "modelIndex": 0,
                     "textureIndex": 0

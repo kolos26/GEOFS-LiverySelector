@@ -1,7 +1,7 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
-const version = '3.2.6';
+const version = '3.3.0';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -13,6 +13,7 @@ const ML_ID_OFFSET = 1e3;
 let links = [];
 let airlineobjs = [];
 let whitelist;
+let mpAirlineobjs = {};
 
 (async function init() {
     // latest commit fetch
@@ -314,7 +315,7 @@ function listLiveries() {
         if (e.disabled) return;
         const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'geofs-visible livery-list-item'});
         listItem.data('idx', i).append($('<span/>', {class: 'livery-name'}).html(e.name));
-        listItem.toggleClass('offi', acftId < 1000); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
+        listItem.toggleClass('offi', acftId < 100); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
         if (acftId < 1000) {
             const thumb = $('<img/>', {loading: 'lazy'});
             thumb.attr('src', [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/'));
@@ -373,25 +374,24 @@ function loadAirlines() {
         });
         removebtn.innerText = "- Remove airline";
         if (Object.keys(airline.aircrafts).includes(geofs.aircraft.instance.id)) {
-            airline.aircrafts[geofs.aircraft.instance.id].liveries.forEach(function (e) {
+            airline.aircrafts[geofs.aircraft.instance.id].liveries.forEach(function (e, i) {
                 let listItem = appendNewChild(domById('airlinelist'), 'li', {
                     id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
                     class: 'livery-list-item'
                 });
-                if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+                if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
                     const texture = e.texture[0];
                     listItem.onclick = () => {
                         loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
                         if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(texture);
+                            setInstanceId({url: airline.url, idx: i});
                         }
                     }
                 } else {
                     listItem.onclick = () => {
-                        let textureIndex = airplane.labels.indexOf("Texture");
-                        loadLivery(e.texture, airplane.index, airplane.parts);
+                        loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
                         if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(e.texture[textureIndex]);
+                            setInstanceId({url: airline.url, idx: i});
                         }
                     }
                 }
@@ -770,34 +770,58 @@ function setInstanceId(id) {
     geofs.aircraft.instance.liveryId = id;
 }
 
-function updateMultiplayer() {
-    Object.values(multiplayer.visibleUsers).forEach(u => {
+async function updateMultiplayer() {
+    const users = Object.values(multiplayer.visibleUsers);
+
+    const texturePromises = users.map(async u => {
         const liveryEntry = liveryobj.aircrafts[u.aircraft];
         let textures = [];
+
         let otherId = u.currentLivery;
-        if (!liveryEntry || !u.model || liveryEntry.mp == 'disabled') {
+
+        // if (!liveryEntry || !u.model || liveryEntry.mp == 'disabled') {
+        if (!liveryEntry || !u.model) { // TODO change back, testing
             return; // without livery or disabled
         }
+
         if (mpLiveryIds[u.id] === otherId) {
             return; // already updated
         }
+
         mpLiveryIds[u.id] = otherId;
+
         if (otherId >= ML_ID_OFFSET && otherId < LIVERY_ID_OFFSET) {
-            textures = getMLTexture(u, liveryEntry); // ML range 1k-10k
-        } else if ((otherId >= LIVERY_ID_OFFSET && otherId < LIVERY_ID_OFFSET * 2) || typeof (otherId == "string")) {
-            textures = getMPTexture(u, liveryEntry); // LS range 10k+10k
+            textures = getMLTexture(u, liveryEntry); // ML range 1k–10k
+        } else if (
+            (otherId >= LIVERY_ID_OFFSET && otherId < LIVERY_ID_OFFSET * 2) ||
+            typeof otherId === "object"
+        ) {
+            textures = await getMPTexture(u, liveryEntry); // LS range 10k+10k
         } else {
-            return; // game managed livery
+            return; // game-managed livery
         }
+
         textures.forEach(texture => {
-            applyMPTexture(
-                texture.uri,
-                texture.tex,
-                img => u.model.changeTexture(img, { index: texture.index })
-            );
+            if (texture.material !== undefined) {
+                applyMPMaterial(
+                    u.model,
+                    texture.material,
+                    texture.type,
+                    texture.color
+                );
+            } else {
+                applyMPTexture(
+                    texture.uri,
+                    texture.tex,
+                    img => u.model.changeTexture(img, { index: texture.index })
+                );
+            }
         });
     });
+
+    await Promise.all(texturePromises); // wait for all user updates to complete
 }
+
 
 /**
  * Fetch and resize texture to expected format
@@ -817,46 +841,93 @@ function applyMPTexture(url, tex, cb) {
     }
 }
 
+function applyMPMaterial(model, name, type, color){
+    model._model.getMaterial(name).setValue(type, new Cesium.Cartesian4(...color, 1.0));
+}
+
 /**
  * @param {object} u
  * @param {object} liveryEntry
  */
-function getMPTexture(u, liveryEntry) {
+async function getMPTexture(u, liveryEntry) {
     const otherId = u.currentLivery - LIVERY_ID_OFFSET;
     const textures = [];
+    console.log(u.currentLivery, typeof(u.currentLivery));
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
     if (!u.currentLivery) return []; // early return in case of missing livery
-    if (typeof (u.currentLivery[0]) == "string") {
+    if (typeof(u.currentLivery) === "object") { //currentLivery is object -> virtual airline liveries
         console.log("VA detected");
         console.log(u.currentLivery);
-        // try main texture on single-entry
-        textures.push({
-            uri: u.currentLivery,
-            tex: uModelTextures[0],
-            index: 0
-        });
-    } else {
-        if (liveryEntry.mp == 'multi') {
-            // try map textures on multi-entry
-            liveryEntry.index.forEach((index, pos) => {
-                textures.push({
-                    uri: liveryEntry.liveries[otherId].texture[pos],
-                    tex: uModelTextures[index],
-                    index
-                });
-            });
-        } else {
-            const texIdx = liveryEntry.labels.indexOf('Texture');
-            // try main texture on single-entry
-            textures.push({
-                uri: liveryEntry.liveries[otherId].texture[texIdx],
-                tex: uModelTextures[0],
-                index: 0
-            });
+        if ( mpAirlineobjs[u.currentLivery.url] === undefined) {
+            await fetch(u.currentLivery.url).then(res => res.json()).then(data => mpAirlineobjs[u.currentLivery.url] = data);
+            console.log(mpAirlineobjs[u.currentLivery.url]);
         }
+        const texturePromises = liveryEntry._mp.map(async e => {
+            if (e.textureIndex !== undefined) {
+                return {
+                    uri: mpAirlineobjs[u.currentLivery.url].aircrafts[u.aircraft].liveries[u.currentLivery.idx].texture[e.textureIndex],
+                    tex: uModelTextures[e.modelIndex],
+                    index: e.modelIndex
+                };
+            } else if (e.material !== undefined) {
+                const mat = mpAirlineobjs[u.currentLivery.url].aircrafts[u.aircraft].liveries[u.currentLivery.idx].materials[e.material];
+                const typeKey = Object.keys(mat)[1];
+                return {
+                    material: mat.name,
+                    type: typeKey,
+                    color: mat[typeKey]
+                };
+            } else if (e.mosaic !== undefined) {
+                const mosaicTexture = await generateMosaicTexture(
+                    e.mosaic.base,
+                    e.mosaic.tiles,
+                    mpAirlineobjs[u.currentLivery.url].aircrafts[u.aircraft].liveries[u.currentLivery.idx].texture
+                );
+                return {
+                    uri: mosaicTexture,
+                    tex: uModelTextures[e.modelIndex],
+                    index: e.modelIndex
+                };
+            }
+        });
+
+        const resolvedTextures = await Promise.all(texturePromises);
+        textures.push(...resolvedTextures);
+    } else {
+        const texturePromises = liveryEntry._mp.map(async e => {
+            if (e.textureIndex !== undefined) {
+                return {
+                    uri: liveryEntry.liveries[otherId].texture[e.textureIndex],
+                    tex: uModelTextures[e.modelIndex],
+                    index: e.modelIndex
+                };
+            } else if (e.material !== undefined) {
+                const mat = liveryEntry.liveries[otherId].materials[e.material];
+                const typeKey = Object.keys(mat)[1];
+                return {
+                    material: mat.name,
+                    type: typeKey,
+                    color: mat[typeKey]
+                };
+            } else if (e.mosaic !== undefined) {
+                const mosaicTexture = await generateMosaicTexture(
+                    e.mosaic.base,
+                    e.mosaic.tiles,
+                    liveryEntry.liveries[otherId].texture
+                );
+                return {
+                    uri: mosaicTexture,
+                    tex: uModelTextures[e.modelIndex],
+                    index: e.modelIndex
+                };
+            }
+        });
+
+        const resolvedTextures = await Promise.all(texturePromises);
+        textures.push(...resolvedTextures);
     }
-    console.log(textures);
+    console.log("getMPtexture\n", textures);
     return textures;
 }
 
@@ -883,6 +954,33 @@ function getMLTexture(u, liveryEntry) {
     }
     return textures;
 }
+
+async function generateMosaicTexture(url, tiles, textures) {
+    const baseImage = await Cesium.Resource.fetchImage({ url });
+    const canvas = createTag('canvas', { width: baseImage.width, height: baseImage.height });
+    const ctx = canvas.getContext('2d');
+
+    // Draw the base image first
+    ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
+
+    // Create an array of Promises for drawing all tiles
+    const drawTilePromises = tiles.map(async (tile) => {
+        const image = await Cesium.Resource.fetchImage({ url: textures[tile.textureIndex] });
+        ctx.drawImage(
+            image,
+            tile.sx, tile.sy, tile.sw, tile.sh,
+            tile.dx, tile.dy, tile.dw, tile.dh
+        );
+    });
+
+    // Wait for all tiles to be drawn
+    await Promise.all(drawTilePromises);
+
+    // Now canvas is fully rendered; return the data URL
+    console.log(canvas.toDataURL());
+    return canvas.toDataURL('image/png');
+}
+
 
 /******************* Utilities *********************/
 
