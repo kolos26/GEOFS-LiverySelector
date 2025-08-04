@@ -4405,9 +4405,16 @@
                     "credits": "Raptor4001"
                 },
                 {
-                    "name": "KRAF",
+                    "name": "Korean Air Force",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/kraf.png"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "People's Liberation Army Navy - low visibility",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/planavylow.png"
                     ],
                     "credits": "CNParrot"
                 }
@@ -5035,6 +5042,29 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/aeroflot.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/aeroflot.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/aeroflot.jpg"
+                    ]
+                },
+                {
+                    "name": "LOT",
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an140/LOT_AN-24B.png"
                     ]
                 }
             ],
@@ -9767,6 +9797,23 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/xiamen.png"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "Azul (Lujo livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b757-200/Azur_Air_Lujo_livery_boeing_757-200_.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
                 }
             ],
             "labels": [
@@ -13131,8 +13178,9 @@
                 {
                     "name": "Japan Airlines",
                     "texture": [
-                        "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_121.jpg"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/Japan_Airlines_Boeing_787-9.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
                 },
                 {
                     "name": "Finnair (Marimekko Kivet design)",
@@ -14102,6 +14150,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/jetstar.png"
                     ],
                     "credits": "Qantasfan89"
+                },
+                {
+                    "name": "Vietnam Airlines (Paris Airshow 2015)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/Thiet_ke_chua_co_ten_50.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
                 }
             ],
             "labels": [
@@ -16273,7 +16328,7 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "Viejet",
+                    "name": "Vietjet",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/VietJet_Air_VN-A668_-_Airbus_A320-214.png"
                     ],
@@ -16635,6 +16690,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/TransNusa.png"
                     ],
                     "credits": "frd_ec"
+                },
+                {
+                    "name": "Lao Airlines Vietnam",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Lao_Airlines_Vietnam_Reg.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
                 }
             ],
             "labels": [
@@ -17298,7 +17360,7 @@
                     ]
                 },
                 {
-                    "name": "Viejet (ex Condor)",
+                    "name": "Vietjet (ex Condor)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_191.jpg"
                     ]
@@ -17542,7 +17604,7 @@
                 {
                     "name": "Capital Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a2320neo/capital.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/capital.jpg"
                     ],
                     "credits": "MU2731[SinoWingsGroup]"
                 },
@@ -21887,7 +21949,7 @@
                     "credits": "Thanhdatle"
                 },
                 {
-                    "name": "Viejet (Vietnam Travel livery)",
+                    "name": "Vietjet (Vietnam Travel livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Vietjet-air.jpg"
                     ],
@@ -26338,6 +26400,15 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/World_Travel_Airlines.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "Vietnam Airlines",
+                    "texture": [
+                        "/models/aircraft/premium/dc3/normal.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/speculars/specular-fullpaint-matt.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/douglas_dc3/Vietnam_Airlines_DC-3_Gray_Tail.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
                 }
             ],
             "labels": [
@@ -28705,7 +28776,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/chinaeastern.png"
                     ],
-                    "credits": "yijiashanhangdeboyin737[Sino Wings Group]"
+                    "credits": "CP8888"
                 },
                 {
                     "name": "Wamos air",
@@ -28862,7 +28933,7 @@
                     ]
                 },
                 {
-                    "name": "Viejet",
+                    "name": "Vietjet",
                     "credits": "YT_Làm về mọi thứ có thể làm",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/vietjetair.png"
@@ -28897,7 +28968,7 @@
                     ]
                 },
                 {
-                    "name": "Viejet",
+                    "name": "Vietjet",
                     "credits": "YT_Làm về mọi thứ có thể làm",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/vietjetair-Copy.png"
@@ -29091,6 +29162,62 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/airchina339.png"
                     ],
                     "credits": "Androway"
+                },
+                {
+                    "name": "Dragon Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/dragonair.png"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "Aer Lingus (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/aerlingusold.png"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "Aer Lingus (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/aerlingusnew.png"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "Shenzen Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/shenzen.png"
+                    ],
+                    "credits": "CNParrot & whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Shenzen Airlines (Air China nose)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/shenzenacnose.png"
+                    ],
+                    "credits": "CNParrot & whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "China Eastern (Yunnan Peacock livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/peacock.png"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "SAS",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/scandinavian.png"
+                    ],
+                    "credits": "CNParrot"
+                },
+                {
+                    "name": "Air Inter",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/airinter.png"
+                    ],
+                    "credits": "CNParrot"
                 }
             ],
             "labels": [
@@ -30201,21 +30328,21 @@
                     "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676"
                 },
                 {
-                    "name": "Viejet (XLR)",
+                    "name": "Vietjet (XLR)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Vietjet-air-XLR.png"
                     ],
                     "credits": "Thanhdatle"
                 },
                 {
-                    "name": "Viejet (no mask)",
+                    "name": "Vietjet (no mask)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Vietjet_Air__without_mask_.png"
                     ],
                     "credits": "Thanhdatle"
                 },
                 {
-                    "name": "Viejet (1st Airbus a321neo in Southeast Asia livery)",
+                    "name": "Vietjet (1st Airbus a321neo in Southeast Asia livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Vietjet_Air__1st_Airbus_A321neo_in_Southeast_Asia_.png"
                     ],
@@ -30257,7 +30384,7 @@
                     "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676"
                 },
                 {
-                    "name": "Viejet (50 years of Vietnam-France relations livery)",
+                    "name": "Vietjet (50 years of Vietnam-France relations livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Thiet_ke_chua_co_ten_20.png"
                     ],
@@ -30288,6 +30415,20 @@
                     "name": "Sun PhuQuoc Airways (ex AirAsia)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Sun_PhuQuoc_Airways_-_ex_AirAsia.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Bamboo Airways (1st a321neo livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Bamboo_Airways_A321neo_1st_A321neo.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (Tôi yêu TỔ QUỐC TÔI livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Vietjet_Air_Toi_yeu_TO_QUOC_TOI_-_A321neo.png"
                     ],
                     "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
                 }
@@ -33150,6 +33291,22 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/Central_Airlines_Cargo.png"
                     ],
                     "credits": "Geofs Player Bilibili"
+                },
+                {
+                    "name": "Korean Air (200th Boieng Aircraft livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/korean200.png"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Korean Air (Expo 2030 Busan livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/koreanbusan.png"
+                    ],
+                    "credits": "TOMAIM"
                 }
             ],
             "labels": [
@@ -35549,18 +35706,18 @@
                     "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676"
                 },
                 {
-                    "name": "Viejet (9000th Airbus aircraft livery)",
+                    "name": "Vietjet (9000th Airbus aircraft livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/viejet9000.png"
                     ],
                     "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676"
                 },
                 {
-                    "name": "Viejet",
+                    "name": "Vietjet",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/VietjetAir.png"
                     ],
-                    "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676"
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
                 },
                 {
                     "name": "Sun Phu Quoc Airways",
@@ -35594,6 +35751,48 @@
                     "name": "Vietnam Airlines (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Thiet_ke_chua_co_ten_48.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (Chin Su Phở story livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietjet_Air_Chin_Su_Pho_story.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (Vibrant Ho Chi Minh City livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietjet_Air_Vibrant_Ho_Chi_Minh_City_-_A321-200.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (Mipec livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietjet_Air_Mipec_-_A321-200.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (Petrolimex livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietjet_Air_Petrolimex_-_A321-200.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (Vikki Bank livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietjet_Air_Vikki_Bank_-_A321-200.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (45 years France & Vietnam diplomacy)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietjet_Air_45_years_France__Vietnam_diplomacy_-_A321-200.png"
                     ],
                     "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
                 }
@@ -38977,21 +39176,21 @@
                     ]
                 },
                 {
-                    "name": "Viejet",
+                    "name": "Vietjet",
                     "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Vietjet_Air.jpg"
                     ]
                 },
                 {
-                    "name": "Viejet (Timeless Charm livery)",
+                    "name": "Vietjet (Timeless Charm livery)",
                     "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Vietjet_Air_-_Timeless_Charm.jpg"
                     ]
                 },
                 {
-                    "name": "Viejet (Petrolimex livery)",
+                    "name": "Vietjet (Petrolimex livery)",
                     "credits": "YT_Làm về mọi thứ có thể làm, Thanhdatle & opaldelta_17676",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Vietjet_Air_-_Petrolimex.jpg"
@@ -39023,6 +39222,13 @@
                     "credits": "luca b",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Parata_A330-243.png"
+                    ]
+                },
+                {
+                    "name": "CMA CGM AIR CARGO",
+                    "credits": "Raptor4001",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/CMA_CGM_A330-200.png"
                     ]
                 }
             ],
@@ -47387,6 +47593,27 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Airbus-A320-232-hkexpress.png"
                     ],
                     "credits": "frd_ec"
+                },
+                {
+                    "name": "Garuda Indonesia (Citilink logo - white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Citilink_A320_blank.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Vietjet (white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Airbus_A320-232_-_Vietjet_Air_White_Design.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
+                },
+                {
+                    "name": "Vietjet (unpainted)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Airbus_A320-232_-_Vietjet_Air_White_Design_1.png"
+                    ],
+                    "credits": "LOL369YT, Thanhdatle & opaldelta_17676"
                 }
             ],
             "labels": [
@@ -47742,7 +47969,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Norskfreight_747-100.png"
                     ],
-                    "credits": "Delta006"
+                    "credits": "luca b"
                 },
                 {
                     "name": "TransCon Airlines (from movie Turbulence)",
@@ -47848,6 +48075,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/braniff.png"
                     ],
                     "credits": "CNParrot"
+                },
+                {
+                    "name": "Air France",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/Air_France.png"
+                    ],
+                    "credits": "LOL396YT"
                 }
             ],
             "labels": [
@@ -48030,7 +48264,7 @@
             ],
             "name": "Chengdu J-20"
         },
-        "5435": {
+        "5431": {
             "index": [
                 0
             ],
@@ -48218,7 +48452,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/JL772.png"
                     ],
-                    "credits": "MirageModels"
+                    "credits": "CP8888"
                 },
                 {
                     "name": "Turkmenistan Airlines",
@@ -48417,7 +48651,7 @@
                     "credits": "HO1076[Sino Wings Group]"
                 },
                 {
-                    "name": "Saudi Arabian",
+                    "name": "Saudia",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Saudi_Arabian_B777-200ER.png"
                     ],
@@ -48772,6 +49006,118 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_Arc_of_the_Sun_Design_777-200.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Saudi Arabian",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/saudiarabian.png"
+                    ],
+                    "credits": "projectsrv"
+                },
+                {
+                    "name": "Japan Airlines (Thavasa livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_Arc_of_the_Sun_Samantha_Thavasa_Design_777-200.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Japan Airlines (SkyEco livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_Arc_of_the_Sun_SkyEco_Design_777-200.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Japan Airlines (Japan Endless Discovery livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_Endless_Discovery_Design_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Japan Airlines (Senpaku livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_Arc_of_the_Sun_Senpaku_Design_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Japan Airlines (Yokoso livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_Arc_of_the_Sun_Yokoso_Design_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Japan Airlines (Arc of the Sun design - OneWorld livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_Arc_of_the_Sun_Oneworld_Design_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "China Southern X Garuda Indonesia",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Garuda_Indonesia_777-200.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group] & luca b"
+                },
+                {
+                    "name": "Varig (75 años livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/VARIG_75_Anos_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Varig (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/VARIG_Old_777-200ER.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Royal Brunei",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Royal_Brunei_Airlines_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Biman Bangladesh (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Biman_Bangladesh_Airlines_old_design_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Continental (Peter Max design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/continental772petermax.png"
+                    ],
+                    "credits": "GEO-FS-FLIGHTS[YT]"
+                },
+                {
+                    "name": "Med-Veiw Airlines Nigeria",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Med-Veiw_Airlines_Nigeria_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Korean Air (Pyeongchang 2018 New Horizon livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Korean_Air_Pyeonchang_2018_New_horizon_Desing_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Korean Air (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Korean_Air_Old_Design_777-200ER.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -48841,6 +49187,13 @@
                     "name": "Etihad (Fast & Furious 7 livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200lr/Etihad_Airways_Fast__Furious_7_Design_777-200LR.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Crystal Luxury Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200lr/Crystal_Luxury_Air_777-200LR.png"
                     ],
                     "credits": "luca b"
                 }
@@ -48948,7 +49301,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/Singapore_Cargo_777F.png"
                     ],
-                    "credits": "MirageModels"
+                    "credits": "luca b"
                 },
                 {
                     "name": "ANA Cargo",
@@ -48998,6 +49351,27 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/Qatar_Airways_Cargo_777F.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Southern Airlines (N704GT)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/Southern-Airlines-Boeing-777-200-F.png"
+                    ],
+                    "credits": "GeoFS Explorer"
+                },
+                {
+                    "name": "Turkish Cargo",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/Turkish_Airlines_Cargo_777F.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Southern Airlines - DHL",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/Southern-Airlines-DHL-Boeing-777-200-F.png"
+                    ],
+                    "credits": "GeoFS Explorer"
                 }
             ],
             "labels": [
