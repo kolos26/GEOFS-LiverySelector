@@ -863,7 +863,7 @@ async function getMPTexture(u, liveryEntry) {
             await fetch(u.currentLivery.url).then(res => res.json()).then(data => mpAirlineobjs[u.currentLivery.url] = data);
             console.log(mpAirlineobjs[u.currentLivery.url]);
         }
-        const texturePromises = liveryEntry._mp.map(async e => {
+        const texturePromises = liveryEntry.mp.map(async e => {
             if (e.textureIndex !== undefined) {
                 return {
                     uri: mpAirlineobjs[u.currentLivery.url].aircrafts[u.aircraft].liveries[u.currentLivery.idx].texture[e.textureIndex],
@@ -895,7 +895,7 @@ async function getMPTexture(u, liveryEntry) {
         const resolvedTextures = await Promise.all(texturePromises);
         textures.push(...resolvedTextures);
     } else {
-        const texturePromises = liveryEntry._mp.map(async e => {
+        const texturePromises = liveryEntry.mp.map(async e => {
             if (e.textureIndex !== undefined) {
                 return {
                     uri: liveryEntry.liveries[otherId].texture[e.textureIndex],
