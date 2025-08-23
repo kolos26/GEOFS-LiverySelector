@@ -28102,9 +28102,9 @@
                 {
                     "name": "Ukraine International Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/ukraine/fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/ukraine/fuselage.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/ukraine/wing.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/ukraine/engine.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/ukraine/engine.png"
                     ],
                     "credits": "Nichy"
                 },
@@ -28266,7 +28266,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/klm/fuselage.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/klm/wing.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/klm/engines.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj170/klm/engine.jpg"
                     ],
                     "credits": "Ivan Dmitriev"
                 },
@@ -33515,10 +33515,18 @@
                     "credits": "Androway"
                 },
                 {
-                    "name": "Aeroflot",
+                    "name": "Aeroflot (VP-BGP)",
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/aeroflot777.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "Aeroflot (RA-73142)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/aeroflot_777-300er.jpg"
                     ],
                     "credits": "Ivan Dmitriev"
                 },
