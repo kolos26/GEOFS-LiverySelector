@@ -52157,7 +52157,33 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Boeing b747-400D" 
+            "name": "Boeing b747-400D"
+        },
+        "1018": {
+            "index": [
+                1,
+                2
+            ],
+            "parts": [
+                1,
+                1
+            ],
+            "mp": [
+                {
+                    "modelIndex": 1,
+                    "textureIndex": 0
+                },
+                {
+                    "modelIndex": 2,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Embraer ERJ 190"
         }
     }
 }
