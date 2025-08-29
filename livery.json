@@ -13143,6 +13143,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/flyyaya.jpg"
                     ],
                     "credits": "Finohanug"
+                },
+                {
+                    "name": "Travira Air (white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/travira.jpg"
+                    ],
+                    "credits": "Finohanug"
                 }
             ],
             "labels": [
@@ -17382,6 +17389,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Avion_Express_Malta_Airbus_A320-214.png"
                     ],
                     "credits": "GeoFS Explorer"
+                },
+                {
+                    "name": "China Southern (short waistline)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/chinasouthernshort.png"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": [
@@ -19188,13 +19202,6 @@
                     "credits": "LOL369YT, Lê Thành Đạt & opaldelta_17676"
                 },
                 {
-                    "name": "China Southern (short waistline)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/chinasouthernshort.png"
-                    ],
-                    "credits": "CP8888"
-                },
-                {
                     "name": "Bamboo Airways (Fly Green livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/bambooflygreen.png"
@@ -20024,7 +20031,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/Zhoushan.png"
                     ],
-                    "credits": "TOMAIM & Coolpilot11"
+                    "credits": "TOMAIM"
                 }
             ],
             "labels": [
@@ -23200,6 +23207,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/chinasouthsky.png"
                     ],
                     "credits": "yijiashanhangdeboyin737[Sino Wings Group]"
+                },
+                {
+                    "name": "Lion Air (90th 737ng livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/lion90.jpg"
+                    ],
+                    "credits": "Finohanug"
                 }
             ],
             "labels": [
@@ -30621,6 +30635,13 @@
                     "name": "Tianjin Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/tianjin.png"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Air China (50th A330 for Air China sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-900neo/50330_2"
                     ],
                     "credits": "CP8888"
                 }
@@ -52179,6 +52200,13 @@
                 }
             ],
             "liveries": [
+                {
+                    "name": "Blank",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj190/blank.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj190/blank.jpg"
+                    ]
+                }
             ],
             "labels": [
                 "Texture"
