@@ -52113,9 +52113,11 @@
         },
         "5409": {
             "index": [
-                0
+                0,
+                1
             ],
             "parts": [
+                0,
                 0
             ],
             "mp": [
@@ -52128,55 +52130,63 @@
                 {
                     "name": "ANA (new design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA 747-400D.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA 747-400D.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/original.png"
                     ],
                     "credits": "luca b"
                 },
                 {
                     "name": "ANA (old design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA Old 747-400D.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA Old 747-400D.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/original.png"
                     ],
                     "credits": "luca b"
                 },
                 {
                     "name": "General Electric Propulsion Test Platform",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/General Electric 747-400.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/General Electric 747-400.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/original.png"
                     ],
                     "credits": "luca b"
                 },
                 {
                     "name": "Japan Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/JAL 747-400D.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/JAL 747-400D.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/original.png"
                     ],
                     "credits": "luca b"
                 },
                 {
                     "name": "Japan Airlines SKy Crusier",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/JAL Sky Cruiser 747-400D.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/JAL Sky Cruiser 747-400D.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/original.png"
                     ],
                     "credits": "luca b"
                 },
                 {
                     "name": "ANA (Pokejet livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA Pokejet 747-400D.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA Pokejet 747-400D.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/original.png"
                     ],
                     "credits": "luca b"
                 },
                 {
                     "name": "ANA (Pokect Monsters livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA_744D_PKmon_JA8964_1.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/ANA_744D_PKmon_JA8964_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/original.png"
                     ],
                     "credits": "ChengyuWordle[Sino Wings Group]"
                 }
             ],
             "labels": [
-                "Texture"
+                "Texture",
+                "Wing texture"
             ],
             "name": "Boeing b747-400D"
         },
