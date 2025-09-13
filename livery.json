@@ -47021,8 +47021,8 @@
                 {
                     "name": "N146C",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beechcraft_b55/N146C/Image_1.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beechcraft_b55/N146C/Image_4.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beechcraft_b55/N146C/Image1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beechcraft_b55/N146C/Image4.png"
                     ],
                     "credits": "Nichy"
                 }
@@ -53012,6 +53012,73 @@
                 "Texture"
             ],
             "name": "Embraer ERJ 190"
+        },
+        "252": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "Atlas Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8f/Atlas Air 747-8F.png"
+                    ],
+                    "credits": "luca b"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Boeing b747-8F"
+        },
+        "2806": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "US Army",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/sikorsky_uh60/hawkscaled.png"
+                    ],
+                    "credits": "Spice9"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Sikorsky UH-60 Black Hawk"
+        },
+        "5499": {
+            "index": [
+                1
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "N426MH",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cubcrafters_xcub/n426mh.jpg"
+                    ],
+                    "credits": "Ariakim Taiyo"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "CubCrafters CC19 XCub"
+        }
         }
     }
 }
