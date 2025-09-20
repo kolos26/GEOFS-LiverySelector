@@ -148,13 +148,18 @@ function loadLivery(texture, index, parts, mats) {
             }
             continue;
         }
-        if (geofs.version == 2.9) {
-            geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
-        } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
-            geofs.api.changeModelTexture(model3d._model, texture[i], index[i]);
-        } else {
-            geofs.api.changeModelTexture(model3d._model, texture[i], { index: index[i] });
-        }
+		try {
+	        if (geofs.version == 2.9) {
+	            geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
+	        } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
+	            geofs.api.changeModelTexture(model3d._model, texture[i], index[i]);
+	        } else {
+	            geofs.api.changeModelTexture(model3d._model, texture[i], { index: index[i] });
+	        }
+		} catch (error) {
+			geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
+			console.error(error);
+		}
     }
 }
 
@@ -1179,4 +1184,5 @@ window.LiverySelector = {
     airlineobjs,
     togglePanel
 };
+
 
