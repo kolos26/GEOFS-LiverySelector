@@ -340,7 +340,7 @@ function listLiveries() {
 }
 
 function loadFavorites() {
-	const favorites = localStorage.getItem('favorites');
+	const favorites = localStorage.getItem('favorites') ?? '';
     if (favorites === null) {
         localStorage.setItem('favorites', '');
     }
@@ -1179,3 +1179,4 @@ window.LiverySelector = {
     airlineobjs,
     togglePanel
 };
+
