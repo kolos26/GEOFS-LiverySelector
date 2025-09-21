@@ -51571,6 +51571,7 @@
                 {
                     "name": "India Coast Guard",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-100/texture.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dornier_do228-100/texture.png"
                     ],
                     "credits": "Spice9"
@@ -54591,7 +54592,9 @@
                 }
             ],
             "labels": [
-                "Texture"
+                "Main texture",
+                "Rudder texture",
+                "Prop texture"
             ],
             "name": "Grumman J2F-5 Duck"
         },
