@@ -48425,7 +48425,7 @@
                     "credits": "MirageModels"
                 },
                 {
-                    "name": "IL-976 SKIP",
+                    "name": "Silkway Cargo",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/silkway.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ilyushin_il76/wing/silkway.png"
@@ -54606,9 +54606,11 @@
         "5551": {
             "index": [
                 0,
-                2
+                2,
+                3
             ],
             "parts": [
+                0,
                 0,
                 0
             ],
@@ -54623,6 +54625,7 @@
                     "name": "China Eastern (The World's f1rst C919 sticker)",
                     "texture": [
                         "/backend/aircraft/repository/P190_267286_5551/texture_0.jpg",
+                        "/backend/aircraft/repository/P190_267286_5551/texture_0.jpg",
                         "/backend/aircraft/repository/P190_267286_5551/texture_0.jpg"
                     ],
                     "credits": "AF267"
@@ -54630,6 +54633,7 @@
                 {
                     "name": "China Southern",
                     "texture": [
+                        "/backend/aircraft/repository/P190_267286_5551/texture_1.jpg",
                         "/backend/aircraft/repository/P190_267286_5551/texture_1.jpg",
                         "/backend/aircraft/repository/P190_267286_5551/texture_1.jpg"
                     ],
@@ -54639,6 +54643,7 @@
                     "name": "Air China",
                     "texture": [
                         "/backend/aircraft/repository/P190_267286_5551/texture_2.jpg",
+                        "/backend/aircraft/repository/P190_267286_5551/texture_2.jpg",
                         "/backend/aircraft/repository/P190_267286_5551/texture_2.jpg"
                     ],
                     "credits": "luca b"
@@ -54646,6 +54651,7 @@
                 {
                     "name": "Comac house livery (B-001J)",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/c919house.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/c919house.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/c919house.png"
                     ],
@@ -54655,6 +54661,7 @@
                     "name": "China Eastern",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/chinaeastern.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/chinaeastern.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/chinaeastern.png"
                     ],
                     "credits": "TOMAIM"
@@ -54662,6 +54669,7 @@
                 {
                     "name": "Comac house livery (B-001F)",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/COMAC919_2.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/COMAC919_2.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/COMAC919_2.png"
                     ],
@@ -54671,6 +54679,7 @@
                     "name": "Tibet Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Tibet_Airlines_-_Comac_C919-100.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Tibet_Airlines_-_Comac_C919-100.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Tibet_Airlines_-_Comac_C919-100.png"
                     ],
                     "credits": "Nichy"
@@ -54678,6 +54687,7 @@
                 {
                     "name": "Garuda Indonesia (planned livery)",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Androway Garuda 919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Androway Garuda 919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Androway Garuda 919.png"
                     ],
@@ -54687,6 +54697,7 @@
                     "name": "Air Karachi",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Air Karachi C919.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Air Karachi C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Air Karachi C919.png"
                     ],
                     "credits": "luca b"
@@ -54694,6 +54705,7 @@
                 {
                     "name": "China Eastern (Shining Chinese Red sticker)",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/China Eastern Shining Chinese Red C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/China Eastern Shining Chinese Red C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/China Eastern Shining Chinese Red C919.png"
                     ],
@@ -54703,6 +54715,7 @@
                     "name": "City Airways",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/City Airways C919.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/City Airways C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/City Airways C919.png"
                     ],
                     "credits": "luca b"
@@ -54710,6 +54723,7 @@
                 {
                     "name": "Gallop Air",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Gallop Air C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Gallop Air C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Gallop Air C919.png"
                     ],
@@ -54719,6 +54733,7 @@
                     "name": "Hainan Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Hainan Airlines C919.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Hainan Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Hainan Airlines C919.png"
                     ],
                     "credits": "luca b"
@@ -54726,6 +54741,7 @@
                 {
                     "name": "Hebei Airlines",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Hebei Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Hebei Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Hebei Airlines C919.png"
                     ],
@@ -54735,6 +54751,7 @@
                     "name": "Joy Air",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Joy Air C919.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Joy Air C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Joy Air C919.png"
                     ],
                     "credits": "luca b"
@@ -54742,6 +54759,7 @@
                 {
                     "name": "Lao Airlines",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Lao Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Lao Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Lao Airlines C919.png"
                     ],
@@ -54751,6 +54769,7 @@
                     "name": "Ryanair (planned livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Ryanair C919.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Ryanair C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Ryanair C919.png"
                     ],
                     "credits": "luca b"
@@ -54758,6 +54777,7 @@
                 {
                     "name": "Sichuan Airlines",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Sichuan Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Sichuan Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Sichuan Airlines C919.png"
                     ],
@@ -54767,6 +54787,7 @@
                     "name": "Suparna Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Suparna Airlines C919.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Suparna Airlines C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Suparna Airlines C919.png"
                     ],
                     "credits": "luca b"
@@ -54775,6 +54796,7 @@
                     "name": "Total Lineas Aereas",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Total Lineas Aereas C919.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Total Lineas Aereas C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Total Lineas Aereas C919.png"
                     ],
                     "credits": "luca b"
@@ -54782,6 +54804,7 @@
                 {
                     "name": "Total Lineas Aereas Cargo",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Total Lineas Aereas Cargo C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Total Lineas Aereas Cargo C919.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/comac_c919/Total Lineas Aereas Cargo C919.png"
                     ],
