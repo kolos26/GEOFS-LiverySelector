@@ -54405,7 +54405,12 @@
             "parts": [
                 0
             ],
-            "mp": "disabled",
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
             "liveries": [
                 {
                     "name": "N426MH",
@@ -54607,7 +54612,12 @@
                 0,
                 0
             ],
-            "mp": "disabled",
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
             "liveries": [
                 {
                     "name": "China Eastern (The World's f1rst C919 sticker)",
