@@ -7714,7 +7714,7 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Geosky",
+                    "name": "Geosky (white design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky 767-300F.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky 767-300F.png",
@@ -9002,6 +9002,21 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/mNDNIfM.jpg"
                     ],
                     "credits": "Androway"
+                },
+                {
+                    "name": "Geosky",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-300er/Geosky_767-300ER.png"
+                    ],
+                    "credits": "geofs py"
                 }
             ],
             "labels": [
@@ -13621,6 +13636,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/JAC_ATR_3_1.png"
                     ],
                     "credits": "garom"
+                },
+                {
+                    "name": "Air Madagascar",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/airmadagascar.png"
+                    ],
+                    "credits": "J. A. L."
                 }
             ],
             "labels": [
@@ -19618,7 +19640,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/A320-AV100-GFS.png"
                     ],
-                    "credits": "JuanMNG"
+                    "credits": "Nichy"
                 },
                 {
                     "name": "Air Canada (ice blue design)",
@@ -23742,7 +23764,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Beijing_Airlines_B738.png"
                     ],
-                    "credits": "Aero Forge Studio"
+                    "credits": "MU2731[SinoWingsGroup]"
                 },
                 {
                     "name": "Varig",
@@ -24051,6 +24073,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Copa_BioMuseo_1.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Air Albania",
+                    "texture": [
+                        "https://146687434-530121269341574877.preview.editmysite.com/uploads/1/4/6/6/146687434/albanianb737-800_2_1__1_.jpg"
+                    ],
+                    "credits": "Nighthearth"
                 }
             ],
             "labels": [
@@ -26523,7 +26552,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/qazaqair.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/qazaqair.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/qazaqair.jpg"
-                    ]
+                    ],
+                    "credits": "Ivan Dmitriev"
                 },
                 {
                     "name": "ANA",
@@ -26871,6 +26901,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/canadaexpress.png"
                     ],
                     "credits": "twinkieaviation"
+                },
+                {
+                    "name": "ANA (EcoBon livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/anaecobon.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/anaecobon.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/anaecobon.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_dash8-q400/anaecobon.jpg"
+                    ],
+                    "credits": "masan8676"
                 }
             ],
             "labels": [
@@ -38059,7 +38099,7 @@
                     "credits": "HO1076[Sino Wings Group]"
                 },
                 {
-                    "name": "Vietnam Airlines",
+                    "name": "Vietnam Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/vietnam.png"
                     ],
@@ -38652,6 +38692,41 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/LATAM_a321-211.jpg"
                     ],
                     "credits": "Nichy & Ivan Dmitriev"
+                },
+                {
+                    "name": "Vietnam Airlines (VN-615)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/a321_hack.png"
+                    ],
+                    "credits": "LOL369YT, opaldelta_17676, Lê Thành Đạt & kbacon_RBX"
+                },
+                {
+                    "name": "Vietnam Airlines (old design V2)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietnam_Airlines_-_A321-211_Old_Design_Type_2.png"
+                    ],
+                    "credits": "LOL396YT"
+                },
+                {
+                    "name": "Vietnam Airlines (old design V2, small logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietnam_Airlines_-_A321-211_Old_Design_Type_2_with_smaller_Skyteam_logo_added.png"
+                    ],
+                    "credits": "LOL396YT"
+                },
+                {
+                    "name": "Vietnam Airlines (old design V3)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietnam_Airlines_-_A321-211_Old_Design_Type_3.png"
+                    ],
+                    "credits": "LOL396YT"
+                },
+                {
+                    "name": "Vietnam Airlines (old design V3, small logo)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Vietnam_Airlines_-_A321-211_Old_Design_Type_3_with_smaller_Skyteam_logo_added.png"
+                    ],
+                    "credits": "LOL396YT"
                 }
             ],
             "labels": [
@@ -42290,6 +42365,34 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Untitled_design_106"
                     ]
+                },
+                {
+                    "name": "Vietnam Airlines (old design - white wingtips)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/vietnamwhitewingtip.png"
+                    ],
+                    "credits": "VerybadA330"
+                },
+                {
+                    "name": "Vietnam Airlines (old design - white wingtips, dark rudder)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/vietnamwhitewingtipblue.png"
+                    ],
+                    "credits": "VerybadA330"
+                },
+                {
+                    "name": "Avianca Cargo (A330-200P2F)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/avianca_Cargo_-_Airbus_A330-200F.png"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Cathay Pacific (VR-HYD)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/vrhyd.png"
+                    ],
+                    "credits": "Tide Pods"
                 }
             ],
             "labels": [
@@ -54056,6 +54159,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/Japan_Airlines_Ark_of_the_Sun_wing_texture_747-400D.png"
                     ],
                     "credits": "Lego and Avgeek YT & frd_ec"
+                },
+                {
+                    "name": "Japan Airlines (50 years Flight to Okinawa livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/Japan_Airlines_50_years_First_Flight_Design_747-400D.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/Japan_Airlines_Ark_of_the_Sun_wing_texture_747-400D.png"
+                    ],
+                    "credits": "Lego and Avgeek YT & frd_ec"
                 }
             ],
             "labels": [
@@ -54613,6 +54724,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj190/hebei.png"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "Air France HOP",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj190/AirFrance_Hop_Emb190.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
                 }
             ],
             "labels": [
@@ -54751,9 +54869,9 @@
                 {
                     "name": "Cargolux",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/747-cargolux.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8f/cargolux.png"
                     ],
-                    "credits": "air1usa"
+                    "credits": "opaldelta_17676"
                 },
                 {
                     "name": "Cargolux (mask livery)",
@@ -55139,6 +55257,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/CargoLux_45_years_Livery_747-8F.png"
                     ],
                     "credits": "Lego and Avgeek YT & Marcioart121BR"
+                },
+                {
+                    "name": "Kuehne+Nagel x Atlas Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8f/kuhnenagel.png"
+                    ],
+                    "credits": "MU2731[SinoWingsGroup]"
                 }
             ],
             "labels": [
