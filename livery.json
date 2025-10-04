@@ -14654,9 +14654,15 @@
                     ]
                 },
                 {
-                    "name": "United",
+                    "name": "United (new design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/united.png"
+                    ]
+                },
+                {
+                    "name": "United (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/united.png"
                     ]
                 },
                 {
@@ -19685,13 +19691,6 @@
                     "credits": "Pom-Pom d'Cat"
                 },
                 {
-                    "name": "Avianca (100th anniversary livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/A320-AV100-GFS.png"
-                    ],
-                    "credits": "Nichy"
-                },
-                {
                     "name": "Air Canada (ice blue design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/ACA-A20-N-ICCCYYYY-1.jpg"
@@ -20925,12 +20924,6 @@
                     "name": "Singapore Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/singapore.png"
-                    ]
-                },
-                {
-                    "name": "United",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/united.png"
                     ]
                 },
                 {
@@ -24130,6 +24123,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/b737-800_QANTAS_MENDOOWOORRJI.png"
                     ],
                     "credits": "frd_ec"
+                },
+                {
+                    "name": "Alaska Airlines (Honoring Those Who Serve livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Honoring Those Who Serve.jpg"
+                    ],
+                    "credits": "RYANAIR5719 & Nichy"
+                },
+                {
+                    "name": "Hebei Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/hebei738.png"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": [
@@ -36647,7 +36654,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b767-400er/airchina767.png"
                     ],
-                    "credits": "Androway"
+                    "credits": "CP8888"
                 },
                 {
                     "name": "Cargojet",
@@ -46588,7 +46595,7 @@
                     "credits": "pontifx"
                 },
                 {
-                    "name": "US Air Force - Spitit of America",
+                    "name": "US Air Force - Spirit of America",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f22/F-22spiritofamerica.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f22/shaders/spritofamerica_shader.png"
@@ -46600,7 +46607,7 @@
                 "Texture",
                 "Metallic Roughness shader"
             ],
-            "name": "Lokheed Martin F22 Raptor"
+            "name": "Lockheed Martin F22 Raptor"
         },
         "3211": {
             "index": [
@@ -48030,6 +48037,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/Conviasa_Boeing_737-600.jpg"
                     ],
                     "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "Estonian Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/Estonian_Air_736.png"
+                    ],
+                    "credits": "Geofs Player Bilibili"
                 }
             ],
             "labels": [
@@ -50459,7 +50473,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/vietnam.jpg"
                     ],
-                    "credits": "Nichy"
+                    "credits": "LOL369YT"
                 },
                 {
                     "name": "JetBlue (retro livery)",
@@ -50819,7 +50833,7 @@
                     "credits": "CNParrot & luca b"
                 },
                 {
-                    "name": "China Eastern (old design)",
+                    "name": "Sichuan Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/sichuan.jpg"
                     ],
@@ -51405,6 +51419,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/THAI_A320-232.png"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "Pacific Airlines (white design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/Pacific_Airlines_White_-_Airbus_A320-232.png"
+                    ],
+                    "credits": "LOL369YT"
                 }
             ],
             "labels": [
