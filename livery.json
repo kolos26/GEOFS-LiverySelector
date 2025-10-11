@@ -52270,7 +52270,12 @@
                 0,
                 0
             ],
-            "mp": "disabled",
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
             "liveries": [
                 {
                     "name": "United Airlines (Star Alliance livery)",
@@ -54984,7 +54989,12 @@
             "parts": [
                 0
             ],
-            "mp": "disabled",
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
             "liveries": [
                 {
                     "name": "Atlas Air",
@@ -56004,7 +56014,12 @@
                 0,
                 0
             ],
-            "mp":  "disabled",
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
             "liveries": [
                 {
                     "name": "Boeing house Livery",
