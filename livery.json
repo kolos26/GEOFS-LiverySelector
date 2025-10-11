@@ -456,6 +456,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_172/N7711G_Cessna_172.png"
                     ],
                     "credits": "luca b"
+                },
+                {
+                    "name": "SP-OKL",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_172/Cessna172_SP-OKL.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
                 }
             ],
             "labels": [
@@ -2566,9 +2573,9 @@
                     "texture": [
                         "/models/aircraft/premium/737_700/normal.jpg",
                         "/models/aircraft/premium/737_700/specular.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/VNA_737-700_BBJ.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-700/HAV_Aviation_Company_-_Boeing_737-75G_BBJ.png"
                     ],
-                    "credits": "VerybadA330"
+                    "credits": "LOL369YT & VerybadA330"
                 }
             ],
             "labels": [
@@ -11748,8 +11755,9 @@
                 {
                     "name": "Finnair (Oneworld livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_399.png"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/Finnair_OneWorld_Airbus_A319.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
                 },
                 {
                     "name": "American Airlines - PSA",
@@ -15193,6 +15201,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/lufthansatail.png"
                     ],
                     "credits": "VerybadA330"
+                },
+                {
+                    "name": "Riyadh Air (leased from Oman Air)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/787-9_RIYADH_AIR.png"
+                    ],
+                    "credits": "frd_ec"
                 }
             ],
             "labels": [
@@ -18167,6 +18182,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/A320-214_Iberia_75_anos_volando_a_Puerto_Rico_liv.png"
                     ],
                     "credits": "frd_ec"
+                },
+                {
+                    "name": "Alaska Airlines (N854VA)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/2025_10_09_0m6_Kleki.png"
+                    ],
+                    "credits": "VerybadA330"
                 }
             ],
             "labels": [
@@ -18846,8 +18868,9 @@
                 {
                     "name": "Air China",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_181.jpg"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Air_China_A320neoRework.jpg"
+                    ],
+                    "credits": "KN5290"
                 },
                 {
                     "name": "Condor (Passion design)",
@@ -21631,8 +21654,9 @@
                 {
                     "name": "Virgin Australia",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_286.jpg"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/va_737_-_800_best_version.png"
+                    ],
+                    "credits": "Qantasfan89"
                 },
                 {
                     "name": "REX",
@@ -21773,8 +21797,9 @@
                 {
                     "name": "China Eastern",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/ChineEastern%20738.jpg"
-                    ]
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/CES738.png"
+                    ],
+                    "credits": "MU2731[SinoWingsGroup]"
                 },
                 {
                     "name": "KLM (retro livery)",
@@ -24207,7 +24232,7 @@
                     "credits": "CP8888"
                 },
                 {
-                    "name": "GOL (Official Carrier of the Brazilian National Team)",
+                    "name": "GOL (Official Carrier of the Brazilian National Team livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/B737-800_GOL_PR-GUM.png"
                     ],
@@ -24219,6 +24244,27 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/sundor_blank.jpg"
                     ],
                     "credits": "RYANAIR5719"
+                },
+                {
+                    "name": "Virgin Samoa",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/VS_737-800_LIVERY.png"
+                    ],
+                    "credits": "Qantasfan89"
+                },
+                {
+                    "name": "China Eastern (Yunnan branch)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/ceyunnanbranch.png"
+                    ],
+                    "credits": "MU2731[SinoWingsGroup]"
+                },
+                {
+                    "name": "GOL (Shopping Smiles livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/B737-800_GOL_PR-GXP.png"
+                    ],
+                    "credits": "frd_ec"
                 }
             ],
             "labels": [
@@ -33507,6 +33553,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/313sqn_tiger.png"
                     ],
                     "credits": "Razor"
+                },
+                {
+                    "name": "Puerto Rico National Guard",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/F16_PUERTO_RICO.png"
+                    ],
+                    "credits": "frd_ec"
                 }
             ],
             "labels": [
@@ -38782,6 +38835,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/sichuan.png"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "WOW",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/WOW_Air_A321-200.jpg"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -41954,7 +42014,7 @@
                 },
                 {
                     "name": "Air Transat (old design)",
-                    "credits": "Lego and Avgeek YT",
+                    "credits": "CP8888",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a330-200/Air_Transat_Old_A330-200.png"
                     ]
@@ -50941,7 +51001,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/TF-BRO.jpg"
                     ],
-                    "credits": "RYANAIR5719"
+                    "credits": "Lego and Avgeek YT"
                 },
                 {
                     "name": "TAM Linhas Aéreas (old design)",
@@ -51383,6 +51443,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/tigerair_a320_2.png"
                     ],
                     "credits": "garom"
+                },
+                {
+                    "name": "Chongqing Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/chongqing.png"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": [
@@ -53347,6 +53414,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Thiet_ke_chua_co_ten_46.png"
                     ],
                     "credits": "LOL369YT, Lê Thành Đạt, opaldelta_17676 & kbacon_RBX"
+                },
+                {
+                    "name": "Continental",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/Continental_Metallic_Roughness_Shader_-_Boeing_777-200ER.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/continental.png"
+                    ],
+                    "credits": "VerybadA330"
                 }
             ],
             "labels": [
@@ -54296,12 +54371,20 @@
                     "credits": "Lego and Avgeek YT & frd_ec"
                 },
                 {
-                    "name": "Japan Airlines (Japan's Olympic Team Jet  livery)",
+                    "name": "Japan Airlines (Japan's Olympic Team Jet livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/Japan_Airlines_Japan_Olympic_Team_Jet_747-400D.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/Japan_Airlines_Ark_of_the_Sun_wing_texture_747-400D.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "Japan Airlines (Japan National Team livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/Japan_Airlines_Japan_National_Football_team_design_747-400D.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400d/wing/Japan_Airlines_Ark_of_the_Sun_wing_texture_747-400D.png"
+                    ],
+                    "credits": "Lego and Avgeek YT & frd_ec"
                 }
             ],
             "labels": [
@@ -55420,6 +55503,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8f/kuhnenagel.png"
                     ],
                     "credits": "MU2731[SinoWingsGroup]"
+                },
+                {
+                    "name": "My Freighter",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8f/myfreighter.png"
+                    ],
+                    "credits": "Raptor4001"
                 }
             ],
             "labels": [
