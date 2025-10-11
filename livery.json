@@ -27788,6 +27788,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/japancoast.png"
                     ],
                     "credits": "Tanakan"
+                },
+                {
+                    "name": "Formosa Airlines V3",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/SAAB_340/formosav3.png"
+                    ],
+                    "credits": "whois无名氏[Sino Wings Group]"
                 }
             ],
             "labels": [
@@ -33068,6 +33075,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/chinasouthwhitenose.png"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "Bamboo Airways (4 door version)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Bamboo_Airways_-_A321neo_4_door_version.png"
+                    ],
+                    "credits": "LOL369YT, Lê Thành Đạt & opaldelta_17676"
                 }
             ],
             "labels": [
@@ -51431,7 +51445,7 @@
                     "credits": "garom"
                 },
                 {
-                    "name": "Chongqing Airlines",
+                    "name": "Chongqing Airlines (white nose)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/chongqing.png"
                     ],
@@ -51442,7 +51456,14 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/savoyager.png"
                     ],
-                    "credits": "CP8888"
+                    "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "West Air (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/West_Air_Old_livery.png"
+                    ],
+                    "credits": "Geofs Player Bilibili"
                 }
             ],
             "labels": [
@@ -52960,7 +52981,7 @@
                 {
                     "name": "Vietnam Airlines (new design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/Vietnam_Airlines_New_Design_-_Metallic_Roughness_Shader_-_Boeing_777-200ER.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Thiet_ke_chua_co_ten_46.png"
                     ],
                     "credits": "LOL369YT, Lê Thành Đạt & opaldelta_17676"
@@ -53336,7 +53357,7 @@
                 {
                     "name": "Arizona Cardinals",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Arizona_Cardinals_Football_V2.png"
                     ],
                     "credits": "frd_ec"
@@ -53344,7 +53365,7 @@
                 {
                     "name": "Arizona Cardinals (operated by Gridiron Air)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Arizona_Cardinals_Football_V1.png"
                     ],
                     "credits": "frd_ec"
@@ -53352,7 +53373,7 @@
                 {
                     "name": "Japan Airlines (Special OneWorld livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/JAL_Oneworld_Special_777-200.png"
                     ],
                     "credits": "luca b"
@@ -53360,7 +53381,7 @@
                 {
                     "name": "Delta Airlines (Soaring Spirit livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Delta_2002_Winter_Olympics_livery.png"
                     ],
                     "credits": "frd_ec"
@@ -53368,7 +53389,7 @@
                 {
                     "name": "Euroatlantic Airways",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/EUROATLANTIC_772.png"
                     ],
                     "credits": "ChengyuWordle[Sino Wings Group]"
@@ -53376,7 +53397,7 @@
                 {
                     "name": "Air India (ex Delta)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/airindiaexdelta.png"
                     ],
                     "credits": "VerybadA330"
@@ -53384,7 +53405,7 @@
                 {
                     "name": "Japan Airlines (2010 Fukuoka Softbank Basball livery)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Japan_Airlines_2010_Fukuoka_Softbank_Basball_design_777-200.png"
                     ],
                     "credits": "Lego and Avgeek YT"
@@ -53392,7 +53413,7 @@
                 {
                     "name": "British Airways (G-VIIJ)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/britishxvietnam.png"
                     ],
                     "credits": "opaldelta_17676"
@@ -53400,7 +53421,7 @@
                 {
                     "name": "Vietnam Airlines (unpainted nose)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/772_Metallic_Map_1.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/Vietnam-Airlines-Metallic-Roughness-Shader-Boeing-777-200-ER.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/IMG_3895.jpg"
                     ],
                     "credits": "LOL369YT, Lê Thành Đạt, opaldelta_17676 & kbacon_RBX"
@@ -53408,7 +53429,7 @@
                 {
                     "name": "Vietnam Airlines (old design)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/Vietnam-Airlines-Metallic-Roughness-Shader-Boeing-777-200-ER.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/vietnamold.jpg"
                     ],
                     "credits": "LOL369YT, Lê Thành Đạt, opaldelta_17676 & kbacon_RBX"
@@ -55513,6 +55534,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8f/myfreighter.png"
                     ],
                     "credits": "Raptor4001"
+                },
+                {
+                    "name": "Qantas Freight (planned livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8f/qantas_747f_full_version.png"
+                    ],
+                    "credits": "Qantasfan89"
                 }
             ],
             "labels": [
