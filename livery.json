@@ -17421,13 +17421,6 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "Avianca (AeroGal heritage livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Avianca_AeroGal_Heritage_design_A320Neo.png"
-                    ],
-                    "credits": "Lego and Avgeek YT"
-                },
-                {
                     "name": "Avianca (Miami Dolphins livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Avianca_MD_-_Airbus_A320-214_white_map_1_1.png"
@@ -17473,13 +17466,6 @@
                     "name": "South African Airways",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/South_African_Airways_A320.png.jpg"
-                    ],
-                    "credits": "Lego and Avgeek YT"
-                },
-                {
-                    "name": "South African Airways (Voyager Miles livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/South_African_Airways_VoyagerJourneys_Design_A320-200.png.jpg"
                     ],
                     "credits": "Lego and Avgeek YT"
                 },
@@ -19879,13 +19865,6 @@
                     "credits": "Lego and Avgeek YT"
                 },
                 {
-                    "name": "South African Airways (#VoyagerJourneys livery)",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/South_African_Airways_VoyagerJourneys_Design_A320-200.png.jpg"
-                    ],
-                    "credits": "Lego and Avgeek YT"
-                },
-                {
                     "name": "Air Berlin (FLDG logo)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/AirBerlin_FLDG_A320neo.png"
@@ -20003,6 +19982,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/bakrol.png"
                     ],
                     "credits": "MU2731[SinoWingsGroup]"
+                },
+                {
+                    "name": "Avianca (AeroGal heritage livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Avianca_AeroGal_Heritage_design_A320Neo.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -51450,6 +51436,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/chongqing.png"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "South African Airways (#VoyagerJourneys livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-232/savoyager.png"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": [
@@ -53416,7 +53409,7 @@
                     "name": "Vietnam Airlines (old design)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Thiet_ke_chua_co_ten_46.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/vietnamold.jpg"
                     ],
                     "credits": "LOL369YT, Lê Thành Đạt, opaldelta_17676 & kbacon_RBX"
                 },
