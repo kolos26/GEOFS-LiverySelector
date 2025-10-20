@@ -295,10 +295,9 @@ function sortList(id) {
 function listLiveries() {
     const livList = $('#liverylist').html('');
     livList[0].addEventListener('error', function(e) {
-        if (e.target.tagName === 'IMG') {
-            e.target.onerror = null;
-            e.target.src = defaultThumb;
-        }
+		if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
+		e.target.onerror = null;
+		e.target.src = defaultThumb;
     }, true);
     // one big event listener instead of multiple event listeners
     $(livList).on('click', 'li, [data-idx]', function ({ target }) {
@@ -1184,5 +1183,6 @@ window.LiverySelector = {
     airlineobjs,
     togglePanel
 };
+
 
 
