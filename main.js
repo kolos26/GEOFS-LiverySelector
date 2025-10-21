@@ -300,7 +300,7 @@ function listLiveries() {
 		e.target.src = defaultThumb;
     }, true);
     // one big event listener instead of multiple event listeners
-    $(livList).on('click', 'li, [data-idx]', function ({ target }) {
+    $(livList).off('click').on('click', 'li, [data-idx]', function ({ target }) { // @todo - consider moving outside of listLiveries so that the listener isn't recreated constantly
         const idx = $(target).closest('li').data('idx')
         , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
@@ -1183,6 +1183,7 @@ window.LiverySelector = {
     airlineobjs,
     togglePanel
 };
+
 
 
 
