@@ -28,7 +28,7 @@ let mpAirlineobjs = {};
     // styles
     fetch(`${jsDelivr}/styles.css?` + Date.now()).then(async data => {
         const styleTag = createTag('style', { type: 'text/css' });
-        styleTag.innerHTML = await data.text();
+        styleTag.textContent = await data.text();
         document.head.appendChild(styleTag);
     });
     appendNewChild(document.head, 'link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' });
@@ -536,7 +536,7 @@ function createDirectButton(id, i) {
         type: 'file',
         onchange: 'LiverySelector.loadLiveryDirect(this,' + i + ')'
     });
-    appendNewChild(customDiv, 'span').innerHTML = id;
+    appendNewChild(customDiv, 'span').textContent = id;
     appendNewChild(customDiv, 'br');
 }
 
@@ -548,7 +548,7 @@ function createColorChooser(name, type, partlist) {
         class: 'colorChooser',
         onchange: `changeMaterial("${name}", this.value, "${type}", [${partlist}])`
     });
-    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).innerHTML = name;
+    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).textContent = name;
     appendNewChild(customDiv, 'br');
 }
 
@@ -562,7 +562,7 @@ function createUploadColorChooser(name, type, partlist) {
         class: 'colorChooser',
         onchange: `changeMaterial("${name}", this.value, "${type}", [${partlist}])`
     });
-    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).innerHTML = name;
+    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).textContent = name;
     appendNewChild(customDiv, 'br');
 }
 
@@ -676,7 +676,7 @@ function reloadDownloadsForm(tabDiv) {
     liveries.forEach((livery, liveryNo) => {
         const textures = livery.texture.filter(t => typeof t !== 'object');
         if (!textures.length) return; // ignore material defs
-        appendNewChild(fields, 'h7').innerHTML = livery.name;
+        appendNewChild(fields, 'h7').textContent = livery.name;
         const wrap = appendNewChild(fields, 'div');
         textures.forEach((href, i) => {
             if (typeof href === 'object') return;
@@ -685,7 +685,7 @@ function reloadDownloadsForm(tabDiv) {
                 href, target: '_blank',
                 class: "mdl-button mdl-button--raised mdl-button--colored"
             });
-            link.innerHTML = airplane.labels[i];
+            link.textContent = airplane.labels[i];
         });
     });
 }
@@ -992,15 +992,8 @@ async function generateMosaicTexture(url, tiles, textures) {
  * @param {string} id Div ID to toggle, in addition to clicked element
  */
 function toggleDiv(id) {
-    const div = domById(id);
-    const target = window.event.target;
-    if (target.classList.contains('closed')) {
-        target.classList.remove('closed');
-        div.style.display = '';
-    } else {
-        target.classList.add('closed');
-        div.style.display = 'none';
-    }
+    $(`#${id}`).toggle();
+    $(window.event.target).toggleClass("closed");
 }
 
 /**
@@ -1183,6 +1176,7 @@ window.LiverySelector = {
     airlineobjs,
     togglePanel
 };
+
 
 
 
