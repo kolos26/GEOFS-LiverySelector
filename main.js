@@ -958,61 +958,31 @@ function getMLTexture(u, liveryEntry) {
     }
     return textures;
 }
-// Parallel decode, sequential draw
-async function fetchBitmap(src) {
-	if (!src) return null;
-	if (bitmapCache.has(src)) return bitmapCache.get(src);
-	const img = await Cesium.Resource.fetchImage({ url: src });
-	const bmp = await createImageBitmap(img);
-	bitmapCache.set(src, bmp);
-	return bmp;
-}
+
 async function generateMosaicTexture(url, tiles, textures) {
-	// fetch+decode helpers (simple cache)
-	const bitmapCache = generateMosaicTexture._cache ||= new Map();
-	// fetch+decode base and only the textures actually used
-	const requiredUrls = Array.from(new Set(tiles.map(t => textures[t.textureIndex]).filter(Boolean)));
-	
-	const basePromise = (async () => {
-		const baseImg = await Cesium.Resource.fetchImage({ url });
-		return await createImageBitmap(baseImg);
-	})();
-	
-	const texturePromises = requiredUrls.map(u => fetchBitmap(u));
-	
-	const [baseBitmap, textureBitmaps] = await Promise.all([basePromise, Promise.all(texturePromises)]);
-	const textureByUrl = new Map(requiredUrls.map((u,i) => [u, textureBitmaps[i]]));
-	
-	// draw (OffscreenCanvas if available)
-	const canvas = (typeof OffscreenCanvas !== 'undefined')
-		? new OffscreenCanvas(baseBitmap.width, baseBitmap.height)
-		: document.createElement('canvas');
-	canvas.width = baseBitmap.width;
-	canvas.height = baseBitmap.height;
-	const ctx = canvas.getContext('2d');
-	
-	ctx.drawImage(baseBitmap, 0, 0, canvas.width, canvas.height);
-	
-	// draw tiles in the provided order (z-order preserved)
-	for (const tile of tiles) {
-		const url = textures[tile.textureIndex];
-		const bmp = textureByUrl.get(url);
-		if (!bmp) continue;
-		ctx.drawImage(bmp, tile.sx, tile.sy, tile.sw, tile.sh, tile.dx, tile.dy, tile.dw, tile.dh);
-	}
-	
-	// return as dataURL like you originally did
-	if (canvas instanceof OffscreenCanvas) {
-		const finalBitmap = await createImageBitmap(canvas);
-		const tmp = document.createElement('canvas');
-		tmp.width = finalBitmap.width;
-		tmp.height = finalBitmap.height;
-		tmp.getContext('2d').drawImage(finalBitmap, 0, 0);
-		finalBitmap.close && finalBitmap.close();
-		return tmp.toDataURL('image/png');
-	} else {
-		return canvas.toDataURL('image/png');
-	}
+    const baseImage = await Cesium.Resource.fetchImage({ url });
+    const canvas = new OffscreenCanvas(baseImage.width, baseImage.height);
+    const ctx = canvas.getContext('2d');
+
+    // Draw the base image first
+    ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
+
+    // Create an array of Promises for drawing all tiles
+    const drawTilePromises = tiles.map(async (tile) => {
+        const image = await Cesium.Resource.fetchImage({ url: textures[tile.textureIndex] });
+        ctx.drawImage(
+            image,
+            tile.sx, tile.sy, tile.sw, tile.sh,
+            tile.dx, tile.dy, tile.dw, tile.dh
+        );
+    });
+
+    // Wait for all tiles to be drawn
+    await Promise.all(drawTilePromises);
+
+    // Now canvas is fully rendered; return the data URL
+    console.log(canvas.toDataURL());
+    return canvas.toDataURL('image/png');
 }
 
 /******************* Utilities *********************/
@@ -1021,8 +991,9 @@ async function generateMosaicTexture(url, tiles, textures) {
  * @param {string} id Div ID to toggle, in addition to clicked element
  */
 function toggleDiv(id) {
-    $(`#${id}`).toggle();
-    $(window.event.target).toggleClass("closed");
+    var $e = $(`#${id}`);
+	$e.toggle();
+    $(window.event.target).toggleClass("closed", $e.css("display") === "none");
 }
 
 /**
@@ -1205,9 +1176,3 @@ window.LiverySelector = {
     airlineobjs,
     togglePanel
 };
-
-
-
-
-
-
