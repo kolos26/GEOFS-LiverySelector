@@ -14,6 +14,7 @@ let links = [];
 let airlineobjs = [];
 let whitelist;
 let mpAirlineobjs = {};
+const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: #bcc3cb;", "color: #3f5f8a;", "color: inherit;");
 
 (async function init() {
     // latest commit fetch
@@ -46,6 +47,17 @@ let mpAirlineobjs = {};
     });
     listDiv.innerHTML = generateListHTML();
 
+    // one big event listener instead of multiple event listeners
+    document.querySelector("#liverylist").addEventListener('click', function ({ target }) {
+		if (!window.jQuery) return (geofs.api?.notify || log)("unable to find jQuery");
+        const idx = $(target).closest('li').data('idx')
+        , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
+        , livery = airplane.liveries[idx];
+        if (idx === void 0 || target.classList.contains("fa-star")) return; // avoid livery selection when favorite button is pressed
+        livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
+        livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
+    }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
+	
     // Button for panel
     const geofsUiButton = document.querySelector('.geofs-ui-bottom');
     const insertPos = geofs.version >= 3.6 ? 4 : 3;
@@ -158,7 +170,7 @@ function loadLivery(texture, index, parts, mats) {
 	        }
 		} catch (error) {
 			geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
-			console.error(error);
+			log(error, "error");
 		}
     }
 }
@@ -210,7 +222,7 @@ function submitLivery() {
     const hists = [];
     const embeds = [];
     inputFields.forEach((f, i) => {
-      console.log(f.type)
+      log(f.type)
       if (f.type === "text"){
         f.value = f.value.trim();
         if (f.value.match(/^https:\/\/.+/i)) {
@@ -299,15 +311,6 @@ function listLiveries() {
 		e.target.onerror = null;
 		e.target.src = defaultThumb;
     }, true);
-    // one big event listener instead of multiple event listeners
-    $(livList).off('click').on('click', 'li, [data-idx]', function ({ target }) { // @todo - consider moving outside of listLiveries so that the listener isn't recreated constantly
-        const idx = $(target).closest('li').data('idx')
-        , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
-        , livery = airplane.liveries[idx];
-        if (idx === void 0 || target.classList.contains("fa-star")) return; // avoid livery selection when favorite button is pressed
-        livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
-        livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
-    }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     const tempFrag = document.createDocumentFragment()
     , thumbsDir = [noCommit, 'thumbs'].join('/')
     , acftId = geofs.aircraft.instance.id
@@ -619,7 +622,7 @@ function uploadLivery(fileInput) {
 
     $.ajax(settings).done(function (response) {
         const jx = JSON.parse(response);
-        console.log(jx.data.url);
+        log(jx.data.url);
         fileInput.nextSibling.value = jx.data.url;
         fileInput.value = null;
         if (!uploadHistory[jx.data.id] || (uploadHistory[jx.data.id].expiration !== jx.data.expiration)) {
@@ -841,7 +844,7 @@ function applyMPTexture(url, tex, cb) {
             cb(canvas.toDataURL('image/png'));
         });
     } catch (e) {
-        console.log('LSMP', !!tex, url, e);
+        log(['LSMP', !!tex, url, e].join("\n"));
     }
 }
 
@@ -856,16 +859,16 @@ function applyMPMaterial(model, name, type, color){
 async function getMPTexture(u, liveryEntry) {
     const otherId = u.currentLivery - LIVERY_ID_OFFSET;
     const textures = [];
-    console.log(u.currentLivery, typeof(u.currentLivery));
+    log(u.currentLivery + ": " + typeof(u.currentLivery));
     // check model for expected textures
     const uModelTextures = u.model._model._rendererResources.textures;
     if (!u.currentLivery) return []; // early return in case of missing livery
     if (typeof(u.currentLivery) === "object") { //currentLivery is object -> virtual airline liveries
-        console.log("VA detected");
-        console.log(u.currentLivery);
+        log("VA detected");
+        log(u.currentLivery);
         if ( mpAirlineobjs[u.currentLivery.url] === undefined) {
             await fetch(u.currentLivery.url).then(res => res.json()).then(data => mpAirlineobjs[u.currentLivery.url] = data);
-            console.log(mpAirlineobjs[u.currentLivery.url]);
+            log(mpAirlineobjs[u.currentLivery.url]);
         }
         const texturePromises = liveryEntry.mp.map(async e => {
             if (e.textureIndex !== undefined) {
@@ -931,7 +934,7 @@ async function getMPTexture(u, liveryEntry) {
         const resolvedTextures = await Promise.all(texturePromises);
         textures.push(...resolvedTextures);
     }
-    console.log("getMPtexture\n", textures);
+    log("getMPtexture\n" + textures);
     return textures;
 }
 
@@ -981,7 +984,7 @@ async function generateMosaicTexture(url, tiles, textures) {
     await Promise.all(drawTilePromises);
 
     // Now canvas is fully rendered; return the data URL
-    console.log(canvas.toDataURL());
+    log(canvas.toDataURL());
     return canvas.toDataURL('image/png');
 }
 
@@ -1174,5 +1177,6 @@ window.LiverySelector = {
     addAirline,
     removeAirline,
     airlineobjs,
-    togglePanel
+    togglePanel,
+	log
 };
