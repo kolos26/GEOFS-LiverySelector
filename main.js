@@ -50,6 +50,7 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
     // one big event listener instead of multiple event listeners
     document.querySelector("#liverylist").addEventListener('click', function ({ target }) {
 		if (!window.jQuery) return (geofs.api?.notify || log)("unable to find jQuery");
+		if (target.classList.contains("fa","fa-star")) return void window.LiverySelector.star(target);
         const idx = $(target).closest('li').data('idx')
         , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
@@ -333,8 +334,7 @@ function listLiveries() {
         }
         $('<span/>', {
             id: [acftId, e.name].join('_'),
-            class: 'fa fa-star',
-            onclick: 'LiverySelector.star(this)'
+            class: 'fa fa-star'
         }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
@@ -1180,3 +1180,4 @@ window.LiverySelector = {
     togglePanel,
 	log
 };
+
