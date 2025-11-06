@@ -313,27 +313,21 @@ function listLiveries() {
 		e.target.src = defaultThumb;
     }, true);
     const tempFrag = document.createDocumentFragment()
-    , thumbsDir = [noCommit, 'thumbs'].join('/')
+    , thumbsDir = noCommit + '/thumbs'
     , acftId = geofs.aircraft.instance.id
-    , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
+    , defaultThumb = thumbsDir + "/" + acftId + '.png'
     , airplane = getCurrentAircraft(); // chained variable declarations
     $('#listDiv').attr('data-ac', acftId); // tells us which aircraft's liveries are loaded
     for (let i = 0; i < airplane.liveries.length; i++) {
         const e = airplane.liveries[i];
         if (e.disabled) return;
-        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'geofs-visible livery-list-item'});
-        listItem.data('idx', i).append($('<span/>', {class: 'livery-name'}).html(e.name));
+        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'geofs-visible livery-list-item', "data-idx": i});
+        listItem.append($('<span/>', {class: 'livery-name'}).text(e.name));
         listItem.toggleClass('offi', acftId < 100); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
-        if (acftId < 1000) {
-            const thumb = $('<img/>', {loading: 'lazy'});
-            thumb.attr('src', [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/'));
-            listItem.append(thumb);
-        }
-        if (e.credits && e.credits.length) {
-            $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
-        }
+		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/')}););
+        e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
         $('<span/>', {
-            id: [acftId, e.name].join('_'),
+            id: acftId + "_" + e.name,
             class: 'fa fa-star'
         }).appendTo(listItem);
         listItem.appendTo(tempFrag);
@@ -1180,4 +1174,5 @@ window.LiverySelector = {
     togglePanel,
 	log
 };
+
 
