@@ -322,13 +322,12 @@ function listLiveries() {
         const e = airplane.liveries[i];
         if (e.disabled) return;
         const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'geofs-visible livery-list-item', "data-idx": i});
-        listItem.append($('<span/>', {class: 'livery-name'}).text(e.name));
+        listItem.append($('<span/>').text(e.name));
         listItem.toggleClass('offi', acftId < 100); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
 		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
-        $('<span/>', {
-            id: acftId + "_" + e.name,
-            class: 'fa fa-star'
+        $('<i/>', {
+            id: acftId + "_" + e.name
         }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
@@ -1174,6 +1173,7 @@ window.LiverySelector = {
     togglePanel,
 	log
 };
+
 
 
 
