@@ -187,9 +187,9 @@ ul.livery-custom-tabs {
     color: darkgray;
 }
 
-#favorites li.livery-list-item span.fa,
-#airlinelist li.livery-list-item span.fa,
-#liverylist li.livery-list-item span.fa {
+#favorites li.livery-list-item i,
+#airlinelist li.livery-list-item i,
+#liverylist li.livery-list-item i {
     position: absolute;
     top: 15px;
     right: 10px;
@@ -224,9 +224,9 @@ ul.livery-custom-tabs {
     margin: -2px 0 0 -2px;
 }
 
-#favorites li.livery-list-item span.livery-name,
-#airlinelist li.livery-list-item span.livery-name,
-#liverylist li.livery-list-item span.livery-name {
+#favorites li.livery-list-item span,
+#airlinelist li.livery-list-item span,
+#liverylist li.livery-list-item span {
     position: relative;
     z-index: 10;
     width: 80%;
