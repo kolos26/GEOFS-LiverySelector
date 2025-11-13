@@ -326,9 +326,7 @@ function listLiveries() {
         listItem.toggleClass('offi', acftId < 100); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
 		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
-        $('<i/>', {
-            id: acftId + "_" + e.name
-        }).appendTo(listItem);
+        $('<i/>', { id: acftId + "_" + e.name, class: "fa fa-star" }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
     livList.append(tempFrag);
@@ -1173,6 +1171,7 @@ window.LiverySelector = {
     togglePanel,
 	log
 };
+
 
 
 
