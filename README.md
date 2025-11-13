@@ -2,14 +2,15 @@
 
 <p align="center">
     <img src="liveryselector-logo.svg" width="100%"/>
+    <br></br>
+    <td><a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a></td>
 </p>
-
-<h1></h1>
 <p align="center">
     <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
     <img alt="Stars Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
     <img alt="Stars Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
 </p>
+<h1></h1>
 
 LiverySelector is a unified livery handler addon for [GeoFS](https://geo-fs.com), 
 containing hundreds of liveries and a feature packed user interface to make it easier to use your favorite livery.
@@ -184,7 +185,7 @@ In this time near all basic aircrafts are supported witch has originally more th
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
 Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to help my work, and let me know which aircraft would you like to fly the most.
 
-> **[You can join to our discord server, to keep yourself up to date about the new features.](https://discord.gg/2tcdzyYaWU)**
+> **[You can join our discord server to keep yourself up to date about the new features, and also submit issue reports.](https://discord.gg/2tcdzyYaWU)**
 
 
 ## Known issues

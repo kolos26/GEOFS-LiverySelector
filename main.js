@@ -45,11 +45,12 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
         'data-onshow': '{geofs.initializePreferencesPanel()}',
         'data-onhide': '{geofs.savePreferencesPanel()}'
     });
-    listDiv.innerHTML = generateListHTML();
-
+	listDiv.innerHTML = generateListHTML();
+	document.querySelector("#livery-potato-mode").checked = window.LiverySelector.potato;
     // one big event listener instead of multiple event listeners
     document.querySelector("#liverylist").addEventListener('click', function ({ target }) {
 		if (!window.jQuery) return (geofs.api?.notify || log)("unable to find jQuery");
+		if (target.classList.contains("fa","fa-star")) return void window.LiverySelector.star(target);
         const idx = $(target).closest('li').data('idx')
         , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
@@ -170,7 +171,7 @@ function loadLivery(texture, index, parts, mats) {
 	        }
 		} catch (error) {
 			geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
-			log(error, "error");
+			(error, "error");
 		}
     }
 }
@@ -222,7 +223,7 @@ function submitLivery() {
     const hists = [];
     const embeds = [];
     inputFields.forEach((f, i) => {
-      log(f.type)
+      (f.type)
       if (f.type === "text"){
         f.value = f.value.trim();
         if (f.value.match(/^https:\/\/.+/i)) {
@@ -312,30 +313,20 @@ function listLiveries() {
 		e.target.src = defaultThumb;
     }, true);
     const tempFrag = document.createDocumentFragment()
-    , thumbsDir = [noCommit, 'thumbs'].join('/')
+    , thumbsDir = noCommit + '/thumbs'
     , acftId = geofs.aircraft.instance.id
-    , defaultThumb = [thumbsDir, acftId + '.png'].join('/')
+    , defaultThumb = thumbsDir + "/" + acftId + '.png'
     , airplane = getCurrentAircraft(); // chained variable declarations
     $('#listDiv').attr('data-ac', acftId); // tells us which aircraft's liveries are loaded
     for (let i = 0; i < airplane.liveries.length; i++) {
         const e = airplane.liveries[i];
         if (e.disabled) return;
-        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'geofs-visible livery-list-item'});
-        listItem.data('idx', i).append($('<span/>', {class: 'livery-name'}).html(e.name));
-        listItem.toggleClass('offi', acftId < 100); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
-        if (acftId < 1000) {
-            const thumb = $('<img/>', {loading: 'lazy'});
-            thumb.attr('src', [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/'));
-            listItem.append(thumb);
-        }
-        if (e.credits && e.credits.length) {
-            $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
-        }
-        $('<span/>', {
-            id: [acftId, e.name].join('_'),
-            class: 'fa fa-star',
-            onclick: 'LiverySelector.star(this)'
-        }).appendTo(listItem);
+        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": i});
+        listItem.append($('<span/>').text(e.name));
+        listItem.toggleClass('offi', acftId < 100).toggleClass("geofs-visible", !window.LiverySelector.potato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
+		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/')}));
+        e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
+        $('<i/>', { id: acftId + "_" + e.name, class: "fa fa-star" }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
     livList.append(tempFrag);
@@ -348,7 +339,7 @@ function listLiveries() {
 
 function loadFavorites() {
 	const favorites = localStorage.getItem('favorites') ?? '';
-    if (favorites === null) {
+    if (favorites === '') {
         localStorage.setItem('favorites', '');
     }
     $("#favorites").empty().on("click", "li", function ({ target }) { // clear the child elements & add event listener
@@ -457,8 +448,9 @@ function debounceSearch (func) {
 const search = debounceSearch(text => {
     const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
     if (text == '') {
-        for (const a of liveries) a.classList.add('geofs-visible')
-        return;
+		log("Potato mode: " + window.LiverySelector.potato);
+		for (const a of liveries) a.classList.toggle('geofs-visible', !window.LiverySelector.potato);
+		return;
     }
     text = text.toLowerCase(); // query string lowered here to avoid repeated calls
     for (let i = 0; i < liveries.length; i++) {
@@ -1065,7 +1057,9 @@ function generateListHTML() {
             <input class="mdl-textfield__input address-input" type="text" placeholder="Search liveries" onkeyup="LiverySelector.search(this.value)" id="searchlivery">
             <label class="mdl-textfield__label" for="searchlivery">Search liveries</label>
         </div>
-
+		<div style="width: 100%">
+			<span>Potato mode: </span><input id="livery-potato-mode" data-gespref="geofs.preferences.liveryPotato" type="checkbox"></input>
+		</div>
         <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorite liveries</h6>
         <ul id="favorites" class="geofs-list geofs-visible"></ul>
 
@@ -1178,5 +1172,6 @@ window.LiverySelector = {
     removeAirline,
     airlineobjs,
     togglePanel,
-	log
+	log,
+	potato: geofs.preferences.liveryPotato ?? !1,
 };
