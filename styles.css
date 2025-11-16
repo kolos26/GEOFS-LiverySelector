@@ -199,9 +199,15 @@ ul.livery-custom-tabs {
 #airlinelist li.livery-list-item span.fa.fa-star,
 #liverylist li.livery-list-item span.fa.fa-star {
     position: absolute;
-    top: 0px;
+    top: 15px;
     right: 10px;
     font-style: normal;
+}
+
+#favorites li.livery-list-item i,
+#airlinelist li.livery-list-item i,
+#liverylist li.livery-list-item i {
+    top: 0px !important;
 }
 
 #favorites li.livery-list-item i::before,
