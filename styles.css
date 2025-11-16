@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 .checked {
-    color: rgb(255, 193, 7) !important;
+    content: "★";
 }
 
 input[type="file"] {
@@ -201,7 +201,7 @@ ul.livery-custom-tabs {
 #favorites li.livery-list-item i::before,
 #airlinelist li.livery-list-item i::before,
 #liverylist li.livery-list-item i::before {
-    content: "\f005";
+    content: "★";
 }
 
 #favorites li.livery-list-item,
