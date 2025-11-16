@@ -32,7 +32,6 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
         styleTag.textContent = await data.text();
         document.head.appendChild(styleTag);
     });
-    appendNewChild(document.head, 'link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' });
 
     //Load liveries (@todo: consider moving to listLiveries)
     fetch(`${jsDelivr}/livery.json?` + Date.now()).then(handleLiveryJson);
@@ -50,11 +49,11 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
     // one big event listener instead of multiple event listeners
     document.querySelector("#liverylist").addEventListener('click', function ({ target }) {
 		if (!window.jQuery) return (geofs.api?.notify || log)("unable to find jQuery");
-		if (target.classList.contains("fa","fa-star")) return void window.LiverySelector.star(target);
+		if (target.nodeName === "I") return void window.LiverySelector.star(target);
         const idx = $(target).closest('li').data('idx')
         , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
         , livery = airplane.liveries[idx];
-        if (idx === void 0 || target.classList.contains("fa-star")) return; // avoid livery selection when favorite button is pressed
+        if (idx === void 0) return; // avoid livery selection when other stuff is pressed
         livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
         livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
@@ -326,7 +325,7 @@ function listLiveries() {
         listItem.toggleClass('offi', acftId < 100).toggleClass("geofs-visible", !window.LiverySelector.potato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
 		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
-        $('<i/>', { id: acftId + "_" + e.name, class: "fa fa-star" }).appendTo(listItem);
+        $('<i/>', { id: acftId + "_" + e.name }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
     livList.append(tempFrag);
@@ -1175,3 +1174,4 @@ window.LiverySelector = {
 	log,
 	potato: geofs.preferences.liveryPotato ?? !1,
 };
+
