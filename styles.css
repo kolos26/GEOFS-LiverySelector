@@ -22,8 +22,14 @@
     text-align: right;
     cursor: pointer;
 }
+
 .checked {
+    color: rgb(255, 193, 7) !important;
+}
+
+i.checked::before {
     content: "★";
+    font-size: 24px;
 }
 
 input[type="file"] {
@@ -194,7 +200,7 @@ ul.livery-custom-tabs {
 #airlinelist li.livery-list-item span.fa.fa-star,
 #liverylist li.livery-list-item span.fa.fa-star {
     position: absolute;
-    top: 15px;
+    top: 0px;
     right: 10px;
     font-style: normal;
 }
