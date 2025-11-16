@@ -189,7 +189,10 @@ ul.livery-custom-tabs {
 
 #favorites li.livery-list-item i,
 #airlinelist li.livery-list-item i,
-#liverylist li.livery-list-item i {
+#liverylist li.livery-list-item i,
+#favorites li.livery-list-item span.fa.fa-star,
+#airlinelist li.livery-list-item span.fa.fa-star,
+#liverylist li.livery-list-item span.fa.fa-star {
     position: absolute;
     top: 15px;
     right: 10px;
@@ -224,9 +227,9 @@ ul.livery-custom-tabs {
     margin: -2px 0 0 -2px;
 }
 
-#favorites li.livery-list-item span,
-#airlinelist li.livery-list-item span,
-#liverylist li.livery-list-item span {
+#favorites li.livery-list-item span:not(.fa):not(.fa-star),
+#airlinelist li.livery-list-item span:not(.fa):not(.fa-star),
+#liverylist li.livery-list-item span:not(.fa):not(.fa-star) {
     position: relative;
     z-index: 10;
     width: 80%;
