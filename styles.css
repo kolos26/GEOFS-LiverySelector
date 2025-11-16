@@ -29,7 +29,6 @@
 
 i.checked::before {
     content: "★" !important;
-    font-size: 24px;
 }
 
 input[type="file"] {
@@ -209,6 +208,7 @@ ul.livery-custom-tabs {
 #airlinelist li.livery-list-item i::before,
 #liverylist li.livery-list-item i::before {
     content: "☆";
+    font-size: 24px;
 }
 
 #favorites li.livery-list-item,
