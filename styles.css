@@ -28,7 +28,7 @@
 }
 
 i.checked::before {
-    content: "★";
+    content: "★" !important;
     font-size: 24px;
 }
 
