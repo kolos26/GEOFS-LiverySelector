@@ -196,12 +196,13 @@ ul.livery-custom-tabs {
     position: absolute;
     top: 15px;
     right: 10px;
+    font-style: normal;
 }
 
 #favorites li.livery-list-item i::before,
 #airlinelist li.livery-list-item i::before,
 #liverylist li.livery-list-item i::before {
-    content: "★";
+    content: "☆";
 }
 
 #favorites li.livery-list-item,
