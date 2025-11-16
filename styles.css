@@ -198,6 +198,12 @@ ul.livery-custom-tabs {
     right: 10px;
 }
 
+#favorites li.livery-list-item i::before,
+#airlinelist li.livery-list-item i::before,
+#liverylist li.livery-list-item i::before {
+    content: "\f005";
+}
+
 #favorites li.livery-list-item,
 #airlinelist li.livery-list-item,
 #liverylist li.livery-list-item {
