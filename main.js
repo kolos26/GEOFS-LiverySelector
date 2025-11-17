@@ -46,6 +46,7 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
     });
 	listDiv.innerHTML = generateListHTML();
 	document.querySelector("#livery-potato-mode").checked = window.LiverySelector.potato;
+	geofs.preferences.liveryPotato = geofs.preferencesDefault.liveryPotato ??= false;
     // one big event listener instead of multiple event listeners
 	const livList = document.querySelector("#liverylist");
     livList.addEventListener('click', function ({ target }) {
@@ -339,10 +340,7 @@ function listLiveries() {
 }
 
 function loadFavorites() {
-	const favorites = localStorage.getItem('favorites') ?? '';
-    if (favorites === '') {
-        localStorage.setItem('favorites', '');
-    }
+	const favorites = localStorage.getItem('favorites') ?? (localStorage.setItem('favorites', ''), ''); // sets favourites to '' if they can't be found and initialises localStorage.favorites
     $("#favorites").empty().on("click", "li", function ({ target }) { // clear the child elements & add event listener
 		const $match = $(`#liverylist > [id='${$(target).attr("id").replace("_favorite", "_button")}']`) // find the matching livery list item
 		if ($match.length === 0) return void ui.notification.show(`ID: ${$(target).attr("id")} is missing a liveryList counterpart.`)
@@ -447,6 +445,7 @@ function debounceSearch (func) {
     };
 }
 const search = debounceSearch(text => {
+	if (window.LiverySelector.potato) return;
     const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
     if (text == '') {
 		log("Potato mode: " + window.LiverySelector.potato);
@@ -1180,3 +1179,4 @@ window.LiverySelector = {
 	log,
 	potato: geofs.preferences.liveryPotato ?? !1,
 };
+
