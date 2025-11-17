@@ -47,7 +47,8 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
 	listDiv.innerHTML = generateListHTML();
 	document.querySelector("#livery-potato-mode").checked = window.LiverySelector.potato;
     // one big event listener instead of multiple event listeners
-    document.querySelector("#liverylist").addEventListener('click', function ({ target }) {
+	const livList = document.querySelector("#liverylist");
+    livList.addEventListener('click', function ({ target }) {
 		if (!window.jQuery) return (geofs.api?.notify || log)("unable to find jQuery");
 		if (target.nodeName === "I") return void window.LiverySelector.star(target);
         const idx = $(target).closest('li').data('idx')
@@ -57,7 +58,13 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
         livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
         livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
-	
+	// another big event listener to fix pileup
+    livList.addEventListener('error', function(e) {
+		const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
+		if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
+		e.target.onerror = null;
+		e.target.src = defaultThumb;
+    }, true);
     // Button for panel
     const geofsUiButton = document.querySelector('.geofs-ui-bottom');
     const insertPos = geofs.version >= 3.6 ? 4 : 3;
@@ -306,11 +313,6 @@ function sortList(id) {
  */
 function listLiveries() {
     const livList = $('#liverylist').html('');
-    livList[0].addEventListener('error', function(e) {
-		if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
-		e.target.onerror = null;
-		e.target.src = defaultThumb;
-    }, true);
     const tempFrag = document.createDocumentFragment()
     , thumbsDir = noCommit + '/thumbs'
     , acftId = geofs.aircraft.instance.id
@@ -1147,8 +1149,12 @@ function generatePanelButtonHTML() {
 function togglePanel() {
     const p = document.getElementById('listDiv');
     console.time('listLiveries');
-    p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
-    console.timeEnd('listLiveries');
+	try {
+    	p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
+	} catch (e) {
+		log(e, "error");
+	}
+	console.timeEnd('listLiveries');
 }
 
 window.LiverySelector = {
@@ -1174,4 +1180,3 @@ window.LiverySelector = {
 	log,
 	potato: geofs.preferences.liveryPotato ?? !1,
 };
-
