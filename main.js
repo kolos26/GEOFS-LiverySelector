@@ -45,8 +45,16 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
         'data-onhide': '{geofs.savePreferencesPanel()}'
     });
 	listDiv.innerHTML = generateListHTML();
-	document.querySelector("#livery-potato-mode").checked = window.LiverySelector.potato;
-	geofs.preferences.liveryPotato = geofs.preferencesDefault.liveryPotato ??= false;
+	const potatoCheckbox = document.querySelector("#livery-potato-mode");
+	potatoCheckbox.addEventListener("change", function () {
+		geofs.setPreferenceFromInput(this);
+		document.querySelector(".potato-mode-search").classList.toggle("geofs-visible", this.checked);
+	});
+	geofs.setPreferenceFromInput(potatoCheckbox);
+	document.querySelector(".potato-mode-search").addEventListener("click", function () {
+		if (!window.LiverySelector.potato) return;
+		window.LiverySelector.potatoSearch(document.querySelector("#searchlivery"));
+	})
     // one big event listener instead of multiple event listeners
 	const livList = document.querySelector("#liverylist");
     livList.addEventListener('click', function ({ target }) {
@@ -439,6 +447,7 @@ function debounceSearch (func) {
     let timeoutId = null;
     return (text) => {
         clearTimeout(timeoutId);
+		if (window.LiverySelector.potato) return;
         timeoutId = setTimeout(() => {
             func(text);
         }, 250); // debounces for 250 ms
@@ -462,7 +471,20 @@ const search = debounceSearch(text => {
             if (v) e.classList.remove('geofs-visible');
         }
     };
-})
+});
+
+function potatoSearch(text) {
+	if (text == '') {
+		for (const a of liveries) a.classList.toggle('geofs-visible', false);
+		return;
+	}
+    text = text.toLowerCase();
+    for (let i = 0; i < liveries.length; i++) {
+        const e = liveries[i]
+        , v = e.classList.contains('geofs-visible');
+		e.textContent.toLowerCase().includes(text) ? (v || e.classList.add('geofs-visible')) : (v && e.classList.remove('geofs-visible'));
+    };
+}
 
 function changeMaterial(name, color, type, partlist){
     let r = parseInt(color.substring(1, 3), 16) / 255
@@ -1056,6 +1078,7 @@ function generateListHTML() {
         <div class="livery-searchbar mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation">
             <input class="mdl-textfield__input address-input" type="text" placeholder="Search liveries" onkeyup="LiverySelector.search(this.value)" id="searchlivery">
             <label class="mdl-textfield__label" for="searchlivery">Search liveries</label>
+			<button class="potato-mode-search">search</button>
         </div>
 		<div style="width: 100%">
 			<span>Potato mode: </span><input id="livery-potato-mode" data-gespref="geofs.preferences.liveryPotato" type="checkbox"></input>
@@ -1178,5 +1201,5 @@ window.LiverySelector = {
     togglePanel,
 	log,
 	potato: geofs.preferences.liveryPotato ?? !1,
+	potatoSearch,
 };
-
