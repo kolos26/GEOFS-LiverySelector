@@ -15,6 +15,10 @@
     margin-right: 2px;
 }
 
+.potato-mode-search {
+    display: none;
+}
+
 .fa.fa-star {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     color: white;
@@ -91,7 +95,6 @@ input[type="file"]::file-selector-button {
 #livery-custom-tab-upload input[type="file"].err::before {
     content: 'NO API KEY';
 }
-
 
 input[type="text"][name="textureInput"]{
     color: white;
@@ -270,6 +273,7 @@ ul.livery-custom-tabs {
 
 .livery-searchbar {
     width: 100%;
+    display: flex;
 }
 
 .download-fields h7 {
