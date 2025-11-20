@@ -19,6 +19,10 @@
     display: none;
 }
 
+.potato-mode-search.geofs-visible {
+    display: block;
+}
+
 .fa.fa-star {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     color: white;
