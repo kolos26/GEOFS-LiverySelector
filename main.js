@@ -49,11 +49,15 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
 	potatoCheckbox.addEventListener("change", function () {
 		geofs.setPreferenceFromInput(this);
 		document.querySelector(".potato-mode-search").classList.toggle("geofs-visible", this.checked);
+		geofs.savePreferences();
+		window.LiverySelector[this.checked ? "potatoSearch" : "search"](document.querySelector("#searchlivery").value);
 	});
-	geofs.setPreferenceFromInput(potatoCheckbox);
+	window.executeOnEventDone("geofsInitialized", () => {
+		potatoCheckbox.checked = geofs.preferences.liveryPotato;
+	});
 	document.querySelector(".potato-mode-search").addEventListener("click", function () {
-		if (!window.LiverySelector.potato) return;
-		window.LiverySelector.potatoSearch(document.querySelector("#searchlivery"));
+		if (!geofs.preferences.liveryPotato) return;
+		window.LiverySelector.potatoSearch(document.querySelector("#searchlivery").value);
 	})
     // one big event listener instead of multiple event listeners
 	const livList = document.querySelector("#liverylist");
@@ -333,7 +337,7 @@ function listLiveries() {
         if (e.disabled) return;
         const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": i});
         listItem.append($('<span/>').text(e.name));
-        listItem.toggleClass('offi', acftId < 100).toggleClass("geofs-visible", !window.LiverySelector.potato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
+        listItem.toggleClass('offi', acftId < 100).toggleClass("geofs-visible", !geofs.preferences.liveryPotato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
 		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
         $('<i/>', { id: acftId + "_" + e.name }).appendTo(listItem);
@@ -447,20 +451,21 @@ function debounceSearch (func) {
     let timeoutId = null;
     return (text) => {
         clearTimeout(timeoutId);
-		if (window.LiverySelector.potato) return;
+		if (geofs.preferences.liveryPotato) return;
         timeoutId = setTimeout(() => {
             func(text);
         }, 250); // debounces for 250 ms
     };
 }
 const search = debounceSearch(text => {
-	if (window.LiverySelector.potato) return;
+	if (geofs.preferences.liveryPotato) return;
     const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
     if (text == '') {
-		log("Potato mode: " + window.LiverySelector.potato);
-		for (const a of liveries) a.classList.toggle('geofs-visible', !window.LiverySelector.potato);
+		log("Potato mode: " + geofs.preferences.liveryPotato);
+		for (const a of liveries) a.classList.toggle('geofs-visible', !geofs.preferences.liveryPotato);
 		return;
     }
+	console.log(text);
     text = text.toLowerCase(); // query string lowered here to avoid repeated calls
     for (let i = 0; i < liveries.length; i++) {
         const e = liveries[i]
@@ -474,6 +479,7 @@ const search = debounceSearch(text => {
 });
 
 function potatoSearch(text) {
+	const liveries = document.getElementById('liverylist').children;
 	if (text == '') {
 		for (const a of liveries) a.classList.toggle('geofs-visible', false);
 		return;
@@ -1200,6 +1206,5 @@ window.LiverySelector = {
     airlineobjs,
     togglePanel,
 	log,
-	potato: geofs.preferences.liveryPotato ?? !1,
 	potatoSearch,
 };
