@@ -1,6 +1,7 @@
 .livery-list {
     width: 450px;
     resize: horizontal;
+    contain: content;
 }
 
 #listDiv h6 {

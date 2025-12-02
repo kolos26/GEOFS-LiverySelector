@@ -52348,14 +52348,6 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "Malaysia Airlines",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/Malaysia_777-200ER.png"
-                    ],
-                    "credits": "luca b"
-                },
-                {
                     "name": "United (Blue Tulip design - Star Alliance livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
@@ -56274,6 +56266,39 @@
                 "Texture"
             ],
             "name": "Boeing b777-9X"
+        },
+        "5211": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "American Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747sp/American_Airlines_747SP.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "NASA - DLR SOFIA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747sp/SOFIA.png"
+                    ],
+                    "credits": "AF267"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ]
         }
     }
 }
