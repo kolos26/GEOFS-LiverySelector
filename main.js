@@ -54,6 +54,7 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
 	});
 	window.executeOnEventDone("geofsInitialized", () => {
 		potatoCheckbox.checked = geofs.preferences.liveryPotato;
+		document.querySelector(".potato-mode-search").classList.toggle("geofs-visible", potatoCheckbox.checked);
 	});
 	document.querySelector(".potato-mode-search").addEventListener("click", function () {
 		if (!geofs.preferences.liveryPotato) return;
