@@ -17,7 +17,7 @@ let mpAirlineobjs = {};
 const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: #bcc3cb;", "color: #3f5f8a;", "color: inherit;");
 
 (async function init() {
-    // latest commit fetch
+    // find latest commit to ensure the latest files are fetched from jsDelivr
     try {
         const res = await fetch(`https://api.github.com/repos/kolos26/GEOFS-LiverySelector/commits/main`);
         if (!res.ok) jsDelivr = githubRepo;
@@ -33,7 +33,7 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
         document.head.appendChild(styleTag);
     });
 
-    //Load liveries (@todo: consider moving to listLiveries)
+    //Load liveries (@todo: consider optimising livery.json or converting it to a different datatype)
     fetch(`${jsDelivr}/livery.json?` + Date.now()).then(handleLiveryJson);
     
     // Panel for list
@@ -41,10 +41,29 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
         id: 'listDiv',
         class: 'geofs-list geofs-toggle-panel livery-list',
         'data-noblur': 'true',
-        'data-onshow': '{geofs.initializePreferencesPanel()}',
+        'data-onshow': '{geofs.initializePreferencesPanel()}', // are these properties needed?
         'data-onhide': '{geofs.savePreferencesPanel()}'
     });
 	listDiv.innerHTML = generateListHTML();
+	
+    // one big event listener for the main livery list instead of multiple event listeners
+	const livList = document.querySelector("#liverylist");
+    livList.addEventListener('click', function ({ target }) {
+		if (target.nodeName === "I") return void window.LiverySelector.star(target); // if the element clicked is a star, run the star function
+        const idx = parseInt(target.closest('li').getAttribute('data-idx')); // convert to int because attributes are stored as strings
+        if (idx === void 0) return; // avoid livery selection when other stuff is pressed
+        const airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
+        , livery = airplane.liveries[idx];
+        livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
+        livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? 0 : LIVERY_ID_OFFSET)));
+    }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
+    livList.addEventListener('error', function(e) {
+		const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
+		if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
+		e.target.onerror = null;
+		e.target.src = defaultThumb;
+    }, true);
+	
 	const potatoCheckbox = document.querySelector("#livery-potato-mode");
 	potatoCheckbox.addEventListener("change", function () {
 		geofs.setPreferenceFromInput(this);
@@ -60,25 +79,6 @@ const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: 
 		if (!geofs.preferences.liveryPotato) return;
 		window.LiverySelector.potatoSearch(document.querySelector("#searchlivery").value);
 	})
-    // one big event listener instead of multiple event listeners
-	const livList = document.querySelector("#liverylist");
-    livList.addEventListener('click', function ({ target }) {
-		if (!window.jQuery) return (geofs.api?.notify || log)("unable to find jQuery");
-		if (target.nodeName === "I") return void window.LiverySelector.star(target);
-        const idx = $(target).closest('li').data('idx')
-        , airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.id]
-        , livery = airplane.liveries[idx];
-        if (idx === void 0) return; // avoid livery selection when other stuff is pressed
-        livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
-        livery.mp != 'disabled' && setInstanceId(idx + (livery.credits?.toLowerCase() == 'geofs' ? '' : LIVERY_ID_OFFSET)));
-    }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
-	// another big event listener to fix pileup
-    livList.addEventListener('error', function(e) {
-		const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
-		if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
-		e.target.onerror = null;
-		e.target.src = defaultThumb;
-    }, true);
     // Button for panel
     const geofsUiButton = document.querySelector('.geofs-ui-bottom');
     const insertPos = geofs.version >= 3.6 ? 4 : 3;
@@ -1188,7 +1188,6 @@ function togglePanel() {
 
 window.LiverySelector = {
     liveryobj,
-    loadLivery,
     saveSetting,
     toggleDiv,
     loadLivery,
@@ -1205,6 +1204,7 @@ window.LiverySelector = {
     addAirline,
     removeAirline,
     airlineobjs,
+	setInstanceId,
     togglePanel,
 	log,
 	potatoSearch,
