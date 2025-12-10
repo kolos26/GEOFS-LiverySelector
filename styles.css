@@ -16,6 +16,14 @@
     margin-right: 2px;
 }
 
+.potato-mode-search {
+    display: none;
+}
+
+.potato-mode-search.geofs-visible {
+    display: block;
+}
+
 .fa.fa-star {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     color: white;
@@ -23,8 +31,13 @@
     text-align: right;
     cursor: pointer;
 }
+
 .checked {
     color: rgb(255, 193, 7) !important;
+}
+
+i.checked::before {
+    content: "★" !important;
 }
 
 input[type="file"] {
@@ -87,7 +100,6 @@ input[type="file"]::file-selector-button {
 #livery-custom-tab-upload input[type="file"].err::before {
     content: 'NO API KEY';
 }
-
 
 input[type="text"][name="textureInput"]{
     color: white;
@@ -188,12 +200,29 @@ ul.livery-custom-tabs {
     color: darkgray;
 }
 
-#favorites li.livery-list-item span.fa,
-#airlinelist li.livery-list-item span.fa,
-#liverylist li.livery-list-item span.fa {
+#favorites li.livery-list-item i,
+#airlinelist li.livery-list-item i,
+#liverylist li.livery-list-item i,
+#favorites li.livery-list-item span.fa.fa-star,
+#airlinelist li.livery-list-item span.fa.fa-star,
+#liverylist li.livery-list-item span.fa.fa-star {
     position: absolute;
     top: 15px;
     right: 10px;
+    font-style: normal;
+}
+
+#favorites li.livery-list-item i,
+#airlinelist li.livery-list-item i,
+#liverylist li.livery-list-item i {
+    top: 0px !important;
+}
+
+#favorites li.livery-list-item i::before,
+#airlinelist li.livery-list-item i::before,
+#liverylist li.livery-list-item i::before {
+    content: "☆";
+    font-size: 24px;
 }
 
 #favorites li.livery-list-item,
@@ -225,9 +254,9 @@ ul.livery-custom-tabs {
     margin: -2px 0 0 -2px;
 }
 
-#favorites li.livery-list-item span.livery-name,
-#airlinelist li.livery-list-item span.livery-name,
-#liverylist li.livery-list-item span.livery-name {
+#favorites li.livery-list-item span:not(.fa):not(.fa-star),
+#airlinelist li.livery-list-item span:not(.fa):not(.fa-star),
+#liverylist li.livery-list-item span:not(.fa):not(.fa-star) {
     position: relative;
     z-index: 10;
     width: 80%;
@@ -249,6 +278,7 @@ ul.livery-custom-tabs {
 
 .livery-searchbar {
     width: 100%;
+    display: flex;
 }
 
 .download-fields h7 {
