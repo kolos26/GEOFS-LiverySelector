@@ -22,7 +22,10 @@ for plane in keys:
                 addition.append(livery)
         except KeyError:
             addition.append(livery)
-    data = {"name": new_json["aircrafts"][plane]["name"], "addition": addition}
+    try:
+        data = {"name": new_json["aircrafts"][plane]["name"], "addition": addition}
+    except KeyError:
+        data = {"name": plane, "addition": addition}
     if addition:
         diff_data.append(data)
 
