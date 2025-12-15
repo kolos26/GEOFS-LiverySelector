@@ -1,18 +1,40 @@
-English:
-LiverySelector Instructions:
-In the plane list:Ls logo-Represents that this aircraft supports plugins;
-The game console logo represents that this aircraft supports multiplayer gaming (your aircraft livery can be seen by other users, and you can also see other users' aircraft livery);
-Some liveries their names with medal logos: they are competition winning liveries.
-【Favorite liveries】
-In 【available liveries】, you can click on the star after each liveries, and when it turns yellow, you can see your favorite liveries in this list.
-【available liveries】
-Each livery is divided into two lines, with its name in bold black font in the first part and its creator name in thin gray font below (some creator names are not entered because they were not entered before updating this feature).
-【Load external livery】
-1.Upload:Used for uploading files;
-2.Direct:Select a file you want to test, you can choose to drag it here or click the blue button to select the file on your computer;
-3.Download:You can download all liveries by it;
-4.API:
-This function is used to upload your livery
+# GeoFS LiverySelector User Manual
+Hello, and welcome to the GeoFS LiverySelector Addon! Before continuing, please read the following to ensure a smooth experience with the addon.
+
+Once you have launched GeoFS with the appropriate code installed, you will see the <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button at the bottom, to the right of the **Aircraft** menu. This is where you can access the add-on.
+
+A few icons will also pop up in the aircraft selection menu...
+* A <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> icon mean the aircraft is supported by the add-on.
+* A 🎮 means that the aircraft is multiplayer compatible (others can see the liveries if they have the addon, and so can you).
+* A 🥇, 🥈, or 🥉 next to a livery means that it had won a livery competition in the past.
+
+Now, on to the important stuff!
+
+## Interface
+Once you click on that <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button, an interface should (hopefully) pop up. This may take a while for some aircraft due to the immense amount of liveries avaliable for some aircraft, such as the 737s, the A320s, and the 777-300ER.
+
+There is a **search bar** near the top of the for **looking up liveries**, or if you are using **Potato Mode**.
+
+### Favorite Liveries
+This section is wwhere all of your starred liveries will pop up. To star a livery, simply click on the little star outline next to it, and it should appear in this section for as long as you don't clear your cache...
+
+### Avaliable Liveries
+This is where you can find all the liveries for the aircraft type. For each livery, its information is devided into two lines, one with its name, and the other with the name of its creator. For official aircraft released by Xavier, you can also find a little illustration next to its information of how it looks.
+
+> [!NOTE]
+> Some liveries do not have a creator listed because it was entered into the system before the addition of that feature.
+
+> [!IMPORTANT]
+> If you have enabled **potato mode**, please use the **search bar** instead to browse the liveries.
+
+### Load External Liveries
+This section allows you to upload your experimental liveries for testing before submission, or just your ordinary virtual airline livery. You can see four different tabs in this section...
+* **Upload**: This is where you can uplaod your liveries to ImgBB and submit it for review, although you do have to do some setup in the **API** tab. Yoou can also use the form here to upload a livery from a URL.
+* **Direct**: This is where you can test your livery by directly uploading it from your files.
+* **Download**: You can download any (or all) of the liveries fatured for this arcraft publicly.
+* **API**: This section sets up the submmission form for the LiverySelector in the **Upload Tab**.
+
+## Uploading Liveries Via the Addon
 ①Go to imgbb(https://api.imgbb.com/),then "Add API key",you can get a API link;
 ②Copy it to the first input box and click enter,then you can see"API KET SAVED(type CLEAR to remove)",This means you have succeeded;
 ③Get your discord user ID(https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID),Then copy to the second input box, and finally click enter;
