@@ -34,15 +34,32 @@ This section allows you to upload your experimental liveries for testing before 
 * **Download**: You can download any (or all) of the liveries fatured for this arcraft publicly.
 * **API**: This section sets up the submmission form for the LiverySelector in the **Upload Tab**.
 
-## Uploading Liveries Via the Addon
-①Go to imgbb(https://api.imgbb.com/),then "Add API key",you can get a API link;
-②Copy it to the first input box and click enter,then you can see"API KET SAVED(type CLEAR to remove)",This means you have succeeded;
-③Get your discord user ID(https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID),Then copy to the second input box, and finally click enter;
-④Go to [Upload],click"UPLOAD IMAGE",Select the file you want to upload,It will display a link in the input box;
-⑤Click "Contribute to LiverySelector Database",then swipe to the bottom;
-⑥Write your livery's name and copy your discord ID in "Author";
-⑦Check two conditions to indicate your agreement,then click "SUBMIT LIVERY REVIEW",then your livery has been successfully submitted.
-Here you can watch the video about this:https://youtu.be/ht1xFKmvuuA
+## Configuring Livery Uploader
+> [!IMPORTANT]
+> This sections requires a Discord and ImgBB account. You can get a Discord account [here](https://discord.com/register), and your ImgBB account [here](https://imgbb.com/signup).
+1. Go to https://api.imgbb.com/, and click the **Add API Key** button. This should generate an API for your ImgBB account.
+2. Copy the API code, and paste it into the first box in the **API** tab of the **Load External Liveries** section, and press enter. You should see a message in the textbox that looks like this: `API KEY SAVE (type CLEAR to remove)`
+> [!NOTE]
+> If you would like to have your API deleted from the database after one hour, there is a checkbox directly below the textbox to enable that option.
+
+3. Get your Discord user ID by following [this tutorial](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID), and paste it into the second box, and click enter.
+
+Congratulations, you have just set up your uploader to the LiverySelector and are all set to contribute your first livery to our addon!
+
+## Livery Submission Via Addon
+> [!IMPORTANT]
+> This requires the configuration of your livery uploader. See section above if you haven't done so already.
+1. Go to the **Upload** tab. Here, if already configured correctly, you should see a textbox and a **Upload Image**.
+2. Add your image by either entering the URL of it via the textbox, or upload it from your computer by clicking the **Upload Image Button**. Then press **Load Livery**, and the livery sould appear on the aircraft.
+3. If you haven't done so, check for any faults in the livery, and ensure that it is of a high quality.
+4. Near the bottom of the screen, click on **Contribute to the LiverySelector Database** dropdown, and it should open up a form.
+5. Fill in the first box with the name of the livery, and the second with your username. This can be your Discord username, or just anything as long as it's approperiate.
+6. Check the two checkboxes below to agree to the terms of service, and then click **Submit Livery For Review**.⑦Check two conditions to indicate your agreement,then click "SUBMIT LIVERY REVIEW",then your livery has been successfully submitted.
+   
+# Contacts
+* **Email**: <a href="LiverySelector20220816@gmail.com">LiverySelector20220816@gmail.com</a>
+* **Discord**: https://discord.gg/2tcdzyYaWU
+
 【About Competition】
 You can attend in discord or GitHub.
 Common problems:
