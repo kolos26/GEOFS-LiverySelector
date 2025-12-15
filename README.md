@@ -109,80 +109,120 @@ The liveries are stored in your airline.json as json objects. Into the [] bracke
 
 If you have any difficulties with setting up airline.json please feel free to contact us!
 
-In this time near all basic aircrafts are supported witch has originally more than one livery. The list of supported aircrafts is:
-- Aerospatiale France - British Aircraft Corporation Concorde
-- Airbus a220-300
-- Airbus a318-112
-- Airbus a319-100
-- Airbus a320-214
-- Airbus a320neo
-- Airbus a321-211
-- Airbus a321neo
-- Airbus a330-200
-- Airbus a330-900neo
-- Airbus a340-300
-- Airbus a350-1000
-- Airbus a350-900
-- Airbus a380-800
-- Alphajet PAF
-- Alisport Silent 2 Electro
-- Antonov An-140
-- ATR 72-600
-- Boeing 757-300
-- Boeing b737-200
-- Boeing b737-700
-- Boeing b737-800
-- Boeing b737-MAX8
-- Boeing b747-8I
-- Boeing b757-200
-- Boeing b757-300WL
-- Boeing b767-300ER
-- Boeing b767-400ER
-- Boeing b777-300ER
-- Boeing b787-10
-- Boeing b787-9
-- Boeing p8I Neptune
-- Bombardier CRJ200
-- Bombardier CRJ700
-- Bombardier Dash8-q400
-- Bombardier Learjet45
-- Britten-Norman BN2 Islander
-- Cameron R-650 Rozière Balloon
-- Cessna 152
-- Cessna 172 Skyhawk
-- Citroen 2CV
-- Colomban MC-15 Cri-cri
-- de Havilland Canada DHC2 Beaver
-- de Havilland Canada DHC6 Twin Otter
-- Dornier do228-200
-- Douglas DC-3
-- Embraer ERJ 145LR
-- Embraer ERJ 170
-- Embraer Phenom100
-- Evektor Sportstar
-- General Dynamics F16 Fighting Falcon
-- Goat Airchair
-- Leonardo - AugustaWestland AW609
-- Lokheed L1011-1 TriStar
-- Lokheed P38 Lightning
-- Major Tom (hot air balloon)
-- McDonell Douglas - Boeing F/A-18F Super Hornet
-- Paraglider
-- Pilatus PC-7 Mk-I
+In this time near all basic aircrafts are supported which has originally more than one livery. The list of supported aircrafts is:
+
 - Piper J3 Cub
-- Piper PA-28 161 Warrior II
+- Cessna 172 Skyhawk
+- Alphajet PAF
+- Boeing b737-700
+- Embraer Phenom100
+- de Havilland Canada DHC6 Twin Otter
+- General Dynamics F16 Fighting Falcon
 - Pitts Special S1
-- Potez 25
-- SAAB 340
-- Sonex-B kit
+- Eurocopter EC135
+- Airbus a380-800
+- Alisport Silent 2 Electro
+- Pilatus PC-7 Mk-I
+- de Havilland Canada DHC2 Beaver
+- Colomban MC-15 Cri-cri
+- Lokheed P38 Lightning
+- Douglas DC-3
 - Sukhoi Su-35 Flanker
-- Vans RV6
+- Aerospatiale France - British Aircraft Corporation Concorde
 - Zlin Z-50
+- Cessna 152
+- Piper PA-28 161 Warrior II
+- Airbus a350-900
+- Boeing b777-300ER
+- Antonov An-140
+- McDonell Douglas - Boeing F/A-18F Super Hornet
+- Beechcraft B55 Baron
+- Dessault Rafale M
+- Potez 25
+- Evektor Sportstar
+- szd-48-3 Jantar
+- Paraglider
+- Major Tom (hot air balloon)
+- Hughes 269a/TH-55 Osage
+- Goat Airchair
+- Citroen 2CV
+- Boeing b767-300ER
+- Boeing b757-200
+- Airbus a350-900
+- Boeing b777-200
+- Tupolev Tu-204
+- Bombardier Dash8-q400
+- Boeing b747-8F
+- Boeing b737-900
+- Boeing b777-200LR
+- Boeing b777-9X
+- Ilyushin IL-76TD
+- Embraer ERJ 190
+- McDonnell Douglas MD11
+- ATR 72-600
+- Bombardier CRJ200
+- Boeing b737-MAX8
+- Grumman J2F-5 Duck
+- Antonov An-225 Mriya
+- Sikorsky UH-60 Black Hawk
+- Supermarine Spitfire Mk XIV
+- Cameron R-650 Rozière Balloon
+- Airbus a330-200
+- Lockheed Martin F22 Raptor
+- Leonardo - AugustaWestland AW609
+- Airbus a320neo
+- Airbus a319-100
+- SAAB 340
+- Airbus a220-300
+- Airbus a340-300
+- NASA Space Shuttle
+- Airbus a350-1000
+- Airbus a320-232
+- Boeing b737-800
+- Boeing b787-10
+- UTVA 75
+- Dornier do228-200
+- Boeing p8I Neptune
+- Bombardier CRJ700
+- Embraer ERJ 170
+- Dornier do228-100 Coast Guard
+- Grumman E-2 Hawkeye
+- Airbus a320-214
+- Boeing b787-9
+- McDonnell Douglas F-15C Eagle
+- Dessault Mirage 2000-5
+- Embraer ERJ 145LR
+- Boeing b737-200
+- Britten-Norman BN2 Islander
+- Boeing b777-200F
+- Vans RV6
+- Airbus a330-900neo
+- Airbus a321neo
+- Boeing 757-300
+- Boeing b757-300WL
+- Boeing b767-400ER
+- Lokheed L1011-1 TriStar
+- Sonex-B kit
+- Bombardier Learjet45
+- Airbus a321-211
+- Airbus a318-112
+- Boeing b747-8I
+- Boeing b737-600
+- Boeing 747SP
+- Lokheed Martin F35B Lightning II
+- Boeing b747-100 SCA
+- Dessault Mirage F1
+- Chengdu J-20
+- Boeing b747-400D
+- Northrop YF-23
+- CubCrafters CC19 XCub
+- Comac C919
+- Boeing b717-200
 
 
 ## Feedback
 
-Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
+Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues/new/choose).
 Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to help my work, and let me know which aircraft would you like to fly the most.
 
 > **[You can join our discord server to keep yourself up to date about the new features, and also submit issue reports.](https://discord.gg/2tcdzyYaWU)**
@@ -191,30 +231,14 @@ Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to
 ## Known issues
 
 - Old versions are no longer working, please update to the latest version!
-- Opening the livery menu on popular aircraft, such as the default 737, may freeze your screen for a bit as the browser loads all the liveries.
+- Opening the livery menu on popular aircraft, such as the default 737, may freeze your screen for a bit as the browser loads all the liveries. Work is underway to make this faster.
 
 ## How to contribute?
 
 I'm very happy if you contribute new liveries to this livery project! The best way to start contributing to LiverySelector is by joining our discord server, where you can find useful materials and helping hands.
 
-Here you can find the maps, that you can paint out:
-- [Boeing b737-700](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-700.png)
-- [Boeing b737-800](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-800.png)
-- [Boeing b737-8](https://i.ibb.co/59Cs2kB/texture-11-Copy-2.jpg)
-- [Boeing b787-9](https://i.ibb.co/DLpSHqp/789plain.jpg)
-- [Boeing b787-10](https://i.ibb.co/zr00FRy/texture-46.jpg)
-- [Airbus a220-300](https://i.ibb.co/m4xW9Gc/a220.jpg)
-- [Airbus a319-100](https://i.ibb.co/vkzQX1L/A319-New-UV.jpg)
-- [Airbus a320neo](https://i.ibb.co/yXHSvXN/plain.jpg)
-- [Airbus a330-900neo](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a330neo.png)
-- [Airbus a350-1000 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-1000.png)
-- [Airbus a350-900 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-900.png)
-- [Airbus a380](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a380.jpg)
-- [ATR 72-600](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/atr72.jpg)
-- [Embraer ERJ145LR](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/erj145lr.png)
-- [Bombardier CRJ-200](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/crj200.png)
-- [Britten-Normal BN2](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/bn2.png)
-- [SAAB 340](https://cdn.discordapp.com/attachments/1009138556410789918/1091314048894771200/tex.jpg)
+[Here](https://github.com/kolos26/GEOFS-LiverySelector/tree/main/maps) you can find the maps, that you can paint out:
+
 
 For these aircrafts, instead of using maps, you can repaint the original texture files:
 - [Boeing b757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
