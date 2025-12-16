@@ -1,4 +1,4 @@
-# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GeoFS LiverySelector用户手册
+# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveryselector-logo-small.svg" /> GeoFS LiverySelector用户手册
 您好，欢迎使用GeoFS LiverySelector插件！在继续操作之前，请阅读以下内容，以确保顺利使用该插件。
 
 安装好相应的代码并启动 GeoFS 后，您会在“飞机”标志小菜单右侧底部看到一个按钮。点击此按钮即可访问该插件。

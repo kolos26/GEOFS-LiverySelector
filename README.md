@@ -1,4 +1,4 @@
-# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GEOFS-LiverySelector <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Stars Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Stars Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a>
+# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveryselector-logo-small.svg" /> GEOFS-LiverySelector <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Stars Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Stars Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a>
 
 The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](https://geo-fs.com), containing hundreds of liveries and a feature-packed user interface to make it easier to use your favorite livery.
 
@@ -17,41 +17,31 @@ Our goal, as a community, is to consolidate the liveries into a single, easy-to-
 
 
 ## Features
-
 For every supported aircraft, you can find the list of available liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing [L] on your keyboard. Here you can star your favorite liveries to pin them to the top, and search for any livery. I'm only planning to support real-life liveries because most people do not want to share their personal liveries.
 
+## How to Use This Add-on?
+There are two ways to do this. One of them is easy but is quite annoying, while the other one is complicated but only needs to be done once.
+
+### Method 1: JavaScript Console
+1. Open the Inspect Panel of your browser by either using a keyboard shortcut or right-clicking anywhere on the webpage and choosing the "Inspect" or "Inspect Element" button.
+2. Navigate to the JavaScript console, and paste [main.js](hhttps://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/main.js) into the console. You may have to type `allow pasting` into the console before pasting the code.
+> [!IMPORTANT]
+> This method requires you to manually paste the code into the console every time you launch GeoFS.
+
+### Method 2. TamperMonkey
+This method only needs to be done once. After that, the add-on should work automatically.
+1. To the right of the list of files, click [Releases](https://github.com/kolos26/GEOFS-LiverySelector/releases/latest) to see the latest release.
+2. Under the **Assets** dropdown menu, click on the first file (ending with user.js) to download the script.
+3. Followw the procedure on-screen to install thhe script.
+> [!NOTE]
+> Once the script is saved in Tampermmonkey, it should automatically work every time GeoFS is launched.
 
 ## How to use
-
 > Tutorial video by bilibili開飛機のzm
 > - [on youtube](https://www.youtube.com/watch?v=luASAu7ikYA)
 > - [on bilibili](https://www.bilibili.com/video/BV1gS411w7Co/?spm_id_from=333.999.0.0&vd_source=6be8a43efb2014347309862b1aaf1fd2)
 
 You can use LiverySelector without installation, or you can add it to your Tampermonkey browser addon.
-
-**Both versions download the list of newest aircrafts every time you start GeoFS, you don't have to do anything after installation.**
-
-### Quick test without installation
-
-You can use the LiverySelector without installation: just copy and paste the [main.js](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/main.js) into the browser console.
-
-You need to do that every time you want to use LiverySelector.
-
-### Install into Tampermonkey (recommended)
-
-You can also find the [Tampermonkey](https://www.tampermonkey.net/) compatible version of LiverySelector in the Releases menu and add it to your Tampermonkey addon.
-
-
-## How to use the test feature?
-
-The test feature is a brand new function in 2.1.0. You can find it at the end of the LIVERY menu.
-
-- You can insert the direct url to the image in the green box, or
-- you can also post it directly to imgbb, via the blue **UPLOAD IMAGE** button. To do that you need to [create an API key](https://api.imgbb.com/), and save it to local storage by typing `localStorage.imgbbAPIKEY = "YOUR API KEY"` into the console. You only need to do this for the first time, the app will remember your key. After pressing the button, within a few seconds the url should appear in the green box.
-
-After pasting a link, add the livery by pressing the yellow **LOAD LIVERY** button. For some planes more than one boxes are available. To add only the painting, use the box called **Texture**, you can keep the rest of them empty.
-
-Here you can find a tutorial on using this feature: [https://www.youtube.com/watch?v=QC4E_DNmvjY](https://www.youtube.com/watch?v=QC4E_DNmvjY) (Created by bilibilizm)
 
 ## Virtal Airlines
 
@@ -169,7 +159,6 @@ In this time near all basic aircrafts are supported witch has originally more th
 
 
 ## Feedback
-
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
 Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to help my work, and let me know which aircraft would you like to fly the most.
 
@@ -177,20 +166,18 @@ Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to
 
 
 ## Known issues
-
 - Old versions are no longer working, please update to the latest version!
 - Opening the livery menu on popular aircraft, such as the default 737, may freeze your screen for a bit as the browser loads all the liveries.
 
 ## How to contribute?
-
 I'm very happy if you contribute new liveries to this livery project! The best way to start contributing to LiverySelector is by joining our discord server, where you can find useful materials and helping hands.
 
-Here you can find the maps that you can paint over: https://github.com/RYANAIR5719/GeoFS-Liveries-Storage/tree/main/maps
+Here you can find the maps that you can paint over: https://github.com/kolos26/GeoFS-Liveries-Storage/tree/main/maps
 
 For these aircrafts, instead of using maps, you can repaint the original texture files:
-- [Boeing b757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
-- [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
-- [Bombardier Dash8-q400](https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png)
+- [Boeing 757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
+- [Boeing 767-300ER](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
+- [Bombardier Dash8-Q400](https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png)
 
 If you are finished with a livery, please submit it either in our Discord server, via our addon, or here, using an Livvery Submission issue.
 
@@ -198,7 +185,6 @@ If you are finished with a livery, please submit it either in our Discord server
 > This project only accepts real-life liveries. Historical liveries, liveries for planned/abandoned orders are also welcome. Planned but never used liveries are also allowed, as long as tere is one official picture from the airline or manufacturer.
 
 ## Resources
-
 Fonts and icons in the logo:
 - https://www.ffonts.net/Distorty-Normal.font
 - https://www.ffonts.net/SquareFont-Outline.font

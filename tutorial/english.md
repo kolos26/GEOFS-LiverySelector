@@ -1,4 +1,4 @@
-# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GeoFS LiverySelector User Manual
+# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveryselector-logo-small.svg" /> GeoFS LiverySelector User Manual
 Hello, and welcome to the GeoFS LiverySelector Addon! Before continuing, please read the following to ensure a smooth experience with the addon.
 
 Once you have launched GeoFS with the appropriate code installed, you will see the <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/kolos/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button at the bottom, to the right of the **Aircraft** menu. This is where you can access the add-on.

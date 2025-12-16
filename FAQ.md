@@ -1,4 +1,4 @@
-# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> Frequently Asked Questions
+# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveryselector-logo-small.svg" /> Frequently Asked Questions
 
 ## My add-on is not working; how do I fix it?
 There are a few reasons why this might have happened:
