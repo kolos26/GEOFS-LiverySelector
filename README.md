@@ -1,28 +1,16 @@
-<h1 align="center">GEOFS-LiverySelector</h1>
+# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GEOFS-LiverySelector <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Stars Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Stars Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a>
 
-<p align="center">
-    <img src="liveryselector-logo.svg" width="100%"/>
-    <br></br>
-    <td><a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a></td>
-</p>
-<p align="center">
-    <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
-    <img alt="Stars Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
-    <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Stars Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a>
-</p>
-<h1></h1>
+The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](https://geo-fs.com), containing hundreds of liveries and a feature-packed user interface to make it easier to use your favorite livery.
 
-LiverySelector is a unified livery handler addon for [GeoFS](https://geo-fs.com), 
-containing hundreds of liveries and a feature packed user interface to make it easier to use your favorite livery.
+In the list of liveries, you can find:
 
-In the list of liveries you can find:
+- Liveries from the well-known [multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9,
+- Liveries from the [LiveryChanger](https://github.com/Ariakim-Taiyo/LiveryChanger) by Ariakim Taiyo,
+- [Iuhairway's liveries](https://github.com/iuhairways/Liverychanger-modified), and
+- Other custom liveries made exactly for this project.
 
-- the well known [multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9, 
-- the LiveryChanger by [Ariakim Taiyo](https://github.com/Ariakim-Taiyo/LiveryChanger), 
-- [Iuhairways](https://github.com/iuhairways/Liverychanger-modified), and
-- other custom liveries made exactly for this project.
-
-My goal was to put the liveries into one easy to use interface where you can select them fast with one click.
+## Our Objective
+Our goal, as a community, is to consolidate the liveries into a single, easy-to-use interface where users can select them quickly with one click.
 
 ## Trailer
 [![YouTube Trailer](https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg)](https://www.youtube.com/watch?v=1w5u2R1dnVU)
@@ -30,7 +18,7 @@ My goal was to put the liveries into one easy to use interface where you can sel
 
 ## Features
 
-For every supported aircraft you can find the list of avaliable liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing *l* on your keyboard. Here you can star your favourite liveries to show them on the top and search for any livery. I'm only planning to support real-life liveries, because most people do not want to share their personal liveries.
+For every supported aircraft, you can find the list of available liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing [L] on your keyboard. Here you can star your favorite liveries to pin them to the top, and search for any livery. I'm only planning to support real-life liveries because most people do not want to share their personal liveries.
 
 
 ## How to use
@@ -197,31 +185,17 @@ Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to
 
 I'm very happy if you contribute new liveries to this livery project! The best way to start contributing to LiverySelector is by joining our discord server, where you can find useful materials and helping hands.
 
-Here you can find the maps, that you can paint out:
-- [Boeing b737-700](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-700.png)
-- [Boeing b737-800](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/b737-800.png)
-- [Boeing b737-8](https://i.ibb.co/59Cs2kB/texture-11-Copy-2.jpg)
-- [Boeing b787-9](https://i.ibb.co/DLpSHqp/789plain.jpg)
-- [Boeing b787-10](https://i.ibb.co/zr00FRy/texture-46.jpg)
-- [Airbus a220-300](https://i.ibb.co/m4xW9Gc/a220.jpg)
-- [Airbus a319-100](https://i.ibb.co/vkzQX1L/A319-New-UV.jpg)
-- [Airbus a320neo](https://i.ibb.co/yXHSvXN/plain.jpg)
-- [Airbus a330-900neo](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a330neo.png)
-- [Airbus a350-1000 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-1000.png)
-- [Airbus a350-900 XWB](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a350-900.png)
-- [Airbus a380](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/a380.jpg)
-- [ATR 72-600](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/atr72.jpg)
-- [Embraer ERJ145LR](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/erj145lr.png)
-- [Bombardier CRJ-200](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/crj200.png)
-- [Britten-Normal BN2](https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/maps/bn2.png)
-- [SAAB 340](https://cdn.discordapp.com/attachments/1009138556410789918/1091314048894771200/tex.jpg)
+Here you can find the maps that you can paint over: https://github.com/RYANAIR5719/GeoFS-Liveries-Storage/tree/main/maps
 
 For these aircrafts, instead of using maps, you can repaint the original texture files:
 - [Boeing b757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
 - [Boeing b767-300er](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
 - [Bombardier Dash8-q400](https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png)
 
-> **Note**: In this project I'm only accepting real life liveries (historical planes, and planes on order are also welcome, I also accept liveries that were planned, and there is also at least one official picture drawn by the airline or the manafacturer), so if you would like to fly with fictional liveries you can build your own airline.json database. **If you are done with a livery, send me as an issue or a pull request, so I can put it into the main datasbase**, if you are sending it as an issue, please add a "livery" label too, to make the process faster.
+If you are finished with a livery, please submit it either in our Discord server, via our addon, or here, using an Livvery Submission issue.
+
+> [!NOTE]
+> This project only accepts real-life liveries. Historical liveries, liveries for planned/abandoned orders are also welcome. Planned but never used liveries are also allowed, as long as tere is one official picture from the airline or manufacturer.
 
 ## Resources
 
