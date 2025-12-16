@@ -16,4 +16,4 @@ To solve this issue on low-end devices, yoou can enable the Potato Mode just ben
 >Potato Mode does require you to manually search for the livery at the search bar to browse for liveries.
 
 ## How do I contribute liveries to the add-on?
-See the [GeoFS LiverySelector User Manuals](https://github.com/RYANAIR5719/GEOFS-LiverySelector/tree/main/tutorial).
+See the [GeoFS LiverySelector User Manuals](https://github.com/kolos26/GEOFS-LiverySelector/tree/main/tutorial).
