@@ -62,12 +62,3 @@ Congratulations, you have just set up your uploader to the LiverySelector and ar
 # Contacts
 * **Email**: <a href="LiverySelector20220816@gmail.com">LiverySelector20220816@gmail.com</a>
 * **Discord**: https://discord.gg/2tcdzyYaWU
-
-常见问题：
-1.为什么我的界面只有三行英文没有显示任何的涂装？
-大部分是网速问题，解决方法可以是提升网速或者使用VPN。
-3.每次进游戏都要重新导入代码，太麻烦了，有没有什么方法不用每次导入？
-用插件Tampermonkey（篡改猴）大部分是浏览器插件。安装好后无需每次导入。
-4.为什么我点了一个涂装等了好久还不显示？
-①有些涂装（例如彩绘）的文件较大，您需要等待一段时间；
-②或者您的网速过慢，过等一会会加载出来。
