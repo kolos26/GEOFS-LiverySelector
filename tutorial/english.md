@@ -13,6 +13,9 @@ Now, on to the important stuff!
 ## Interface
 Once you click on that <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button, an interface should (hopefully) pop up. This may take a while for some aircraft due to the immense amount of liveries avaliable for some aircraft, such as the 737s, the A320s, and the 777-300ER.
 
+> [!IMPORTANT]
+> You must install te latest version of the add-on or the code does not work!
+
 There is a **search bar** near the top of the for **looking up liveries**, or if you are using **Potato Mode**.
 
 ### Favorite Liveries
@@ -54,22 +57,12 @@ Congratulations, you have just set up your uploader to the LiverySelector and ar
 3. If you haven't done so, check for any faults in the livery, and ensure that it is of a high quality.
 4. Near the bottom of the screen, click on **Contribute to the LiverySelector Database** dropdown, and it should open up a form.
 5. Fill in the first box with the name of the livery, and the second with your username. This can be your Discord username, or just anything as long as it's approperiate.
-6. Check the two checkboxes below to agree to the terms of service, and then click **Submit Livery For Review**.⑦Check two conditions to indicate your agreement,then click "SUBMIT LIVERY REVIEW",then your livery has been successfully submitted.
+6. Check the two checkboxes below to agree to the terms of service, and then click **Submit Livery For Review**.
    
 # Contacts
 * **Email**: <a href="LiverySelector20220816@gmail.com">LiverySelector20220816@gmail.com</a>
 * **Discord**: https://discord.gg/2tcdzyYaWU
 
-【About Competition】
-You can attend in discord or GitHub.
-Common problems:
-1.Why can't my livery list load properly?
-Most likely due to internet speed issues, check the network or use VPN.
-2.How to make livery for LiverySelector?
-①by GitHub;
-②by API;
-③by Discord;
-④by email(must add your livery name+maker name,if you don't add yours will not be added).
 3.It's too troublesome to add new code every time I enter the game. Is there a solution?
 You can use Tampermonkey,then you will not.
 4.When I click a livery,why can not it load?
