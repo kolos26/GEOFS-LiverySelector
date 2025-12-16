@@ -149,31 +149,21 @@ In this time near all basic aircrafts are supported which has originally more th
 - Boeing b767-300ER
 - Boeing b757-200
 - Airbus a350-900
-- Boeing b777-200
-- Tupolev Tu-204
 - Bombardier Dash8-q400
-- Boeing b747-8F
-- Boeing b737-900
-- Boeing b777-200LR
 - Boeing b777-9X
 - Ilyushin IL-76TD
 - Embraer ERJ 190
 - McDonnell Douglas MD11
 - ATR 72-600
-- Bombardier CRJ200
 - Boeing b737-MAX8
-- Grumman J2F-5 Duck
 - Antonov An-225 Mriya
-- Sikorsky UH-60 Black Hawk
 - Supermarine Spitfire Mk XIV
 - Cameron R-650 Rozière Balloon
 - Airbus a330-200
 - Lockheed Martin F22 Raptor
 - Leonardo - AugustaWestland AW609
 - Airbus a320neo
-- Airbus a319-100
 - SAAB 340
-- Airbus a220-300
 - Airbus a340-300
 - NASA Space Shuttle
 - Airbus a350-1000
@@ -191,25 +181,22 @@ In this time near all basic aircrafts are supported which has originally more th
 - Boeing b787-9
 - McDonnell Douglas F-15C Eagle
 - Dessault Mirage 2000-5
-- Embraer ERJ 145LR
 - Boeing b737-200
 - Britten-Norman BN2 Islander
-- Boeing b777-200F
 - Vans RV6
 - Airbus a330-900neo
 - Airbus a321neo
 - Boeing 757-300
 - Boeing b757-300WL
 - Boeing b767-400ER
-- Lokheed L1011-1 TriStar
+- Lockheed L1011-1 TriStar
 - Sonex-B kit
-- Bombardier Learjet45
 - Airbus a321-211
 - Airbus a318-112
 - Boeing b747-8I
 - Boeing b737-600
 - Boeing 747SP
-- Lokheed Martin F35B Lightning II
+- Lockheed Martin F35B Lightning II
 - Boeing b747-100 SCA
 - Dessault Mirage F1
 - Chengdu J-20
@@ -217,8 +204,13 @@ In this time near all basic aircrafts are supported which has originally more th
 - Northrop YF-23
 - CubCrafters CC19 XCub
 - Comac C919
-- Boeing b717-200
 
+Supported planes added by the [Extra Vehicles addon](https://github.com/af267/GeoFS-Extra-Vehicles/):
+
+- Boeing b747-8F
+- Boeing b737-900
+- Boeing b777-200
+- Tupolev Tu-204
 
 ## Feedback
 
