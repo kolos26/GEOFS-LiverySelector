@@ -1090,16 +1090,16 @@ function generateListHTML() {
 		<div style="width: 100%">
 			<span>Potato mode: </span><input id="livery-potato-mode" data-gespref="geofs.preferences.liveryPotato" type="checkbox"></input>
 		</div>
-        <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorite liveries</h6>
+        <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorited Liveries</h6>
         <ul id="favorites" class="geofs-list geofs-visible"></ul>
 
-        <h6 onclick="LiverySelector.toggleDiv('liverylist')">Available liveries</h6>
+        <h6 onclick="LiverySelector.toggleDiv('liverylist')">Available Liveries</h6>
         <ul id="liverylist" class="geofs-list geofs-visible"></ul>
 
-        <h6 onclick="LiverySelector.toggleDiv('airlinelist')">Virtual airlines</h6><button class="mdl-button mdl-js-button mdl-button--raised mdl-button" style="background-color: #096628; color: white;" onclick="LiverySelector.addAirline()">+ Add airline</button>
+        <h6 onclick="LiverySelector.toggleDiv('airlinelist')">Virtual Airlines</h6><button class="mdl-button mdl-js-button mdl-button--raised mdl-button" style="background-color: #096628; color: white;" onclick="LiverySelector.addAirline()">+ Add Airline</button>
         <ul id="airlinelist" class="geofs-list geofs-visible"></ul>
 
-        <h6 onclick="LiverySelector.toggleDiv('customDiv')" class="closed">Load external livery</h6>
+        <h6 onclick="LiverySelector.toggleDiv('customDiv')" class="closed">Load External Livery</h6>
         <div id="customDiv" class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="display:none;">
             <ul class="livery-custom-tabs" onclick="LiverySelector.handleCustomTabs()">
                 <li>Upload</li>
@@ -1150,10 +1150,10 @@ function generateListHTML() {
             </div>
         </div>
         <br/>
-        <a href="https://github.com/kolos26/GEOFS-LiverySelector/tree/main/tutorial" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open tutorial</button></a><br/>
-        <a href="https://discord.gg/2tcdzyYaWU" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Join our discord server</button></a><br/>
+        <a href="https://github.com/kolos26/GEOFS-LiverySelector/tree/main/tutorial" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open Tutorial</button></a><br/>
+        <a href="https://discord.gg/2tcdzyYaWU" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Join Our Discord</button></a><br/>
         <a href="https://github.com/kolos26/GEOFS-LiverySelector" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Visit our Github page</button></a><br/>
-        <a href="mailto:LiverySelector20220816@gmail.com" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Contact us: LiverySelector20220816@gmail.com</button></a><br/>
+        <a href="mailto:LiverySelector20220816@gmail.com" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Contact Us: LiverySelector20220816@gmail.com</button></a><br/>
 `;
 }
 
@@ -1209,4 +1209,5 @@ window.LiverySelector = {
 	log,
 	potatoSearch,
 };
+
 
