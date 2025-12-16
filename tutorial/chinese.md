@@ -11,6 +11,9 @@
 ## 插件界面
 Once you click on that <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button, an interface should (hopefully) pop up. 由于某些机型（例如737、A320和777-300ER）的涂装数量庞大，某些机型的界面可能需要一段时间才能出现。
 
+> [!IMPORTANT]
+> 使用此插件之前，您必须下载最新的程序版本，否则插件会出现许多的问题。
+
 界面顶部附近有一个**搜索栏**，用于查找您需要的涂装。
 
 ### Favorite Liveries（收藏图装）
