@@ -1,15 +1,15 @@
-# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GeoFS LiverySelector用户手册
+# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GeoFS LiverySelector用户手册
 您好，欢迎使用GeoFS LiverySelector插件！在继续操作之前，请阅读以下内容，以确保顺利使用该插件。
 
 安装好相应的代码并启动 GeoFS 后，您会在“飞机”标志小菜单右侧底部看到一个按钮。点击此按钮即可访问该插件。
 
 飞机选择菜单中还会出现一些图标……
-* <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" />图标表示该飞机支持此插件。
+* <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" />图标表示该飞机支持此插件。
 * 🎮表示该飞机与多人游戏兼容（装了插件的玩家，他们可以看到您使用的涂装）。
 * 🥇、🥈或🥉表示该涂装曾赢得过在我们在Discord上举行的涂装比赛。
 
 ## 插件界面
-Once you click on that <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button, an interface should (hopefully) pop up. 由于某些机型（例如737、A320和777-300ER）的涂装数量庞大，某些机型的界面可能需要一段时间才能出现。
+Once you click on that <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button, an interface should (hopefully) pop up. 由于某些机型（例如737、A320和777-300ER）的涂装数量庞大，某些机型的界面可能需要一段时间才能出现。
 
 > [!IMPORTANT]
 > 使用此插件之前，您必须下载最新的程序版本，否则插件会出现许多的问题。
