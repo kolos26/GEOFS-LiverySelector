@@ -1,17 +1,17 @@
-# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GeoFS LiverySelector User Manual
+# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> GeoFS LiverySelector User Manual
 Hello, and welcome to the GeoFS LiverySelector Addon! Before continuing, please read the following to ensure a smooth experience with the addon.
 
-Once you have launched GeoFS with the appropriate code installed, you will see the <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button at the bottom, to the right of the **Aircraft** menu. This is where you can access the add-on.
+Once you have launched GeoFS with the appropriate code installed, you will see the <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/kolos/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button at the bottom, to the right of the **Aircraft** menu. This is where you can access the add-on.
 
 A few icons will also pop up in the aircraft selection menu...
-* A <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> icon mean the aircraft is supported by the add-on.
+* A <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> icon mean the aircraft is supported by the add-on.
 * A 🎮 means that the aircraft is multiplayer compatible (others can see the liveries if they have the addon, and so can you).
 * A 🥇, 🥈, or 🥉 next to a livery means that it had won a livery competition in the past.
 
 Now, on to the important stuff!
 
 ## Interface
-Once you click on that <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/RYANAIR5719/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button, an interface should (hopefully) pop up. This may take a while for some aircraft due to the immense amount of liveries avaliable for some aircraft, such as the 737s, the A320s, and the 777-300ER.
+Once you click on that <img width="15" height="30" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/logosmall.png" /> button, an interface should (hopefully) pop up. This may take a while for some aircraft due to the immense amount of liveries avaliable for some aircraft, such as the 737s, the A320s, and the 777-300ER.
 
 > [!IMPORTANT]
 > You must install the latest version of the code or it won't work!
