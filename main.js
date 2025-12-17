@@ -14,7 +14,8 @@ let links = [];
 let airlineobjs = [];
 let whitelist;
 let mpAirlineobjs = {};
-const log = (e, t = "log") => console[t]("[%cLivery%cSelector%c] " + e, "color: #bcc3cb;", "color: #3f5f8a;", "color: inherit;");
+const LOG_STYLE = "white-space:nowrap;display:inline;color:";
+const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c" + e, LOG_STYLE + "inherit;", LOG_STYLE + "#bcc3cb;", LOG_STYLE + "#3f5f8a;", LOG_STYLE + "inherit;", LOG_STYLE + "inherit;");
 
 (async function init() {
     // find latest commit to ensure the latest files are fetched from jsDelivr
@@ -1209,3 +1210,4 @@ window.LiverySelector = {
 	log,
 	potatoSearch,
 };
+
