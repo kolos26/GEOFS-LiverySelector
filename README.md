@@ -153,7 +153,6 @@ In this time near all basic aircrafts are supported which has originally more th
 - Boeing b777-9X
 - Ilyushin IL-76TD
 - Embraer ERJ 190
-- McDonnell Douglas MD11
 - ATR 72-600
 - Boeing b737-MAX8
 - Antonov An-225 Mriya
@@ -211,6 +210,7 @@ Supported planes added by the [Extra Vehicles addon](https://github.com/af267/Ge
 - Boeing b737-900
 - Boeing b777-200
 - Tupolev Tu-204
+- McDonnell Douglas MD11
 
 ## Feedback
 
