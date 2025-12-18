@@ -6,7 +6,7 @@ The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](htt
 
 In the list of liveries, you can find:
 
-- Liveries from the well-known [multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9,
+- Liveries from the well-known [Multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9,
 - Liveries from the [LiveryChanger](https://github.com/Ariakim-Taiyo/LiveryChanger) by Ariakim Taiyo,
 - [Iuhairway's liveries](https://github.com/iuhairways/Liverychanger-modified), and
 - Other custom liveries made exactly for this project.
@@ -17,9 +17,8 @@ Our goal, as a community, is to consolidate the liveries into a single, easy-to-
 ## Trailer
 [![YouTube Trailer](https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg)](https://www.youtube.com/watch?v=1w5u2R1dnVU)
 
-
 ## Features
-For every supported aircraft, you can find the list of available liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing [L] on your keyboard. Here you can star your favorite liveries to pin them to the top, and search for any livery. I'm only planning to support real-life liveries because most people do not want to share their personal liveries.
+For every supported aircraft, you can access a list of available liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing [L] on your keyboard. You can star liveries to pin them, and search for any liveries. 
 
 ## How to Use This Add-on?
 There are two ways to do this. One of them is easy but is quite annoying, while the other one is complicated but only needs to be done once.
@@ -34,7 +33,7 @@ There are two ways to do this. One of them is easy but is quite annoying, while 
 This method only needs to be done once. After that, the add-on should work automatically.
 1. To the right of the list of files, click [Releases](https://github.com/kolos26/GEOFS-LiverySelector/releases/latest) to see the latest release.
 2. Under the **Assets** dropdown menu, click on the first file (ending with user.js) to download the script.
-3. Followw the procedure on-screen to install thhe script.
+3. Follow the procedure on-screen to install the script.
 > [!NOTE]
 > Once the script is saved in Tampermmonkey, it should automatically work every time GeoFS is launched.
 
@@ -46,14 +45,12 @@ This method only needs to be done once. After that, the add-on should work autom
 You can use LiverySelector without installation, or you can add it to your Tampermonkey browser addon.
 
 ## Virtal Airlines
-
-Since LiverySelector 3.2.0 you can link your own copy of [airline.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/airline.json) to have an easily shareable database of custom liveries.
-You can add an airline by clicking on **+ Add Airline** button, and you can always remove them by clicking the **- Remove Airline** button. The airline.json is being synced each time you load geofs, the list of subscribed airlines are saved locally and being kept from game to game.
-By default due to security reasons these liveries are not visible in multiplayer mode. If you would like to make your liveries visible please contact us on [discord](https://discord.gg/2tcdzyYaWU) to vertify your airline and put it onto the whitelist. The owner of the airline.json is responsible for ALL CONTENT displayed on the liveries!
+Since LiverySelector 3.2.0, you can link your own copy of [airline.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/airline.json) to have an easily shareable database of custom liveries.
+You can add an airline by clicking on **+ Add Airline** button, and you can always remove it by clicking the **- Remove Airline** button. The airline.json is being synced each time you load geofs, the list of subscribed airlines are saved locally and being kept from game to game.
+Due to security reasons, these liveries are not visible in multiplayer mode by default. If you would like to make your liveries visible, please contact us on [discord](https://discord.gg/2tcdzyYaWU) to verify your airline and put it on the whitelist. The owner of the airline.json is responsible for ALL CONTENT displayed on the liveries!
 
 ### Example for airline.json
-
-In the header you can customize your airline
+In the header, you can customize your airline
 ```
 {
     "name": "Example Airlines", // Name of your airline
@@ -63,7 +60,7 @@ In the header you can customize your airline
 ...
 ```
 
-The liveries are stored in your airline.json as json objects. Into the [] brackets of **"liveies"** you can add several of them. In the **"texture"** array The links to textures are listed as they are ordered in the **"labels"** array. For most planes you can cheat from the [livery.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/livery.json), which is the main database where liveries are stored, however the airline.json is designed to be easier to use, so there are minor differences in the structure. The most important one is that when a plane has only one texture file applied and no shaders are used, you only need to add the link once (unlikely to the livery.json where it's depending on how many times each texture is used on the plane).
+The liveries are stored in your airline.json as JSON objects. Into the [] brackets of **"liveies"** you can add several of them. In the **"texture"** array The links to textures are listed as they are ordered in the **"labels"** array. For most planes, you can cheat from the [livery.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/livery.json), which is the main database where liveries are stored. The airline.json is designed to be easier to use, so there are minor differences in the structure. The most important one is that when a plane has only one texture file applied, and no shaders are used, you only need to add the link once (unlike the livery.json, where it depends on how many times each texture is used on the plane).
 
 ```
 ...
@@ -159,32 +156,24 @@ In this time near all basic aircrafts are supported witch has originally more th
 - Vans RV6
 - Zlin Z-50
 
+## Contributing to Our Database
+The best way to start contributing to LiverySelector is by joining our Discord server, where you can find useful materials (like texture maps and UVs) and helpful hands. You can find the maps that you can paint over [here](https://github.com/kolos26/GeoFS-Liveries-Storage/tree/main/maps).
+
+For these aircraft, instead of using maps, you can repaint the original texture files:
+- [Boeing 757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
+- [Boeing 767-300ER](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
+- [Bombardier Dash8-Q400](https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png)
+
+If you completed a livery, please submit it through our Discord server, via our addon, or here, using a Livery Submission issue.
+
+> [!NOTE]
+> This project only accepts real-life liveries. Historical liveries, liveries for planned/abandoned orders are also welcome. Planned but never used liveries are also allowed, as long as there is one official picture from the airline or manufacturer.
 
 ## Feedback
 Comments and feedback are most welcome, just add them as a [GitHub issue](https://github.com/kolos26/GEOFS-LiverySelector/issues).
 Please fill out [this anonymous survey](https://forms.gle/6j9XmhJgpdoWwTTJ6), to help my work, and let me know which aircraft would you like to fly the most.
 
-> **[You can join our discord server to keep yourself up to date about the new features, and also submit issue reports.](https://discord.gg/2tcdzyYaWU)**
-
-
-## Known issues
-- Old versions are no longer working, please update to the latest version!
-- Opening the livery menu on popular aircraft, such as the default 737, may freeze your screen for a bit as the browser loads all the liveries.
-
-## How to contribute?
-I'm very happy if you contribute new liveries to this livery project! The best way to start contributing to LiverySelector is by joining our discord server, where you can find useful materials and helping hands.
-
-Here you can find the maps that you can paint over: https://github.com/kolos26/GeoFS-Liveries-Storage/tree/main/maps
-
-For these aircrafts, instead of using maps, you can repaint the original texture files:
-- [Boeing 757-200](https://geo-fs.com/backend/aircraft/repository/GXD04N_126645_238/texture.png)
-- [Boeing 767-300ER](https://geo-fs.com/backend/aircraft/repository/GXD03FI_126645_237/texture.png)
-- [Bombardier Dash8-Q400](https://www.geo-fs.com/backend/aircraft/repository/E01_166635_247/texture.png)
-
-If you are finished with a livery, please submit it either in our Discord server, via our addon, or here, using an Livvery Submission issue.
-
-> [!NOTE]
-> This project only accepts real-life liveries. Historical liveries, liveries for planned/abandoned orders are also welcome. Planned but never used liveries are also allowed, as long as tere is one official picture from the airline or manufacturer.
+> **[Join our Discord server to keep up to date about our latest updates and chat with others.](https://discord.gg/2tcdzyYaWU)**
 
 ## Resources
 Fonts and icons in the logo:
