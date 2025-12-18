@@ -1,6 +1,7 @@
 # <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveryselector-logo-small.svg" /> GeoFS LiverySelector <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Release Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a> <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Watcher Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
 <p align="center">
-    <a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a>
+    <a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a><br />
+    <a target="_blank" href="https://www.youtube.com/watch?v=1w5u2R1dnVU"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg" /></a>
 </p>
 
 The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](https://www.geo-fs.com), containing hundreds of liveries and a feature-packed user interface to make it easier to use your favorite livery. In the list of liveries, you can find:
@@ -9,9 +10,6 @@ The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](htt
 - Liveries from the [LiveryChanger](https://github.com/Ariakim-Taiyo/LiveryChanger) by Ariakim Taiyo,
 - [Iuhairway's liveries](https://github.com/iuhairways/Liverychanger-modified), and
 - Other custom liveries made exactly for this project.
-
-## Trailer
-[![YouTube Trailer](https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg)](https://www.youtube.com/watch?v=1w5u2R1dnVU)
 
 ## Features
 For every supported aircraft, you can access a list of available liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing [L] on your keyboard. You can star liveries to pin them, and search for any liveries. 
