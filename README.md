@@ -2,17 +2,13 @@
 <p align="center">
     <a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a>
 </p>
-The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](https://geo-fs.com), containing hundreds of liveries and a feature-packed user interface to make it easier to use your favorite livery.
 
-In the list of liveries, you can find:
+The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](https://www.geo-fs.com), containing hundreds of liveries and a feature-packed user interface to make it easier to use your favorite livery. In the list of liveries, you can find:
 
 - Liveries from the well-known [Multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9,
 - Liveries from the [LiveryChanger](https://github.com/Ariakim-Taiyo/LiveryChanger) by Ariakim Taiyo,
 - [Iuhairway's liveries](https://github.com/iuhairways/Liverychanger-modified), and
 - Other custom liveries made exactly for this project.
-
-## Our Objective
-Our goal, as a community, is to consolidate the liveries into a single, easy-to-use interface where users can select them quickly with one click.
 
 ## Trailer
 [![YouTube Trailer](https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg)](https://www.youtube.com/watch?v=1w5u2R1dnVU)
@@ -20,9 +16,7 @@ Our goal, as a community, is to consolidate the liveries into a single, easy-to-
 ## Features
 For every supported aircraft, you can access a list of available liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing [L] on your keyboard. You can star liveries to pin them, and search for any liveries. 
 
-## How to Use This Add-on?
-There are two ways to do this. One of them is easy but is quite annoying, while the other one is complicated but only needs to be done once.
-
+## How to Install This Add-on?
 ### Method 1: JavaScript Console
 1. Open the Inspect Panel of your browser by either using a keyboard shortcut or right-clicking anywhere on the webpage and choosing the "Inspect" or "Inspect Element" button.
 2. Navigate to the JavaScript console, and paste [main.js](hhttps://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/main.js) into the console. You may have to type `allow pasting` into the console before pasting the code.
