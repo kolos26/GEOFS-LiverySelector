@@ -1,6 +1,8 @@
-# <img width="20" height="40" alt="logosmall" src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveryselector-logo-small.svg" /> GeoFS LiverySelector <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Release Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a> <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Watcher Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green">
+
 <p align="center">
+    <img src="liveryselector-logo.svg" width="100%"/><br />
     <a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a><br />
+    <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Release Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a> <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Watcher Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"><br />
     <a target="_blank" href="https://www.youtube.com/watch?v=1w5u2R1dnVU"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg" /></a>
 </p>
 
