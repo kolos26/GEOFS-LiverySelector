@@ -1,20 +1,20 @@
-
 <p align="center">
     <img src="liveryselector-logo.svg" width="100%"/><br />
     <a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a><br />
     <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Release Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a> <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Watcher Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"><br />
-    <a target="_blank" href="https://www.youtube.com/watch?v=1w5u2R1dnVU"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg" /></a>
 </p>
+The GeoFS LiverySelector is a unified livery handler add-on designed for [GeoFS](https://www.geo-fs.com), containing hundreds of liveries and a feature-packed user interface to improve performance and accessibility. In the list of liveries, you can find:
 
-The GeoFS LiverySelector is a unified livery handler add-on made for [GeoFS](https://www.geo-fs.com), containing hundreds of liveries and a feature-packed user interface to make it easier to use your favorite livery. In the list of liveries, you can find:
-
-- Liveries from the well-known [Multiliveries](https://github.com/Spice9/Geofs-Multiliveries) by Spice9,
-- Liveries from the [LiveryChanger](https://github.com/Ariakim-Taiyo/LiveryChanger) by Ariakim Taiyo,
+- Liveries from Spice9's well-known [GeoFS Multiliveries](https://github.com/Spice9/Geofs-Multiliveries),
+- Liveries from Ariakim Taiyo's [LiveryChanger](https://github.com/Ariakim-Taiyo/LiveryChanger),
 - [Iuhairway's liveries](https://github.com/iuhairways/Liverychanger-modified), and
 - Other custom liveries made exactly for this project.
 
-## Features
-For every supported aircraft, you can access a list of available liveries in the livery menu. You can open the menu by clicking on the LS logo or simply pressing [L] on your keyboard. You can star liveries to pin them, and search for any liveries. 
+For every supported aircraft, by pressing the LiverySelector logo or by pressing the [L] key, a list of available liveries will appear. You can also star liveries to pin them, and search for any liveries using this interface.
+
+<p align="center">
+    <a target="_blank" href="https://www.youtube.com/watch?v=1w5u2R1dnVU"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg" /></a>
+</p>
 
 ## How to Install This Add-on?
 ### Method 1: JavaScript Console
