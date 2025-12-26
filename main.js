@@ -65,6 +65,13 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
 		e.target.src = defaultThumb;
     }, true);
 	
+    document.querySelector("#listDiv > ul#favorites").addEventListener("click", function ({ target }) {
+        if (target.nodeName != "LI") return;
+		const $match = $(`#liverylist > [id='${$(target).attr("id").replace("_favorite", "_button")}']`) // find the matching livery list item
+		if ($match.length === 0) return void ui.notification.show(`ID: ${$(target).attr("id")} is missing a liveryList counterpart.`)
+		$match.click();
+	});
+
 	const potatoCheckbox = document.querySelector("#livery-potato-mode");
 	potatoCheckbox.addEventListener("change", function () {
 		geofs.setPreferenceFromInput(this);
@@ -302,7 +309,7 @@ function submitLivery() {
     });
 }
 
-function sortList(id) {
+function sortList(id) { // extremely slow (do not use)
     const list = domById(id);
     let i, switching, b, shouldSwitch;
     switching = true;
@@ -331,35 +338,30 @@ function listLiveries() {
     const tempFrag = document.createDocumentFragment()
     , thumbsDir = noCommit + '/thumbs'
     , acftId = geofs.aircraft.instance.id
-    , defaultThumb = thumbsDir + "/" + acftId + '.png'
     , airplane = getCurrentAircraft(); // chained variable declarations
     $('#listDiv').attr('data-ac', acftId); // tells us which aircraft's liveries are loaded
+    airplane.liveries.forEach((e, t) => e.idx ||= t);
+    airplane.liveries.sort((e, t) => e.name.localeCompare(t.name, undefined, { sensitivity: 'base' }));
     for (let i = 0; i < airplane.liveries.length; i++) {
         const e = airplane.liveries[i];
-        if (e.disabled) return;
-        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": i});
+        if (e.disabled) continue;
+        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": e.idx});
         listItem.append($('<span/>').text(e.name));
         listItem.toggleClass('offi', acftId < 100).toggleClass("geofs-visible", !geofs.preferences.liveryPotato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
-		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + i + '.png'].join('/')}));
+		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + e.idx + '.png'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
         $('<i/>', { id: acftId + "_" + e.name }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
     livList.append(tempFrag);
-    sortList('liverylist');
     loadFavorites();
-    sortList('favorites');
     loadAirlines();
     addCustomForm();
 }
 
 function loadFavorites() {
 	const favorites = localStorage.getItem('favorites') ?? (localStorage.setItem('favorites', ''), ''); // sets favourites to '' if they can't be found and initialises localStorage.favorites
-    $("#favorites").empty().on("click", "li", function ({ target }) { // clear the child elements & add event listener
-		const $match = $(`#liverylist > [id='${$(target).attr("id").replace("_favorite", "_button")}']`) // find the matching livery list item
-		if ($match.length === 0) return void ui.notification.show(`ID: ${$(target).attr("id")} is missing a liveryList counterpart.`)
-		$match.click(); // click it to simulate onclick behavior and stuff
-	});
+    $("#favorites").empty();
     const list = favorites.split(',');
     const airplane = geofs.aircraft.instance.id;
     list.forEach(function (e) {
