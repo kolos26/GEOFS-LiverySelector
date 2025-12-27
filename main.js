@@ -345,7 +345,7 @@ function listLiveries() {
     for (let i = 0; i < airplane.liveries.length; i++) {
         const e = airplane.liveries[i];
         if (e.disabled) continue;
-        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": e.idx});
+        const listItem = $('<li/>', {id: [acftId, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": i});
         listItem.append($('<span/>').text(e.name));
         listItem.toggleClass('offi', acftId < 100).toggleClass("geofs-visible", !geofs.preferences.liveryPotato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
 		acftId < 1000 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, acftId, acftId + '-' + e.idx + '.png'].join('/')}));
@@ -1212,5 +1212,3 @@ window.LiverySelector = {
 	log,
 	potatoSearch,
 };
-
-
