@@ -56330,9 +56330,17 @@
         },
         "3036": {
             "index": [
-                9
+                9,
+                7,
+                8,
+                10,
+                11
             ],
             "parts": [
+                0,
+                0,
+                0,
+                0,
                 0
             ],
             "mp": [
@@ -56346,13 +56354,21 @@
                     "name": "Placeholder",
                     "disabled": true,
                     "texture": [
+                        null,
+                        null,
+                        null,
+                        null,
                         null
                     ],
                     "credits": null
                 }
             ],
             "labels": [
-                "Texture"
+                "Texture",
+                "Left engine texture",
+                "Right engine texture",
+                "Rudder texture",
+                "Tail texture"
             ],
             "name": "Embraer ERJ 195-E2"
         }
