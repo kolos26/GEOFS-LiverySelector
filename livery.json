@@ -56351,16 +56351,26 @@
             ],
             "liveries": [
                 {
-                    "name": "Placeholder",
-                    "disabled": true,
+                    "name": "KLM",
                     "texture": [
-                        null,
-                        null,
-                        null,
-                        null,
-                        null
+                        "https://raw.githubusercontent.com/meatbroc/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Fuselage.png",
+                        "https://raw.githubusercontent.com/meatbroc/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Engine_and_Reverser.png",
+                        "https://raw.githubusercontent.com/meatbroc/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Engine_and_Reverser.png",
+                        "https://raw.githubusercontent.com/meatbroc/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Rudder_and_Tail.png",
+                        "https://raw.githubusercontent.com/meatbroc/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Rudder_and_Tail.png"
                     ],
-                    "credits": null
+                    "credits": "Max2255556"
+                },
+                {
+                    "name": "Porter",
+                    "texture": [
+                        "https://i.ibb.co/KJq8M2L/porterfueslage.png",
+                        "https://i.ibb.co/bMLyKfsq/porterengine.png",
+                        "https://i.ibb.co/bMLyKfsq/porterengine.png",
+                        "https://i.ibb.co/TMvcbSBb/portertail.png",
+                        "https://i.ibb.co/TMvcbSBb/portertail.png"
+                    ],
+                    "credits": "thegreen121"
                 }
             ],
             "labels": [
