@@ -56348,7 +56348,7 @@
             "mp": [
                 {
                     "modelIndex": 0,
-                    "textureIndex": 0
+                    "textureIndex": 9
                 }
             ],
             "liveries": [
@@ -56386,6 +56386,54 @@
                 "Tail texture"
             ],
             "name": "Embraer ERJ 195-E2"
+        },
+        "32": {
+            "index": [
+                1
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 1
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "NASA",
+                    "texture": [
+                        "https://www.geo-fs.com/models/aircraft/premium/t38/texture_0.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "Bears",
+                    "texture": [
+                        "https://www.geo-fs.com/models/aircraft/premium/t38/texture_1.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "USAF",
+                    "texture": [
+                        "https://www.geo-fs.com/models/aircraft/premium/t38/texture_2.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "NASA N924NA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/meatbroc/GEOFS-LiverySelector/main/liveries/t38/N924NA_NASA.png"
+                    ],
+                    "credits": ""
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Northrop T-38 Talon"
         }
     }
 }
