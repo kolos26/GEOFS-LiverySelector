@@ -56342,9 +56342,18 @@
                 }
             ],
             "liveries": [
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/KLM_Fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+                    ],
+                    "credits": "luca b"
+                }
             ],
             "labels": [
-                "Texture"
+                "Fuselage texture",
+                "Wing texture"
             ],
             "name": "Boeing b747-400"
         }
