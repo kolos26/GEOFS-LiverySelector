@@ -56434,6 +56434,37 @@
                 "Texture"
             ],
             "name": "Northrop T-38 Talon"
+        },
+        "5527": {
+            "index": [
+                0,
+                1
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/KLM_Fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+                    ],
+                    "credits": "luca b"
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Wing texture"
+            ],
+            "name": "Boeing 747-400"
         }
     }
 }
