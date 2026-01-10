@@ -1093,16 +1093,16 @@ function generateListHTML() {
 		<div style="width: 100%">
 			<span>Potato mode: </span><input id="livery-potato-mode" data-gespref="geofs.preferences.liveryPotato" type="checkbox"></input>
 		</div>
-        <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorite liveries</h6>
+        <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorited Liveries</h6>
         <ul id="favorites" class="geofs-list geofs-visible"></ul>
 
-        <h6 onclick="LiverySelector.toggleDiv('liverylist')">Available liveries</h6>
+        <h6 onclick="LiverySelector.toggleDiv('liverylist')">Available Liveries</h6>
         <ul id="liverylist" class="geofs-list geofs-visible"></ul>
 
-        <h6 onclick="LiverySelector.toggleDiv('airlinelist')">Virtual airlines</h6><button class="mdl-button mdl-js-button mdl-button--raised mdl-button" style="background-color: #096628; color: white;" onclick="LiverySelector.addAirline()">+ Add airline</button>
+        <h6 onclick="LiverySelector.toggleDiv('airlinelist')">Virtual Airlines</h6><button class="mdl-button mdl-js-button mdl-button--raised mdl-button" style="background-color: #096628; color: white;" onclick="LiverySelector.addAirline()">+ Add Airline</button>
         <ul id="airlinelist" class="geofs-list geofs-visible"></ul>
 
-        <h6 onclick="LiverySelector.toggleDiv('customDiv')" class="closed">Load external livery</h6>
+        <h6 onclick="LiverySelector.toggleDiv('customDiv')" class="closed">Load External Liveries</h6>
         <div id="customDiv" class="mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation" style="display:none;">
             <ul class="livery-custom-tabs" onclick="LiverySelector.handleCustomTabs()">
                 <li>Upload</li>
@@ -1111,24 +1111,24 @@ function generateListHTML() {
                 <li>API</li>
             </ul>
             <div id="livery-custom-tab-upload" style="display:none;">
-                <div>Paste URL or upload image to generate imgbb URL</div>
+                <div>Paste URL or upload image to generate ImgBB URL</div>
                 <div class="upload-fields"></div>
                 <div><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.inputLivery()">Load livery</button></div>
                 <div class="livery-submit geofs-list-collapsible-item">Contribute to the LiverySelector Database
-                    <div class="geofs-collapsible no-api">-&gt; Fill in API key and Discord User ID in API tab.</div>
+                    <div class="geofs-collapsible no-api">-&gt; Enter your ImgBB API Key and Discord User ID in the API tab.</div>
                     <div class="geofs-collapsible api">
                         <label for="livery-submit-liveryname">Livery Name</label>
                         <input type="text" id="livery-submit-liveryname" class="mdl-textfield__input address-input">
                         <label for="livery-submit-credits">Author</label>
                         <input type="text" id="livery-submit-credits" class="mdl-textfield__input address-input">
                         <input type="checkbox" id="livery-submit-confirm-perms">
-                        <label for="livery-submit-confirm-perms">I am the author and have created the textures myself or have the permission from the author to use those textures.</label><br>
+                        <label for="livery-submit-confirm-perms">I am the author and have created the textures myself, or have permission from the author to use those textures.</label><br>
                         <input type="checkbox" id="livery-submit-confirm-legal">
-                        <label for="livery-submit-confirm-legal">I confirm the textures are safe for all ages, are non-offensive and appropriate for the game and don't violate any laws or other regulations.</label>
+                        <label for="livery-submit-confirm-legal">I confirm the textures are safe for all ages and audiences, non-offensive, appropriate, high-quality, and don't violate any laws or other regulations.</label>
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.submitLivery()">Submit livery for review</button>
                         <small>
                           Join our <a href="https://discord.gg/2tcdzyYaWU" target="_blank">Discord</a> to follow up on your contributions.
-                          By submitting you agree to the Discord server rules. Failing to comply may result in exclusion from further submits.
+                          By submitting the livery, you agree to the <a href="https://discord.com/terms" target="_blank">Discord Terms of Service</a> and our Discord server rules. Failing to comply may result in your submissions being ignored.
                         </small>
                     </div>
                 </div>
@@ -1138,7 +1138,7 @@ function generateListHTML() {
                 <div class="upload-fields"></div>
             </div>
             <div id="livery-custom-tab-download" style="display:none;">
-                <div>Download textures for current Airplane:</div>
+                <div>Download textures for current aircraft:</div>
                 <div class="download-fields"></div>
             </div>
             <div id="livery-custom-tab-api" style="display:none;">
@@ -1153,10 +1153,10 @@ function generateListHTML() {
             </div>
         </div>
         <br/>
-        <a href="https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/tutorial.txt" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open tutorial</button></a><br/>
-        <a href="https://discord.gg/2tcdzyYaWU" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Join our discord server</button></a><br/>
+        <a href="https://github.com/kolos26/GEOFS-LiverySelector/tree/main/tutorial" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open Tutorial</button></a><br/>
+        <a href="https://discord.gg/2tcdzyYaWU" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Join Our Discord</button></a><br/>
         <a href="https://github.com/kolos26/GEOFS-LiverySelector" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Visit our Github page</button></a><br/>
-        <a href="mailto:LiverySelector20220816@gmail.com" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Contact us: LiverySelector20220816@gmail.com</button></a><br/>
+        <a href="mailto:LiverySelector20220816@gmail.com" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Contact Us: LiverySelector20220816@gmail.com</button></a><br/>
 `;
 }
 
