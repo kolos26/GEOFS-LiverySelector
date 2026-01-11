@@ -4414,7 +4414,7 @@
                 "Specular shader",
                 "Texture"
             ],
-            "name": "Lokheed P38 Lightning"
+            "name": "Lockheed P38 Lightning"
         },
         "18": {
             "index": [
@@ -43406,7 +43406,7 @@
                 "Metallic Roughness shader",
                 "Texture for tail light"
             ],
-            "name": "Lokheed L1011-1 TriStar"
+            "name": "Lockheed L1011-1 TriStar"
         },
         "5193": {
             "index": [
@@ -47906,7 +47906,7 @@
                     "credits": "air1usa"
                 },
                 {
-                    "name": "Lokheed factory unpainted",
+                    "name": "Lockheed factory unpainted",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f35b/f-35-unpainted.png"
                     ],
@@ -47979,7 +47979,7 @@
             "labels": [
                 "Texture"
             ],
-            "name": "Lokheed Martin F35B Lightning II"
+            "name": "Lockheed Martin F35B Lightning II"
         },
         "3591": {
             "index": [
@@ -56080,6 +56080,144 @@
                 "Texture"
             ],
             "name": "Tupolev Tu-204"
+        },
+        "3036": {
+            "index": [
+                9,
+                0,
+                7,
+                8,
+                10,
+                11
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 9
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Engine_and_Reverser.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Engine_and_Reverser.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Rudder_and_Tail.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj195-e2/klm/Rudder_and_Tail.png"
+                    ],
+                    "credits": "Max2255556"
+                },
+                {
+                    "name": "Porter",
+                    "texture": [
+                        "https://i.ibb.co/PZR9HPRF/porterfueslage.png",
+                        "https://i.ibb.co/PZR9HPRF/porterfueslage.png",
+                        "https://i.ibb.co/bMLyKfsq/porterengine.png",
+                        "https://i.ibb.co/bMLyKfsq/porterengine.png",
+                        "https://i.ibb.co/D2JQHgF/portertail-1.png",
+                        "https://i.ibb.co/D2JQHgF/portertail-1.png"
+                    ],
+                    "credits": "thegreen121"
+                }
+            ],
+            "labels": [
+                "Texture",
+                "Door texture",
+                "Left engine texture",
+                "Right engine texture",
+                "Rudder texture",
+                "Tail texture"
+            ],
+            "name": "Embraer ERJ 195-E2"
+        },
+        "32": {
+            "index": [
+                1
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 1
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "NASA",
+                    "texture": [
+                        "https://www.geo-fs.com/models/aircraft/premium/t38/texture_0.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "Bears",
+                    "texture": [
+                        "https://www.geo-fs.com/models/aircraft/premium/t38/texture_1.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "USAF",
+                    "texture": [
+                        "https://www.geo-fs.com/models/aircraft/premium/t38/texture_2.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "NASA N924NA",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/t38/N924NA_NASA.png"
+                    ],
+                    "credits": "Jeffa"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "name": "Northrop T-38 Talon"
+        },
+        "5527": {
+            "index": [
+                0,
+                1
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/KLM_fuselage.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+                    ],
+                    "credits": "luca b"
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Wing texture"
+            ],
+            "name": "Boeing 747-400"
         }
     }
 }

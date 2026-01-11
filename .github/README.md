@@ -80,75 +80,108 @@ The liveries are stored in your airline.json as JSON objects. Into the [] bracke
 
 If you have any difficulties with setting up airline.json please feel free to contact us!
 
-In this time near all basic aircrafts are supported witch has originally more than one livery. The list of supported aircrafts is:
-- Aerospatiale France - British Aircraft Corporation Concorde
-- Airbus a220-300
-- Airbus a318-112
-- Airbus a319-100
-- Airbus a320-214
-- Airbus a320neo
-- Airbus a321-211
-- Airbus a321neo
-- Airbus a330-200
-- Airbus a330-900neo
-- Airbus a340-300
-- Airbus a350-1000
-- Airbus a350-900
-- Airbus a380-800
-- Alphajet PAF
-- Alisport Silent 2 Electro
-- Antonov An-140
-- ATR 72-600
-- Boeing 757-300
-- Boeing b737-200
-- Boeing b737-700
-- Boeing b737-800
-- Boeing b737-MAX8
-- Boeing b747-8I
-- Boeing b757-200
-- Boeing b757-300WL
-- Boeing b767-300ER
-- Boeing b767-400ER
-- Boeing b777-300ER
-- Boeing b787-10
-- Boeing b787-9
-- Boeing p8I Neptune
-- Bombardier CRJ200
-- Bombardier CRJ700
-- Bombardier Dash8-q400
-- Bombardier Learjet45
-- Britten-Norman BN2 Islander
-- Cameron R-650 Rozière Balloon
-- Cessna 152
-- Cessna 172 Skyhawk
-- Citroen 2CV
-- Colomban MC-15 Cri-cri
-- de Havilland Canada DHC2 Beaver
-- de Havilland Canada DHC6 Twin Otter
-- Dornier do228-200
-- Douglas DC-3
-- Embraer ERJ 145LR
-- Embraer ERJ 170
-- Embraer Phenom100
-- Evektor Sportstar
-- General Dynamics F16 Fighting Falcon
-- Goat Airchair
-- Leonardo - AugustaWestland AW609
-- Lokheed L1011-1 TriStar
-- Lokheed P38 Lightning
-- Major Tom (hot air balloon)
-- McDonell Douglas - Boeing F/A-18F Super Hornet
-- Paraglider
-- Pilatus PC-7 Mk-I
+In this time near all basic aircrafts are supported which has originally more than one livery. The list of supported aircrafts is:
+
 - Piper J3 Cub
-- Piper PA-28 161 Warrior II
+- Cessna 172 Skyhawk
+- Alphajet PAF
+- Boeing b737-700
+- Embraer Phenom100
+- de Havilland Canada DHC6 Twin Otter
+- General Dynamics F16 Fighting Falcon
 - Pitts Special S1
-- Potez 25
-- SAAB 340
-- Sonex-B kit
+- Eurocopter EC135
+- Airbus a380-800
+- Alisport Silent 2 Electro
+- Pilatus PC-7 Mk-I
+- de Havilland Canada DHC2 Beaver
+- Colomban MC-15 Cri-cri
+- Lokheed P38 Lightning
+- Douglas DC-3
 - Sukhoi Su-35 Flanker
-- Vans RV6
+- Aerospatiale France - British Aircraft Corporation Concorde
 - Zlin Z-50
+- Cessna 152
+- Piper PA-28 161 Warrior II
+- Airbus a350-900
+- Boeing b777-300ER
+- Antonov An-140
+- McDonell Douglas - Boeing F/A-18F Super Hornet
+- Beechcraft B55 Baron
+- Dessault Rafale M
+- Potez 25
+- Evektor Sportstar
+- szd-48-3 Jantar
+- Paraglider
+- Major Tom (hot air balloon)
+- Hughes 269a/TH-55 Osage
+- Goat Airchair
+- Citroen 2CV
+- Boeing b767-300ER
+- Boeing b757-200
+- Airbus a350-900
+- Bombardier Dash8-q400
+- Boeing b777-9X
+- Ilyushin IL-76TD
+- Embraer ERJ 190
+- McDonnell Douglas MD11
+- ATR 72-600
+- Boeing b737-MAX8
+- Antonov An-225 Mriya
+- Supermarine Spitfire Mk XIV
+- Cameron R-650 Rozière Balloon
+- Airbus a330-200
+- Lockheed Martin F22 Raptor
+- Leonardo - AugustaWestland AW609
+- Airbus a320neo
+- SAAB 340
+- Airbus a340-300
+- NASA Space Shuttle
+- Airbus a350-1000
+- Airbus a320-232
+- Boeing b737-800
+- Boeing b787-10
+- UTVA 75
+- Dornier do228-200
+- Boeing p8I Neptune
+- Bombardier CRJ700
+- Embraer ERJ 170
+- Dornier do228-100 Coast Guard
+- Grumman E-2 Hawkeye
+- Airbus a320-214
+- Boeing b787-9
+- McDonnell Douglas F-15C Eagle
+- Dessault Mirage 2000-5
+- Boeing b737-200
+- Britten-Norman BN2 Islander
+- Vans RV6
+- Airbus a330-900neo
+- Airbus a321neo
+- Boeing 757-300
+- Boeing b757-300WL
+- Boeing b767-400ER
+- Lockheed L1011-1 TriStar
+- Sonex-B kit
+- Airbus a321-211
+- Airbus a318-112
+- Boeing b747-8I
+- Boeing b737-600
+- Boeing 747SP
+- Lockheed Martin F35B Lightning II
+- Boeing b747-100 SCA
+- Dessault Mirage F1
+- Chengdu J-20
+- Boeing b747-400D
+- Northrop YF-23
+- CubCrafters CC19 XCub
+- Comac C919
+
+Supported planes added by the [Extra Vehicles addon](https://github.com/af267/GeoFS-Extra-Vehicles/):
+
+- Boeing b747-8F
+- Boeing b737-900
+- Boeing b777-200
+- Tupolev Tu-204
 
 ## Contributing to Our Database
 The best way to start contributing to LiverySelector is by joining our Discord server, where you can find useful materials (like texture maps and UVs) and helpful hands. You can find the maps that you can paint over [here](https://github.com/kolos26/GeoFS-Liveries-Storage/tree/main/maps).
