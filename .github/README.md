@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/liveryselector-logo.svg" width="100%"/><br />
-    <a target="_blank" href="https://discord.gg/2tcdzyYaWU"><img src="https://dcbadge.limes.pink/api/server/2tcdzyYaWU" alt="https://discord.gg/2tcdzyYaWU" /></a><br />
+    <a target="_blank" href="https://discord.gg/8kj5jpstuz"><img src="https://dcbadge.limes.pink/api/server/8kj5jpstuz" alt="https://discord.gg/8kj5jpstuz" /></a><br />
     <a href="https://github.com/kolos26/GEOFS-LiverySelector/releases/latest"><img alt="Release Badge" src="https://img.shields.io/github/release/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"></a> <img alt="Stars Badge" src="https://img.shields.io/github/stars/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"> <img alt="Watcher Badge" src="https://img.shields.io/github/watchers/kolos26/GEOFS-LiverySelector?style=flat-square&color=light-green"><br />
 </p>
 The GeoFS LiverySelector is a unified livery handler add-on designed for [GeoFS](https://www.geo-fs.com), containing hundreds of liveries and a feature-packed user interface to improve performance and accessibility. In the list of liveries, you can find:
