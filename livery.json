@@ -56851,6 +56851,28 @@
             ],
             "logo": true,
             "name": "Boeing 747-400"
+        },
+        "5847": {
+            "index": [
+                0,
+                1
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [],
+            "labels": [
+                "Texture",
+            ],
+            "logo": true,
+            "name": "Airbus A319neo"
         }
     }
 }
