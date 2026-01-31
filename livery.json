@@ -56851,6 +56851,64 @@
             ],
             "logo": true,
             "name": "Boeing 747-400"
+        },
+        "5847": {
+            "index": [
+                0,
+                1
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "China Southern Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319neo/CSN.png",
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Air China",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319neo/airchina.png",
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "K5 Aviation",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319neo/k5aviation.png",
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Spirit",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319neo/spirit.png",
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "West Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319neo/westair.png",
+                    ],
+                    "credits": "luca b"
+                },
+            ],
+            "labels": [
+                "Texture",
+            ],
+            "logo": true,
+            "name": "Airbus A319neo"
         }
     }
 }
