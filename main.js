@@ -166,6 +166,10 @@ async function handleLiveryJson(data) {
         }
         });
 
+        Object.keys(liveryobj.aircrafts).forEach(aircraftId => {
+            liveryobj.aircrafts[aircraftId].liveries.forEach((e, t) => e.idx ||= t);
+            liveryobj.aircrafts[aircraftId].liveries.sort((e, t) => e.name.localeCompare(t.name, undefined, { sensitivity: 'base' }));
+        })
 }
 
 /**
@@ -340,8 +344,6 @@ function listLiveries() {
     , acftId = geofs.aircraft.instance.id
     , airplane = getCurrentAircraft(); // chained variable declarations
     $('#listDiv').attr('data-ac', acftId); // tells us which aircraft's liveries are loaded
-    airplane.liveries.forEach((e, t) => e.idx ||= t);
-    airplane.liveries.sort((e, t) => e.name.localeCompare(t.name, undefined, { sensitivity: 'base' }));
     for (let i = 0; i < airplane.liveries.length; i++) {
         const e = airplane.liveries[i];
         if (e.disabled) continue;
