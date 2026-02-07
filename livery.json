@@ -56851,6 +56851,34 @@
             ],
             "logo": true,
             "name": "Boeing 747-400"
+        },
+        "5847": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "China Southern",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319neo/China Southern A319neo.png"
+                    ],
+                    "credits": "luca b"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "name": "Boeing 747-400"
         }
     }
 }
