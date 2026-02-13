@@ -56879,6 +56879,34 @@
             ],
             "logo": true,
             "name": "Airbus a319neo"
+        },
+        "5566": {
+            "index": [
+                2
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "Alaska",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj175/Alaska.jpg"
+                    ],
+                    "credits": "plane"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "name": "Embraer ERJ 175"
         }
     }
 }
