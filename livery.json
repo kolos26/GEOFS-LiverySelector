@@ -56947,29 +56947,29 @@
                             "material": 1
                         }
                     ],
+                    "materials":[
+                        {
+                            "name": "Fuse Main",
+                            "baseColorFactor": [
+                                0.458822,
+                                0.466658,
+                                0.486265
+                            ]
+                        },
+                        {
+                            "name": "Fuse Black",
+                            "baseColorFactor": [
+                                0.07451,
+                                0.07451,
+                                0.07451
+                            ]
+                        }
+                    ],
                     "credits": "Eco[LAC]"
                 }
             ],
-            "materials":[
-                {
-                    "name": "Fuse Main",
-                    "baseColorFactor": [
-                        0.458822,
-                        0.466658,
-                        0.486265
-                    ]
-                },
-                {
-                    "name": "Fuse Black",
-                    "baseColorFactor": [
-                        0.07451,
-                        0.07451,
-                        0.07451
-                    ]
-                }
-            ],
             "labels":[
-
+                "Texture"
             ],
             "logo": true,
             "name": ""
