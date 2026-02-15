@@ -56882,9 +56882,19 @@
         },
         "5566": {
             "index": [
-                2
+                2,
+                5,
+                6,
+                7,
+                8,
+                9
             ],
             "parts": [
+                0,
+                0,
+                0,
+                0,
+                0,
                 0
             ],
             "mp": [
@@ -56897,6 +56907,11 @@
                 {
                     "name": "Alaska",
                     "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj175/Alaska.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj175/Alaska.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj175/Alaska.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj175/Alaska.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj175/Alaska.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/embraer_erj175/Alaska.jpg"
                     ],
                     "credits": "plane"
