@@ -56930,11 +56930,18 @@
             "parts": [
                 0
             ],
+            "mp": "disabled",
             "liveries": [
                 {
                     "name": "US Navy - VF-105",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f14/F14 Sprite Sheet.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f14/F14 Sprite Sheet.png",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        }
                     ],
                     "credits": "Eco[LAC]"
                 }
