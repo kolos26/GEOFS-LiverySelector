@@ -56922,6 +56922,46 @@
             ],
             "logo": true,
             "name": "Embraer ERJ 175"
+        },
+        "2581": {
+            "index": [
+                1
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "US Navy - VF-105",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f14/F14 Sprite Sheet.png"
+                    ],
+                    "credits": "Eco[LAC]"
+                }
+            ],
+            "materials":[
+                {
+                    "name": "Fuse Main",
+                    "baseColorFactor": [
+                        0.458822,
+                        0.466658,
+                        0.486265
+                    ]
+                },
+                {
+                    "name": "Fuse Black",
+                    "baseColorFactor": [
+                        0.07451,
+                        0.07451,
+                        0.07451
+                    ]
+                }
+            ],
+            "labels":[
+
+            ],
+            "logo": true,
+            "name": ""
         }
     }
 }
