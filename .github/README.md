@@ -16,6 +16,13 @@ For every supported aircraft, by pressing the LiverySelector logo or by pressing
     <a target="_blank" href="https://www.youtube.com/watch?v=1w5u2R1dnVU"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg" /></a>
 </p>
 
+The following video offers an overview of how to install and use the LiverySelector.
+
+<p align="center">
+    <a target="_blank" href="https://youtube.com/watch?v=BmUjZIq5PtQ"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/BmUjZIq5PtQ/hqdefault.jpg" /></a>
+</p>
+
+
 ## How to Install This Add-on?
 ### Method 1: JavaScript Console
 1. Open the Inspect Panel of your browser by either using a keyboard shortcut or right-clicking anywhere on the webpage and choosing the "Inspect" or "Inspect Element" button.
