@@ -57001,6 +57001,34 @@
             ],
             "logo": true,
             "name": "Airbus a300-600"
+        },
+        "2989": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "USAF",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/reaper/mqtex_2.png"
+                    ],
+                    "credits": "Aero281"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "name": "MQ9B Reaper"
         }
     }
 }
