@@ -57029,6 +57029,40 @@
             ],
             "logo": true,
             "name": "MQ9B Reaper"
+        },
+        "1016": {
+            "index": [
+                1,
+                3,
+                5
+            ],
+            "parts": [
+                1,
+                1,
+                1
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "AirOne",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj900/EI-DOT.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj900/EI-DOT.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/bombardier_crj900/EI-DOT.png"
+                    ],
+                    "credits": "luca b"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": false,
+            "name": "Bombardier CRJ900"
         }
     }
 }
