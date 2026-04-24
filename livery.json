@@ -57063,6 +57063,28 @@
             ],
             "logo": false,
             "name": "Bombardier CRJ900"
+        },
+        "2310": {
+            "index":[
+                1
+            ],
+            "parts": [
+                0
+            ],
+            "liveries": [
+                {
+                    "name": "Placeholder",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/a10/PlainBackground.png"
+                    ],
+                    "credits": "Eco[LAC]"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "name": "Fairchild A10-C Thunderbolt II"
         }
     }
 }
