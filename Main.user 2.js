@@ -4,10 +4,6 @@ code
 // @namespace    https://github.com/Kolos26
 // @version      1.0
 // @description  Adds custom livery selector functionality to GeoFS
-// @author       Kolos26
-// @match        https://www.geo-fs.com/*
-// @grant        none
-// @run-at       document-end
 // ==/UserScript==
 
 //
