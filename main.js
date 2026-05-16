@@ -1,13 +1,13 @@
 code
 // ==UserScript==
-// @name         My Custom Script
-// @namespace    http://yournamespace.example.com
+// @name         GeoFS Livery Selector
+// @namespace    https://github.com/Kolos26
 // @version      1.0
-// @description  A short description of what your script does
-// @author       Your Name
-// @match        https://example.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=example.com
+// @description  Adds custom livery selector functionality to GeoFS
+// @author       Kolos26
+// @match        https://www.geo-fs.com/*
 // @grant        none
+// @run-at       document-end
 // ==/UserScript==
 
 //
