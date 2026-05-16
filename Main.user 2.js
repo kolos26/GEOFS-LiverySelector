@@ -3,7 +3,8 @@ code
 // @name         GeoFS Livery Selector
 // @namespace    https://github.com/Kolos26
 // @version      1.0
-// @description  Adds custom livery selector functionality to GeoFS
+// @description  Adds custom livery selector functionality to GeoF
+// @match  https://geo-fs.com/*
 // ==/UserScript==
 
 //
