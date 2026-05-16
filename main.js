@@ -1,4 +1,18 @@
-const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+code
+// ==UserScript==
+// @name         My Custom Script
+// @namespace    http://yournamespace.example.com
+// @version      1.0
+// @description  A short description of what your script does
+// @author       Your Name
+// @match        https://example.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=example.com
+// @grant        none
+// ==/UserScript==
+
+//
+(function() {
+    'use strict';const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
 const version = '3.4.1';
@@ -1213,4 +1227,4 @@ window.LiverySelector = {
     togglePanel,
 	log,
 	potatoSearch,
-};
+})();
