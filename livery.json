@@ -57085,6 +57085,104 @@
             ],
             "logo": true,
             "name": "Fairchild A10-C Thunderbolt II"
+        },
+        "2870": {
+            "index":[
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "BeOnd",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-232/BeOnd_A321.png"
+                    ],
+                    "credits": "luca b"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "name": "Airbus a321-232"
+        },
+        "17": {
+            "index":[
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "FedEx",
+                    "texture": [
+                        "/models/aircraft/premium/dc10/texture_0.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "US Air Force",
+                    "texture": [
+                        "/models/aircraft/premium/dc10/texture_1.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "10 Air Tanker Carrier",
+                    "texture": [
+                        "/models/aircraft/premium/dc10/texture_2.jpg"
+                    ],
+                    "credits": "GeoFS"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "name": "McDonell Douglas DC-10-40"
         }
-    }
+    },
+    "2003": {
+            "index":[
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "Lufthansa",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b720/Lufthansa_old_design_Boeing_720.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "name": "Boeing 720"
+        }
 }
