@@ -57155,34 +57155,34 @@
             ],
             "logo": true,
             "name": "McDonell Douglas DC-10-40"
-        }
-    },
-    "2003": {
-            "index":[
-                0
-            ],
-            "parts": [
-                0
-            ],
-            "mp": [
-                {
-                    "modelIndex": 0,
-                    "textureIndex": 0
-                }
-            ],
-            "liveries": [
-                {
-                    "name": "Lufthansa",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b720/Lufthansa_old_design_Boeing_720.jpg"
-                    ],
-                    "credits": "Ivan Dmitriev"
-                }
-            ],
-            "labels": [
-                "Texture"
-            ],
-            "logo": true,
-            "name": "Boeing 720"
-        }
+        },
+        "2003": {
+                "index":[
+                    0
+                ],
+                "parts": [
+                    0
+                ],
+                "mp": [
+                    {
+                        "modelIndex": 0,
+                        "textureIndex": 0
+                    }
+                ],
+                "liveries": [
+                    {
+                        "name": "Lufthansa",
+                        "texture": [
+                            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b720/Lufthansa_old_design_Boeing_720.jpg"
+                        ],
+                        "credits": "Ivan Dmitriev"
+                    }
+                ],
+                "labels": [
+                    "Texture"
+                ],
+                "logo": true,
+                "name": "Boeing 720"
+            }
+    }
 }
