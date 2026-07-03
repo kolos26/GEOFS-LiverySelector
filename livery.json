@@ -72,6 +72,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/piper_cub/Geo-FS-Livery-Maker-5.png"
                     ],
                     "credits": "ljwalch"
+                },
+                {
+                    "name": "EW-444LL",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_172/Cessna172_EW-444LL.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
                 }
             ],
             "labels": [
@@ -617,8 +624,16 @@
                     "name": "Patriots Jet Team",
                     "credits": "ljwalch",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/raf/alpha02-T-1.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/raf/alpha01-T.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/patriots/alpha02-T-1.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/patriots/alpha01-T.png"
+                    ]
+                },
+                {
+                    "name": "Japan Air Self-Defence Force",
+                    "credits": "yamamofly",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/jasdf/T-4body.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/alphajet/jasdf/T-4_wing.png"
                     ]
                 }
             ],
@@ -4128,6 +4143,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/pilatus_pc7/Pilatus_PC7_Martini_e1.png",
                         "/models/aircraft/premium/pilatus/propblur.png"
                     ]
+                },
+                {
+                    "name": "Royal New Zealand Air Force",
+                    "texture": [
+                        "/models/aircraft/premium/pilatus/normal.jpg",
+                        "/models/aircraft/premium/pilatus/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/pilatus_pc7/pilatusrnzaf.jpg",
+                        "/models/aircraft/premium/pilatus/propblur.png"
+                    ],
+                    "credits": "Raptor4001"
                 }
             ],
             "labels": [
@@ -12623,6 +12648,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/SAS_A319.png"
                     ],
                     "credits": "A350VNA6747"
+                },
+                {
+                    "name": "Bulgaria Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a319-100/bul-air_a319_lz-fbb_geofs_livery.png"
+                    ],
+                    "credits": "DarinAlekzandar"
                 }
             ],
             "labels": [
@@ -13790,6 +13822,34 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Cambodia_Angkor_Air_White_Nose_-_ATR_72-600.png"
                     ],
                     "credits": "LOL369YT & VerybadA330"
+                },
+                {
+                    "name": "VASCO (white nose)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/VASCO_White_Nose_-_ATR_72-600.png"
+                    ],
+                    "credits": "LOL369YT"
+                },
+                {
+                    "name": "Vietnam Airlines (Classic Design Type 1 - With Cambodia Angkor Air's cargo door)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Vietnam_Airlines_Classic_Design_Type_1_-_With_Cambodia_Angkor_Airs_cargo_door_-_ATR_72.png"
+                    ],
+                    "credits": "LOL396YT"
+                },
+                {
+                    "name": "VASCO (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/2025_11_02_0ws_Kleki.png"
+                    ],
+                    "credits": "VerybadA330"
+                },
+                {
+                    "name": "Aerlink",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/Untitled_design_71.png"
+                    ],
+                    "credits": "Qantasfan89"
                 }
             ],
             "labels": [
@@ -18308,6 +18368,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/Avianca_Retro_-_N284AV_-_A320-214.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "AirAsia Airbus (Sixcap TAGG livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320-214/fin_ver_AirAsia_TAGG.png"
+                    ],
+                    "credits": "garom"
                 }
             ],
             "labels": [
@@ -20143,6 +20210,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/Avianca_AeroGal_Heritage_design_A320Neo.png"
                     ],
                     "credits": "Lego and Avgeek YT"
+                },
+                {
+                    "name": "TigerAir",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a320neo/tiger_test3.png"
+                    ],
+                    "credits": "HNDspotterBCHA"
                 }
             ],
             "labels": [
@@ -24505,6 +24579,62 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/PK-LZS_improved_1.png"
                     ],
                     "credits": "garom"
+                },
+                {
+                    "name": "Turkish airlines (Nevşehir sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/IMG_0302-1.jpg"
+                    ],
+                    "credits": "ChaosReactor"
+                },
+                {
+                    "name": "Garuda Indonesia (Tahilalats livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Garuda_tahilalats_2.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Garuda Indonesia (Passion Jewelry livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Garuda_Passion_Jewelry_2.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Garuda Indonesia (PPA sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Garuda_Indonesia_PPA_1.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Garuda Indonesia (2024 National Sports Week sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Garuda_Indonesia_PON_XXI.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Garuda Indonesia(75th Independence Day sticker)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/Garuda_Indonesia_HUT_RI_75.png"
+                    ],
+                    "credits": "garom"
+                },
+                {
+                    "name": "Hainan Airlines (Mixue Icecream & Tea livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/737.png"
+                    ],
+                    "credits": "TOMAIIM"
+                },
+                {
+                    "name": "South African Airways (Leased from Sun Express)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/South_African_Airways_Leassed_from_Sun_Express_design_737-800.png"
+                    ],
+                    "credits": "Lego and Avgeek YT"
                 }
             ],
             "labels": [
@@ -34650,7 +34780,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-300er/garudasky.png"
-                    ]
+                    ],
+                    "credits": "SQ981"
                 },
                 {
                     "name": "Korean Air Lines (Skyteam livery)",
@@ -39106,6 +39237,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Swift_Air_A321-231PCF.png"
                     ],
                     "credits": "Geofs Player Bilibili"
+                },
+                {
+                    "name": "Jubba Airways Airbus (leased from Olympus Airways)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321-211/Jubba_A321_4.png"
+                    ],
+                    "credits": "garom"
                 }
             ],
             "labels": [
@@ -48435,6 +48573,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/SkyExpress.ru_Boeing_737-600.jpg"
                     ],
                     "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "Air France",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/Air_France_736.png"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Belavia (retro livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/Belavia_Retro_livery_Boeing_737-600.jpg"
+                    ],
+                    "credits": "Ivan Dmitriev"
                 }
             ],
             "labels": [
@@ -49043,6 +49195,16 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
                     ],
                     "credits": "darkdino76"
+                },
+                {
+                    "name": "Royal Air Force - 3rd Squadron",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/Z941.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                    "credits": "DarkDino76"
                 }
             ],
             "labels": [
@@ -50448,6 +50610,14 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/IBERIA_MD-11_old_colorblack_nose.png"
                     ],
                     "credits": "alonso_"
+                },
+                {
+                    "name": "Japan Air System (planned livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Japan_Air_System_MD-11_JA8590.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/mcdonell_md11/Japan_Air_System_MD-11_JA8590.png"
+                    ],
+                    "credits": "HNDspotterBCHA"
                 }
             ],
             "labels": [
@@ -52566,6 +52736,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/alitalia.png"
                     ],
                     "credits": "CNParrot & luca b"
+                },
+                {
+                    "name": "National Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-100sca/National_Airlines_747-100.png"
+                    ],
+                    "credits": "JustFrost"
                 }
             ],
             "labels": [
