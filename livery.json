@@ -4102,6 +4102,60 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/A380_Emirates_Skywards.png"
                     ],
                     "credits": "GeoFS Flight Video Group & Youtube VR PoZz"
+                },
+                {
+                    "name": "ANA (unpainted)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/e60eff58-40b6-4826-91eb-19561d7b41fc.png"
+                    ],
+                    "credits": "Jamal"
+                },
+                {
+                    "name": "Lufthansa (old design - unpainted)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/dedff71d-9133-46c9-9860-be26c9c3e9c4.png"
+                    ],
+                    "credits": "Jamal"
+                },
+                {
+                    "name": "Asiana (unpainted)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/8bc7ee23-cf87-4918-9571-971862fb68ab.png"
+                    ],
+                    "credits": "Jamal"
+                },
+                {
+                    "name": "British Airways (unpainted)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/23c06617-62e9-4612-bac7-0ca75efc9b3d.png"
+                    ],
+                    "credits": "Jamal"
+                },
+                {
+                    "name": "Etihad Airways (unpainted)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/3f7597ed-004e-4a7c-a143-1a758613280b.png"
+                    ],
+                    "credits": "Jamal"
+                },
+                {
+                    "name": "Emirates Courier Express",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a380/A6_EET_Emirates_Courier_Express_GFVG.png"
+                    ],
+                    "credits": "GeoFS Flight Video Group"
                 }
             ],
             "labels": [
@@ -14544,12 +14598,6 @@
                     "credits": "RYANAIR5719"
                 },
                 {
-                    "name": "KLM",
-                    "texture": [
-                        "/backend/aircraft/repository/Boeing 787-10 Dreamliner (ANA)_427352_3575/texture_52.jpg"
-                    ]
-                },
-                {
                     "name": "Vistara",
                     "texture": [
                         "/backend/aircraft/repository/Boeing%20787-10%20Dreamliner%20(ANA)_427352_3575/texture_53.jpg"
@@ -14754,7 +14802,8 @@
                     "name": "Qatar Airways",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/qatar.png"
-                    ]
+                    ],
+                    "credits": "Ivan Dmirtiev"
                 },
                 {
                     "name": "Saudia",
@@ -15744,6 +15793,20 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/Aeromexico_Nuevo_-_Boeing_787.png"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/KLM_789.png"
+                    ],
+                    "credits": "JustFrost & Ivan Dmitriev"
+                },
+                {
+                    "name": "Air Canada (Employee Rewards 2024 livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-9/2025_12_17_0x7_Kleki.png"
+                    ],
+                    "credits": "VerybadA330"
                 }
             ],
             "labels": [
@@ -21707,6 +21770,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/SWA_B7M8.png"
                     ],
                     "credits": "siancappy"
+                },
+                {
+                    "name": "TUI (D-AMAX)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-max8/TUI_737_MAX_8.png"
+                    ],
+                    "credits": "Luca B"
                 }
             ],
             "labels": [
@@ -21917,7 +21987,7 @@
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b787-10/KLM 787-10.png"
                     ],
-                    "credits": "luca b"
+                    "credits": "Ivan Dmirtiev"
                 },
                 {
                     "name": "KLM (100th anniversary livery)",
@@ -34564,6 +34634,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/Sun_PhuQuoc_Airways_with_mask-_A321neo.png"
                     ],
                     "credits": "LOL369YT, Lê Thành Đạt & opaldelta_17676"
+                },
+                {
+                    "name": "Magnífica Air",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a321neo/MA_-_Airbus_A321neo.png"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -49934,6 +50011,62 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/Lufthansa_Boeing_737-600.jpg"
                     ],
                     "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "AOM",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/737-600.png"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "United Airlines (Saul Bass design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/737-600_united.png"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "United Airlines (Battleship Grey livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/2025_12_17_106_Kleki.png"
+                    ],
+                    "credits": "VerybadA330"
+                },
+                {
+                    "name": "Turkish Airlines (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/737-600_turkish_airlines_old.png"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "Turkish Airlines (new design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/737-600_turkish_airlines.png"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "Shuttle by United",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/United_Shuttle_737-600.png"
+                    ],
+                    "credits": "VerybadA330"
+                },
+                {
+                    "name": "LOT (Star Alliance livery)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/737-600_star_alliance_Eyebrows.png"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "United Shuttle",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-600/2025_12_18_10h_Kleki.png"
+                    ],
+                    "credits": "VerybadA330"
                 }
             ],
             "labels": [
