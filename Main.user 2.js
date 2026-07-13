@@ -1,4 +1,14 @@
-const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
+code
+// ==UserScript==
+// @name         GeoFS Livery Selector
+// @version      1.0
+// @description  Adds custom livery selector functionality to GeoF
+// @match  https://geo-fs.com/*
+// ==/UserScript==
+
+//
+(function() {
+    'use strict';const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
 const version = '3.4.1';
@@ -1213,4 +1223,4 @@ window.LiverySelector = {
     togglePanel,
 	log,
 	potatoSearch,
-};
+})();
