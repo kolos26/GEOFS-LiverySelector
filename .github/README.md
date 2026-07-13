@@ -38,7 +38,7 @@ This method only needs to be done once. After that, the add-on should work autom
 
 You can use LiverySelector without installation, or you can add it to your Tampermonkey browser addon.
 
-## Virtal Airlines
+## Virtual Airlines
 Since LiverySelector 3.2.0, you can link your own copy of [airline.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/airline.json) to have an easily shareable database of custom liveries.
 You can add an airline by clicking on **+ Add Airline** button, and you can always remove it by clicking the **- Remove Airline** button. The airline.json is being synced each time you load geofs, the list of subscribed airlines are saved locally and being kept from game to game.
 Due to security reasons, these liveries are not visible in multiplayer mode by default. If you would like to make your liveries visible, please contact us on [discord](https://discord.gg/2tcdzyYaWU) to verify your airline and put it on the whitelist. The owner of the airline.json is responsible for ALL CONTENT displayed on the liveries!
