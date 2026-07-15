@@ -60591,6 +60591,33 @@
             ],
             "logo": true,
             "name": "Airbus a340-600"
+        },
+        "an124_267286_6014": {
+            "index": [
+                2,
+                3
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "Antonov Airlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an124/antonov/main.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/antonov_an124/antonov/engine.jpg"
+                    ],
+                    "credits": "NS-Studios & AF267"
+                }
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Engine texture"
+            ],
+            "logo": true,
+            "name": "Antonov An-124 Ruslan"
         }
     }
 }
