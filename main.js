@@ -56,7 +56,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
         const airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2]]
         , livery = airplane.liveries[idx];
         livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
-        livery.mp != 'disabled' && setMPObject(airplane, idx, livery));
+        livery.mp != 'disabled' && setInstanceId(idx, alias = livery.alias));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     livList.addEventListener('error', function(e) {
 		const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
@@ -145,10 +145,8 @@ async function handleLiveryJson(data) {
         let ac = liveryobj.aircrafts[ac_path];
         let aircraftId = ac.acid;
         if (!ac.logo) {
-        console.log(ac.name, "no logo");
             return; //return if only the id is used by extra vehicles
         }
-        console.log(ac.name);
         const element = document.querySelector(`[data-aircraft='${aircraftId}']`);
         // save original HTML for later use (reload, aircraft change, etc..)
         if (element) {
@@ -410,38 +408,19 @@ function loadAirlines() {
                     id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
                     class: 'livery-list-item'
                 });
-                if (airplane.logo){
-                    if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
-                        const texture = e.texture[0];
-                        listItem.onclick = () => {
-                            loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, idx: i + LIVERY_ID_OFFSET});
-                            }
-                        }
-                    } else {
-                        listItem.onclick = () => {
-                            loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, idx: i + LIVERY_ID_OFFSET});
-                            }
+                if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
+                    const texture = e.texture[0];
+                    listItem.onclick = () => {
+                        loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
+                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                            setInstanceId(i, e.alias, airline.url);
                         }
                     }
                 } else {
-                    if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
-                        const texture = e.texture[0];
-                        listItem.onclick = () => {
-                            loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: i + LIVERY_ID_OFFSET});
-                            }
-                        }
-                    } else {
-                        listItem.onclick = () => {
-                            loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: i + LIVERY_ID_OFFSET});
-                            }
+                    listItem.onclick = () => {
+                        loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
+                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                            setInstanceId(i, e.alias, airline.url);
                         }
                     }
                 }
@@ -457,38 +436,19 @@ function loadAirlines() {
                     id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
                     class: 'livery-list-item'
                 });
-                if (airplane.logo){
-                    if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
-                        const texture = e.texture[0];
-                        listItem.onclick = () => {
-                            loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, idx: i + LIVERY_ID_OFFSET});
-                            }
-                        }
-                    } else {
-                        listItem.onclick = () => {
-                            loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, idx: i + LIVERY_ID_OFFSET});
-                            }
+                if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
+                    const texture = e.texture[0];
+                    listItem.onclick = () => {
+                        loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
+                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                            setInstanceId(i, airline.url);
                         }
                     }
                 } else {
-                    if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
-                        const texture = e.texture[0];
-                        listItem.onclick = () => {
-                            loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: i + LIVERY_ID_OFFSET});
-                            }
-                        }
-                    } else {
-                        listItem.onclick = () => {
-                            loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
-                            if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                                setInstanceId({url: airline.url, ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: i + LIVERY_ID_OFFSET});
-                            }
+                    listItem.onclick = () => {
+                        loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
+                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                            setInstanceId(i, airline.url);
                         }
                     }
                 }
@@ -881,16 +841,8 @@ function getCurrentAircraft() {
     return liveryobj.aircrafts[geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2]];
 }
 
-function setInstanceId(id) {
-    geofs.aircraft.instance.liveryId = id;
-}
-
-function setMPObject(airplane, id, livery){
-    if (airplane.logo){
-        setInstanceId(id + LIVERY_ID_OFFSET);
-    } else {
-        setInstanceId({ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: id + LIVERY_ID_OFFSET});
-    }
+function setInstanceId(id, alias, url=undefined) {
+    geofs.aircraft.instance.liveryId = {ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: id +  LIVERY_ID_OFFSET, url: url, [Symbol.toPrimitive](hint) {if (hint === "default"){if(alias) return alias; else return "0";} return null;}};
 }
 
 async function updateMultiplayer() {
@@ -899,41 +851,11 @@ async function updateMultiplayer() {
     const texturePromises = users.map(async u => {
         let liveryEntry;
         let otherId = u.currentLivery;
-        console.log(otherId);
-        if (otherId !== null && typeof otherId === "object"){ //TODO ugyanez virtualra, lebutítani a másikat
-            console.log(otherId.ac_path);
-            if (otherId.ac_path !== undefined && otherId.url === undefined){
+        if (otherId !== null && typeof otherId === "object"){
+            if (otherId.url === undefined){
                 liveryEntry = liveryobj.aircrafts[otherId.ac_path];
                 otherId = otherId.idx;
-            } else if (otherId.url !== undefined && otherId.ac_path === undefined) {
-                if (mpAirlineobjs[otherId.url] === undefined){
-                    await fetch(otherId.url).then(res => res.json()).then(data => mpAirlineobjs[otherId.url] = data);
-                    let mp_data;
-                    Object.keys(mpAirlineobjs[otherId.url].aircrafts).forEach(ac => {
-                        if (liveryobj.aircrafts[ac] !== undefined) { // va file indexed by path
-                            mpAirlineobjs[otherId.url].aircrafts[ac].mp = liveryobj.aircrafts[ac].mp;
-                        } else { // va indexed by id
-                            Object.keys(liveryobj.aircrafts).forEach(ac_path => {
-                                let ac = liveryobj.aircrafts[ac_path];
-                                if (mpAirlineobjs[otherId.url].aircrafts[ac.acid] !== undefined){
-                                    mpAirlineobjs[otherId.url].aircrafts[ac.acid].mp = ac.mp;
-                                }
-                            });
-                        }
-                    });
-                }
-                Object.keys(mpAirlineobjs[otherId.url].aircrafts).forEach(ac_path => {
-                let ac = mpAirlineobjs[otherId.url].aircrafts[ac_path];
-                if (liveryobj.aircrafts[ac_path] !== undefined) { // va indexed by path
-                    if (u.aircraft == liveryobj.aircrafts[ac_path].acid) {
-                        liveryEntry = ac;
-                    }
-                } else if (u.aircraft == ac_path){ // va indexed by id
-                    liveryEntry = ac;
-                }
-            });
-                otherId = otherId.idx;
-            } else if (otherId.ac_path !== undefined && otherId.url !== undefined){
+            } else {
                 if (mpAirlineobjs[otherId.url] === undefined){
                     await fetch(otherId.url).then(res => res.json()).then(data => mpAirlineobjs[otherId.url] = data);
                     let mp_data;
@@ -969,7 +891,6 @@ async function updateMultiplayer() {
         console.log(otherId);
 
         if (!liveryEntry || !u.model || liveryEntry.mp == 'disabled') {
-        //if (!liveryEntry || !u.model) { // TODO change back, testing
             return; // without livery or disabled
         }
 
@@ -1327,6 +1248,5 @@ window.LiverySelector = {
 	setInstanceId,
     togglePanel,
 	log,
-	potatoSearch,
-    setMPObject
+	potatoSearch
 };
