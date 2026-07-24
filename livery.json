@@ -22,14 +22,16 @@
                     "texture": [
                         "/models/aircraft/premium/cub/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Red",
                     "texture": [
                         "/models/aircraft/premium/cub/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "NC29508",
@@ -142,14 +144,16 @@
                     "texture": [
                         "/models/aircraft/premium/cessna_172/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "N5290V",
                     "texture": [
                         "/models/aircraft/premium/cessna_172/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "Turkish Airlines",
@@ -706,7 +710,8 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "United Airlines (old design)",
@@ -715,7 +720,8 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "ANA",
@@ -724,7 +730,8 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 },
                 {
                     "name": "Southwest Airlines",
@@ -733,7 +740,8 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_3.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "3"
                 },
                 {
                     "name": "WestJet (old design)",
@@ -742,7 +750,8 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_4.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "4"
                 },
                 {
                     "name": "GOL",
@@ -751,7 +760,8 @@
                         "/models/aircraft/premium/737_700/specular.jpg",
                         "/models/aircraft/premium/737_700/texture_5.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "5"
                 },
                 {
                     "name": "Ryanair",
@@ -2685,7 +2695,8 @@
                         "/models/aircraft/premium/dhc6/5_0.jpg",
                         "/models/aircraft/premium/dhc6/4_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Canadian Air Force",
@@ -2695,7 +2706,8 @@
                         "/models/aircraft/premium/dhc6/5_1.jpg",
                         "/models/aircraft/premium/dhc6/4_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "Air Moorea",
@@ -2705,7 +2717,8 @@
                         "/models/aircraft/premium/dhc6/5_2.jpg",
                         "/models/aircraft/premium/dhc6/4_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 },
                 {
                     "name": "SkyBus",
@@ -3623,7 +3636,8 @@
                         "/models/aircraft/premium/pitts/Pitts_texture_02_T_0.jpg",
                         "/models/aircraft/premium/pitts/Pitts_texture_01_T_0.jpg",
                         "/models/aircraft/premium/pitts/Pitts_texture_03_T_0.jpg"
-                    ]
+                    ],
+                    "alias": "0"
                 },
                 {
                     "name": "Airshow",
@@ -3632,7 +3646,8 @@
                         "/models/aircraft/premium/pitts/Pitts_texture_02_T_1.jpg",
                         "/models/aircraft/premium/pitts/Pitts_texture_01_T_1.jpg",
                         "/models/aircraft/premium/pitts/Pitts_texture_03_T_1.jpg"
-                    ]
+                    ],
+                    "alias": "1"
                 },
                 {
                     "name": "N7110",
@@ -4165,7 +4180,8 @@
                         "/models/aircraft/premium/a380/specular.jpg",
                         "/models/aircraft/premium/a380/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Air France",
@@ -4183,7 +4199,8 @@
                         "/models/aircraft/premium/a380/specular.jpg",
                         "/models/aircraft/premium/a380/texture_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 },
                 {
                     "name": "Airbus house livery (old design)",
@@ -4889,7 +4906,8 @@
                         "/models/aircraft/premium/pilatus/specular.jpg",
                         "/models/aircraft/premium/pilatus/texture.jpg",
                         "/models/aircraft/premium/pilatus/propblur.png"
-                    ]
+                    ],
+                    "alias": "0"
                 },
                 {
                     "name": "Swiss Air Force (red and white design)",
@@ -4899,7 +4917,8 @@
                         "/models/aircraft/premium/pilatus/specular.jpg",
                         "/models/aircraft/premium/pc7/texture_1.jpg",
                         "/models/aircraft/premium/pilatus/propblur.png"
-                    ]
+                    ],
+                    "alias": "1"
                 },
                 {
                     "name": "Swiss Air Force (orange design)",
@@ -4909,7 +4928,8 @@
                         "/models/aircraft/premium/pilatus/specular.jpg",
                         "/models/aircraft/premium/pc7/texture_2.jpg",
                         "/models/aircraft/premium/pilatus/propblur.png"
-                    ]
+                    ],
+                    "alias": "2"
                 },
                 {
                     "name": "Pilatus factory HB-HDI",
@@ -4919,7 +4939,8 @@
                         "/models/aircraft/premium/pilatus/specular.jpg",
                         "/models/aircraft/premium/pc7/texture_3.jpg",
                         "/models/aircraft/premium/pilatus/propblur.png"
-                    ]
+                    ],
+                    "alias": "3"
                 },
                 {
                     "name": "Royal Air Force",
@@ -4981,63 +5002,72 @@
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "N963DH Green-White",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "N323KT Red-White",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 },
                 {
                     "name": "N297B White-Brown",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_3.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "3"
                 },
                 {
                     "name": "Lakeland Airways",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_4.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "4"
                 },
                 {
                     "name": "Kenmore 66Z",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_5.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "5"
                 },
                 {
                     "name": "Clipper Aviation",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_6.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "6"
                 },
                 {
                     "name": "Civil Air Patrol",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_7.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "7"
                 },
                 {
                     "name": "Alaska Forestry",
                     "texture": [
                         "/models/aircraft/premium/dhc2/texture_8.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "8"
                 },
                 {
                     "name": "Harbour Air",
@@ -5160,7 +5190,8 @@
                         "/models/aircraft/premium/cricri/texture_0.jpg",
                         "/models/aircraft/premium/cricri/interior_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Bleu Blanc Rouge",
@@ -5168,7 +5199,8 @@
                         "/models/aircraft/premium/cricri/texture_1.jpg",
                         "/models/aircraft/premium/cricri/interior_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "Camo",
@@ -5176,7 +5208,8 @@
                         "/models/aircraft/premium/cricri/texture_2.jpg",
                         "/models/aircraft/premium/cricri/interior_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 }
             ],
             "labels": [
@@ -5209,7 +5242,8 @@
                         "/models/aircraft/premium/p38/specular.jpg",
                         "/models/aircraft/premium/p38/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Saint-Exupery",
@@ -5217,7 +5251,8 @@
                         "/models/aircraft/premium/p38/specular.jpg",
                         "/models/aircraft/premium/p38/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "US Air Force (Yippee)",
@@ -5311,28 +5346,32 @@
                     "texture": [
                         "/models/aircraft/premium/su35/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Russia Bort 01",
                     "texture": [
                         "/models/aircraft/premium/su35/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "Russia Bort 06",
                     "texture": [
                         "/models/aircraft/premium/su35/texture_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 },
                 {
                     "name": "Russia Bort 901",
                     "texture": [
                         "/models/aircraft/premium/su35/texture_3.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "3"
                 },
                 {
                     "name": "Russian Knights",
@@ -5529,28 +5568,32 @@
                     "texture": [
                         "/models/aircraft/premium/concorde/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Air France",
                     "texture": [
                         "/models/aircraft/premium/concorde/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "Pepsi",
                     "texture": [
                         "/models/aircraft/premium/concorde/texture_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 },
                 {
                     "name": "Aerospatiale France - British Aircraft Corporation house livery",
                     "texture": [
                         "/models/aircraft/premium/concorde/texture_3.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "3"
                 },
                 {
                     "name": "British Airways - Singapore Airlines",
@@ -6766,56 +6809,64 @@
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_0.jpg"
-                    ]
+                    ],
+                    "alias": "0"
                 },
                 {
                     "name": "Pixels",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_1.jpg"
-                    ]
+                    ],
+                    "alias": "1"
                 },
                 {
                     "name": "GeoFS",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_2.jpg"
-                    ]
+                    ],
+                    "alias": "2"
                 },
                 {
                     "name": "Losanges",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_3.jpg"
-                    ]
+                    ],
+                    "alias": "3"
                 },
                 {
                     "name": "Red",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_4.jpg"
-                    ]
+                    ],
+                    "alias": "4"
                 },
                 {
                     "name": "Orange",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_5.jpg"
-                    ]
+                    ],
+                    "alias": "5"
                 },
                 {
                     "name": "Scale",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_6.jpg"
-                    ]
+                    ],
+                    "alias": "6"
                 },
                 {
                     "name": "Christmas",
                     "credits": "GeoFS",
                     "texture": [
                         "/models/aircraft/premium/majortom/texture_7.jpg"
-                    ]
+                    ],
+                    "alias": "7"
                 },
                 {
                     "name": "Blue",
@@ -7068,7 +7119,8 @@
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "/models/aircraft/premium/2cv/texture_0.jpg"
-                    ]
+                    ],
+                    "alias": "0"
                 },
                 {
                     "name": "Yellow (Jaune)",
@@ -7077,7 +7129,8 @@
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "/models/aircraft/premium/2cv/texture_1.jpg"
-                    ]
+                    ],
+                    "alias": "1"
                 },
                 {
                     "name": "Green (Verte)",
@@ -7086,7 +7139,8 @@
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "/models/aircraft/premium/2cv/texture_2.jpg"
-                    ]
+                    ],
+                    "alias": "2"
                 },
                 {
                     "name": "Red (Rouge)",
@@ -7095,7 +7149,8 @@
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "/models/aircraft/premium/2cv/texture_3.jpg"
-                    ]
+                    ],
+                    "alias": "3"
                 },
                 {
                     "name": "Charleston",
@@ -7104,7 +7159,8 @@
                         "/models/aircraft/premium/2cv/normals.jpg",
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "/models/aircraft/premium/2cv/texture_4.jpg"
-                    ]
+                    ],
+                    "alias": "4"
                 },
                 {
                     "name": "Charleston",
@@ -32535,7 +32591,8 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "/models/aircraft/premium/a350/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Delta Air Lines",
@@ -45849,14 +45906,16 @@
                     "texture": [
                         "/models/aircraft/premium/fa18/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "US Navy - VFA-103 Jolly Rogers",
                     "texture": [
                         "/models/aircraft/premium/fa18/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "US Navy - VFA-41 Black Aces",
@@ -52084,7 +52143,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Argentine Air Force (planned livery)",
@@ -52124,7 +52184,8 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "Armée de l'air - SPA162 NATO Tiger Meet 2013",
@@ -61062,21 +61123,24 @@
                     "texture": [
                         "/models/aircraft/premium/t38/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "Bears",
                     "texture": [
                         "/models/aircraft/premium/t38/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "USAF - 904",
                     "texture": [
                         "/models/aircraft/premium/t38/texture_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 },
                 {
                     "name": "NASA N924NA",
