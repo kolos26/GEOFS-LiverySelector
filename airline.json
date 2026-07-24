@@ -3,7 +3,7 @@
     "color": "",
     "bgcolor": "",
     "aircrafts": {
-        "1": {
+        "cub": {
             "name": "Piper J3 Cub",
             "liveries": [
             ],
@@ -11,7 +11,7 @@
                 "Texture"
             ]
         },
-        "2": {
+        "cessna_172": {
             "name": "Cessna 172 Skyhawk",
             "liveries": [
             ],
@@ -19,7 +19,7 @@
                 "Texture"
             ]
         },
-        "3": {
+        "alphajet_paf": {
             "name": "Alphajet PAF",
             "liveries": [
             ],
@@ -28,7 +28,7 @@
                 "Wing texture"
             ]
         },
-        "4": {
+        "737_700": {
             "name": "Boeing b737-700",
             "liveries": [
             ],
@@ -38,7 +38,7 @@
                 "Texture"
             ]
         },
-        "6": {
+        "dhc6": {
             "name": "de Havilland Canada DHC6 Twin Otter",
             "liveries": [
             ],
@@ -49,7 +49,18 @@
                 "Texture Right"
             ]
         },
-        "8": {
+        "dhc6_267286_6043": {
+            "name": "de Havilland Canada DHC6 Twin Otter Floatplane",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture",
+                "Texture Left",
+                "Texture Bottom",
+                "Texture Right"
+            ]
+        },
+        "pitts": {
             "name": "Pitts Special S1",
             "liveries": [
             ],
@@ -59,7 +70,7 @@
                 "Gear texture"
             ]
         },
-        "9": {
+        "ec135": {
             "name": "Eurocopter EC135",
             "liveries": [
             ],
@@ -69,7 +80,7 @@
                 "Texture"
             ]
         },
-        "10": {
+        "a380": {
             "name": "Airbus a380-800",
             "liveries": [
             ],
@@ -79,7 +90,7 @@
                 "Texture"
             ]
         },
-        "11": {
+        "silent2": {
             "name": "Alisport Silent 2 Electro",
             "liveries": [
             ],
@@ -89,7 +100,7 @@
                 "Texture"
             ]
         },
-        "12": {
+        "pc7": {
             "name": "Pilatus PC-7 Mk-I",
             "liveries": [
             ],
@@ -100,7 +111,7 @@
                 "Propwash"
             ]
         },
-        "13":{
+        "dhc2":{
             "name": "de Havilland Canada DHC2 Beaver",
             "liveries": [
             ],
@@ -108,7 +119,7 @@
                 "Texture"
             ]
         },
-        "14": {
+        "cricri": {
             "name": "Colomban MC-15 Cri-cri",
             "liveries": [
             ],
@@ -117,7 +128,7 @@
                 "Texture Interior"
             ]
         },
-        "15": {
+        "p38": {
             "name": "Lokheed P38 Lightning",
             "liveries": [
             ],
@@ -126,7 +137,7 @@
                 "Texture"
             ]
         },
-        "18": {
+        "su35": {
             "name": "Sukhoi Su-35 Flanker",
             "liveries": [
             ],
@@ -134,7 +145,7 @@
                 "Texture"
             ]
         },
-        "20": {
+        "concorde": {
             "name": "Aerospatiale France - British Aircraft Corporation Concorde",
             "liveries": [
             ],
@@ -142,7 +153,7 @@
                 "Texture"
             ]
         },
-        "21": {
+        "zlin": {
             "name": "Zlin Z-50",
             "liveries": [
             ],
@@ -150,7 +161,7 @@
                 "Texture"
             ]
         },
-        "22": {
+        "cessna": {
             "name": "Cessna 152",
             "liveries": [
             ],
@@ -158,7 +169,7 @@
                 "Texture"
             ]
         },
-        "26": {
+        "AN140": {
             "name": "Antonov An-140",
             "liveries": [
             ],
@@ -166,7 +177,7 @@
                 "Texture"
             ]
         },
-        "31": {
+        "potez25": {
             "name": "Potez 25",
             "liveries": [
             ],
@@ -177,7 +188,7 @@
                 "Texture Right"
             ]
         },
-        "40": {
+        "sportstar": {
             "name": "Evektor Sportstar",
             "liveries": [
             ],
@@ -185,7 +196,7 @@
                 "Texture"
             ]
         },
-        "50": {
+        "paraglider": {
             "name": "Paraglider",
             "liveries": [
             ],
@@ -193,7 +204,7 @@
                 "Texture"
             ]
         },
-        "51": {
+        "majortom": {
             "name": "Major Tom (hot air balloon)",
             "liveries": [
             ],
@@ -201,7 +212,7 @@
                 "Texture"
             ]
         },
-        "53": {
+        "goat": {
             "name": "Goat Airchair",
             "liveries": [
             ],
@@ -209,7 +220,7 @@
                 "Texture"
             ]
         },
-        "102": {
+        "2cv": {
             "name": "Citroen 2CV",
             "liveries": [
             ],
@@ -219,7 +230,7 @@
                 "Texture"
             ]
         },
-        "237": {
+        "GXD03FI_126645_237": {
             "name": "Boeing b767-300ER",
             "liveries": [
             ],
@@ -227,7 +238,7 @@
                 "Texture"
             ]
         },
-        "238": {
+        "GXD04N_126645_238": {
             "name": "Boeing b757-200",
             "liveries": [
             ],
@@ -235,15 +246,15 @@
                 "Texture"
             ]
         },
-        "239": {
-            "name": "Airbus a350-900",
+        "GXD05OQ_166617_239": {
+            "name": "Airbus a350-900 (GX)",
             "liveries": [
             ],
             "labels": [
                 "Texture"
             ]
         },
-        "2879": {
+        "Philpians 319_230250_2879": {
             "name": "Airbus a319-100",
             "liveries": [
             ],
@@ -251,7 +262,7 @@
                 "Texture"
             ]
         },
-        "2418": {
+        "New P-Series_267286_2418": {
             "name": "ATR 72-600",
             "liveries": [
             ],
@@ -259,7 +270,7 @@
                 "Texture"
             ]
         },
-        "2973": {
+        "_260077_2973": {
             "name": "Airbus a350-1000",
             "liveries": [
             ],
@@ -267,7 +278,15 @@
                 "Texture"
             ]
         },
-        "3575": {
+        "a35k0_267286_5805": {
+            "name": "Airbus a350-1000 (JXT)",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "Boeing 787-10 Dreamliner (ANA)_427352_3575": {
             "name": "Boeing b787-9",
             "liveries": [
             ],
@@ -275,7 +294,7 @@
                 "Texture"
             ]
         },
-        "3534": {
+        "airbus a320-214(Sri Lankan)_427352_3534": {
             "name": "Airbus a320-214",
             "liveries": [
             ],
@@ -283,7 +302,7 @@
                 "Texture"
             ]
         },
-        "2899": {
+        "Air Baltic  A220_230250_2899": {
             "name": "Airbus a220-300",
             "liveries": [
             ],
@@ -291,7 +310,7 @@
                 "Texture"
             ]
         },
-        "2871": {
+        "airbus a320-214 (Easyjet)_427352_2871": {
             "name": "Airbus a320neo",
             "liveries": [
             ],
@@ -299,7 +318,7 @@
                 "Texture"
             ]
         },
-        "2769": {
+        "EL AL 737-900_427352_2769": {
             "name": "Boeing b737-MAX8",
             "liveries": [
             ],
@@ -307,7 +326,7 @@
                 "Texture"
             ]
         },
-        "3180": {
+        "Boeing 787-10 Dreamliner (Etihad)_427352_3180": {
             "name": "Boeing b787-10",
             "liveries": [
             ],
@@ -315,7 +334,7 @@
                 "Texture"
             ]
         },
-        "3292": {
+        "Boeing p8I Neptune_427352_3292": {
             "name": "Boeing p8I Neptune",
             "liveries": [
             ],
@@ -323,7 +342,7 @@
                 "Texture"
             ]
         },
-        "3307": {
+        "CRJ-700_450602_3307": {
             "name": "Bombardier CRJ700",
             "liveries": [
             ],
@@ -333,7 +352,7 @@
                 "Engine texture"
             ]
         },
-        "3054": {
+        "Boeing 737Max 8 (TUI)_427352_3054": {
             "name": "Boeing b737-800",
             "liveries": [
             ],
@@ -341,7 +360,7 @@
                 "Texture"
             ]
         },
-        "4017": {
+        "ERJ145AR_230250_4017": {
             "name": "Embraer ERJ 145LR",
             "liveries": [
             ],
@@ -349,7 +368,7 @@
                 "Texture"
             ]
         },
-        "4140": {
+        "737-200_450602_4140": {
             "name": "Boeing b737-200",
             "liveries": [
             ],
@@ -357,7 +376,7 @@
                 "Texture"
             ]
         },
-        "247": {
+        "E01_166635_247": {
             "name": "Bombardier Dash8-q400",
             "liveries": [
             ],
@@ -365,7 +384,7 @@
                 "Texture"
             ]
         },
-        "4398": {
+        "_365507_4398": {
             "name": "Britten-Norman BN2 Islander",
             "liveries": [
             ],
@@ -373,7 +392,7 @@
                 "Texture"
             ]
         },
-        "2892": {
+        "SAAB 340_427352_2892": {
             "name": "SAAB 340",
             "liveries": [
             ],
@@ -381,7 +400,7 @@
                 "Texture"
             ]
         },
-        "16": {
+        "dc3": {
             "name": "Douglas DC-3",
             "liveries": [
             ],
@@ -391,7 +410,7 @@
                 "Texture"
             ]
         },
-        "2706": {
+        "Bomabardier CRJ 200_388316_2706": {
             "name": "Bombardier CRJ200",
             "liveries": [
             ],
@@ -399,7 +418,7 @@
                 "Texture"
             ]
         },
-        "3341": {
+        "ERJ-170 2_450602_3341": {
             "name": "Embraer ERJ 170",
             "liveries": [
             ],
@@ -409,7 +428,7 @@
                 "Engine texture"
             ]
         },
-        "24": {
+        "a350": {
             "name": "Airbus a350-900",
             "liveries": [
             ],
@@ -418,7 +437,7 @@
                 "Texture"
             ]
         },
-        "4631": {
+        "a33x backup_230250_4631": {
             "name": "Airbus a330-900neo",
             "liveries": [
             ],
@@ -426,7 +445,7 @@
                 "Texture"
             ]
         },
-        "4646": {
+        "a320 2023_427352_4646": {
             "name": "Airbus a321neo",
             "liveries": [
             ],
@@ -434,7 +453,7 @@
                 "Texture"
             ]
         },
-        "7": {
+        "f16": {
             "name": "General Dynamics F16 Fighting Falcon",
             "liveries": [
             ],
@@ -442,7 +461,7 @@
                 "Texture"
             ]
         },
-        "4745": {
+        "Beoing 757-300wl_230250_4745": {
             "name": "Boeing b757-300WL",
             "liveries": [
             ],
@@ -450,7 +469,7 @@
                 "Texture"
             ]
         },
-        "4743": {
+        "757-300_230250_4743": {
             "name": "Boeing b757-300",
             "liveries": [
             ],
@@ -458,7 +477,7 @@
                 "Texture"
             ]
         },
-        "25": {
+        "777_300": {
             "name": "Boeing b777-300ER",
             "liveries": [
             ],
@@ -467,7 +486,7 @@
                 "Texture"
             ]
         },
-        "4596": {
+        "_365507_4596": {
             "name": "Vans RV6",
             "liveries": [
             ],
@@ -475,7 +494,7 @@
                 "Texture"
             ]
         },
-        "23": {
+        "pa28": {
             "name": "Piper PA-28 161 Warrior II",
             "liveries": [
             ],
@@ -485,7 +504,7 @@
                 "Texture"
             ]
         },
-        "3289": {
+        "HAL-Dornier 228-100_427352_3289": {
             "name": "Dornier do228-200",
             "liveries": [
             ],
@@ -493,7 +512,7 @@
                 "Texture"
             ]
         },
-        "4764": {
+        "Boeing 767-400_230250_4764": {
             "name": "Boeing b767-400ER",
             "liveries": [
             ],
@@ -501,7 +520,7 @@
                 "Texture"
             ]
         },
-        "5061": {
+        "Sonex-B Kit_945960_5061": {
             "name": "Sonex-B kit",
             "liveries": [
             ],
@@ -512,7 +531,7 @@
                 "Propwash"
             ]
         },
-        "5073": {
+        "Bombardier Learjet 45 XR_427352_5073": {
             "name": "Bombardier Learjet45",
             "liveries": [
             ],
@@ -520,7 +539,7 @@
                 "Texture"
             ]
         },
-        "5": {
+        "phenom_100": {
             "name": "Embraer Phenom100",
             "liveries": [
             ],
@@ -530,7 +549,7 @@
                 "Texture"
             ]
         },
-        "5086": {
+        "Airbus a321-211 _427352_5086": {
             "name": "Airbus a321-211",
             "liveries": [
             ],
@@ -538,7 +557,7 @@
                 "Texture"
             ]
         },
-        "2951": {
+        "Dassault nEUROn UCAV_388316_2951": {
             "name": "Airbus a340-300",
             "liveries": [
             ],
@@ -546,7 +565,7 @@
                 "Texture"
             ]
         },
-        "2856": {
+        "Airbus A400M Atlas_388316_2856": {
             "name": "Airbus a330-200",
             "liveries": [
             ],
@@ -554,7 +573,7 @@
                 "Texture"
             ]
         },
-        "27": {
+        "fa18": {
             "name": "McDonell Douglas - Boeing F/A-18F Super Hornet",
             "liveries": [
             ],
@@ -562,7 +581,7 @@
                 "Texture"
             ]
         },
-        "5156": {
+        "Airbus a318-112 by Luca &_427352_5156": {
             "name": "Airbus a318-112",
             "liveries": [
             ],
@@ -570,7 +589,7 @@
                 "Texture"
             ]
         },
-        "2864": {
+        "M200V_267286_2864": {
             "name": "Leonardo - AugustaWestland AW609",
             "liveries": [
             ],
@@ -579,7 +598,7 @@
             ]
             
         },
-        "2852": {
+        "A140_267286_2852": {
             "name": "Cameron R-650 Rozière Balloon",
             "liveries": [
             ],
@@ -588,7 +607,7 @@
             ]
             
         },
-        "5038": {
+        "Lockheed L-1011-1_450602_5038": {
             "name": "Lokheed L1011-1 TriStar",
             "liveries": [
             ],
@@ -598,7 +617,7 @@
                 "Texture for tail light"
             ]
         },
-        "5193": {
+        "P170_267286_5193": {
             "name": "Boeing b747-8I",
             "liveries": [
             ],
@@ -608,7 +627,7 @@
             ]
             
         },
-        "2857": {
+        "F22 Test_285706_2857": {
             "name": "Lokheed Martin F22 Raptor",
             "liveries": [
             ],
@@ -617,7 +636,7 @@
                 "Metallic Roughness shader"
             ]
         },
-        "3211": {
+        "Air France A220_230250_3211": {
             "name": "UTVA 75",
             "liveries": [
             ],
@@ -625,7 +644,7 @@
                 "Texture"
             ]
         },
-        "2808": {
+        "HA-1_310810_2808": {
             "name": "Supermarine Spitfire Mk XIV",
             "liveries": [
             ],
@@ -633,7 +652,7 @@
                 "Texture"
             ]
         },
-        "5203": {
+        "Boeing 737-600_427352_5203": {
             "name": "Boeing b737-600",
             "liveries": [
             ],
@@ -641,7 +660,7 @@
                 "Texture"
             ]
         },
-        "5229": {
+        "M135_267286_5229": {
             "name": "Lokheed Martin F35B Lightning II",
             "liveries": [
             ],
@@ -649,7 +668,7 @@
                 "Texture"
             ]
         },
-        "3591": {
+        "F-15C_450602_3591": {
             "name": "McDonnell Douglas F-15C Eagle",
             "liveries": [
             ],
@@ -657,7 +676,7 @@
                 "Texture"
             ]
         },
-        "28": {
+        "b55": {
             "name": "Beechcraft B55 Baron",
             "liveries": [
             ],
@@ -666,7 +685,7 @@
                 "Tail"
             ]
         },
-        "2788": {
+        "An-225 2.0_260077_2788": {
             "name": "Antonov An-225 Mriya",
             "liveries": [
             ],
@@ -675,7 +694,7 @@
                 "Engine texture"
             ]
         },
-        "29": {
+        "rafale": {
             "name": "Dassault Rafale",
             "liveries": [
             ],
@@ -686,7 +705,7 @@
                 "Cockpit texture"
             ]
         },
-        "2953": {
+        "P180_267286_2953": {
             "name": "NASA Space Shuttle",
             "liveries": [
             ],
@@ -696,7 +715,7 @@
                 "SRB"
             ]
         },
-        "1014": {
+        "NK-V_267286_2525": {
             "name": "Ilyushin IL-76TD",
             "liveries": [
             ],
@@ -705,7 +724,7 @@
                 "Wing texture"
             ]
         },
-        "1023": {
+        "md11_267286_5387": {
             "name": "McDonnell Douglas MD11",
             "liveries": [
             ],
@@ -713,7 +732,7 @@
                 "Texture"
             ]
         },
-        "3617": {
+        "Dassault Mirage 2000-5_286491_3617": {
             "name": "Dessault Mirage 2000-5",
             "liveries": [
             ],
@@ -721,15 +740,7 @@
                 "Texture"
             ]
         },
-        "5347": {
-            "name": "Dessault Mirage F1",
-            "liveries": [
-            ],
-            "labels": [
-                "Texture"
-            ]
-        },
-        "3011": {
+        "737max_427352_3011": {
             "name": "Airbus a320-232",
             "liveries": [
             ],
@@ -737,7 +748,7 @@
                 "Texture"
             ]
         },
-        "5314": {
+        "Shenyang J-8 (Jeffa)_1043239_5314": {
             "name": "Boeing b747-100 SCA",
             "liveries": [
             ],
@@ -745,7 +756,7 @@
                 "Texture"
             ]
         },
-        "3460": {
+        "Grumman E-2 Hawkeye_286491_3460": {
             "name": "Grumman E-2 Hawkeye",
             "liveries": [
             ],
@@ -756,7 +767,7 @@
                 "Prop texture"
             ]
         },
-        "3436": {
+        "a3test_427352_3436": {
             "name": "Dornier do228-100 Coast Guard",
             "liveries": [
             ],
@@ -764,15 +775,7 @@
                 "Texture"
             ]
         },
-        "5405": {
-            "name": "Chengdu J-20",
-            "liveries": [
-            ],
-            "labels": [
-                "Texture"
-            ]
-        },
-        "5431": {
+        "Northrop YF-23_448101_5431": {
             "name": "Northrop YF-23",
             "liveries": [
             ],
@@ -780,7 +783,7 @@
                 "Texture"
             ]
         },
-        "240": {
+        "72_380019_5518": {
             "name": "Boeing b777-200",
             "liveries": [
             ],
@@ -789,7 +792,16 @@
                 "Texture"
             ]
         },
-        "1004": {
+        "72e_380019_5519": {
+            "name": "Boeing b777-200er",
+            "liveries": [
+            ],
+            "labels": [
+                "Metallic Roughness shader",
+                "Texture"
+            ]
+        },
+        "Boeing%20777-200LR_448101_5513": {
             "name": "Boeing b777-200LR",
             "liveries": [
             ],
@@ -798,7 +810,7 @@
                 "Texture"
             ]
         },
-        "4402": {
+        "77f_380019_6079": {
             "name": "Boeing b777-200F",
             "liveries": [
             ],
@@ -807,7 +819,7 @@
                 "Texture"
             ]
         },
-        "1001": {
+        "739_380019_5535": {
             "name": "Boeing b737-900",
             "liveries": [
             ],
@@ -815,7 +827,7 @@
                 "Texture"
             ]
         },
-        "5409": {
+        "747-8F by JAaMDG and Boa93_364320_5409": {
             "name": "Boeing b747-400D",
             "liveries": [
             ],
@@ -825,7 +837,7 @@
             ]
             
         },
-        "1018": {
+        "embraer_267286_5681": {
             "name": "Embraer ERJ 190",
             "liveries": [
             ],
@@ -833,7 +845,7 @@
                 "Texture"
             ]
         },
-        "252": {
+        "p19f_267286_5606": {
             "name": "Boeing b747-8F",
             "liveries": [
             ],
@@ -841,7 +853,7 @@
                 "Texture"
             ]
         },
-        "2806": {
+        "Sikorsky UH-60 Black Hawk_380019_3068": {
             "name": "Sikorsky UH-60 Black Hawk",
             "liveries": [
             ],
@@ -849,7 +861,7 @@
                 "Texture"
             ]
         },
-        "5499": {
+        "CubCrafters CC19 XCub_450602_5499": {
             "name": "CubCrafters CC19 XCub",
             "liveries": [
             ],
@@ -857,7 +869,7 @@
                 "Texture"
             ]
         },
-        "2786": {
+        "starship_358831_2786": {
             "name": "Grumman J2F-5 Duck",
             "liveries": [
             ],
@@ -867,8 +879,225 @@
                 "Prop texture"
             ]
         },
-        "5551": {
+        "P190_267286_5551": {
             "name": "Comac C919",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "777x_267286_5635": {
+            "name": "Boeing b777-9X",
+            "liveries":[
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "737-600 by Spice9 and _364320_5211": {
+            "name": "Boeing 747SP",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "tu204_267286_5777": {
+            "name": "Tupolev Tu-204",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "Binter E195-E2_230250_3036": {
+            "name": "Embraer ERJ 195-E2",
+            "liveries": [
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Door texture",
+                "Left engine texture",
+                "Right engine texture",
+                "Rudder texture",
+                "Tail texture"
+            ]
+        },
+        "t38": {
+            "name": "Northrop T-38 Talon",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "_364320_5527": {
+            "name": "Boeing 747-400",
+            "liveries": [
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Wing texture"
+            ]
+        },
+        "Airbus A319neo by Spice9 &_364320_5847": {
+            "name": "Airbus a319neo",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "E175_1230343_5566": {
+            "name": "Embraer ERJ 175",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "MA-2_310810_2581": {
+            "name": "Grumman F-14 Tomcat",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "MA-a300_267286_5917": {
+            "name": "Airbus a300-600",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "MQ9B Reaper_388316_2989": {
+            "name": "General Atomics MQ-9B Reaper",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "crj900_267286_5960": {
+            "name": "Bombardier CRJ900",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "A10 II Warthog_310810_2310": {
+            "name": "Fairchild A10-C Thunderbolt II",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "airbus a320-214 (Eurowings)_427352_2870": {
+            "name": "Airbus a321-232",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "b720_267286_5987": {
+            "name": "Boeing b720",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "kc135_267286_5727": {
+            "name": "Boeing KC-135R Stratotanker",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "Airbus A340-500_1388057_6006": {
+            "name": "Airbus a340-500",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "Airbus A340-600_1388057_5998": {
+            "name": "Airbus a340-600",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "an124_267286_6014": {
+            "name": "Airbus a340-600",
+            "liveries": [
+            ],
+            "labels": [
+                "Fuselage texture",
+                "Engine texture"
+            ]
+        },
+        "il94_267286_5887": {
+            "name": "Ilyushin IL-96-400",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "il96_267286_5884": {
+            "name": "Ilyushin IL-96-300",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "il14_380019_5456": {
+            "name": "Ilyushin IL-14",
+            "liveries": [
+            ],
+            "labels": [
+                "Normal map",
+                "Specular shader",
+                "Texture"
+            ]
+        },
+        "dc10": {
+            "name": "McDonell Douglas DC-10-40",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "c152": {
+            "name": "Cessna 152 (4.0)",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "BAe 146 Rework_310810_5947": {
+            "name": "BAe 146-300 / Avro RJ100 (4.0)",
+            "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "a320_267286_5683": {
+            "name": "Airbus a320-100",
             "liveries": [
             ],
             "labels": [
