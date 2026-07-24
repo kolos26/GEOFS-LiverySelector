@@ -36,7 +36,6 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
 
     //Load liveries (@todo: consider optimising livery.json or converting it to a different datatype)
     fetch(`${jsDelivr}/livery.json?` + Date.now()).then(handleLiveryJson);
-    
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
         id: 'listDiv',
