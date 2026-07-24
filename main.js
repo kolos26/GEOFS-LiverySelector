@@ -14,6 +14,7 @@ let links = [];
 let airlineobjs = [];
 let whitelist;
 let mpAirlineobjs = {};
+const LS_KEY = 'l';
 const LOG_STYLE = "white-space:nowrap;display:inline;color:";
 const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYLE + "inherit;", LOG_STYLE + "#bcc3cb;", LOG_STYLE + "#3f5f8a;", LOG_STYLE + "inherit;", LOG_STYLE + "inherit;", e);
 
@@ -114,7 +115,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
         if (e.target.classList.contains("geofs-stopKeyupPropagation")) {
             e.stopImmediatePropagation();
         }
-        if (e.key === "l") {
+        if (e.key === LS_KEY) {
             ui.panel.toggle(".livery-list");
             LiverySelector.togglePanel();
         }
@@ -886,8 +887,6 @@ async function updateMultiplayer() {
             });
         }
         let textures = [];
-        console.log(liveryEntry);
-        console.log(otherId);
 
         if (!liveryEntry || !u.model || liveryEntry.mp == 'disabled') {
             return; // without livery or disabled
