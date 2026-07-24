@@ -44,12 +44,12 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
         'data-onshow': '{geofs.initializePreferencesPanel()}', // are these properties needed?
         'data-onhide': '{geofs.savePreferencesPanel()}'
     });
-	listDiv.innerHTML = generateListHTML();
-	
+    listDiv.innerHTML = generateListHTML();
+    
     // one big event listener for the main livery list instead of multiple event listeners
-	const livList = document.querySelector("#liverylist");
+    const livList = document.querySelector("#liverylist");
     livList.addEventListener('click', function ({ target }) {
-		if (target.nodeName === "I") return void window.LiverySelector.star(target); // if the element clicked is a star, run the star function
+        if (target.nodeName === "I") return void window.LiverySelector.star(target); // if the element clicked is a star, run the star function
         const idx = parseInt(target.closest('li').getAttribute('data-idx')); // convert to int because attributes are stored as strings
         if (idx === void 0) return; // avoid livery selection when other stuff is pressed
         const airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2]]
@@ -58,34 +58,34 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
         livery.mp != 'disabled' && setInstanceId(idx, alias = livery.alias));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     livList.addEventListener('error', function(e) {
-		const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
-		if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
-		e.target.onerror = null;
-		e.target.src = defaultThumb;
+        const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
+        if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
+        e.target.onerror = null;
+        e.target.src = defaultThumb;
     }, true);
-	
+    
     document.querySelector("#listDiv > ul#favorites").addEventListener("click", function ({ target }) {
         if (target.nodeName != "LI") return;
-		const $match = $(`#liverylist > [id='${$(target).attr("id").replace("_favorite", "_button")}']`) // find the matching livery list item
-		if ($match.length === 0) return void ui.notification.show(`ID: ${$(target).attr("id")} is missing a liveryList counterpart.`)
-		$match.click();
-	});
+        const $match = $(`#liverylist > [id='${$(target).attr("id").replace("_favorite", "_button")}']`) // find the matching livery list item
+        if ($match.length === 0) return void ui.notification.show(`ID: ${$(target).attr("id")} is missing a liveryList counterpart.`)
+        $match.click();
+    });
 
-	const potatoCheckbox = document.querySelector("#livery-potato-mode");
-	potatoCheckbox.addEventListener("change", function () {
-		geofs.setPreferenceFromInput(this);
-		document.querySelector(".potato-mode-search").classList.toggle("geofs-visible", this.checked);
-		geofs.savePreferences();
-		window.LiverySelector[this.checked ? "potatoSearch" : "search"](document.querySelector("#searchlivery").value);
-	});
-	window.executeOnEventDone("geofsInitialized", () => {
-		potatoCheckbox.checked = geofs.preferences.liveryPotato;
-		document.querySelector(".potato-mode-search").classList.toggle("geofs-visible", potatoCheckbox.checked);
-	});
-	document.querySelector(".potato-mode-search").addEventListener("click", function () {
-		if (!geofs.preferences.liveryPotato) return;
-		window.LiverySelector.potatoSearch(document.querySelector("#searchlivery").value);
-	})
+    const potatoCheckbox = document.querySelector("#livery-potato-mode");
+    potatoCheckbox.addEventListener("change", function () {
+        geofs.setPreferenceFromInput(this);
+        document.querySelector(".potato-mode-search").classList.toggle("geofs-visible", this.checked);
+        geofs.savePreferences();
+        window.LiverySelector[this.checked ? "potatoSearch" : "search"](document.querySelector("#searchlivery").value);
+    });
+    window.executeOnEventDone("geofsInitialized", () => {
+        potatoCheckbox.checked = geofs.preferences.liveryPotato;
+        document.querySelector(".potato-mode-search").classList.toggle("geofs-visible", potatoCheckbox.checked);
+    });
+    document.querySelector(".potato-mode-search").addEventListener("click", function () {
+        if (!geofs.preferences.liveryPotato) return;
+        window.LiverySelector.potatoSearch(document.querySelector("#searchlivery").value);
+    })
     // Button for panel
     const geofsUiButton = document.querySelector('.geofs-ui-bottom');
     const insertPos = geofs.version >= 3.6 ? 4 : 3;
@@ -205,19 +205,19 @@ function loadLivery(texture, index, parts, mats) {
             }
             continue;
         }
-		try {
-	        if (geofs.version == 2.9) {
-	            geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
-	        } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
-	            geofs.api.changeModelTexture(model3d._model, texture[i], index[i]);
-	        } else {
-	            geofs.api.changeModelTexture(model3d._model, texture[i], { index: index[i] });
-	        }
-		} catch (error) {
-			geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
-			console.log(error);
+        try {
+            if (geofs.version == 2.9) {
+                geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
+            } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
+                geofs.api.changeModelTexture(model3d._model, texture[i], index[i]);
+            } else {
+                geofs.api.changeModelTexture(model3d._model, texture[i], { index: index[i] });
+            }
+        } catch (error) {
+            geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
+            console.log(error);
             (error, "error");
-		}
+        }
     }
 }
 
@@ -302,7 +302,7 @@ function submitLivery() {
         }
         } else if (f.type === "color"){
             json.materials[f.id] = [parseInt(f.value.substring(1, 3), 16) / 255, parseInt(f.value.substring(3, 5), 16) / 255, parseInt(f.value.substring(5, 7), 16) / 255]
-	} 
+    } 
    });
     if (!embeds.length)
         return alert('Nothing to submit, upload images first!');
@@ -363,7 +363,7 @@ function listLiveries() {
         const listItem = $('<li/>', {id: [airplane.acid, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": i});
         listItem.append($('<span/>').text(e.name));
         listItem.toggleClass('offi', airplane.acid <= 102).toggleClass("geofs-visible", !geofs.preferences.liveryPotato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
-		airplane.acid <= 102 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, airplane.acid, airplane.acid + '-' + e.idx + '.png'].join('/')}));
+        airplane.acid <= 102 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, airplane.acid, airplane.acid + '-' + e.idx + '.png'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
         $('<i/>', { id: airplane.acid + "_" + e.name }).appendTo(listItem);
         listItem.appendTo(tempFrag);
@@ -375,7 +375,7 @@ function listLiveries() {
 }
 
 function loadFavorites() {
-	const favorites = localStorage.getItem('favorites') ?? (localStorage.setItem('favorites', ''), ''); // sets favourites to '' if they can't be found and initialises localStorage.favorites
+    const favorites = localStorage.getItem('favorites') ?? (localStorage.setItem('favorites', ''), ''); // sets favourites to '' if they can't be found and initialises localStorage.favorites
     $("#favorites").empty();
     const list = favorites.split(',');
     const airplane = geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2];
@@ -498,21 +498,21 @@ function debounceSearch (func) {
     let timeoutId = null;
     return (text) => {
         clearTimeout(timeoutId);
-		if (geofs.preferences.liveryPotato) return;
+        if (geofs.preferences.liveryPotato) return;
         timeoutId = setTimeout(() => {
             func(text);
         }, 250); // debounces for 250 ms
     };
 }
 const search = debounceSearch(text => {
-	if (geofs.preferences.liveryPotato) return;
+    if (geofs.preferences.liveryPotato) return;
     const liveries = document.getElementById('liverylist').children; // .children is better than .childNodes
     if (text == '') {
-		log("Potato mode: " + geofs.preferences.liveryPotato);
-		for (const a of liveries) a.classList.toggle('geofs-visible', !geofs.preferences.liveryPotato);
-		return;
+        log("Potato mode: " + geofs.preferences.liveryPotato);
+        for (const a of liveries) a.classList.toggle('geofs-visible', !geofs.preferences.liveryPotato);
+        return;
     }
-	console.log(text);
+    console.log(text);
     text = text.toLowerCase(); // query string lowered here to avoid repeated calls
     for (let i = 0; i < liveries.length; i++) {
         const e = liveries[i]
@@ -526,16 +526,16 @@ const search = debounceSearch(text => {
 });
 
 function potatoSearch(text) {
-	const liveries = document.getElementById('liverylist').children;
-	if (text == '') {
-		for (const a of liveries) a.classList.toggle('geofs-visible', false);
-		return;
-	}
+    const liveries = document.getElementById('liverylist').children;
+    if (text == '') {
+        for (const a of liveries) a.classList.toggle('geofs-visible', false);
+        return;
+    }
     text = text.toLowerCase();
     for (let i = 0; i < liveries.length; i++) {
         const e = liveries[i]
         , v = e.classList.contains('geofs-visible');
-		e.textContent.toLowerCase().includes(text) ? (v || e.classList.add('geofs-visible')) : (v && e.classList.remove('geofs-visible'));
+        e.textContent.toLowerCase().includes(text) ? (v || e.classList.add('geofs-visible')) : (v && e.classList.remove('geofs-visible'));
     };
 }
 
@@ -556,7 +556,7 @@ function changeMaterial(name, color, type, partlist){
 function star(element) {
     const e = element.classList;
     const elementId = [element.id, 'favorite'].join('_');
-	let list = localStorage.getItem('favorites').split(',');
+    let list = localStorage.getItem('favorites').split(',');
     if (e.contains("checked")) {
         domById('favorites').removeChild(domById(elementId));
         const index = list.indexOf(element.id);
@@ -565,11 +565,11 @@ function star(element) {
         }
         localStorage.setItem('favorites', list);
     } else {
-		const btn = domById([element.id, 'button'].join('_'));
+        const btn = domById([element.id, 'button'].join('_'));
         const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
         // fbtn.onclick = btn.onclick; // moved to loadFavorites
         fbtn.innerText = btn.children[0].innerText;
-		
+        
         list.push(element.id);
         localStorage.setItem('favorites', [...new Set(list)]);
     }
@@ -1056,7 +1056,7 @@ async function generateMosaicTexture(url, tiles, textures) {
  */
 function toggleDiv(id) {
     var $e = $(`#${id}`);
-	$e.toggle();
+    $e.toggle();
     $(window.event.target).toggleClass("closed", $e.css("display") === "none");
 }
 
@@ -1125,11 +1125,11 @@ function generateListHTML() {
         <div class="livery-searchbar mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation">
             <input class="mdl-textfield__input address-input" type="text" placeholder="Search liveries" onkeyup="LiverySelector.search(this.value)" id="searchlivery">
             <label class="mdl-textfield__label" for="searchlivery">Search liveries</label>
-			<button class="potato-mode-search">search</button>
+            <button class="potato-mode-search">search</button>
         </div>
-		<div style="width: 100%">
-			<span>Potato mode: </span><input id="livery-potato-mode" data-gespref="geofs.preferences.liveryPotato" type="checkbox"></input>
-		</div>
+        <div style="width: 100%">
+            <span>Potato mode: </span><input id="livery-potato-mode" data-gespref="geofs.preferences.liveryPotato" type="checkbox"></input>
+        </div>
         <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorited Liveries</h6>
         <ul id="favorites" class="geofs-list geofs-visible"></ul>
 
@@ -1218,12 +1218,12 @@ function generatePanelButtonHTML() {
 function togglePanel() {
     const p = document.getElementById('listDiv');
     console.time('listLiveries');
-	try {
-    	p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
-	} catch (e) {
-		log(e, "error");
-	}
-	console.timeEnd('listLiveries');
+    try {
+        p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
+    } catch (e) {
+        log(e, "error");
+    }
+    console.timeEnd('listLiveries');
 }
 
 window.LiverySelector = {
@@ -1244,8 +1244,8 @@ window.LiverySelector = {
     addAirline,
     removeAirline,
     airlineobjs,
-	setInstanceId,
+    setInstanceId,
     togglePanel,
-	log,
-	potatoSearch
+    log,
+    potatoSearch
 };
