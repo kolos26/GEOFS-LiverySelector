@@ -56,7 +56,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
         const airplane = LiverySelector.liveryobj.aircrafts[geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2]]
         , livery = airplane.liveries[idx];
         livery.disabled || (loadLivery(livery.texture, airplane.index, airplane.parts, livery.materials),
-        livery.mp != 'disabled' && setInstanceId(idx, alias = livery.alias));
+        livery.mp != 'disabled' && setInstanceId(idx, livery.alias));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     livList.addEventListener('error', function(e) {
         const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
