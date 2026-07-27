@@ -1,7 +1,7 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
-const version = '3.5.0';
+const version = '3.5.1';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -441,14 +441,14 @@ function loadAirlines() {
                     listItem.onclick = () => {
                         loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
                         if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, airline.url);
+                            setInstanceId(i, "0", airline.url);
                         }
                     }
                 } else {
                     listItem.onclick = () => {
                         loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
                         if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, airline.url);
+                            setInstanceId(i, "0", airline.url);
                         }
                     }
                 }
