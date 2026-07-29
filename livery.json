@@ -25347,13 +25347,6 @@
                     ]
                 },
                 {
-                    "name": "SpaceX",
-                    "credits": "Felidorado",
-                    "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/b737-800_SPACEX.png"
-                    ]
-                },
-                {
                     "name": "Luftwaffe",
                     "credits": "GeoFS_TrailerGroup",
                     "texture": [
@@ -27356,7 +27349,7 @@
                     "credits": "HotelTDevils"
                 },
                 {
-                    "name": "Popbeda Airlines V2",
+                    "name": "Pobeda Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/pobeda_boeing_737-800.jpg"
                     ],
@@ -27398,7 +27391,7 @@
                     "credits": "Ivan Dmitriev"
                 },
                 {
-                    "name": "Pobeda Airlines V1",
+                    "name": "Pobeda Airlines (VP-BPJ)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/pobeda_boeing_737-800_VP-BPJ.jpg"
                     ],
@@ -63929,6 +63922,13 @@
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/airchina.png"
                     ],
                     "credits": "TOMAIIM"
+                },
+                {
+                    "name": "SpaceX",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-800/b737-800_SPACEX.png"
+                    ],
+                    "credits": "Felidorado"
                 }
             ],
             "labels": [
