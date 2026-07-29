@@ -63937,6 +63937,286 @@
             "logo": false,
             "acid": "3054",
             "name": "Boeing b737-800"
+        },
+        "Kitten-cat)_380019_4792": {
+            "index": [
+                0,
+                1,
+                2,
+                5,
+                7
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "N1277M",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_337/n1277m/N1277M.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_337/n1277m/elevator_base_color2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_337/n1277m/prop_texture.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_337/n1277m/N1277M.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/cessna_337/n1277m/N1277M.jpg",
+                        {
+                            "material": 0
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Material.008",
+                            "baseColorFactor": [
+                                0,
+                                0,
+                                0.106
+                            ]
+                        }
+                    ],
+                    "credits": "Nighthearth"
+                    
+                }
+            ],
+            "labels": [
+                "Main texture",
+                "Vertical stabilizer texture",
+                "Front propcone texture",
+                "Main texture",
+                "Main texture",
+                "Back propcone color"
+            ],
+            "logo": false,
+            "acid": "1022",
+            "name": "Cessna 337 Super Skymaster"
+        },
+        "pa18_267286_5972": {
+            "index": [
+                1
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "Yellow",
+                    "texture": [
+                        "/models/aircraft/premium/cub/texture_0.jpg"
+                    ],
+                    "credits": "GeoFS"
+                },
+                {
+                    "name": "Red",
+                    "texture": [
+                        "/models/aircraft/premium/cub/texture_1.jpg"
+                    ],
+                    "credits": "GeoFS"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": false,
+            "acid": "1",
+            "name": "PA-18 Super Cub"
+        },
+        "_365507_5002": {
+            "index": [
+                0,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                20,
+                22,
+                24,
+                25,
+                26,
+                26
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "N250UT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_prototype/n250ut.jpg",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Cosmos",
+                            "baseColorFactor": [
+                                1,
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dust Storm 1",
+                            "baseColorFactor": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    ],
+                    "credits": "Coolpilot11"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "acid": "5002",
+            "name": "Beta Alia Prototype"
+        },
+        "a250_267286_5761": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "N251UT",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/beta_alia_a250/n251ut.jpg",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Cosmos",
+                            "baseColorFactor": [
+                                1,
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dust Storm 1",
+                            "baseColorFactor": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    ],
+                    "credits": "Coolpilot11"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": false,
+            "acid": "5002",
+            "name": "Beta Alia A250"
+        },
+        "_365507_4409": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "Orange-Green stripes",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/zenith_stol/Image_0.jpg"
+                    ],
+                    "credits": "Coolpilot11"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "acid": "4409",
+            "name": "Zenith STOL CH 701"
+        },
+        "_365507_5486": {
+            "index": [
+                2
+            ],
+            "parts": [
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "N145HP",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/aviat_husky/Image_2.jpg"
+                    ],
+                    "credits": "Coolpilot11"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "acid": "5486",
+            "name": "Aviat A-1B Husky"
         }
     }
 }
