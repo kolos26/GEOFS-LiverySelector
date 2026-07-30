@@ -65086,6 +65086,112 @@
             "logo": true,
             "acid": "5486",
             "name": "Aviat A-1B Husky"
+        },
+        "ATR 72-600 (SAS)_267286_2420": {
+            "index": [
+                0,
+                1,
+                2,
+                5
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "BahamasAir",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/C6-BFR.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/C6-BFR.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/C6-BFR.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/C6-BFR.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "UTair (old design)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/UTair_ATR_72.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/UTair_ATR_72.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/UTair_ATR_72.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_72-600/UTair_ATR_72.png"
+                    ],
+                    "credits": "Luca B"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "acid": "2420",
+            "name": "ATR 72-600"
+        },
+        "ATR 72-500 (UTair)_267286_2426": {
+            "index": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "Japan Air Commuter",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/JA04JC.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/JA04JC.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/JA04JC.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/JA04JC.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "BahamasAir",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/C6-BFS.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/C6-BFS.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/C6-BFS.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/C6-BFS.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "DHL de Guatemala",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.png"
+                    ],
+                    "credits": "Nichy"
+                }
+            ],
+            "labels": [
+                "Texture"
+            ],
+            "logo": true,
+            "acid": "2426",
+            "name": "ATR 42-600"
         }
     }
 }
