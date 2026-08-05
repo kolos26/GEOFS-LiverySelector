@@ -16,20 +16,48 @@ For every supported aircraft, by pressing the LiverySelector logo or by pressing
     <a target="_blank" href="https://www.youtube.com/watch?v=1w5u2R1dnVU"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/1w5u2R1dnVU/hqdefault.jpg" /></a>
 </p>
 
+The following video offers an overview of how to install and use the LiverySelector.
+
+<p align="center">
+    <a target="_blank" href="https://youtube.com/watch?v=BmUjZIq5PtQ"><img alt="YouTube Trailer" src="https://img.youtube.com/vi/BmUjZIq5PtQ/hqdefault.jpg" /></a>
+</p>
+
+
 ## How to Install This Add-on?
 ### Method 1: JavaScript Console
 1. Open the Inspect Panel of your browser by either using a keyboard shortcut or right-clicking anywhere on the webpage and choosing the "Inspect" or "Inspect Element" button.
 2. Navigate to the JavaScript console, and paste [main.js](hhttps://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/main.js) into the console. You may have to type `allow pasting` into the console before pasting the code.
+> See [this video](https://youtu.be/BmUjZIq5PtQ?si=gPdfLW4zLCzRF2I4&t=112) for how to use the console.
+
 > [!IMPORTANT]
 > This method requires you to manually paste the code into the console every time you launch GeoFS.
+
 
 ### Method 2. TamperMonkey
 This method only needs to be done once. After that, the add-on should work automatically.
 1. To the right of the list of files, click [Releases](https://github.com/kolos26/GEOFS-LiverySelector/releases/latest) to see the latest release.
 2. Under the **Assets** dropdown menu, click on the first file (ending with user.js) to download the script.
 3. Follow the procedure on-screen to install the script.
+> See [this video](https://youtu.be/BmUjZIq5PtQ?si=M5JRZE-6FkMcEOcO&t=150) for how to use TamperMonkey.
+
 > [!NOTE]
 > Once the script is saved in Tampermmonkey, it should automatically work every time GeoFS is launched.
+
+
+### Method 3. Bookmarklet
+This method needs to be set up once, and then you click on the bookmark each time you launch GeoFS.
+1. Create a new bookmark
+2. Edit the bookmark and place the following text in the "URL" field:
+```javascript
+   javascript:(() => {var s=document.createElement('script');s.src='https://raw.githack.com/kolos26/GEOFS-LiverySelector/main/main.js';document.body.appendChild(s);})()
+```
+3. Save the bookmark.
+4. Load GeoFS and click on the bookmark
+> See [this video](https://youtu.be/BmUjZIq5PtQ?si=vg-L90MS4cCEdkvz&t=184) for how to create and use a bookmarklet.
+
+> [!NOTE]
+> Once the bookmark is saved, you simply click on it each time you load GeoFS.
+See [this video](https://youtu.be/BmUjZIq5PtQ?si=vg-L90MS4cCEdkvz&t=184) for how to create and use a bookmarklet.
 
 ## How to use
 > Tutorial video by bilibili開飛機のzm
