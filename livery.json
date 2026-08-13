@@ -5534,7 +5534,7 @@
                     "name": "USAAF (Invasion Stripes)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/speculars/yippee.jpg",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/image.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/lockheed_p38/P-38_invasion_stripes.png"
                     ],
                     "credits": "Borec Pepik"
                 }
@@ -5778,7 +5778,7 @@
                 {
                     "name": "Russia Bort 305",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/image.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/su35/Su-35-blizz.-camo.png"
                     ],
                     "credits": "Borec Pepik"
                 }
@@ -31570,14 +31570,14 @@
                 {
                     "name": "Air Canada (white tail)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/0278889.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/AC_732.png"
                     ],
                     "credits": "Airwest"
                 },
                 {
                     "name": "Canadian North (white tail)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/aircraft-boeing-737-200-registration-C-GSPW-26a2936faf_z.jpg"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b737-200/Canadian_North_732.png"
                     ],
                     "credits": "Airwest"
                 },
@@ -39474,7 +39474,7 @@
                     "credits": "Raptor4001"
                 },
                 {
-                    "name": "Royal Netherlands Air Force - 13th Squadron - J-369",
+                    "name": "Royal Netherlands Air Force - 313th Squadron - J-369",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f16/Naamloos.png"
                     ],
@@ -55278,16 +55278,16 @@
                 {
                     "name": "Galm Team Red (from Ace Combat Zero)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/galm2.PNG",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/galm2.PNG"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/f15c-skin1.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/f15c-skin1.jpg"
                     ],
                     "credits": "Valkyrie"
                 },
                 {
                     "name": "Galm Team Blue (from Ace Combat Zero)",
                     "texture": [
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/galm1.PNG",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/galm1.PNG"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/f15c-skin2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/f15c/f15c-skin2.jpg"
                     ],
                     "credits": "Valkyrie"
                 },
@@ -61387,7 +61387,7 @@
                     "name": "JAL (Eco Jet Nature livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200er/shaders/original.png",
-                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/GeoFS_-_Fly_in_Your_Web_Browser_-_Google_Chrome_3_13_2026_7_03_40_PM.png"
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/984.png"
                     ],
                     "credits": "yicha.25"
                 },
@@ -66773,7 +66773,7 @@
                     "credits": "Luca B"
                 },
                 {
-                    "name": "Thai Airways",
+                    "name": "Air France",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/airbus_a300-600/Air_France_A300.png"
                     ],
@@ -67981,21 +67981,24 @@
                     "texture": [
                         "/models/aircraft/premium/c152/texture_0.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "0"
                 },
                 {
                     "name": "G-BGAE",
                     "texture": [
                         "/models/aircraft/premium/c152/texture_1.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "1"
                 },
                 {
                     "name": "Echo Lima",
                     "texture": [
                         "/models/aircraft/premium/c152/texture_2.jpg"
                     ],
-                    "credits": "GeoFS"
+                    "credits": "GeoFS",
+                    "alias": "2"
                 }
             ],
             "labels": [
@@ -68584,21 +68587,21 @@
                     "credits": "AF267"
                 },
                 {
-                    "name": "Amtrak Phase III",
+                    "name": "Amtrak Phase IV",
                     "texture": [
                         "/backend/aircraft/repository/metroliner_267286_5772/texture_1.jpg"
                     ],
                     "credits": "AF267"
                 },
                 {
-                    "name": "Amtrak Phase IV Northeast Regional",
+                    "name": "Amtrak Phase VII",
                     "texture": [
                         "/backend/aircraft/repository/metroliner_267286_5772/texture_2.jpg"
                     ],
                     "credits": "AF267"
                 },
                 {
-                    "name": "Amtrak  Phase III Lehigh Valley",
+                    "name": "Amtrak  Phase III",
                     "texture": [
                         "/backend/aircraft/repository/metroliner_267286_5772/texture_3.jpg"
                     ],
@@ -68625,6 +68628,63 @@
             "logo": false,
             "acid": "1027",
             "name": "Budd Metroliner"
+        },
+        "genesis_267286_5909": {
+            "index": [
+                0,
+                4
+            ],
+            "parts": [
+                0,
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "liveries": [
+                {
+                    "name": "Amtrak Phase IV/V",
+                    "texture": [
+                        "/backend/aircraft/repository/genesis_267286_5909/fleet_0.jpg",
+                        "/backend/aircraft/repository/genesis_267286_5909/genesis_0.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Amtrak Phase VII",
+                    "texture": [
+                        "/backend/aircraft/repository/genesis_267286_5909/fleet_1.jpg",
+                        "/backend/aircraft/repository/genesis_267286_5909/genesis_1.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "CTrail",
+                    "texture": [
+                        "/backend/aircraft/repository/genesis_267286_5909/fleet_2.jpg",
+                        "/backend/aircraft/repository/genesis_267286_5909/genesis_2.jpg"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Amtrak Phase III",
+                    "texture": [
+                        "/backend/aircraft/repository/genesis_267286_5909/fleet_3.jpg",
+                        "/backend/aircraft/repository/genesis_267286_5909/genesis_3.jpg"
+                    ],
+                    "credits": "AF267"
+                }
+            ],
+            "labels": [
+                "Carriage Texture",
+                "Locomotive Texture"
+            ],
+            "logo": false,
+            "acid": "1027",
+            "name": "GE P42DC Genesis"
         },
         "tu144_267286_6039": {
             "index": [
