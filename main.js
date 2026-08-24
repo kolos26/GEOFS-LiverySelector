@@ -393,7 +393,7 @@ function listLiveries() {
         listItem.toggleClass('offi', airplane.acid <= 102).toggleClass("geofs-visible", !geofs.preferences.liveryPotato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
         airplane.acid <= 102 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, airplane.acid, airplane.acid + '-' + e.idx + '.webp'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
-        $('<i/>', { id: airplane.acid + "_" + e.name }).appendTo(listItem);
+        $('<i/>', { id: airplane.acid + "_" + e.name, 'data-ac': acftId, 'data-name': e.name }).appendTo(listItem);
         listItem.appendTo(tempFrag);
     }
     livList.append(tempFrag);
@@ -403,14 +403,13 @@ function listLiveries() {
 }
 
 function loadFavorites() {
-    const favorites = localStorage.getItem('favorites') ?? (localStorage.setItem('favorites', ''), ''); // sets favourites to '' if they can't be found and initialises localStorage.favorites
+    const favorites = getFavorites();
     $("#favorites").empty();
-    const list = favorites.split(',');
-    const airplane = geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2];
-    list.forEach(function (e) {
-        if ((airplane == e.slice(0, airplane.length)) && (e.charAt(airplane.length) == '_')) {
-            star(domById(e));
-        }
+    const acPath = geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2];
+    const airplane = getCurrentAircraft();
+    (favorites[acPath] || []).forEach(function (liveryName) {
+        const starEl = domById(airplane.acid + "_" + liveryName);
+        if (starEl) star(starEl);
     });
 }
 
@@ -576,6 +575,19 @@ function changeMaterial(name, color, type, partlist){
     });
 }
 
+function getFavorites() {
+    try {
+        return JSON.parse(localStorage.getItem('favorites') || '{}');
+    } catch (err) {
+        log('Corrupt or legacy favorites data, resetting.', 'warn');
+        return {};
+    }
+}
+
+function saveFavorites(favorites) {
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+}
+
 /**
  * Mark as favorite
  *
@@ -583,25 +595,24 @@ function changeMaterial(name, color, type, partlist){
  */
 function star(element) {
     const e = element.classList;
-    const elementId = [element.id, 'favorite'].join('_');
-    let list = localStorage.getItem('favorites').split(',');
+    const acPath = element.dataset.ac;
+    const liveryName = element.dataset.name;
+    const favorites = getFavorites();
+    const list = favorites[acPath] || [];
+
     if (e.contains("checked")) {
-        domById('favorites').removeChild(domById(elementId));
-        const index = list.indexOf(element.id);
-        if (index !== -1) {
-            list.splice(index, 1);
-        }
-        localStorage.setItem('favorites', list);
+        const idx = list.indexOf(liveryName);
+        if (idx !== -1) list.splice(idx, 1);
+        if (list.length) favorites[acPath] = list;
+        else delete favorites[acPath];
+        domById('favorites').removeChild(domById([element.id, 'favorite'].join('_')));
     } else {
+        favorites[acPath] = [...new Set([...list, liveryName])];
         const btn = domById([element.id, 'button'].join('_'));
-        const fbtn = appendNewChild(domById('favorites'), 'li', { id: elementId, class: 'livery-list-item' });
-        // fbtn.onclick = btn.onclick; // moved to loadFavorites
+        const fbtn = appendNewChild(domById('favorites'), 'li', { id: [element.id, 'favorite'].join('_'), class: 'livery-list-item' });
         fbtn.innerText = btn.children[0].innerText;
-        
-        list.push(element.id);
-        localStorage.setItem('favorites', [...new Set(list)]);
     }
-    //style animation
+    saveFavorites(favorites);
     e.toggle('checked');
 }
 
