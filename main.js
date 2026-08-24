@@ -19,24 +19,24 @@ const LOG_STYLE = "white-space:nowrap;display:inline;color:";
 const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYLE + "inherit;", LOG_STYLE + "#bcc3cb;", LOG_STYLE + "#3f5f8a;", LOG_STYLE + "inherit;", LOG_STYLE + "inherit;", e);
 
 (async function init() {
-    // find latest commit to ensure the latest files are fetched from jsDelivr
+    // latest commit fetch
     try {
-        const res = await fetch(`https://api.github.com/repos/kolos26/GEOFS-LiverySelector/commits/main`);
+        const res = await fetch(`${githubRepo}/commit.txt`);
         if (!res.ok) jsDelivr = githubRepo;
-        const commit = (await res.json()).sha;
+        const commit = (await res.text()).trim();
         if (!/^[a-f0-9]{40}$/.test(commit)) jsDelivr = githubRepo;
         jsDelivr = jsDelivr.replace("@main", `@${commit}`);
     } catch (err) {jsDelivr = githubRepo};
     
     // styles
-    fetch(`${jsDelivr}/styles.css?` + Date.now()).then(async data => {
+    fetch(`${jsDelivr}/styles.css?`).then(async data => {
         const styleTag = createTag('style', { type: 'text/css' });
         styleTag.textContent = await data.text();
         document.head.appendChild(styleTag);
     });
 
     //Load liveries (@todo: consider optimising livery.json or converting it to a different datatype)
-    fetch(`${jsDelivr}/livery.json?` + Date.now()).then(handleLiveryJson);
+    fetch(`${jsDelivr}/livery.json?`).then(handleLiveryJson);
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
         id: 'listDiv',
@@ -106,7 +106,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
             airlineobjs[airlineobjs.length - 1].url = e.trim();
         });
     }
-    fetch(`${jsDelivr}/whitelist.json?` + Date.now()).then(res => res.json()).then(data => whitelist = data);
+    fetch(`${jsDelivr}/whitelist.json?`).then(res => res.json()).then(data => whitelist = data);
 
     // Start multiplayer
     setInterval(updateMultiplayer, 5000);
