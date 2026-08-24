@@ -240,7 +240,7 @@ function inputLivery() {
     const airplane = getCurrentAircraft();
     const textures = airplane.liveries[0].texture;
     const inputFields = document.getElementsByName('textureInput');
-    if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+    if (textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) { // the same texture is used for all indexes and parts
         const texture = inputFields[0].value;
         loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
     } else {
@@ -462,7 +462,7 @@ function loadAirlines() {
                     id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
                     class: 'livery-list-item'
                 });
-                if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
+                if ((textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) && textures.length !== 1) { // the same texture is used for all indexes and parts
                     const texture = e.texture[0];
                     listItem.onclick = () => {
                         loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
@@ -494,7 +494,7 @@ function addCustomForm() {
     const textures = airplane.liveries[0].texture.filter(t => typeof t !== 'object');
     const placeholders = airplane.labels;
     if (textures.length){
-    if (textures.filter(x => x === textures[0]).length === textures.length) { // the same texture is used for all indexes and parts
+    if (textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) { // the same texture is used for all indexes and parts
         createUploadButton(placeholders[0]);
         createDirectButton(placeholders[0]);
     } else {
@@ -789,6 +789,7 @@ function reloadDownloadsForm(tabDiv) {
         textures.forEach((href, i) => {
             if (typeof href === 'object') return;
             if (liveryNo > 0 && href == defaults.texture[i]) return;
+            if (airplane.labels[i] == undefined) return;
             const link = appendNewChild(wrap, 'a', {
                 href, target: '_blank',
                 class: "mdl-button mdl-button--raised mdl-button--colored"
