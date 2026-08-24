@@ -1,3 +1,10 @@
 *.code-workspace
 .venv
 data/node_modules
+
+.cloudflare/.wrangler/
+
+.cloudflare/livery-submission-proxy/node_modules/
+.cloudflare/livery-submission-proxy/.wrangler/
+.cloudflare/livery-submission-proxy/.dev.vars
+.cloudflare/livery-submission-proxy/wrangler-account.json

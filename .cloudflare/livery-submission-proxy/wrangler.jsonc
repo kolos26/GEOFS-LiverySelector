@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "livery-submit-proxy",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-23",
+  "kv_namespaces": [
+    {
+      "binding": "RATE_LIMIT",
+      "id": "409872b48d824144a2054a2c5d4ad1ed"
+    }
+  ]
+}
