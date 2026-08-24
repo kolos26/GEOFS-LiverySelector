@@ -279,54 +279,58 @@ function submitLivery() {
     }
     const hists = [];
     const embeds = [];
+    let valid = true;
     inputFields.forEach((f, i) => {
-      (f.type)
-      if (f.type === "text"){
-        f.value = f.value.trim();
-        if (f.value.match(/^https:\/\/.+/i)) {
-            const hist = Object.values(uploadHistory).find(o => o.url == f.value);
-            if (!hist) {
-                return alert('Only self-uploaded imgbb links work for submitting!');
-            }
-            if (hist.expiration > 0) {
-                return alert('Can\' submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
-            }
-            const embed = {
-                title: airplane.labels[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
-                description: f.value,
-                image: { url: f.value },
-                fields: [
-                    { name: 'Timestamp', value: new Date(hist.time * 1e3), inline: true },
-                    { name: 'File ID', value: hist.id, inline: true },
-                ]
-            };
-            if (hist.submitted) {
-                if (!confirm('The following texture was already submitted:\n' + f.value + '\nContinue anyway?')) {
-                    return;
+        if (f.type === "text"){
+            f.value = f.value.trim();
+            if (f.value.match(/^https:\/\/.+/i)) {
+                const hist = Object.values(uploadHistory).find(o => o.url == f.value);
+                if (!hist) {
+                    valid = false;
+                    return alert('Only self-uploaded imgbb links work for submitting!');
                 }
-                embed.fields.push({ name: 'First submitted', value: new Date(hist.submitted * 1e3) });
+                if (hist.expiration > 0) {
+                    valid = false;
+                    return alert('Can\'t submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
+                }
+                embeds.push({
+                    title: airplane.labels[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
+                    description: f.value,
+                    image: { url: f.value },
+                    fields: [
+                        { name: 'Timestamp', value: new Date(hist.time * 1e3), inline: true },
+                        { name: 'File ID', value: hist.id, inline: true },
+                    ]
+                });
+                hists.push(hist);
+                json.texture.push(f.value);
+            } else {
+                json.texture.push(textures[i]);
             }
-            embeds.push(embed);
-            hists.push(hist);
-            json.texture.push(f.value);
-        } else {
-            json.texture.push(textures[i]);
-        }
         } else if (f.type === "color"){
             json.materials[f.id] = [parseInt(f.value.substring(1, 3), 16) / 255, parseInt(f.value.substring(3, 5), 16) / 255, parseInt(f.value.substring(5, 7), 16) / 255]
-    } 
-   });
+        }
+    });
+    if (!valid) return;
     if (!embeds.length)
         return alert('Nothing to submit, upload images first!');
 
-    let content = [
+    const submittedCombos = getSubmittedCombos();
+    const currentCombo = { texture: json.texture, materials: json.materials };
+    const alreadySubmitted = submittedCombos.some(combo => combosEqual(combo, currentCombo));
+    if (alreadySubmitted) {
+        alert('This livery has already been submitted!');
+        return;
+    }
+
+    const content = [
         `Livery upload by <@${localStorage.liveryDiscordId}>`,
         `__Plane:__ \`${geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2]}\` ${geofs.aircraft.instance.aircraftRecord.name}`,
         `__Livery Name:__ \`${json.name}\``,
         '```json\n' + JSON.stringify(json, null, 2) + '```'
     ];
 
-    fetch(atob(liveryobj.dapi), {
+    fetch('https://livery-submit-proxy.liveryselector.workers.dev', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ content: content.join('\n'), embeds })
@@ -335,9 +339,13 @@ function submitLivery() {
             hist.submitted = hist.submitted || Math.round(new Date() / 1000);
         });
         localStorage.lsUploadHistory = JSON.stringify(uploadHistory);
+        submittedCombos.push({ texture: json.texture, materials: json.materials });
+        saveSubmittedCombos(submittedCombos);
+        alert("You're livery has been submitted. You can check the #livery-submission channel on the GeoFS LiverySelector discord server.");
     });
 }
 
+function getSubmittedCombos() {
 function sortList(id) { // extremely slow (do not use)
     const list = domById(id);
     let i, switching, b, shouldSwitch;
@@ -356,7 +364,33 @@ function sortList(id) { // extremely slow (do not use)
             b[i].parentNode.insertBefore(b[i + 1], b[i]);
             switching = true;
         }
+    try {
+        const raw = JSON.parse(localStorage.getItem('submittedCombos') || '[]');
+        return raw.map(combo => Array.isArray(combo) ? { texture: combo, materials: {} } : combo);
+    } catch (err) {
+        log('Corrupt submittedCombos data, resetting.', 'warn');
+        return [];
     }
+}
+
+function saveSubmittedCombos(combos) {
+    localStorage.setItem('submittedCombos', JSON.stringify(combos));
+}
+
+function combosEqual(a, b) {
+    if (a.texture.length !== b.texture.length) return false;
+    if (!a.texture.every((url, idx) => url === b.texture[idx])) return false;
+
+    const aKeys = Object.keys(a.materials || {});
+    const bKeys = Object.keys(b.materials || {});
+    if (aKeys.length !== bKeys.length) return false;
+
+    return aKeys.every(key => {
+        const aVal = a.materials[key];
+        const bVal = (b.materials || {})[key];
+        if (!bVal || aVal.length !== bVal.length) return false;
+        return aVal.every((v, i) => v === bVal[i]);
+    });
 }
 
 /**
