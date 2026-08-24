@@ -712,8 +712,8 @@ function uploadLivery(fileInput) {
     }
     const form = new FormData();
     form.append('image', fileInput.files[0]);
-    if (localStorage.liveryAutoremove)
-        form.append('expiration', (new Date() / 1000) * 60 * 60);
+    if (localStorage.liveryAutoremove === '1')
+        form.append('expiration', 3600);
 
     const settings = {
         'url': `https://api.imgbb.com/1/upload?key=${localStorage.imgbbAPIKEY}`,
