@@ -6,7 +6,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
 
 with open(".webhook/commit.txt", "r") as file:
-    commit_id = file.read()
+    commit_id = file.read().strip()
     print(commit_id)
 
 new_json =  json.loads(requests.get("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/livery.json").content)
