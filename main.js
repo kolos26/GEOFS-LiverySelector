@@ -651,26 +651,25 @@ function createDirectButton(id, i) {
 
 function createColorChooser(name, type, partlist) {
     const customDiv = document.querySelector('#livery-custom-tab-direct .upload-fields');
-    appendNewChild(customDiv, 'input', {
+    const colorInput = appendNewChild(customDiv, 'input', {
         type: 'color',
         name: name,
         class: 'colorChooser',
-        onchange: `changeMaterial("${name}", this.value, "${type}", [${partlist}])`
     });
+    colorInput.addEventListener('change', () => changeMaterial(name, colorInput.value, type, partlist));
     appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).textContent = name;
     appendNewChild(customDiv, 'br');
 }
 
-
 function createUploadColorChooser(name, type, partlist) {
     const customDiv = document.querySelector('#livery-custom-tab-upload .upload-fields');
-    appendNewChild(customDiv, 'input', {
+    const colorInput = appendNewChild(customDiv, 'input', {
         type: 'color',
         name: "textureInput",
         id: name,
         class: 'colorChooser',
-        onchange: `changeMaterial("${name}", this.value, "${type}", [${partlist}])`
     });
+    colorInput.addEventListener('change', () => changeMaterial(name, colorInput.value, type, partlist));
     appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).textContent = name;
     appendNewChild(customDiv, 'br');
 }
@@ -809,7 +808,7 @@ function reloadSettingsForm() {
         'API KEY HERE';
 
     const removeCheckbox = domById('livery-setting-remove');
-    removeCheckbox.checked = (localStorage.liveryAutoremove == 1);
+    removeCheckbox.checked = (localStorage.liveryAutoremove === '1');
 
     const discordInput = domById('livery-setting-discordid');
     discordInput.value = localStorage.liveryDiscordId || '';
