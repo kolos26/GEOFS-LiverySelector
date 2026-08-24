@@ -880,7 +880,7 @@ function getCurrentAircraft() {
 }
 
 function setInstanceId(id, alias, url=undefined) {
-    geofs.aircraft.instance.liveryId = {ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: id +  LIVERY_ID_OFFSET, url: url, [Symbol.toPrimitive](hint) {if (hint === "default"){if(alias) return alias; else return "0";} return null;}};
+    geofs.aircraft.instance.liveryId = {ac_path: geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2], idx: id +  LIVERY_ID_OFFSET, url: url, [Symbol.toPrimitive](hint) {if (hint === "default"){if(alias) return alias; else return String(LIVERY_ID_OFFSET);} return null;}};
 }
 
 async function updateMultiplayer() {
