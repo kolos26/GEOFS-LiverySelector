@@ -136,7 +136,7 @@ async function handleLiveryJson(data) {
             createTag('a', {
                 href: 'https://github.com/kolos26/GEOFS-LiverySelector/releases/latest',
                 target: '_blank',
-                style: 'display:block;width:100%;text-decoration:none;text-align:center;'
+                style: 'display:block;width:100%;text-decoration:none;text-align:center;background-color:red;color:white;margin-top: 3px;'
             }, 'Update available: ' + liveryobj.version)
         );
     }
@@ -1177,11 +1177,8 @@ function generateListHTML() {
         <div class="livery-searchbar mdl-textfield mdl-js-textfield geofs-stopMousePropagation geofs-stopKeyupPropagation">
             <input class="mdl-textfield__input address-input" type="text" placeholder="Search liveries" onkeyup="LiverySelector.search(this.value)" id="searchlivery">
             <label class="mdl-textfield__label" for="searchlivery">Search liveries</label>
-            <button class="potato-mode-search">search</button>
         </div>
-        <div style="width: 100%">
-            <span>Potato mode: </span><input id="livery-potato-mode" data-gespref="geofs.preferences.liveryPotato" type="checkbox"></input>
-        </div>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button potato-mode-search" style="margin-left:auto; margin-top: -60px;">search</button>
         <h6 onclick="LiverySelector.toggleDiv('favorites')">Favorited Liveries</h6>
         <ul id="favorites" class="geofs-list geofs-visible"></ul>
 
@@ -1216,8 +1213,8 @@ function generateListHTML() {
                         <label for="livery-submit-confirm-legal">I confirm the textures are safe for all ages and audiences, non-offensive, appropriate, high-quality, and don't violate any laws or other regulations.</label>
                         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="LiverySelector.submitLivery()">Submit livery for review</button>
                         <small>
-                          Join our <a href="https://discord.gg/2tcdzyYaWU" target="_blank">Discord</a> to follow up on your contributions.
-                          By submitting the livery, you agree to the <a href="https://discord.com/terms" target="_blank">Discord Terms of Service</a> and our Discord server rules. Failing to comply may result in your submissions being ignored.
+                        Join our <a href="https://discord.gg/2tcdzyYaWU" target="_blank">Discord</a> to follow up on your contributions.
+                        By submitting the livery, you agree to the <a href="https://discord.com/terms" target="_blank">Discord Terms of Service</a> and our Discord server rules. Failing to comply may result in your submissions being ignored.
                         </small>
                     </div>
                 </div>
@@ -1231,15 +1228,21 @@ function generateListHTML() {
                 <div class="download-fields"></div>
             </div>
             <div id="livery-custom-tab-api" style="display:none;">
-              <div>
+            <div>
                 <label for="livery-setting-apikey">Paste your imgbb API key here (<a href="https://api.imgbb.com" target="_blank">get key</a>)</label>
                 <input type="text" id="livery-setting-apikey" class="mdl-textfield__input address-input" onchange="LiverySelector.saveSetting(this)">
                 <input type="checkbox" id="livery-setting-remove" onchange="LiverySelector.saveSetting(this)">
                 <label for="livery-setting-remove">Expire links after one hour<br><small>(only for testing, disable when submitting to the database!)</small></label>
                 <label for="livery-setting-discordid">Discord User ID (<a href="https://support.discord.com/hc/en-us/articles/206346498" target="_blank">howto</a>)</label>
                 <input type="number" id="livery-setting-discordid" class="mdl-textfield__input address-input" onchange="LiverySelector.saveSetting(this)">
-              </div>
             </div>
+            </div>
+        </div>
+        <div style="width: 100%; padding-left: 5px;margin-top: 10px;">
+            <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="livery-potato-mode" id="livery-potato-mode-label">
+                <input type="checkbox" id="livery-potato-mode" class="mdl-switch__input" data-gespref="geofs.preferences.liveryPotato">
+                <span class="mdl-switch__label">Potato mode</span>
+            </label>
         </div>
         <br/>
         <a href="https://github.com/kolos26/GEOFS-LiverySelector/tree/main/tutorial" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open Tutorial</button></a><br/>
