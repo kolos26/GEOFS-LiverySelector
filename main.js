@@ -907,10 +907,9 @@ async function updateMultiplayer() {
             return; // already updated
         }
 
-        mpLiveryIds[u.id] = otherId;
 
         if (otherId >= ML_ID_OFFSET && otherId < LIVERY_ID_OFFSET) {
-            textures = getMLTexture(u, liveryEntry); // ML range 1k–10k
+            textures = getMLTexture(u, otherId, liveryEntry); // ML range 1k–10k
         } else if (
             (otherId >= LIVERY_ID_OFFSET && otherId < LIVERY_ID_OFFSET * 2)
         ) {
@@ -1014,23 +1013,20 @@ async function getMPTexture(u, liveryEntry, otherId) {
  * @param {object} u
  * @param {object} liveryEntry
  */
-function getMLTexture(u, liveryEntry) {
+function getMLTexture(u, otherId, liveryEntry) {
     if (!mLiveries.aircraft) {
         fetch(atob(liveryobj.mapi)).then(data => data.json()).then(json => {
             Object.keys(json).forEach(key => mLiveries[key] = json[key]);
         });
         return [];
     }
-    const liveryId = u.currentLivery - ML_ID_OFFSET;
+    const liveryId = otherId - ML_ID_OFFSET;
     const textures = [];
-    const texIdx = liveryEntry.labels.indexOf('Texture');
-    if (texIdx !== -1) {
-        textures.push({
-            uri: mLiveries.aircraft[liveryId].mptx,
-            tex: u.model._model._rendererResources.textures[liveryEntry.index[texIdx]],
-            index: liveryEntry.index[texIdx]
-        });
-    }
+    textures.push({
+        uri: mLiveries.aircraft[liveryId].mptx,
+        tex: u.model._model._rendererResources.textures[liveryEntry.mp[0].modelIndex],
+        index: liveryEntry.mp[0].modelIndex
+    });
     return textures;
 }
 
