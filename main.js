@@ -59,7 +59,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
         livery.mp != 'disabled' && setInstanceId(idx, livery.alias));
     }); // uses || (logical OR) to run the right side code only if livery.disabled is falsy
     livList.addEventListener('error', function(e) {
-        const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.png`;
+        const defaultThumb = `${noCommit}/thumbs/${geofs.aircraft.instance.id}.webp`;
         if (e.target.tagName !== 'IMG' || e.target.src === defaultThumb) return;
         e.target.onerror = null;
         e.target.src = defaultThumb;
@@ -364,7 +364,7 @@ function listLiveries() {
         const listItem = $('<li/>', {id: [airplane.acid, e.name, 'button'].join('_'), class: 'livery-list-item', "data-idx": i});
         listItem.append($('<span/>').text(e.name));
         listItem.toggleClass('offi', airplane.acid <= 102).toggleClass("geofs-visible", !geofs.preferences.liveryPotato); // if param2 is true, it'll add 'offi', if not, it will remove 'offi'
-        airplane.acid <= 102 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, airplane.acid, airplane.acid + '-' + e.idx + '.png'].join('/')}));
+        airplane.acid <= 102 && listItem.append($('<img/>', {loading: 'lazy', src: [thumbsDir, airplane.acid, airplane.acid + '-' + e.idx + '.webp'].join('/')}));
         e.credits && e.credits.length && $('<small/>').text(`by ${e.credits}`).appendTo(listItem);
         $('<i/>', { id: airplane.acid + "_" + e.name }).appendTo(listItem);
         listItem.appendTo(tempFrag);
