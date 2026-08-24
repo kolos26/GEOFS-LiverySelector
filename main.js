@@ -109,7 +109,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
     fetch(`${jsDelivr}/whitelist.json?`).then(res => res.json()).then(data => whitelist = data);
 
     // Start multiplayer
-    setInterval(updateMultiplayer, 5000);
+    scheduleMultiplayerUpdate();
 
     window.addEventListener("keyup", function (e) {
         if (e.target.classList.contains("geofs-stopKeyupPropagation")) {
@@ -184,6 +184,17 @@ async function handleLiveryJson(data) {
             liveryobj.aircrafts[aircraftId].liveries.sort((e, t) => e.name.localeCompare(t.name, undefined, { sensitivity: 'base' }));
         })
 }
+
+async function scheduleMultiplayerUpdate() {
+    try {
+        await updateMultiplayer();
+    } catch (e) {
+        log(e, "error");
+    } finally {
+        setTimeout(scheduleMultiplayerUpdate, 5000);
+    }
+}
+scheduleMultiplayerUpdate();
 
 /**
  * Triggers GeoFS API to load texture
