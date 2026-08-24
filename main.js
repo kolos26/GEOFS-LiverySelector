@@ -1251,7 +1251,7 @@ function togglePanel() {
     const p = document.getElementById('listDiv');
     console.time('listLiveries');
     try {
-        p.dataset.ac != geofs.aircraft.instance.id && window.LiverySelector.listLiveries();
+        p.dataset.ac != geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2] && window.LiverySelector.listLiveries();
     } catch (e) {
         log(e, "error");
     }
