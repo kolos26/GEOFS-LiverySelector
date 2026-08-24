@@ -346,24 +346,6 @@ function submitLivery() {
 }
 
 function getSubmittedCombos() {
-function sortList(id) { // extremely slow (do not use)
-    const list = domById(id);
-    let i, switching, b, shouldSwitch;
-    switching = true;
-    while (switching) {
-        switching = false;
-        b = list.getElementsByTagName('LI');
-        for (i = 0; i < (b.length - 1); i++) {
-            shouldSwitch = false;
-            if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
-                shouldSwitch = true;
-                break;
-            }
-        }
-        if (shouldSwitch) {
-            b[i].parentNode.insertBefore(b[i + 1], b[i]);
-            switching = true;
-        }
     try {
         const raw = JSON.parse(localStorage.getItem('submittedCombos') || '[]');
         return raw.map(combo => Array.isArray(combo) ? { texture: combo, materials: {} } : combo);
