@@ -1,3 +1,4 @@
+'use strict';
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
@@ -1286,6 +1287,7 @@ window.LiverySelector = {
     saveSetting,
     toggleDiv,
     loadLivery,
+    changeMaterial,
     loadLiveryDirect,
     handleCustomTabs,
     listLiveries,
