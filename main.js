@@ -421,20 +421,20 @@ function loadAirlines() {
         let airlinename = appendNewChild(domById('airlinelist'), 'li', {
             style: "color:" + airline.color + ";background-color:" + airline.bgcolor + "; font-weight: bold;"
         });
-        airlinename.innerText = airline.name;
+        airlinename.textContent = airline.name;
         let removebtn = appendNewChild(airlinename, "button", {
             class: "mdl-button mdl-js-button mdl-button--raised mdl-button",
             style: "float: right; margin-top: 6px; background-color: #9e150b;",
-            onclick: `LiverySelector.removeAirline("${airline.url}")`
         });
-        removebtn.innerText = "- Remove airline";
-        if (Object.keys(airline.aircrafts).includes(geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2])) { // va json indexed by
+        removebtn.addEventListener("click", () => {LiverySelector.removeAirline(airline.url)})
+        removebtn.textContent = "- Remove airline";
+        if (Object.keys(airline.aircrafts).includes(geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2])) { // va json indexed by acreateTc_path
             airline.aircrafts[geofs.aircraft.instance.fullPath.split("/")[geofs.aircraft.instance.fullPath.split("/").length-2]].liveries.forEach(function (e, i) {
                 let listItem = appendNewChild(domById('airlinelist'), 'li', {
                     id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
                     class: 'livery-list-item'
                 });
-                if ((textures.filter(x => x === textures[0]).length === textures.length) && textures.length !== 1) { // the same texture is used for all indexes and parts
+                if ((textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) && textures.length !== 1) { // the same texture is used for all indexes and parts
                     const texture = e.texture[0];
                     listItem.onclick = () => {
                         loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
@@ -450,9 +450,9 @@ function loadAirlines() {
                         }
                     }
                 }
-                listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
+                listItem.innerHTML = safeCreateTag('span', { class: 'livery-name' }, e.name).outerHTML;
                 if (e.credits && e.credits.length) {
-                    listItem.innerHTML += `<small>by ${e.credits}</small>`;
+                    listItem.textContent += `<small>by ${e.credits}</small>`;
                 }
             });
         }
@@ -478,7 +478,7 @@ function loadAirlines() {
                         }
                     }
                 }
-                listItem.innerHTML = createTag('span', { class: 'livery-name' }, e.name).outerHTML;
+                listItem.innerHTML = safeCreateTag('span', { class: 'livery-name' }, e.name).outerHTML;
                 if (e.credits && e.credits.length) {
                     listItem.innerHTML += `<small>by ${e.credits}</small>`;
                 }
@@ -892,9 +892,18 @@ async function updateMultiplayer() {
             if (otherId.url === undefined){
                 liveryEntry = liveryobj.aircrafts[otherId.ac_path];
                 otherId = otherId.idx;
-            } else {
+            } else if (whitelist.includes(otherId.url)){
                 if (mpAirlineobjs[otherId.url] === undefined){
-                    await fetch(otherId.url).then(res => res.json()).then(data => mpAirlineobjs[otherId.url] = data);
+                    try {
+                        await fetch(otherId.url).then(res => res.json()).then(data => mpAirlineobjs[otherId.url] = data);
+                    } catch (err) {
+                        log(`Failed to fetch airline data: ${otherId.url}\n${err}`, "error");
+                        return; // bail out for this user only, don't crash the whole batch
+                    }
+                    if (!mpAirlineobjs[otherId.url]?.aircrafts) {
+                        log(`Airline JSON missing 'aircrafts' field: ${otherId.url}`, "error");
+                        return;
+                    }
                     let mp_data;
                     Object.keys(mpAirlineobjs[otherId.url].aircrafts).forEach(ac => {
                         if (liveryobj.aircrafts[ac] !== undefined) { // va file indexed by path
@@ -960,6 +969,7 @@ async function updateMultiplayer() {
                 );
             }
         });
+        mpLiveryIds[u.id] = otherId;
     });
 
     await Promise.all(texturePromises); // wait for all user updates to complete
@@ -1105,6 +1115,15 @@ function createTag(name, attributes = {}, content = '') {
     Object.keys(attributes || {}).forEach(k => el.setAttribute(k, attributes[k]));
     if (('' + content).length) {
         el.innerHTML = content;
+    }
+    return el;
+}
+
+function safeCreateTag(name, attributes = {}, content = '') {
+    const el = document.createElement(name);
+    Object.keys(attributes || {}).forEach(k => el.setAttribute(k, attributes[k]));
+    if (('' + content).length) {
+        el.textContent = content;
     }
     return el;
 }
