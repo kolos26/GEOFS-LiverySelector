@@ -34,9 +34,9 @@ checked_links = []
 missing_count = 0
 for livery in addition:
     for link in livery["texture"]:
-        if isinstance(link, str) and link.startswith('https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/') and not link in checked_links:
+        if isinstance(link, str) and link.startswith('https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/') and not link in checked_links:
             checked_links.append(link)
-            if not os.path.exists(link.replace("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/", "")):
+            if not os.path.exists(link.replace("https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main", "")):
                 missing_count += 1
                 webhook = DiscordWebhook(url=MISSING_LIVERIES_WEBHOOK)
                 embed = DiscordEmbed(color="DC143C", description=link)
