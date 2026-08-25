@@ -5124,6 +5124,15 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/FightForWildlife1.webp"
                     ],
                     "credits": "machpoint82"
+                },
+                {
+                    "name": "Emirates (ICC Cricket World Cup 2019 livery)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/ICC_Cricket_World_Cup_2019.webp"
+                    ],
+                    "credits": "machpoint82"
                 }
             ],
             "labels": [
@@ -10893,6 +10902,36 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/12_Sem_Titulo_20260706021759.webp"
                     ],
                     "credits": "RuaNz"
+                },
+                {
+                    "name": "American Airlines (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_american.webp"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "American Airlines (OneWorld livery - new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b767-300er/767_onewold_american.webp"
+                    ],
+                    "credits": "kopinokami222"
                 }
             ],
             "labels": [
@@ -17614,12 +17653,6 @@
                     "credits": "VerybadA330"
                 },
                 {
-                    "name": "EL AL (retro livery)",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/elalretro.webp"
-                    ]
-                },
-                {
                     "name": "EVA Air (787 sticker)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/eva.webp"
@@ -18195,7 +18228,7 @@
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/Boeing_Dreamliner__Dreams_Take_Flight__-_Boeing_787-9_Dreamliner.webp"
                     ],
-                    "credits": "Nichy"
+                    "credits": "Dalton"
                 },
                 {
                     "name": "IndiGo (leased from North Atlantic)",
@@ -18630,6 +18663,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/Aeromexico_Quetzalcoatl_787-9.webp"
                     ],
                     "credits": "Dalton"
+                },
+                {
+                    "name": "EL AL (retro livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/4X-EDF.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "EL AL (retro livery - white nose)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/4X-EDF_white_nose.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Lufthansa (German Registration)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/Lufthansa_787-9_German_Reg.webp"
+                    ],
+                    "credits": "Luca B"
                 }
             ],
             "labels": [
@@ -22089,6 +22143,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-214/loongair5g.webp"
                     ],
                     "credits": "whois无名氏[Sino Wings Group]"
+                },
+                {
+                    "name": "PIA (Markhor Livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-214/PIA_Markhor_Livery_A320_Livery.webp"
+                    ],
+                    "credits": "mustafai31534_41566"
+                },
+                {
+                    "name": "Fly Jinnah",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-214/Fly_Jinnah_A320-214.webp"
+                    ],
+                    "credits": "PakistanAirForceSalute"
+                },
+                {
+                    "name": "Air Arabia",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-214/AirArabia_A320-214.webp"
+                    ],
+                    "credits": "PakistanAirForceSalute"
                 }
             ],
             "labels": [
@@ -24348,6 +24423,34 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320neo/10_Sem_Titulo_20260705225932.webp"
                     ],
                     "credits": "RuaNz"
+                },
+                {
+                    "name": "Azul (Localiza livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320neo/52_Sem_Titulo_20260710211207.webp"
+                    ],
+                    "credits": "RuaNz"
+                },
+                {
+                    "name": "Azul(Fidelidade Accor livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320neo/52_Sem_Titulo_20260710220406.webp"
+                    ],
+                    "credits": "RuaNz"
+                },
+                {
+                    "name": "Colorful Guizhou Airlines (Moutai 1935 livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320neo/Corlorful_Guizhou_Airlines_Moutai_1935.webp"
+                    ],
+                    "credits": "Wind_ward"
+                },
+                {
+                    "name": "Azul (A tribute to the June festival livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320neo/52_Sem_Titulo_20260711195410.webp"
+                    ],
+                    "credits": "RuaNz"
                 }
             ],
             "labels": [
@@ -25455,6 +25558,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/Chinasouthern_skyteam_logo.webp"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "Virgin Australia (150th Boeing 737 livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/VH-8VI.webp"
+                    ],
+                    "credits": "froxy"
                 }
             ],
             "labels": [
@@ -30127,6 +30237,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Lothian_737-800.webp"
                     ],
                     "credits": "Luca B"
+                },
+                {
+                    "name": "Air Changan (Taibai Mountains livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Air_Changan_Taibai_Mountains_livery.webp"
+                    ],
+                    "credits": "Wind_ward"
+                },
+                {
+                    "name": "Air Changan (Shanxi Credit Union livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Air_Changan_Shanxi_Credit_Union_livery.webp"
+                    ],
+                    "credits": "Wind_ward"
+                },
+                {
+                    "name": "Xiamen Airlines (Daxing livery",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Xiamen_Airlines_Daxing.webp"
+                    ],
+                    "credits": "j20number2008"
                 }
             ],
             "labels": [
@@ -39203,12 +39334,6 @@
                     "credits": "luca b"
                 },
                 {
-                    "name": "SAS",
-                    "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/48avf1_sas.jpg"
-                    ]
-                },
-                {
                     "name": "Transasia",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/49luca_transasia.jpg"
@@ -40371,6 +40496,20 @@
                     "name": "Arkia (pink design)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/7_Sem_Titulo_20260705143859.webp"
+                    ],
+                    "credits": "RuaNz"
+                },
+                {
+                    "name": "SAS",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/SAS_A321neo.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Azul (Brazilian flag livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/39_Sem_Titulo_20260709214936.webp"
                     ],
                     "credits": "RuaNz"
                 }
@@ -50600,6 +50739,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/CSC_B-8932.webp"
                     ],
                     "credits": "B-20AJ"
+                },
+                {
+                    "name": "Qantas (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/Qantas_New_design_A332.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Qantas (OneWorld livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/Qantas_OneWorld_design_A332.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Etihad (Visit Abu Dhabi 2011 livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/Etihad_Visit_Abu_Dhabi_2011_A332_CC_Livery.webp"
+                    ],
+                    "credits": "Bird on a sign at a beach"
                 }
             ],
             "labels": [
@@ -60784,6 +60944,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/DAT_A320.webp"
                     ],
                     "credits": "X-75"
+                },
+                {
+                    "name": "JetBlue (USA 250 livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/JETBLUEA320.webp"
+                    ],
+                    "credits": "Dalton"
+                },
+                {
+                    "name": "AJet (white design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/TC-JTY_White_T-WL_Final_copy_2.webp"
+                    ],
+                    "credits": "ASA1282"
+                },
+                {
+                    "name": "Icelandair (white design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/icelandair.webp"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": [
@@ -66061,6 +66242,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-8f/Cargolux_50th.webp"
                     ],
                     "credits": "opaldelta_17676"
+                },
+                {
+                    "name": "Cargolux (Not without my mask livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-8f/CARGOLUX748.webp"
+                    ],
+                    "credits": "Dalton"
                 }
             ],
             "labels": [
@@ -66538,7 +66726,7 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/comac_c919/b001c.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/comac_c919/b001c.webp"
                     ],
-                    "credits": "MirageModels"
+                    "credits": "MirageModels & KN5290"
                 },
                 {
                     "name": "Cathay Pacific (planned livery)",
@@ -67391,6 +67579,18 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj195-e2/latam/Rudder_and_Tail.webp"
                     ],
                     "credits": "Ivan Dmirtiev"
+                },
+                {
+                    "name": "Azul (Combustível do futuro livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj195-e2/azulfutoro/Fuselage.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj195-e2/latam/Fuselage.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj195-e2/latam/Engine_and_Reverser.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj195-e2/latam/Engine_and_Reverser.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj195-e2/latam/Rudder_and_Tail.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj195-e2/latam/Rudder_and_Tail.webp"
+                    ],
+                    "credits": "RuaNz"
                 }
             ],
             "labels": [
@@ -68603,6 +68803,22 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
                     ],
                     "credits": "Luca B & Ivan Dmitriev"
+                },
+                {
+                    "name": "Cathay Pacific Cargo (bare metal livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/B-HKH.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
+                    ],
+                    "credits": "yicha.25"
+                },
+                {
+                    "name": "British Airways (Wings design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/b747-BA-wings.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
+                    ],
+                    "credits": "BorecPepik"
                 }
             ],
             "labels": [
@@ -70106,6 +70322,76 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/33_Sem_Titulo_20260630025020.webp"
                     ],
                     "credits": "RuaNz"
+                },
+                {
+                    "name": "Lufthansa (Die Maus livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Lufthansa__Die_Maus_livery_A321-232.webp"
+                    ],
+                    "credits": "Luca B & Ivan Dmitriev"
+                },
+                {
+                    "name": "China Eastern (Skyteam livery - old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/A321-232_china_eastern_skyteam.webp"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "China Eastern (Skyteam livery - new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/A321-232_china_eastern_skyteam_new.webp"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "Air China",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Air_China.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Air China (with flag)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Air_China_flag.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "AJet",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Ajet.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Cathay Dragon",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Cathay_Dragon.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "China Eastern Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/China_Eastern.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Hong Kong Express (grey nose)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Hong_Kong_Express_grey_nose.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Turkish Airlines (Star Alliance livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Turkish_Airlines_Star_Alliance.webp"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": [
@@ -70591,6 +70877,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_kc135r/kc135newjersey.webp"
                     ],
                     "credits": "AIS1697"
+                },
+                {
+                    "name": "NASA (Vomit Comet)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_kc135r/kc135newjersey.webp"
+                    ],
+                    "credits": "Borec Pepik"
                 }
             ],
             "labels": [
@@ -71027,12 +71320,20 @@
             "mp": "disabled",
             "liveries": [
                 {
-                    "name": "Antonov Airlines",
+                    "name": "Antonov Airlines (new design)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/antonov_an124/antonov/main.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/antonov_an124/antonov/engine.webp"
                     ],
                     "credits": "NS-Studios & AF267"
+                },
+                {
+                    "name": "Antonov Airlines (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/antonov_an124/antonov_old/main.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/antonov_an124/antonov_old/engine.webp"
+                    ],
+                    "credits": "Enginesthrust16"
                 }
             ],
             "labels": [
