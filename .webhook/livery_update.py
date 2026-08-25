@@ -39,7 +39,7 @@ total = 0
 
 if diff_data:
     webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
-    embed = DiscordEmbed(title=f"Livery update at `{datetime.datetime.now(datetime.timezone.utc).strftime("%d/%m/%Y %H:%M UTC")}`", color="25405E")
+    embed = DiscordEmbed(title=f"Livery update at `{datetime.datetime.now(datetime.timezone.utc).strftime('%d/%m/%Y %H:%M UTC')}`", color="25405E")
     webhook.add_embed(embed)
     webhook.execute()
 
