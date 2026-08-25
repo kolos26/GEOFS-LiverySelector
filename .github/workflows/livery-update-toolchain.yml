@@ -25,7 +25,7 @@ jobs:
         run: sudo apt update && sudo apt install webp
 
       - name: Convert images
-        run: cd liveries && ../.webp/webp_conversion.sh
+        run: cd liveries && bash ../.webp/webp_conversion.sh
 
       - name: Commit the file
         env:
