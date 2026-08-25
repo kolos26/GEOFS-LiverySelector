@@ -5097,6 +5097,33 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/ek_final.webp"
                     ],
                     "credits": "BananaCat"
+                },
+                {
+                    "name": "Emirates (Year of Tolerance livery)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/ZeroTolerance1.webp"
+                    ],
+                    "credits": "machpoint82"
+                },
+                {
+                    "name": "Emirates (Rugby World Cup England 2015 livery)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/England2015.webp"
+                    ],
+                    "credits": "machpoint82"
+                },
+                {
+                    "name": "Emirates (United for wildlife liveryEEI)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/FightForWildlife1.webp"
+                    ],
+                    "credits": "machpoint82"
                 }
             ],
             "labels": [
@@ -35531,10 +35558,10 @@
                     "credits": "HotelTDevils"
                 },
                 {
-                    "name": "Severstal",
+                    "name": "Severstal Avia (old design)",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_crj200/Severstal_Bombordier_CRJ_200.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_crj200/Severstal_Bombordier_CRJ_200.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_crj200/Bombordier_CRJ_200_Severstal_Old.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_crj200/Bombordier_CRJ_200_Severstal_Old.webp"
                     ],
                     "credits": "Ivan Dmitriev"
                 },
@@ -70507,6 +70534,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/b720-vomitcomet.webp"
                     ],
                     "credits": "Borec Pepik"
+                },
+                {
+                    "name": "Boeing house livery (367-80 prototype)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/Boeing_367-80.webp"
+                    ],
+                    "credits": "Luca B"
                 }
             ],
             "labels": [
@@ -70550,6 +70584,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_kc135r/kc135newjersey.webp"
                     ],
                     "credits": "Raptor4001"
+                },
+                {
+                    "name": "USAF - 121st ARW Ohio ANG",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_kc135r/kc135newjersey.webp"
+                    ],
+                    "credits": "AIS1697"
                 }
             ],
             "labels": [
@@ -70712,6 +70753,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-500/2026_07_01_0o1_Kleki-4096x4096.webp"
                     ],
                     "credits": "VerybadA330"
+                },
+                {
+                    "name": "Arik Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-500/a340-500ARIK.webp"
+                    ],
+                    "credits": "SAMU12pp"
+                },
+                {
+                    "name": "Air Canada (Ice Blue design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-500/a340-500ACA_ICE.webp"
+                    ],
+                    "credits": "SAMU12pp"
+                },
+                {
+                    "name": "Singapore Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-500/a340-500singapore.webp"
+                    ],
+                    "credits": "SAMU12pp"
                 }
             ],
             "labels": [
@@ -70916,6 +70978,34 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/Airbus_A340-600_-_A6-EHJ_-_09.webp"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Virgin Atlantic (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/a340-600vigin.webp"
+                    ],
+                    "credits": "SAMU12pp"
+                },
+                {
+                    "name": "South African Airways",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/a340-600_south_african.webp"
+                    ],
+                    "credits": "SAMU12pp"
+                },
+                {
+                    "name": "Qatar Airways",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/a340-600qatar.webp"
+                    ],
+                    "credits": "SAMU12pp"
+                },
+                {
+                    "name": "Iberia",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/a340-600IBERIAv2.webp"
+                    ],
+                    "credits": "SAMU12pp"
                 }
             ],
             "labels": [
