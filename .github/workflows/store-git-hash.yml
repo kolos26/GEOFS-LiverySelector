@@ -25,7 +25,7 @@ jobs:
 
       - name: Fetch commit hash
         id: get_commit
-        uses: pr-mpt/actions-commit-hash@v2
+        uses: pr-mpt/actions-commit-hash@v4
 
       - name: Write file
         run: |
