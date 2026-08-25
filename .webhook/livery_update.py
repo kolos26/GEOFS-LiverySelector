@@ -53,7 +53,7 @@ if diff_data:
                 livery_list += f'{livery["name"]} *by: {livery["credits"]}*\n'
             except KeyError:
                 livery_list += f'{livery["name"]} *by: ??*\n'
-        livery_list += f"`{len(plane["addition"])}` added / `{plane["liv_count"]}` available"
+        livery_list += f'`{len(plane["addition"])}` added / `{plane["liv_count"]}` available'
         embed.add_embed_field(name=plane["name"], value=livery_list.strip(), inline=False)
         webhook.add_embed(embed)
         webhook.execute()
