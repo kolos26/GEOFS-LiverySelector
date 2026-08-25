@@ -68,7 +68,7 @@ jobs:
       - name: Check liveries
         env:
           MISSING_LIVERIES_WEBHOOK: ${{ secrets.MISSING_LIVERIES_WEBHOOK }}
-        run: python3 .filecheck/check_images.py.py
+        run: python3 .filecheck/check_images.py
 
       - name: Fetch commit hash
         id: get_commit
