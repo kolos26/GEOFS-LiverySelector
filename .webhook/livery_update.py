@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import datetime
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
@@ -14,6 +15,7 @@ old_json = json.loads(requests.get(f"https://raw.githubusercontent.com/kolos26/G
 keys = new_json["aircrafts"].keys()
 
 diff_data = []
+total_count = 0
 for plane in keys:
     addition = []
     for livery in new_json["aircrafts"][plane]["liveries"]:
@@ -23,11 +25,12 @@ for plane in keys:
         except KeyError:
             addition.append(livery)
     try:
-        data = {"name": new_json["aircrafts"][plane]["name"], "addition": addition}
+        data = {"name": new_json["aircrafts"][plane]["name"], "addition": addition, "liv_count": len(new_json["aircrafts"][plane]["liveries"])}
     except KeyError:
         data = {"name": plane, "addition": addition}
     if addition:
         diff_data.append(data)
+    total_count += len(new_json["aircrafts"][plane]["liveries"])
 
 
 print(diff_data)
@@ -36,7 +39,7 @@ total = 0
 
 if diff_data:
     webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
-    embed = DiscordEmbed(title=f"New livery update", color="25405E")
+    embed = DiscordEmbed(title=f"Livery update at `{datetime.datetime.now(datetime.timezone.utc).strftime("%d/%m/%Y %H:%M UTC")}`", color="25405E")
     webhook.add_embed(embed)
     webhook.execute()
 
@@ -50,11 +53,12 @@ if diff_data:
                 livery_list += f'{livery["name"]} *by: {livery["credits"]}*\n'
             except KeyError:
                 livery_list += f'{livery["name"]} *by: ??*\n'
+        livery_list += f"`{len(plane["addition"])}` added / `{plane["liv_count"]}` available"
         embed.add_embed_field(name=plane["name"], value=livery_list.strip(), inline=False)
         webhook.add_embed(embed)
         webhook.execute()
 
     webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
-    embed = DiscordEmbed(title=f"Total: {total}", color="25405E")
+    embed = DiscordEmbed(title=f"Total: `{total}` added / `{total_count}` available", color="25405E")
     webhook.add_embed(embed)
     webhook.execute()
