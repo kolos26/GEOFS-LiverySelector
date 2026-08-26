@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import datetime
+from operator import itemgetter
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
@@ -38,6 +39,8 @@ print(diff_data)
 total = 0
 
 if diff_data:
+    diff_data.sort(key=itemgetter("name"))
+
     webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
     embed = DiscordEmbed(title=f"Livery update at `{datetime.datetime.now(datetime.timezone.utc).strftime('%d/%m/%Y %H:%M UTC')}`", color="25405E")
     webhook.add_embed(embed)
