@@ -50,6 +50,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
+          ref: ${{ github.ref_name }}
           sparse-checkout: |
             livery.json
             liveries/**/*
