@@ -16601,6 +16601,34 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/lanexang_ex_nac.webp"
                     ],
                     "credits": "RYANAIR5719"
+                },
+                {
+                    "name": "Air Madagascar (red tail)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_redtail.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Air Madagascar",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_regular.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Air Madagascar (white design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJB_blank.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Air Madagascar (Telma livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-MJE_telma.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
                 }
             ],
             "labels": [
@@ -17612,7 +17640,7 @@
                 {
                     "name": "China Southern Airlines",
                     "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/China_Southern_787-9_Final.png"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/China_Southern_787-9_Final.webp"
                     ],
                     "credits": "TOMAIIM"
                 },
@@ -22997,7 +23025,7 @@
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320neo/chinasouthern.webp"
                     ],
-                    "credits": "KN5290"
+                    "credits": "KN5290 & TOMAIIM"
                 },
                 {
                     "name": "Air China",
@@ -25727,6 +25755,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/LynxAir_737-81.webp"
                     ],
                     "credits": "Airwest"
+                },
+                {
+                    "name": "WestJet (Toronto Blue Jays livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/B737max8_BJC_4.webp"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": [
@@ -47142,6 +47177,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-211/sunclass.webp"
                     ],
                     "credits": "DevFlight"
+                },
+                {
+                    "name": "Juneyao Air (Lego livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-211/HO321.webp"
+                    ],
+                    "credits": "B-20AJ & PEK某失踪人口"
                 }
             ],
             "labels": [
@@ -57915,6 +57957,16 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/cockpit/Image_4.webp"
                     ],
                     "credits": "Borec Pepik"
+                },
+                {
+                    "name": "Czech Air Force",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/normal/Image_0.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/Rafale-Czaf.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/specular/Image_2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/cockpit/Image_4.webp"
+                    ],
+                    "credits": "BorecPepik"
                 }
             ],
             "labels": [
@@ -66072,6 +66124,15 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/Austral_Skyteam_livery_Emb190.webp"
                     ],
                     "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "ANA",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/E190.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/E190.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/E190.webp"
+                    ],
+                    "credits": "masan8676"
                 }
             ],
             "labels": [
@@ -72519,6 +72580,41 @@
                     "name": "Hapag-Lloyd Flug",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/hapag_lloyd_B738_no_winglet.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "KLM",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/KLM_Boeing_737-800_without_winglets.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Transaero",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/b737-800_5_4_16.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Continental Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/B737-800_continental.webp"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "Boeing house livery",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/b737-800_no_winglet_boeing_house_livery.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Air Berlin (1980s design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/airberlin738_no_winglet__eyebrow_windows.webp"
                     ],
                     "credits": "Viggy"
                 }
