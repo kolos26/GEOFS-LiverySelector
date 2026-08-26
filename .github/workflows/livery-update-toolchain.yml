@@ -97,7 +97,7 @@ jobs:
           git push
 
   discord-livery-announcement:
-    needs: check-images
+    needs: webp-conversion
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
