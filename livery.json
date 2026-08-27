@@ -5175,6 +5175,15 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/GrandSlam_Tennis.webp"
                     ],
                     "credits": "machpoint82"
+                },
+                {
+                    "name": "China Southern (SkyTeam logo)",
+                    "texture": [
+                        "/models/aircraft/premium/a380/normal.jpg",
+                        "/models/aircraft/premium/a380/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/China_Southern_A380-800Skyteam_logo.webp"
+                    ],
+                    "credits": "KN5290"
                 }
             ],
             "labels": [
@@ -16465,7 +16474,7 @@
                 {
                     "name": "Trigana Air (new design)",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/33220_1532071798.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Finish_TGN_AT76.webp"
                     ],
                     "credits": "dimda79"
                 },
@@ -22613,7 +22622,7 @@
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a220-300/a220_qantas.webp"
                     ],
-                    "credits": "Ivan Dmitriev"
+                    "credits": "Ivan Dmitriev & THEGOAT323023"
                 },
                 {
                     "name": "Croatia Airlines",
@@ -25760,6 +25769,20 @@
                     "name": "WestJet (Toronto Blue Jays livery)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/B737max8_BJC_4.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Swoop Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/B737max8_Swoop.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "WestJet (Swoop Airlines)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/B737max8_Swoop_WJT.webp"
                     ],
                     "credits": "Nichy"
                 }
@@ -29234,7 +29257,7 @@
                     "credits": "garom"
                 },
                 {
-                    "name": "Garuda Indonesia(75th Independence Day sticker)",
+                    "name": "Garuda Indonesia (75th Independence Day sticker)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Garuda_Indonesia_HUT_RI_75.webp"
                     ],
@@ -30527,6 +30550,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/hebei20.webp"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "KLM (classic design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/KLMOld_design_Boeing_737-800_without_winglets"
+                    ],
+                    "credits": "Ivan Dmirtiev"
                 }
             ],
             "labels": [
@@ -31006,6 +31036,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj145lr/satena.webp"
                     ],
                     "credits": "ELRETRODEL2020"
+                },
+                {
+                    "name": "Africa World Airways",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj145lr/IMG_1967.webp"
+                    ],
+                    "credits": "WilliamAfron"
                 }
             ],
             "labels": [
@@ -33029,6 +33066,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-200/estelar.webp"
                     ],
                     "credits": "ELRETRODEL2020"
+                },
+                {
+                    "name": "USair",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-200/USair_737-200.webp"
+                    ],
+                    "credits": "Luca B"
                 }
             ],
             "labels": [
@@ -33816,6 +33860,16 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/chan.webp"
                     ],
                     "credits": "Transasia330"
+                },
+                {
+                    "name": "Passion Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/IMG_1957.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/IMG_1957.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/IMG_1957.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/IMG_1957.webp"
+                    ],
+                    "credits": "WilliamAfton"
                 }
             ],
             "labels": [
@@ -34814,6 +34868,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/SAAB_340/Darwin_Saab_340.webp"
                     ],
                     "credits": "Luca B"
+                },
+                {
+                    "name": "Legends Airways",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/SAAB_340/legendsSaab.webp"
+                    ],
+                    "credits": "HotelTDevils"
                 }
             ],
             "labels": [
@@ -38253,6 +38314,14 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/srilankan.webp"
                     ],
                     "credits": "dmsmenula"
+                },
+                {
+                    "name": "Iberia (100 years anniversary livery)",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/Proyecto_nuevo.webp"
+                    ],
+                    "credits": "Marc010"
                 }
             ],
             "labels": [
@@ -44087,6 +44156,14 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/Untitled7_20260724145853.webp"
                     ],
                     "credits": "Opaldelta_17676, Dalton & TOMAIIM"
+                },
+                {
+                    "name": "Boeing house livery (World Tour livery)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/boeingworldtour.webp"
+                    ],
+                    "credits": "Viggy"
                 }
             ],
             "labels": [
@@ -48459,6 +48536,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-300/a340-300_test.webp"
                     ],
                     "credits": "Belgian_Air_Force_EBBRATC"
+                },
+                {
+                    "name": "Air Madagascar",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-300/5R-EAA.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
                 }
             ],
             "labels": [
@@ -62393,13 +62477,6 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-100sca/aerostan742_final.webp"
                     ],
                     "credits": "liverymaker152"
-                },
-                {
-                    "name": "Saudi Arabian",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-100sca/saudiarabian.webp"
-                    ],
-                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": [
@@ -66133,6 +66210,15 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/E190.webp"
                     ],
                     "credits": "masan8676"
+                },
+                {
+                    "name": "Air North",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/engine_winglet.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/engine_winglet.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/embraer_erj190/engine_winglet.webp"
+                    ],
+                    "credits": "Airwest"
                 }
             ],
             "labels": [
@@ -67877,6 +67963,20 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747sp/saudia_government_pw_747sp.webp"
                     ],
                     "credits": "Viggy"
+                },
+                {
+                    "name": "Iraqi Airways (VIP Government Transport livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747sp/iraqi_airways_government_version_747sp.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Saudi Arabian",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747sp/saudiarabian.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": [
@@ -67967,6 +68067,20 @@
                     "name": "Aviastar-TU Airlines (Blue Engine)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/tupolev_tu-204/Aviastar-TU_Airlines_Blue_engine_Tupolev_TU-204-100C.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Transaero",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/tupolev_tu-204/Transaero_TU-214.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Transaero (Double PS90)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/tupolev_tu-204/Transaero_Double_TU-214.webp"
                     ],
                     "credits": "Luca B"
                 }
@@ -70173,6 +70287,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a300-600/dhlredstripes.webp"
                     ],
                     "credits": "TK382CO"
+                },
+                {
+                    "name": "Air Liberté",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a300-600/air_liberte_a306.webp"
+                    ],
+                    "credits": "Viggy"
                 }
             ],
             "labels": [
@@ -72617,6 +72738,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/airberlin738_no_winglet__eyebrow_windows.webp"
                     ],
                     "credits": "Viggy"
+                },
+                {
+                    "name": "China Eastern (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/China_Eastern_737-800.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "China Eastern (old design - Yunnan Peacock livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/China_Eastern_Yunnan_Old_737-800.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "GOL (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/B737-800_gol.webp"
+                    ],
+                    "credits": "kopinokami222"
                 }
             ],
             "labels": [
@@ -72666,6 +72808,30 @@
                         }
                     ],
                     "credits": "Nighthearth"
+                },
+                {
+                    "name": "VH-VMO",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/cessna_337/vhvmo/Texture.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/cessna_337/vhvmo/Elevator.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/cessna_337/vhvmo/Front_Prop.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/cessna_337/vhvmo/Texture.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/cessna_337/vhvmo/Texture.webp",
+                        {
+                            "material": 0
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Material.008",
+                            "baseColorFactor": [
+                                0.631,
+                                0.631,
+                                0.631
+                            ]
+                        }
+                    ],
+                    "credits": "Luca B"
                 }
             ],
             "labels": [
@@ -72910,9 +73076,13 @@
                 0,
                 1,
                 2,
-                5
+                5,
+                4,
+                6
             ],
             "parts": [
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -72931,7 +73101,9 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C6-BFR.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C6-BFR.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C6-BFR.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C6-BFR.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C6-BFR.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
                     ],
                     "credits": "AF267"
                 },
@@ -72941,13 +73113,440 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/UTair_ATR_72.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/UTair_ATR_72.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/UTair_ATR_72.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/UTair_ATR_72.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/UTair_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
                     ],
                     "credits": "Luca B"
+                },
+                {
+                    "name": "TransAsia Air (1988-2011 design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
+                    ],
+                    "credits": "yicha.25"
+                },
+                {
+                    "name": "TransAsia (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "TransAsia Cargo",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_Cargo_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_Cargo_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_Cargo_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/TransAsia_Airways_Cargo_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Finnair",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Finnair_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Finnair_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Finnair_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Finnair_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "ATR house livery",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEY.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEY.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEY.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEY.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
+                    ],
+                    "credits": "yicha.25"
+                },
+                {
+                    "name": "Azul",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/115_Sem_Titulo_20260730190934.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/115_Sem_Titulo_20260730190934.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/115_Sem_Titulo_20260730190934.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/115_Sem_Titulo_20260730190934.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.web"
+                    ],
+                    "credits": "RuaNz"
+                },
+                {
+                    "name": "FedEx Feeder (P2F variant)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N800FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N800FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N800FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N800FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/freighter_Metallic.webp"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "FedEx Feeder",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N711FE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N711FE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N711FE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N711FE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/freighter_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/freighter_Metallic.webp"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Azul (Tudo Azul livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/tudoazul.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/tudoazul.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/tudoazul.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/tudoazul.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "RuaNz"
+                },
+                {
+                    "name": "American Eagle",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/American_Eagle_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/American_Eagle_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/American_Eagle_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/American_Eagle_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Avooma",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Avooma_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Avooma_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Avooma_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Avooma_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "China Xinjiang Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/China_Xinjiang_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/China_Xinjiang_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/China_Xinjiang_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/China_Xinjiang_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "VASCO",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/VN-B221_ATR72_VASCO.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/VN-B221_ATR72_VASCO.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/VN-B221_ATR72_VASCO.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/VN-B221_ATR72_VASCO.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Calm Air (white design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_Blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_Blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_Blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_Blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Airwest"
+                },
+                {
+                    "name": "Lao Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/in_remember_of_flight_301.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/in_remember_of_flight_301.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/in_remember_of_flight_301.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/in_remember_of_flight_301.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Air France HOP!",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-HOPZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-HOPZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-HOPZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-HOPZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "Air Madagascar",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_rework.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_rework.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_rework.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_rework.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Vietnam Airlines (old design - SkyTeam logo)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Old_design_Skyteam.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Old_design_Skyteam.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Old_design_Skyteam.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Old_design_Skyteam.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "LOL369YT"
+                },
+                {
+                    "name": "Air Madagascar (white design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJB_blank-MD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJB_blank-MD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJB_blank-MD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJB_blank-MD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Krasavia",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Krasavia_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Krasavia_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Krasavia_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Krasavia_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "ATR factory unpainted",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR_house_F-WWEZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR_house_F-WWEZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR_house_F-WWEZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR_house_F-WWEZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Vietnam Airlines (classic design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/vietnam_airlines_classic_livery_ATR-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/vietnam_airlines_classic_livery_ATR-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/vietnam_airlines_classic_livery_ATR-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/vietnam_airlines_classic_livery_ATR-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Vietnam Airlines (Classic design with Cambodia door)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Cambodia_Door_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Cambodia_Door_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Cambodia_Door_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Vietnam_Airlines_Cambodia_Door_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Viggy & Luca B"
+                },
+                {
+                    "name": "Croatian airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Croatian_airlines_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Croatian_airlines_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Croatian_airlines_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Croatian_airlines_ATR72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Alitalia Express",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Alitalia Express (White design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_White_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_White_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_White_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Alitalia_Express_White_ATR_72_new.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Air Haifa",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Air_Haifa_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Air_Haifa_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Air_Haifa_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Air_Haifa_ATR_72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Trigana Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Purolator",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C-GKFD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C-GKFD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C-GKFD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C-GKFD.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/freighter_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/freighter_Metallic.webp"
+                    ],
+                    "credits": "yicha.25"
+                },
+                {
+                    "name": "Air Caraïbes",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-OSIL.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-OSIL.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-OSIL.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-OSIL.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Lightningeagle"
+                },
+                {
+                    "name": "VoePass Linhas Aereas",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/voepass_atr-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/voepass_atr-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/voepass_atr-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/voepass_atr-72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "opaldelta_17676 & Viggy"
+                },
+                {
+                    "name": "Madagascar Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJH.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJH.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJH.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJH.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Tsaradia",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJC_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJC_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJC_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJC_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Vietnam Airlines (classic design - new radome)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_nose.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_nose.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_nose.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_nose.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Vietnam Airlines (classic design - new cargo door)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_door.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_door.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_door.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/atr72_vietnam_classic_new_door.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Viggy"
                 }
             ],
             "labels": [
-                "Texture"
+                "Texture",
+                "Texture",
+                "Texture",
+                "Texture",
+                "Normal map",
+                "Metallic shader"
             ],
             "logo": true,
             "acid": "2420",
@@ -72958,9 +73557,12 @@
                 1,
                 3,
                 4,
-                5
+                5,
+                0,
+                2
             ],
             "parts": [
+                0,
                 0,
                 0,
                 0,
@@ -72979,7 +73581,9 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/JA04JC.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/JA04JC.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/JA04JC.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/JA04JC.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/JA04JC.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
                     ],
                     "credits": "AF267"
                 },
@@ -72989,7 +73593,9 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/C6-BFS.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/C6-BFS.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/C6-BFS.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/C6-BFS.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/C6-BFS.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
                     ],
                     "credits": "AF267"
                 },
@@ -72999,13 +73605,188 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Air Wales",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Air_Wales_G-CDFF.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Air_Wales_G-CDFF.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Air_Wales_G-CDFF.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Air_Wales_G-CDFF.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Nightheart"
+                },
+                {
+                    "name": "Ryanair",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Ryan_Air.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Ryan_Air.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Ryan_Air.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Ryan_Air.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Nightheart"
+                },
+                {
+                    "name": "FedEx Feeder",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/N900FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/N900FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/N900FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/N900FX.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/freighter42_Metallic.webp"
+                    ],
+                    "credits": "AF267"
+                },
+                {
+                    "name": "La Costeña (With Logos)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CHG_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CHG_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CHG_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CHG_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "La Costeña (No Logos)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CIE_no_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CIE_no_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CIE_no_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_CIE_no_logos.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Sim Air (Ex La Costeña)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "C-GSNP (Ex La Costeña)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_La_Costena_C-GSNP_V2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Oriental Air Bridge",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/orientalairbridge.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/orientalairbridge.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/orientalairbridge.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/orientalairbridge.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "masan8676"
+                },
+                {
+                    "name": "Amakusa Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/39-20260801224323.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/39-20260801224323.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/39-20260801224323.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/39-20260801224323.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Tanakan"
+                },
+                {
+                    "name": "Hokkaido Air System (Snow Miku livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_snow_miku_2022.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_snow_miku_2022.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_snow_miku_2022.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_snow_miku_2022.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Hokkaido Air System (One World livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Hokkaido_Air_System_oneworld.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Hokkaido_Air_System_oneworld.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Hokkaido_Air_System_oneworld.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_Hokkaido_Air_System_oneworld.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "Hokkaido Air System (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113454.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113454.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113454.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113454.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Tanakan"
+                },
+                {
+                    "name": "Hokkaido Air System (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113523.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113523.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113523.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/41-20260802113523.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
+                    ],
+                    "credits": "Tanakan"
+                },
+                {
+                    "name": "Conviasa",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_Conviasa_2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_Conviasa_2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_Conviasa_2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_Conviasa_2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42 Metallic.webp"
                     ],
                     "credits": "Nichy"
                 }
             ],
             "labels": [
-                "Texture"
+                "Texture",
+                "Texture",
+                "Texture",
+                "Texture",
+                "Normal map",
+                "Metallic shader"
             ],
             "logo": true,
             "acid": "2426",
