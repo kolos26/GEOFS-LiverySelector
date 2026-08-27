@@ -2,7 +2,7 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
-const version = '3.6.0';
+const version = '3.6.1';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -30,14 +30,17 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
     } catch (err) {jsDelivr = githubRepo};
     
     // styles
-    fetch(`${jsDelivr}/styles.css?`).then(async data => {
+    //fetch(`${jsDelivr}/styles.css`).then(async data => {
+    fetch("https://raw.githubusercontent.com/kolos26/test-data/refs/heads/main/styles.css").then(async data => {
         const styleTag = createTag('style', { type: 'text/css' });
         styleTag.textContent = await data.text();
         document.head.appendChild(styleTag);
     });
 
     //Load liveries (@todo: consider optimising livery.json or converting it to a different datatype)
-    fetch(`${jsDelivr}/livery.json?`).then(handleLiveryJson);
+    //https://raw.githubusercontent.com/kolos26/test-data/refs/heads/main/livery.json
+    fetch("https://raw.githubusercontent.com/kolos26/test-data/refs/heads/main/livery.json").then(handleLiveryJson);
+    //fetch(`${jsDelivr}/livery.json`).then(handleLiveryJson);
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
         id: 'listDiv',
@@ -107,7 +110,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
             airlineobjs[airlineobjs.length - 1].url = e.trim();
         });
     }
-    fetch(`${jsDelivr}/whitelist.json?`).then(res => res.json()).then(data => whitelist = data);
+    fetch(`${jsDelivr}/whitelist.json`).then(res => res.json()).then(data => whitelist = data);
 
     // Start multiplayer
     scheduleMultiplayerUpdate();
@@ -239,16 +242,10 @@ function loadLivery(texture, index, parts, mats) {
  */
 function inputLivery() {
     const airplane = getCurrentAircraft();
-    const textures = airplane.liveries[0].texture;
     const inputFields = document.getElementsByName('textureInput');
-    if (textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) { // the same texture is used for all indexes and parts
-        const texture = inputFields[0].value;
-        loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-    } else {
-        const texture = [];
-        inputFields.forEach(e => texture.push(e.value));
-        loadLivery(texture, airplane.index, airplane.parts);
-    }
+    const texture = [];
+    inputFields.forEach(e => texture.push(e.value));
+    loadLivery(generateTextureList(texture, airplane.labels, airplane.defshader), airplane.index, airplane.parts);
 }
 
 /**
@@ -292,10 +289,10 @@ function submitLivery() {
                 }
                 if (hist.expiration > 0) {
                     valid = false;
-                    return alert('Can\'t submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
+                    return alert('Can\'t submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + Object.keys(airplane.labels)[i]);
                 }
                 embeds.push({
-                    title: airplane.labels[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
+                    title: Object.keys(Object.keys(airplane.labels))[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
                     description: f.value,
                     image: { url: f.value },
                     fields: [
@@ -435,26 +432,16 @@ function loadAirlines() {
                     id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
                     class: 'livery-list-item'
                 });
-                if ((textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) && textures.length !== 1) { // the same texture is used for all indexes and parts
-                    const texture = e.texture[0];
-                    listItem.onclick = () => {
-                        loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, e.alias, airline.url);
-                        }
+                listItem.addEventListener("click", () => {
+                    loadLivery(generateTextureList(e.texture, airplane.labels, airplane.defshader), airplane.index, airplane.parts, e.materials);
+                    if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                        setInstanceId(i, e.alias, airline.url);
                     }
-                } else {
-                    listItem.onclick = () => {
-                        loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
-                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, e.alias, airline.url);
-                        }
+                });
+                listItem.appendChild(safeCreateTag('span', { class: 'livery-name' }, e.name));
+                    if (e.credits && e.credits.length) {
+                        listItem.appendChild(safeCreateTag('small', {}, `by ${e.credits}`));
                     }
-                }
-                listItem.innerHTML = safeCreateTag('span', { class: 'livery-name' }, e.name).outerHTML;
-                if (e.credits && e.credits.length) {
-                    listItem.textContent += `<small>by ${e.credits}</small>`;
-                }
             });
         }
         else if (Object.keys(airline.aircrafts).includes(geofs.aircraft.instance.id)) {
@@ -463,29 +450,30 @@ function loadAirlines() {
                     id: [geofs.aircraft.instance.id, e.name, 'button'].join('_'),
                     class: 'livery-list-item'
                 });
-                if ((textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) && textures.length !== 1) { // the same texture is used for all indexes and parts
-                    const texture = e.texture[0];
-                    listItem.onclick = () => {
-                        loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
-                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, "0", airline.url);
-                        }
+                listItem.addEventListener("click", () => {
+                    loadLivery(generateTextureList(e.texture, airplane.labels, airplane.defshader), airplane.index, airplane.parts, e.materials);
+                    if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
+                        setInstanceId(i, e.alias, airline.url);
                     }
-                } else {
-                    listItem.onclick = () => {
-                        loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
-                        if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, "0", airline.url);
-                        }
-                    }
-                }
-                listItem.innerHTML = safeCreateTag('span', { class: 'livery-name' }, e.name).outerHTML;
+                });
+                listItem.appendChild(safeCreateTag('span', { class: 'livery-name' }, e.name));
                 if (e.credits && e.credits.length) {
-                    listItem.innerHTML += `<small>by ${e.credits}</small>`;
+                    listItem.appendChild(safeCreateTag('small', {}, `by ${e.credits}`));
                 }
             });
         }
     });
+}
+
+function generateTextureList(textures, labels, def){
+    Object.values(labels).forEach((slots, idx) => {
+        slots.forEach((index) =>{
+            if (textures[idx]){
+                def[index] = textures[idx];
+            }
+        });
+    });
+    return def;
 }
 
 function addCustomForm() {
@@ -493,17 +481,12 @@ function addCustomForm() {
     document.querySelector('#livery-custom-tab-direct .upload-fields').innerHTML = '';
     const airplane = getCurrentAircraft();
     const textures = airplane.liveries[0].texture.filter(t => typeof t !== 'object');
-    const placeholders = airplane.labels;
+    const labels = Object.entries(airplane.labels);
     if (textures.length){
-    if (textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) { // the same texture is used for all indexes and parts
-        createUploadButton(placeholders[0]);
-        createDirectButton(placeholders[0]);
-    } else {
-        placeholders.forEach((placeholder, i) => {
-            createUploadButton(placeholder);
-            createDirectButton(placeholder, i);
+        labels.forEach((e) => {
+            createUploadButton(e[0]);
+            createDirectButton(e[0], e[1]);
         });
-    }
     }
     if (airplane.liveries[0].materials) {
         airplane.liveries[0].materials.forEach((material, key) => {
@@ -640,12 +623,12 @@ function createUploadButton(id) {
  * @param {string} id
  * @param {number} i
  */
-function createDirectButton(id, i) {
+function createDirectButton(id, idxArray) {
     const customDiv = document.querySelector('#livery-custom-tab-direct .upload-fields');
-    appendNewChild(customDiv, 'input', {
+    let filechooser = appendNewChild(customDiv, 'input', {
         type: 'file',
-        onchange: 'LiverySelector.loadLiveryDirect(this,' + i + ')'
     });
+    filechooser.addEventListener("change", () => {loadLiveryDirect(filechooser, idxArray)})
     appendNewChild(customDiv, 'span').textContent = id;
     appendNewChild(customDiv, 'br');
 }
@@ -658,7 +641,7 @@ function createColorChooser(name, type, partlist) {
         class: 'colorChooser',
     });
     colorInput.addEventListener('change', () => changeMaterial(name, colorInput.value, type, partlist));
-    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).textContent = name;
+    appendNewChild(customDiv, 'span').textContent = name;
     appendNewChild(customDiv, 'br');
 }
 
@@ -671,7 +654,7 @@ function createUploadColorChooser(name, type, partlist) {
         class: 'colorChooser',
     });
     colorInput.addEventListener('change', () => changeMaterial(name, colorInput.value, type, partlist));
-    appendNewChild(customDiv, 'span', {style:'padding-top: 20px; padding-bottom: 20px;'}).textContent = name;
+    appendNewChild(customDiv, 'span').textContent = name;
     appendNewChild(customDiv, 'br');
 }
 
@@ -679,21 +662,14 @@ function createUploadColorChooser(name, type, partlist) {
  * @param {HTMLInputElement} fileInput
  * @param {number} i
  */
-function loadLiveryDirect(fileInput, i) {
+function loadLiveryDirect(fileInput, idxArray) {
+    log("loaddirect called");
     const reader = new FileReader();
     reader.addEventListener('load', (event) => {
         const airplane = getCurrentAircraft();
         const textures = airplane.liveries[0].texture;
         const newTexture = event.target.result;
-        if (i === undefined) {
-            loadLivery(Array(textures.length).fill(newTexture), airplane.index, airplane.parts);
-        } else {
-            geofs.api.changeModelTexture(
-                geofs.aircraft.instance.definition.parts[airplane.parts[i]]["3dmodel"]._model,
-                newTexture,
-                { index: airplane.index[i] }
-            );
-        }
+            loadLivery(Array(idxArray.length).fill(newTexture), airplane.index.filter((_, i) => idxArray.includes(i)), airplane.parts.filter((_, i) => idxArray.includes(i)));
         fileInput.value = null;
     });
     // read file (if there is one)
@@ -790,12 +766,12 @@ function reloadDownloadsForm(tabDiv) {
         textures.forEach((href, i) => {
             if (typeof href === 'object') return;
             if (liveryNo > 0 && href == defaults.texture[i]) return;
-            if (airplane.labels[i] == undefined) return;
+            if (Object.keys(airplane.labels)[i] == undefined) return;
             const link = appendNewChild(wrap, 'a', {
                 href, target: '_blank',
                 class: "mdl-button mdl-button--raised mdl-button--colored"
             });
-            link.textContent = airplane.labels[i];
+            link.textContent = Object.keys(airplane.labels)[i];
         });
     });
 }
@@ -1268,7 +1244,7 @@ function generatePanelButtonHTML() {
     });
     liveryButton.innerHTML = createTag('img', { src: `${noCommit}/liveryselector-logo-small.svg`, height: '30px' }).outerHTML;
 
-    return liveryButton;
+    return liveryButton;crea
 }
 
 function togglePanel() {
