@@ -90,7 +90,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -551,7 +553,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -742,8 +746,12 @@
                 }
             ],
             "labels": {
-                "Fuselage texture": [0],
-                "Wing texture": [1]
+                "Fuselage texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -2788,9 +2796,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/737_700/normal.jpg",
@@ -3174,10 +3188,18 @@
                 }
             ],
             "labels": {
-                "Main Texture": [0],
-                "Texture Left": [1],
-                "Texture Bottom": [2],
-                "Texture Right": [3]
+                "Main Texture": [
+                    0
+                ],
+                "Texture Left": [
+                    1
+                ],
+                "Texture Bottom": [
+                    2
+                ],
+                "Texture Right": [
+                    3
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/737_700/normal.jpg",
@@ -3907,10 +3929,18 @@
                 }
             ],
             "labels": {
-                "Main Texture": [0],
-                "Texture Left": [1],
-                "Texture Bottom": [2],
-                "Texture Right": [3]
+                "Main Texture": [
+                    0
+                ],
+                "Texture Left": [
+                    1
+                ],
+                "Texture Bottom": [
+                    2
+                ],
+                "Texture Right": [
+                    3
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/737_700/normal.jpg",
@@ -4445,9 +4475,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/ec135/normals.jpg",
@@ -4598,7 +4634,8 @@
                         "/models/aircraft/premium/a380/normal.jpg",
                         "/models/aircraft/premium/a380/specular.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a380/etihad.webp"
-                    ]
+                    ],
+                    "credits": "Ivan Dmirtiev"
                 },
                 {
                     "name": "Qantas (old design)",
@@ -5217,9 +5254,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/a380/normal.jpg",
@@ -5259,9 +5302,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/silent2/normals.jpg",
@@ -5388,10 +5437,18 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2],
-                "Propwash": [3]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ],
+                "Propwash": [
+                    3
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/pilatus/normal.jpg",
@@ -5582,7 +5639,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -5644,8 +5703,12 @@
                 }
             ],
             "labels": {
-                "Texture": [0],
-                "Texture Interior": [1]
+                "Texture": [
+                    0
+                ],
+                "Texture Interior": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -5763,8 +5826,12 @@
                 }
             ],
             "labels": {
-                "Specular shader": [0],
-                "Texture": [1]
+                "Specular shader": [
+                    0
+                ],
+                "Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/lockheed_p38/speculars/yippee.webp",
@@ -6011,7 +6078,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -6215,7 +6284,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -6306,7 +6377,18 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
             },
             "defshader": [
                 ""
@@ -6453,7 +6535,19 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
             },
             "defshader": [
                 "",
@@ -6773,7 +6867,25 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             },
             "defshader": [
                 "",
@@ -6879,17 +6991,19 @@
                     ]
                 }
             ],
-            "labels": [
-                "Normal map",
-                "Specular shader",
-                "Texture Left",
-                "Texture Right"
-            ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture Left": [2],
-                "Texture Right": [3]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture Left": [
+                    2
+                ],
+                "Texture Right": [
+                    3
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/potez25/shaders/normals.webp",
@@ -6948,7 +7062,17 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
             },
             "defshader": [
                 "",
@@ -7343,7 +7467,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -7375,7 +7501,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -7478,7 +7606,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -7685,7 +7815,13 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
             },
             "defshader": [
                 "",
@@ -7840,9 +7976,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/2cv/normals.jpg",
@@ -11143,7 +11285,17 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
             },
             "defshader": [
                 "",
@@ -13048,7 +13200,18 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
             },
             "defshader": [
                 "",
@@ -13842,7 +14005,17 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
             },
             "defshader": [
                 "",
@@ -15286,7 +15459,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -16820,7 +16995,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -17255,7 +17432,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -17585,7 +17764,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -19029,7 +19210,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -22512,7 +22695,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -22869,7 +23054,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -24807,7 +24994,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -25988,7 +26177,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -26323,7 +26514,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -26397,7 +26590,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -26569,10 +26764,15 @@
                 }
             ],
             "labels": {
-                "Fuselage texture": [0],
-                "Wing texture": [1],
-                "Engine texture": [2]
-
+                "Fuselage texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ],
+                "Engine texture": [
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -26824,20 +27024,6 @@
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/texture_282.jpg"
                     ]
-                },
-                {
-                    "name": "Qantas (new design)",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/qantas.webp"
-                    ],
-                    "credits": "Qantasfan89"
-                },
-                {
-                    "name": "Qantas (old design)",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/qantasold.webp"
-                    ],
-                    "credits": "Qantasfan89"
                 },
                 {
                     "name": "Jet2holidays",
@@ -30683,11 +30869,11 @@
                     "credits": "Wind_ward"
                 },
                 {
-                    "name": "Xiamen Airlines (Daxing livery",
+                    "name": "Xiamen Airlines (Daxing livery)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Xiamen_Airlines_Daxing.webp"
                     ],
-                    "credits": "j20number2008"
+                    "credits": "TOMAIIM"
                 },
                 {
                     "name": "All Nippon Airlines (Blue Pokémon Jet livery)",
@@ -30765,10 +30951,40 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/hebei20.webp"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "Hainan Airlines (Mixue Livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/b8a30d8f09a3ccf5.webp"
+                    ],
+                    "credits": "MU2731"
+                },
+                {
+                    "name": "Qantas (Old design V1)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Qantas_Old_design_V1_Boeing_737-800.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Qantas (Old design V2)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Qantas_Old_design_V2_Boeing_737-800.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Qantas (New design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Qantas_Boeing_737-800.webp"
+                    ],
+                    "credits": "Ivan_Dmitriev"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -31257,7 +31473,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -33290,7 +33508,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -34090,7 +34310,12 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
             },
             "defshader": [
                 "",
@@ -34327,7 +34552,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -35104,7 +35331,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -36105,9 +36334,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/dc3/normal.jpg",
@@ -36521,7 +36756,10 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1]
+                "Texture": [
+                    0,
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -37054,9 +37292,15 @@
                 }
             ],
             "labels": {
-                "Fuselage texture": [0],
-                "Wing texture": [1],
-                "Engine texture": [2]
+                "Fuselage texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ],
+                "Engine texture": [
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -38212,7 +38456,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/Ethiopian_Airlines_Star_Alliance_Design_A350-900.webp"
                     ],
-                    "credits": "GEO-FS-FLIGHTS[YT]"
+                    "credits": "KN5290"
                 },
                 {
                     "name": "Sichuan Airlines (Panda livery B-325J)",
@@ -38565,11 +38809,23 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/Proyecto_nuevo.webp"
                     ],
                     "credits": "Marc010"
+                },
+                {
+                    "name": "Ethiopian Airlines (Star Alliance livery - 80 years A Timeless Legacy sticker)",
+                    "texture": [
+                        "/models/aircraft/premium/a350/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/ethiopianstar80.webp"
+                    ],
+                    "credits": "KN5290"
                 }
             ],
             "labels": {
-                "Specular shader": [0],
-                "Texture": [1]
+                "Specular shader": [
+                    0
+                ],
+                "Texture": [
+                    1
+                ]
             },
             "defshader": [
                 ""
@@ -39653,7 +39909,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -40374,7 +40632,7 @@
                     ]
                 },
                 {
-                    "name": "Airbus house livery (XLR QRcode design)",
+                    "name": "Airbus house livery (XLR QRcode livery)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/xlr.webp"
                     ],
@@ -41245,10 +41503,19 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/mea.webp"
                     ],
                     "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Airbus house livery (XLR livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/xlrhouse.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -41815,7 +42082,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -42026,7 +42295,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -42197,10 +42468,19 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b757-300wl/Wir_Lieben_Filegen.webp"
                     ],
                     "credits": "yicha.25"
+                },
+                {
+                    "name": "Avensa",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b757-300wl/avensas.webp"
+                    ],
+                    "credits": "ELRETRODEL2020"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -44425,11 +44705,23 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/boeingworldtour.webp"
                     ],
                     "credits": "Viggy"
+                },
+                {
+                    "name": "Air France (big logo)",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/F-GSQR.webp"
+                    ],
+                    "credits": "Lightningeagle"
                 }
             ],
             "labels": {
-                "Specular shader": [0],
-                "Texture": [1]
+                "Specular shader": [
+                    0
+                ],
+                "Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/777_300/specular_0.jpg",
@@ -44501,7 +44793,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -44692,9 +44986,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_pa28/maps/normals.webp",
@@ -44856,7 +45156,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -45307,7 +45609,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -45358,9 +45662,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2],
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ],
                 "Propwash": 3
             },
             "defshader": [
@@ -45664,7 +45974,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -45862,9 +46174,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "/models/aircraft/premium/phenom_100/normal.jpg",
@@ -47557,7 +47875,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -48842,7 +49162,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -51604,7 +51926,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -51855,7 +52179,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -52167,7 +52493,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -52241,7 +52569,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -52280,7 +52610,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -52822,8 +53154,13 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 2],
-                "Metallic Roughness shader": [1]
+                "Texture": [
+                    0,
+                    2
+                ],
+                "Metallic Roughness shader": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -55683,8 +56020,12 @@
                 }
             ],
             "labels": {
-                "Texture": [0],
-                "Wing texture": [1]
+                "Texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -55832,8 +56173,12 @@
                 }
             ],
             "labels": {
-                "Texture": [0],
-                "Metallic Roughness shader": [1]
+                "Texture": [
+                    0
+                ],
+                "Metallic Roughness shader": [
+                    1
+                ]
             },
             "defshader": [
                 ""
@@ -55893,7 +56238,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -56733,7 +57080,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -57542,7 +57891,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -57805,7 +58156,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -57952,7 +58305,10 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1]
+                "Texture": [
+                    0,
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -58016,8 +58372,12 @@
                 }
             ],
             "labels": {
-                "Main Texture": [0],
-                "Tail Texture": [1]
+                "Main Texture": [
+                    0
+                ],
+                "Tail Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -58097,8 +58457,12 @@
                 }
             ],
             "labels": {
-                "Fuselage texture": [0],
-                "Engine texture": [1]
+                "Fuselage texture": [
+                    0
+                ],
+                "Engine texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -58402,17 +58766,25 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Main texture": [1],
-                "Specular shader": [2],
-                "Cockpit texture": [3]
+                "Normal map": [
+                    0
+                ],
+                "Main texture": [
+                    1
+                ],
+                "Specular shader": [
+                    2
+                ],
+                "Cockpit texture": [
+                    3
+                ]
             },
             "defshader": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/normal/Image_0.webp",
-                        "",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/specular/Image_2.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/cockpit/Image_4.webp"
-                    ],
+                "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/normal/Image_0.webp",
+                "",
+                "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/specular/Image_2.webp",
+                "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/cockpit/Image_4.webp"
+            ],
             "logo": true,
             "acid": "29",
             "name": "Dessault Rafale M"
@@ -58477,9 +58849,15 @@
                 }
             ],
             "labels": {
-                "Texture": [0],
-                "EFT": [1],
-                "SRB": [2]
+                "Texture": [
+                    0
+                ],
+                "EFT": [
+                    1
+                ],
+                "SRB": [
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -58735,13 +59113,13 @@
                     "credits": "THEGOAT323023"
                 }
             ],
-            "labels": [
-                "Fuselage texture",
-                "Wing texture"
-            ],
             "labels": {
-                "Fuselage texture": [0],
-                "Wing texture": [1]
+                "Fuselage texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -59989,7 +60367,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -60116,7 +60496,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -60211,7 +60593,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -60437,9 +60821,15 @@
                 }
             ],
             "labels": {
-                "Fuselage texture": [0],
-                "Left engine texture": [1],
-                "Right engine texture": [2]
+                "Fuselage texture": [
+                    0
+                ],
+                "Left engine texture": [
+                    1
+                ],
+                "Right engine texture": [
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -61926,10 +62316,19 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/icelandair.webp"
                     ],
                     "credits": "CP8888"
+                },
+                {
+                    "name": "MEA",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/me.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -62861,10 +63260,19 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-100sca/aerostan742_final.webp"
                     ],
                     "credits": "liverymaker152"
+                },
+                {
+                    "name": "Air Liberté (leased from Cargolux)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-100sca/air_liberte_b741.webp"
+                    ],
+                    "credits": "Viggy"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -62959,10 +63367,18 @@
                 }
             ],
             "labels": {
-                "Dome texture": [0],
-                "Fuselage texture": [1],
-                "Tail texture": [2],
-                "Prop texture": [3]
+                "Dome texture": [
+                    0
+                ],
+                "Fuselage texture": [
+                    1
+                ],
+                "Tail texture": [
+                    2
+                ],
+                "Prop texture": [
+                    3
+                ]
             },
             "defshader": [
                 "",
@@ -63000,7 +63416,10 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1]
+                "Texture": [
+                    0,
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -63089,7 +63508,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -63135,7 +63556,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -63610,8 +64033,12 @@
                 }
             ],
             "labels": {
-                "Metallic Roughness shader": [0],
-                "Texture": [1]
+                "Metallic Roughness shader": [
+                    0
+                ],
+                "Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200/shaders/original.webp",
@@ -64479,8 +64906,12 @@
                 }
             ],
             "labels": {
-                "Metallic Roughness shader": [0],
-                "Texture": [1]
+                "Metallic Roughness shader": [
+                    0
+                ],
+                "Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200er/shaders/original.webp",
@@ -64591,8 +65022,12 @@
                 }
             ],
             "labels": {
-                "Metallic Roughness shader": [0],
-                "Texture": [1]
+                "Metallic Roughness shader": [
+                    0
+                ],
+                "Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200lr/shaders/original.webp",
@@ -64974,14 +65409,6 @@
                     "credits": "kopinokami222"
                 },
                 {
-                    "name": "China Cargo (old design)",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/77F.webp"
-                    ],
-                    "credits": "TOMAIIM"
-                },
-                {
                     "name": "China Southern Cargo (white design)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webp",
@@ -65060,11 +65487,39 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/maersk.webp"
                     ],
                     "credits": "GlazedKimpab"
+                },
+                {
+                    "name": "Ethiopian Airlines Cargo (80 Years Timeless Legacy sticker)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webps",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/ethipoian80.webp"
+                    ],
+                    "credits": "KN5290"
+                },
+                {
+                    "name": "China Cargo (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webps",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/77F.webp"
+                    ],
+                    "credits": "TOMAIIM"
+                },
+                {
+                    "name": "DHL (Operated by AeroLogic)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webps",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/AeroLogic_DHL.webp"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": {
-                "Metallic Roughness shader": [0],
-                "Texture": [1]
+                "Metallic Roughness shader": [
+                    0
+                ],
+                "Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webp",
@@ -65496,7 +65951,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -65659,8 +66116,12 @@
                 }
             ],
             "labels": {
-                "Texture": [0],
-                "Wing texture": [1]
+                "Texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -66648,7 +67109,11 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2]
+                "Texture": [
+                    0,
+                    1,
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -67326,7 +67791,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -67381,7 +67848,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -67420,7 +67889,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -67594,9 +68065,15 @@
                 }
             ],
             "labels": {
-                "Main texture": [0],
-                "Rudder texture": [1],
-                "Prop texture": [2]
+                "Main texture": [
+                    0
+                ],
+                "Rudder texture": [
+                    1
+                ],
+                "Prop texture": [
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -67897,7 +68374,11 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2]
+                "Texture": [
+                    0,
+                    1,
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -68072,7 +68553,11 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2]
+                "Texture": [
+                    0,
+                    1,
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -68435,7 +68920,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -68544,7 +69031,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -68747,11 +69236,22 @@
                 }
             ],
             "labels": {
-                "Fuselage texture": [0],
-                "Door texture": [1],
-                "Left engine texture": [2],
-                "Right engine texture": [3],
-                "Tail texture": [4, 5]
+                "Fuselage texture": [
+                    0
+                ],
+                "Door texture": [
+                    1
+                ],
+                "Left engine texture": [
+                    2
+                ],
+                "Right engine texture": [
+                    3
+                ],
+                "Tail texture": [
+                    4,
+                    5
+                ]
             },
             "defshader": [
                 "",
@@ -68854,7 +69354,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -69998,11 +70500,31 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
                     ],
                     "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Virgin Atlantic (No way BA/AA sticker)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/virginnoway.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Virgin Atlantic (classic design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/virginclassic.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
-                "Texture": [0],
-                "Wing texture": [1]
+                "Texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -70091,7 +70613,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -70306,7 +70830,14 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
             },
             "defshader": [
                 "",
@@ -70397,7 +70928,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -70786,7 +71319,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -70825,7 +71360,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -71178,7 +71715,11 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2]
+                "Texture": [
+                    0,
+                    1,
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -71227,7 +71768,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -71704,10 +72247,33 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/lufthansaretro.webp"
                     ],
                     "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Orbit Airlines (from FSX)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Orbit_Airlines_A321-231.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Pacifica Airlines (from FSX)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/Pacifica_Airlines_A321-231.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "World Travel (from FSX)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-232/World_Travel_Airlines_A321-231.webp"
+                    ],
+                    "credits": "Luca B"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72017,10 +72583,36 @@
                     ],
                     "alias": "0",
                     "credits": "GlazedKimpab"
+                },
+                {
+                    "name": "Turkish Airlines (Ankara)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/douglas_dc10/THY_ankara.webp"
+                    ],
+                    "alias": "0",
+                    "credits": "TK382CO"
+                },
+                {
+                    "name": "Turkish Airlines (Istanbul)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/douglas_dc10/THY_DC-10-40_ISTANBUL.webp"
+                    ],
+                    "alias": "0",
+                    "credits": "TK382CO"
+                },
+                {
+                    "name": "Turkish Airlines (Izmir)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/douglas_dc10/THY_DC-10-40_IZMIR.webp"
+                    ],
+                    "alias": "0",
+                    "credits": "TK382CO"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72196,10 +72788,33 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/cyprus.webp"
                     ],
                     "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Korean Air Lines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/koreanairlines.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Avianca (red and white design V1)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/aviancaredwhite1.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Avianca (red and white design V2)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/aviancaredwhite2.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72266,7 +72881,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72452,7 +73069,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72708,7 +73327,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72754,8 +73375,12 @@
                 }
             ],
             "labels": {
-                "Texture": [0],
-                "Wing texture": [1]
+                "Texture": [
+                    0
+                ],
+                "Wing texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -72802,7 +73427,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72883,7 +73510,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -72957,9 +73586,15 @@
                 }
             ],
             "labels": {
-                "Normal map": [0],
-                "Specular shader": [1],
-                "Texture": [2]
+                "Normal map": [
+                    0
+                ],
+                "Specular shader": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ilyushin_il14/normals/il14-normal.webp",
@@ -73008,7 +73643,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -73034,6 +73671,8 @@
                 {
                     "name": "BAe Systems - QuinetiQ",
                     "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/texture_0.jpg"
                     ],
                     "credits": "Eco[LAC]"
@@ -73041,78 +73680,153 @@
                 {
                     "name": "SWISS",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/Swiss_BaE_146.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300Swiss_BaE_146.webp"
                     ],
                     "credits": "Luca B"
                 },
                 {
                     "name": "Everts Air",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/Everts_Air_BaE146-300QT.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300Everts_Air_BaE146-300QT.webp"
                     ],
                     "credits": "Luca B"
                 },
                 {
                     "name": "Air Canada Jazz (red design)",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/plain_white.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300plain_white.webp"
                     ],
                     "credits": "Airwest"
                 },
                 {
                     "name": "Atlantic Airways",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/Atlantic_Avro_11.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300Atlantic_Avro_11.webp"
                     ],
                     "credits": "Nichy"
                 },
                 {
                     "name": "UAE Presidental flight",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/rj100-UAEAF.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300rj100-UAEAF.webp"
                     ],
                     "credits": "Borecpepik"
                 },
                 {
                     "name": "Turkish Airlines",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/TEST45.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300TEST45.webp"
                     ],
                     "credits": "TK382CO"
                 },
                 {
                     "name": "LaMia Airlines",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/LaMia_2933.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300LaMia_2933.webp"
                     ],
                     "credits": "Viggy"
                 },
                 {
                     "name": "Crossair",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/if_youre_reading_this_please_tell_me_if_theres_a_way_to_fix_the_outermost_engine_in_the_right_wing.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300if_youre_reading_this_please_tell_me_if_theres_a_way_to_fix_the_outermost_engine_in_the_right_wing.webp"
                     ],
                     "credits": "Viggy"
                 },
                 {
                     "name": "United Airlines (Battleship Grey design)",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/unitedbattleship.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300unitedbattleship.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
                 {
                     "name": "British Airways",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/british.webp"
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300british.webp"
                     ],
                     "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "British Airways (Landor design)",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300BA_landor_RJ-100.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "StarTrack",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300startrack.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Astra Airlines (Dark Blue design)",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/pasted-image.webp"
+                    ],
+                    "credits": "HORSING & TK382CO"
+                },
+                {
+                    "name": "Astra Airlines (Dark Green design)",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/pasted-image_1.webp"
+                    ],
+                    "credits": "HORSING & TK382CO"
+                },
+                {
+                    "name": "TNT - Malév",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/shaders/freighter_normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/shaders/freighter_emission.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/malev_tnt.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Normal map": [
+                    0
+                ],
+                "Emissive map": [
+                    1
+                ],
+                "Texture": [
+                    2
+                ]
             },
             "defshader": [
+                "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
                 ""
             ],
             "logo": true,
@@ -73149,7 +73863,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -73311,10 +74027,26 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/KLMOld_design_Boeing_737-800_without_winglets.webp"
                     ],
                     "credits": "Ivan Dmirtiev"
+                },
+                {
+                    "name": "GOL (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/B737-800_gol_old.webp"
+                    ],
+                    "credits": "kopinokami222"
+                },
+                {
+                    "name": "Air Europa (classic design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/B737-800_map_air_europa_classic.webp"
+                    ],
+                    "credits": "kopinokami222"
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -73390,9 +74122,17 @@
                 }
             ],
             "labels": {
-                "Main Texture": [0, 3, 4],
-                "Vertical stabilizer texture": [1],
-                "Front propcone texture": [2]
+                "Main Texture": [
+                    0,
+                    3,
+                    4
+                ],
+                "Vertical stabilizer texture": [
+                    1
+                ],
+                "Front propcone texture": [
+                    2
+                ]
             },
             "defshader": [
                 "",
@@ -73435,7 +74175,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -73531,7 +74273,24 @@
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
             },
             "defshader": [
                 "",
@@ -73597,7 +74356,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -73624,7 +74385,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -73651,7 +74414,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -73925,7 +74690,7 @@
                     "credits": "LOL369YT"
                 },
                 {
-                    "name": "Air Madagascar (white design)",
+                    "name": "Air Madagascar (white design) V2",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJB_blank-MD.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJB_blank-MD.webp",
@@ -74033,18 +74798,6 @@
                     "credits": "Luca B"
                 },
                 {
-                    "name": "Trigana Air",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Trigana_Air_ATR_42.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
-                    ],
-                    "credits": "Luca B"
-                },
-                {
                     "name": "Purolator",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/C-GKFD.webp",
@@ -74093,7 +74846,7 @@
                     "credits": "TonyTsilavo118"
                 },
                 {
-                    "name": "Tsaradia",
+                    "name": "Tsaradia (white design)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJC_blank.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJC_blank.webp",
@@ -74127,12 +74880,213 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
                     ],
                     "credits": "Viggy"
+                },
+                {
+                    "name": "Air Madagascar (white design) V1",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Ghanaian Air Force",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/IMG_2015.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/IMG_2015.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/IMG_2015.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/IMG_2015.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "WilliamAfton"
+                },
+                {
+                    "name": "ATR factory unpainted",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEG.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEG.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEG.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/F-WWEG.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "yicha.25"
+                },
+                {
+                    "name": "Uni Air (Bad Badtz-Maru livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Yicha"
+                },
+                {
+                    "name": "TransAsia (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810_2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810_2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810_2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/22810_2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Yicha"
+                },
+                {
+                    "name": "Uni Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001New.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001New.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001New.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/B17001New.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Yicha"
+                },
+                {
+                    "name": "Delta Connection",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N631AS.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N631AS.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N631AS.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/N631AS.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Yicha"
+                },
+                {
+                    "name": "Tsaradia (white tail)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-MJF_TZ.blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-MJF_TZ.blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-MJF_TZ.blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-MJF_TZ.blank.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Tsaradia",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Tsaradia (JIOI livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ_JIOI.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ_JIOI.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ_JIOI.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/5R-EJA_TZ_JIOI.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Ewa Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Ewa72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Ewa72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Ewa72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/Ewa72.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Berjaya Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/A60021CD-2DC5-4201-8C96-9F82FB72591B.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/A60021CD-2DC5-4201-8C96-9F82FB72591B.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/A60021CD-2DC5-4201-8C96-9F82FB72591B.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/A60021CD-2DC5-4201-8C96-9F82FB72591B.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Nimbus"
+                },
+                {
+                    "name": "Iberia Air Nostrum (zorro mask)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA_MASK.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA_MASK.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA_MASK.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA_MASK.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "SAMU12pp"
+                },
+                {
+                    "name": "Iberia Air Nostrum",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_IBERIA.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "SAMU12pp"
+                },
+                {
+                    "name": "Wings Air (Book Cabin livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/wings_air_book_cabin.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/wings_air_book_cabin.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/wings_air_book_cabin.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/wings_air_book_cabin.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Viggy"
+                },
+                {
+                    "name": "Silver",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3],
-                "Normal map": [4],
-                "Metallic shader": [5]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Normal map": [
+                    4
+                ],
+                "Metallic shader": [
+                    5
+                ]
             },
             "defshader": [
                 "",
@@ -74372,12 +75326,45 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Metallic.webp"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Trigana Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/Trigana_Air_ATR_42.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Metallic.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "ATR house livery (China Tour livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/F-WWLE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/F-WWLE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/F-WWLE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/F-WWLE.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Metallic.webp"
+                    ],
+                    "credits": "whois无名氏"
                 }
             ],
             "labels": {
-                "Texture": [0, 1, 2, 3],
-                "Normal map": [4],
-                "Metallic shader": [5]
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Normal map": [
+                    4
+                ],
+                "Metallic shader": [
+                    5
+                ]
             },
             "defshader": [
                 "",
@@ -74414,7 +75401,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -74481,7 +75470,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -74536,7 +75527,7 @@
                         "/backend/aircraft/repository/genesis_267286_5909/fleet_3.jpg",
                         "/backend/aircraft/repository/genesis_267286_5909/genesis_3.jpg"
                     ],
-                    "credits": "AF267"
+                    "credits": "Luca B & AF267"
                 },
                 {
                     "name": "Amtrak (50th anniversary livery)",
@@ -74564,8 +75555,12 @@
                 }
             ],
             "labels": {
-                "Carriage Texture": [0],
-                "Locomotive Texture": [1]
+                "Carriage Texture": [
+                    0
+                ],
+                "Locomotive Texture": [
+                    1
+                ]
             },
             "defshader": [
                 "",
@@ -74598,7 +75593,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
@@ -74651,7 +75648,9 @@
                 }
             ],
             "labels": {
-                "Texture": [0]
+                "Texture": [
+                    0
+                ]
             },
             "defshader": [
                 ""
