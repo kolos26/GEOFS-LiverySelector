@@ -2,7 +2,7 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
-const version = '3.6.0';
+const version = '3.6.1';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -292,10 +292,10 @@ function submitLivery() {
                 }
                 if (hist.expiration > 0) {
                     valid = false;
-                    return alert('Can\'t submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + airplane.labels[i]);
+                    return alert('Can\'t submit expiring links! DISABLE "Expire links after one hour" option and re-upload texture:\n' + Object.keys(airplane.labels)[i]);
                 }
                 embeds.push({
-                    title: airplane.labels[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
+                    title: Object.keys(Object.keys(airplane.labels))[i] + ' (' + (Math.ceil(hist.size / 1024 / 10.24) / 100) + 'MB, ' + hist.width + 'x' + hist.height + ')',
                     description: f.value,
                     image: { url: f.value },
                     fields: [
@@ -451,10 +451,10 @@ function loadAirlines() {
                         }
                     }
                 }
-                listItem.innerHTML = safeCreateTag('span', { class: 'livery-name' }, e.name).outerHTML;
-                if (e.credits && e.credits.length) {
-                    listItem.textContent += `<small>by ${e.credits}</small>`;
-                }
+                listItem.appendChild(safeCreateTag('span', { class: 'livery-name' }, e.name));
+                    if (e.credits && e.credits.length) {
+                        listItem.appendChild(safeCreateTag('small', {}, `by ${e.credits}`));
+                    }
             });
         }
         else if (Object.keys(airline.aircrafts).includes(geofs.aircraft.instance.id)) {
@@ -468,20 +468,20 @@ function loadAirlines() {
                     listItem.onclick = () => {
                         loadLivery(Array(textures.length).fill(texture), airplane.index, airplane.parts);
                         if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, "0", airline.url);
+                            setInstanceId(i, e.alias, airline.url);
                         }
                     }
                 } else {
                     listItem.onclick = () => {
                         loadLivery(e.texture, airplane.index, airplane.parts, e.materials);
                         if (airplane.mp != 'disabled' && whitelist.includes(airline.url.trim())) {
-                            setInstanceId(i, "0", airline.url);
+                            setInstanceId(i, e.alias, airline.url);
                         }
                     }
                 }
-                listItem.innerHTML = safeCreateTag('span', { class: 'livery-name' }, e.name).outerHTML;
+                listItem.appendChild(safeCreateTag('span', { class: 'livery-name' }, e.name));
                 if (e.credits && e.credits.length) {
-                    listItem.innerHTML += `<small>by ${e.credits}</small>`;
+                    listItem.appendChild(safeCreateTag('small', {}, `by ${e.credits}`));
                 }
             });
         }
@@ -493,7 +493,7 @@ function addCustomForm() {
     document.querySelector('#livery-custom-tab-direct .upload-fields').innerHTML = '';
     const airplane = getCurrentAircraft();
     const textures = airplane.liveries[0].texture.filter(t => typeof t !== 'object');
-    const placeholders = airplane.labels;
+    const placeholders = Object.keys(airplane.labels);
     if (textures.length){
     if (textures.filter(x => x === textures[0]).length === textures.filter(x => typeof x === "string").length) { // the same texture is used for all indexes and parts
         createUploadButton(placeholders[0]);
@@ -790,12 +790,12 @@ function reloadDownloadsForm(tabDiv) {
         textures.forEach((href, i) => {
             if (typeof href === 'object') return;
             if (liveryNo > 0 && href == defaults.texture[i]) return;
-            if (airplane.labels[i] == undefined) return;
+            if (Object.keys(airplane.labels)[i] == undefined) return;
             const link = appendNewChild(wrap, 'a', {
                 href, target: '_blank',
                 class: "mdl-button mdl-button--raised mdl-button--colored"
             });
-            link.textContent = airplane.labels[i];
+            link.textContent = Object.keys(airplane.labels)[i];
         });
     });
 }
