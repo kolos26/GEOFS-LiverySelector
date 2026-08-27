@@ -2,7 +2,7 @@
 const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
 let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
 const noCommit = jsDelivr;
-const version = '3.6.1';
+const version = '3.6.2';
 
 const liveryobj = {};
 const mpLiveryIds = {};
@@ -30,17 +30,14 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
     } catch (err) {jsDelivr = githubRepo};
     
     // styles
-    //fetch(`${jsDelivr}/styles.css`).then(async data => {
-    fetch("https://raw.githubusercontent.com/kolos26/test-data/refs/heads/main/styles.css").then(async data => {
+    fetch(`${jsDelivr}/styles.css`).then(async data => {
         const styleTag = createTag('style', { type: 'text/css' });
         styleTag.textContent = await data.text();
         document.head.appendChild(styleTag);
     });
 
     //Load liveries (@todo: consider optimising livery.json or converting it to a different datatype)
-    //https://raw.githubusercontent.com/kolos26/test-data/refs/heads/main/livery.json
-    fetch("https://raw.githubusercontent.com/kolos26/test-data/refs/heads/main/livery.json").then(handleLiveryJson);
-    //fetch(`${jsDelivr}/livery.json`).then(handleLiveryJson);
+    fetch(`${jsDelivr}/livery.json`).then(handleLiveryJson);
     // Panel for list
     const listDiv = appendNewChild(document.querySelector('.geofs-ui-left'), 'div', {
         id: 'listDiv',

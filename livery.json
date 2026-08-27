@@ -1,5 +1,5 @@
 {
-    "version": "3.6.1",
+    "version": "3.6.2",
     "mapi": "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NwaWNlOS9HZW9mcy1NdWx0aWxpdmVyaWVzL21haW4vZGVwZW5kZW5jaWVzL2xpdmVyaWVzLmpzb24",
     "aircrafts": {
         "cub": {
@@ -73656,9 +73656,11 @@
         },
         "BAe 146 Rework_310810_5947": {
             "index": [
+                "emissive",
                 3
             ],
             "parts": [
+                0,
                 0
             ],
             "mp": [
@@ -73671,7 +73673,6 @@
                 {
                     "name": "BAe Systems - QuinetiQ",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/texture_0.jpg"
                     ],
@@ -73680,115 +73681,102 @@
                 {
                     "name": "SWISS",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300Swiss_BaE_146.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/Swiss_BaE_146.webp"
                     ],
                     "credits": "Luca B"
                 },
                 {
                     "name": "Everts Air",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300Everts_Air_BaE146-300QT.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/Everts_Air_BaE146-300QT.webp"
                     ],
                     "credits": "Luca B"
                 },
                 {
                     "name": "Air Canada Jazz (red design)",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300plain_white.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/plain_white.webp"
                     ],
                     "credits": "Airwest"
                 },
                 {
                     "name": "Atlantic Airways",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300Atlantic_Avro_11.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/Atlantic_Avro_11.webp"
                     ],
                     "credits": "Nichy"
                 },
                 {
                     "name": "UAE Presidental flight",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300rj100-UAEAF.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/rj100-UAEAF.webp"
                     ],
                     "credits": "Borecpepik"
                 },
                 {
                     "name": "Turkish Airlines",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300TEST45.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/TEST45.webp"
                     ],
                     "credits": "TK382CO"
                 },
                 {
                     "name": "LaMia Airlines",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300LaMia_2933.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/LaMia_2933.webp"
                     ],
                     "credits": "Viggy"
                 },
                 {
                     "name": "Crossair",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300if_youre_reading_this_please_tell_me_if_theres_a_way_to_fix_the_outermost_engine_in_the_right_wing.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/if_youre_reading_this_please_tell_me_if_theres_a_way_to_fix_the_outermost_engine_in_the_right_wing.webp"
                     ],
                     "credits": "Viggy"
                 },
                 {
                     "name": "United Airlines (Battleship Grey design)",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300unitedbattleship.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/unitedbattleship.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
                 {
                     "name": "British Airways",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300british.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/british.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
                 {
                     "name": "British Airways (Landor design)",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300BA_landor_RJ-100.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/BA_landor_RJ-100.webp"
                     ],
                     "credits": "Viggy"
                 },
                 {
                     "name": "StarTrack",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300startrack.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/startrack.webp"
                     ],
                     "credits": "Viggy"
                 },
                 {
                     "name": "Astra Airlines (Dark Blue design)",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/pasted-image.webp"
                     ],
@@ -73797,7 +73785,6 @@
                 {
                     "name": "Astra Airlines (Dark Green design)",
                     "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/pasted-image_1.webp"
                     ],
@@ -73806,26 +73793,21 @@
                 {
                     "name": "TNT - Malév",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/shaders/freighter_normal.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/shaders/freighter_emission.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/malev_tnt.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/shaders/freighter_emission.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/malev_tnt.webp"
                     ],
                     "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
-                "Normal map": [
+                "Emissive map": [
                     0
                 ],
-                "Emissive map": [
-                    1
-                ],
                 "Texture": [
-                    2
+                    1
                 ]
             },
             "defshader": [
-                "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
                 "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
                 ""
             ],
