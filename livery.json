@@ -26377,6 +26377,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/9_Air_B7M8_Blue.webp"
                     ],
                     "credits": "ChengyuWordle"
+                },
+                {
+                    "name": "9 Air (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/9_Air_B7M8_New.webp"
+                    ],
+                    "credits": "ChengyuWordle"
+                },
+                {
+                    "name": "9 Air (Jiahewanggang livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/9_Air_B7M8_Jiahewanggang.webp"
+                    ],
+                    "credits": "ChengyuWordle"
+                },
+                {
+                    "name": "TUI Fly (Hapag Lloyd retro livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-max8/hapag_tui_b737_max_8.webp"
+                    ],
+                    "credits": "Viggy & opaldelta_17676"
                 }
             ],
             "labels": {
@@ -34568,6 +34589,26 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/IMG_1957.webp"
                     ],
                     "credits": "WilliamAfton"
+                },
+                {
+                    "name": "Malawian Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/Malawian-Airlines-DHC-8.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/Malawian-Airlines-DHC-8.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/Malawian-Airlines-DHC-8.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/Malawian-Airlines-DHC-8.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Air Tanzania",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/air-tanzania-dhc8.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/air-tanzania-dhc8.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/air-tanzania-dhc8.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/air-tanzania-dhc8.webp"
+                    ],
+                    "credits": "TonyTsilavo118"
                 }
             ],
             "labels": {
@@ -39072,14 +39113,6 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/Airbus_Flightlab_A359_Official_Livery.webp"
                     ],
                     "credits": "Bird on a sign at a beach"
-                },
-                {
-                    "name": "China Southern Airlines",
-                    "texture": [
-                        "/models/aircraft/premium/a350/specular.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/A359.webp"
-                    ],
-                    "credits": "TOMAIIM"
                 },
                 {
                     "name": "China Southern Airlines",
@@ -48258,6 +48291,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-211/HO321.webp"
                     ],
                     "credits": "B-20AJ & PEK某失踪人口"
+                },
+                {
+                    "name": "EVA Air (Star Alliance livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321-211/EVA_Air_Star_Alliance_livery_A321-211.webp"
+                    ],
+                    "credits": "KN5290"
                 }
             ],
             "labels": {
@@ -65960,7 +66000,7 @@
                 {
                     "name": "Ethiopian Airlines Cargo (80 Years Timeless Legacy sticker)",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webps",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/ethipoian80.webp"
                     ],
                     "credits": "KN5290"
@@ -65992,7 +66032,7 @@
                 {
                     "name": "Mammoth Freighters",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webps",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/mammooth.webps",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/09jj6r7.webp"
                     ],
                     "credits": "SQ981"
@@ -74345,14 +74385,6 @@
                     "credits": "Borecpepik"
                 },
                 {
-                    "name": "Turkish Airlines",
-                    "texture": [
-                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/TEST45.webp"
-                    ],
-                    "credits": "TK382CO"
-                },
-                {
                     "name": "LaMia Airlines",
                     "texture": [
                         "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
@@ -74513,6 +74545,15 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/n699aa.webp"
                     ],
                     "credits": "SQ981"
+                },
+                {
+                    "name": "Turkish Airlines",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/normal.jpg",
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/TC-THG.webp"
+                    ],
+                    "credits": "whois无名氏"
                 }
             ],
             "labels": {
@@ -74760,6 +74801,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/Air_China__2.webp"
                     ],
                     "credits": "KN5290 & CP8888"
+                },
+                {
+                    "name": "Turkish Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/TEST8.webp"
+                    ],
+                    "credits": "TK382CO"
                 }
             ],
             "labels": {
@@ -76362,6 +76410,30 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
                     ],
                     "credits": "whois无名氏"
+                },
+                {
+                    "name": "Aurigny Air Services (Ex Avianca)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_PBOT.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_PBOT.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_PBOT.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_PBOT.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "Avianca Express",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_pack_9.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_pack_9.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_pack_9.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_Avianca_pack_9.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": {
