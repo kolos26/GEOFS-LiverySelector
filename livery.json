@@ -3216,8 +3216,9 @@
                 ]
             },
             "defshader": [
-                "/models/aircraft/premium/737_700/normal.jpg",
-                "/models/aircraft/premium/737_700/specular.jpg",
+                "",
+                "",
+                "",
                 ""
             ],
             "logo": true,
@@ -3847,11 +3848,25 @@
                     "credits": "AusboyX"
                 }
             ],
-            "labels": [
-                "Texture",
-                "Texture Left",
-                "Texture Bottom",
-                "Texture Right"
+            "labels": {
+                "Main Texture": [
+                    0
+                ],
+                "Texture Left": [
+                    1
+                ],
+                "Texture Bottom": [
+                    2
+                ],
+                "Texture Right": [
+                    3
+                ]
+            },
+            "defshader": [
+                "",
+                "",
+                "",
+                ""
             ],
             "logo": false,
             "acid": "6",
@@ -3957,8 +3972,9 @@
                 ]
             },
             "defshader": [
-                "/models/aircraft/premium/737_700/normal.jpg",
-                "/models/aircraft/premium/737_700/specular.jpg",
+                "",
+                "",
+                "",
                 ""
             ],
             "logo": true,
@@ -7805,7 +7821,7 @@
                     ]
                 }
             ],
-            "labels": [],
+            "labels": {},
             "logo": true,
             "acid": "52",
             "name": "Hughes 269a / TH-55 Osage"
@@ -39133,6 +39149,7 @@
                 ]
             },
             "defshader": [
+                "/models/aircraft/premium/a350/specular.jpg",
                 ""
             ],
             "logo": true,
@@ -46083,7 +46100,9 @@
                 "Texture": [
                     2
                 ],
-                "Propwash": 3
+                "Propwash": [
+                    3
+                ]
             },
             "defshader": [
                 "",
@@ -56646,7 +56665,8 @@
                 ]
             },
             "defshader": [
-                ""
+                "",
+                "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/f22/shaders/simple.webp"
             ],
             "logo": true,
             "acid": "2857",
@@ -76978,7 +76998,7 @@
                     "credits": "AF267"
                 },
                 {
-                    "name": "Amtrak  Phase III",
+                    "name": "Amtrak Phase III",
                     "texture": [
                         "/backend/aircraft/repository/metroliner_267286_5772/texture_3.jpg"
                     ],
@@ -77060,28 +77080,28 @@
                     "credits": "Luca B & AF267"
                 },
                 {
-                    "name": "Amtrak (50th anniversary livery)",
+                    "name": "Amtrak (50th anniversary Midnight Blue livery)",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak50.webp",
-                        "/backend/aircraft/repository/genesis_267286_5909/genesis_3.jpg"
+                        "/backend/aircraft/repository/genesis_267286_5909/fleet_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak50.webp"
                     ],
-                    "credits": "AF267"
+                    "credits": "horsingsoomuch"
                 },
                 {
-                    "name": "Amtrak (50th anniversary grey livery)",
+                    "name": "Amtrak (Phase I 50th anniversary livery)",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak502.webp",
-                        "/backend/aircraft/repository/genesis_267286_5909/genesis_3.jpg"
+                        "/backend/aircraft/repository/metroliner_267286_5772/texture_4.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak502.webp"
                     ],
-                    "credits": "AF267"
+                    "credits": "horsingsoomuch"
                 },
                 {
                     "name": "N Transit",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/ntransit.webp",
-                        "/backend/aircraft/repository/genesis_267286_5909/genesis_3.jpg"
+                        "/backend/aircraft/repository/genesis_267286_5909/fleet_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak502.webp"
                     ],
-                    "credits": "AF267"
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -77094,7 +77114,7 @@
             },
             "defshader": [
                 "",
-                "backend/aircraft/repository/genesis_267286_5909/genesis_3.jpg"
+                "/backend/aircraft/repository/genesis_267286_5909/fleet_0.jpg"
             ],
             "logo": false,
             "acid": "1027",
@@ -77188,6 +77208,146 @@
             "logo": false,
             "acid": "1021",
             "name": "Cessna 550 Citation II"
+        },
+        "WK2 testbed_267286_2783": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "texture": [
+
+            ],
+            "labels": {
+                "Texture": [
+                    0
+                ]
+            },
+            "defshader": [
+                ""
+            ],
+            "logo": false,
+            "acid": "4140",
+            "name": "* Boeing b747X *"
+        },
+        "duplex_267286_5715": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "texture": [
+
+            ],
+            "labels": {
+                "Texture": [
+                    0
+                ]
+            },
+            "defshader": [
+                ""
+            ],
+            "logo": false,
+            "acid": "4140",
+            "name": "* Concorde Duplex *"
+        },
+        "A345_267286_6059": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "texture": [
+
+            ],
+            "labels": {
+                "Texture": [
+                    0
+                ]
+            },
+            "defshader": [
+                ""
+            ],
+            "logo": false,
+            "acid": "6006",
+            "name": "* Airbus a340-500neo *"
+        },
+        "A346_267286_5997": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "texture": [
+
+            ],
+            "labels": {
+                "Texture": [
+                    0
+                ]
+            },
+            "defshader": [
+                ""
+            ],
+            "logo": false,
+            "acid": "5998",
+            "name": "* Airbus a340-600neo *"
+        },
+        "A349_267286_6060": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "texture": [
+
+            ],
+            "labels": {
+                "Texture": [
+                    0
+                ]
+            },
+            "defshader": [
+                ""
+            ],
+            "logo": false,
+            "acid": "2153",
+            "name": "* Airbus a340-900neo *"
         }
     }
 }
