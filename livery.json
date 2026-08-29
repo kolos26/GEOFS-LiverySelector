@@ -2807,6 +2807,15 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-700/YakutiaVQ-BLT_Boeing_737-700.webp"
                     ],
                     "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Anadolu Jet",
+                    "texture": [
+                        "/models/aircraft/premium/737_700/normal.jpg",
+                        "/models/aircraft/premium/737_700/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-700/643085642-640d9db7-309f-47f5-ba69-a99df5f1d74c.webp"
+                    ],
+                    "credits": "limoniiiiii"
                 }
             ],
             "labels": {
@@ -17082,6 +17091,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/CSA-(OK-GFS).webp"
                     ],
                     "credits": "Keyleth"
+                },
+                {
+                    "name": "Santa Barbara",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/santabarbara.webp"
+                    ],
+                    "credits": "ELRETRODEL2020"
                 }
             ],
             "labels": {
@@ -45142,6 +45158,14 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/b77w_unpainted_texture.webp"
                     ],
                     "credits": "Viggy"
+                },
+                {
+                    "name": "NASA Airborne Science Laboratory",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/643059637-c0ced497-dad8-41b7-8e4f-6e8e4d625950.webp"
+                    ],
+                    "credits": "TV-CEO"
                 }
             ],
             "labels": {
@@ -52389,6 +52413,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/EcpOr9H.webp"
                     ],
                     "credits": "Keyleth"
+                },
+                {
+                    "name": "Turkish Airlines (Team Türkiye livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/642792919-b00ec9bc-0d01-4970-b43d-3ee9bc4eb6b1.webp"
+                    ],
+                    "credits": "limoniiiiii"
                 }
             ],
             "labels": {
@@ -74003,6 +74034,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/swissair.webp"
                     ],
                     "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Airbus house livery",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/airbushouse.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -75856,7 +75894,7 @@
                     "credits": "Viggy"
                 },
                 {
-                    "name": "Silver",
+                    "name": "Silver (pink design)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver.webp",
@@ -76454,6 +76492,42 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Aer Lingus (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/aerlingusold.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/aerlingusold.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/aerlingusold.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/aerlingusold.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Silver (white design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silverwhite.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silverwhite.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silverwhite.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silverwhite.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Silver",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/silver2.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -77017,6 +77091,20 @@
                         "/backend/aircraft/repository/metroliner_267286_5772/texture_5.jpg"
                     ],
                     "credits": "AF267"
+                },
+                {
+                    "name": "First Class Conference",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/fcc.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Federal Railroad Administration",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/fra.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -77082,7 +77170,7 @@
                 {
                     "name": "Amtrak (50th anniversary Midnight Blue livery)",
                     "texture": [
-                        "/backend/aircraft/repository/genesis_267286_5909/fleet_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/amtrak50.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak50.webp"
                     ],
                     "credits": "horsingsoomuch"
@@ -77090,16 +77178,72 @@
                 {
                     "name": "Amtrak (Phase I 50th anniversary livery)",
                     "texture": [
-                        "/backend/aircraft/repository/metroliner_267286_5772/texture_4.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/amtrak50.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak502.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
                 {
-                    "name": "N Transit",
+                    "name": "NJ Transit",
                     "texture": [
-                        "/backend/aircraft/repository/genesis_267286_5909/fleet_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/njtransit.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak502.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "VIA Rail Canada",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/njtransit.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/vrc.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "VIA Rail Canada (Love The Way livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/lovetheway.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/lovetheway.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Amtrak (Operation Lifesaver livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/conrail.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/conrail.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Amtrak (Veterans livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/veterans.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/veterans.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "MTA North",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/mta.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/mta.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "New York Central",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/nyc.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/nyc.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "MTA North (40 years anniversary livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/mta40.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/mta40.webp"
                     ],
                     "credits": "horsingsoomuch"
                 }
@@ -77222,9 +77366,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [
-
-            ],
+            "texture": [],
             "labels": {
                 "Texture": [
                     0
@@ -77250,9 +77392,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [
-
-            ],
+            "texture": [],
             "labels": {
                 "Texture": [
                     0
@@ -77278,9 +77418,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [
-
-            ],
+            "texture": [],
             "labels": {
                 "Texture": [
                     0
@@ -77306,9 +77444,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [
-
-            ],
+            "texture": [],
             "labels": {
                 "Texture": [
                     0
@@ -77334,9 +77470,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [
-
-            ],
+            "texture": [],
             "labels": {
                 "Texture": [
                     0
