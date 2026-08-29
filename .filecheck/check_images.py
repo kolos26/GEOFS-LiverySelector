@@ -18,6 +18,10 @@ keys = new_json["aircrafts"].keys()
 
 addition = []
 for plane in keys:
+    try: # skip aircraft with no liveries
+        new_json["aircrafts"][plane]["liveries"]
+    except KeyError:
+        continue
     for livery in new_json["aircrafts"][plane]["liveries"]:
         try: 
             if not livery in old_json["aircrafts"][plane]["liveries"]:

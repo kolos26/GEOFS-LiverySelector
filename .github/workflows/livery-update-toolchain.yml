@@ -167,7 +167,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Check liveries
+      - name: Generate airline.json
         run: python3 .airline_json/generate_airline_json.py
 
       - name: Commit the file

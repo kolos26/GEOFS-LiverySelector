@@ -18,6 +18,11 @@ keys = new_json["aircrafts"].keys()
 diff_data = []
 total_count = 0
 for plane in keys:
+    print(plane)
+    try: # skip aircraft with no liveries
+        new_json["aircrafts"][plane]["liveries"] 
+    except KeyError:
+        continue
     addition = []
     for livery in new_json["aircrafts"][plane]["liveries"]:
         try: 
@@ -33,8 +38,6 @@ for plane in keys:
         diff_data.append(data)
     total_count += len(new_json["aircrafts"][plane]["liveries"])
 
-
-print(diff_data)
 
 total = 0
 
