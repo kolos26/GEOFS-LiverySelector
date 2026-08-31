@@ -29,7 +29,7 @@ This method only needs to be done once. After that, the add-on should work autom
 2. Under the **Assets** dropdown menu, click on the first file (ending with user.js) to download the script.
 3. Follow the procedure on-screen to install the script.
 > [!NOTE]
-> Once the script is saved in Tampermmonkey, it should automatically work every time GeoFS is launched.
+> Once the script is saved in Tampermonkey, it should automatically work every time GeoFS is launched.
 
 ## How to use
 > Tutorial video by bilibili開飛機のzm
@@ -54,7 +54,7 @@ In the header, you can customize your airline
 ...
 ```
 
-The liveries are stored in your airline.json as JSON objects. Into the [] brackets of **"liveies"** you can add several of them. In the **"texture"** array The links to textures are listed as they are ordered in the **"labels"** array. For most planes, you can cheat from the [livery.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/livery.json), which is the main database where liveries are stored. The airline.json is designed to be easier to use, so there are minor differences in the structure. The most important one is that when a plane has only one texture file applied, and no shaders are used, you only need to add the link once (unlike the livery.json, where it depends on how many times each texture is used on the plane).
+The liveries are stored in your airline.json as JSON objects. Into the [] brackets of **"liveries"** you can add several of them. In the **"texture"** array The links to textures are listed as they are ordered in the **"labels"** array. For most planes, you can cheat from the [livery.json](https://github.com/kolos26/GEOFS-LiverySelector/blob/main/livery.json), which is the main database where liveries are stored. The airline.json is designed to be easier to use, so there are minor differences in the structure. The most important one is that when a plane has only one texture file applied, and no shaders are used, you only need to add the link once (unlike the livery.json, where it depends on how many times each texture is used on the plane).
 
 ```
 ...
@@ -64,7 +64,7 @@ The liveries are stored in your airline.json as JSON objects. Into the [] bracke
                 {
                     "name": "RedBull",                                                          // Name of the livery
                     "texture": [
-                        "htttps://geo-fs.com/models/aircraft/premium/a380/specular.jpg",        // This is the link to the Specular shader
+                        "https://geo-fs.com/models/aircraft/premium/a380/specular.jpg",        // This is the link to the Specular shader
                         "https://geo-fs.com/models/aircraft/premium/a380/texture_3.jpg"         // This is the link to the Texture
                     ],
                     "credits": "GeoFS"                                                          // The creator of the livery mostly a discord or github nickname
@@ -96,7 +96,7 @@ In this time near all basic aircrafts are supported which has originally more th
 - Pilatus PC-7 Mk-I
 - de Havilland Canada DHC2 Beaver
 - Colomban MC-15 Cri-cri
-- Lokheed P38 Lightning
+- Lockheed P38 Lightning
 - Douglas DC-3
 - Sukhoi Su-35 Flanker
 - Aerospatiale France - British Aircraft Corporation Concorde
@@ -106,9 +106,9 @@ In this time near all basic aircrafts are supported which has originally more th
 - Airbus a350-900
 - Boeing b777-300ER
 - Antonov An-140
-- McDonell Douglas - Boeing F/A-18F Super Hornet
+- McDonnell Douglas - Boeing F/A-18F Super Hornet
 - Beechcraft B55 Baron
-- Dessault Rafale M
+- Dassault Rafale M
 - Potez 25
 - Evektor Sportstar
 - szd-48-3 Jantar
