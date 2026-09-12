@@ -15785,6 +15785,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a319-100/Spirit_A319_Livery.webp"
                     ],
                     "credits": "Bird on a sign at a beach"
+                },
+                {
+                    "name": "British Airways (London Olympics Golden Dove livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a319-100/goldendove.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -17779,6 +17786,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-1000/a35f.webp"
                     ],
                     "credits": "froxy"
+                },
+                {
+                    "name": "Korean Air Cargo (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-1000/koreancargo.webp"
+                    ],
+                    "credits": "Glazed_Kimpab & Luca B"
                 }
             ],
             "labels": {
@@ -27319,6 +27333,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-10/image.webp"
                     ],
                     "credits": "Lê Thành Đạt, LOL369YT, opaldelta & HuyTran"
+                },
+                {
+                    "name": "British Airways",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-10/british.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -34427,6 +34448,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-200/AVIATSA_Mora_737-200.webp"
                     ],
                     "credits": "Luca B & DarinAlekzandar"
+                },
+                {
+                    "name": "Frontier",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-200/frontier.webp"
+                    ],
+                    "credits": "limoniiiiii"
                 }
             ],
             "labels": {
@@ -41060,6 +41088,20 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-900neo/Malaysia_airlines_A330-900.webp"
                     ],
                     "credits": "Ivan_Dmitriev"
+                },
+                {
+                    "name": "Trinity Airways",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-900neo/trinity.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Scandinavian Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-900neo/sasnew.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
@@ -42910,6 +42952,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/EWG_D-AEEA_Variant.webp"
                     ],
                     "credits": "Keyleth"
+                },
+                {
+                    "name": "WizzAir Abu Dhabi",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/wizzabudhabi.webp"
+                    ],
+                    "credits": "horsingsoomuch & Ivan Dmitriev"
                 }
             ],
             "labels": {
@@ -44116,7 +44165,8 @@
                     "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/airindia.webp"
-                    ]
+                    ],
+                    "credits": "Yash Dhoundy"
                 },
                 {
                     "name": "Air Canada (new design)",
@@ -58809,6 +58859,59 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "USAAF",
+                    "credits": " CaptainDeltaYT",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/spitfire/usaaf.webp",
+                        {
+                            "material": 0
+                        },
+                        {
+                            "material": 1
+                        },
+                        {
+                            "material": 2
+                        },
+                        {
+                            "material": 3
+                        }
+                    ],
+                    "materials": [
+                        {
+                            "name": "Prop Cone",
+                            "baseColorFactor": [
+                                0.15295729041099548,
+                                0.16999061405658722,
+                                0.11210495233535767
+                            ]
+                        },
+                        {
+                            "name": "Wings Red",
+                            "baseColorFactor": [
+                                0.20689654350280762,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "Wings Yellow",
+                            "baseColorFactor": [
+                                0.2068936824798584,
+                                0.2068936824798584,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "Canopy Metal",
+                            "baseColorFactor": [
+                                0.047207802534103394,
+                                0.0592767596244812,
+                                0.0592767596244812
+                            ]
+                        }
+                    ]
                 }
             ],
             "labels": {
@@ -59625,6 +59728,13 @@
                     "name": "Africa Airlines",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-600/Africa_Airlines_B736.webp"
+                    ],
+                    "credits": "TinyFrost"
+                },
+                {
+                    "name": "Sky Mali",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-600/Sky_Mali_B737-600.webp"
                     ],
                     "credits": "TinyFrost"
                 }
@@ -67497,6 +67607,14 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/09jj6r7.webp"
                     ],
                     "credits": "SQ981"
+                },
+                {
+                    "name": "DHL (As One Against Cancer 2023 livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/shaders/original.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-200f/DHL_2023.webp"
+                    ],
+                    "credits": "CP8888"
                 }
             ],
             "labels": {
@@ -71998,14 +72116,6 @@
                     "credits": "Nichy"
                 },
                 {
-                    "name": "Global Super Tanker",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/IMG_20260111_234847.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
-                    ],
-                    "credits": "Que"
-                },
-                {
                     "name": "Philippine Airlines",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/PAL_747_400.webp",
@@ -72228,14 +72338,6 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
                     ],
                     "credits": "opaldelta_17676"
-                },
-                {
-                    "name": "Global Supertanker 944",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/Boeing_747-400ST.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
-                    ],
-                    "credits": "Nichy"
                 },
                 {
                     "name": "ANA (old design)",
@@ -73316,7 +73418,7 @@
                     "credits": "yicha.25"
                 },
                 {
-                    "name": "Thai Airways",
+                    "name": "Thai Airways (old design)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a300-600/Thai_Airways_A300.webp"
                     ],
@@ -76012,6 +76114,27 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/Rayoni_Tourism_Airline_A340-600.webp"
                     ],
                     "credits": "Luca B"
+                },
+                {
+                    "name": "Sky Prime",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/skyprime.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Alpha Star",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/alphastar.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Thai Airways (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/thainew.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
@@ -76060,6 +76183,14 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/antonov_an124/aeroflot/engine.webp"
                     ],
                     "credits": "TK382CO"
+                },
+                {
+                    "name": "Volga-Dnepr Group",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/antonov_an124/volgadnepr/main.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/antonov_an124/volgadnepr/engine.webp"
+                    ],
+                    "credits": "Enginesthrust16"
                 }
             ],
             "labels": {
@@ -76638,6 +76769,46 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/psa.webp"
                     ],
                     "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Air New Zealand (Pacific Wave design)",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/airnewzealandpacific.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Mahan Air",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/mahan.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Thai Airways (old design)",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/thaiold.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Jet2",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/jet2.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "FAAM Airborne Laboratory",
+                    "texture": [
+                        "/backend/aircraft/repository/BAe 146 Rework_310810_5947/emission.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bae_146-300/faam.webp"
+                    ],
+                    "credits": "Class323"
                 }
             ],
             "labels": {
@@ -79062,6 +79233,54 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
                     ],
                     "credits": "Yash Dhoundy"
+                },
+                {
+                    "name": "CVsky",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/CVsky.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/CVsky.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/CVsky.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/CVsky.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "horsingsoomuchű"
+                },
+                {
+                    "name": "VoePass Linhas Aéreas (ALTA Conference 2024 livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v2_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "VoePass Linhas Aéreas (Removed ALTA Conference 2024 livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v1_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v1_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v1_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_PTQ_v1_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "AeroMexico Express (Operated by Aeromar)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_AMX_pack.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_AMX_pack.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_AMX_pack.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/ATR72_-_AMX_pack.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": {
@@ -79138,7 +79357,7 @@
                     "credits": "AF267"
                 },
                 {
-                    "name": "DHL de Guatemala",
+                    "name": "DHL de Guatemala (P2F variant)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_TG-DHP.webp",
@@ -79700,6 +79919,42 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Metallic.webp"
                     ],
                     "credits": "Luca B"
+                },
+                {
+                    "name": "DHL de Guatemala",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_1.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/freighter42_Metallic"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "DHL de Guatemala (As One Against Cancer livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_3.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_3.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_3.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_3.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Metallic.webp"
+                    ],
+                    "credits": "Nichy"
+                },
+                {
+                    "name": "DHL (Solenta Aviation)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_4.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_4.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_4.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/ATR42_-_DHL_pack_4.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Normal.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_42-600/shaders/ATR42_Metallic.webp"
+                    ],
+                    "credits": "Nichy"
                 }
             ],
             "labels": {
@@ -79845,6 +80100,34 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/nmc.webp"
                     ],
                     "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "DOT Track Inspection",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/dottrackinspection.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Naugatuck Railroad",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/Naugatuck.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Metro North Commuter V2",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/metronorthcommuterv2.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Naugatuck Railroad (250 years anniversary livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/Naugatuck250.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -79927,14 +80210,14 @@
                     "name": "NJ Transit",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/njtransit.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/amtrak502.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/ntransit.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
                 {
                     "name": "VIA Rail Canada",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/njtransit.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/vrc.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/vrc.webp"
                     ],
                     "credits": "horsingsoomuch"
@@ -79948,10 +80231,18 @@
                     "credits": "horsingsoomuch"
                 },
                 {
-                    "name": "Amtrak (Operation Lifesaver livery)",
+                    "name": "Conrail",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/conrail.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/conrail.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Amtrak (Operation Lifesaver livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/metroliner/lifesaver.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/genesis/lifesaver.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
@@ -80024,6 +80315,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/tupolev_tu-144/TU-144_concorde.webp"
                     ],
                     "credits": "Ivan Dmitriev"
+                },
+                {
+                    "name": "NASA",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/tupolev_tu-144/nasa.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
