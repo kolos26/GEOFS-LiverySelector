@@ -18108,7 +18108,7 @@
                 {
                     "name": "Delta Airlines",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-1000/image.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-1000/delta-a35k.webp"
                     ],
                     "credits": "SQ981"
                 },
@@ -30206,7 +30206,7 @@
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-800/garudaretro.webp"
                     ],
-                    "credits": "VerybadA330"
+                    "credits": "CP8888"
                 },
                 {
                     "name": "7Air Cargo",
@@ -35377,6 +35377,16 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/IMG_1983.webp"
                     ],
                     "credits": "WilliamAfton"
+                },
+                {
+                    "name": "Tchadia Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/q400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/q400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/q400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/bombardier_dash8-q400/q400.webp"
+                    ],
+                    "credits": "YX0321"
                 }
             ],
             "labels": {
@@ -38569,7 +38579,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/chinaeastern.webp"
                     ],
-                    "credits": "bilibili開飛機のzm[Sino Wings Group]"
+                    "credits": "CP8888"
                 },
                 {
                     "name": "Air China (Big Chinese design)",
@@ -39583,7 +39593,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/klm359new.webp"
                     ],
-                    "credits": "Youtube VR PoZz"
+                    "credits": "Viggy"
                 },
                 {
                     "name": "Sichuan Airlines (white design)",
@@ -41754,13 +41764,15 @@
                     "name": "Xiamen Airlines (First Airbus to XIAMENAIR livery)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/xiamen1st.webp"
-                    ]
+                    ],
+                    "credits": "CP8888"
                 },
                 {
                     "name": "Xiamen Airlines",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a321neo/xiamen.webp"
-                    ]
+                    ],
+                    "credits": "CP8888"
                 },
                 {
                     "name": "China Northern",
@@ -53613,6 +53625,20 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/Emirates_Old_A332_Livery.webp"
                     ],
                     "credits": "Bird on a sign at a beach"
+                },
+                {
+                    "name": "Flyadeal",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/Flyadeal.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Flyadeal (with Zorro mask)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-200/Flyadealmask.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -64331,6 +64357,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/Wizz_Air_Old_A320-232_Livery.webp"
                     ],
                     "credits": "Bird on a sign at a beach & Ivan_Dmitriev"
+                },
+                {
+                    "name": "Lift (Europcar Livery)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/Lift_Europcar_Livery_A320.webp"
+                    ],
+                    "credits": "TinyFrost"
                 }
             ],
             "labels": {
@@ -70111,7 +70144,7 @@
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/sikorsky_uh60/plaaf_z20.webp"
                     ],
-                    "credits": "THEGOAT323023"
+                    "credits": "whois无名氏"
                 },
                 {
                     "name": "People's Liberation Army",
@@ -70119,6 +70152,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/sikorsky_uh60/PLA_Z20.webp"
                     ],
                     "credits": "THEGOAT323023"
+                },
+                {
+                    "name": "PLAAF - LH92210",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/sikorsky_uh60/LH92210.webp"
+                    ],
+                    "credits": "whois无名氏"
                 }
             ],
             "labels": {
