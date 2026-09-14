@@ -80438,6 +80438,61 @@
             "acid": "1021",
             "name": "Cessna 550 Citation II"
         },
+        "f27_267286_6214": {
+            "index": [
+                0
+            ],
+            "parts": [
+                0
+            ],
+            "mp": [
+                {
+                    "modelIndex": 0,
+                    "textureIndex": 0
+                }
+            ],
+            "texture": [
+                {
+                    "name": "Fokker house livery",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/PHNVF.webp"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Royal Netherlands Air Force",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/KLU_C7_early.webp"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Scibe Zaire",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/Scibe_Zaire.webp"
+                    ],
+                    "credits": "Rick"
+                },
+                {
+                    "name": "Farnair Europe",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/Farnair.webp"
+                    ],
+                    "credits": "Rick"
+                }
+            ],
+            "labels": {
+                "Texture": [
+                    0
+                ]
+            },
+            "defshader": [
+                ""
+            ],
+            "logo": false,
+            "acid": "26",
+            "name": "Fokker F-27 Friendship"
+        },
         "WK2 testbed_267286_2783": {
             "index": [
                 0
