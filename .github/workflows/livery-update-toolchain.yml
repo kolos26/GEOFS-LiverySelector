@@ -97,7 +97,7 @@ jobs:
           git push
 
   discord-livery-announcement:
-    needs: webp-conversion
+    needs: check-images
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -148,6 +148,7 @@ jobs:
           git push
 
   generate-airline-json:
+    needs: discord-livery-announcement
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
