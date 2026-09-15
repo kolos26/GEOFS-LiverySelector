@@ -22,7 +22,8 @@
                         "/models/aircraft/premium/cub/texture_0.jpg"
                     ],
                     "credits": "GeoFS",
-                    "alias": "0"
+                    "alias": "0",
+                    "thumb": "7eb8cb9411c7eab0f689fe4b99dc7738.webp"
                 },
                 {
                     "name": "Red",
@@ -30,70 +31,80 @@
                         "/models/aircraft/premium/cub/texture_1.jpg"
                     ],
                     "credits": "GeoFS",
-                    "alias": "1"
+                    "alias": "1",
+                    "thumb": "ad10631049e90df65823da80ec0e968a.webp"
                 },
                 {
                     "name": "NC29508",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/NC29508_1.webp"
                     ],
-                    "credits": "Nichy"
+                    "credits": "Nichy",
+                    "thumb": "8beb914fe6429c1ebfb330f79e304258.webp"
                 },
                 {
                     "name": "US Army Air Corps - 1940",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/US-Army-Air-Corps.webp"
                     ],
-                    "credits": "Rick"
+                    "credits": "Rick",
+                    "thumb": "13c06a84975c3b2dd1650bb113d61b6d.webp"
                 },
                 {
                     "name": "Steve Henry Yee Haw 7",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/44.webp"
                     ],
-                    "credits": "Rick"
+                    "credits": "Rick",
+                    "thumb": "9fba7ea4eabf5aaab16652404e179719.webp"
                 },
                 {
                     "name": "MX-7263",
                     "texture": [
                         "https://i.ibb.co/Hpqd4RSv/Geo-FS-Livery-Maker-5-1.png"
                     ],
-                    "credits": "ljwalch"
+                    "credits": "ljwalch",
+                    "thumb": "4cbb5928f18919767506f37c0a56fbc7.webp"
                 },
                 {
                     "name": "ML-KNIL - 17 VARWA",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/ML-KNIL-VARWA.webp"
                     ],
-                    "credits": "Rick"
+                    "credits": "Rick",
+                    "thumb": "f3cfec72eef224f58afb40c94dc5f085.webp"
                 },
                 {
                     "name": "ACME Aero 50",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/Geo-FS-Livery-Maker-5.webp"
                     ],
-                    "credits": "ljwalch"
+                    "credits": "ljwalch",
+                    "thumb": "13b3994013d41aa37f57109a05daa1fd.webp"
                 },
                 {
                     "name": "US Air Force",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/L4b_Grasshopper.webp"
                     ],
-                    "credits": "Borec Pepik"
+                    "credits": "Borec Pepik",
+                    "thumb": "65c5b633151d72794e899bb3e466e81d.webp"
                 },
                 {
                     "name": "Royal Thai Air Force",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/RTAFPIPER2.webp"
                     ],
-                    "credits": "MintleCheese"
+                    "credits": "MintleCheese",
+                    "thumb": "0b4bcc9939ae5a6d5109417ef854bfd2.webp"
                 },
                 {
                     "name": "Madagascar Air Force",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/piper_cub/5R-MNO.webp"
                     ],
-                    "credits": "TonyTsilavo118"
+                    "credits": "TonyTsilavo118",
+                    "thumb": "d5a55097339dedcf7872088b68dc6f63.webp"
                 }
             ],
             "labels": {
@@ -105,6 +116,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "1",
             "name": "Piper J3 Cub"
         },
