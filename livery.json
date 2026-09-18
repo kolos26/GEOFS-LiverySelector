@@ -38637,7 +38637,7 @@
                         "/models/aircraft/premium/a350/specular.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a350-900/chinaeastern.webp"
                     ],
-                    "credits": "CP8888"
+                    "credits": "KN5290"
                 },
                 {
                     "name": "Air China (Big Chinese design)",
@@ -73113,6 +73113,14 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
                     ],
                     "credits": "TonyTsilavo118"
+                },
+                {
+                    "name": "Singapore Airlines Cargo",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/Singapore_Airlines_Cargo.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
+                    ],
+                    "credits": "opaldelta_17676"
                 }
             ],
             "labels": {
@@ -80650,6 +80658,101 @@
             "acid": "26",
             "name": "Fokker F-27 Friendship"
         },
+        "qwcj_1847518_6131": {
+            "index": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "parts": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "mp": "disabled",
+            "liveries": [
+                {
+                    "name": "JAL (Arc of the Sun design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734.webp"
+                    ],
+                    "credits": "TOMAIIM"
+                },
+                {
+                    "name": "JAL (Arc of the Sun design - OneWorld logo)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734_logo.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734_logo.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734_logo.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/JAL_B734_logo.webp"
+                    ],
+                    "credits": "TOMAIIM"
+                },
+                {
+                    "name": "Hapag-Lloyd",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Hapag-Lloyd.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Hapag-Lloyd.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Hapag-Lloyd.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Hapag-Lloyd.webp"
+                    ],
+                    "credits": "CP8888"
+                },
+                {
+                    "name": "Air Horizont",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Air_Horizont_737-400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Air_Horizont_737-400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Air_Horizont_737-400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Air_Horizont_737-400.webp"
+                    ],
+                    "credits": "Luca B"
+                },
+                {
+                    "name": "Willis Lease",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Willis_Lease_B737-400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Willis_Lease_B737-400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Willis_Lease_B737-400.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Willis_Lease_B737-400.webp"
+                    ],
+                    "credits": "KN5290"
+                },
+                {
+                    "name": "Citilink (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Citilink_737-400_updated.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Citilink_737-400_updated.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Citilink_737-400_updated.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b737-400/Citilink_737-400_updated.webp"
+                    ],
+                    "credits": "X-75"
+                }
+            ],
+            "labels": {
+                "Texture": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "defshader": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "logo": true,
+            "thumb": false,
+            "acid": "6131",
+            "name": "Boeing b737-400"
+        },
         "WK2 testbed_267286_2783": {
             "index": [
                 0
@@ -80663,7 +80766,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [],
+            "liveries": [],
             "labels": {
                 "Texture": [
                     0
@@ -80690,7 +80793,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [],
+            "liveries": [],
             "labels": {
                 "Texture": [
                     0
@@ -80717,7 +80820,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [],
+            "liveries": [],
             "labels": {
                 "Texture": [
                     0
@@ -80744,7 +80847,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [],
+            "liveries": [],
             "labels": {
                 "Texture": [
                     0
@@ -80771,7 +80874,7 @@
                     "textureIndex": 0
                 }
             ],
-            "texture": [],
+            "liveries": [],
             "labels": {
                 "Texture": [
                     0
