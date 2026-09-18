@@ -140,7 +140,8 @@
                         "/models/aircraft/premium/cessna_172/texture_0.jpg"
                     ],
                     "credits": "GeoFS",
-                    "alias": "0"
+                    "alias": "0",
+                    "thumb": "c2a41def41c5d3498c270836d6a5ee9b.webp"
                 },
                 {
                     "name": "N5290V",
@@ -148,14 +149,16 @@
                         "/models/aircraft/premium/cessna_172/texture_1.jpg"
                     ],
                     "credits": "GeoFS",
-                    "alias": "1"
+                    "alias": "1",
+                    "thumb": "2aefad2d3c4d60dcfaa505f33a7084ef.webp"
                 },
                 {
                     "name": "Turkish Airlines",
                     "texture": [
                         "https://raw.githubusercontent.com/coolpilot11/stuff/main/172TK.jpg"
                     ],
-                    "credits": "Coolpilot11"
+                    "credits": "Coolpilot11",
+                    "thumb": "388855446533d31850805461a96121ab.webp"
                 },
                 {
                     "name": "N37JA",
@@ -785,6 +788,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "3",
             "name": "Dessault - Dornier Alpha Jet"
         },
@@ -2902,6 +2906,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "4",
             "name": "Boeing b737-700"
         },
@@ -3298,6 +3303,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "6",
             "name": "de Havilland Canada DHC6 Twin Otter"
         },
@@ -3945,6 +3951,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "6",
             "name": "de Havilland Canada DHC6 Twin Otter Floatplane"
         },
@@ -4054,6 +4061,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "8",
             "name": "Pitts Special S1"
         },
@@ -4606,6 +4614,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "9",
             "name": "Eurocopter EC135"
         },
@@ -5403,6 +5412,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "10",
             "name": "Airbus a380-800"
         },
@@ -5451,6 +5461,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "11",
             "name": "Alisport Silent 2 Electro"
         },
@@ -5600,6 +5611,7 @@
                 "/models/aircraft/premium/pilatus/propblur.png"
             ],
             "logo": true,
+            "thumb": true,
             "acid": "12",
             "name": "Pilatus PC-7 Mk-I"
         },
@@ -5790,6 +5802,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "13",
             "name": "de Havilland Canada DHC2 Beaver"
         },
@@ -5858,6 +5871,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "14",
             "name": "Colomban MC-15 Cri-cri"
         },
@@ -5981,6 +5995,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "15",
             "name": "Lockheed P38 Lightning"
         },
@@ -6236,6 +6251,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "18",
             "name": "Sukhoi Su-35 Flanker"
         },
@@ -6456,6 +6472,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "20",
             "name": "Aerospatiale France - British Aircraft Corporation Concorde"
         },
@@ -6558,6 +6575,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "21",
             "name": "Zlin Z-50"
         },
@@ -6727,6 +6745,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "22",
             "name": "Cessna 152"
         },
@@ -7071,6 +7090,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "26",
             "name": "Antonov An-140"
         },
@@ -7176,6 +7196,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "31",
             "name": "Potez 25"
         },
@@ -7250,6 +7271,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "40",
             "name": "Evektor Sportstar"
         },
@@ -7639,6 +7661,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "41",
             "name": "szd-48-3 Jantar"
         },
@@ -7673,6 +7696,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "50",
             "name": "Paraglider"
         },
@@ -7778,6 +7802,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "51",
             "name": "Major Tom (hot air balloon)"
         },
@@ -7941,6 +7966,7 @@
             ],
             "labels": {},
             "logo": true,
+            "thumb": true,
             "acid": "52",
             "name": "Hughes 269a / TH-55 Osage"
         },
@@ -7995,6 +8021,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "53",
             "name": "Goat Airchair"
         },
@@ -8156,6 +8183,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "102",
             "name": "Citroen 2CV"
         },
@@ -11596,6 +11624,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "237",
             "name": "Boeing b767-300ER"
         },
@@ -13531,6 +13560,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "238",
             "name": "Boeing b757-200"
         },
@@ -14334,6 +14364,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "239",
             "name": "Airbus a350-900"
         },
@@ -15816,6 +15847,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2879",
             "name": "Airbus a319-100"
         },
@@ -17359,6 +17391,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2418",
             "name": "ATR 72-600"
         },
@@ -17817,6 +17850,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2973",
             "name": "Airbus a350-1000"
         },
@@ -18261,6 +18295,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2973",
             "name": "Airbus a350-1000"
         },
@@ -19822,6 +19857,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3575",
             "name": "Boeing b787-9"
         },
@@ -23384,6 +23420,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3534",
             "name": "Airbus a320-214"
         },
@@ -23757,6 +23794,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2899",
             "name": "Airbus a220-300"
         },
@@ -25708,6 +25746,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2871",
             "name": "Airbus a320neo"
         },
@@ -27013,6 +27052,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2769",
             "name": "Boeing b737-MAX8"
         },
@@ -27364,6 +27404,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3180",
             "name": "Boeing b787-10"
         },
@@ -27440,6 +27481,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3292",
             "name": "Boeing p8I Neptune"
         },
@@ -27622,6 +27664,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3307",
             "name": "Bombardier CRJ700"
         },
@@ -31911,6 +31954,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3054",
             "name": "Boeing b737-800WL"
         },
@@ -32409,6 +32453,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4017",
             "name": "Embraer ERJ 145LR"
         },
@@ -34472,6 +34517,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4140",
             "name": "Boeing b737-200"
         },
@@ -35410,6 +35456,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "247",
             "name": "Bombardier Dash8-q400"
         },
@@ -35660,6 +35707,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4398",
             "name": "Britten-Norman BN2 Islander"
         },
@@ -36446,6 +36494,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2892",
             "name": "SAAB 340"
         },
@@ -37457,6 +37506,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "16",
             "name": "Douglas DC-3"
         },
@@ -37873,6 +37923,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2706",
             "name": "Bombardier CRJ200"
         },
@@ -38424,6 +38475,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3341",
             "name": "Embraer ERJ 170"
         },
@@ -40015,6 +40067,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "24",
             "name": "Airbus a350-900"
         },
@@ -41129,6 +41182,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4631",
             "name": "Airbus a330-900neo"
         },
@@ -42988,6 +43042,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4646",
             "name": "Airbus a321neo"
         },
@@ -43564,6 +43619,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "7",
             "name": "General Dynamics F16 Fighting Falcon"
         },
@@ -43777,6 +43833,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4745",
             "name": "Boeing b757-300WL"
         },
@@ -43960,6 +44017,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4743",
             "name": "Boeing 757-300"
         },
@@ -46294,6 +46352,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "25",
             "name": "Boeing b777-300ER"
         },
@@ -46367,6 +46426,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4596",
             "name": "Vans RV6"
         },
@@ -46568,6 +46628,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "23",
             "name": "Piper PA-28 161 Warrior II"
         },
@@ -46730,6 +46791,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3283",
             "name": "Dornier do228-200"
         },
@@ -47183,6 +47245,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4764",
             "name": "Boeing b767-400ER"
         },
@@ -47248,6 +47311,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5061",
             "name": "Sonex-B kit"
         },
@@ -47550,6 +47614,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5073",
             "name": "Bombardier Learjet45"
         },
@@ -47758,6 +47823,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "5",
             "name": "Embraer Phenom100"
         },
@@ -49479,6 +49545,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5086",
             "name": "Airbus a321-211"
         },
@@ -50773,6 +50840,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2951",
             "name": "Airbus a340-300"
         },
@@ -53656,6 +53724,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2856",
             "name": "Airbus a330-200"
         },
@@ -53909,6 +53978,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "27",
             "name": "McDonell Douglas - Boeing F/A-18F Super Hornet"
         },
@@ -54223,6 +54293,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5156",
             "name": "Airbus a318-112"
         },
@@ -54299,6 +54370,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2864",
             "name": "Leonardo - AugustaWestland AW609"
         },
@@ -54340,6 +54412,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2852",
             "name": "Cameron R-650 Rozière Balloon"
         },
@@ -54988,6 +55061,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/lockheed_L1011-1_TriStar/shaders/prototype.webp"
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5038",
             "name": "Lockheed L1011-1 TriStar"
         },
@@ -57845,6 +57919,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-8i/wing/original.webp"
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5193",
             "name": "Boeing b747-8I"
         },
@@ -57998,6 +58073,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/f22/shaders/simple.webp"
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2857",
             "name": "Lockheed Martin F22 Raptor"
         },
@@ -58060,6 +58136,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3211",
             "name": "UTVA 75"
         },
@@ -58955,6 +59032,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2808",
             "name": "Supermarine Spitfire Mk XIV"
         },
@@ -59780,6 +59858,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5203",
             "name": "Boeing b737-600"
         },
@@ -60115,6 +60194,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5229",
             "name": "Lockheed Martin F35B Lightning II"
         },
@@ -60266,6 +60346,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3591",
             "name": "McDonnell Douglas F-15C Eagle"
         },
@@ -60351,6 +60432,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": true,
             "acid": "28",
             "name": "Beechcraft B55 Baron"
         },
@@ -60436,6 +60518,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2788",
             "name": "Antonov An-225 Mriya"
         },
@@ -60753,6 +60836,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/dessault_rafale/cockpit/Image_4.webp"
             ],
             "logo": true,
+            "thumb": true,
             "acid": "29",
             "name": "Dessault Rafale M"
         },
@@ -60832,6 +60916,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2953",
             "name": "NASA Space Shuttle"
         },
@@ -61093,6 +61178,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ilyushin_il76/wing/base.webp"
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1014",
             "name": "Ilyushin IL-76TD"
         },
@@ -62366,6 +62452,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1023",
             "name": "McDonnell Douglas MD11"
         },
@@ -62502,6 +62589,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3617",
             "name": "Dessault Mirage 2000-5"
         },
@@ -62599,6 +62687,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "5347",
             "name": "Dessault Mirage F1"
         },
@@ -62835,6 +62924,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "5380",
             "name": "Boeing b717-200"
         },
@@ -64381,6 +64471,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3011",
             "name": "Airbus a320-232"
         },
@@ -65381,6 +65472,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5314",
             "name": "Boeing b747-100 SCA"
         },
@@ -65490,6 +65582,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3460",
             "name": "Grumman E-2 Hawkeye"
         },
@@ -65529,6 +65622,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3436",
             "name": "Dornier do228-100 Coast Guard"
         },
@@ -65619,6 +65713,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "5405",
             "name": "Chengdu J-20"
         },
@@ -65667,6 +65762,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5431",
             "name": "Northrop YF-23"
         },
@@ -66156,6 +66252,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "240",
             "name": "Boeing b777-200"
         },
@@ -67029,6 +67126,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "240",
             "name": "Boeing b777-200ER"
         },
@@ -67153,6 +67251,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1004",
             "name": "Boeing b777-200LR"
         },
@@ -67669,6 +67768,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "4402",
             "name": "Boeing b777-200F"
         },
@@ -68102,6 +68202,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1001",
             "name": "Boeing b737-900ER"
         },
@@ -68271,6 +68372,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400d/wing/original.webp"
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5409",
             "name": "Boeing b747-400D"
         },
@@ -69336,6 +69438,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1018",
             "name": "Embraer ERJ 190"
         },
@@ -70021,6 +70124,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "252",
             "name": "Boeing b747-8F"
         },
@@ -70176,6 +70280,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2806",
             "name": "Sikorsky UH-60 Black Hawk"
         },
@@ -70217,6 +70322,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5499",
             "name": "CubCrafters CC19 XCub"
         },
@@ -70401,6 +70507,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2786",
             "name": "Grumman J2F-5 Duck"
         },
@@ -70724,6 +70831,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5551",
             "name": "Comac C919"
         },
@@ -70903,6 +71011,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1005",
             "name": "Boeing b777-9X"
         },
@@ -71280,6 +71389,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5211",
             "name": "Boeing b747SP"
         },
@@ -71405,6 +71515,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "242",
             "name": "Tupolev Tu-204-100"
         },
@@ -71628,6 +71739,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "3036",
             "name": "Embraer ERJ 195-E2"
         },
@@ -71742,6 +71854,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "32",
             "name": "Northrop T-38 Talon"
         },
@@ -73015,6 +73128,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b747-400/wing/original.webp"
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5527",
             "name": "Boeing b747-400"
         },
@@ -73105,6 +73219,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5847",
             "name": "Airbus a319neo"
         },
@@ -73344,6 +73459,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5566",
             "name": "Embraer ERJ 175"
         },
@@ -73432,6 +73548,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2581",
             "name": "Grumman F-14 Tomcat"
         },
@@ -73907,6 +74024,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1009",
             "name": "Airbus a300-600"
         },
@@ -73948,6 +74066,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2989",
             "name": "General Atomics MQ-9B Reaper"
         },
@@ -74316,6 +74435,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1016",
             "name": "Bombardier CRJ900"
         },
@@ -74414,6 +74534,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2310",
             "name": "Fairchild A10-C Thunderbolt II Warthog"
         },
@@ -74994,6 +75115,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2870",
             "name": "Airbus a321-232"
         },
@@ -75405,6 +75527,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "17",
             "name": "McDonell Douglas DC-10-40"
         },
@@ -75621,6 +75744,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2003",
             "name": "Boeing b720"
         },
@@ -75704,6 +75828,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2003",
             "name": "Boeing KC-135R Stratotanker"
         },
@@ -75899,6 +76024,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "6006",
             "name": "Airbus a340-500"
         },
@@ -76192,6 +76318,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5998",
             "name": "Airbus a340-600"
         },
@@ -76252,6 +76379,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2788",
             "name": "Antonov An-124-100M Ruslan"
         },
@@ -76300,6 +76428,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2951",
             "name": "Ilyushin IL-96-400"
         },
@@ -76383,6 +76512,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2951",
             "name": "Ilyushin IL-96-300"
         },
@@ -76467,6 +76597,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "16",
             "name": "Ilyushin IL-14"
         },
@@ -76516,6 +76647,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "22",
             "name": "Cessna 152"
         },
@@ -76870,6 +77002,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5947",
             "name": "BAe 146-300 / Avro RJ100"
         },
@@ -76911,6 +77044,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "3534",
             "name": "Airbus a320-100"
         },
@@ -77155,6 +77289,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "3054",
             "name": "Boeing b737-800"
         },
@@ -77245,6 +77380,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1022",
             "name": "Cessna 337 Super Skymaster"
         },
@@ -77293,6 +77429,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1",
             "name": "Piper PA-18 Super Cub"
         },
@@ -77421,6 +77558,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5002",
             "name": "Beta Alia Prototype"
         },
@@ -77474,6 +77612,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "5002",
             "name": "Beta Alia A250"
         },
@@ -77503,6 +77642,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "4409",
             "name": "Zenith STOL CH 701"
         },
@@ -77532,6 +77672,7 @@
                 ""
             ],
             "logo": true,
+            "thumb": false,
             "acid": "5486",
             "name": "Aviat A-1B Husky"
         },
@@ -79359,6 +79500,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2420",
             "name": "ATR 72-600"
         },
@@ -80033,6 +80175,7 @@
                 "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ATR_72-600/shaders/ATR_Metallic.webp"
             ],
             "logo": true,
+            "thumb": false,
             "acid": "2426",
             "name": "ATR 42-600"
         },
@@ -80067,7 +80210,8 @@
                 ""
             ],
             "logo": false,
-            "acid": "24",
+            "thumb": false,
+            "acid": "2",
             "name": "Cessna 182 RG Skylane"
         },
         "metroliner_267286_5772": {
@@ -80192,6 +80336,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1027",
             "name": "Budd Metroliner"
         },
@@ -80345,6 +80490,7 @@
                 "/backend/aircraft/repository/genesis_267286_5909/fleet_0.jpg"
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1027",
             "name": "GE P42DC Genesis"
         },
@@ -80386,6 +80532,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2948",
             "name": "Tupolev Tu-144D"
         },
@@ -80448,6 +80595,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "1021",
             "name": "Cessna 550 Citation II"
         },
@@ -80498,6 +80646,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "26",
             "name": "Fokker F-27 Friendship"
         },
@@ -80524,6 +80673,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "4140",
             "name": "* Boeing b747X *"
         },
@@ -80550,6 +80700,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "4140",
             "name": "* Concorde Duplex *"
         },
@@ -80576,6 +80727,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "6006",
             "name": "* Airbus a340-500neo *"
         },
@@ -80602,6 +80754,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "5998",
             "name": "* Airbus a340-600neo *"
         },
@@ -80628,6 +80781,7 @@
                 ""
             ],
             "logo": false,
+            "thumb": false,
             "acid": "2153",
             "name": "* Airbus a340-900neo *"
         }
