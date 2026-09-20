@@ -8198,6 +8198,87 @@
                         "/models/aircraft/premium/2cv/specular.jpg",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/2cv_dolly.webp"
                     ]
+                },
+                {
+                    "name": "Lavender",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/lavender.webp"
+                    ],
+                    "credits": "Weatherheliiiiiiii"
+                },
+                {
+                    "name": "Purple",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/purple.webp"
+                    ],
+                    "credits": "Weatherheliiiiiiii"
+                },
+                {
+                    "name": "Teal",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/teal.webp"
+                    ],
+                    "credits": "Weatherheliiiiiiii"
+                },
+                {
+                    "name": "Dutch Police",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/dutchpolice.webp"
+                    ],
+                    "credits": "Weatherheliiiiiiii"
+                },
+                {
+                    "name": "NYC Yellow Cab",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/nyccab.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "White",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/white.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Grey",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/grey.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Black",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv//blackspecular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/black.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Highway Patrol",
+                    "texture": [
+                        "/models/aircraft/premium/2cv/normals.jpg",
+                        "/models/aircraft/premium/2cv/specular.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/citroen_2cv/highwaypatrol.webp"
+                    ],
+                    "credits": "Weatherheliiiiiiii"
                 }
             ],
             "labels": {
@@ -18854,12 +18935,6 @@
                     ]
                 },
                 {
-                    "name": "Royal Air Jordania",
-                    "texture": [
-                        "https://raw.githubusercontent.com/Spice9/stuff2/main/Royal%20Air%20Jordania%20787-9.png"
-                    ]
-                },
-                {
                     "name": "ANA (R2-D2 livery)",
                     "texture": [
                         "https://raw.githubusercontent.com/Spice9/stuff2/main/ANA%20787-9%20'R2-D2'.png"
@@ -19986,6 +20061,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/DKH_B-226M.webp"
                     ],
                     "credits": "B-20AJ"
+                },
+                {
+                    "name": "Royal Jordanian",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b787-9/jordanian.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -45593,7 +45675,7 @@
                 },
                 {
                     "name": "Maersk Air Cargo",
-                    "credits": "Class323",
+                    "credits": "Glazed_Kimpab",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/speculars/ersf.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/maersk.webp"
@@ -46645,6 +46727,22 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/air_india_777-300er.webp"
                     ],
                     "credits": "The Maharaja & Yash Dhoundy"
+                },
+                {
+                    "name": "Flyadeal",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/flyadeal.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Flyadeal V2",
+                    "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-300er/flyadeal2.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -64728,9 +64826,9 @@
                     "credits": "CP8888"
                 },
                 {
-                    "name": "MEA",
+                    "name": "MEA Middle Eastern Airlines",
                     "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/me.webp"
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a320-232/mea.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
@@ -71365,6 +71463,15 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-9x/B777-8F.webp"
                     ],
                     "credits": "TOMAIIM"
+                },
+                {
+                    "name": "Air India",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-9x/airindia.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-9x/airindia.webp",
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b777-9x/airindia.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
@@ -74397,6 +74504,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a300-600/AIRBUS_A300-600_AeroUnion_3.webp"
                     ],
                     "credits": "Nichy"
+                },
+                {
+                    "name": "Scandinavian Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a300-600/scandinavian.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
@@ -75937,6 +76051,14 @@
                     ],
                     "alias": "0",
                     "credits": "Samu12pp"
+                },
+                {
+                    "name": "Omega Aerial Refueling Services",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/douglas_dc10/omega.webp"
+                    ],
+                    "alias": "0",
+                    "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
@@ -76154,6 +76276,20 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/Pratt__Whitney_Canada_Blue_720B.webp"
                     ],
                     "credits": "Luca B"
+                },
+                {
+                    "name": "Cyprus Airways V2",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/cyprus2.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Maersk Air",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/boeing_b720/maersk.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -76434,6 +76570,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-500/tam.webp"
                     ],
                     "credits": "limoniiiiii"
+                },
+                {
+                    "name": "Airbus house livery",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-500/airbushouse.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -76688,14 +76831,14 @@
                     "credits": "skaviator"
                 },
                 {
-                    "name": "Swissair",
+                    "name": "Swissair (Grey belly)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/swissair.webp"
                     ],
                     "credits": "horsingsoomuch"
                 },
                 {
-                    "name": "Airbus house livery",
+                    "name": "Airbus house livery (old design)",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/airbushouse.webp"
                     ],
@@ -76728,6 +76871,20 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/thainew.webp"
                     ],
                     "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Swissair (Blue belly)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/swissairblue.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Airbus house livery (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a340-600/airbushousenew.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
@@ -76838,6 +76995,13 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ilyushin_il96-400/Aeroflot_Cargo_IL-96-400T.webp"
                     ],
                     "credits": "Luca B"
+                },
+                {
+                    "name": "Sky Gates Airlines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/ilyushin_il96-400/skygates.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
                 }
             ],
             "labels": {
@@ -81196,6 +81360,41 @@
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/F-27_ANA.webp"
                     ],
                     "credits": "kopinokami222"
+                },
+                {
+                    "name": "Korean Air Lines",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/korean.webp"
+                    ],
+                    "credits": "Glazed_Kimpab"
+                },
+                {
+                    "name": "Ansett Australia (old design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/ansettold.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "ProCharter Cargo",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/procharter.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Ansett Australia (new design)",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/ansettnew.webp"
+                    ],
+                    "credits": "horsingsoomuch"
+                },
+                {
+                    "name": "Air UK",
+                    "texture": [
+                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/fokker_f-27/airuk.webp"
+                    ],
+                    "credits": "horsingsoomuch"
                 }
             ],
             "labels": {
