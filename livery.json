@@ -82627,62 +82627,6 @@
             "acid": "6131",
             "name": "Boeing b737-400"
         },
-        "Airbus A330-300_781290_6012": {
-            "index": [
-                0,
-                1,
-                2,
-                3,
-                5
-            ],
-            "parts": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "mp": [
-                {
-                    "modelIndex": 0,
-                    "textureIndex": 0
-                }
-            ],
-            "liveries": [
-                {
-                    "name": "Cathay Pacific",
-                    "texture": [
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp"
-                    ],
-                    "credits": "random_person_in_the_world"
-                }
-            ]
-            ,
-            "labels": {
-                "Texture": [
-                    0,
-                    1,
-                    2,
-                    3,
-                    4
-                ]
-            },
-            "defshader": [
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "logo": true,
-            "thumb": false,
-            "acid": "6012",
-            "name": "Airbus a330-300"
-        },
         "WK2 testbed_267286_2783": {
             "index": [
                 0
