@@ -82623,15 +82623,9 @@
         "Airbus A330-300_781290_6012": {
             "index": [
                 0,
-                1,
-                2,
-                3,
-                5
+                4
             ],
             "parts": [
-                0,
-                0,
-                0,
                 0,
                 0
             ],
@@ -82646,9 +82640,6 @@
                     "name": "Cathay Pacific",
                     "texture": [
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
-                        "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp",
                         "https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main/liveries/airbus_a330-300/cathay.webp"
                     ],
                     "credits": "random_person_in_the_world"
@@ -82658,16 +82649,10 @@
             "labels": {
                 "Texture": [
                     0,
-                    1,
-                    2,
-                    3,
-                    4
+                    1
                 ]
             },
             "defshader": [
-                "",
-                "",
-                "",
                 "",
                 ""
             ],
