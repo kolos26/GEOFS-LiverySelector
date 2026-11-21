@@ -205,16 +205,57 @@ scheduleMultiplayerUpdate();
  * @param {number[]} parts
  * @param {Object[]} mats
  */
-function loadLivery(texture, index, parts, mats) {
+let activeLiveryState = null;
+let cameraHookInstalled = false;
+
+function ensureCameraHook() {
+    if (cameraHookInstalled || !window.geofs?.camera?.set) return;
+    cameraHookInstalled = true;
+    const origSet = geofs.camera.set.bind(geofs.camera);
+    geofs.camera.set = function (...args) {
+        const res = origSet(...args);
+        if (activeLiveryState && getACPath() === activeLiveryState.acPath) {
+            setTimeout(() => {
+                if (activeLiveryState && getACPath() === activeLiveryState.acPath) {
+                    loadLivery(
+                        activeLiveryState.texture,
+                        activeLiveryState.index,
+                        activeLiveryState.parts,
+                        activeLiveryState.mats,
+                        true
+                    );
+                }
+            }, 80);
+        }
+        return res;
+    };
+}
+
+function loadLivery(texture, index, parts, mats, isReapply = false) {
+    if (!isReapply && typeof getACPath === 'function') {
+        activeLiveryState = { acPath: getACPath(), texture, index, parts, mats };
+        ensureCameraHook();
+    }
+    const defParts = geofs.aircraft?.instance?.definition?.parts;
+    if (!defParts) {
+        geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
+        return;
+    }
+    let appliedCount = 0;
+    let lastError = null;
     //change livery
     for (let i = 0; i < texture.length; i++) {
-        const model3d = geofs.aircraft.instance.definition.parts[parts[i]]['3dmodel'];
+        const part = defParts[parts[i]];
+        const model3d = part?.['3dmodel'];
+        const modelObj = model3d?._model ?? model3d;
+        if (!model3d) continue;
         // check for material definition (for untextured parts)
         if (typeof texture[i] === 'object') {
-            if (texture[i].material !== undefined) {
+            if (texture[i].material !== undefined && mats) {
                 const mat = mats[texture[i].material];
-                model3d._model.getMaterial(mat.name)
-                    .setValue(Object.keys(mat)[1], new Cesium.Cartesian4(...mat[Object.keys(mat)[1]], 1.0));
+                modelObj?.getMaterial?.(mat.name)
+                    ?.setValue(Object.keys(mat)[1], new Cesium.Cartesian4(...mat[Object.keys(mat)[1]], 1.0));
+                appliedCount++;
             }
             continue;
         }
@@ -222,15 +263,18 @@ function loadLivery(texture, index, parts, mats) {
             if (geofs.version == 2.9) {
                 geofs.api.Model.prototype.changeTexture(texture[i], index[i], model3d);
             } else if (geofs.version >= 3.0 && geofs.version <= 3.7) {
-                geofs.api.changeModelTexture(model3d._model, texture[i], index[i]);
+                geofs.api.changeModelTexture(modelObj, texture[i], index[i]);
             } else {
-                geofs.api.changeModelTexture(model3d._model, texture[i], { index: index[i] });
+                geofs.api.changeModelTexture(modelObj, texture[i], { index: index[i] });
             }
+            appliedCount++;
         } catch (error) {
-            geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
+            lastError = error;
             console.log(error);
-            (error, "error");
         }
+    }
+    if (appliedCount === 0 && lastError) {
+        geofs.api.notify("Hmmm... we can't find this livery, check the console for more info.");
     }
 }
 
